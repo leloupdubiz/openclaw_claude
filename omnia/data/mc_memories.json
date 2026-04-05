@@ -1,0 +1,29 @@
+[
+  {
+    "id": "_mc_mem01",
+    "title": "EVOLVE Core Insight",
+    "content": "The EVOLVE framework sequences 5 phases: Emotion, Value, Logic, Objection, Validation, Exit. Each phase maps to specific ad creative patterns. Desire-First is the governing principle — lead with emotional resonance before logical arguments.",
+    "tags": ["evolve", "framework", "strategy"],
+    "category": "framework",
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_mem02",
+    "title": "3-2-2 Method Decision",
+    "content": "Adopted the 3-2-2 testing method: 3 hooks, 2 bodies, 2 CTAs per creative concept. This gives 12 variants per concept while keeping production manageable. Winner criteria: 3s retention > 45%, CTR > 1.5%, ROAS > 2x after 72h.",
+    "tags": ["testing", "method", "creative"],
+    "category": "decision",
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_mem03",
+    "title": "Mission Control Setup",
+    "content": "Mission Control is the central command hub for coordinating all AI agents, content pipelines, and strategic decisions. It serves as the single source of truth for the team's operational state and historical context.",
+    "tags": ["mission-control", "setup", "operations"],
+    "category": "system",
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  }
+]

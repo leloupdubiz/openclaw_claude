@@ -1,0 +1,31 @@
+[
+  {
+    "id": "_mc_evt01",
+    "title": "Daily Content Review",
+    "type": "recurring",
+    "schedule": "daily",
+    "time": "09:00",
+    "description": "Review content pipeline status, approve drafts, and assign new tasks to agents.",
+    "createdAt": 1712000000000
+  },
+  {
+    "id": "_mc_evt02",
+    "title": "Weekly Performance Analysis",
+    "type": "recurring",
+    "schedule": "weekly",
+    "day": "monday",
+    "time": "10:00",
+    "description": "Analyze ad performance, ROAS trends, and identify top/bottom performers for the week.",
+    "createdAt": 1712000000000
+  },
+  {
+    "id": "_mc_evt03",
+    "title": "Team Sync",
+    "type": "recurring",
+    "schedule": "weekly",
+    "day": "wednesday",
+    "time": "14:00",
+    "description": "Sync all agents on priorities, blockers, and upcoming launches.",
+    "createdAt": 1712000000000
+  }
+]

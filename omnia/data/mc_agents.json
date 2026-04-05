@@ -1,0 +1,68 @@
+[
+  {
+    "id": "_mc_agent01",
+    "name": "Creative Strategist",
+    "role": "creative-strategist",
+    "emoji": "🎨",
+    "description": "Develops creative angles, ad concepts, and campaign strategies based on EVOLVE frameworks.",
+    "status": "idle",
+    "currentTask": null,
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_agent02",
+    "name": "Media Buyer",
+    "role": "media-buyer",
+    "emoji": "📊",
+    "description": "Manages ad spend allocation, bidding strategies, and campaign optimization across platforms.",
+    "status": "idle",
+    "currentTask": null,
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_agent03",
+    "name": "Data Analyst",
+    "role": "data-analyst",
+    "emoji": "📈",
+    "description": "Analyzes performance metrics, identifies trends, and provides data-driven recommendations.",
+    "status": "idle",
+    "currentTask": null,
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_agent04",
+    "name": "Market Research",
+    "role": "market-research",
+    "emoji": "🔍",
+    "description": "Conducts competitor analysis, audience research, and market trend identification.",
+    "status": "idle",
+    "currentTask": null,
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_agent05",
+    "name": "Video & Script",
+    "role": "video-script",
+    "emoji": "🎬",
+    "description": "Writes hooks, scripts, and shot lists for UGC and ad creatives following proven frameworks.",
+    "status": "idle",
+    "currentTask": null,
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_agent06",
+    "name": "CRO & Funnel",
+    "role": "cro-funnel",
+    "emoji": "🔧",
+    "description": "Optimizes landing pages, checkout flows, and conversion funnels for maximum AOV and CVR.",
+    "status": "idle",
+    "currentTask": null,
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  }
+]

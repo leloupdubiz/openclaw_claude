@@ -88,6 +88,10 @@ function saveMissionResults() {
 const CHARACTERS_FILE = path.join(DATA_DIR, 'characters.json');
 const VIDEOS_FILE     = path.join(DATA_DIR, 'videos.json');
 const SETTINGS_FILE   = path.join(DATA_DIR, 'settings.json');
+const MC_AGENTS_FILE   = path.join(DATA_DIR, 'mc_agents.json');
+const MC_CONTENT_FILE  = path.join(DATA_DIR, 'mc_content.json');
+const MC_EVENTS_FILE   = path.join(DATA_DIR, 'mc_events.json');
+const MC_MEMORIES_FILE = path.join(DATA_DIR, 'mc_memories.json');
 
 // ─── WEB SESSION TOKENS (contournement crédits API) ──────────
 // Chargés dynamiquement à chaque requête (Chef peut les mettre à jour sans restart)
@@ -232,7 +236,7 @@ async function heygenRequest(endpoint, method = 'GET', body = null) {
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', service: 'OMNIA Creative OS', port: PORT });
+  res.json({ status: 'ok', service: 'ECOM SLAVE', port: PORT });
 });
 
 // ─── DEBUG: test token + modèles disponibles ───────────────
@@ -4713,7 +4717,75 @@ app.get('/api/agents/results', (req, res) => {
   res.json(missionResults);
 });
 
-// ─── PIPELINE RESEARCH→CRÉATION→EXPORT 1 CLIC ────────────────
+// ─── MISSION CONTROL APIs ───────────────────────────────────────────────────
+
+// Agents
+app.get('/api/mc/agents', (req, res) => res.json(loadJSON(MC_AGENTS_FILE, [])));
+app.post('/api/mc/agents', (req, res) => {
+  const list = loadJSON(MC_AGENTS_FILE, []);
+  const item = { id: '_' + Math.random().toString(36).substr(2,9), ...req.body, createdAt: Date.now(), updatedAt: Date.now() };
+  list.push(item); saveJSON(MC_AGENTS_FILE, list); res.json(item);
+});
+app.post('/api/mc/agents/:id', (req, res) => {
+  const list = loadJSON(MC_AGENTS_FILE, []);
+  const idx = list.findIndex(a => a.id === req.params.id);
+  if (idx === -1) return res.status(404).json({ error: 'Not found' });
+  list[idx] = { ...list[idx], ...req.body, updatedAt: Date.now() };
+  saveJSON(MC_AGENTS_FILE, list); res.json(list[idx]);
+});
+app.delete('/api/mc/agents/:id', (req, res) => {
+  let list = loadJSON(MC_AGENTS_FILE, []);
+  list = list.filter(a => a.id !== req.params.id);
+  saveJSON(MC_AGENTS_FILE, list); res.json({ ok: true });
+});
+
+// Content Pipeline
+app.get('/api/mc/content', (req, res) => res.json(loadJSON(MC_CONTENT_FILE, [])));
+app.post('/api/mc/content', (req, res) => {
+  const list = loadJSON(MC_CONTENT_FILE, []);
+  const item = { id: '_' + Math.random().toString(36).substr(2,9), ...req.body, createdAt: Date.now(), updatedAt: Date.now() };
+  list.push(item); saveJSON(MC_CONTENT_FILE, list); res.json(item);
+});
+app.post('/api/mc/content/:id', (req, res) => {
+  const list = loadJSON(MC_CONTENT_FILE, []);
+  const idx = list.findIndex(a => a.id === req.params.id);
+  if (idx === -1) return res.status(404).json({ error: 'Not found' });
+  list[idx] = { ...list[idx], ...req.body, updatedAt: Date.now() };
+  saveJSON(MC_CONTENT_FILE, list); res.json(list[idx]);
+});
+app.delete('/api/mc/content/:id', (req, res) => {
+  let list = loadJSON(MC_CONTENT_FILE, []);
+  list = list.filter(a => a.id !== req.params.id);
+  saveJSON(MC_CONTENT_FILE, list); res.json({ ok: true });
+});
+
+// Events
+app.get('/api/mc/events', (req, res) => res.json(loadJSON(MC_EVENTS_FILE, [])));
+app.post('/api/mc/events', (req, res) => {
+  const list = loadJSON(MC_EVENTS_FILE, []);
+  const item = { id: '_' + Math.random().toString(36).substr(2,9), ...req.body, createdAt: Date.now() };
+  list.push(item); saveJSON(MC_EVENTS_FILE, list); res.json(item);
+});
+app.delete('/api/mc/events/:id', (req, res) => {
+  let list = loadJSON(MC_EVENTS_FILE, []);
+  list = list.filter(a => a.id !== req.params.id);
+  saveJSON(MC_EVENTS_FILE, list); res.json({ ok: true });
+});
+
+// Memories
+app.get('/api/mc/memories', (req, res) => {
+  let list = loadJSON(MC_MEMORIES_FILE, []);
+  const q = (req.query.q || '').toLowerCase();
+  if (q) list = list.filter(m => (m.title+' '+m.content+' '+(m.tags||[]).join(' ')).toLowerCase().includes(q));
+  res.json(list);
+});
+app.post('/api/mc/memories', (req, res) => {
+  const list = loadJSON(MC_MEMORIES_FILE, []);
+  const item = { id: '_' + Math.random().toString(36).substr(2,9), ...req.body, createdAt: Date.now(), updatedAt: Date.now() };
+  list.push(item); saveJSON(MC_MEMORIES_FILE, list); res.json(item);
+});
+
+// ─── PIPELINE RESEARCH→CREATION→EXPORT 1 CLIC ────────────────
 // O4 KR2 — endpoint chaîné : research-doc-generator → hook-writer → script-writer → export CSV
 app.post('/api/pipeline/full', async (req, res) => {
   const { verbatims = '', angle = 'Das 3-Uhr-Signal', avatar = 'SA-01', hooks_count = 5 } = req.body;
@@ -6352,7 +6424,7 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`\n⚡ OMNIA Creative OS — http://localhost:${PORT}`);
+  console.log(`\n⚡ ECOM SLAVE — http://localhost:${PORT}`);
   console.log(`   KIE.AI: ${KIE_API_KEY.slice(0, 8)}...`);
   console.log(`   Data: ${DATA_DIR}`);
   // Démarrer l'Automation Engine

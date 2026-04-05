@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OMNIA — Creative OS</title>
+<title>ECOM SLAVE</title>
 <style>
 :root {
   --bg: #09090f;
@@ -960,35 +960,45 @@ select option { background: var(--surface2); }
 
 <!-- ─── SIDEBAR ─── -->
 <nav class="sidebar">
-  <div class="logo"><span class="logo-accent">⚡</span> OMNIA <span>Creative OS</span></div>
+  <div class="logo" style="display:flex;align-items:center;gap:10px;padding:18px 16px 20px">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="28" height="28" rx="6" fill="var(--accent)"/>
+      <path d="M7 8h14M7 14h10M7 20h14" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="21" cy="14" r="3" fill="#fff" opacity="0.9"/>
+    </svg>
+    <div style="font-size:15px;font-weight:800;letter-spacing:1.5px;color:var(--text)">ECOM<span style="color:var(--accent);margin-left:4px">SLAVE</span></div>
+  </div>
 
-  <div class="nav-group"><span class="nav-group-label">Core</span></div>
   <button class="nav-item active" onclick="showPage('commandcenter')">
     <span class="nav-icon">🎯</span> Command Center
   </button>
-  <button class="nav-item" onclick="showPage('evolve-universal')">
-    <span class="nav-icon">🧬</span> EVOLVE
-  </button>
-  <button class="nav-item" onclick="showPage('multiscene'); setTimeout(()=>showStudioTab('ugc'),80)" style="padding-left:24px">
-    <span class="nav-icon">🎬</span> Studio Clip
-  </button>
-
   <div class="nav-divider"></div>
-  <div class="nav-group"><span class="nav-group-label">Intelligence</span></div>
-  <button class="nav-item" onclick="showPage('adspy')">
-    <span class="nav-icon">🔭</span> ADSPY PRO
-  </button>
   <button class="nav-item" onclick="showPage('knowledge-base')">
-    <span class="nav-icon">📖</span> Bibliothèque
+    <span class="nav-icon">📖</span> iKnowledge
+  </button>
+  <button class="nav-item" onclick="showPage('adspy')">
+    <span class="nav-icon">🔭</span> iSpy
+  </button>
+  <button class="nav-item" onclick="showPage('evolve-universal')">
+    <span class="nav-icon">🧬</span> iStrat
+  </button>
+  <button class="nav-item" onclick="showPage('multiscene'); setTimeout(()=>showStudioTab('ugc'),80)">
+    <span class="nav-icon">🎬</span> iEditor
+  </button>
+  <button class="nav-item" onclick="showPage('page-builder')">
+    <span class="nav-icon">🏗️</span> iBuilder
+  </button>
+  <button class="nav-item" onclick="showPage('email-flows')">
+    <span class="nav-icon">📧</span> iMail
+  </button>
+  <button class="nav-item" onclick="showPage('ab-testing')">
+    <span class="nav-icon">🧪</span> iTest
+  </button>
+  <button class="nav-item" onclick="showPage('creative-analytics')">
+    <span class="nav-icon">📊</span> iLearnings
   </button>
   <button class="nav-item" onclick="showPage('compta')">
-    <span class="nav-icon">📈</span> Compta
-  </button>
-
-  <div class="nav-divider"></div>
-  <div class="nav-group"><span class="nav-group-label">Système</span></div>
-  <button class="nav-item" onclick="showPage('settings')">
-    <span class="nav-icon">⚙️</span> Settings
+    <span class="nav-icon">📈</span> iNumbers
   </button>
 
   <div class="credits-badge">
@@ -1023,6 +1033,10 @@ select option { background: var(--surface2); }
       </div>
     </div>
   </div>
+
+  <button class="nav-item" onclick="showPage('settings')" style="margin-top:4px">
+    <span class="nav-icon">⚙️</span> Settings
+  </button>
 </nav>
 
 <!-- ─── MAIN CONTENT ─── -->
@@ -1031,7 +1045,7 @@ select option { background: var(--surface2); }
 <!-- ═══ DASHBOARD ═══ -->
 <div class="page" id="page-dashboard">
   <div class="page-header">
-    <div class="page-title">⚡ OMNIA Creative OS</div>
+    <div class="page-title">⚡ ECOM SLAVE</div>
     <div class="page-sub">drinknellio.com — Pipeline UGC IA automatisé</div>
   </div>
 
@@ -1745,7 +1759,421 @@ X-Api-Key: {API_KEY}
 
   <!-- ── MISSION CONTROL ── -->
   <div class="cc-section" id="cc-missioncontrol">
-    <iframe src="http://localhost:3000" style="width:100%;height:82vh;border:none;border-radius:12px;display:block" title="Mission Control"></iframe>
+<style>
+.mc-wrap{background:var(--surface);border-radius:var(--radius-lg);border:1px solid var(--border);overflow:hidden}
+.mc-tabs{display:flex;gap:0;background:var(--bg);border-bottom:1px solid var(--border);padding:4px 8px;flex-wrap:wrap;align-items:center}
+.mc-tab-group{display:flex;gap:2px;align-items:center;padding:0 4px}
+.mc-tab-group::before{content:attr(data-label);font-size:9px;color:var(--text3);text-transform:uppercase;letter-spacing:.8px;margin-right:4px}
+.mc-tab{padding:5px 10px;font-size:11px;color:var(--text2);background:none;border:none;border-radius:6px;cursor:pointer;white-space:nowrap;transition:all .15s}
+.mc-tab:hover{color:var(--text);background:var(--surface2)}
+.mc-tab.active{color:var(--text);background:var(--accent);font-weight:600}
+.mc-panel{display:none;padding:16px;min-height:60vh;max-height:78vh;overflow-y:auto}
+.mc-panel.active{display:block}
+.mc-panel::-webkit-scrollbar{width:4px}
+.mc-panel::-webkit-scrollbar-thumb{background:var(--border2);border-radius:4px}
+.mc-grid{display:grid;gap:12px}
+.mc-grid-4{grid-template-columns:repeat(4,1fr)}
+.mc-grid-3{grid-template-columns:repeat(3,1fr)}
+.mc-grid-2{grid-template-columns:repeat(2,1fr)}
+.mc-card{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:14px}
+.mc-card h4{font-size:13px;margin-bottom:6px;color:var(--text)}
+.mc-card p,.mc-card .mc-sub{font-size:11px;color:var(--text2)}
+.mc-card .mc-big{font-size:22px;font-weight:700;color:var(--text)}
+.mc-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600}
+.mc-badge-ok{background:rgba(52,211,153,.15);color:var(--success)}
+.mc-badge-warn{background:rgba(245,158,11,.15);color:var(--warning)}
+.mc-badge-err{background:rgba(248,113,113,.15);color:var(--error)}
+.mc-badge-info{background:var(--accent-glow);color:var(--accent)}
+.mc-stepper{display:flex;gap:0;margin-top:12px}
+.mc-step{flex:1;text-align:center;padding:10px 4px;font-size:11px;border-bottom:3px solid var(--border);color:var(--text2);position:relative}
+.mc-step.done{border-color:var(--success);color:var(--success)}
+.mc-step.current{border-color:var(--accent);color:var(--accent)}
+.mc-tbl{width:100%;border-collapse:collapse;font-size:12px}
+.mc-tbl th{text-align:left;padding:8px 10px;color:var(--text2);font-weight:600;border-bottom:1px solid var(--border);font-size:11px}
+.mc-tbl td{padding:7px 10px;border-bottom:1px solid var(--border)}
+.mc-kanban{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.mc-kanban-col{background:var(--bg);border-radius:var(--radius);padding:10px;min-height:200px}
+.mc-kanban-col h5{font-size:11px;text-transform:uppercase;color:var(--text2);letter-spacing:.5px;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.mc-kanban-card{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:8px 10px;margin-bottom:6px;font-size:11px;cursor:pointer}
+.mc-kanban-card:hover{border-color:var(--accent)}
+.mc-pipeline{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.mc-pipe-col{background:var(--bg);border-radius:var(--radius);padding:10px;min-height:180px}
+.mc-pipe-col h5{font-size:10px;text-transform:uppercase;color:var(--text2);letter-spacing:.5px;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.mc-pipe-card{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:6px 8px;margin-bottom:6px;font-size:10px;cursor:pointer}
+.mc-pipe-card:hover{border-color:var(--accent2)}
+.mc-cal{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;font-size:11px}
+.mc-cal-hdr{text-align:center;font-size:10px;color:var(--text3);padding:4px;font-weight:600}
+.mc-cal-day{text-align:center;padding:6px 2px;border-radius:4px;min-height:36px;position:relative;color:var(--text2)}
+.mc-cal-day.today{background:var(--accent-glow);color:var(--accent);font-weight:700}
+.mc-cal-day .mc-dot{width:4px;height:4px;border-radius:50%;background:var(--accent2);display:inline-block;position:absolute;bottom:3px;left:50%;transform:translateX(-50%)}
+.mc-search{width:100%;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);color:var(--text);font-size:12px;margin-bottom:12px}
+.mc-search:focus{outline:none;border-color:var(--accent)}
+.mc-btn{padding:6px 14px;border:none;border-radius:6px;background:var(--accent);color:#fff;font-size:11px;font-weight:600;cursor:pointer}
+.mc-btn:hover{opacity:.85}
+.mc-btn-sm{padding:4px 10px;font-size:10px}
+.mc-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.mc-agent-card{display:flex;align-items:center;gap:10px;padding:12px;cursor:pointer}
+.mc-agent-card .mc-emoji{font-size:24px}
+.mc-agent-card .mc-name{font-weight:600;font-size:12px}
+.mc-agent-card .mc-role{font-size:10px;color:var(--text2)}
+.mc-chat-section{margin-bottom:16px}
+.mc-chat-section h5{font-size:12px;color:var(--accent);margin-bottom:6px}
+.mc-chat-area{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:8px;color:var(--text);font-size:12px;resize:vertical;min-height:60px;font-family:inherit}
+.mc-chat-area:focus{outline:none;border-color:var(--accent)}
+.mc-topbar{display:flex;justify-content:space-between;align-items:center;padding:0 8px 0 0}
+@media(max-width:900px){.mc-grid-4{grid-template-columns:repeat(2,1fr)}.mc-kanban,.mc-pipeline{grid-template-columns:repeat(2,1fr)}.mc-cal{font-size:10px}}
+</style>
+
+<div class="mc-wrap">
+<!-- ── TAB BAR ── -->
+<div class="mc-tabs">
+  <div class="mc-tab-group" data-label="Chef">
+    <button class="mc-tab active" data-mc="dashboard" onclick="mcShowTab('dashboard')">Dashboard</button>
+    <button class="mc-tab" data-mc="projets" onclick="mcShowTab('projets')">Projets</button>
+    <button class="mc-tab" data-mc="interfaces" onclick="mcShowTab('interfaces')">Interfaces</button>
+    <button class="mc-tab" data-mc="automations" onclick="mcShowTab('automations')">Automations</button>
+  </div>
+  <div class="mc-tab-group" data-label="EVOLVE">
+    <button class="mc-tab" data-mc="evolve-chat" onclick="mcShowTab('evolve-chat')">Chat</button>
+    <button class="mc-tab" data-mc="taskboard" onclick="mcShowTab('taskboard')">TaskBoard</button>
+    <button class="mc-tab" data-mc="library" onclick="mcShowTab('library')">Library</button>
+  </div>
+  <div class="mc-tab-group" data-label="Ops">
+    <button class="mc-tab" data-mc="team" onclick="mcShowTab('team')">Team</button>
+    <button class="mc-tab" data-mc="memory" onclick="mcShowTab('memory')">Memory</button>
+    <button class="mc-tab" data-mc="pipeline" onclick="mcShowTab('pipeline')">Pipeline</button>
+    <button class="mc-tab" data-mc="calendar" onclick="mcShowTab('calendar')">Calendar</button>
+    <button class="mc-tab" data-mc="office" onclick="mcShowTab('office')">Office</button>
+  </div>
+</div>
+
+<!-- ══ PANEL: DASHBOARD ══ -->
+<div class="mc-panel active" id="mc-dashboard">
+  <div class="mc-grid mc-grid-4" style="margin-bottom:16px">
+    <div class="mc-card"><h4>EVOLVE Phase</h4><p>Research ✅ Strategy ✅ Creation ✅ Execution ⏳</p></div>
+    <div class="mc-card"><h4>Projets</h4><div class="mc-big">16</div><p class="mc-sub">actifs</p></div>
+    <div class="mc-card"><h4>Blockers</h4><div class="mc-big" style="color:var(--warning)">3</div><p class="mc-sub">UGC videos</p></div>
+    <div class="mc-card"><h4>Team</h4><div class="mc-big" style="color:var(--accent)">6</div><p class="mc-sub">agents</p></div>
+  </div>
+  <h4 style="font-size:12px;color:var(--text2);margin-bottom:4px">EVOLVE Progress</h4>
+  <div class="mc-stepper">
+    <div class="mc-step done">✅ Research</div>
+    <div class="mc-step done">✅ Strategy</div>
+    <div class="mc-step done">✅ Creation</div>
+    <div class="mc-step current">⏳ Execution</div>
+    <div class="mc-step">Optimisation</div>
+  </div>
+</div>
+
+<!-- ══ PANEL: PROJETS ══ -->
+<div class="mc-panel" id="mc-projets">
+  <table class="mc-tbl">
+    <thead><tr><th>Projet</th><th>Status</th><th>Progress</th></tr></thead>
+    <tbody>
+      <tr><td>EVOLVE Ads</td><td>🚀</td><td><div style="background:var(--border);border-radius:4px;height:6px;width:100%"><div style="width:90%;height:100%;background:var(--accent);border-radius:4px"></div></div></td></tr>
+      <tr><td>Nellio Studio</td><td>✅</td><td><div style="background:var(--border);border-radius:4px;height:6px;width:100%"><div style="width:100%;height:100%;background:var(--success);border-radius:4px"></div></div></td></tr>
+      <tr><td>OMNIA</td><td>🔧</td><td><div style="background:var(--border);border-radius:4px;height:6px;width:100%"><div style="width:75%;height:100%;background:var(--accent);border-radius:4px"></div></div></td></tr>
+      <tr><td>EcomTalent</td><td>⏸️</td><td><div style="background:var(--border);border-radius:4px;height:6px;width:100%"><div style="width:40%;height:100%;background:var(--warning);border-radius:4px"></div></div></td></tr>
+      <tr><td>CRO</td><td>✅</td><td><div style="background:var(--border);border-radius:4px;height:6px;width:100%"><div style="width:100%;height:100%;background:var(--success);border-radius:4px"></div></div></td></tr>
+      <tr><td>Library</td><td>✅</td><td><div style="background:var(--border);border-radius:4px;height:6px;width:100%"><div style="width:100%;height:100%;background:var(--success);border-radius:4px"></div></div></td></tr>
+      <tr><td>SAAS</td><td>📝</td><td><div style="background:var(--border);border-radius:4px;height:6px;width:100%"><div style="width:15%;height:100%;background:var(--text3);border-radius:4px"></div></div></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ══ PANEL: INTERFACES ══ -->
+<div class="mc-panel" id="mc-interfaces">
+  <div class="mc-grid mc-grid-4">
+    <div class="mc-card" style="text-align:center"><h4>OMNIA</h4><p>:3002</p><span class="mc-badge mc-badge-ok">✅ Online</span></div>
+    <div class="mc-card" style="text-align:center"><h4>Bibliothèque</h4><p>:4242</p><span class="mc-badge mc-badge-ok">✅ Online</span></div>
+    <div class="mc-card" style="text-align:center"><h4>AdSpy</h4><p>:3004</p><span class="mc-badge mc-badge-ok">✅ Online</span></div>
+    <div class="mc-card" style="text-align:center"><h4>Mission Control</h4><p>Intégré</p><span class="mc-badge mc-badge-ok">✅ Intégré</span></div>
+  </div>
+</div>
+
+<!-- ══ PANEL: AUTOMATIONS ══ -->
+<div class="mc-panel" id="mc-automations">
+  <table class="mc-tbl">
+    <thead><tr><th>Tâche</th><th>Fréquence</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>daily-retrospective</td><td>Tous les jours — 8h</td><td><span class="mc-badge mc-badge-ok">actif</span></td></tr>
+      <tr><td>playlist-daily-check</td><td>Tous les jours — 9h</td><td><span class="mc-badge mc-badge-ok">actif</span></td></tr>
+      <tr><td>disk-watchdog</td><td>Toutes les 30min</td><td><span class="mc-badge mc-badge-ok">actif</span></td></tr>
+      <tr><td>cro-summaries</td><td>Tous les jours — 20h</td><td><span class="mc-badge mc-badge-ok">actif</span></td></tr>
+      <tr><td>evolve-weekly-enrich</td><td>Lundi — 6h</td><td><span class="mc-badge mc-badge-ok">actif</span></td></tr>
+      <tr><td>autonomous-executor</td><td>Toutes les 4h</td><td><span class="mc-badge mc-badge-ok">actif</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ══ PANEL: EVOLVE CHAT ══ -->
+<div class="mc-panel" id="mc-evolve-chat">
+  <div class="mc-chat-section"><h5>🔬 Recherche</h5><textarea class="mc-chat-area" rows="3" placeholder="Question de recherche..."></textarea><button class="mc-btn mc-btn-sm" style="margin-top:4px">Envoyer</button></div>
+  <div class="mc-chat-section"><h5>🎯 Stratégie</h5><textarea class="mc-chat-area" rows="3" placeholder="Brief stratégique..."></textarea><button class="mc-btn mc-btn-sm" style="margin-top:4px">Envoyer</button></div>
+  <div class="mc-chat-section"><h5>🎨 Création</h5><textarea class="mc-chat-area" rows="3" placeholder="Demande créative..."></textarea><button class="mc-btn mc-btn-sm" style="margin-top:4px">Envoyer</button></div>
+  <div class="mc-chat-section"><h5>🚀 Exécution</h5><textarea class="mc-chat-area" rows="3" placeholder="Instruction d'exécution..."></textarea><button class="mc-btn mc-btn-sm" style="margin-top:4px">Envoyer</button></div>
+  <div class="mc-chat-section"><h5>📈 Optimisation</h5><textarea class="mc-chat-area" rows="3" placeholder="Axe d'optimisation..."></textarea><button class="mc-btn mc-btn-sm" style="margin-top:4px">Envoyer</button></div>
+</div>
+
+<!-- ══ PANEL: TASKBOARD ══ -->
+<div class="mc-panel" id="mc-taskboard">
+  <div class="mc-kanban">
+    <div class="mc-kanban-col"><h5>A faire</h5>
+      <div class="mc-kanban-card">Setup Meta Ads campaign</div>
+      <div class="mc-kanban-card">Brief UGC creators</div>
+      <div class="mc-kanban-card">Write email sequence</div>
+    </div>
+    <div class="mc-kanban-col"><h5>En cours</h5>
+      <div class="mc-kanban-card" style="border-left:2px solid var(--accent)">EVOLVE Phase 4 execution</div>
+      <div class="mc-kanban-card" style="border-left:2px solid var(--accent)">OMNIA Mission Control</div>
+    </div>
+    <div class="mc-kanban-col"><h5>Review</h5>
+      <div class="mc-kanban-card" style="border-left:2px solid var(--warning)">Landing page CRO audit</div>
+    </div>
+    <div class="mc-kanban-col"><h5>Terminé</h5>
+      <div class="mc-kanban-card" style="opacity:.6">Bibliothèque integration</div>
+      <div class="mc-kanban-card" style="opacity:.6">AdSpy scraper v2</div>
+      <div class="mc-kanban-card" style="opacity:.6">Nellio product page</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ PANEL: LIBRARY ══ -->
+<div class="mc-panel" id="mc-library">
+  <div class="mc-grid mc-grid-3">
+    <div class="mc-card"><h4>📚 Marketing & Growth</h4><p class="mc-sub">Frameworks, funnels, copy</p></div>
+    <div class="mc-card"><h4>🧠 Psychologie</h4><p class="mc-sub">Biais cognitifs, persuasion</p></div>
+    <div class="mc-card"><h4>🎬 Vidéo & Créa</h4><p class="mc-sub">UGC, hooks, editing</p></div>
+    <div class="mc-card"><h4>💰 E-commerce</h4><p class="mc-sub">DTC, Shopify, supply chain</p></div>
+    <div class="mc-card"><h4>📊 Data & Analytics</h4><p class="mc-sub">KPIs, attribution, dashboards</p></div>
+    <div class="mc-card"><h4>⚙️ Tech & Automation</h4><p class="mc-sub">APIs, n8n, scripts</p></div>
+  </div>
+</div>
+
+<!-- ══ PANEL: TEAM (dynamic) ══ -->
+<div class="mc-panel" id="mc-team">
+  <div class="mc-hdr"><h4 style="font-size:13px">Agents</h4><button class="mc-btn mc-btn-sm" onclick="mcCreate('agent')">+ Agent</button></div>
+  <div class="mc-grid mc-grid-3" id="mc-team-list"><p class="mc-sub" style="padding:20px">Chargement...</p></div>
+</div>
+
+<!-- ══ PANEL: MEMORY (dynamic) ══ -->
+<div class="mc-panel" id="mc-memory">
+  <div class="mc-hdr"><h4 style="font-size:13px">Mémoire</h4><button class="mc-btn mc-btn-sm" onclick="mcCreate('memory')">+ Memory</button></div>
+  <input class="mc-search" id="mc-memory-search" placeholder="Rechercher..." oninput="mcSearchMemory()">
+  <div id="mc-memory-list"><p class="mc-sub" style="padding:20px">Chargement...</p></div>
+</div>
+
+<!-- ══ PANEL: PIPELINE (dynamic) ══ -->
+<div class="mc-panel" id="mc-pipeline">
+  <div class="mc-hdr"><h4 style="font-size:13px">Content Pipeline</h4><button class="mc-btn mc-btn-sm" onclick="mcCreate('content')">+ Contenu</button></div>
+  <div class="mc-pipeline" id="mc-pipeline-board">
+    <div class="mc-pipe-col"><h5>💡 Idée</h5><div data-stage="idea"></div></div>
+    <div class="mc-pipe-col"><h5>📝 Script</h5><div data-stage="script"></div></div>
+    <div class="mc-pipe-col"><h5>🖼 Thumbnail</h5><div data-stage="thumbnail"></div></div>
+    <div class="mc-pipe-col"><h5>🎬 Tournage</h5><div data-stage="filming"></div></div>
+    <div class="mc-pipe-col"><h5>✂️ Montage</h5><div data-stage="editing"></div></div>
+    <div class="mc-pipe-col"><h5>🚀 Publié</h5><div data-stage="published"></div></div>
+  </div>
+</div>
+
+<!-- ══ PANEL: CALENDAR (dynamic) ══ -->
+<div class="mc-panel" id="mc-calendar">
+  <div class="mc-hdr">
+    <div style="display:flex;align-items:center;gap:8px">
+      <button class="mc-btn mc-btn-sm" onclick="mcCalNav(-1)">&lt;</button>
+      <h4 style="font-size:13px" id="mc-cal-title">Avril 2026</h4>
+      <button class="mc-btn mc-btn-sm" onclick="mcCalNav(1)">&gt;</button>
+    </div>
+    <button class="mc-btn mc-btn-sm" onclick="mcCreate('event')">+ Event</button>
+  </div>
+  <div class="mc-cal" id="mc-cal-grid"></div>
+</div>
+
+<!-- ══ PANEL: OFFICE (dynamic) ══ -->
+<div class="mc-panel" id="mc-office">
+  <h4 style="font-size:13px;margin-bottom:12px">Bureau virtuel</h4>
+  <div class="mc-grid mc-grid-4" id="mc-office-grid"><p class="mc-sub" style="padding:20px">Chargement...</p></div>
+</div>
+
+</div><!-- /mc-wrap -->
+
+<script>
+/* ── Mission Control JS ── */
+(function(){
+  const DYNAMIC=['team','memory','pipeline','calendar','office'];
+  const mcCache={};
+  let calYear=2026,calMonth=3; // 0-indexed April=3
+
+  window.mcShowTab=function(tab){
+    document.querySelectorAll('.mc-panel').forEach(p=>p.classList.remove('active'));
+    document.querySelectorAll('.mc-tab').forEach(t=>t.classList.remove('active'));
+    const panel=document.getElementById('mc-'+tab);
+    if(panel) panel.classList.add('active');
+    const btn=document.querySelector('.mc-tab[data-mc="'+tab+'"]');
+    if(btn) btn.classList.add('active');
+    if(DYNAMIC.includes(tab)) mcLoad(tab);
+  };
+
+  window.mcLoad=async function(tab){
+    try{
+      if(tab==='team'||tab==='office'){
+        const r=await fetch('/api/mc/agents');const d=await r.json();
+        mcCache.agents=d;
+        if(tab==='team') renderTeam(d);
+        if(tab==='office') renderOffice(d);
+      }else if(tab==='memory'){
+        const r=await fetch('/api/mc/memories');const d=await r.json();
+        mcCache.memories=d;renderMemory(d);
+      }else if(tab==='pipeline'){
+        const r=await fetch('/api/mc/content');const d=await r.json();
+        mcCache.content=d;renderPipeline(d);
+      }else if(tab==='calendar'){
+        const r=await fetch('/api/mc/events');const d=await r.json();
+        mcCache.events=d;renderCalendar(d);
+      }
+    }catch(e){console.warn('MC load error:',tab,e)}
+  };
+
+  function renderTeam(agents){
+    const el=document.getElementById('mc-team-list');
+    if(!agents||!agents.length){el.innerHTML='<p class="mc-sub">Aucun agent</p>';return}
+    el.innerHTML=agents.map((a,i)=>`<div class="mc-card mc-agent-card" onclick="mcToggleAgent(${i})">
+      <span class="mc-emoji">${a.emoji||'🤖'}</span>
+      <div><div class="mc-name">${a.name}</div><div class="mc-role">${a.role||''}</div></div>
+      <span class="mc-badge ${a.status==='active'?'mc-badge-ok':'mc-badge-warn'}" style="margin-left:auto">${a.status||'idle'}</span>
+    </div>`).join('');
+  }
+
+  function renderOffice(agents){
+    const el=document.getElementById('mc-office-grid');
+    if(!agents||!agents.length){el.innerHTML='<p class="mc-sub">Aucun agent</p>';return}
+    el.innerHTML=agents.map(a=>`<div class="mc-card" style="text-align:center">
+      <div style="font-size:28px;margin-bottom:4px">${a.emoji||'🤖'}</div>
+      <div style="font-weight:600;font-size:12px">${a.name}</div>
+      <div style="font-size:10px;color:var(--text2)">${a.role||''}</div>
+      <span class="mc-badge ${a.status==='active'?'mc-badge-ok':'mc-badge-warn'}" style="margin-top:6px">${a.status||'idle'}</span>
+    </div>`).join('');
+  }
+
+  function renderMemory(mems){
+    const el=document.getElementById('mc-memory-list');
+    if(!mems||!mems.length){el.innerHTML='<p class="mc-sub">Aucune mémoire</p>';return}
+    el.innerHTML=mems.map(m=>`<div class="mc-card" style="margin-bottom:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h4>${m.title||'Sans titre'}</h4>
+        <span class="mc-badge mc-badge-info">${m.category||'general'}</span>
+      </div>
+      <p class="mc-sub" style="margin-top:4px">${(m.content||'').substring(0,120)}${(m.content||'').length>120?'...':''}</p>
+    </div>`).join('');
+  }
+
+  window.mcSearchMemory=function(){
+    const q=document.getElementById('mc-memory-search').value.toLowerCase();
+    if(!mcCache.memories)return;
+    const filtered=mcCache.memories.filter(m=>
+      (m.title||'').toLowerCase().includes(q)||(m.content||'').toLowerCase().includes(q)||(m.category||'').toLowerCase().includes(q)
+    );
+    renderMemory(filtered);
+  };
+
+  function renderPipeline(items){
+    const stages=['idea','script','thumbnail','filming','editing','published'];
+    stages.forEach(s=>{
+      const col=document.querySelector('#mc-pipeline-board [data-stage="'+s+'"]');
+      if(col) col.innerHTML='';
+    });
+    if(!items||!items.length)return;
+    items.forEach((item,i)=>{
+      const col=document.querySelector('#mc-pipeline-board [data-stage="'+(item.stage||'idea')+'"]');
+      if(col) col.innerHTML+=`<div class="mc-pipe-card" onclick="mcAdvanceContent(${i})" title="Cliquer pour avancer">${item.title||'Contenu'}</div>`;
+    });
+  }
+
+  window.mcAdvanceContent=async function(idx){
+    const stages=['idea','script','thumbnail','filming','editing','published'];
+    const item=mcCache.content[idx];if(!item)return;
+    const ci=stages.indexOf(item.stage||'idea');
+    if(ci>=stages.length-1)return;
+    const next=stages[ci+1];
+    try{
+      await fetch('/api/mc/content/'+item.id+'/advance',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({stage:next})});
+      item.stage=next;renderPipeline(mcCache.content);
+    }catch(e){console.warn(e)}
+  };
+
+  function renderCalendar(events){
+    const title=document.getElementById('mc-cal-title');
+    const months=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+    title.textContent=months[calMonth]+' '+calYear;
+    const grid=document.getElementById('mc-cal-grid');
+    const days=['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+    let html=days.map(d=>`<div class="mc-cal-hdr">${d}</div>`).join('');
+    const first=new Date(calYear,calMonth,1);
+    let startDay=first.getDay();startDay=startDay===0?6:startDay-1;
+    const daysInMonth=new Date(calYear,calMonth+1,0).getDate();
+    const today=new Date();
+    for(let i=0;i<startDay;i++) html+='<div class="mc-cal-day"></div>';
+    for(let d=1;d<=daysInMonth;d++){
+      const isToday=d===today.getDate()&&calMonth===today.getMonth()&&calYear===today.getFullYear();
+      const dateStr=calYear+'-'+String(calMonth+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+      const hasEvent=events&&events.some(e=>(e.date||'').startsWith(dateStr));
+      html+=`<div class="mc-cal-day${isToday?' today':''}">${d}${hasEvent?'<span class="mc-dot"></span>':''}</div>`;
+    }
+    grid.innerHTML=html;
+  }
+
+  window.mcCalNav=function(dir){
+    calMonth+=dir;
+    if(calMonth>11){calMonth=0;calYear++}
+    if(calMonth<0){calMonth=11;calYear--}
+    renderCalendar(mcCache.events||[]);
+  };
+
+  window.mcToggleAgent=async function(idx){
+    const a=mcCache.agents[idx];if(!a)return;
+    const ns=a.status==='active'?'idle':'active';
+    try{
+      await fetch('/api/mc/agents/'+a.id+'/status',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({status:ns})});
+      a.status=ns;renderTeam(mcCache.agents);
+    }catch(e){console.warn(e)}
+  };
+
+  window.mcCreate=async function(type){
+    if(type==='agent'){
+      const name=prompt('Nom de l\'agent:');if(!name)return;
+      const role=prompt('Rôle:');
+      try{
+        await fetch('/api/mc/agents',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,role,emoji:'🤖',status:'idle'})});
+        mcLoad('team');
+      }catch(e){console.warn(e)}
+    }else if(type==='memory'){
+      const title=prompt('Titre:');if(!title)return;
+      const category=prompt('Catégorie (general/project/note):');
+      const content=prompt('Contenu:');
+      try{
+        await fetch('/api/mc/memories',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title,category:category||'general',content:content||''})});
+        mcLoad('memory');
+      }catch(e){console.warn(e)}
+    }else if(type==='content'){
+      const title=prompt('Titre du contenu:');if(!title)return;
+      try{
+        await fetch('/api/mc/content',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title,stage:'idea'})});
+        mcLoad('pipeline');
+      }catch(e){console.warn(e)}
+    }else if(type==='event'){
+      const title=prompt('Titre:');if(!title)return;
+      const date=prompt('Date (YYYY-MM-DD):');
+      try{
+        await fetch('/api/mc/events',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title,date:date||new Date().toISOString().slice(0,10)})});
+        mcLoad('calendar');
+      }catch(e){console.warn(e)}
+    }
+  };
+
+  // Auto-render calendar on first load
+  renderCalendar([]);
+})();
+</script>
   </div><!-- /cc-missioncontrol -->
 
 </div><!-- /page-commandcenter -->
@@ -2846,9 +3274,7 @@ X-Api-Key: {API_KEY}
 </script>
 
 <!-- ─── MISSION CONTROL ──────────────────────────────────────────────────── -->
-<div class="page iframe-page" id="page-mission-control">
-  <iframe src="http://localhost:3000" style="width:100%;height:100vh;border:none;display:block" id="iframe-mission-control" title="Mission Control"></iframe>
-</div><!-- /page-mission-control -->
+<!-- Mission Control intégré dans Command Center → plus d'iframe -->
 
 <!-- ─── NELLIO STUDIO ─────────────────────────────────────────────────────── -->
 <div class="page iframe-page" id="page-nellio-studio">
@@ -2867,6 +3293,263 @@ X-Api-Key: {API_KEY}
 <div class="page iframe-page" id="page-knowledge-base">
   <iframe src="http://localhost:4242" style="width:100%;height:100vh;border:none;display:block" id="iframe-knowledge-base" title="Bibliothèque"></iframe>
 </div><!-- /page-knowledge-base -->
+
+<!-- ═══ CREATIVE ANALYTICS ═══════════════════════════════════════════════ -->
+<div class="page" id="page-creative-analytics">
+  <div class="page-header">
+    <div class="page-title">📊 Creative Analytics</div>
+    <div class="page-sub">Performance créative data-driven — identifie ce qui marche et pourquoi</div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap">
+    <button class="mod-tab active" onclick="modTab(this,'ca','overview')">Vue d'ensemble</button>
+    <button class="mod-tab" onclick="modTab(this,'ca','creatives')">Par Créatif</button>
+    <button class="mod-tab" onclick="modTab(this,'ca','angles')">Par Angle</button>
+    <button class="mod-tab" onclick="modTab(this,'ca','avatars')">Par Avatar</button>
+    <button class="mod-tab" onclick="modTab(this,'ca','trends')">Trends</button>
+  </div>
+  <div class="mod-panel active" id="ca-overview">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px">
+        <div style="color:var(--text2);font-size:11px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">🎣 Top Hook</div>
+        <div style="font-size:22px;font-weight:700;color:var(--text)">—</div>
+        <div style="color:var(--text2);font-size:12px;margin-top:4px">En attente de données</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px">
+        <div style="color:var(--text2);font-size:11px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">🎯 Best Angle</div>
+        <div style="font-size:22px;font-weight:700;color:var(--text)">—</div>
+        <div style="color:var(--text2);font-size:12px;margin-top:4px">En attente de données</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px">
+        <div style="color:var(--text2);font-size:11px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">🏆 Winning Format</div>
+        <div style="font-size:22px;font-weight:700;color:var(--text)">—</div>
+        <div style="color:var(--text2);font-size:12px;margin-top:4px">En attente de données</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px">
+        <div style="color:var(--text2);font-size:11px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">⚠️ Fatigue Alert</div>
+        <div style="font-size:22px;font-weight:700;color:var(--accent3)">0</div>
+        <div style="color:var(--text2);font-size:12px;margin-top:4px">Aucune alerte</div>
+      </div>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:24px;margin-bottom:16px;min-height:200px;display:flex;align-items:center;justify-content:center;flex-direction:column">
+      <div style="font-size:32px;margin-bottom:8px">📈</div>
+      <div style="color:var(--text2);font-size:14px">Performance Timeline</div>
+      <div style="color:var(--text2);font-size:12px;margin-top:4px">Connecter Triple Whale pour visualiser les données</div>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px">
+      <div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:12px">Top 10 Créatifs</div>
+      <div style="color:var(--text2);font-size:13px;text-align:center;padding:32px 0">Aucune donnée — lancer des campagnes Meta pour générer des insights</div>
+    </div>
+  </div>
+  <div class="mod-panel" id="ca-creatives"><div style="color:var(--text2);padding:40px;text-align:center">Analyse par créatif — disponible après connexion Triple Whale</div></div>
+  <div class="mod-panel" id="ca-angles"><div style="color:var(--text2);padding:40px;text-align:center">Analyse par angle — disponible après connexion Triple Whale</div></div>
+  <div class="mod-panel" id="ca-avatars"><div style="color:var(--text2);padding:40px;text-align:center">Analyse par avatar — disponible après connexion Triple Whale</div></div>
+  <div class="mod-panel" id="ca-trends"><div style="color:var(--text2);padding:40px;text-align:center">Trends créatives — disponible après connexion Triple Whale</div></div>
+</div>
+
+<!-- ═══ PAGE BUILDER ══════════════════════════════════════════════════════ -->
+<div class="page" id="page-page-builder">
+  <div class="page-header">
+    <div class="page-title">🏗️ Page Builder</div>
+    <div class="page-sub">Landing pages optimisées IA — générées depuis vos angles EVOLVE</div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap">
+    <button class="mod-tab active" onclick="modTab(this,'pb','pages')">Mes Pages</button>
+    <button class="mod-tab" onclick="modTab(this,'pb','templates')">Templates</button>
+    <button class="mod-tab" onclick="modTab(this,'pb','editor')">Éditeur</button>
+  </div>
+  <div class="mod-panel active" id="pb-pages">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <div style="color:var(--text2);font-size:13px">0 pages créées</div>
+      <button style="background:var(--accent);color:#fff;border:none;padding:8px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600">+ Nouvelle Page</button>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:48px;text-align:center">
+      <div style="font-size:40px;margin-bottom:12px">🏗️</div>
+      <div style="color:var(--text);font-size:15px;font-weight:600;margin-bottom:4px">Aucune landing page</div>
+      <div style="color:var(--text2);font-size:13px">Sélectionnez un template pour commencer</div>
+    </div>
+  </div>
+  <div class="mod-panel" id="pb-templates">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px;cursor:pointer;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:24px;margin-bottom:8px">🛍️</div>
+        <div style="font-weight:700;color:var(--text);margin-bottom:4px">Product Page</div>
+        <div style="color:var(--text2);font-size:12px">Page produit DTC classique — hero, bénéfices, preuve sociale, CTA</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px;cursor:pointer;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:24px;margin-bottom:8px">📰</div>
+        <div style="font-weight:700;color:var(--text);margin-bottom:4px">Advertorial</div>
+        <div style="color:var(--text2);font-size:12px">Article natif style presse — storytelling, mécanisme, CTA soft</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px;cursor:pointer;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:24px;margin-bottom:8px">📋</div>
+        <div style="font-weight:700;color:var(--text);margin-bottom:4px">Listicle</div>
+        <div style="color:var(--text2);font-size:12px">Format liste "Top 5 raisons..." — awareness froid, SEO-friendly</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px;cursor:pointer;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:24px;margin-bottom:8px">❓</div>
+        <div style="font-weight:700;color:var(--text);margin-bottom:4px">Quiz Funnel</div>
+        <div style="color:var(--text2);font-size:12px">Quiz interactif → recommandation personnalisée → offre</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px;cursor:pointer;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:24px;margin-bottom:8px">🎥</div>
+        <div style="font-weight:700;color:var(--text);margin-bottom:4px">VSL Page</div>
+        <div style="color:var(--text2);font-size:12px">Video Sales Letter — vidéo hero + texte de renfort + CTA urgent</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px;cursor:pointer;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="font-size:24px;margin-bottom:8px">🎉</div>
+        <div style="font-weight:700;color:var(--text);margin-bottom:4px">Thank You</div>
+        <div style="color:var(--text2);font-size:12px">Post-achat — upsell, survey, referral, instructions</div>
+      </div>
+    </div>
+  </div>
+  <div class="mod-panel" id="pb-editor">
+    <div style="display:grid;grid-template-columns:240px 1fr;gap:16px;min-height:500px">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px">
+        <div style="font-weight:700;color:var(--text);font-size:13px;margin-bottom:12px">Composants</div>
+        <div style="color:var(--text2);font-size:12px;padding:8px;background:var(--surface2);border-radius:6px;margin-bottom:6px;cursor:grab">📝 Hero Section</div>
+        <div style="color:var(--text2);font-size:12px;padding:8px;background:var(--surface2);border-radius:6px;margin-bottom:6px;cursor:grab">✅ Bénéfices</div>
+        <div style="color:var(--text2);font-size:12px;padding:8px;background:var(--surface2);border-radius:6px;margin-bottom:6px;cursor:grab">⭐ Témoignages</div>
+        <div style="color:var(--text2);font-size:12px;padding:8px;background:var(--surface2);border-radius:6px;margin-bottom:6px;cursor:grab">🔬 Mécanisme</div>
+        <div style="color:var(--text2);font-size:12px;padding:8px;background:var(--surface2);border-radius:6px;margin-bottom:6px;cursor:grab">💰 Offre + CTA</div>
+        <div style="color:var(--text2);font-size:12px;padding:8px;background:var(--surface2);border-radius:6px;margin-bottom:6px;cursor:grab">❓ FAQ</div>
+        <div style="color:var(--text2);font-size:12px;padding:8px;background:var(--surface2);border-radius:6px;cursor:grab">🛡️ Garantie</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:24px;display:flex;align-items:center;justify-content:center;flex-direction:column">
+        <div style="font-size:40px;margin-bottom:12px">👆</div>
+        <div style="color:var(--text2);font-size:14px">Sélectionnez un template pour ouvrir l'éditeur</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ EMAIL & FLOWS ════════════════════════════════════════════════════ -->
+<div class="page" id="page-email-flows">
+  <div class="page-header">
+    <div class="page-title">📧 Email & Flows</div>
+    <div class="page-sub">Automation Klaviyo IA — flows et campagnes générés depuis vos avatars EVOLVE</div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap">
+    <button class="mod-tab active" onclick="modTab(this,'ef','flows')">Flows</button>
+    <button class="mod-tab" onclick="modTab(this,'ef','campaigns')">Campagnes</button>
+    <button class="mod-tab" onclick="modTab(this,'ef','templates')">Templates</button>
+    <button class="mod-tab" onclick="modTab(this,'ef','connect')">Connexion</button>
+  </div>
+  <div class="mod-panel active" id="ef-flows">
+    <div style="display:grid;gap:10px">
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-size:20px">👋</span><div><div style="font-weight:700;color:var(--text);font-size:14px">Welcome Series</div><div style="color:var(--text2);font-size:12px">Trigger : Inscription · 3 emails</div></div></div>
+        <span style="background:var(--surface2);color:var(--text2);font-size:11px;padding:4px 10px;border-radius:6px">Draft</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-size:20px">📦</span><div><div style="font-weight:700;color:var(--text);font-size:14px">Post-Purchase</div><div style="color:var(--text2);font-size:12px">Trigger : Achat · 4 emails</div></div></div>
+        <span style="background:var(--surface2);color:var(--text2);font-size:11px;padding:4px 10px;border-radius:6px">Draft</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-size:20px">💔</span><div><div style="font-weight:700;color:var(--text);font-size:14px">Winback</div><div style="color:var(--text2);font-size:12px">Trigger : 60j sans achat · 3 emails</div></div></div>
+        <span style="background:var(--surface2);color:var(--text2);font-size:11px;padding:4px 10px;border-radius:6px">Draft</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-size:20px">🛒</span><div><div style="font-weight:700;color:var(--text);font-size:14px">Abandon Cart</div><div style="color:var(--text2);font-size:12px">Trigger : Panier abandonné · 2 emails + 1 SMS</div></div></div>
+        <span style="background:var(--surface2);color:var(--text2);font-size:11px;padding:4px 10px;border-radius:6px">Draft</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-size:20px">👑</span><div><div style="font-weight:700;color:var(--text);font-size:14px">VIP Program</div><div style="color:var(--text2);font-size:12px">Trigger : 3+ achats · 2 emails</div></div></div>
+        <span style="background:var(--surface2);color:var(--text2);font-size:11px;padding:4px 10px;border-radius:6px">Draft</span>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-size:20px">⭐</span><div><div style="font-weight:700;color:var(--text);font-size:14px">Review Request</div><div style="color:var(--text2);font-size:12px">Trigger : 14j post-achat · 1 email</div></div></div>
+        <span style="background:var(--surface2);color:var(--text2);font-size:11px;padding:4px 10px;border-radius:6px">Draft</span>
+      </div>
+    </div>
+  </div>
+  <div class="mod-panel" id="ef-campaigns">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <div style="color:var(--text2);font-size:13px">0 campagnes</div>
+      <button style="background:var(--accent);color:#fff;border:none;padding:8px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600">+ Nouvelle campagne</button>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:40px;text-align:center">
+      <div style="color:var(--text2);font-size:13px">Aucune campagne — connecter Klaviyo pour commencer</div>
+    </div>
+  </div>
+  <div class="mod-panel" id="ef-templates"><div style="color:var(--text2);padding:40px;text-align:center">Templates email — disponibles après connexion Klaviyo</div></div>
+  <div class="mod-panel" id="ef-connect">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:24px;max-width:480px">
+      <div style="font-weight:700;color:var(--text);font-size:15px;margin-bottom:12px">🔌 Connexion Klaviyo</div>
+      <div style="color:var(--text2);font-size:13px;margin-bottom:16px">Entrez votre clé API Klaviyo pour activer les flows et campagnes automatisées.</div>
+      <input type="text" placeholder="pk_xxxxxxxxxxxxxxxx" style="width:100%;padding:10px 12px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;margin-bottom:12px;box-sizing:border-box">
+      <button style="background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;width:100%">Connecter</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ A/B TESTING ═══════════════════════════════════════════════════════ -->
+<div class="page" id="page-ab-testing">
+  <div class="page-header">
+    <div class="page-title">🧪 A/B Testing</div>
+    <div class="page-sub">Optimisation automatisée — test, mesure, scale</div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap">
+    <button class="mod-tab active" onclick="modTab(this,'ab','active')">Tests Actifs</button>
+    <button class="mod-tab" onclick="modTab(this,'ab','history')">Historique</button>
+    <button class="mod-tab" onclick="modTab(this,'ab','rules')">Règles</button>
+  </div>
+  <div class="mod-panel active" id="ab-active">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <div style="color:var(--text2);font-size:13px">0 tests actifs</div>
+      <button style="background:var(--accent);color:#fff;border:none;padding:8px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600">+ Nouveau test</button>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:48px;text-align:center">
+      <div style="font-size:40px;margin-bottom:12px">🧪</div>
+      <div style="color:var(--text);font-size:15px;font-weight:600;margin-bottom:4px">Aucun test actif</div>
+      <div style="color:var(--text2);font-size:13px">Créer un premier test pour commencer l'optimisation</div>
+    </div>
+  </div>
+  <div class="mod-panel" id="ab-history">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden">
+      <table style="width:100%;border-collapse:collapse;font-size:13px">
+        <thead><tr style="border-bottom:1px solid var(--border)">
+          <th style="padding:12px 16px;text-align:left;color:var(--text2);font-weight:600">Test</th>
+          <th style="padding:12px 16px;text-align:left;color:var(--text2);font-weight:600">Variantes</th>
+          <th style="padding:12px 16px;text-align:left;color:var(--text2);font-weight:600">Winner</th>
+          <th style="padding:12px 16px;text-align:left;color:var(--text2);font-weight:600">Lift</th>
+          <th style="padding:12px 16px;text-align:left;color:var(--text2);font-weight:600">Confiance</th>
+          <th style="padding:12px 16px;text-align:left;color:var(--text2);font-weight:600">Date</th>
+        </tr></thead>
+        <tbody><tr><td colspan="6" style="padding:32px;text-align:center;color:var(--text2)">Aucun test terminé</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="mod-panel" id="ab-rules">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:18px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px"><span style="font-size:18px">🛑</span><span style="font-weight:700;color:var(--text);font-size:14px">Kill Rule</span></div>
+        <div style="color:var(--text2);font-size:12px;margin-bottom:10px">Couper automatiquement si CTR &lt; 1% après 1000 impressions</div>
+        <div style="display:flex;align-items:center;gap:6px"><div style="width:8px;height:8px;border-radius:50%;background:var(--accent3)"></div><span style="color:var(--text2);font-size:11px">Active</span></div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:18px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px"><span style="font-size:18px">🚀</span><span style="font-weight:700;color:var(--text);font-size:14px">Scale Rule</span></div>
+        <div style="color:var(--text2);font-size:12px;margin-bottom:10px">Augmenter budget de 20% si ROAS &gt; 2x pendant 48h</div>
+        <div style="display:flex;align-items:center;gap:6px"><div style="width:8px;height:8px;border-radius:50%;background:var(--accent3)"></div><span style="color:var(--text2);font-size:11px">Active</span></div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:18px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px"><span style="font-size:18px">⏸️</span><span style="font-weight:700;color:var(--text);font-size:14px">Pause Rule</span></div>
+        <div style="color:var(--text2);font-size:12px;margin-bottom:10px">Pause si spend dépasse le budget journalier de 20%</div>
+        <div style="display:flex;align-items:center;gap:6px"><div style="width:8px;height:8px;border-radius:50%;background:var(--accent3)"></div><span style="color:var(--text2);font-size:11px">Active</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Module tab switcher (shared across all new modules)
+window.modTab=function(btn,prefix,tab){
+  btn.closest('.page').querySelectorAll('.mod-tab').forEach(t=>t.classList.remove('active'));
+  btn.classList.add('active');
+  btn.closest('.page').querySelectorAll('.mod-panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById(prefix+'-'+tab)?.classList.add('active');
+};
+</script>
+<style>.mod-tab{background:none;border:1px solid var(--border);color:var(--text2);padding:6px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;transition:all .15s}.mod-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}.mod-tab:hover:not(.active){border-color:var(--accent);color:var(--text)}.mod-panel{display:none}.mod-panel.active{display:block}</style>
 
 <!-- ═══ AGENTS EVOLVE ═══ -->
 <div class="page" id="page-agents">

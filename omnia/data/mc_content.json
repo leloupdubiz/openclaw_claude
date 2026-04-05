@@ -1,0 +1,32 @@
+[
+  {
+    "id": "_mc_cont01",
+    "title": "EVOLVE Method Explained",
+    "type": "article",
+    "status": "draft",
+    "assignee": "_mc_agent01",
+    "description": "Deep-dive article explaining the EVOLVE framework and its 5 phases for DTC brand scaling.",
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_cont02",
+    "title": "Hook Writing Masterclass",
+    "type": "video",
+    "status": "in-progress",
+    "assignee": "_mc_agent05",
+    "description": "Video tutorial covering the top 10 hook patterns that drive 3s retention above 45%.",
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  },
+  {
+    "id": "_mc_cont03",
+    "title": "Behind the Scenes",
+    "type": "social",
+    "status": "scheduled",
+    "assignee": "_mc_agent01",
+    "description": "Behind-the-scenes content showing the brand journey and product development process.",
+    "createdAt": 1712000000000,
+    "updatedAt": 1712000000000
+  }
+]
