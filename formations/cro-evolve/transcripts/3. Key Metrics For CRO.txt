@@ -1,0 +1,148 @@
+All right, now in this section, I'm going to be talking about some CRO metrics that you need to know in order to kind of understand, I think, moving forward to the program, things that are going to come up.
+And also just like general CRO, some more tactical CRO stuff for the CRO that we're teaching.
+It's actually going to be based inside of the ad account, but we'll get more to that.
+At the end of the day, the terms are the same, and I want to make sure that you understand these things.
+And then on top of that, I also want to go through and help you better understand just where you're at right now and some custom metrics that you can use to figure out kind of the overall health of your Shopify store, ad account, all that stuff, okay?
+So the first thing here, just a few terms to define them, like core metrics to know, CR or CVR means conversion rate, okay?
+Pretty straightforward.
+AOV means aperture value.
+Hopefully you know that.
+If you don't, there you go.
+And RPS is called revenue per session.
+So this is basically a function of conversion rate and average order value.
+And we'll touch more on that as well when we get to some more of the old school split testing stuff.
+But at the end of the day, these are three metrics that you definitely just want to know or three definitions that you're going to want to know.
+Now, with that said, the next thing that's important for you guys to know is something called a Shopify score.
+Now, a Shopify score is basically your average order value times your conversion rate, okay?
+So if you just, for Mac, I always just use the search button here.
+If you have a 2.2% conversion rate, okay?
+And let's just say you have a $100 average order value, then what you'll do is you will times your 2.2 conversion rate by 100.
+And this will give you what is called your Shopify score, or at least that's what we call it.
+You can also call it a conversion score.
+It doesn't really matter.
+This is the metric that we use to basically understand where the store is at.
+So, for example, if you are 0 to 100, so say you have a 1% conversion rate and a $50 average order value, your Shopify score would be 50.
+And what that tells us is that the product is not really communicating value, or you have horrible traffic, okay?
+It's either one of the two.
+Either you're just filled up with a bunch of bot traffic, or you're sending link clicks.
+I don't really know what you're doing, or, for example, you just have your products priced terribly, and say, for example, you have no brand, and nobody knows who you are, and for whatever reason, people just aren't buying, and you're sending a lot of ad traffic, and at the end of the day, you're just not getting conversions, okay?
+So that is 0 to 100.
+Now, 100 to 250, this is where you want to continue to focus on optimizing your store or optimizing your pages, okay?
+Because if you're in the 100 to 250 range, that typically means that you're doing something right, like people are buying your stuff, but not at the level that we need to be in order for you to scale.
+And now, just to go back to the 100 or 0 to 100, if you're in the 0 to 100 range, then you're definitely going to want to focus on product pricing.
+There might be an issue with the product itself.
+Maybe there's something, like, broken on your website.
+I don't really know, but something is really wrong in the 0 to 100 range, and so what we recommend doing is really doing more research to figure out where your product is at, how it is priced, and at the end of the day, make sure that you put more attention on your product, and if it's not the product, then you probably have a severe traffic issue.
+Now, with that said, 250 to 400 is what we really look for.
+Like, this is a really good range to be, and this means that you should be scaling your traffic or able to scale your traffic, and you should be continuing to optimize your site further, okay?
+Optimize your site, optimize your pages.
+I'm going to use site and pages interchangeably here, but at the end of the day, the main thing here is that you're doing something well, and you're converting people quite well, right?
+So imagine you have a 1% conversion rate and a $250 average order value, or maybe you have a $25 average order value, but a 10% conversion rate, okay?
+You're doing something really right here, okay?
+The next thing on here is 400 plus, okay?
+If you are over 400 plus, so say, for example, here's a client here that if I pull up the screenshot, you can see they have a 4.23% conversion rate, and they have $152 average order value.
+This client needs to focus on scaling their ads hard, and if for whatever reason you cannot scale your ads, it means your ads are clearly the problem, and you need to create higher engaging ads to get more traffic to your store.
+And obviously, I just misclicked there, but here we are.
+We're back.
+Spoil the next part.
+But the main thing here is that you need to be scaling ads and focusing on creating better ads because your store is handling traffic incredibly well.
+And to give you context, this brand right here, literally with 4% conversion rate, $150 AOV, they were doing 75K per month.
+We came in, just focused on ads, and we scaled them to 220K per month in literally 45 days, okay?
+And that's because we knew all we had to do was come in and focus on ads.
+If you're here right now, you're in a really good place.
+You just need to focus on creating ads, maybe go back into the ads program and watch more around ads.
+But what you're doing is working.
+You just need to figure out a way to get more traffic to your store that is, again, still highly effective because you don't want to be in the 0 to 100 range sending link clicks or crappy traffic to your store, okay?
+So this is Shopify score.
+Really great metric to know and should help you better understand just where your business is at, how well you're optimized, and what is happening, okay?
+Now, one thing, as you saw, as I misclicked, typically, the higher the margin you have, the lower your score will be.
+We see a lot of clients that have like 70% to 85% margins typically have a lower score.
+With that said, our clients that, for some reason, have like 50% to 55% margins will typically have slightly higher scores.
+Now, with that said, that is not set in stone.
+For example, this client back here, if I go through all the steps again, actually has 70% margins, like really good margins, but they just were doing a terrible job with ads.
+So you can still have a high conversion rate and a high average order value because your product just provides incredible value.
+But at the end of the day, a lot of the times we've noticed that if, for example, we had a client that had like 96% margins, conversion rate for that store was terrible.
+Average order value was okay, but the conversion rate was terrible, and people kind of have an idea.
+And so what you really need to figure out is like the sweet spot between price and actual, you know, like margin, okay?
+And what you're charging people in the margin because the conversion rate is the other factor that determines how much more profit that you make.
+And I'm going to get into some things around price testing and shipping testing a little bit later.
+But with that said, this is something that is super important to call out.
+So if you do have a really high margin and you're in that zero to 100 range, you might want to look at repricing your products to make it a little bit more attainable or just provide more value to your customers to actually get more conversions.
+Now, the next thing on here is basically add to cart ratio, okay?
+This is not something that we pay a crazy amount of attention to anymore because at the end of the day, we just care about conversions.
+But this is also really interesting for you to dive deeper and just understand where the store is at.
+So, for example, a four to one add to cart, you know, conversion ratio or four to one plus is not really great, okay?
+So, for example, this client over here that has an 8% add to cart ratio and less than a 2% sessions converted,
+for every add to cart he gets, you know, for every four add to carts that he gets, he gets one conversion.
+And so that's not really that ideal.
+The ideal range is more three to one.
+So you can see here the client over there with a 4.41% add to cart ratio and a 1.57% conversion rate.
+But again, at the end of the day, conversion rate is all that matters.
+So if you have a 2% conversion rate, amazing.
+But this add to cart ratio kind of gives us a bit of a better understanding if people are really interested
+and maybe there might be an issue deeper in the funnel and we'll get to that.
+But two to one is considered elite, right?
+So if you're two to one, so you have a 6% add to cart ratio and a 3% conversion rate, 3.6% conversion rate.
+In this instance, that is really, really good.
+So people are clearly adding to cart and going through and purchasing.
+We have yet to see somebody be one to one or close to one to one.
+But at the end of the day, if you can be two to one, that is really, really good.
+And again, this is just more of a metric for you to kind of see where the store is at.
+It's not what we optimize for.
+It's just numbers that are cool to look at to figure out, again, specific problems.
+But main thing here is that if anything is more than four to one, like you can see with
+the 0.8% conversion rate and the 6.7% convert or add to cart rate, it's typically a traffic
+issue.
+And so for that client in particular, they run worldwide.
+And so the cost of traffic is super, super, super cheap.
+But at the end of the day, they're making a lot of revenue.
+So it works for them.
+And so that's where, again, conversion rate does not really matter.
+And again, having a higher add to cart ratio, as it says here, does not mean a higher conversion
+rate.
+So if you are getting a lot of add to carts, that is typically good, but you might want
+to check the rest of your funnel.
+You might want to play around with shipping testing.
+You might want to also figure out what you're doing to get people to add to cart in the first
+place or just check your cart process.
+Because if you're getting a lot of people to add to cart, but nobody's really actually converting,
+then there's probably an issue post-click or maybe you have too many upsells or whatever
+it is.
+And this is just a great way for you to keep in mind, again, it's not the main metric
+that we optimize for, but keep in mind just how people are navigating on your store.
+And this can also help you come up with specific offers to get people all the way through the
+checkout as well.
+So remember, main thing here is that increasing conversion rate and average order value is
+what helps you scale revenue and profit further.
+So the goal is to increase conversion rate and average order value with all the things that
+I'm about to show you, but when you increase conversion rate and average order value, that
+allows you to scale further.
+Okay.
+As you scale, your conversion rate is likely going to come back down.
+So increasing average order value is huge because AOV will typically stay the same, but
+if you can maintain conversion rate, you are going to be able to scale further.
+But again, as you scale further, your conversion rate is typically going to drop.
+So you really need to make sure that you understand the whole goal of this, of increasing our
+Shopify score is to essentially jam it full of traffic to bring it back down.
+And then we bring it back up again, and then we jam it with more and you get the idea.
+Okay.
+Now, the main thing here is this is the return on ad spend equation.
+I'm not the biggest, I mean, there's people that say, you know, screw return on ad spend.
+And there's people that are all about return on ad spend.
+At the end of the day, even if you just look at it on the blended level, the way to increase
+return on ad spend is conversion rate times average order value times click through rate.
+Okay.
+If you increase these two metrics here, so two out of the three metrics of the return
+on ad spend equation, which most people care about is like, how can I improve my return
+on ad spend so that I can scale my ads further?
+Two of them are conversion rate and average order value.
+Okay.
+And so it's really, really important that if you want to improve your return on ad spend,
+you need to improve your conversion rate and average order value.
+Okay.
+Now, great ads can improve CTR and conversion rate.
+Great pages can improve conversion rate and average order value.
+And that's the goal of this program is to show you exactly how to do that.
+Now, with that said, those are the serial metrics that you need to know.
+And hopefully that gets you prepared for the next steps coming up around how to optimize
+pages to scale your ads further.

@@ -1,0 +1,74 @@
+# lesn W7SP1R0VHq9sOCXHJUztQ
+> Transcript complet — 100% du contenu original
+
+---
+
+iterations. Usually you do iterations on ads that are doing well. So when you find an ad that is performing well or that is at least showing some kind of potential, that's when you want to do iterations on that concept. So maybe you have video ad that is doing well and usually what everyone does is they just take the ad, they slap new hooks on it or like you can analyze the hook rate and the hold rate inside the ad account and you can figure out like maybe you need to edit the ad differently. One iteration can be , so if it's a UGC ad and you have UGC creator delivering the script, you just get another UGC creator delivering the exact same script.
+
+So that's an iteration you can do. Like just trying to figure out how to do this ad in a lot of similar ways. So that's iterations. And like they are the easiest to do like from the three because you already have some data, you already have some kind of idea on the concept because you made it and it's doing well and usually that's when you know ideas start flowing and that's when you get even more ideas like, oh I want to do this as a static ad, I want to do this as this . You know what's that?
+
+I want to do these changes to this ad to make it even better. So basically just when you have an ad that's doing well, just take it and try to think how you can make it even better essentially. So I'll kind of walk you through how we think, how we think about this and how we go about doing iterations. We do it a bit different than what others do it and I'll explain it in a bit. But for example, one iteration idea that I had for Flow is, so this was their winning ad for a long time or like it was performing okay, it was getting a lot of spend, but it wasn't that profitable for them.
+
+It was it was doing okay, but it was getting a lot of spend. So that means you know, it's something was right in it. And I won't play. Oh well actually I can just play the entire thing. Let me do this.
+
+This is lion's mane, a supplement that can be taken to rebuild your brain . So I took it for 30 days to see how it would actually change my body. So here's everything that happened. But first, what even is this? Lion's mane is a strand of mushroom known for stimulating the growth of new brain cells, improving depression or anxiety and even potentially reversing dimension.
+
+So on day one, I took my first capsule and as soon as day five, I started noticing one of the effects of lion's mane. I'm feeling way more focused and I feel way less distracted than usual. Over the next few days, I kept noticing new things like being fully in touch with my emotions and not being anxious over things that would normally bother me. At the end, I did notice an overall improvement, but this was only 30 days.
+
+Okay, so as you can see, like the main focus of this ad, like at the start is lion's mane. So he explains that inside of flow pouches, there is lion's mane and how it works, you know, how it works in your brain, whatever. He kind of explains the science behind it, like it grows your brain cells. But the main thing I got from this ad is he said, so I took it from 30 days to see what would happen. And like this is such a strong like started video.
+
+And it just gets people interested and they actually want to see what's going to happen, you know, in the next 30 days. And what he does basically is he kind of explains his process, like how he felt in like the day five, how he felt in day six, whatever. So I was like, okay, we should definitely make a concept talking about how like , I'll just go , I'll just go inside the growth guy and show you. So again, this video specifically starts with, I took it for 30 days to see how it would actually change my body. And we could do hooks like , so that was kind of my idea, we could do hooks like, here's what happened after I used flow for 30 days.
+
+Or this is what happens to your body after 30 days in flow, don't take too much, you know, like having stuff like this, this in hooks can like grab, grabs people's attention even more. Or I took flow every day to boost my focus and here's what happened, shocking results. And we can execute this with just the AI voiceover and some bureau on top of it. So this was the idea that I , that I basically had for the iteration. And one other thing that we actually did is I'll show you know, so if you go to Discord, and if you go to add inspiration, you should find this message.
+
+And basically, like this is also like, like almost an iteration, like with like, I don't know, ideation, iteration, whatever. But we apply the principles, we apply the learn ings from basically this ad right here, you know, the winning ad, we apply the same principle. So we like, we analyze them, we figure out, okay, like this is probably interesting to people, they want to see how people progress and how like, what happens, you know, from like week one, week two, week three, week four. And we were actually super fortunate, because we found this guy on YouTube. And he basically, he basically, like, he basically recorded a, like a month review of using flow, because he saw the product and it was super interesting to him.
+
+And like, we like, we didn't even pay him to do this or anything, he just did it on his own, like posted his journey of using flow on YouTube. And we're like, this is amazing, we need to turn this into an ad. So we contacted him, he said, that's totally fine, you can do ads. So we got that sorted. And we basically took his footage, and we did the exact same thing.
+
+And while doing so, we applied. So if you watched it, we applied Mr. B's retention techniques in this video, and I'll now play it so we can see it for yourself. I've been wanting to quit nicotine for a long time now. If these things work, that'd be cool.
+
+Definitely only good things of that, because I've started taking these. I feel like they're actually working. I would say if you want to try them out, there's definitely only been benefits for me. There hasn't been any negative side effects at all. The first thing that happens when I got these that I noticed, woke up, ready to start my day.
+
+And that was the first time I have woken up ready to get out there and go get the day done, you know, being in a better headspace, having more available energy to go do things that I need to get done without them bothering me, you know. These things have completely gotten rid of my anxiety. I go to shows a lot. I went to a show Saturday, and it was the first show that I was actually able to go to and enjoy all the way through. I was having a good time.
+
+I was dancing my ass off. I was hanging out with friends, meeting new friends. It was a great time. I told my buddy Rich about it. He literally said he was like, "Those flow pouches must be kicking ass because it's nice to see you getting back to your old self." And whenever I read that, I was just like, "Holy shit, it's true.
+
+I 'm actually getting back to my old self before I had anxiety." Just reading that text from him was so reassuring. It almost made me tear up a little bit. So as you can see, this is super, super organic. He's just sharing his journey. He's talking about it from his heart.
+
+He's not making these things up. It's actual genuine reaction. We just took his YouTube clips and we made a bunch of mashups. We made a bunch of these shorter clips of his journey. As you can see, we have the strong hook results in 3-2-1.
+
+He's talking about quitting nicotine. So super strong hook. And then we have week one. He's talking about what's happening. Week two, week four.
+
+We're talking about his journey. As you can see, this ad actually got... So they created... The ad was launched on 10th March. This was 11th of March and the ad got 4K in spend.
+
+It wasn't performing that well. It wasn't hitting the KPI for this client. It didn't have that high verus. But it was performing decent. It took all of the spend in the ad account.
+
+So this is how you basically apply the learnings that you have from previous ads and do iterations on them. So we basically apply learning. This is a cool concept. A 30-day review. What's going to happen in 30 days?
+
+And so we did an iteration. This one didn't do that well. This one showed us great results. We're definitely on track of something and we 're cooking. We still need to crack it a bit.
+
+But we are on to something. And that's basically how we do iterations. When we're doing iterations, we're trying to look at if we have an ad that is doing well, we try to look at, "Okay, how can we do this ad in a different way?" For this ad as well, how can we do a static ad from this concept? Or how can we do maybe a VSL out of this? Or how can we turn this into a organic ad?
+
+Or how can we iter ate this? Basically just try to break this ad down and think of all the different ways how you can do this same concept in a different way. So that's how we think about iterations. And obviously, you can take this ad and then you can just slap different hooks on it as stronger hooks, maybe edit the ad to be a bit better, whatever. Just try to think of a bunch of different iterations you can make on an ad that is doing well or that is showing potential.
+
+And then obviously, as I said, since this ad is doing decent, hit the same every time, no addiction, the ad that I showed you in the previous video. I marked it here as a winning ad. It isn't really like 100% a winning ad. It's kind of halfway there. But I got to give the team a bit of a dub.
+
+So we'll just mark the winning ad for now. And learnings, I will get learnings and how to close the feedback loop. So we'll have a detailed video about it, what to look at and how to analyze ads after they're done. But basically, the biggest learnings here are people are definitely resonating with the addiction free messaging. And I can show you the test that we did here.
+
+So these are the three variations that we did. So first one was stop feeding, start flowing. Then we had those little callouts tolerance free focus. That one did nothing. Second one is the winning variation.
+
+So addiction free focus hack, the one that I showed you. And then the third variation that we tested was hits the same every time. This one did nothing as well. So this was the top performing variation. And like just by looking at this, you can see that the top performing variation had a bit more interesting background, a bit more interesting visuals .
+
+So that is one learning we can take from this as well. So definitely in our ads, we should try to use mushrooms, we should try to use maybe these ingredients and show interesting visuals. And the biggest learning is that people are most likely resonating with this headline. So people are resonating with addiction free focus hack. So that is definitely an angle that we want to double down on a lot.
+
+And so what we decided to do is go back to the growth guide and do addiction free iteration. So free iteration. So again, we're targeting the nicotine quitter. I won't claim to stay in focus without crash or jitters, their solution aware. And basically it says here iterating on best performing variation of ad number two, addiction free focus hack headline.
+
+We want to do kind of a skeptical and relatable AI voice over. So we want to make this seem as organic and as authentic. So we want to make this ad seem like it's coming from a person, right? So we want to make it organic. to make it organic. So this will be like an organic ad.
+
+If we look at like what type of video ad this is, it's going to be an organic ad, but we are going to edit it basically. We have some like more research for mushrooms for quitting nicotine, like some some research backing it up. And then I definitely still want to mention something like here's the same every time because you don 't build up tolerance with tolerance like with nicotine, because I think that's going to be like a fuck yeah moment for nique people, you know, for people that are on nicotine. So that is an iteration that will do on this ad that is doing well. So that is how to do iterations.
+
+As I said, like they are, you know, probably the easiest because you already have some data, you already have some knowledge, you already have something to, you know, make decisions from and to like, you know, base your actions and your decisions on. So it is like, you know, it's not the hardest job in the world to come up with iterations once you have something working. The problem is how to come up with come up with our ideas and how to come up with, you know, imitation ideas or whatever, when you have nothing working. And you know, when you're when you're just struggling and when you're just trying to find something that at least shows potential. So that is that is the hardest thing to do.
+
+Iterations aren't that hard. And that basically finishes the ideation section. A little short series. Again, there might be a few more episodes like part one, part two, part three that I'll be adding. But that is basically it.
+
+Hope this clears up how to come with our ideas and how to like analyze ads and how to go about, you know, just doing research and like how to do ads, basically. And in the next few videos, I will show you like, we'll go from like for each of these concepts. I will show you how to basically write copy and then how to actually turn them into into ads. So yeah, that's it.

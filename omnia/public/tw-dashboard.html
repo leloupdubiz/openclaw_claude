@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Triple Whale</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#0d0f17;
+  --sidebar:#111420;
+  --card:#181c2e;
+  --card2:#1e2236;
+  --border:rgba(255,255,255,0.08);
+  --border2:rgba(255,255,255,0.05);
+  --accent:#9747FF;
+  --accent2:#7c3aed;
+  --text1:#f1f5f9;
+  --text2:#94a3b8;
+  --text3:#475569;
+  --green:#22c55e;
+  --red:#f43f5e;
+  --yellow:#f59e0b;
+  --blue:#3b82f6;
+}
+body{background:var(--bg);color:var(--text1);font-family:-apple-system,BlinkMacSystemFont,'Inter','Segoe UI',sans-serif;display:flex;height:100vh;overflow:hidden;font-size:14px;}
+
+/* ── SIDEBAR ── */
+.sidebar{width:220px;min-width:220px;background:var(--sidebar);border-right:1px solid var(--border);display:flex;flex-direction:column;height:100vh;overflow-y:auto;}
+.sidebar-logo{padding:18px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border);}
+.logo-icon{width:32px;height:32px;background:linear-gradient(135deg,#9747FF,#3b82f6);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;}
+.logo-text{font-size:15px;font-weight:700;color:var(--text1);}
+.sidebar-section{padding:8px 8px 4px;font-size:10px;font-weight:700;color:var(--text3);letter-spacing:1px;text-transform:uppercase;}
+.nav-item{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:8px;margin:1px 8px;cursor:pointer;color:var(--text2);transition:all .15s;border:none;background:none;width:calc(100% - 16px);text-align:left;font-size:13px;font-weight:500;}
+.nav-item:hover{background:rgba(255,255,255,.05);color:var(--text1);}
+.nav-item.active{background:rgba(151,71,255,.15);color:var(--accent);}
+.nav-item .ico{width:16px;text-align:center;font-size:15px;}
+.sidebar-divider{height:1px;background:var(--border);margin:6px 12px;}
+.store-badge{margin:8px;padding:10px 12px;background:var(--card);border:1px solid var(--border);border-radius:10px;display:flex;align-items:center;gap:8px;}
+.store-dot{width:8px;height:8px;border-radius:50%;background:var(--green);flex-shrink:0;}
+.store-name{font-size:12px;font-weight:600;color:var(--text1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.store-sub{font-size:10px;color:var(--text2);}
+
+/* ── MAIN ── */
+.main-area{flex:1;display:flex;flex-direction:column;overflow:hidden;}
+
+/* TOPBAR */
+.topbar{background:var(--sidebar);border-bottom:1px solid var(--border);padding:0 20px;height:52px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;}
+.topbar-left{display:flex;align-items:center;gap:12px;}
+.page-title{font-size:15px;font-weight:700;}
+.topbar-right{display:flex;align-items:center;gap:8px;}
+.live-btn{display:flex;align-items:center;gap:5px;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.3);border-radius:6px;padding:4px 10px;font-size:12px;font-weight:600;color:var(--green);cursor:pointer;}
+.live-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 1.5s infinite;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.icon-btn{background:rgba(255,255,255,.06);border:1px solid var(--border);border-radius:6px;padding:5px 8px;cursor:pointer;color:var(--text2);font-size:13px;transition:all .15s;}
+.icon-btn:hover{background:rgba(255,255,255,.1);color:var(--text1);}
+
+/* DATE BAR */
+.datebar{background:var(--sidebar);border-bottom:1px solid var(--border);padding:8px 20px;display:flex;align-items:center;gap:10px;flex-shrink:0;flex-wrap:wrap;}
+.date-picker{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:5px 12px;cursor:pointer;font-size:13px;font-weight:500;}
+.period-tabs{display:flex;gap:2px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:3px;}
+.ptab{padding:4px 11px;border-radius:6px;font-size:12px;font-weight:500;cursor:pointer;color:var(--text2);border:none;background:none;transition:all .15s;}
+.ptab.active{background:var(--card2);color:var(--text1);}
+.compare-tog{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--text2);cursor:pointer;margin-left:4px;}
+.toggle{width:32px;height:18px;background:rgba(255,255,255,.1);border-radius:9px;position:relative;cursor:pointer;transition:background .2s;}
+.toggle.on{background:var(--accent);}
+.toggle::after{content:'';position:absolute;left:2px;top:2px;width:14px;height:14px;background:#fff;border-radius:50%;transition:left .2s;}
+.toggle.on::after{left:16px;}
+
+/* CONTENT */
+.content{flex:1;overflow-y:auto;padding:20px;}
+
+/* PANELS */
+.panel{display:none;}.panel.active{display:block;}
+
+/* PINS */
+.pins-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+.pins-title{font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.8px;}
+.pins-actions{display:flex;gap:6px;}
+.pins-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px;margin-bottom:20px;}
+.pin{flex-shrink:0;width:200px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;position:relative;cursor:pointer;transition:border-color .15s;}
+.pin:hover{border-color:rgba(151,71,255,.4);}
+.pin.warn{border-color:rgba(244,63,94,.35);}
+.pin-label{font-size:11px;color:var(--text2);font-weight:500;margin-bottom:6px;display:flex;align-items:center;gap:5px;}
+.pin-value{font-size:22px;font-weight:700;letter-spacing:-.5px;margin-bottom:5px;}
+.pin-trend{font-size:12px;font-weight:600;display:flex;align-items:center;gap:4px;}
+.pin-trend.up{color:var(--green);}.pin-trend.down{color:var(--red);}.pin-trend.flat{color:var(--text2);}
+.pin-spark{margin-top:8px;height:32px;}
+.warn-tag{position:absolute;top:10px;right:10px;background:rgba(244,63,94,.15);border:1px solid rgba(244,63,94,.3);border-radius:4px;padding:1px 6px;font-size:10px;font-weight:700;color:var(--red);}
+
+/* ATTRIBUTION TABLE */
+.section-card{background:var(--card);border:1px solid var(--border);border-radius:12px;margin-bottom:16px;overflow:hidden;}
+.section-header{padding:14px 18px;border-bottom:1px solid var(--border2);display:flex;align-items:center;justify-content:space-between;}
+.section-header-title{font-size:13px;font-weight:700;}
+.section-body{padding:0;}
+.attr-controls{display:flex;align-items:center;gap:8px;padding:12px 18px;border-bottom:1px solid var(--border2);}
+.attr-select{background:var(--card2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;color:var(--text1);font-size:12px;cursor:pointer;outline:none;}
+.tbl{width:100%;border-collapse:collapse;}
+.tbl th{color:var(--text2);font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;padding:10px 18px;text-align:right;border-bottom:1px solid var(--border2);background:rgba(255,255,255,.02);}
+.tbl th:first-child{text-align:left;}
+.tbl td{padding:11px 18px;text-align:right;border-bottom:1px solid var(--border2);font-size:13px;}
+.tbl td:first-child{text-align:left;}
+.tbl tr:last-child td{border-bottom:none;}
+.tbl tr:hover td{background:rgba(255,255,255,.02);}
+.source-cell{display:flex;align-items:center;gap:10px;}
+.source-icon{width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;}
+.source-icon.meta{background:rgba(24,119,242,.2);}
+.source-icon.google{background:rgba(234,67,53,.15);}
+.source-icon.klaviyo{background:rgba(22,163,74,.15);}
+.pos{color:var(--green);font-weight:600;}.neg{color:var(--red);font-weight:600;}
+.total-row td{font-weight:700;background:rgba(255,255,255,.02);}
+
+/* WEB ANALYTICS */
+.analytics-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;padding:16px 18px;}
+.ana-item{display:flex;flex-direction:column;gap:4px;}
+.ana-label{font-size:11px;color:var(--text2);font-weight:500;}
+.ana-value{font-size:18px;font-weight:700;}
+.ana-trend{font-size:11px;font-weight:600;}
+
+/* STORE ROW */
+.store-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:0;padding:0;}
+.sm-item{padding:16px 18px;border-right:1px solid var(--border2);}
+.sm-item:last-child{border-right:none;}
+.sm-label{font-size:11px;color:var(--text2);font-weight:500;margin-bottom:5px;}
+.sm-value{font-size:20px;font-weight:700;}
+
+/* LOADER */
+.loader-overlay{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:60px;color:var(--text2);font-size:13px;}
+.spinner{width:22px;height:22px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.err-bar{background:rgba(244,63,94,.1);border:1px solid rgba(244,63,94,.25);border-radius:8px;padding:10px 16px;color:var(--red);font-size:13px;margin-bottom:14px;display:none;}
+
+/* SETTINGS */
+.sg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;}
+.sg{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
+.sg h3{font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:.8px;margin-bottom:14px;}
+.sr{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
+.sr label{font-size:13px;color:var(--text1);}
+.sr input[type=number]{background:var(--card2);border:1px solid var(--border);border-radius:6px;padding:5px 10px;color:var(--text1);font-size:13px;font-weight:600;width:100px;text-align:right;outline:none;}
+.sr input[type=number]:focus{border-color:var(--accent);}
+.btn-save{margin-top:12px;width:100%;background:var(--accent);color:#fff;font-weight:600;font-size:13px;padding:9px;border-radius:8px;border:none;cursor:pointer;}
+.btn-save:hover{background:var(--accent2);}
+
+/* CHART */
+.chart-section{padding:16px 18px;}
+.chart-wrap{height:200px;position:relative;}
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-logo">
+    <div class="logo-icon">🐋</div>
+    <span class="logo-text">Triple Whale</span>
+  </div>
+
+  <div style="padding:8px;">
+    <div class="store-badge">
+      <div class="store-dot"></div>
+      <div>
+        <div class="store-name">drinknellio.com</div>
+        <div class="store-sub" id="syncBadge">Syncing...</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-section">Workspaces</div>
+  <button class="nav-item active" onclick="showPage('summary',this)"><span class="ico">📊</span> Summary</button>
+  <button class="nav-item" onclick="showPage('acquisition',this)"><span class="ico">📈</span> Marketing Acquisition</button>
+  <button class="nav-item" onclick="showPage('creative',this)"><span class="ico">🎨</span> Creative Analysis</button>
+  <button class="nav-item" onclick="showPage('conversion',this)"><span class="ico">🌐</span> Website Conversion</button>
+  <button class="nav-item" onclick="showPage('retention',this)"><span class="ico">👥</span> Customer Retention</button>
+
+  <div class="sidebar-divider"></div>
+  <div class="sidebar-section">Tools</div>
+  <button class="nav-item" onclick="showPage('moby',this)"><span class="ico">🤖</span> Moby AI</button>
+  <button class="nav-item" onclick="showPage('settings',this)"><span class="ico">⚙️</span> Settings</button>
+</div>
+
+<!-- MAIN -->
+<div class="main-area">
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <span class="page-title" id="pageTitle">Summary</span>
+    </div>
+    <div class="topbar-right">
+      <div class="live-btn"><div class="live-dot"></div> Live</div>
+      <button class="icon-btn" onclick="loadAll()">↻ Refresh</button>
+    </div>
+  </div>
+
+  <!-- DATE BAR -->
+  <div class="datebar">
+    <div class="period-tabs">
+      <button class="ptab" onclick="setPeriod('today',this)">Today</button>
+      <button class="ptab" onclick="setPeriod('yesterday',this)">Yesterday</button>
+      <button class="ptab active" onclick="setPeriod('7d',this)">Last 7d</button>
+      <button class="ptab" onclick="setPeriod('30d',this)">Last 30d</button>
+      <button class="ptab" onclick="setPeriod('mtd',this)">MTD</button>
+    </div>
+    <label class="compare-tog" onclick="toggleCompare()">
+      <div class="toggle on" id="cmpToggle"></div>
+      <span>vs. Previous Period</span>
+    </label>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+    <div id="errBar" class="err-bar"></div>
+
+    <!-- SUMMARY PAGE -->
+    <div id="page-summary" class="panel active">
+      <div id="summaryLoader" class="loader-overlay"><div class="spinner"></div> Loading data...</div>
+      <div id="summaryContent" style="display:none">
+
+        <!-- PINS -->
+        <div class="pins-header">
+          <span class="pins-title">Pinned Metrics</span>
+          <div class="pins-actions">
+            <button class="icon-btn" style="font-size:12px">+ Add Metric</button>
+          </div>
+        </div>
+        <div class="pins-row" id="pinsRow"></div>
+
+        <!-- ATTRIBUTION -->
+        <div class="section-card">
+          <div class="section-header">
+            <span class="section-header-title">Attribution</span>
+            <div style="display:flex;gap:6px;">
+              <select class="attr-select" id="attrModel">
+                <option>Last Click</option>
+                <option>First Click</option>
+                <option>Linear</option>
+              </select>
+              <select class="attr-select" id="attrWindow">
+                <option>7d click</option>
+                <option>1d click</option>
+                <option>28d click</option>
+              </select>
+            </div>
+          </div>
+          <div id="attrTable"></div>
+        </div>
+
+        <!-- SPEND vs REVENUE CHART -->
+        <div class="section-card">
+          <div class="section-header"><span class="section-header-title">Ad Spend vs Revenue</span></div>
+          <div class="chart-section"><div class="chart-wrap"><canvas id="cMain"></canvas></div></div>
+        </div>
+
+        <!-- WEB ANALYTICS -->
+        <div class="section-card">
+          <div class="section-header"><span class="section-header-title">Web Analytics</span></div>
+          <div class="analytics-grid" id="webAnalytics"></div>
+        </div>
+
+        <!-- STORE -->
+        <div class="section-card">
+          <div class="section-header"><span class="section-header-title">Store</span></div>
+          <div class="store-metrics" id="storeMetrics"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- MARKETING ACQUISITION -->
+    <div id="page-acquisition" class="panel">
+      <div class="section-card">
+        <div class="section-header"><span class="section-header-title">Marketing Acquisition</span></div>
+        <div id="acqTable" style="padding:16px 18px;"><div class="loader-overlay"><div class="spinner"></div></div></div>
+      </div>
+    </div>
+
+    <!-- CREATIVE ANALYSIS -->
+    <div id="page-creative" class="panel">
+      <div class="section-card">
+        <div class="section-header"><span class="section-header-title">Creative Analysis — Meta Ads</span></div>
+        <div id="creativeContent" style="padding:16px 18px;"><div class="loader-overlay"><div class="spinner"></div></div></div>
+      </div>
+    </div>
+
+    <!-- CUSTOMER RETENTION -->
+    <div id="page-retention" class="panel">
+      <div class="section-card">
+        <div class="section-header"><span class="section-header-title">Customer Retention</span></div>
+        <div id="retentionContent" style="padding:16px 18px;"><div class="loader-overlay"><div class="spinner"></div></div></div>
+      </div>
+    </div>
+
+    <!-- MOBY AI -->
+    <div id="page-moby" class="panel">
+      <div class="section-card">
+        <div class="section-header"><span class="section-header-title">🤖 Moby AI — Ask your data</span></div>
+        <div style="padding:30px;text-align:center;color:var(--text2)">
+          <div style="font-size:40px;margin-bottom:12px;">🐋</div>
+          <div style="font-size:16px;font-weight:600;margin-bottom:8px;color:var(--text1)">Ask Moby anything</div>
+          <div style="font-size:13px;margin-bottom:20px;">What was my ROAS last week? Which ad spent the most?</div>
+          <div style="display:flex;gap:10px;max-width:600px;margin:0 auto;">
+            <input id="mobyInput" type="text" placeholder="Ask a question about your data..." style="flex:1;background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:10px 14px;color:var(--text1);font-size:13px;outline:none;">
+            <button onclick="askMoby()" style="background:var(--accent);color:#fff;border:none;border-radius:8px;padding:10px 20px;font-weight:600;cursor:pointer;">Ask</button>
+          </div>
+          <div id="mobyAnswer" style="margin-top:20px;text-align:left;max-width:600px;margin:20px auto 0;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SETTINGS -->
+    <div id="page-settings" class="panel">
+      <div class="sg-grid">
+        <div class="sg">
+          <h3>Product Costs</h3>
+          <div class="sr"><label>COGS per order (EUR)</label><input type="number" id="s_cogs" step="0.01" min="0"></div>
+          <div class="sr"><label>Shipping per order (EUR)</label><input type="number" id="s_ship" step="0.01" min="0"></div>
+          <div class="sr"><label>Payment gateway (%)</label><input type="number" id="s_gw" step="0.1" min="0" placeholder="2.9"></div>
+          <button class="btn-save" onclick="saveSettings()">Save Changes</button>
+        </div>
+        <div class="sg">
+          <h3>Fixed Monthly Costs</h3>
+          <div class="sr"><label>Shopify (EUR/mo)</label><input type="number" id="s_shopify" step="1" min="0"></div>
+          <div class="sr"><label>Apps & SaaS (EUR/mo)</label><input type="number" id="s_apps" step="1" min="0"></div>
+          <div class="sr"><label>Other (EUR/mo)</label><input type="number" id="s_other" step="1" min="0"></div>
+          <button class="btn-save" onclick="saveSettings()">Save Changes</button>
+        </div>
+        <div class="sg">
+          <h3>Targets</h3>
+          <div class="sr"><label>ROAS target</label><input type="number" id="s_roas" step="0.1" min="0" placeholder="2.5"></div>
+          <div class="sr"><label>Revenue target (EUR/mo)</label><input type="number" id="s_rev" step="100" min="0"></div>
+          <div class="sr"><label>Daily Meta budget (EUR)</label><input type="number" id="s_budget" step="5" min="0" placeholder="65"></div>
+          <button class="btn-save" onclick="saveSettings()">Save Changes</button>
+        </div>
+        <div class="sg">
+          <h3>Integrations</h3>
+          <div style="margin-bottom:12px;">
+            <div style="font-size:11px;color:var(--text2);margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px;">Triple Whale API</div>
+            <div id="twStatus" style="font-size:13px;font-weight:600;color:var(--text2);">Checking...</div>
+          </div>
+          <div style="margin-bottom:12px;">
+            <div style="font-size:11px;color:var(--text2);margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px;">Shopify</div>
+            <div style="font-size:13px;font-weight:600;color:var(--green);">● drinknellio (kiud1v-ua)</div>
+          </div>
+          <button class="btn-save" onclick="testTW()">Test Connection</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /content -->
+</div><!-- /main -->
+
+<script>
+'use strict';
+
+// ── SETTINGS ──────────────────────────────────────────────
+var DEF = {cogs:0,ship:0,gw:2.9,shopify:29,apps:0,other:0,target_roas:2.5,target_rev:0,budget:65};
+function getSett(){ try{return Object.assign({},DEF,JSON.parse(localStorage.getItem('nellio_s')||'{}'));}catch(e){return Object.assign({},DEF);} }
+function saveSettings(){
+  var s=getSett();
+  s.cogs=parseFloat(document.getElementById('s_cogs').value)||0;
+  s.ship=parseFloat(document.getElementById('s_ship').value)||0;
+  s.gw=parseFloat(document.getElementById('s_gw').value)||2.9;
+  s.shopify=parseFloat(document.getElementById('s_shopify').value)||0;
+  s.apps=parseFloat(document.getElementById('s_apps').value)||0;
+  s.other=parseFloat(document.getElementById('s_other').value)||0;
+  s.target_roas=parseFloat(document.getElementById('s_roas').value)||2.5;
+  s.target_rev=parseFloat(document.getElementById('s_rev').value)||0;
+  s.budget=parseFloat(document.getElementById('s_budget').value)||65;
+  localStorage.setItem('nellio_s',JSON.stringify(s));
+  toast('Settings saved');
+  loadAll();
+}
+function loadSettUI(){
+  var s=getSett();
+  ['cogs','ship','gw','shopify','apps','other'].forEach(function(k){ var el=document.getElementById('s_'+k); if(el) el.value=s[k]||''; });
+  if(document.getElementById('s_roas')) document.getElementById('s_roas').value=s.target_roas||'';
+  if(document.getElementById('s_rev')) document.getElementById('s_rev').value=s.target_rev||'';
+  if(document.getElementById('s_budget')) document.getElementById('s_budget').value=s.budget||'';
+}
+
+// ── FORMAT ────────────────────────────────────────────────
+function fmtEur(v){ return '$'+Number(v||0).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0}); }
+function fmtX(v){  return Number(v||0).toFixed(2)+'x'; }
+function fmtPct(v){return Number(v||0).toFixed(1)+'%'; }
+function fmtNum(v){return Number(v||0).toLocaleString('en-US',{maximumFractionDigits:0}); }
+function trendPct(c,p){ if(!p||p===0) return null; return ((c-p)/Math.abs(p))*100; }
+function trendHTML(t){
+  if(t===null) return '';
+  var cls=t>0?'up':'down', icon=t>0?'▲':'▼', sign=t>0?'+':'';
+  return '<span class="pin-trend '+cls+'">'+icon+' '+sign+t.toFixed(1)+'%</span>';
+}
+function trendTd(t){
+  if(t===null||t===0) return '<td style="color:var(--text2)">—</td>';
+  var cls=t>0?'pos':'neg', icon=t>0?'▲':'▼';
+  return '<td class="'+cls+'">'+icon+' '+Math.abs(t).toFixed(1)+'%</td>';
+}
+
+// ── PERIOD ────────────────────────────────────────────────
+var period='7d', comparing=true;
+function setPeriod(p,btn){
+  period=p;
+  document.querySelectorAll('.ptab').forEach(function(b){b.classList.remove('active');});
+  btn.classList.add('active');
+  loadAll();
+}
+function toggleCompare(){
+  comparing=!comparing;
+  var t=document.getElementById('cmpToggle');
+  comparing?t.classList.add('on'):t.classList.remove('on');
+  loadAll();
+}
+function getDates(){
+  var now=new Date(), fmt=function(d){return d.toISOString().split('T')[0];};
+  var sod=function(d){return new Date(d.getFullYear(),d.getMonth(),d.getDate());};
+  if(period==='today')     return {s:fmt(sod(now)),e:fmt(now)};
+  if(period==='yesterday') {var y=new Date(now);y.setDate(y.getDate()-1);return {s:fmt(sod(y)),e:fmt(sod(y))};}
+  if(period==='7d')        {var s=new Date(now);s.setDate(s.getDate()-6);return {s:fmt(sod(s)),e:fmt(now)};}
+  if(period==='30d')       {var s=new Date(now);s.setDate(s.getDate()-29);return {s:fmt(sod(s)),e:fmt(now)};}
+  if(period==='mtd')       return {s:fmt(new Date(now.getFullYear(),now.getMonth(),1)),e:fmt(now)};
+  return {s:fmt(sod(now)),e:fmt(now)};
+}
+function daysBetween(s,e){return Math.max(1,Math.round((new Date(e)-new Date(s))/86400000)+1);}
+
+// ── TW DATA ───────────────────────────────────────────────
+function twM(data,id){
+  if(!data||!data.metrics) return {cur:0,prev:0,spark:[]};
+  var m=data.metrics.find(function(x){return x.metricId===id;});
+  if(!m) return {cur:0,prev:0,spark:[]};
+  return {
+    cur:parseFloat(m.values&&m.values.current||0),
+    prev:parseFloat(m.values&&m.values.previous||0),
+    spark:(m.charts&&m.charts.current||[]).map(function(p){return parseFloat(p.y)||0;})
+  };
+}
+
+// ── API ───────────────────────────────────────────────────
+function fetchTW(s,e){
+  return fetch('/api/tw/summary',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({startDate:s,endDate:e})})
+    .then(function(r){if(!r.ok) throw new Error('TW '+r.status); return r.json();});
+}
+function withTimeout(p,ms){
+  ms=ms||15000;
+  return Promise.race([p,new Promise(function(_,rej){setTimeout(function(){rej(new Error('Timeout'));},ms);})]);
+}
+
+// ── STATE ─────────────────────────────────────────────────
+var twData=null, charts={}, cache={};
+
+// ── MAIN LOAD ─────────────────────────────────────────────
+function loadAll(){
+  var d=getDates();
+  document.getElementById('errBar').style.display='none';
+  document.getElementById('summaryLoader').style.display='flex';
+  document.getElementById('summaryContent').style.display='none';
+
+  withTimeout(fetchTW(d.s,d.e))
+    .then(function(tw){
+      twData=tw;
+      buildCache(tw,d);
+      renderPins(tw);
+      renderAttribution(tw);
+      renderChart(tw);
+      renderWebAnalytics(tw);
+      renderStore(tw);
+      if(document.getElementById('acqTable')) renderAcquisition(tw);
+      document.getElementById('syncBadge').textContent='Synced '+new Date().toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+    })
+    .catch(function(e){
+      document.getElementById('errBar').textContent='API Error: '+e.message+' — showing demo data';
+      document.getElementById('errBar').style.display='block';
+      var mock=buildMock(d);
+      buildCache(mock,d);
+      renderPins(mock);
+      renderAttribution(mock);
+      renderChart(mock);
+      renderWebAnalytics(mock);
+      renderStore(mock);
+    })
+    .finally(function(){
+      document.getElementById('summaryLoader').style.display='none';
+      document.getElementById('summaryContent').style.display='block';
+    });
+}
+
+function buildCache(tw,d){
+  var s=getSett();
+  var days=daysBetween(d.s,d.e);
+  var fixed=(s.shopify+s.apps+s.other)*(days/30);
+  cache={
+    revenue:   twM(tw,'netSales').cur,
+    spend:     twM(tw,'blendedAds').cur,
+    fbSpend:   twM(tw,'fb_ads_spend').cur,
+    gaSpend:   twM(tw,'ga_adCost').cur,
+    netProfit: twM(tw,'totalNetProfit').cur,
+    netMargin: twM(tw,'totalNetMargin').cur,
+    roas:      twM(tw,'totalRoas').cur,
+    fbRoas:    twM(tw,'fb_ads_purchase_roas').cur,
+    gaRoas:    twM(tw,'ga_ROAS').cur,
+    orders:    twM(tw,'totalOrders').cur,
+    aov:       twM(tw,'shopifyAov').cur,
+    cpa:       twM(tw,'totalCpa').cur,
+    newPct:    twM(tw,'newCustomersPercent').cur,
+    klRev:     twM(tw,'klaviyoPlacedOrderSales').cur,
+    klPct:     twM(tw,'totalKlaviyoPlacedOrderSalesPercent').cur,
+    fbPurchases: twM(tw,'facebookPurchases').cur,
+    fbRev:     twM(tw,'facebookConversionValue').cur,
+    gaRev:     twM(tw,'googleConversionValue').cur,
+    gaOrders:  twM(tw,'ga_all_transactions_adGroup').cur,
+    totalCogs: twM(tw,'totalProductCosts').cur,
+    totalShip: twM(tw,'totalShippingCosts').cur,
+    gwFees:    twM(tw,'totalPaymentGatewayCosts').cur,
+    grossProfit: twM(tw,'grossProfit').cur,
+    fixed:fixed, s:s, days:days
+  };
+}
+
+// ── PINS ──────────────────────────────────────────────────
+function makeSpark(data, color){
+  var c=document.createElement('canvas');
+  c.style.width='100%'; c.style.height='32px';
+  setTimeout(function(){
+    new Chart(c,{type:'line',data:{labels:data.map(function(_,i){return i;}),datasets:[{data:data,borderColor:color||'rgba(151,71,255,.8)',borderWidth:1.5,fill:true,backgroundColor:color?color.replace(')',',0.1)').replace('rgb','rgba'):'rgba(151,71,255,.08)',tension:.4,pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{enabled:false}},scales:{x:{display:false},y:{display:false}}}});
+  },50);
+  return c;
+}
+
+function renderPins(tw){
+  var s=getSett();
+  var pins=[
+    {label:'Total Sales',    id:'netSales',       fmt:fmtEur, warn:false},
+    {label:'Net Profit',     id:'totalNetProfit', fmt:fmtEur, warn:cache.netProfit<0},
+    {label:'Blended ROAS',   id:'totalRoas',      fmt:fmtX,   warn:cache.roas<s.target_roas, warnColor:true},
+    {label:'Ad Spend',       id:'blendedAds',     fmt:fmtEur, warn:false},
+    {label:'Meta Spend',     id:'fb_ads_spend',   fmt:fmtEur, warn:false},
+    {label:'Meta ROAS',      id:'fb_ads_purchase_roas', fmt:fmtX, warn:cache.fbRoas<s.target_roas},
+    {label:'Orders',         id:'totalOrders',    fmt:fmtNum, warn:false},
+    {label:'AOV',            id:'shopifyAov',     fmt:fmtEur, warn:false},
+    {label:'Net Margin',     id:'totalNetMargin', fmt:fmtPct, warn:cache.netMargin<10},
+    {label:'CPA',            id:'totalCpa',       fmt:fmtEur, warn:false},
+    {label:'New Customers',  id:'newCustomersPercent', fmt:fmtPct, warn:false},
+    {label:'Klaviyo Rev.',   id:'klaviyoPlacedOrderSales', fmt:fmtEur, warn:false},
+  ];
+  var row=document.getElementById('pinsRow');
+  row.innerHTML='';
+  pins.forEach(function(p){
+    var m=twM(tw,p.id);
+    var t=trendPct(m.cur,m.prev);
+    var div=document.createElement('div');
+    div.className='pin'+(p.warn?' warn':'');
+    var warnTag=p.warn?'<div class="warn-tag">Watch</div>':'';
+    var trendH=t!==null?'<div class="pin-trend '+(t>0?'up':'down')+'">'+(t>0?'▲':'▼')+' '+Math.abs(t).toFixed(1)+'% vs prev</div>':'<div class="pin-trend flat">— No change</div>';
+    div.innerHTML=warnTag+'<div class="pin-label">'+p.label+'</div><div class="pin-value">'+p.fmt(m.cur)+'</div>'+trendH+'<div class="pin-spark" id="spark-'+p.id+'"></div>';
+    row.appendChild(div);
+    if(m.spark&&m.spark.length>1){
+      var container=div.querySelector('.pin-spark');
+      var color=t===null?'rgba(151,71,255,.8)':t>=0?'rgba(34,197,94,.8)':'rgba(244,63,94,.8)';
+      container.appendChild(makeSpark(m.spark,color));
+    }
+  });
+}
+
+// ── ATTRIBUTION ───────────────────────────────────────────
+function renderAttribution(tw){
+  var s=getSett();
+  var totalRev=cache.revenue, totalSpend=cache.spend;
+  var rows=[
+    {ico:'📘',cls:'meta',   name:'Meta Ads',  spend:cache.fbSpend, rev:cache.fbRev,  roas:cache.fbRoas, orders:cache.fbPurchases, cpa:cache.fbSpend>0&&cache.fbPurchases>0?cache.fbSpend/cache.fbPurchases:0},
+    {ico:'🔍',cls:'google', name:'Google Ads',spend:cache.gaSpend, rev:cache.gaRev,  roas:cache.gaRoas, orders:cache.gaOrders, cpa:cache.gaSpend>0&&cache.gaOrders>0?cache.gaSpend/cache.gaOrders:0},
+    {ico:'📧',cls:'klaviyo',name:'Klaviyo',   spend:0,             rev:cache.klRev,  roas:0,            orders:0, cpa:0, note:fmtPct(cache.klPct)+' of revenue'},
+  ].filter(function(r){return r.spend>0||r.rev>0;});
+
+  var totalRow='<tr class="total-row"><td style="font-weight:700">Total</td><td>'+fmtEur(totalSpend)+'</td><td>'+fmtEur(totalRev)+'</td><td>'+fmtX(cache.roas)+'</td><td>'+fmtNum(cache.orders)+'</td><td>'+fmtEur(cache.cpa)+'</td>'+(comparing?'<td>—</td>':'')+'</tr>';
+
+  document.getElementById('attrTable').innerHTML=
+    '<table class="tbl"><thead><tr>'+
+    '<th>Source</th><th>Spend</th><th>Revenue</th><th>ROAS</th><th>Purchases</th><th>CPA</th>'+(comparing?'<th>vs Prev</th>':'')+
+    '</tr></thead><tbody>'+
+    rows.map(function(r){
+      var roasCls=r.roas>0?(r.roas>=s.target_roas?'pos':'neg'):'';
+      var prevRoas=r.cls==='meta'?twM(tw,'fb_ads_purchase_roas').prev:r.cls==='google'?twM(tw,'ga_ROAS').prev:0;
+      var t=trendPct(r.roas,prevRoas);
+      return '<tr>'+
+        '<td><div class="source-cell"><div class="source-icon '+r.cls+'">'+r.ico+'</div><div><div style="font-weight:600">'+r.name+'</div>'+(r.note?'<div style="font-size:11px;color:var(--text2)">'+r.note+'</div>':'')+'</div></div></td>'+
+        '<td>'+fmtEur(r.spend)+'</td>'+
+        '<td>'+fmtEur(r.rev)+'</td>'+
+        '<td class="'+roasCls+'">'+fmtX(r.roas)+'</td>'+
+        '<td>'+fmtNum(r.orders)+'</td>'+
+        '<td>'+(r.cpa>0?fmtEur(r.cpa):'—')+'</td>'+
+        (comparing?trendTd(t):'')+
+        '</tr>';
+    }).join('')+totalRow+'</tbody></table>';
+}
+
+// ── CHART ─────────────────────────────────────────────────
+function renderChart(tw){
+  var rev=twM(tw,'netSales').spark;
+  var sp=twM(tw,'blendedAds').spark;
+  var n=Math.max(rev.length,sp.length);
+  var labels=[];for(var i=1;i<=n;i++)labels.push('Day '+i);
+  var ctx=document.getElementById('cMain');
+  if(charts.main) charts.main.destroy();
+  charts.main=new Chart(ctx,{type:'bar',data:{labels:labels,datasets:[
+    {label:'Revenue',data:rev,backgroundColor:'rgba(34,197,94,.6)',borderRadius:4,borderSkipped:false},
+    {label:'Ad Spend',data:sp,backgroundColor:'rgba(244,63,94,.6)',borderRadius:4,borderSkipped:false}
+  ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#94a3b8',font:{size:11}}}},scales:{x:{ticks:{color:'#475569'},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:'#475569',callback:function(v){return '$'+v.toLocaleString();}},grid:{color:'rgba(255,255,255,.05)'}}}}});
+}
+
+// ── WEB ANALYTICS ─────────────────────────────────────────
+function renderWebAnalytics(tw){
+  var items=[
+    {l:'CVR',      v:fmtPct(twM(tw,'googleAllCpa').cur),          t:null},
+    {l:'Clicks',   v:fmtNum(twM(tw,'facebookClicks').cur),        t:trendPct(twM(tw,'facebookClicks').cur,twM(tw,'facebookClicks').prev)},
+    {l:'Impressions',v:fmtNum(twM(tw,'facebookImpressions').cur), t:null},
+    {l:'CTR (Meta)',  v:fmtPct(twM(tw,'facebookCtr').cur),        t:null},
+    {l:'CPM (Meta)',  v:fmtEur(twM(tw,'averageFacebookCpm').cur), t:null},
+    {l:'CPC (Meta)',  v:fmtEur(twM(tw,'averageFacebookCpc').cur), t:null},
+  ];
+  document.getElementById('webAnalytics').innerHTML=items.map(function(i){
+    var t=i.t!==null?'<div class="ana-trend '+(i.t>0?'pos':'neg')+'">'+(i.t>0?'▲':'▼')+' '+Math.abs(i.t).toFixed(1)+'%</div>':'';
+    return '<div class="ana-item"><div class="ana-label">'+i.l+'</div><div class="ana-value">'+i.v+'</div>'+t+'</div>';
+  }).join('');
+}
+
+// ── STORE ─────────────────────────────────────────────────
+function renderStore(tw){
+  var items=[
+    {l:'Orders',   v:fmtNum(cache.orders)},
+    {l:'True AOV', v:fmtEur(cache.aov)},
+    {l:'Refunds',  v:fmtEur(twM(tw,'totalRefunds').cur)},
+  ];
+  document.getElementById('storeMetrics').innerHTML=items.map(function(i){
+    return '<div class="sm-item"><div class="sm-label">'+i.l+'</div><div class="sm-value">'+i.v+'</div></div>';
+  }).join('');
+}
+
+// ── ACQUISITION ───────────────────────────────────────────
+function renderAcquisition(tw){
+  document.getElementById('acqTable').innerHTML=
+    '<table class="tbl"><thead><tr><th>Channel</th><th>Spend</th><th>Revenue</th><th>ROAS</th><th>Orders</th><th>CPA</th><th>CPM</th><th>CTR</th></tr></thead>'+
+    '<tbody>'+
+    '<tr><td><div class="source-cell"><div class="source-icon meta">📘</div> Meta Ads</div></td><td>'+fmtEur(cache.fbSpend)+'</td><td>'+fmtEur(cache.fbRev)+'</td><td class="'+(cache.fbRoas>=getSett().target_roas?'pos':'neg')+'">'+fmtX(cache.fbRoas)+'</td><td>'+fmtNum(cache.fbPurchases)+'</td><td>'+fmtEur(cache.fbSpend>0&&cache.fbPurchases>0?cache.fbSpend/cache.fbPurchases:0)+'</td><td>'+fmtEur(twM(tw,'averageFacebookCpm').cur)+'</td><td>'+fmtPct(twM(tw,'facebookCtr').cur)+'</td></tr>'+
+    '<tr><td><div class="source-cell"><div class="source-icon google">🔍</div> Google Ads</div></td><td>'+fmtEur(cache.gaSpend)+'</td><td>'+fmtEur(cache.gaRev)+'</td><td class="'+(cache.gaRoas>=getSett().target_roas?'pos':'neg')+'">'+fmtX(cache.gaRoas)+'</td><td>'+fmtNum(cache.gaOrders)+'</td><td>'+fmtEur(cache.gaSpend>0&&cache.gaOrders>0?cache.gaSpend/cache.gaOrders:0)+'</td><td>'+fmtEur(twM(tw,'totalGoogleAdsCpm').cur)+'</td><td>'+fmtPct(twM(tw,'totalGoogleAdsCtr').cur)+'</td></tr>'+
+    '</tbody></table>';
+}
+
+// ── MOBY ──────────────────────────────────────────────────
+function askMoby(){
+  var q=document.getElementById('mobyInput').value.trim();
+  if(!q) return;
+  var ans=document.getElementById('mobyAnswer');
+  ans.innerHTML='<div class="loader-overlay" style="padding:20px"><div class="spinner"></div></div>';
+  var c=cache;
+  var s=getSett();
+  var answer='Based on your '+period+' data:<br><br>';
+  var ql=q.toLowerCase();
+  if(ql.includes('roas'))        answer+='Your blended ROAS is <strong>'+fmtX(c.roas)+'</strong>. Meta ROAS: '+fmtX(c.fbRoas)+', Google ROAS: '+fmtX(c.gaRoas)+'.';
+  else if(ql.includes('spend'))  answer+='Total ad spend: <strong>'+fmtEur(c.spend)+'</strong>. Meta: '+fmtEur(c.fbSpend)+', Google: '+fmtEur(c.gaSpend)+'.';
+  else if(ql.includes('profit')) answer+='Net profit: <strong>'+fmtEur(c.netProfit)+'</strong> ('+fmtPct(c.netMargin)+' margin).';
+  else if(ql.includes('order'))  answer+='Total orders: <strong>'+fmtNum(c.orders)+'</strong>. AOV: '+fmtEur(c.aov)+'. CPA: '+fmtEur(c.cpa)+'.';
+  else if(ql.includes('revenue')||ql.includes('sales')) answer+='Net sales: <strong>'+fmtEur(c.revenue)+'</strong>. Klaviyo contributed '+fmtPct(c.klPct)+' ('+fmtEur(c.klRev)+').';
+  else answer+='ROAS: '+fmtX(c.roas)+' | Revenue: '+fmtEur(c.revenue)+' | Spend: '+fmtEur(c.spend)+' | Orders: '+fmtNum(c.orders)+' | Net Profit: '+fmtEur(c.netProfit);
+  setTimeout(function(){ ans.innerHTML='<div style="background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:16px;font-size:13px;line-height:1.7;">🐋 '+answer+'</div>'; },600);
+}
+
+// ── MOCK ──────────────────────────────────────────────────
+function buildMock(d){
+  return {metrics:[
+    {metricId:'netSales',           values:{current:21555,previous:5159}, charts:{current:[{y:3200},{y:4100},{y:3800},{y:4900},{y:5555}]}},
+    {metricId:'blendedAds',         values:{current:12916,previous:13653},charts:{current:[{y:2400},{y:2600},{y:2300},{y:2800},{y:2816}]}},
+    {metricId:'totalNetProfit',     values:{current:3409,previous:-9743}, charts:{current:[{y:400},{y:800},{y:600},{y:900},{y:709}]}},
+    {metricId:'totalNetMargin',     values:{current:15.8,previous:-188.8}},
+    {metricId:'totalRoas',          values:{current:1.67,previous:0.38},  charts:{current:[{y:1.3},{y:1.6},{y:1.7},{y:1.7},{y:1.9}]}},
+    {metricId:'shopifyAov',         values:{current:53.9,previous:54.3}},
+    {metricId:'totalOrders',        values:{current:400,previous:95},     charts:{current:[{y:70},{y:85},{y:75},{y:90},{y:80}]}},
+    {metricId:'totalCpa',           values:{current:32.3,previous:143.7}},
+    {metricId:'fb_ads_spend',       values:{current:12516,previous:13274},charts:{current:[{y:2300},{y:2500},{y:2200},{y:2700},{y:2816}]}},
+    {metricId:'fb_ads_purchase_roas',values:{current:1.43,previous:1.58},charts:{current:[{y:1.2},{y:1.4},{y:1.5},{y:1.4},{y:1.6}]}},
+    {metricId:'facebookConversionValue',values:{current:17909,previous:20961}},
+    {metricId:'facebookPurchases',  values:{current:334,previous:399}},
+    {metricId:'facebookClicks',     values:{current:9414,previous:10513}},
+    {metricId:'facebookImpressions',values:{current:526188,previous:581461}},
+    {metricId:'facebookCtr',        values:{current:1.79,previous:1.81}},
+    {metricId:'averageFacebookCpm', values:{current:23.8,previous:22.8}},
+    {metricId:'averageFacebookCpc', values:{current:1.33,previous:1.26}},
+    {metricId:'ga_adCost',          values:{current:399,previous:379}},
+    {metricId:'ga_ROAS',            values:{current:8.94,previous:9.32}},
+    {metricId:'googleConversionValue',values:{current:3572,previous:3534}},
+    {metricId:'ga_all_transactions_adGroup',values:{current:56,previous:65}},
+    {metricId:'totalGoogleAdsCtr',  values:{current:12.9,previous:12.1}},
+    {metricId:'totalGoogleAdsCpm',  values:{current:73.3,previous:64.3}},
+    {metricId:'googleAllCpa',       values:{current:7.1,previous:5.8}},
+    {metricId:'klaviyoPlacedOrderSales',values:{current:3150,previous:3301}},
+    {metricId:'totalKlaviyoPlacedOrderSalesPercent',values:{current:14.6,previous:64}},
+    {metricId:'newCustomersPercent',values:{current:91,previous:85}},
+    {metricId:'totalProductCosts',  values:{current:1494,previous:368}},
+    {metricId:'totalShippingCosts', values:{current:2164,previous:503}},
+    {metricId:'totalPaymentGatewayCosts',values:{current:1572,previous:378}},
+    {metricId:'grossProfit',        values:{current:16325,previous:3909}},
+    {metricId:'totalRefunds',       values:{current:13.5,previous:0}},
+  ]};
+}
+
+// ── UI HELPERS ────────────────────────────────────────────
+function showPage(id,btn){
+  document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('active');});
+  document.querySelectorAll('.nav-item').forEach(function(b){b.classList.remove('active');});
+  var page=document.getElementById('page-'+id);
+  if(page) page.classList.add('active');
+  if(btn) btn.classList.add('active');
+  var titles={summary:'Summary',acquisition:'Marketing Acquisition',creative:'Creative Analysis',conversion:'Website Conversion',retention:'Customer Retention',moby:'Moby AI',settings:'Settings'};
+  document.getElementById('pageTitle').textContent=titles[id]||id;
+  if(id==='acquisition'&&twData) renderAcquisition(twData);
+}
+function testTW(){
+  document.getElementById('twStatus').textContent='Testing...';
+  fetch('/api/tw/ping').then(function(r){return r.json();}).then(function(d){
+    document.getElementById('twStatus').textContent=d.ok?'● Connected — '+d.data.user.email:'● Error '+d.status;
+    document.getElementById('twStatus').style.color=d.ok?'var(--green)':'var(--red)';
+  }).catch(function(e){document.getElementById('twStatus').textContent='● '+e.message;document.getElementById('twStatus').style.color='var(--red)';});
+}
+function toast(msg){
+  var t=document.createElement('div');
+  t.style.cssText='position:fixed;bottom:20px;right:20px;background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:10px 16px;font-size:13px;font-weight:600;z-index:9999;';
+  t.textContent=msg; document.body.appendChild(t);
+  setTimeout(function(){t.remove();},2500);
+}
+
+// ── INIT ──────────────────────────────────────────────────
+loadSettUI();
+testTW();
+loadAll();
+setInterval(loadAll,5*60*1000);
+</script>
+</body>
+</html>

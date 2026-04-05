@@ -1,0 +1,93 @@
+Alright guys, so when it comes to actually testing white listing ads, there are going
+to be two ways to do this.
+So the first way, if you are spending a lot less, then what you should likely do is just
+actually test inside your one campaign.
+So this client is spending a little bit more, but their main campaign is like below 100
+hours a day.
+It's super, super slow.
+And the reason why we recommend testing your white listed ads inside of this campaign is
+just because of the fact that you don't have a ton of budget.
+Okay, so you don't really have a lot of budget to play with and go and test these things.
+So just run them inside of your main campaign and let that be it.
+So whatever ad that you have, I would just go ahead and set it up.
+White listed.
+Again, we're honestly, we're doing this for basically all of our brands that I would
+say are spending less than, less than 2K per day, just throw it in here.
+Like you need all the performance, you can to scale things up.
+If you guys really want to be specific with how you test this, you can test the ad on
+its own to your native page and then also the ad white listed.
+But for us, we would just recommend like, hey, once you have white listing access, you
+can just run the creative for that creator inside of there.
+Now again, if you have a raw content campaign, if you guys don't know what a raw content
+campaign is, that's what this over here.
+So we this campaign specifically is just raw content.
+You guys can also throw that inside of there if you want.
+It doesn't really matter, just know that if you're smaller budget, just throw this stuff
+inside of the main campaign through CBO.
+And you're going to be fine.
+It's likely going to get Spanish likely to perform and you're going to be good to go.
+But the way that we're testing it for bigger brands right now, again, just for the sake
+of not being over leverage is to make sure that we're testing this separately.
+Now, we did run an ABO for this specifically, but you guys do not need to run ABO.
+The reason why the raw is so high here is not because of the ABO, because the ad is because
+the whitelisting is working well.
+What you guys can do is you can also just set up a whitelisting campaign, put it as a CBO
+and just let the budget rip.
+It's going to probably be a little bit more efficient than ABO.
+And this is something that we just wanted to see.
+We were forcing spend to see if Facebook could figure it out and Facebook is fine.
+So a lot of the times we're just testing random shit.
+So if you guys see us doing ABO stuff or all this random weird shit, it's just because
+we're testing and trying to break the strategy.
+We're telling you guys what's working and then we're going there and trying to break
+it and prove it wrong.
+But we haven't really been able to do that.
+So the point is, is inside of here now, what I want you guys to understand is if you're
+spending more than two or three K per day, you can also try setting up a whitelisting
+only campaign and taking all of your top creator ads and putting them through the whitelisting
+pages that you have and launching that to see how it does.
+Because again, it's going to be coming from a new page.
+It's going to be the same ad, but it could just be good for you to see.
+If you're ultimate chat and you don't give a shit, just throw everything in the same campaign
+and you're good to go.
+There is no best way to do this.
+Just understand that the way that you test the ad doesn't really matter.
+We just wanted to keep this segmented and separate just to get data from whitelisting
+to see how it does.
+So now moving forward, what we're doing is we're just putting any of our content creator
+ads into the raw content campaign as a whitelisted ad because we've seen that the whitelisting
+does help.
+It does work.
+So that's all we're doing.
+That is the process for it.
+Just keep in mind, again, that your creator is going to be getting all the comments and
+they're going to be getting all of the follows and profile visits and all that kind of stuff.
+So if you want to keep building up your Instagram profile, then I would maybe not consider switching
+all of your ads over.
+Just keep that in mind.
+But at the end of the day, if it gives you better performance, then it's definitely worth
+it.
+So that's what I would recommend doing.
+So again, just to be super, super clear, if you're spending less than 2K per day, you
+could probably just throw all of your whitelisted ads or your ads into this campaign as whitelisted
+ads, just into your main campaign or into your raw content campaign either or.
+And if you're spending over 2K per day, then what you can do is you can just set up a separate
+whitelisting campaign.
+Okay.
+And this brand was actually spending more, I think, 27 divided by 7.
+I don't know what that is.
+It's about like three and eight.
+It was about 4K per day just on the raw content campaign specifically.
+And so that's why we had this separated.
+We just had to scale down and now turn things off because of stock.
+But I want you guys to understand that the second option is, again, just a whitelisting
+campaign, take off your top creators, put it on their pages, throw it in there.
+And this is almost like a second raw content campaign.
+But when it comes to new creatives specifically, once you see that whitelisting is working
+good for you, then you can probably just merge the two.
+But again, I just don't want you guys to be over leveraged on a specific creator and
+then have them yank access and now you're in a weird spot.
+So that's why we've kept it separate just to be better safe than sorry.
+But again, there's no right or wrong way to do this.
+I just wanted to show you again the two ways that we were doing it.
+So hopefully that makes sense and if you guys have questions on this, please let me know.

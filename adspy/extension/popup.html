@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>ADSPY PRO</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 320px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #111827; color: #fff; }
+
+  .header { padding: 14px 16px; border-bottom: 1px solid #1f2937; display: flex; align-items: center; gap: 10px; }
+  .logo { width: 28px; height: 28px; background: linear-gradient(135deg, #ef4444, #8b5cf6); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+  .title { font-weight: 700; font-size: 15px; }
+  .subtitle { font-size: 11px; color: #6b7280; }
+
+  .status-bar { padding: 10px 16px; background: #0d0d0d; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #1f2937; }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .status-dot.ok { background: #10b981; }
+  .status-dot.error { background: #ef4444; }
+  .status-text { font-size: 12px; color: #9ca3af; }
+
+  .section { padding: 12px 16px; border-bottom: 1px solid #1f2937; }
+  .section-title { font-size: 11px; font-weight: 600; color: #6b7280; margin-bottom: 8px; letter-spacing: 0.05em; text-transform: uppercase; }
+
+  .source-info { display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: #0d0d0d; border-radius: 8px; }
+  .source-icon { font-size: 18px; }
+  .source-text { font-size: 12px; color: #9ca3af; flex: 1; }
+  .source-text strong { color: #fff; display: block; font-size: 13px; }
+  .detected-badge { background: #d1fae5; color: #065f46; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+
+  .board-select { width: 100%; padding: 8px 10px; background: #1f2937; border: 1px solid #374151; border-radius: 8px; color: #fff; font-size: 13px; margin-bottom: 8px; cursor: pointer; }
+  .board-select option { background: #1f2937; }
+
+  .btn { width: 100%; padding: 10px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
+  .btn-primary { background: #111827; color: #fff; border: 1px solid #374151; }
+  .btn-primary:hover { background: #1f2937; }
+  .btn-accent { background: linear-gradient(135deg, #ef4444, #8b5cf6); color: #fff; }
+  .btn-accent:hover { opacity: 0.9; }
+  .btn-sm { padding: 6px 12px; width: auto; font-size: 12px; }
+
+  .supported-sites { display: flex; flex-direction: column; gap: 4px; }
+  .site-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; }
+  .site-icon { font-size: 16px; width: 24px; text-align: center; }
+  .site-name { font-size: 12px; color: #9ca3af; flex: 1; }
+  .site-status { font-size: 10px; }
+  .site-status.ready { color: #10b981; }
+  .site-status.soon { color: #f59e0b; }
+
+  .open-btn { margin: 12px 16px; }
+  .open-btn .btn { background: #fff; color: #111827; }
+  .open-btn .btn:hover { background: #f9fafb; }
+
+  .recent-section { padding: 12px 16px; max-height: 200px; overflow-y: auto; }
+  .recent-item { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid #1f2937; }
+  .recent-emoji { font-size: 16px; }
+  .recent-info { flex: 1; min-width: 0; }
+  .recent-brand { font-size: 12px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .recent-source { font-size: 10px; color: #6b7280; }
+  .recent-time { font-size: 10px; color: #4b5563; }
+
+  .footer { padding: 10px 16px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #1f2937; }
+  .footer-link { font-size: 11px; color: #6b7280; cursor: pointer; text-decoration: none; }
+  .footer-link:hover { color: #9ca3af; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">🔭</div>
+  <div>
+    <div class="title">ADSPY PRO</div>
+    <div class="subtitle">Intelligence Compétitive</div>
+  </div>
+</div>
+
+<!-- API Status -->
+<div class="status-bar">
+  <div class="status-dot" id="api-dot"></div>
+  <span class="status-text" id="api-status">Vérification...</span>
+</div>
+
+<!-- Current page detection -->
+<div class="section">
+  <div class="section-title">Page actuelle</div>
+  <div class="source-info" id="source-info">
+    <div class="source-icon">🔍</div>
+    <div class="source-text"><strong id="source-name">Détection...</strong><span id="source-url" style="font-size:10px"></span></div>
+    <span class="detected-badge" id="detected-badge" style="display:none">✓ Supportée</span>
+  </div>
+</div>
+
+<!-- Save action -->
+<div class="section" id="save-section" style="display:none">
+  <div class="section-title">Sauvegarder dans</div>
+  <select class="board-select" id="board-select">
+    <option value="__extension__">📥 Extension Saves</option>
+  </select>
+  <button class="btn btn-accent" onclick="saveCurrentAd()">🔭 Sauvegarder cette page</button>
+</div>
+
+<!-- Sites supportés -->
+<div class="section">
+  <div class="section-title">Sites supportés</div>
+  <div class="supported-sites">
+    <div class="site-row">
+      <div class="site-icon">📘</div>
+      <div class="site-name">Facebook Ad Library</div>
+      <span class="site-status ready">✓ Actif</span>
+    </div>
+    <div class="site-row">
+      <div class="site-icon">♪</div>
+      <div class="site-name">TikTok Creative Center</div>
+      <span class="site-status ready">✓ Actif</span>
+    </div>
+    <div class="site-row">
+      <div class="site-icon">📸</div>
+      <div class="site-name">Instagram</div>
+      <span class="site-status soon">⏳ Bientôt</span>
+    </div>
+    <div class="site-row">
+      <div class="site-icon">🔍</div>
+      <div class="site-name">Google Ads Transparency</div>
+      <span class="site-status soon">⏳ Bientôt</span>
+    </div>
+  </div>
+</div>
+
+<!-- Recent saves -->
+<div class="recent-section">
+  <div style="font-size:11px;font-weight:600;color:#6b7280;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.05em">Récemment sauvegardé</div>
+  <div id="recent-list"><div style="font-size:12px;color:#4b5563;text-align:center;padding:12px 0">Aucun élément</div></div>
+</div>
+
+<div class="open-btn">
+  <button class="btn" onclick="openAdspy()">🔭 Ouvrir ADSPY PRO</button>
+</div>
+
+<div class="footer">
+  <span class="footer-link" onclick="chrome.runtime.sendMessage({type:'CHECK_API'})">↺ Rafraîchir</span>
+  <span class="footer-link" onclick="openAdspy('meta-config')">⚙️ Config Meta API</span>
+  <span style="font-size:10px;color:#374151">v1.0</span>
+</div>
+
+<script>
+const API = 'http://localhost:3004/api';
+
+async function init() {
+  // Check API
+  chrome.runtime.sendMessage({ type: 'CHECK_API' }, (response) => {
+    const dot = document.getElementById('api-dot');
+    const status = document.getElementById('api-status');
+    if (response?.ok) {
+      dot.className = 'status-dot ok';
+      status.textContent = 'ADSPY PRO connecté ✓';
+    } else {
+      dot.className = 'status-dot error';
+      status.textContent = 'ADSPY PRO non disponible — lancez localhost:3004';
+    }
+  });
+
+  // Detect current tab
+  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  const url = tab?.url || '';
+  detectPageSource(url);
+
+  // Load boards
+  chrome.runtime.sendMessage({ type: 'GET_BOARDS' }, (response) => {
+    const boards = response?.boards || [];
+    const select = document.getElementById('board-select');
+    select.innerHTML = boards.map(b => `<option value="${b._id}">${b.emoji} ${b.name}</option>`).join('');
+    select.innerHTML += '<option value="__extension__">🔌 Extension Saves</option>';
+  });
+
+  // Load recent saves
+  try {
+    const r = await fetch(`${API}/saved`);
+    const items = await r.json();
+    const recent = items.slice(0, 5);
+    const list = document.getElementById('recent-list');
+    if (recent.length > 0) {
+      list.innerHTML = recent.map(item => `
+        <div class="recent-item">
+          <div class="recent-emoji">${item.data?.emoji || '📢'}</div>
+          <div class="recent-info">
+            <div class="recent-brand">${item.data?.brand || item.data?.name || '—'}</div>
+            <div class="recent-source">${item.source || item.type} · ${item.data?.domain || ''}</div>
+          </div>
+          <div class="recent-time">${timeAgo(item.savedAt)}</div>
+        </div>
+      `).join('');
+    }
+  } catch(e) {}
+}
+
+function detectPageSource(url) {
+  const info = document.getElementById('source-info');
+  const name = document.getElementById('source-name');
+  const sourceUrl = document.getElementById('source-url');
+  const badge = document.getElementById('detected-badge');
+  const saveSection = document.getElementById('save-section');
+
+  if (url.includes('facebook.com/ads/library')) {
+    name.textContent = 'Facebook Ad Library';
+    sourceUrl.textContent = 'Boutons "Save" injectés sur les ads';
+    badge.style.display = '';
+    saveSection.style.display = 'block';
+    document.getElementById('save-section').querySelector('.section-title').textContent = 'Sauvegarder la page entière';
+  } else if (url.includes('library.tiktok.com') || url.includes('tiktok.com/business')) {
+    name.textContent = 'TikTok Ad Library';
+    sourceUrl.textContent = 'Boutons "Save" injectés sur les ads';
+    badge.style.display = '';
+    saveSection.style.display = 'block';
+  } else {
+    name.textContent = 'Page non supportée';
+    sourceUrl.textContent = url.slice(0, 50) + '...';
+    saveSection.style.display = 'none';
+  }
+}
+
+async function saveCurrentAd() {
+  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  const boardId = document.getElementById('board-select').value;
+  const data = {
+    source: detectSourceFromUrl(tab.url),
+    brand: tab.title?.split(' - ')[0] || 'Unknown',
+    pageHref: tab.url,
+    emoji: '📘',
+    savedAt: new Date().toISOString(),
+    headline: tab.title || '',
+  };
+  chrome.runtime.sendMessage({ type: 'SAVE_AD', data, boardId }, (response) => {
+    if (response?.ok) {
+      document.querySelector('.btn-accent').textContent = '✅ Sauvegardé!';
+      setTimeout(() => { document.querySelector('.btn-accent').textContent = '🔭 Sauvegarder cette page'; }, 2000);
+    }
+  });
+}
+
+function detectSourceFromUrl(url) {
+  if (url.includes('facebook.com')) return 'facebook';
+  if (url.includes('tiktok.com')) return 'tiktok';
+  return 'web';
+}
+
+function openAdspy(section) {
+  const url = section ? `http://localhost:3004#${section}` : 'http://localhost:3004';
+  chrome.tabs.create({ url });
+}
+
+function timeAgo(ts) {
+  const diff = (Date.now() - ts) / 1000;
+  if (diff < 60) return 'il y a ' + Math.floor(diff) + 's';
+  if (diff < 3600) return 'il y a ' + Math.floor(diff/60) + 'min';
+  if (diff < 86400) return 'il y a ' + Math.floor(diff/3600) + 'h';
+  return 'il y a ' + Math.floor(diff/86400) + 'j';
+}
+
+init();
+</script>
+</body>
+</html>

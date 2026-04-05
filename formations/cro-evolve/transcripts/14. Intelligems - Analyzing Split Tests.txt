@@ -1,0 +1,241 @@
+All right, so once you've gone through and set up your split test, now the next part
+is actually going to be analyzing it, okay?
+And so inside of IntelliGems, it's actually super simple to do, and part of the reason
+why we love IntelliGems is because it's kind of like a 12-year-old made it, like it's all
+very visual and like cartoony compared to some of these other split testing platforms
+that are like super annoying to look at, and it's like you have to be a mad scientist
+to understand it.
+But so the main thing is like you need to, number one, make sure you understand how
+long these tests need to run, okay?
+If you're not getting a lot of data, and what is a lot of data, well, you'll see me talk about
+this below in the statistical significance section, but the main thing is that you need
+enough data to actually make a strong decision.
+So enough data, based on what IntelliGems recommends and kind of what we recommend as well, is 300
+orders per variant, okay?
+So to give you context, here's a mobile menu test that we ran that had over, and again,
+in case you're wondering how I got there, I just went in there, clicked a little graph,
+and it pulled up the analytics.
+This test ran from 620, and I think we just paused it this week.
+So it ran for almost two months, like a pretty long time.
+It's obviously now August 20th.
+So in this process, we were just collecting loads of data to figure out what is going to
+be best, okay?
+So we had over 400 orders, and to be honest, we probably could have let this test even longer
+if we wanted to.
+But after running for about two months, we had about 15,000 visitors, over 400 orders
+per variant, and we got a pretty decent idea that, okay, well, this right here is looking
+pretty good, 12% increase in profit.
+That's an extra $7,000 per month with strong data.
+Now, I'm not going to get into statistical significance.
+I'm just going to talk about analyzing your test in general.
+And so if you scroll down here, you'll notice that there's a few different things that you
+can look at.
+So number one is going to be all visitors.
+So you can see how all visitors are.
+If we go to desktop and mobile, we can easily see the difference here.
+There's new and returning.
+There's channel specific, if you really want to get into channels.
+And then the final thing over here is traffic source.
+With that said, if you ask me, I don't really like this table down here.
+What I like doing is coming in and playing with filters.
+So what I will do is I'll come in and I'll change this to desktop because, again, I'm a 12-year-old.
+I like looking at the big pictures and I can see how desktop did.
+Well, because this was a mobile-only test, as you can see, there was no data.
+Okay.
+It's a mobile menu.
+So obviously that I probably should have put two and two together there.
+There's not going to be any data there.
+Okay.
+With that said, if we take a look at, once this loads, something like new versus returning,
+we can have a better understanding of how new customers performed versus returning customers.
+Now, again, in this instance, if you're brand new to IntelliGems, IntelliGems is not going
+to have people cookied.
+So as you can see, there's not really a ton of returning customer data here, at least according
+to IntelliGems.
+But when you run tests like this, obviously it starts to cook even more.
+And to be honest, this client doesn't really get a lot of returning purchasers.
+So in this instance, we might look at this and be like, wow, this crushed for returning
+purchasers.
+But again, this only had 20 orders and 35 total orders.
+So it's like, we can't really look at this data when we filter it down.
+So now hopefully you're starting to see that if you want to start applying some of these filters,
+you need a lot of data to be able to look at these filters at a statistical significant
+level.
+And again, you're going to see the video below that explains all of this.
+But the main thing that we look at, we call them kind of the core four quadrants is desktop
+versus mobile and then new versus returning.
+And then you can play around.
+Let me just go ahead and pull up a test that actually has multiple quadrants.
+So let's take a look at, for example, shipping tests we can't really do.
+We could take a look at this test here.
+It actually hasn't hit significant data for us yet, but this is another test that is doing
+really well.
+This is a product page test.
+And so what we can look at here is, again, it's not statistically significant.
+So we get all excited, but we have a lot more data to collect.
+So we can look at desktop, right?
+And so if we take a look at desktop, we can get a bit of a decent understanding of how well
+desktop is doing.
+But with that said, we only have 58 and 68 orders and 600 visitors each.
+So we need way more data.
+And a lot of the times when we're looking at this as well, you'll see a huge difference
+in average order value here.
+And so this is something that we really need to consider as well, because as we get more
+orders, you'll likely see the average order value even out as well, unless you're doing
+a specific thing that helps improve average order value, which in this instance, we are.
+Because if you take a look at these pages, you'll notice that on mobile, we're actually showing
+the bundles compared to having them in like a dropdown.
+So that's something that we are still paying attention to.
+Now we can take a look at mobile as well.
+And again, mobile is typically going to have the most amount of customers because if you're
+anything like us, you're running a lot of ads.
+So now we can see just how well mobile is doing.
+And again, because we have more data here, you're going to notice that the overall average
+order value is a little bit closer compared to desktop, which was a pretty big gap.
+And then from there, we can take a look at the difference between new versus returning.
+But again, this client in particular doesn't really have a large returning customer base.
+So the majority is going to be new customers.
+But as you can see here, it looks like new customers are around a 20% lift.
+Whereas if we go to returning customers and we load this up, and this is actually a product
+that returning customers would buy.
+So it kind of makes sense.
+You can see we have some more data here, but it's so skewed, right?
+Like there's no way that this had a hundred dollar increase in average order value.
+So this is the importance of getting stat sig data.
+And if you don't know what I'm talking about, you'll see it in the module below.
+But the main thing is, is that's how you can check this data inside of IntelliGems.
+And something that is also really cool too, is if for whatever reason you're doing a reverse
+test, which you don't really need to, but say for example, if you're an agency owner and
+the client's like, I want to test my version versus your version and your, our versions is
+a control.
+We can actually then flip flop this the other way to be like, okay, well, how much worse
+in this instance is the control doing?
+So control compared to the main one here, we can see that it's doing pretty bad, right?
+And so basically control here is, is not doing good.
+And so you can actually hit this toggle to basically split it up.
+Now, with that said, as we go down the left-hand side here, you'll notice that there's a revenue
+section.
+And so this is pretty cool because it allows you to just kind of see a breakdown of AOV
+and a breakdown of the overall revenue per visitor, which in this instance is really high
+for this page because it is a kind of a specific page that you should really only land on if
+you are, you know, kind of shopping and kind of through, through our website a little bit,
+I would say.
+There's also a profit breakdown here.
+And so this is what's really, really cool is we can see our gross margin over here is
+higher versus the control.
+We can also scroll down and see the control revenue, right?
+And the cost for each, the margin here, we can see shipping costs.
+We can also see just the total down here.
+And then what's really cool is we can see the actual total profit.
+So just by running this test for the last however long we've been running it, so from
+624 to today, we've added almost $10,000 extra in profit just from running this test,
+which is pretty sweet, right?
+It's not statistically significant yet, but by turning on the split test, we've actually
+made, according to this, $10,000 more in profit by having this variant.
+Now, is that true?
+Would we have not made $10,000 more in profit if we weren't running this?
+No, it's not true because likely some of these orders would have converted on this
+page as well, which is, again, why we split test and why we need lots of data.
+But at the end of the day, this is a really good thing to see, okay?
+The next thing down here, there's a shipping tab.
+We never really look at this, to be honest.
+This is just shipping revenue per order.
+If we go to visitors, we can get a bit of a better understanding on visitors, which is
+kind of cool, and when we're getting more of a spike.
+So what you'll notice is that we actually started, I think we turned on ads for the socks around
+this day.
+So we started getting a little bit more sessions, which is awesome.
+You can also see down here, yeah, so these are custom events.
+So we're kind of in an area where we don't really look at this stuff, but it is cool just
+to see the total amount of visitors as well.
+Order detail, we don't really look at this either, to be honest.
+Discounts, we don't really look at either.
+So yeah, these are just orders over time, percentage of orders, some of the stuff.
+It'll kind of explain to you what this is, but yeah, it's the really nerdy stuff that
+we don't really look at.
+If you want to get into this, you totally can.
+You can also take a look at, it looks like discounts per order, again, section we don't
+really look at.
+Product groups, again, another section we don't really look at.
+But trend is a section that we do look at.
+Trend is really cool to kind of just see how the test is progressing.
+So here, what you can see is just how the test has been.
+And as you can see over the last few days that this, you know, the V2, the green line
+has started to really take things over.
+And so if I actually filter this out, because as you can see, it looks like it had a huge
+spike at 100% conversion rate.
+That's not bad.
+If we take a look, yeah, down here is a little bit better to look at the AOV over time,
+look at the revenue over time.
+I'm going to try to just block this out.
+So this started on June 25th.
+So you can also add date filters here.
+So let's just go ahead and set this to the 25th.
+And hopefully that deletes some of, and again, you can add those filters on any one of these
+pages, which is awesome.
+But if we add that filter just to remove that huge spike right in the beginning, you
+can start to see, right?
+So here's the conversion rate over the time.
+So it started out really hot and then came down and then the control was doing better for
+a few weeks here.
+And then all of a sudden this V2 started coming back and now it's, you know, back on top.
+And this is why we need to continue to let things test because this might crisscross again.
+We really don't know, right?
+Here's the average order value over time, right?
+Ballying back and forth, back and forth.
+And now green is showing better.
+Same thing with revenue, same thing with profit.
+Okay.
+So the trend chart is actually really helpful.
+You'll see me explain that a little bit more down below as well.
+Statsig, I'm not going to get into this right now.
+I'm going to explain this down below as well.
+And then subscriptions is something new, but we don't look at this.
+Again, don't really have a lot of subscription brands, but Hey, if you had something around
+subscriptions, you would also be able to track this too.
+Now that is just for a simple AB test.
+What if you are testing multiple things?
+Like for example, in this here, where we have multiple, uh, multivariant tests happening,
+where we've got three different headlines.
+And again, just for those of you who maybe didn't see this when we were creating the
+groups, all you did is you just click add another group.
+Um, it's very simple to do.
+Um, but if we go back to that actual headline test and we take a look at this, you can actually
+come in here and you can change what you're comparing.
+So right now I'm comparing these two, but if I wanted to compare to V1, you could see that
+V1 is actually doing really bad on a conversion side, but it's doing pretty good on an AOV
+side.
+Right.
+And again, we have no orders here, so there's not really a lot for us to compare at.
+Um, with that said, you can change what you want to test.
+You could also, if I wanted to set this to V2 and set this to V1, and I could take a look
+at that without looking at the control.
+So I can see how much better, uh, V2 is compared to V1.
+And so you can play around with this as well.
+If you have multiple, um, basically multiple multivariants that you're testing with that
+said, I would again, always be hesitant.
+If you're testing multivariants, you better have a lot of traffic.
+I think a lot of orders because this test has been running for, oh gosh, like six days.
+Um, got a decent amount of orders, but this is going to need to run for quite a long time,
+probably another two months until we even gets anywhere close to statistical significant
+data.
+And so it's really important to make sure that you understand, of course, how to use IntelliGEMS.
+Um, a lot of this stuff, we don't really look just to recap.
+Main thing is overview.
+It's really helpful with all the filters and all that kind of stuff.
+Uh, revenue and profit are cool to look at.
+Uh, trend is really great.
+And then stats sake, I'll get into in the next video.
+Uh, with that said, that's everything around IntelliGEMS.
+Again, you can see all of your tests inside of here.
+Um, again, a super important thing is make sure you QA and you preview everything.
+Um, we use kind of the pause stop rule.
+So we pause tests when we need to execute them.
+So all of these tests right here need to go and be executed.
+Or for example, this one, we actually had to pause because we weren't allowed to say
+these specific headlines.
+So if you have to pause for whatever reason, and then you need to resume, go ahead and do
+that.
+Um, but with that said, just wanted to share this video on kind of the overview of
+IntelliGEMS once you get your tests set up and going and how you can track the data
+and all of that good stuff.

@@ -1,0 +1,20 @@
+Transcribed with Cockatoo
+
+
+0:00:01
+Hey guys, here's how to create rules in your ad account. So we mainly use rules to turn off, let's say it's promotional campaigns. Let's say it's a Valentine's Day sale campaign and it runs until a specific end date and then we want to turn it off. So whether it's turning off a sales campaign, certain ad sets or certain ads burning for a specific period of time, we will then use rules. So here's how to set it up. In your ad account, in the middle over here, you will see rules. 
+
+0:00:28
+Click on it, click create a new rule. click custom rule and click next so over the rule name over here you can set it to whatever you like let's say we are using this rule for a valentine's day sale campaign valentine's day promo campaign 2024 cool you can apply rule to whatever you want let's say you want to apply rules to campaigns ad sets or ads you can select specific campaigns as well all you need to do is just let's say it's already active this campaign over here then you select it, click on rules, click a new rule next and then this rule will apply to this one campaign you can also set it to all campaigns or all active assets, whatever you like so you can set the action to turn it off or on or if you want more complex scaling you can use this increase or decrease budgets as well but for the conditions over here click on cost per result you'll scroll down to settings, click on settings click on time actually, click on time click on current time is greater than then set the date you want it to end let's say it ends today 12 a . m midnight then you will set everything else as usual time range maximum scheduled continuously make sure that the date you set is correct click create and then it will work Just to show you how it works, I just published a test campaign. So let me set up the rules for that. Create new rule. 
+
+0:02:10
+Next, it applies to this one campaign already. Test turn off. Set the condition again. Go to time. Current time is greater than whatever the time is right now. Let's say for this case I don't need to turn it off immediately since it's a test. 
+
+0:02:25
+I'll set it out, set it to the previous date. Just click create. Rule created. Let's take a look how it works then. Alright, so just letting this rule run for a bit longer, it turned off the campaign already. So if we click on Rules, click on View Active Rules, you can actually see it running. 
+
+0:02:46
+It does sort of check it every 30 minutes or so. So for this campaign, we can see how long it took actually. There we go, you can see Active to Inactive rule test turned off in about 20 minutes. So that's how it will work.
+
+
+Transcribed with Cockatoo

@@ -1,0 +1,23 @@
+All right. Now the final step here is just to calculate the amount of revenue that was generated
+from the actual survey. So obviously inside of here, this name should be updated. But then from
+there, what you're going to do is you're going to go into Clavio and make sure that all of the
+emails have been sent. So for example, you're going to want to send that founder's email as
+well as typically that's going to drive the most amount of conversions. But then what I like to do
+is I just like to go into this. I'll just basically start adding up all of the placed order. So if
+you're wondering how I got here, again, just go into campaigns and then basically search for
+Vilesweep or EAM or whatever you give away, whatever you tagged it, make sure this is on
+placed order. And then from there, you're just going to start adding up all of these
+placed order values into a calculator. So plus, there we go. And we're going to add 429. So
+whatever this is, I'm sure there's probably a better way to do it if it's like copying this
+into a sheet and like doing equals all, but it's just the way I do it. Plus, there we go. So total
+revenue generated from five emails. So again, all emails is 3,102 and then total price costs. Again,
+you would just based off of whatever you give away, ask the client about that. Typically it's
+not that much because it's just cost of goods sold and shipping. So I think for this client,
+it was probably about like $200. So as you can see in this instance, this client got a 15X return
+on investment just from doing this. Obviously it's emails. So a lot of people, when you send emails,
+they buy no matter what, but just to give you context as well, this is definitely not only an
+exercise that is great for, you know, generating tons of feedback, but also is going to enable or
+going to enable you to generate a little bit of an ROI as well while doing it, which is awesome. So
+with that said, hopefully that all makes sense. If you obviously are confused on any of these steps,
+please make sure you contact us or contact management, but that is it. Okay. That is how you
+summarize the ROI.

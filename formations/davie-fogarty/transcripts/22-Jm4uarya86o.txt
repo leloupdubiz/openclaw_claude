@@ -1,0 +1,292 @@
+- Today, we're gonna go through 10 things to take your brand to $10 million. Some of these are absolute non-negotiables that if you are not currently doing them, you probably should. We're gonna go through
+some of my failures. We're gonna go through
+people you need to hire. Tools you need to install. Reporting that you need
+in place to make sure that you have the best
+chance of succeeding. The first step is know what
+stage of business you're in, so, you know, your priorities. One of my favorite books
+is, "Ready, Fire, Aim." He goes and talks about how
+businesses can go from zero to 1 million, 1 million to 10 million, 10 million to a hundred million. I've slightly adapted
+these stages for eCommerce. I like to think that zero to 1 million, basically all you're trying
+to do is find one product and one marketing channel. You're just trying to, the
+main challenge is you're really just trying to find your
+first profitable customers. In this stage, you might
+just be learning your skills. That is your main priority. And to be honest, zero to 1
+million annualized revenue is not that difficult. And I'm not saying that
+to demean people out there that are trying that
+haven't achieved that. I hope that seems that it's very inspiring because the truth is when
+you have the right product and the right marketing channel, you will be able to scale your
+business incredibly quickly. If you're not getting to
+that point and that 1 million in sales with profitable customers, you need to go back to the drawing board, refine your product skills and
+refine your marketing skills. Stage two, I like to think
+is 1 million to 5 million. In this stage, you're trying
+to optimize a flywheel that you put in place to get
+your first million dollars, which if it is, let's say Facebook and it's a singular product, you're trying to optimize
+those two things. It might be a creative feedback loop, where you're improving
+your Facebook creatives, or you are reducing your cost of goods and improving your product quality. In this stage, you also might
+be focusing on hiring people as well, like contractors or
+agencies to really take things away from your plate, so that
+you can scale your business. In stage two, you might also
+be juggling cash flow as well. We just did an episode on
+cashflow and how to manage that. That is another one of your main focuses. In stage three, your focus
+really is around people and process. You are trying to optimize everything that we just kind of said. You're trying to hire more people that get a return on
+investment and scale your brand to where it wants to be. You've also got other options as well, around channel diversification
+and also product and market diversification. Can you launch your
+business into other regions? You don't wanna wait too late for that because the opportunity might go away due to competitors entering the space. Number two is have a deep
+understanding of your metrics. You might think you know your
+profit and that kind of stuff, but the truth is there may
+be costs that are hidden, or you're just not
+calculating them properly. When I started a brand,
+we scaled it so quickly, doing a million dollar sales in a month. The truth is we failed to
+understand our true gross profit. And we really forgot to even
+incorporate things like, sales taxes, which is
+incredibly important. Most regions will have sales
+taxes, which, you know, if you're using GST in
+Australia or VAT it's a very, very similar system,
+just different amounts. That is going to be pretty much 10% off your top line revenue, that
+you need to account for in your profit in your bottom line. Other regions, depending if
+they have free trade agreements from places like China to Australia, they have a free trade agreement. So there's no duties coming from that. But going to the UK, you
+may have duties upon import. This is money that you're
+not gonna get back. Make sure you have all of those metrics really nice and tidy. This is where I highly highly recommend getting a tool like, Triple Whale. So you have all of your metrics really, really nice and clean so you
+can track them completely. Triple Whale, is releasing
+so many new features and honestly, their main goal
+is just helping entrepreneurs, e-commerce entrepreneurs,
+like me, and like you. You guys know that I don't
+promote any products, unless I use them myself and
+we use these for any brand, that's doing under $5 million revenue because their dashboard is so, so clear and they have so many other solutions. Over the next eight points, I'm gonna be talking a
+lot about certain metrics and reports that we use
+to track our success. Honestly, Triple Whale, has 95% of these. I've used lots of other
+alternatives out there, like B Profit, in the early stages. But the rate of product
+development with these guys is really, really good. I'll leave a link in the
+description with a discount code. Make sure you go check it out
+and just ask me any questions if you have them. So the third thing that's
+gonna take you to $10 million, is managing your MER which again, can be tracked in Triple Whale. MER stands for, Marketing
+Efficiency Ratio. It's basically your revenue, divided by your advertising costs. It's a great metric to understand your advertising efficiency. Because tracking in Facebook
+has become so, so bad, it's really important that this MER, becomes your north star,
+to make sure that all of your advertising channels,
+if you've got, you know, if you are in stage two or
+three that I mentioned before are still profitable for you. For one of our brands, we definitely weren't
+measuring MER appropriately. We were running each
+individual traffic source, such as Pinterest and
+Snapchat and Facebook. Each of them had an
+amazing in-platform rise or customer acquisition cost, and it should have been profitable. In the end, our MER
+just started blowing out despite what these
+platforms were telling us, that gave us the signal to
+really pull these channels back. We implemented post-purchase surveys, like where did you see us? And the truth is Snapchat
+and Pinterest were really, really over reporting. By using an MER metric, you can
+basically look at your store and say, okay, I've made
+a hundred thousand dollars this month and my MER is 25%. So that means I spent
+$25,000 on marketing. You can then sub track your gross margin and basically be very
+comfortable that you are making a net profit. Compare this to the alternative situation, where you're like, looking
+at the platforms in Snapchat and you're saying, okay, I'm
+profitable on this channel, I can spend a little bit more. Profitable on Pinterest, I
+can spend a little bit more. Profitable on Facebook, I
+can spend a little bit more. If you aren't hyper
+focused on this metric, the truth is you could just be
+unprofitable for that month. Because once you've
+subtract your gross margin, your fixed cost and your
+MER, you might be in the red. MER, is a variable cost
+and it's really based on your advertising efficiency,
+so watch it like a hawk. It's especially useful, if
+you've got multiple media buyers working on multiple different channels, that maybe aren't communicating. You should be getting
+all your media buyers to be looking at Triple
+Whale, every single day, on a one day period, 7
+day period, 14 day period, to make sure that nobody
+is really blowing out that MER budget and they're
+working accordingly. Then you can set soft rise
+targets for these platforms and tinker around and find
+the best level for you. The truth is, Facebook being
+the most efficient channel out there to really drive
+demand is going to be your main lever to really
+monitor and manage this MER and making sure that it's
+under that threshold. If you wanna learn more
+about MER and get really, really detailed in the subject,
+you can even look at aMER, which is basically acquiring new customer and the marketing efficiency
+ratio around that. Definitely go check out the
+common thread link down below. These guys are absolute guns
+at explaining this stuff, and you can get really, really granular. The fourth point is,
+optimize your gross margin. Now this is really, really
+important for the people from stage two and above. You can create gross
+margin in Triple Whale, very, very easily. Just click the little gear icon
+and create a custom metric. Gross margin is determined as sales, minus your cost of goods. Typically it's communicated
+in a percentage as well. So to do that, you just
+basically do revenue, minus COGS, divided by revenue, as a percentage, you can do that all in Triple Whale. When we set up products in Shopify, we include things like couriers,
+freight inbound, duties, all of that stuff, because then all of your
+dashboards are going to give you absolute realtime data on
+how profitable you are. By measuring your gross
+margin on a daily basis, you can see things like
+coupon discount code leaks, because if something leaks
+that you didn't think, like a 80% discount or
+100 percent discount, that you set up in your back end, you're going to be able to
+catch that very, very quickly from your gross margin,
+it's gonna drop very fast. To optimize your gross margin, you can negotiate with your suppliers to get your product costs down. You can negotiate with
+your freight forwarders. Once you get more buying
+power, go back to them and say, this is how many containers we're gonna do over the next three months
+or something like that. As you grow, they should
+be dropping their prizes. Always going to a negotiation
+with the willingness to walk away and use another
+service, get their quote first, and then show the other person and use that as your negotiation. One caveat to that, is when
+you're setting up things like bundles, your average
+order value might increase, but your gross margin decreases, but the total gross a dollar
+amount, will also increase. You really just need to be
+mindful around what is the most profitable thing for your business. We'll get into AOV and conversion
+rate in just a little bit. So the fifth thing that
+you need to start doing as a successful e-commerce
+business, is forecast. And we're gonna cover,
+three main forecasts that you need to do. The first two is inventory
+forecast and revenue forecast. I'm gonna talk about them together cause they go really, really well. The hardest product to sell is the product that you don't have. If you're out of inventory, that is just gonna stop
+you dead in your tracks. This is something that
+we didn't do properly with the Oodie early and we were sold out, losing possibly 50 to a 100
+million dollars in revenue over our lifespan. If you're in stage one,
+possibly even earlier, once you get your first profitable sales, you're going to wanna start
+an inventory forecast. What you do is, you go
+to your Shopify sales and you look at what you've sold, consider things like your MER
+and your opportunity to grow. Have you got great creatives, yet? No. What happens when you
+do have great creative? These are the things,
+that will then allow you to extrapolate those sales out and really understand
+how much of that product you're gonna need each
+month. Do it monthly. You then need to consider
+things like seasonality curves. In eCommerce, you've got
+those huge sales periods in the middle of the year, and you've also got it Black
+Friday at the end of the year, which is incredibly important to increase your inventory levels. If you're a seasonal business like, Oodie, you're going to sell more in winter and you need to really understand that. When you're an early stage business, it's hard to understand
+that seasonality curve. If you're a long standing business, you can use historical sales, but this is going to require intuition. Remember, don't take on too much risk. It's okay to cap growth because you might run out of cash flow, which we'll get into in just a second. Once you have this inventory forecast, you're going to be able to roll that up, by simply timesing the amount of inventory that you think you can sell
+by the average sale price and you're going to get
+your revenue forecast. This is going to be
+important to really forecast how much you can invest
+in product, people, all of those kind of things. If you're in stage three and
+you're getting up to around, you know, 5 million to
+10 million to 50 million, you're gonna wanna start setting up teams around this process. This could be as simple
+as a merchandise planner, that really understands the
+ins and outs of your business. It could also be a demand planner, but the truth is, if you don't
+have lots and lots of skews, you as the founder, coordinating with your
+marketing and operations team might be able to come up with
+the most accurate forecast. One of the main things
+that you need to coordinate with your operations or your
+product team is lead times. They're an absolute killer. You need to buffer in problems. My first order of calming blankets, I was selling on pre-sale or
+saying that the arrival time was, it was like 12th of April, but the, I didn't understand that
+there could be problems such as a border hold, where the Australian government
+holds your first shipment to inspect it. This took about two months and
+it was incredibly stressful. I was emailing all my first customers, in my first eCommerce journey
+saying why their product was so late. The other thing that you
+don't wanna do is miss those Black Friday periods, make sure your product has
+a little bit of a buffer. So it is landing in early
+October, possibly even earlier, the third forecast that
+you need to make sure that you've got set
+up, is a cash forecast. If you don't have money in the bank, how are you gonna pay suppliers? How are you gonna buy your ads? Now, accountants, they
+really don't like making cash forecasts, which is understandable because they do take a lot of time. You need to really
+understand the ins and outs of your business. This is where you, as the founder, need to really document
+those major expenses that are coming up, such
+as massive inventory that you've placed. Like this is where you go back
+to your inventory forecast. We're gonna need orders
+here, here, and here. Then what the person's gonna do is, look at your base expenses, such as your advertising
+costs and your gross margin that we talked about just before and then gonna extrapolate that out. Assuming different variables
+based on the amount of revenue. You need to be sure that
+you've got cash to fuel that inventory growth. So make sure that you're
+looking at the net cash inflows and your cash balance, in those forecasts. If you've got any outlier
+events, like hiring new staff, that's gonna change those
+variable costs as a percentage, they need to be communicated to the person that's doing your cashflow forecast. This is again, where I
+really like Triple Whale, unlike most tools, they
+have a cash turnover widget, which is really great. It's basically your sales,
+minus all those variable costs, which is gonna bump up your cash. You can track that monthly
+or even daily with your team. I'll put a template for
+some of these forecasts in the description below, as well. If you have any questions about it, you can head to our mentorship and I'm happy to answer them, as well. Number six, that you need
+to be focusing on in, I recon all of these stages, is your creative and media
+buying feedback loop. Now, depending on what stage you're on, with your amount of
+team is going to change this feedback loop. But you need to be constantly analyzing your creative efficiency
+and building tests and really understanding
+what is working best on that core channel
+that you're looking at. I recommend a weekly or monthly meeting, where you get in a room and you
+go, okay, what has happened? What were the results?
+What should we test next? What's our hypothesis for
+that and why it should work. And then retrospectively
+look at it, the next meeting. You can build reports around
+this, again Triple Whale, has the creative cockpit,
+which is really, really good. The main thing that I do recommend, especially in the early
+stages is don't do really, really granular tests. The larger the variation,
+the larger, the increase or decrease in results. You can test things
+like, different avatars that you're creating the content for. Different content styles. Is it a UGC? Is it a
+professional, unboxing video? Test those big things
+initially, against each other, using dynamic creatives, or even if you're really new to Facebook, use the split testing function in there, if you don't understand dynamic creatives and start getting really
+rigorous around understanding why customers are buying. You can use surveys, post-purchase
+surveys to customers, asking them why they bought, and then incorporate that
+into your media feedback loop. The seventh thing that you need
+to be doing as an eCommerce founder is setting up a CRO Program. Now, again, it's gonna
+depend on your skill sets and the team that you're gonna hire. You really need to be
+optimizing things like, your conversion rate and
+your average order value, seeking more earnings
+per visitor on your site, profit per visitor. This is relatively simple
+now, thanks to the Shopify's new themes and something
+like Google optimize. You can plug it in, again, the more variation that you can create, the more drastic results
+that you can expect. Don't just focus on, you
+know, changing button colors, really change the layouts of your pages. Also, the main thing
+that you should be doing within this function, is
+testing things like advertorials and quiz funnels that are
+best practice right now. Go check out some of your
+favorite direct response brands and see what they're running traffic to. I recommend setting up a
+weekly or monthly cadence, to review these results
+and why they worked. These insights about your
+customers are gonna be incredibly important to understand what tests to run. One other thing, that I
+really like to do here, is also set up a slack
+channel, a deployments channel. So every time someone deploys
+a test or gets test results, it gets recorded in slack. What was the uplift?
+What happened and why? The next thing you should be focusing on, is your complimentary
+channels, like email. We like to report on things like flows and campaigns separately,
+as a percentage of revenue. This way, if your sales go up drastically, you can actually compare, if
+your emails were responsible for that. It's showing optimization
+over time of that channel. It's great to align your
+team on that percentage, so you can see how much they're improving. You can run split tests on your flows. In the early stages, you
+really want to be making sure that you are focusing on flows because you don't have
+that many resources. Too many people are
+sending lots of campaigns and just not grabbing that campaign, putting it in their welcome series and making sure that every single person that goes subscribes, gets
+that email in the future. The ninth and second to last
+thing that I love to focus on as an early stage brand, is
+keeping your reviews positive. There are so many reasons to
+keep your reviews positive. Firstly, it's such a strong indicator of how much customers are
+actually enjoying your product and are likely to purchase again. Secondly, it's that, there's
+a lot of underlying algorithms that are actually trying to
+judge how a consumer feels about your product after purchasing. Facebook surveys their customers. If you're selling crap things
+and customers are hating it, chances are you can get a platform ban or your just ads will
+become less efficient. The third thing is, by
+having a really strong peer review platform, that isn't biased that you can manipulate like,
+Trust Pilot or Product Review, customers really trust that. That can be your foundation
+of your marketing. It helps differentiate
+you from competitors. Koala Mattresses did this
+incredibly well in Australia, where they were the top rated
+mattress on Product Review. This should be reported by your customer service team monthly. One of the best ways to get
+a really good review score is stopping reviews at the source. You want your customer service
+team to have a strong voice within the departments,
+such as product, operations and even marketing. To make sure that customers are happy and you're addressing those problems. You might be able to adjust
+your product in a certain way, that gets lots of more positive reviews. You need to be proactively
+asking your customers for reviews. This should be in your
+email marketing software, after a purchase, asking customers, Hey, can you please leave
+me a five star review, if you loved the product, if not, please reply to this email
+and give me feedback. That way, you're achieving two things. You're handling disgruntled customers that are really upset and
+you can fix their problem one on one, and then you're
+just getting positive reviews on your platform. You can't actually technically
+ask for a five star review with an incentive, but you can actually ask
+for reviews in general with an incentive. So make sure you understand
+the legalities around that. If you wanna incentivize reviews, you can say, you can go into
+the drawer to win something or an Amazon gift card. If you really just need
+to bump those reviews up in the early stages. The 10th and final thing
+we're gonna talk about is a very, very good
+lesson that I didn't learn early enough, which is, stay lean. The beauty of eCommerce
+businesses is the fixed cost can be super low, but if you
+don't watch your expenses like a hawk, it can cause lots of issues. You wanna constantly be
+looking at payment fees and invoices, going into
+your accounting software and checking every single
+charge in the early stages. Don't over-hire, a good
+role of thumb is one person, every million dollars of
+revenue that you are doing. Make sure you're
+monitoring things like FX. If you're settling in
+your Shopify dashboard. So your payouts are coming in
+AUD, you don't wanna then go spend on USD using these
+platforms without converting the currency first. You can use tools like
+LYX or go to your bank and get proper FX rates to
+reduce that expense line. Make sure you're constantly
+just negotiating people down based on your sales. Those variable costs, lag payment fees, although it might be a small percentage, as your revenue grows based
+on your revenue forecast, they will become solid amounts of money, that you could be paying
+yourself or paying new people and growing faster. I hope you liked today's video,
+it's a little bit different. It might be a little bit dry, or it might feel like a
+pipe dream to other people, but the truth is, these lessons
+are going to be incredibly important for you to grow your business. If you like this kind of insight, or just have any questions, happy to answer them in our mentorship. I jump on and answer questions,
+you know, one on one, alternatively, just leave a
+comment in the description and I'll try to help, as much as I can. Don't forget to like and subscribe. Thanks. (upbeat music)

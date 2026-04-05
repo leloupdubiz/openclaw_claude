@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Logs
+*.log
+*.log.*
+
+# Audio/Video bruts (trop lourds)
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.webm
+
+# Images screenshots debug (pas utiles)
+whop_debug*.png
+whop_screen*.png
+frame_*.jpg
+placeholders*.log
+higgsfield-out.log
+placeholders-pipeline.log
+
+# Build artifacts
+.next/
+dist/
+build/
+.convex/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets / credentials (JAMAIS sur GitHub)
+.env
+.env.local
+.env.*
+credentials/
+*.pem
+*.key
+
+# Convex local data
+.convex/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Tmp
+tmp/
+temp/
+
+# Large binary assets (garder les brand assets omnia)
+omnia_apidocs.png
+omnia_batchgen.png
+omnia_broll.png
+omnia_cinematic.png
+omnia_dashboard2.png
+omnia_hooks.png
+omnia_scripts.png
+omnia_studio.png
+omnia_voiceover.png
+
+# Transcripts bruts audio (gardés dans formations/ mais exclus si .wav)
+formations/*/transcripts/*.wav
+formations/*/transcripts/*.mp3
+
+# Pi workspace
+.pi/

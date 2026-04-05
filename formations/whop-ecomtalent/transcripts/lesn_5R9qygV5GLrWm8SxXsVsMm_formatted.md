@@ -1,0 +1,151 @@
+# lesn 5R9qygV5GLrWm8SxXsVsMm
+> Transcript complet — 100% du contenu original
+
+---
+
+Welcome to the art of one frame. Now, let's talk about something that might seem counterintuitive in this day and age and that's static ads because while everyone's obsessing over video content, some of the best performing ads I see in the ad accounts that I run are just single static images. And I'm not even talking about some complex designs or fancy photoshoots. I'm talking about simple strategic static ads that consistently outperform video ads in our accounts. And by the end of this video, you'll understand exactly why that happens and you'll learn a bit about how to make winning static ads.
+
+Now, I decided to make this one longer video covering all the fundamentals instead of doing a bunch of shorter videos like I did for video ads, for example, because honestly, static ads aren't as complicated as video ads. Don't get me wrong, there's still a lot to cover, and we're going to dive deep in each principle that I have prepared for you. But you don't need five different videos to understand how to make static ads work. You just need to understand the core principles and then make sure you actually apply them. So that's why I decided to make this into just one bigger lesson, one bigger video.
+
+So we have everything in one place. Before we dive in, yes, I'll give you a shitload of static ad templates in Fig ma that you can basically use and plug and play to make ads for different brands. But I want you to understand that templates are useless if you don't understand what makes them work. And that's why we're going to break down six fundamental principles that turn single frames into manipulating machines for brands. First one is the art of one frame.
+
+And I'll talk about why limiting yourself to just one frame is actually or can be your biggest advantage. Then we have second principle, the old school approach. We'll cover some timeless principles that work even better today. Third principle is different types of static ads and when to use each one. Fourth one is headlines that hit because copy on static ads and the way you format it matters a lot.
+
+And when talking about formatting, we get to number five, which is visual hierarchy and how to control exactly what people see and when when they see your ads. And then the last one, we have principle number six, which is the most valuable one. I'll keep you the secrets for now. You don't have to worry about it. And we'll try to cross that bridge when we get there.
+
+And I want you to take notes because this isn't just design tutorial. This is about understanding psychology behind static ads and then actually applying it to make winning static ads. Principle number one, the art of one frame. Let's start with something that blew my mind when I first got into advertising. And you know, when you're scrolling to your feed at light speed, as one does, your brain can process a static image in about 13 milliseconds.
+
+And that's faster than you can even consciously register what you're looking at. And for video, on the other hand, your brain needs way more time. It needs to watch process and understand. And most people, they see the one frame limitation of static ads as a weakness. But it's actually your biggest fucking advantage, because you don't have to earn three seconds of attention before delivering your message.
+
+Like with video ads and hooks, you need to nail down the hook for people to even stop scrolling and watch your, watch your ad in its entirety. You don't have to worry about retention. You basically get to hit them with everything at once. It's like the difference between telling someone a story about how good your restaurant is versus just showing them a showing them a perfect photo of your best dish. Like the story might have more details.
+
+You might be able to convince them you have the best service, you have the best, I don't know, whatever food, desserts, whatever. But honestly, that one perfect shot, maybe like that one juicy image of a, I don't know, hamburger or something like that, it can make them hungry instantly. And I know it would make me hungry instantly. And honestly, the psychology behind this is fascinating to me, because when someone sees a video, start playing, the brain has to make a conscious decision . Like, do I want to invest time in watching this or no?
+
+But with a static ad, that decision is already made before they even realize they're making it, because the impact is that instant, like they see, they see the whole thing, like there's, there's nothing to it except like clicking on it and going to website. But that's, that's the same goal as with video ad, right? But with static ad, like you have, you have the benefit of instant impact. This is why understanding the art of one frame is so crucial, because when you've got one shot, literally one frame to make an impact, every single element has to work together, your visual, your headline, your layout, they all need to tell a story in an instant. This principle has been working since the dawn of advertising, really, from like billboards to magazine ads, you know, newspaper ads, all the way to today's Instagram and Facebook posts.
+
+And the power of a single frame to like stop people dead in their tracks hasn't changed, if anything, it's become more powerful in a world where everyone's attention is scattered all over the place, which brings us perfectly to our next principle, the old school approach, because advertisers back in the days, they were dealing with the same challenges we are just in a different medium, in a different platform. And what they figured out about human psychology, it hasn't changed one bit. They were dealing with the same challenges we are just in a different medium, and what they figured out about human psychology and how to do those static ads, like in newspapers, on billboards, whatever, it hasn't changed one bit. And some of the most effective principles for creating static ads were written decades before Facebook even existed. I'm talking about guys like Eugene Schwartz, David Ogleley, Claude Hopkins, like these dudes were selling millions of dollars worth of products with just paper and ink and newspaper, and that's just unbelievable to me.
+
+And now people respond to the same triggers. The only difference is instead of flipping through a magazine, flipping through newspaper, they're flipping through Instagram, right? They're scrolling through Instagram or Facebook. Eugene Schwartz talked about something called market sophistication in his book Break to Advertising, which once again , I beg you like this, go and read it. And a rough explanation of market sophistication is when you're first to the you're first to the market with something completely new, you can just show your product and say what it does.
+
+And that's it. For example, this is a coffee maker that works with your phone. Like you can, you can make coffee to your phone, right? That's something new. That's something people have never heard of.
+
+The problem happens when there are 20 other smart coffee makers. And that's when market becomes sophisticated. And that's when you need to show what makes your product different or superior to others. And for to others. And for example, then you then you would say the only coffee maker that learns your taste preferences, right?
+
+So you just kind of need to exaggerate your claims and bring up new mechanisms, come with new mechanisms that position your product as a better alternative. So that's a short lesson here about market sophistication and how to kind of how to battle market sophistication when you're going against different competitors that sell the same products. And that's where Ogilvy's principles come in. He knew that your headline is worth 80% of your advertising money, because back in the day, like no one's reading your article that's that that goes through two pages if your if your headline didn't absolutely get their attention. And in his time that meant newspaper headlines with for us.
+
+It's those first few words at the top of our static ad. But we need to adapt these principles for social media. Back then, they were competing with news articles and other ads articles and other ads in the newspaper. And today we're competing with people's friends, family, favorite celebrities, funny cat videos, like anything that that they're following on on fucking Facebook or Instagram, whatever. And the principles of grabbing attention haven't changed.
+
+But honestly, the competition for that has gotten way more intense because nowadays on Facebook, Instagram, YouTube, TikTok, whatever, you can find whatever the fuck you want back in the days in the newspaper, you couldn't do that. And that's why now we we have to be even more dialed in with our ads than they they had to be before. So how do you do this? First, you need to understand that every ad needs to do three things. Grab attention, but the right kind of attention hold interest by promising them something valuable, because they're not clicking on that ad if if they don't think it's worth it.
+
+And three, driving action by making the next step for your customer crystal clear. These aren't my rules, these aren't Facebook's rules. These are principles that have been working for over 100 years. And one of my favorite Ogleby's quotes is it's not creative unless it sells. And that's what you need to remember when making static ads.
+
+Yes, they need to look good enough to stop a scroll, but more importantly, they need to sell. And that's what these old school principles are all about, like not just getting attention, but converting that attention into action, into purchases. And speaking of action, let's talk about the different types of static ads, and exactly when to use each one principle number three, different types of statics. There are five main types of static ads that consistently crush it, and each one serves a specific purpose. Let's start with product focused ads.
+
+These work the best when your product itself is the hero, but it's not just while taking a pretty picture of your product and running it as an ad, you need to show it in a way that immediately communicates value. And perfect scenario for this would be , let's say you're selling premium sunglasses, your target audience already knows they want sunglasses, they are just looking for the right ones, maybe they're kind of indecisive, they need to kind of find the right brand for them. And in this scenario, a clean, high-end product shot with just perfect lighting, you know, close-up shot of sunglasses can actually do better than lifestyle shots and I don't know whatever. And that's because your audience in this scenario just wants to see the fucking details, they want to see the close-ups, they want to see how the sunglasses look like. So when do you actually make product focused static ads?
+
+That's when your product has unique visual features that practically sell themselves. When you're targeting people who already know what they want, they just can't choose the right brand, the right variation, whatever. When you're selling premium products, where details actually matter, that's when you use product low subs as well. Or when you're retargeting people who've already seen your basic ads, maybe they've seen your some of your video ads and they just want to see the details of the product. These product-focused ads aren't about convincing people they need your product, convincing people your product solves their problem, they're about showing why yours is the one to get.
+
+And this is for example where high production content would come in very, very handy because having some high quality images of the product could be used as some product-focused static ads.
+
+Next up we have transformation ads and these are your before and after shots, your results based visuals, stuff like weight loss products, skin care, home improvement, fitness programs, anything where you can show a clear visual change. But let me emphasize that word, clear visual change. And the transformation has to be obvious in less than a second. Like if someone has to squint like what's going on or wonder what changed, you've already lost them and the ad isn't good enough. And the trick here is people think bigger transformations always convert better.
+
+And then what they'll do is they'll edit the shit out of their after photos thinking that's what sells. Imagine you're selling a skin care product and before image is someone with acne, someone with pimples, whatever. And then after is, let's say like that same image, but it's clearly photoshopped, your audience can smell fake from a mile away. And the most successful transformation ads are not the most dramatic ones. They're the ones that feel achievable.
+
+For example, if you're selling a 12-week fitness program and you show someone going from overweight to looking like an author, what's the viewer thinking? They're probably thinking, yeah, right? Like what the fuck is this bullshit? But if you show someone that, you know, was out of shape, maybe they had a little bit overweight. And then after you show the same person being fit, like you can tell the difference.
+
+Apps are a bit ton ed or whatever. Well, now the people that see the ad are thinking, huh, interesting. If they could do it, maybe I can do that as well. I'm a bit more interested in this because it feels achievable to them. The goal isn't to show the most dramatic change possible.
+
+The goal is to show a transformation, your audience believes they can achieve.
+
+Now let's talk about lifestyle ads. And these aren't about showing the product. They're about showing the life your customer wants. Where it gets tricky is your lifestyle shot needs to feel attainable to your specific audience. Very similar to the transformation ads need to feel achievable.
+
+These need to feel attainable. Whether you're selling luxury clothing or whatever, your lifestyle shots need to feel like your customers slightly better future, not some unattainable fantasy. Think of it like this. You're not selling a product, you're selling a story that your customers can see themselves in. And that story has to feel both aspirational and achievable at the same time.
+
+That's how you make lifestyle static ads work. And honestly, lifestyle static ads are mostly used in fashion niche. Like, I don't think there's any other niche out there that really focuses on lifestyle static ads. And lifestyle static ads are just showing people in a nice environment. And there's really no kind of overthinking and overcomplicating it there.
+
+You just need to have nice images. And sometimes you just run that nice images, maybe do a collage or something like that. That's mostly it for for lifestyle static ads. for lifestyle static ads.
+
+Next up are problem solution ads. And these are powerful when your product solves a clear pain point. But you need to nail both parts if you want to make this work . Make the problem relatable and the solution obvious. Best case scenario here would be, let's say you're selling a cleaning product, some kind of a cleaning product.
+
+And then you have the image you show with the problem messy, stained surface, you show everything terrible about it. And the other have is perfectly clean after using your product. One good example that we did at the agency for this is we sold a hockey bag. And the biggest selling point of this hockey bag was on the inside, you had dividers. So you can kind of, you know, divide your stuff in the bag.
+
+And then we just compare that to the other bags. So they didn't have have those. And then you show all the messiness, how you lose your stuff in the other bag. And then on the other side, you show our bag that we sold that's organized compact, you know, everything's in one place. And that's how you make problem solution ads work by clearly showing the problem and then clearly showing the solution.
+
+Finally, we have testimonial style ads. And these are crucial when trust is your main obstacle to sale. Like when you, when people need to see other people who have tried the product, who have had results, that's when you use this one, your style ads. And the more authentic and raw these look, these look, they usually convert better. For example, if someone left you an amazing comment on your last ad or on your Facebook post or on your Instagram post, whatever, just screenshot it exactly as is.
+
+Don't try to redesign it. Don't put it on some fancy background screenshot that crop it, put it at the top, maybe have some some image of your product. And that's it. And the fact that it looks like a real Facebook comment is what makes it so powerful. And the same thing with customer thing with customer photos.
+
+If your customer send you a, I don't know, bathroom mirror selfie showing there before and after results, just use that like don't ask them for a professional photo shoot . The authenticity of it is what makes it so powerful. Because guess what? When someone's scrolling to the feed, that mirror selfie feels real. Like it feels like something their friend would post.
+
+And the moment you start making these look too polished, you kill the credibility and you kill the authenticity. So key points when it comes to testimonial ads is use real screenshots of comments or reviews on on the brand's website, like use actual customer photos, even if they're not that perfect. Just use real ones. Don't edit them, don't manipulate them, don't do anything crazy to them. And if you have any results photos, like just show the whole screenshot, raw on edit it.
+
+Now I'll tell you one hack how to actually pick and choose which type of static ads to use. And this might not be that relevant to you now because you won't be the one, you know, probably coming up with ad ideas and deciding on the copy and what idea to do. You'll just be designing the ads. But if you are coming up with ideas, you need to ask yourself, what's the main objection your audience has that they need to overcome? Now that could be, for example, if this product worth my money and when your audience has an objection like that, you do product focused static ads, right?
+
+Because then you can kind of show the value of the product. If their objection is, does this actually work? You use the transformation static ad. If the objection is, is this for people like me, then you need lifestyle? Or will this solve my problem?
+
+When people are not like 100% sure, does it work? Does it solve their problem? That's when you use either transformation or problem solution. Obviously, the last one is when people just don't trust people just don't trust your product. That's when you use testimonials.
+
+And obviously, this isn't anything set in stone. You need to test different types against each other. Sometimes what you think will work isn't what actually converts. And I've seen simple product shots, you know, outper form beautiful lifestyle photos and some basic transformation ads, trash, you know, expensive lifestyle photoshoots. So you just need to test a lot of stuff.
+
+But no matter which type you choose, there's one thing that can make or break your ad. And that's the headline. And that's exactly what we're going to talk about next. Principle number four headlines that hit. I don't care how good your visuals are.
+
+If your headline sucks, your ad sucks. Period. Think about it. Again, someone's scrolling at light speed to your feed. Your image might make them pause for a split second.
+
+But it's your headline. Really, that makes them actually give a shit about what they're looking at. And headlines shouldn't just be describing what's in your ad. They should be creating an instant emotional response. They should make your audience feel something about your ad.
+
+And there are only five emotional triggers that consistently work in headlines. And that's curiosity, fear of missing out or FOMO, quick solution, identity and controversy. Let me show you how all of them work with the same product.
+
+So let's say we're selling a weight loss supplement. So curiosity could be the strange tropical fruit that melts fat while you sleep. Obviously, that should make someone curious. You have FOMO. Why skinny people eat this one food before bed?
+
+So that way people kind of have a fear of missing out because they're not eating this one food and they want to know what this food is. Quick solution. Two capsules before bed equals wake up lighter. Super simple, quick solution. Perfect for people who don't want to overcomplicate anything.
+
+They just want to skip straighter results. You have identity for people who hate dieting but love results. That's something results. That's something people could resonate with and something they could identify with. And lastly, you have controversy.
+
+Why your morning jog is making you gain weight. That sparks controversy. Now you see how powerful headlines are. Like we haven't changed the product at all. It's the same exact supplement, but each headline tells a completely different story.
+
+It speaks to a different type of customer. It creates a different emotion. It's almost like having five different products just by changing just by changing a few words. And that's why I'm always so fucking amazed with static ads and with and with headlines because you can do amazing things with just one frame and with just like a headline and product image. Like it's insane how powerful and how effective static ads can be.
+
+Now let's talk about how to actually put these headlines on your ad. And yes, this matters a lot. First rule is hierarchy. If someone reads only the biggest text on your ad, they should get the main message. Don't make your disclaimer text or like your sub headline or whatever bigger than your hook.
+
+Like your headline in this static ad world is the hook. Second rule is emphasis. If you want a word to pop or if you want to emphasize a certain maybe word or a phrase or a sentence, make it bigger, bolder, italic or a different color, whatever, just make it stand out. And that's how you emphasize certain things on static ads. And the third rule is readability.
+
+I don't care how cool to you that font looks that you want to use. If people can't read it, it's useless. And the same thing goes with sizing. If you can't read your static ad in its entirety while looking from this distant on your phone, like go back and make that text bigger. Because if someone has to squint their eyes, try and look at what's what your ad is saying , they're already gone.
+
+But even the best headline in the world won't save your ad if people can 't figure out where to look. And that's exactly what we're going to be covering next. And that's called visual hierarchy. And I've got a perfect example to show you how this works. So look at this ad with it again for a brand that was already mentioning in this course, Wazoo.
+
+This is a fucking masterclass in visual hierarchy. Let me break down why it works so well. First thing you see is that massive headline. If you were stranded here tomorrow, like sitting on top of a crashed plane in the wilderness and your brain can't help but create that story instantly. Then your eye naturally flows down to you'd wish you had one of these and see how the text is broken up.
+
+Like each part gets enough time to land and it's like telling a story in three beats. Like imagine this scenario and how it will feel the tension and here's the solution. Where it gets really interesting is look at the visuals. The top image creates the scenario. It's dark, moody, you know, shows isolation.
+
+And the bottom image shows the solution a close-up of the actual product in someone's hand. And the hierarchy guides you from a problem to a solution. And now I don't want to pretend like I came up with that design. This is actually stolen from Rolex, one of their legendary static ads. We just kind of took inspiration from it and it worked really well for this product.
+
+
+> 🎯 **Exercice**
+
+And actually a fun little exercise you can do to test if your hierarchy works the way you intended it. When you're working on an ad, show it to someone for two seconds, like someone near you, and then take it away. Like just do it like this, like show this, and then take it away, right? And then ask them what they remember seeing first, second, and third. And if they're not seeing things in the order you want, you need to go back and fix your hierarchy.
+
+So that wraps it up for visual hierarchy. And we get to principle number six, which is called just do it. The secret to creating killer static ads isn't some fancy technique or hidden hack or templates or design software. It's something much simpler, but way more powerful. And you just need to put in the fucking reps.
+
+And let me show you something that might make you feel a bit better. This is one of the first static ads I ever made. Look at this shit. And now when you compare that, for example, to the ad I just showed you for Wazoo, because I made that one as well. This difference is what happens after hundreds of ads and countless of hours of practice.
+
+See the difference like the clarity, the confidence in design. That didn't come from watching tutorials or reading books. It came from actually doing the work and actually designing a lot of static ads.
+
+Here's what happens when you actually start creating ads regularly. First, you develop an eye for what works. You start seeing patterns everywhere. Second, you build confidence in your decisions. You know why you're placing elements where you do.
+
+And third, you develop this almost supernatural sense of what will convert. And that's called experience. You just need to commit to consistent practice. Every single ad you make is teaching you something. Every bad ad is a lesson.
+
+Every good ad shows you what to double down on. And don't just create safe, boring, templated ads. Try shit. Break rules. Sometimes your crazy ideas will, you know , do very well.
+
+And that's how you learn. Other times they'll fucking be awful. And that's even better. Like, take notes either way. And the thing about static ads is you can create them quickly.
+
+Unlike video ads where editing takes forever, you can test and you can iterate faster. You can learn faster with static ads. I am confident if you do one static ad a day for a month, your skill and your, your eye, you'll be developing an eye for static ads. And you'll be developing that skill. And I guarantee you after one month of practice and of feedback that you can get from me, like you can, you can ask me, Hey, I made this static ad.
+
+Is it good? Is it bad? What can I improve? Use that to your advantage and make different versions, play with different layouts, try new headline ideas, try new designs, whatever. So your homework is to take everything we covered about visual hierarchy, headlines, patterns, all of it, and just start making static ads.
+
+Like, don't aim for perfect at the start. Aim for done. Then do it again, and again. And with enough reps, you'll get to perfect. Because honestly, in six months, you're either going to be really fucking good at making static ads, or you're going to be exactly where you are now.
+
+The only difference is whether you put in the work or not. Now, as per usual, I have prepared a few static ad briefs below this video for you to crash out. Watch a few videos below this to understand how to do static ads. Maybe you're not that familiar with technicalities. I'll show you my tech stack I use.
+
+I'll show you my workflow. Do the briefs, send them over. And like I said, I will give you feedback. And I'll also try to again, blow this video, attach a inspiration file with some static ads, and I'll be breaking them down. So you see what I like in those static ads, what's good in those static ads.
+
+So you can kind of take inspiration from that and, you know, get some ideas flowing. I just want to say your first static ads might suck at first. And that's completely fine. You just need to keep going, study what works, find inspiration, learn from what doesn't work. And And most importantly, just fucking do it.

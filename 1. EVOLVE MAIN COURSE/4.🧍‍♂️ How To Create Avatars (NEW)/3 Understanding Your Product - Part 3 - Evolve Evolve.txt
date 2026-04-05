@@ -1,0 +1,44 @@
+All right, now in this video, I'm going to show you how to actually fill out the product document so that we can actually better understand your product and know what the heck it does and also use this with AI as well as manual.
+So it's going to be a bit of a quick one here for the AI one and then we're going to have another video that follows up on how to do it manually.
+So let's go ahead and jump in.
+So if you do not know what Claude is, Claude AI is honestly a tool that I recommend literally every single person uses and I would even recommend getting the paid version.
+I don't think it's like 20 bucks a month and the reason why is because you this thing is a lifesaver. I'm not going to lie. I am very over leveraged on Claude. I use it a lot.
+But what this can do for the sake of speed and workflow is absolutely sensational. Okay.
+With that said, keep in mind your work works more on you than you work on it. I might actually put this after I show the manual one because I still think a lot of you guys should do this manually but with AI, it's a great way to expedite things.
+And so if you don't know what a Claude project is essentially in Claude rather than just using a chat and if you just have the free version, you can just use the chat as well.
+All of the documents that I'm about to like upload into this, you could just drag inside of here as well. And I know I say that word funny.
+But we usually use projects or yes, you always use projects. And so when you create a new project, you would just say, I'm going to call this brand name example or brand example for origins and evolve.
+Okay. And then here, you can describe a goal, but I mean, this is something that I'll literally just actually copy and paste it from the one that we use so that way you guys actually have it.
+Cool. So here is actually the prompt that we use and this prompt will be attached below in the school. And then from there, you will be able to copy and paste it in.
+But essentially, you can go ahead and you can create the project. And then side of here is where you're going to add files. So in this file, there's essentially three things that you're going to do.
+So number one, you are going to upload any reviews that you have whatsoever. Okay. And so if you don't have reviews, you can just use your research doc for now, but you definitely are going to want to get some kind of customer reviews because it will definitely help Claude with understanding more about your brand.
+So I'm going to go ahead and upload those. Actually, I'm not because I have to file that different computer. Don't worry about it, but you would upload the reviews. And then from there, and I already have this project made. So it doesn't matter.
+But then from there, you're going to upload your research document as well as yourself onboarding documents. So those two documents I have. So I'm actually going to upload those now.
+So as you can see here, I just clicked those two files. So one is the actual research document that we did, which again, we, you guys should have also gone through because the research process is very important.
+And then from there, it actually has our onboarding. Now, this is the onboarding that this brand actually filled out. But more importantly, you guys have the same doc as well.
+And at the end of the day, you want this AI to essentially be trained on specific files. Now, at the end of the day, there is a lot more that we will likely do with Claude and that we will use Claude for, but just understand that it needs to have some kind of context information.
+Okay. And then from there, what you can actually do is once you've provided that self onboarding and you've provided the research document, you can actually go into this here and you can copy this entire template and you can literally just paste it here and say, hey, Claude, can you please fill out the following?
+and by doing that, it's actually going to just fill this entire thing out for you using the
+information that you've given it. I sometimes like to say, "Hey, if you couldn't fill anything
+out or if you have questions, let me know." But as you can see now, it's giving the product overview.
+It's a step one. Here's GuardBlinds. Here's the price point. How does the product work? This is
+what it does, sixth grade version. This is what it does. Here's the features. It just fills out
+this entire thing. There's actually an example here for you guys as well. You can see it says
+product in action. Then you can see the features. You can see the assumed benefits, which we're
+going to get to. Assume desires, new mechanisms, hidden mechanisms, all of the stuff that you're
+going to need for the next steps here in regards to desires, market specifications, and everything
+else. But with that said, that is how you can use Cloud to do it. Very, very simple, very, very fast.
+Now understand, you don't really learn a lot from doing this. Obviously, you should have
+learned a lot from doing the research. So you always need to make sure that you go through this
+and say, "Hey, what of this is Fluff? And what of this is actually accurate and good?" Because
+the one thing that you guys need to understand is that Cloud and AI in general makes educated
+guesses. It assumes. That's why this has assumed benefits because a lot of you guys maybe have
+done some research on the market, but we're going to get to that after. Right now, this is just us
+understanding the product. Okay. And so we're going to go with our assumptions of what we think the
+product does. I obviously should have seen you guys, or you should have done some kind of research
+on this. But at the end of the day, you need to understand what your product does. And so from
+that side, you need to just have your assumptions. Like, okay, well, the product does this, the
+product does that. And that's why filling this out manually is really good to do. And so that's
+why you should have seen that in the first video. But now I'm actually going to go ahead and fill
+that out myself. I'm just filming this one is a little bit quicker. But that is how you can use AI
+to essentially fill this out for you once you have the research document and all that kind of stuff,

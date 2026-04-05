@@ -1,0 +1,561 @@
+All right, now, when it comes to actually executing tests,
+okay, there are basically a few different ways to do it.
+I'm just going to cover the ways that we do it
+from everything from the first test
+that I showed you guys on how to run,
+which is a redirect test.
+The other is an onsite edit.
+Third is obviously template
+and then theme test is pretty straightforward.
+So just to knock the easiest one off the list,
+theme test, if you split test themes
+and theme B works better,
+just literally go in to your Shopify
+and if this theme test won, just publish it
+and you're done, boom, executed.
+All right, that's the first one.
+The next one is with the onsite edits test.
+Whatever onsite edits that you made,
+you're simply going to go into,
+you're obviously going to make sure,
+always, always make sure you stop your test before.
+If you need, there's two options,
+there's stop and then there's pause.
+What we typically do is we pause it
+and then once we have actually executed it,
+then we mark it as stopped, okay?
+So as you can see, there's a few tests right now
+that we actually need to go and execute
+and so we have a few different phases.
+The first one is like, okay,
+we basically have to finish it
+to get it ready to test
+and then it's testing
+and then once it's finished testing,
+we have to go and execute it
+and then once it's executed,
+then it's fully done, okay?
+And so in this instance,
+if you are doing an onsite edits test,
+then if whatever those onsite edits are,
+you just need to go into your customizer
+and say again, if it was like the headline stuff,
+you're just gonna go in
+and whatever onsite edit that you made,
+you just need to go and make sure
+that you change that inside of here, okay?
+Pretty simple, pretty straightforward.
+Now, if we go into the other type of test,
+which is a split URL test,
+this is a scenario
+where you're probably testing different pages, right?
+And so the only time that we typically use this
+is like for ads
+and so if you did do a split URL test,
+then obviously what you need to do
+is you need to just go in
+and start changing that URL in your ad account
+or whatever it may be.
+That's really the only scenario
+that we use split URL test.
+Again, we don't use it for much else than that.
+So for example, like the example that I gave,
+we're talking about split URLs,
+like sending from our landing page
+to the actual collection page.
+If the collection page beat out our landing page,
+then we would just start sending
+to the collection page in the ad account,
+moving forward and probably change out the link
+and that's that, okay?
+Pretty simple, pretty straightforward.
+You could also go in if you really wanted to
+and set up a redirect.
+I typically don't recommend doing this,
+but there is an option inside of Shopify
+where if you go to redirects, there's URL redirects.
+And as you can see, for example,
+this was an old page that we used to run
+that was called pages pre-order.
+And now if anyone,
+because we still use this URL in our ads,
+if anyone lands on this,
+it just automatically redirects them to pages tylo.
+So again, it's very simple.
+Create a URL, redirect, redirect from where?
+Okay, well, pages slash pre-order
+would then go into pages slash or pages slash tylo.
+Okay, that's it.
+Pretty simple, pretty straightforward.
+You actually might need to include the entire URL here.
+Not entirely sure it says the original URL
+you'd like to forward visitors to.
+Usually this is an old page visitors can no longer access
+because the content has been into a different URL.
+I'm not 100% sure if we need the full URL.
+I think even if you put the full URL,
+Shopify will just update it anyways.
+But that is how you would go and do that.
+So let me just discard.
+I don't know why it's not letting me discard,
+but I'm just going to click out of here
+and go back to the online store.
+Just let me leave, please.
+Okay.
+All right, now the next one
+is obviously going to be the template test.
+So again, there are four types of templates
+that you would be testing.
+There's going to be the homepage.
+There's going to be,
+again, I got to create another test.
+Let me just go back into one that is currently active
+so I don't have to create another one
+because Andrew, if you're watching this, I love you,
+but I'm probably creating so many messes.
+So inside of here,
+there again, the four different types of templates.
+There's the homepage,
+there's the product page,
+there's the collection page,
+and then there's the actual pages.
+Okay.
+And so very simple,
+like I showed you with the product page.
+If you do have a product page that wins,
+you simply go into the product section,
+you find that page.
+So for example,
+if we did a custom template for the ACE hybrid,
+and let's just say it was called the,
+I don't know, the, whatever this is,
+EAM min.
+Let's just say this was the new template
+that we tested inside of IntelliGems,
+and this one came out as the winner.
+We would then change from default product template
+to EAM min.
+We would simply click save and boom.
+Now we're done.
+Now that product template is already live.
+We don't have to worry about it.
+We're all good.
+So that is how you would do that for products.
+Very simple.
+Now, when it comes to collection pages,
+it's also pretty simple.
+Say, for example,
+we had this split test here,
+and we were split testing the default collection
+versus the EAM update Tylo compare V1.
+Well, then in this instance,
+we split tested this.
+It turned out to be the winner.
+Exact same thing like the product page.
+We would go and find the collection.
+Again, this is the Tylo on ice cut
+resistant technology collection.
+You can always go down and check the URL
+to make sure this is the URL
+that you're wanting to work on.
+And then from there,
+we would simply go in,
+change the template,
+and boom, we are good to go.
+Okay?
+That's it.
+Same thing as the product pages.
+You go in, you update it,
+and you're done.
+Now, when it comes to pages,
+you're going to go into online store.
+You're going to go down into pages.
+And in this instance here,
+as you can see,
+this is the Tylo landing page.
+And the current template is EAM LP hero V5.
+You can see we've tested a ton of these.
+Okay?
+And so if I go and I view this template,
+you'll be able to see inside of here
+what this template is.
+Now, very similar to how we function
+with product pages.
+If we click edit website,
+you can see this is the URL right here.
+If, for example,
+we did a split test inside of IntelliGems
+where we tested that EAM LP hero V5
+versus EAM landing V6,
+and EAM landing V6 performed better,
+well, then all we would need to do
+is go in, click this,
+and save it.
+And we're good to go.
+And that's it.
+And now we're done.
+It's very similar to the collection,
+very similar to the product.
+It is super easy to go through
+and update that.
+Now, I don't know what I just did.
+Hopefully I didn't break anything here.
+It looks like I might've actually,
+okay, I didn't break anything.
+We're good.
+So that is how you do it.
+It's very simple.
+Same thing for the pages.
+And this is what's really nice
+about IntelliGems.
+Again, when you use templates,
+it's so simple to just go to the page itself
+and update the template.
+Now, the final thing
+that you're going to need to do
+is obviously the homepage.
+Now, this is the one
+that gets a little bit scary, okay?
+And the reason why
+is because we got to go into the code, okay?
+And so as you probably remember,
+inside of here,
+there is no way for us to,
+you know, change the homepage template.
+And there's no way for you to do that
+inside of the Shopify side of things.
+So what I'm going to do
+just to show you
+is I'm going to preview this template.
+And I'm going to show you this preview
+so you can see what it looks like.
+Well, this looks like
+we have the new one applied.
+So let me just confirm
+that this is actually right
+because it shouldn't be.
+So give me two seconds.
+Nevermind.
+It is right.
+Okay.
+It's this page here.
+Okay.
+And so what I'm going to do
+is I'm going to actually try to get it
+to show this page.
+Okay.
+And so this page
+is the one
+that is actually currently live
+on the website.
+I'm just doing this in a backup theme.
+But for the sake of simplicity here,
+because I just don't want to break anything,
+imagine that this was actually live.
+Okay.
+So what you would do
+is you would go in
+and you would edit the code.
+Okay.
+And in this instance,
+again,
+if we preview the store,
+we can see that
+this is the homepage template
+that is live.
+Okay.
+Remember this template.
+What we would do
+is we would go into files
+and this might not work
+100% of the time,
+by the way,
+but it should work.
+If not,
+you need a developer
+to kind of help you.
+This is just what I've done.
+And let's say,
+for example,
+I want to have this
+index EAM countdown banner.
+So this one here,
+I actually think
+I can copy
+this URL as well,
+or actually I'll do a test
+just to see what happens.
+All right.
+So what I've done
+is I've actually now
+just gone ahead
+and added a quick little view
+parameter on here
+just to see what this looks like.
+So again,
+I'm still in this preview.
+You can just,
+again,
+always do this
+in the preview anyways.
+So let's just say
+this is the hero section
+that I wanted to get live,
+or this is the homepage
+that I wanted to get live.
+What you can do
+is you can simply
+add a little and.
+So right here,
+you'll notice that
+if I just refresh this,
+it's going to remove this.
+And here's the one
+that is default.
+If we add a little snippet
+of code here
+that says and view equals,
+and we put in
+the name of this template.
+So EAM dash countdown
+top banner dash V1
+and we click enter.
+It's going to show us
+a quick little preview
+because we're adding
+what is called
+a view parameter
+to see what it looks like.
+We can see
+that it is now here.
+Okay.
+Now,
+if we go in
+and I,
+you press command a
+command C
+and then you go
+into index dot Jason,
+which is always going
+to be the native homepage.
+So again,
+if I remove
+this view parameter
+from this,
+you can see
+this is the standard homepage.
+And if I go into
+index dot Jason
+and hopefully this works,
+if it doesn't,
+I just know there's a developer
+that's laughing at me right now.
+I'm going to delete
+everything that's in here
+and I'm going to paste
+this in here instead.
+And now again,
+please do not do this
+on your live theme.
+Okay.
+So remember when I said
+pretend this is a live theme.
+Don't pretend it's the live theme.
+Always do this offline
+because if this breaks it,
+you'll be really upset with me.
+So always make sure
+that this says preview first.
+I'm going to click save
+because I know
+this is not the live theme
+and I might even just
+go and double check.
+I'll be like,
+okay,
+this is in draft.
+Okay.
+What is the name
+of the actual live theme?
+Let's just be 100% certain.
+I don't know why
+I can't leave.
+Here we go.
+The live theme
+is called EAM Evergreen 314.
+So let me just double check.
+I am not on that theme.
+So I am good.
+And again,
+I cannot stress
+the importance of this.
+I'm going to go
+and click save.
+And now fingers crossed
+if I refresh on this,
+it should show that template.
+So there you go.
+Now this template
+is the new default.
+Okay.
+And so that's all we did.
+We just took the code
+from this template
+and we added it over here.
+And now what I like to do
+and what you should have done before,
+I'm going to press command Z
+just to go back.
+Uh-oh.
+What did I do?
+I pressed command Z
+too many times.
+I think,
+uh-oh,
+there's my entire history.
+Um,
+what I should have done
+is I should have made a copy.
+Thankfully,
+I know that this is
+the actual,
+uh,
+same URL here.
+So for example,
+or the same URL,
+the same code here.
+So if I copy all of this code
+and I paste it in here
+and I click save,
+it's actually going to go
+and it's going to revert
+back to that old page.
+So now we're back on that page.
+Ta-da.
+Pretty cool, right?
+And so what I would recommend doing
+is that when you transfer this,
+just always make sure
+you add a new template
+and you're going to go here.
+You're going to add this
+as an index
+and you're going to keep it in JSON
+and you're just going to call this index,
+you know,
+dash old HP
+or whatever it is,
+like old homepage,
+right?
+And you can click done
+and now what that will do
+is it will give you
+obviously a new template here
+that you can paste your code into
+from the original.
+So then that way
+when you paste over the new one,
+again,
+I just,
+I am messing a lot of stuff up here.
+Um,
+so that way when you paste them,
+so just be careful.
+If you ever mess up,
+by the way,
+you can just,
+you can just get the hell out of there.
+Uh,
+so before you,
+you know,
+save,
+always make sure you just
+don't break things.
+Um,
+but that's how you can also
+just keep that template as well.
+Uh,
+so it doesn't just like go disappearing.
+And again,
+this is why you should have copies
+of this stuff.
+But at the end of the day,
+that is how you can keep
+an extra copy of this.
+So again,
+this is the current one.
+I'm going to go into the old HP
+and I'm going to paste that in there.
+And then from there,
+I can copy this countdown banner.
+Let me just get rid of that one
+for confusion.
+This is the one that I wanted to execute.
+So I'm going to copy this.
+I'm going to come in here.
+Index is the main one.
+So always remember index.json
+is what's going to be live.
+So you can save that.
+And now what I've done
+is I've taken the template,
+that one,
+and I've moved it to the live theme.
+And then I took the code from here
+and I made a backup on this old one
+in case I just want to revert
+whatever reason.
+And now if I preview the store,
+you can see I've got
+this template live instead.
+If this does not work,
+make sure,
+and again,
+it won't work sometimes.
+So make sure you QA,
+there's going to be another video
+that talks about QA on this stuff.
+But at the end of the day,
+that is how you can go through
+and update templates.
+I'm now going to go back
+and fix my mess
+because I have really made a mess of this.
+And thankfully it's an offline theme,
+but we don't have to worry
+too much about it.
+So I'm not going to do that.
+That was for the sake of this video
+and boom.
+Now,
+just in case if this theme ever goes live,
+we have the proper template good.
+But that's how it works, okay?
+That's how you get homepage test live.
+It's a little bit more complicated.
+Make sure I'm going to make a note
+that says watch this video
+all the way through
+so that way you don't break things.
+But that is how you can get
+the homepage live release.
+That's how I do it.
+There's probably a better way to do it.
+There's probably something
+that the devs can do,
+but that's what I do.
+I just copy the code over like that
+and that is all, okay?
+So hopefully that makes sense.
+Just be aware
+that if you're using apps
+and other custom codes
+and all this kind of stuff,
+like always double check it.
+Have the help of a dev on standby
+and that is how at least
+you can kind of scratchy
+get the homepage live, okay?
+So hopefully that all makes sense
+and you're able to get your test live
+once they become winners.

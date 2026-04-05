@@ -1,0 +1,220 @@
+All right, now that the client has confirmed the creators
+that they would like to work with,
+what I'm going to do is simply come inside of here
+and I'm gonna copy this information
+and move this over to the selected creators tab here.
+And as you can see, I can simply come in
+and I'm actually gonna grab the short list status as well
+'cause I just realized that this price status is here.
+So we can actually delete that.
+Let's go ahead and re-merge this and fix the sheet.
+All right, so now I've got all
+of the client confirmed creators selected.
+I'm gonna go ahead and paste them inside of here.
+And now what I need to do is essentially just go through
+and start basically hiring the creators.
+And so that's what we're gonna do in this process here.
+So we're gonna start basically just up at the top.
+I'm not sure actually how incense ranks this.
+I think it ranks it by a date like applied
+and message and all that.
+So what I'm gonna do is I'm just gonna go inside of here
+and just copy the actual name.
+And then I believe there should be a search filter here.
+Yeah, so I can just search for the creator.
+So well by Haley, it's a creator that we're gonna hire.
+So again, as you can see, there's the creator.
+I'm gonna go ahead and click hired on this,
+click hire on here.
+And what that's gonna do is it's gonna say,
+all right, thank you for hiring this creator.
+And you'll see that their shipping information
+is now available.
+So we're gonna get to that in a second.
+But while we have this creator hired,
+what we're actually gonna do is we're gonna go down
+and we're now actually going to copy this template
+of the hired creator message.
+And we're simply gonna paste this in.
+So we're gonna say, now that we've hired them,
+hi, Haley, or hey, Haley, it's kind of a weird one.
+So hi, Haley, our team is direct side of working in projects.
+We need two things for you.
+One, can you send over your email off or tracking purposes?
+And then the reason why we do that is just to essentially
+confirm, now you can't see their email here,
+but when you download their shipping information,
+you actually will be able to get their email.
+So if you want to actually remove this, we can, but yeah,
+I'm gonna go ahead and actually just remove this
+from the sheet while we're doing this.
+Actually, I'm thinking that back,
+we're going to actually just keep this as is,
+'cause we're also going to get them
+to confirm their shipping information.
+And the reason why is we just wanna make sure
+that we're not sending to an old address
+and we're not sending confirmation to the wrong email either.
+So you're just gonna go ahead and copy face this message.
+We need two things from you.
+One, can you send over your email for tracking?
+And two, can you confirm your shipping address?
+Now, inside of here, you're just gonna copy
+their shipping address and paste that in.
+And then inside of here, also let me know
+the products that you would like to receive.
+So this is going to change from client to client.
+So just to give you a few different examples
+of this scenario, inside of here for one of our clients
+over here that sells shoes, what we actually ended up doing
+is we ended up sending a message to the creators
+that said, hey, can you please let us know
+your two favorite pairs of shoes from this collection
+and of course, send every email address, whatever.
+So similar kind of message, but now we're actually getting
+the user to select the product that they want.
+And obviously that's important because for example,
+if we're gonna send shoes to someone,
+we wanna make sure they actually select the shoes
+that they want, right?
+We don't want someone to be creating content
+with a product that they're not interested in.
+Now obviously this client has multiple skews.
+So that's something where we probably need to make sure
+that we aren't sending product that the creator doesn't want
+which would obviously lead to poor and unauthentic content.
+Now in this scenario for a separate one of our clients
+where we actually had just a single product
+that was being sent, you can see what I actually did
+was I just asked the creators to let us know
+if they had a preference on color.
+So we already confirmed that we were just going
+to send this product.
+So we didn't need to say, hey, choose what product we want.
+We just had, this is the product that we want
+to create content for, just let us know
+if there's a variant, if you want a black or a white one.
+And so we didn't really need to do that,
+but I went ahead and just asked the creators for that sake.
+Now to give you a real example now,
+as we're dealing with our client over here
+at the innocent baker, if we can go ahead and load it up,
+you'll notice that I'm going to actually use
+the product linked for the kits.
+So in the kits, we basically have two,
+or two different ones that we're going to send,
+or I believe it's just the one, let me double check.
+All right, so we're a little bit more in the future here,
+but as you can see, I actually just ended up messaging
+the client and just saying, hey, can you confirm
+if we're just going to send this main kit
+or do you want to give the creators option
+to choose their kit?
+And I said, if I think we give them the option
+to choose their kit, then we can get
+a bunch of different donuts and that would be a lot better.
+So what I actually had to do is I went through
+and I actually created my own collection
+as this collection was a bit of a disaster.
+So essentially what I've done is I just created
+a new collection forehand.
+This is obviously not something
+that you're going to have to do.
+This is just a client that's just starting out
+so they need quite a bit of help.
+But with that said, I've essentially just gone ahead
+and recreated this for them.
+And now inside of here, we have the ability
+to send this link to the creators.
+Now, obviously, you should always wait
+into the client confirms, but I'm just going to take a lead
+on this 'cause he trusts me so it's a lead.
+So this in your scenario, if you need to chat
+with the senior strategist, please just message them.
+But this is an example of the collection
+that we would then send to the creators.
+And essentially inside of here,
+now the creator could tell us which one that they want.
+So I'm actually going to go ahead and add this in here.
+And I'm just going to simply delete this
+in the same creator address.
+So I can copy this one last time.
+So name, beautiful.
+I'm just going to copy this.
+So I have that as the template.
+And I just realized at the template,
+I'm going to have to recopy it every single time,
+which kind of sucks.
+So I'm going to go ahead and copy this
+and just store this back in my sheet for now,
+just so I have it.
+Apologies for me dragging you through this.
+But we're now going to copy this, beautiful.
+That is in there.
+We also now are sending them to this collection
+with the donuts for them to choose, which is amazing.
+And obviously, this is going to say, hi, Haley.
+Our team is excited to work with you.
+Can you confirm?
+Make sure the address lines up and like that.
+You're then going to go ahead and send that message
+and wait for them to obviously respond.
+And now you're going to move on to the next one,
+which is the K Ching creator here.
+So we're going to copy this or Kaya Ching.
+Great.
+Oh, before I forget, I also have a cooking TikTok
+that I can promote your products.
+Cool.
+Okay, awesome.
+Well, you're already hired.
+So you're good to go.
+Now, of course, we're going to go back, we're going to copy our message here, and we're
+this in and we're going to copy the user's info and we're going to paste that there and
+obviously her name is kaya so I'll say hi kaya that is uh that is awesome that would be awesome.
+on that profile.
+With that said, our team is very excited
+we're putting you on this project
+and every other rest of the message is there.
+Also, let me know the recipe.
+This is where you should also customize this as well also.
+Or finally, please let me know what recipe
+donut kit recipe you would like to receive.
+All right, so there we go.
+So now it's actually a little bit more customized.
+So we're going to copy this one more time
+and we're going to face this in.
+Okay, a name, beautiful.
+And I'm going to drag you through this again.
+Like that, now we've sent two messages to creators
+and we're going to start to get some replies, right?
+With that said, our team is excited, amazing.
+And now obviously we're going to go back
+and we're going to grab the next creator.
+So this is styled by Paige, amazing.
+Hired, let's go back, let's find them.
+Perfect, hired, let's go back and copy our message.
+And this will be the last one, just to show you again,
+very clearly how this all works.
+So there we go.
+Hi Paige, great to have you on board.
+Here's your address, please confirm.
+Please let us know what donut kit recipe
+you would like to receive.
+And boom, just like that, we're now able to not send
+the wrong message like I did there.
+But it's okay.
+Hi name, our team is very excited.
+There we go.
+So anyhow, there we go.
+So that's the new message I would just send.
+If you make mistakes, obviously it's okay,
+but you can see I'm human.
+But that's how you do it.
+So now you're just going to obviously go through
+and do it for the rest of them.
+So that is the entire process
+of how you ask higher creators on incense.
+And then I'm going to film the next room
+of how to actually export all those creators
+into the sheet and let the client know.

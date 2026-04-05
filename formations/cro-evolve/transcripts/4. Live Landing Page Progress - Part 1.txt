@@ -1,0 +1,114 @@
+All right, guys, so just doing a little check-in now that it has been about three days of running
+this test, or I guess about three full days, I should say, and as you can see, we've actually
+started scaling.
+We are now at $120 per day.
+You can see that this ad right here, or this page deck test that we have running, currently
+has 14 purchases at a 3.22x return on ad spend.
+Now, what's interesting to look at is if we go and check the control, which is back over
+in the DCT campaign, you can see that this video here has gotten about a 1.85x return
+on ad spend and six total purchases, and if we take a look up here, this one has done
+a little bit better, about $76 total, so if we take a look at the two ads over here in
+the control while this has been running, you can see it's spent about $420, got about nine
+total purchases and a 2.25x return on ad spend.
+Now, what I'm looking at here is conversion rate and average order value, right?
+So conversion rate now is 2.74% and 105 on the control, right?
+So that's getting us, we have about $1.33 cost per click, 2.25x return on ad spend, about
+$948 in total purchase conversion value.
+Now, if we save this and we jump into another screen to check out the page deck page, we
+can see in total, we've got, again, our 14 purchases.
+And if we scroll over to the right, we've got about 7.53% conversion rate, $62 average
+order value, about $878 in total purchase conversion value.
+So overall, again, the main thing here is like we have a W because we've now already made,
+you know, basically an extra $878, which is awesome.
+Main thing that stands out to me here, though, is the fact that we are actually getting a better
+cost per purchase.
+And for this client in particular, cost per purchase is huge, right?
+If we take a look at this, it's been $46 cost per purchase.
+And this client obviously has a product that people buy over and over again.
+They actually have a subscription piece as well.
+And you can see that ours is at $19.
+So sub $20 CPA, really, really good to see.
+So what we started doing is we started scaling.
+So the first day, just to walk you guys through the performance on this as well, because we're
+going to get going here on some offer testing pretty soon, spent about $60 on the first
+day that we launched.
+I think we launched it on, yeah, so it was on the 19th that we launched it, $60, got
+off to a decent start, 2.14 extra turn on ad spend.
+The next day on Tuesday, I got two purchases, didn't really do too hot.
+Yesterday was, I was starting to feel a little sad.
+I was like, oh no, like, you know, conversion rate is not good.
+What's going on?
+Um, and then today has just been absolutely ripping.
+I actually have eight purchases at a six extra turn on ad spend, 14% conversion rate.
+Look at that.
+That's pretty crazy.
+So, uh, what I'm, what I'm realizing is that at least for right now with the page
+that we've done takes about three days to kind of kick up, which makes sense because
+it's a new funnel as well.
+And what's really interesting to me is actually today in general, if we take a look at the ad
+account, the ad account is doing terrible.
+This is at a one X return on ad spend over here.
+Uh, so we produced a double the amount of purchase conversion value value.
+And again, this is just one day.
+So it does not mean everything.
+But as you can see here, this account, uh, it's having a rough day, but the page deck page
+is just flying right through.
+And we actually started another test over here.
+And this one seems like it's, it's flying as well.
+Uh, so this is really good to see that we're starting to get some results from this.
+And so what I did was I basically just doubled budget, right?
+This is not actually following our proper scaling protocol.
+Um, what I could see here is if we take a look at over the last three days, uh, we were
+at about a 1.74 X, which is no good, right?
+Um, we want to be above a 2.5 for this client.
+Uh, but if we take it the last three days, obviously, including today, uh, we're about
+a 3.5.
+And so what I wanted to do was just start testing this a little bit faster.
+Again, for some of our clients where we're spending like $15,000 a day, it's like, I
+just want to, you know, I just go up there and set like $150, $200 per day budget already.
+So I feel like we can't even really look at anything until we start spending $100 per day.
+Um, so that's where we're at right now.
+And so obviously I saw that we were having a really good day today.
+Uh, so I doubled budget is pretty aggressive.
+Should we have double budget?
+Probably not, but we'll see how things go tomorrow.
+And I feel like with more span and more data, this will start to do well.
+Now, just so you guys know, my big focus right now is going to be bumping the AOV.
+Cause as you can see, we were at a 2.74% conversion rate and we had a hundred dollar AOV, right?
+So what's really cool about this is we can do 2.73 times 105, and that's going to give us
+a rough Shopify score of 286, right?
+Um, now if we go back and we can see, we had 7.53 times 62.78, but for 72, so we're actually
+healthier.
+So this uptick in conversion rate is actually been worth it despite the AOV going down by
+$40.
+So we've been able to basically, I think that's like almost quadruple.
+No, I think it's triple the conversion rate.
+Right.
+And so that's kind of the, the trade-off that, you know, if tripling the conversion
+rate and sacrificing $40 of AOV is something that happens, then, you know, that's, that
+can be worth it.
+Right.
+In this instance, it is, uh, and it's actually allowing us to get more customers as well,
+because I understood like, again, a lot of people, if they're trying something for the
+first time, probably won't spend a ton of money.
+So with that said, we've made that available, but now my focus is, is how can I get this AOV
+up to a hundred dollars with a 7.5% conversion rate?
+Right.
+Cause if we can do that, we'd be in a really good spot.
+So that's where the next few modules and where my mind is going to next is to test offers.
+And, uh, we are running a little AB test on this.
+And this makes me really happy because the revenue procession on my page, the OG page,
+not the, what the client wanted is, uh, is crushing it.
+So maybe we could be doing better if we weren't testing their page, just, you know, just what
+I'm saying.
+But again, it's only nine and six purchases.
+So we're, we're super far away.
+Again, if you remember statistically significant data, we're super, super far away.
+So this is just a coin flip right now.
+Uh, but with that said, uh, our, our page is getting out to the headstart, but that is,
+uh, just an update for you guys on what's going on with the page.
+And, uh, we're going to, we're going to get ripping.
+We're going to, we're going to start skyline.
+We're trying to push this up again, going to document this process for you guys and see
+what we can do.
+Um, but hopefully this is helpful for you and, uh, we'll see you in the next one.

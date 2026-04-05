@@ -1,0 +1,227 @@
+Okay, so the next step is we're going to be going over how to segment and schedule the founder's discount email and create a discount code, okay?
+So I do just want to remind you, please make sure you check out this updated loom that I sent for the previous step,
+because I go over that this previous email, EZMediaViralSuite number two, it should be sent to the entrance.
+I didn't mention that in the previous loom, and that's a very, very important detail,
+because we don't want to be sending this email to their post-purchasers list,
+because there's going to be a lot of people who have just not entered the giveaway, right?
+So we only want to be sending the winner announcement email to the people who have entered the giveaway, if that makes sense.
+Cool, so with that said, let's exit this and let us go over the next steps.
+So now what we're going to do is we are going to make sure that we are segmenting and scheduling the founder's discount email, okay?
+And then also I'll walk you through how to set up the discount code.
+So the first thing is let's segment the list for this next email.
+So we can see it down here, EZMediaViralSuite number five.
+So for this email, we want to make sure that we're only sending this email to the people who have entered the giveaway,
+but are not the winners.
+So we want to exclude the three winners or however many winners of the giveaway there are.
+We want to exclude them from receiving this email because this email, if you read the messaging,
+it is going to be, it is, it is going to say, I should open it here.
+Just go to content.
+Yeah, you can see it here.
+You know, it talks them through while you may not have won the giveaway, here's a little coupon code, you know, as a thank you for entering.
+So we're just giving this to the people who have not won the giveaway as a way of, you know, saying, saying thanks to them too,
+for entering and spending that time, giving all the valuable feedback.
+Cool.
+So with that said, let's go ahead and start to segment this list.
+So if we go back to lists and segments,
+what we're going to do is we're going to go into the, um, the entrance list or sorry,
+we're going to go into create a new list here.
+Yeah, so we're going to create a new list that's going to be called Easy A Media Winners.
+Okay.
+And let's always just tag that with Easy A Media so we can keep everything organized.
+And then all we want to do here is, it's always good practice.
+The first thing to do is always just make sure that you've single opt-in enabled
+because we already have these people already signed up on our list.
+So they've already given us consent.
+Then we're going to go to Quick Add because we have their emails and we are just going to copy and paste
+the three winners' emails or however many winners there are.
+So in some giveaways, it might be five winners.
+It might be eight winners.
+It might be one winner.
+Who knows?
+Copy all of their emails over to this new list, Easy A Media Winners.
+And we want to click this button that they've granted consent.
+Let's add that person.
+Okay.
+They've added.
+You can see that if I reload, they will be already here.
+Okay.
+So then let's do the second one.
+If I can get it.
+Get rid of the white space.
+And then profile is granted consent.
+Add that person in.
+And then the final person.
+Let's add her in as well.
+Boom.
+And now we have three people in and then always just check.
+Okay.
+So we got this person in.
+We got this person in.
+We got this person in.
+Everyone's in.
+So with that done, now what we want to do is we want to go back to the campaign.
+We want to go down to viral sweep number five.
+Click on it.
+And then here's the important part.
+So the recipients, we're going to send it to Easy A Media Entrance.
+So only the people who have entered the giveaway.
+But we are not going to send it to the winners.
+So that's how we exclude it.
+Okay.
+And that's the new list that we just created.
+You want to leave this disabled.
+Because we don't want it to skip anyone.
+Include the tracking parameters as well.
+So make sure we have tracking.
+Then we want to click on to the next step.
+And now the next step is, first of all, to change the sender name to whoever the founder's name is.
+So this is going to be from Dana.
+It just makes it a bit more personal.
+Now we want to just edit the email and then test it and make sure that it is fully functioning.
+So the first thing we want to do is we want to test that this coupon is working on their store.
+So let's click on this link.
+Let's make sure this link is actually going to their store.
+It seems to be gone.
+So let's go to this link.
+Let's click on some random product.
+I'm going to get out of this preview.
+Let's go on some random product.
+Let's just pick this, for example.
+Add it to cart.
+Let's go to checkout.
+And then it let us enter in this discount code to see if it is working.
+Okay.
+Discount code is not working.
+Why is it not working?
+So let's go back to Shopify and let's see what is going on.
+So this is why it's always important to test.
+So let me log in and now I'll resume.
+So in Shopify, in the client's account, pardon my throat here.
+Let's go to discounts.
+And then let us search for that discount and see if it's actually being created.
+Okay.
+So it has been created, but the scheduling is a little bit off.
+So let us make sure that the scheduling is correct.
+So the start date is at EDT 1 p.m.
+So we just want to make sure that the start date is going out at the correct time.
+So it does look like this will work because this, you've got to remember.
+So today is when the winner's announcement email was scheduled.
+So the winner's announcement email will be sent out on this date over here, as you can see.
+But when we're actually going to schedule the founder's email to be sent,
+the final email here, it will be sent out on this day here.
+Okay.
+And the discount code is set to go live on this date.
+So that's why it's showing that it's not working.
+But what I want to do for the purposes of this test is I just want to set it live now
+so that you guys can see that it is working.
+Always good practice to do this.
+Let's just set that code as live.
+And then let's go back to Shopify, wherever we were.
+Let's reload, first of all.
+Let's apply the discount again.
+And now, as you can see, the discount is working.
+And always good practice to do is put that number over whatever the product total is,
+which is nine, just so that you can make sure that we have set up the discount correctly.
+Okay.
+So when we come up to the discount, how do we set it up?
+You may be saying, well, how we set up the discount is pretty simple.
+We just go over to the discounts tab on Shopify, right?
+And then what we do is if I can exit out of this search, we create, create discount.
+And then what we're going to select is amount off order.
+In most cases, this is the type of the discount that you're going to be creating.
+So we're going to select discount code.
+We're going to write whatever the discount code is.
+In this case, it was Dana, the name of the founder, and whatever the percentage off was.
+So that's the code.
+Now, it won't let me use this because we've already created it,
+but I'm just going to leave it here for now.
+And then the percentage off is 25%.
+We're not going to do any minimum requirements here for them to purchase or anything.
+All customers are eligible, but we do want to limit it to one use per customer.
+So we want to limit it to one use per customer.
+This is all fine.
+You can leave that as it is.
+And of course, like I mentioned before, we want to make sure that we're scheduling it correctly.
+So if the founder's email is going to be delivered to people on the 16th,
+let's set the code to go live one day before, just to give it a little bit of buffer, just in case.
+Because you don't want to set it to an hour before, just in case that discount doesn't,
+for some reason, doesn't get activated.
+So always just set it to the day before.
+And that way, you know, it almost guarantees that it's going to work for everyone who it's delivered to.
+Okay.
+And then once that's done, I always look at this summary tab over here.
+Just read it before I hit save.
+So it's going to be online store, 25% off their entire order.
+No minimum purchase required.
+All customers, one use per customer.
+Can't combine with the discounts and active from today.
+That's perfect.
+So if I'm happy with that, I'll hit save.
+Add that into the email.
+Obviously, make sure that the client is confirmed that they're happy with offering a 25% discount
+or whatever number you suggest.
+And then you can go ahead with it.
+I'm going to discard this because I've already got it set up.
+So that's kind of it.
+It's pretty simple and straightforward.
+So let me go back to, I'll go back to Klaviyo.
+Let me just reset this discount here so I haven't messed it up.
+Okay.
+So I've just scheduled the discount to go live now on the 15th and the viral sweep email,
+the founder email will be sent out on the 16th.
+Okay.
+So as you can see, it's scheduled now.
+So with that all confirmed, all we need to do now is just make sure that the copy is all good.
+So let's just do another little review of this.
+So hi.
+Huge thank you.
+Cool.
+Special code.
+Dana25.
+I'm going to remove that white space there.
+25% off.
+And obviously make sure that this is actually linking to the store.
+Cool.
+And that looks all good.
+So what I'm going to do is I'm going to send this as a preview.
+So let's send it as an email and I'm going to insert my own email and test it.
+Okay.
+So I've tested the email and everything looks great.
+One final change I'm going to do is just make this discount code bold so it stands out a bit more.
+And I'm going to save it.
+And now I'm going to set it up to be scheduled.
+So let's continue to review.
+Check all of this.
+I think we're good.
+Fix send time.
+Now we're going to send this out again on one week from when the winners are announced.
+So the winners were announced on the 10th.
+Let's send out this founder's email on the 16th.
+Okay.
+So it's going to be sent out all at the same time.
+So let's use 12 p.m.
+Central time.
+Okay.
+Let's check this.
+October the 16th.
+Boom.
+12 p.m.
+Central time.
+Scheduled.
+Perfect.
+Scheduled that.
+And that should be all good.
+And then we can see here that we have, we click into it.
+So it has been sent to our entrance list.
+So everyone has entered the email and it is excluding the three winners.
+So that's perfect.
+That's what we want to see.
+So that's it.
+That's, that's how you can, you know, segment the list, how you can schedule the founders
+discount email, and also showing you how you can create the discount code and confirm
+how, you know, it's working.
+Of course, when you're creating the discount code, always confirm with the client before
+you, you, you create the code.
+You make sure that they're happy with whatever percentage you're offering.
+Cool.
+Thanks.

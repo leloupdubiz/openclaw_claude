@@ -1,0 +1,123 @@
+- Over the last 12 months the Oodie website has done
+almost 200 million in sales. - The Oodie.
+- The Oodie. - The Oodie.
+- The Oodie. - It's one of Australia's
+fastest growing company. - Davie Fogarty isn't your average CEO. - Two years ago, it
+looked absolutely crap. These are the top changes that we made to transform our website,
+transform our brand, you can copy yourself. In this episode we're gonna
+go through core principles such as being consistent,
+how to build trust, and how to create the
+best user experience. Now, before we go any further if you haven't set up
+your Shopify website, we do have a video on
+exactly how to do it. This is the website on
+the 3rd of October 2020 and it looks very very ugly but let's break down why it is bad. So you have two main
+purposes of a website. Firstly, you really just want
+people to be able to go on and shop and find your products easily. Our website was pretty good at that and we always were, we
+always focused on that. But one thing that we didn't do well is we don't have a good brand experience. And if you kinda break down what that is, one of the key fundamental
+things is consistency. Brand is an emotional
+connection to your product. This is conveyed through colors,
+fonts, imagery, everything. And if you are inconsistent
+around how you display all of that information, it's
+gonna feel very disingenuine and customers are gonna
+feel really confused about how they feel about your
+brand and what you stand for. So if we look at the website now we've got a bunch of
+different capitalized fonts, different typography, different
+colors floating around. And even when you look
+at our emails this time, they were also very very
+inconsistent, different colors, random little illustrations and whatnot. If you look at what we've
+got now on the website, we just run an after pay sale, you can see everything is
+consistent across the website. And we go to the email that we sent out for that exact promotion and
+it's again very consistent in everything that I'm talking about. One thing that medium and
+large size brands will do is create a brand book so that
+everyone is on the same page not just people in their organization, but also agencies that you
+use for things like email. So if we look at our brand book which I've prepared here for you, we've basically got our logo,
+how to use that logo as well. People sometimes ask
+how I actually came up with the Oodie name and
+also the Oodie logo. I was just at home one night 11:00 PM, everyone was out partying,
+I was very jealous, but I was like I'm
+gonna start a new brand. I basically removed the h from hoodie. I think I just grabbed two
+fonts and were off to the racer. So you don't need to invest
+lots of time and money into the logo, just make
+sure it's not trademarked. Then we've also got our color palette. You've generally got your primary colors and your secondary colors, and then you've also got some
+guides around iconography and also is our typography. It needs to be consistent with a primary and a secondary font. If you're a direct response marketer, or really struggling
+with this kinda thing, maybe you just don't
+have the eye for design. One thing I do recommend
+is using its Oddit. They're just a service
+that I found on Twitter and they're actually blowing up right now. They go through your website
+and find all of this stuff. You can see that they really picked up on the Montreal serial
+regular as our primary font. And then we weren't actually using that on lots of our web pages. You can see that we're
+using some capitalized, some with lots of spacing in between it, you just need to pick
+one and stick with it. Have if you look at our current website we've got the major headings
+like shop by category and what's an Oodie, all in the same font
+with the secondary fonts very very consistent. If you're interested in Oddit
+we actually do a free Oddit. I'll chuck in the description for you. The founders there, the team
+there is absolutely awesome. They'll look after you. People are very scared
+to shop online still. People are scared of two things. They wanna know if they're
+gonna get their product, and when they're gonna get their product. You really need to make sure
+this is clearly communicated. If you look at our old website shipping section buried in here, the new product page we've got
+this great little accordion where you just click down here and it has all of the shipping
+info. It's readily available. We also build trust in lots of other ways. Like we really tidied up our reviews. In our Oddit report they found
+all of these random reviews that were both fake or they were basically
+spamming random photos. The other thing that we're
+now split testing as well is incorporating our trust pilot reviews, which is a non-biased really
+strong form of social proof. This is the reason why Amazon
+listings convert so highly because people are so confident around the level of service and the product that
+you're gonna give them. They have lots and lots of reviews and that's how they sought their rankings. Probably the what most impactful thing that we had for our
+brand our conversion rate is fixing our product images. If you look at how
+vibrant these images are on our product page, you can even zoom in to get a
+little bit more understanding around how the fabric looks and feels. Compare this to our old
+with inconsistent lighting, poor focal length so that
+looking at the wrong angle it's making her look much
+shorter than she actually is. By fixing those images, you're going to get a lot more trust. I see this mistake with a lot
+with drop shipping stores. They pull from ally express, they just grab the suppliers images, and there's just no trust there. That being said, I totally understand. Back in the day I was
+shooting all my images myself. I had to get my mom. She was my first Oodie model ever. I basically took all of the videos, all of the product images. You've gotta work with what you've got but when you have the resources, invest in great product
+imagery that builds trust. Final thing we're gonna go
+over is user experience. People don't want to have to figure out how your website functions. There's best practice that
+exists on most e-commerce stores. You just really wanna make sure that yours is copying that. There are so many examples
+of bad user experience on our old website, that I
+don't even know where to begin. Probably one of the main
+things that we can see here, is the use of negative space here. There's just way too much
+scrolling, no information. You compare our new website this scrolls down with it responsive. You've got all of the images, so you don't need to click through. There's no big gaps on the website. Another great thing that we've
+fixed is this navigation bar. It's Oddit had an amazing section about how to improve our navigation bar. They suggested prioritizing
+new and best sellers. But what I really really love is their concept of this
+mega navigation bar. As you can see, when I highlight
+over a certain category, you explain what the product is, and you give product options as well. So you know what you are clicking into. This is a great user experience. We tested it and it
+performed much much better. User experience isn't
+just about design as well, it can also be copy. People don't want to have
+to expel lots of energy trying to understand
+what your copy is saying. There's lots of ways that
+you can simplify copy such as using bullet points. So if you came to our old homepage you can see this big lump of text. And as you can see under
+its Oddit's recommendation, you gotta give them credit here. They just talked about simplifying
+this using bullet points. One of the most ugliest
+things that we used to have on our website is this pre-sale warning. And now we've changed that to be a little bit more
+professional and stand out. When you go to an order and pre-order, you can see this little
+box in our brand colors with some clear instructions
+about when it will be shipped. Another great user
+experience that we added is actually AI merchandising. So there's a bunch of
+new software out there that basically have machine
+learning to understand how to order your product, and what product to recommend
+in certain sections. We've implemented this
+with this really nice sorting on the left hand side as well. So customers have a
+better user experience, and they can find their product quicker. Probably one of the most
+important things that we did for conversion rate optimization and increasing the revenue per visitor that we got on websites, is
+fixing our bundle selectors. So for those that are
+quite new to e-commerce bundles are really important because they allow you to
+charge less for your product because the courier costs are shared. When you ship two products in one package, the cost per shipping individual products will actually go down. So this is where you can pass
+savings onto your customer. We had this disgusting
+bundle selector here. We needed to go through
+and select your product. We've now made that fairly better. Where by coming onto there, you can see the products that
+you're picking, select one, and then click the other option. We split tested this design, and it absolutely went through the roof and I highly recommend
+you do something similar. Final thing I do recommend
+is migrate to Shopify 2.0. There's way better speed optimization, way better drag and drop editors. Optimize your site for speed. Use someone on fiber and
+they'll go in and tidy up all of the code that you don't
+need and optimize your speed. Your conversion rate will skyrocket. You're probably thinking
+that's a pretty large checklist but it is definitely worth it. Not only has our conversion rate increased from just around 3% to 5%, it's also made our brand
+experience much much better. Customers feel safer with us, they understand our brand values, and it's just a generally
+nice shopping experience. With all of these things
+it's about prioritization. The reason why we didn't make these massive changes on our website, is because we were
+focusing heavily on product and marketing at the time. We didn't have the resources
+to invest in our website, redesign it and make these changes. We decided to do a slow iterative process, with lots of split testing,
+slowly improving it over time. If you've got something
+that's working, keep it, make sure that you are prioritizing what is most important for you. If you like today's episode, or need some help with your
+website, I'm happy to review it. Just join our mentorship,
+drop the link in the discord, and I'll go over it with you. Don't forget to like and subscribe, peace. (upbeat music)

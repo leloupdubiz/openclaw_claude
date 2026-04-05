@@ -1,0 +1,62 @@
+[
+  {
+    "id": "12a24c786e9e4028a7f69fef6197ff06",
+    "scriptIndex": 1,
+    "scriptTitle": "Der Teufelskreis | Avatar  A1 Sonja  A2 Markus",
+    "scriptHook": "Du schläfst schlecht WEIL du gestresst bist. Und du bist gestresst WEIL du schlecht schläfst.",
+    "avatarId": "Ann_Casual_Front_public",
+    "avatarName": "Ann Casual Front",
+    "voiceId": "13e72664c716438f8161117e15b1a353",
+    "voiceName": "NELLO 5.mp4",
+    "status": "failed",
+    "error": {
+      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
+      "detail": "Insufficient credit",
+      "exception_class": "MovioException",
+      "message": "Insufficient credit"
+    },
+    "createdAt": "2026-03-01T11:55:49.586Z",
+    "videoUrl": null,
+    "localPath": null
+  },
+  {
+    "id": "0741e0db4cb540609a8a3082349cb6ce",
+    "scriptIndex": 2,
+    "scriptTitle": "Das Gedankenkarussell | Avatar  A2 Markus",
+    "scriptHook": "Das Gedankenkarussell nachts — das ist kein Willensproblem. Es ist Biologie.",
+    "avatarId": "Armando_Casual_Front_public",
+    "avatarName": "Armando Casual Front",
+    "voiceId": "4f276d6e53474a038a7b4a210f3fddba",
+    "voiceName": "TikDownloader.io_7537298423356067094",
+    "status": "failed",
+    "error": {
+      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
+      "detail": "Insufficient credit",
+      "exception_class": "MovioException",
+      "message": "Insufficient credit"
+    },
+    "createdAt": "2026-03-01T11:55:50.244Z",
+    "videoUrl": null,
+    "localPath": null
+  },
+  {
+    "id": "25843d21bf004e98b1520f1645982dae",
+    "scriptIndex": 3,
+    "scriptTitle": "Cortisol nachts | Avatar  A2 Markus  A1 Sonja",
+    "scriptHook": "Dein Cortisol ist nachts noch aktiv — deshalb schläfst du schlecht, egal wie früh du ins Bett gehst.",
+    "avatarId": "Ann_Casual_Front_public",
+    "avatarName": "Ann Casual Front",
+    "voiceId": "13e72664c716438f8161117e15b1a353",
+    "voiceName": "NELLO 5.mp4",
+    "status": "failed",
+    "error": {
+      "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
+      "detail": "Insufficient credit",
+      "exception_class": "MovioException",
+      "message": "Insufficient credit"
+    },
+    "createdAt": "2026-03-01T11:55:51.023Z",
+    "videoUrl": null,
+    "localPath": null
+  }
+]

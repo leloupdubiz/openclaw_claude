@@ -1,0 +1,263 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+Hello gang! So here is how we set up our 322 campaign. What it basically is, is our main method of media buying. So it's covered in the previous template of how we run our media buying. This is going to be the main campaign we run. So just to show you how we set it up. 
+
+0:00:19
+And this might have changed since the last time you saw the previous video or what you've heard. Basically, what it is, it's one campaign, CBO, we test ads inside. Previously, we would call it a DCT campaign. Now, instead of DCTs, we run it with manual ads instead. Let me show you how to set it up. Pretty straightforward, create, of course, sales, and you set it up as usual. 
+
+0:00:45
+So manual sales campaign, continue, all right. And you guys should have our naming templates as well of how to name your campaigns. Let's say for this purpose, let's say I'm targeting US. It's going to be my main acquisition campaign. You want to turn off these assets over here. Facebook has added a lot of different AI stuff since we last updated the videos. 
+
+0:01:10
+So CBO as well, $100 minimum. Of course, you can set it as high as you want it to. Minimum you will set this campaign at is $100. Besides that, so set up your namings as well. You want to drive it to websites only, but you hardly drive it to websites and shops anymore. There's a lot of issues with shop that come up. 
+
+0:01:31
+Discount issues, AI features, et cetera. Website, maximize number of conversions. We don't do anything else. We tested value before. Everything else, the regular one looks fine. That's your pixel. 
+
+0:01:44
+Besides that, okay, we used to toggle this on, dynamic creative. The reason we don't toggle it on anymore is Dynamic creatives is not a thing anymore. It's only flexible ads. Once you see it. Flexible ads over here. And the problem with flexible ads. 
+
+0:01:59
+is you can put in a bunch of images and videos over here, but you are not able to break down that data anymore. Previously, you can go to your campaigns. Back then, with dynamic creative, you could go to break down an image and see, okay, I tested these three images within this one ad set. Which one did the best? Oh, this one. Let's make more of it. 
+
+0:02:18
+But now with textable ads, you can't see that. Some people say, oh, it doesn't matter. The overall concept did well. Yeah, that's true. But like, what should I improve on? You don't know. 
+
+0:02:28
+So instead of dynamic creatives, we launch manual ads instead. So I'm back to the campaign setup. Ad set level, make sure you name it, DCT number, DCT name, your audience, broad, whatever it is. Maximize number of conversions, dynamic creative, turn off. As for scheduling ads, we always want to schedule it during midnight. It can be 12 a . 
+
+0:02:48
+m. at account time zone to 4 a . m. in the early morning. 
+
+0:02:52
+Midnight is fine. 
+
+0:02:53
+So some people will ask me as well, OK, what if my account is in Europe time zone, but then I sell to U . S. ? Set it to midnight at account time zone still. That's what it's going to spend based on. As for the targeting itself, Since it's a broad campaign, we don't want to change anything inside here. 
+
+0:03:12
+All you want to change is your age, gender, and location. Obviously, if you only sell to the US, why are you targeting Africa, for example? So there's a few different toggles over here now. So the issue with this new audience control is minimum age says 18. There is a chance that if you set it to, you know, you only need to cancel out at 25. gonna target 50 plus year olds if that's my main audience. 
+
+0:03:41
+You can't, which is why there's this button over here, see audience controls in advertising settings. So if you scroll down over here, advantage plus audience, new AI feature, doesn't make sense. You click on switch to original audience options, you'll see the OG ones pop up. Now you can actually select, oh, I want to target 50 plus girls. Sweet. 
+
+0:04:03
+But if you want to run it broad, your product isn't for You know, your products for everyone 18 +, you can use the original one. If not, you can use this. Doesn't really make a difference, Advantage Plus audience or the regular one. It's all the same thing. It's like Meta is trying to push people to run more broad stuff, which is why it's coming up with new labels for it. End of day, it's all the same thing. 
+
+0:04:25
+OK, so your location, age, gender. If you don't know your exact age and gender, I would always suggest for you to keep it broad, 18 plus all genders. After you run your ads for some time, you will have a bit more data, maybe 35 plus, then later on you can narrow it down. Some people will ask as well, what about my exclusions? As for exclusions, it doesn't matter as much. So some people want to exclude purchases. 
+
+0:04:53
+The reason why they want to exclude purchases is because they don't want to target past customers. And for most of you guys running dropshipping stores or dropshipping brands, you don't need to exclude purchases because your return customer rate is not good anyways however if your return customer rate is high you don't want to target them again then you will exclude purchases you know it's pretty simple you can set up custom audiences over here you can just click create new create custom audience and then it'll ask you let's say it's based on my website past 180 days where is it 180 days yeah okay the pixel purchase event 180 days OK, create an event, name it what you want. Then you can exit people in that. Not too important unless you have a brand with returning customers. If not, you can leave it as is, like this. Or if you want to, from the start, you can just exclude. 
+
+0:05:46
+Doesn't matter as much. So age, gender. Interests here, we don't really do anymore. So this is literally what broad means. Age, gender, location. Click languages, we leave it default as well. 
+
+0:05:55
+It doesn't matter. Placements also, we leave it advantage plus. We found the best performance here. Back in the days, we would optimize, oh, I only want IG real campaigns and shit, but nowadays, if you give the meta more data, it'll perform better. Besides that, at level, of course, add your namings in here. Most of you guys have your shit like super unoptimized, your naming templates. 
+
+0:06:20
+As you get a team moving forward, it's very very important you have your naming templates very clear. If not, your team can't analyze what is working well, they can't look at the ad account themselves. It's just good habits for you to set. It'll make your life much easier as well. Okay, so scroll down. We're not doing partnership ads, that's a separate topic. 
+
+0:06:39
+Select page, Instagram account. Some of you guys don't have an Instagram account set up yet. You guys use just the Facebook page. I would recommend you guys to create an Instagram account. Super easy. The reason why you want to create an Instagram account is so you can manage your comments on IG properly. 
+
+0:06:54
+Okay, so now manual ads. So, create ad, manual upload. Instead of flexible, we are doing single image or video. There's a multi -advertiser ad option here. You can turn it off. Doesn't really impact performance, but it's annoying to have. 
+
+0:07:08
+So, let's get started. Set up your creative, let me set it up wherever I have. They added a bunch of Disney options here, but please turn all of them off. It's very, very annoying to have it and it doesn't really improve performance. I'll skip straight to the media section. Let's say I select an image from here. 
+
+0:07:28
+Okay, let me select an image from here. Actable, flexible media. No, say no. Okay. In terms of optimizing for this, It's covered in a separate video, but the way we create ads now is we only create 9x16 ads, like vertical ads. like this. 
+
+0:07:46
+However, they're all edited in safe zones, so when they're edited to 1x1, or 9x16, it looks fine. We don't care about horizontal, nothing really converts horizontal anyways. Square and vertical needs to look perfect. Alright, all of this shit, skip it. Any AI things, turn it off. You see all of these, turn it off. 
+
+0:08:07
+It's very annoying for you to have to do this, but it's Facebook. There's a separate video in the AI program on the AI tool we use to stream all of this. It's called Kitchen. But okay, flexible media, disable ad launch, put in your text. So, explaining how we test the creatives now. Back then, it used to be called 3 -2 -2, because we had one ad set, three creatives, two headlines, and two tags. 
+
+0:08:35
+Now, we just move it to manual ads, but we do the same thing. 
+
+0:08:39
+So, It's three creatives, two headlines, and two copies still. So here's where the copies come out. 
+
+0:08:45
+Let's say the copy is called Test 1 and Test 2. 
+
+0:08:50
+Sweet. Headline, same thing. Test 1, Test 2. Sweet. Description itself, we don't really fill this out anymore, but what helps to be in description is just your free shipping offer or whatever offer. You put it, free shipping. 
+
+0:09:07
+Sweet. Call to action, of course, if it's for purchases, put it to purchases. Whatever it is, we'll shop now. We'll put shop now. All these enhancements, ideally you want to turn off all these ones. Put in your website over here. 
+
+0:09:22
+The last thing is just putting in website events and then your UTMs. UTMs will be inside the school program itself. It should be under this video. Important for you to have UTMs. Why? One, if you use third -party tool like TripleWhale, it helps for you to use 
+
+0:09:40
+TripleWhale and analyze properly. Two, when you use other attribution tools, Google Analytics, Shopify, UTMs, you can actually see it more in -depth, like where your traffic actually is coming from. It doesn't affect performance anyways. It's just good when you need it. It's super easy to set up anyways. Sweet. 
+
+0:09:56
+Okay, so now I have one creative set up, two copy and two headline here. What am I missing? I'm still missing two creatives. So on the left in the add level, Duplicate it 2 times Let's say I called it hook 2 Now it's hook 1 And hook 3 Sweet So all we need to do then You keep the text and the headline the same for all the 3 creatives All I need to do is just replace the images Same shit here All of this Please don't turn on the AI features We have a lot of issues with it Skip Skip See? I duplicated it but then they want me to piss off bro Yeah Done Sweet Then 3rd image as well Same thing Select new image Whatever it is Okay, skip, paste off, perfect. So, I just set up my 3 -2 -2 campaign. 
+
+0:10:59
+It's one campaign CBO broad. We set up ads via ad sets, like this, and within each creative test ad set, there is going to be three creatives, each creative having two copy and two headline. That's how we set it up now. The benefit of having it set up like this, you can see which exact creative is getting spent, and For some reason, you can break down the text but not the creative. So let's say I have it set up, my creative test already. It will be three creatives. 
+
+0:11:34
+Okay, perfect. I know this one is working the best. Which text is working the best? Click breakdown, scroll down, dynamic creative element, text. You can see, okay, this copy is working the best. Okay, scroll down, headline. 
+
+0:11:49
+This headline is working the best. Okay, let's combine it together and make a post ID out of it. Okay, perfect. So what you need to know besides setting up the campaign, one ad set is one creative concept. If you were to do this campaign for high intent ads, you strategized out, one ad set is one creative concept. What do I mean? 
+
+0:12:13
+If you had an idea for, let's say it's to showcase evolved demo video, all the ads inside here need to be about evolved demo video. It shouldn't be images and videos, it should just all be videos, but three different variations. In here, I chose the variation to be different hooks. This is so when you test inside this headset, the data you get is clean. If you test images and videos inside one headset, the data might not be distributed properly. It needs to all be the same concept, so it's a clean test. 
+
+0:12:44
+Okay, besides that, we're not done yet. So this is how you set up the campaign. But how do we set up more creative tests? Very simple, you just duplicate this 3 -2 -2 campaign on the CT43. I have a new concept, it's the CT44. Evolve showcase is my ad name, and then you will just replace these ones, evolve showcase, what is my variable, this time it's image. 
+
+0:13:09
+I change it, same thing, two different copies, two different headlines, three different creatives. That's how you set it up. Okay, so these are the creative tests, and within the 322 campaign, we will be both scaling and testing creatives at the same time. These DCT assets are creative tests, and additional ad set we will create is called a champions ad set. So go ahead, click create, you can create a new ad set, call it champions ad set. 
+
+0:13:37
+We will rename it once we have our naming schemes set. So the same way you set up this champions ad set, put your templates in, let's say champions The naming template is within the program itself. Let's say you name it Champions Website, same thing. All ad sets need to be website. Maximize number of conversions, it's all the same thing. Exact same setup as the previous ad sets you have created. 
+
+0:14:05
+Not dynamic creative. Okay, audience targeting needs to be the exact same for each of the ad sets inside here. So what is this Champions ad set? Champions basically just means you put your winning ads inside here. Why do we want to create our winning ads inside here and how do we do it? So I'm gonna go ahead to create ad here. 
+
+0:14:25
+We won't be creating new ads within, we will only be putting winning ads inside here. So how do we do that? For some of you guys who aren't running this method already, you might have other campaigns, ABO, CBO, whatever, you have ads that definitely are doing well. So I'll need to filter to the ad level. Let's say you look at last 30 days or look at maximum. You should know which ads of yours are working the best. 
+
+0:14:51
+All I'm doing is just finding what are my best ads currently. I say Stainless Steel. Okay, this ad is doing the best. I'm going to take the post ID of this and then put it inside that Champions Ad Set. Separate video on how to find your post IDs. Let me just show you how I'm going to set it up now. 
+
+0:15:10
+I'm going to do the Facebook post with comments method. Okay, you can't see the link above, but I have the link above to my post ID. Over here, I'm back to my Champions Ad Set ad level. Now, instead of creating add, I want to use existing add. minus this all these like features please turn off very very annoying it's like ai features okay you can put select post or scroll down enter post id i got the post id of this winning ad over here you guys can see it but it's a link up top click paste and there we go so now we have our winning ad inside here the point of using post ids is if it's already winners you want to retain the engagement inside here Of course, you turn off the enhancements, UTMs need to be here as well, whatever the UTMs were. Alright, so how does this all work together? 
+
+0:16:07
+We have a champion's ad set, we have different creatives inside here, how does it all work together? So the point of champion's ad set, some people like it, some people don't, we still do it, is to have all our creatives consolidated inside here. Because if you have too many ad sets working inside here at the same time, let's say eventually you get up to 20 -30 ad sets. Alright, but that's a lot of ad sets and you might not have the budget to support it, or maybe the spend doesn't get allocated properly because you have too much things going on. So, if you already have a proven winner, instead of having just one ad set have these three different creatives, you want to pick the best one out of it, put it within the champion's ad set, so we can give more spend to this one winner instead of the other three variations within. Also, in some cases, the winning ad for the week might change. 
+
+0:17:03
+one week this ad gets a lot of spend, second week this ad gets a lot of spend. If you have it all within multiple testing assets like this, you might turn it off because suddenly it's not doing well, you turn it off. However, it could be a winner one week, a loser another week. So what happens then? If you drop it within the champion's ad set, we're not going to be looking at whether an ad is winning or not inside here. All the creatives here are proven winners, so we're just going to dump all of them within here and let Facebook figure it out. 
+
+0:17:41
+This way, okay, let's say if you have one ad set that isn't doing well that week, if you turn it off and it was a proven winner, you have that exact ad within a champion's ad set, one. You have less ad sets running within the overall campaign, which means that spend will get allocated properly. And then you still have it within the champion. So if it does well the next week, you will get spend still. So the whole point of it is to save space so Facebook can allocate your budget more properly. And if it does do well, you will get spend still. 
+
+0:18:15
+So that's the point of it. So we have champions and then we have creative ad sets. There will only be one champion's ad set, and then you will constantly keep creating new DCT ad sets to launch and test new creatives. So let's say in a campaign with data already like this one, we have one champion's ad set, getting majority of spend. Why is it getting majority of spend? Because we launch our winners inside with the best copy, best headline, etc. and the rest of these are just creative tests. 
+
+0:18:49
+The champions campaign also serves as a benchmark for the new creatives to beat. I have all my super winners within here. If my creatives can't outspend the champions at KPI, they're not new winners. These are the benchmark ads you need to beat. As covered in the philosophy section of the media buying module, the whole philosophy behind is that we need ads to serve as a benchmark. 
+
+0:19:19
+Let's say it's a leaderboard system. These are current best winners. We want something that can beat out our current winner so we can spend higher at the KPI we want. And if it doesn't beat out my champions, my benchmark, it's not going to be a winner. If you don't want to use champions, that's fine. Some people choose not to. 
+
+0:19:38
+It's not too, too important. But you will have one ad set. or one creative that is getting majority of spend anyways, that will be your benchmark. We just like to use champions because it serves as your benchmark, keeps everything consolidated, you have less assets running, Facebook can allocate budget more properly. And within a filled out champions campaign, you have a bunch of different winning ads inside here. We don't even turn off the ads within these champions since they were proven winners. 
+
+0:20:05
+We just let them run their thing and they all post IDs. So in a scenario where you have new creatives that actually are winning ads, so they will overspend, not overspend, they will outspend your champions. In the case, that's a good thing. That means that I have a new winning ad, my overall performance improved. So what you will do once you have a winning ad is you just go select, this one is an old DCT but Let's say we break down by image here. We can see, oh, this variant is doing the best. 
+
+0:20:34
+Let me combine the best text and headline. And then I will drop the winning post ID inside my champions ad set to serve as a new benchmark there. But once you drop it inside the champions ad set, don't turn off the original ad set. This one is off because it's been like one year old. But once you drop it inside the champions ad set, don't turn off the original ad set. Leave it running as well. 
+
+0:20:59
+And the next question I will get as well is, people will ask, hey, I set up my champions ad set, I've dropped my ads inside there, but it's not getting any spam. And that's fine. It's a bit hidden. miss which is why not a lot of people like to do it, we still do. Sometimes when you drop adds inside there, although like 56 is getting majority of spend here and we took the best variant out into the champions ad set, in theory it should get spend because it's the best best version of everything, sometimes it doesn't. And that's fine, which is why we don't turn off the original creative test. 
+
+0:21:34
+Some cases, it does get majority of spend in the champion's ad set, that's great. If it does get more spend than DCT56, the ad set, then you can potentially turn it off. But if it doesn't get more spend than it, just leave both running at the same time, it's fine. Alright, just so you're clear again, so the media method is one campaign, at a $100 minimum. You can set it at more budget depending on what you're already spending. Ad set level will just be one Champions ad set with multiple creative testing ad sets and each creative test ad set is just three creatives with two different headlines and copies each. 
+
+0:22:11
+Champions ad set is just filled with your post IDs. All right, so now this is going to be more of a troubleshooting section. So for the troubleshooting section, it's just questions that we commonly get about this method that I will now answer. It might be a bit boring, so please bear with me. Some people ask of us about minimum budget. We do not do minimum budget. 
+
+0:22:31
+We did test it out. So we set minimum budgets over here. But what we've noticed is when we set minimum budgets, it didn't really make a difference. Because this method means that all of the ads compete against each other. So if you look at this campaign over here, some ads get spent, some ads do not get spent. So does it make sense for me to set a minimum budget so that some ads will at least get some spend to give it a better chance? 
+
+0:23:01
+We found in the case, we set minimum budgets, but it didn't help any ads. winners. In fact, it just spent more at lower KPI, so not really needed. Just run it broad without any minimum budget set, you'll be fine. And you will be humbled by this method. A lot of your creatives aren't going to get spent, and that's okay. 
+
+0:23:20
+That just means they're not good enough. We tested the minimum budget. A lot of cases, it's just for people's ego, so that it gets more spend if their spend feel better. Some cases, ads will only spend a few dollars and it's a reality hit, your ads are shit. Just make better ads. The next question I will get for the setup is how many ad sets should you have at a time within your campaign? 
+
+0:23:42
+So if you're only spending a few hundred dollars per day, I'll recommend five ad sets at a time. When I mean five ad sets, I mean if you have one champions already from your past winners, then you set up an additional two creative ad sets. So that's five ad sets running at a time. Or if you're a brand new brand, you don't have a champions yet, that's fine, because you have no past winners, right? In that case, you just have five DCTs, five creative ad sets set up. Why do we want to limit the number of ad sets running? 
+
+0:24:12
+Isn't it better if I just keep launching more creatives? Not true. If your budget is too little, what happens is it won't be able to allocate the budget properly. Imagine $500 a day to test five ad sets. Supposedly, it's 20 ad sets each. But obviously, some creatives aren't going to do well. 
+
+0:24:36
+They only get a few dollars a day. And it will take much, much longer for you to find, we call it statistical significance. Fancy term just basically just means whether it's a winner or not. So you might need to test things for much longer to get better results from there. So that's why we want to keep it less ad sets for the spend. If you're spending only a few hundred a day, try to keep it to five hundred. 
+
+0:25:00
+sets maximum. If you're spending like a few thousand dollars a day, you can definitely have more. There's no set rule for us because it really depends on multiple factors like your spend, your AOV, etc. General rule, spending a few hundred dollars a day, keep it to 5 ad sets max. So, let's say in this case, how much are we spending on this campaign? 10 ,000. 
+
+0:25:24
+So $10 ,000 a day, we can afford much, much more ad sets to test, right? Because even if the ad sets don't get much spend, they might still get a few hundred dollars a day in spend. So we have fun money there, like 10 plus, something like that, that's fine. Some ad sets will get like a few thousand dollars in spend, some will get much less. And that's fine, you know, since I have much more budget now, it gets distributed much more properly. Let's say if this one, this ad set over here, let me scroll up. 
+
+0:25:53
+At $10 ,000 a day in spend, you got $67. If you were to spend $100 a day in it, how much would you get? That's like 100 times less, right? Is it 100 times less? Is that like 6 cents? So I don't think you can get any results out of 6 cents, which is why we try to keep everything more consolidated. 
+
+0:26:14
+The last question we will get is, how do you know something is a winner or not? That's one. Two, how long should you test it for? So in this case, this ad is February 12th, now this ad has ran since January 29th. Let's go to when it's launched. So we test creatives for 3 days minimum, up to 7 days. 
+
+0:26:38
+So let's say it's launched, we go to 3 days since it's launched, 30th to 2nd. Let's see what's up with this one over here. Since launching this, so the way we look at it is this. First day it's launched. 
+
+0:26:56
+Whether it's getting spend or not. 
+
+0:26:59
+In this campaign method, the most important thing is spend, and of course, returns still matter. Okay, first day of launching, this ad is getting some spend. Great. In this case, it's not getting good returns. People will panic, but it's only the first day. It tests for three days minimum. 
+
+0:27:16
+Why? Let's say it goes to the next day. Is it still getting spend? Ah, 12x. I mean, overall campaign performance is good. I think a drop happened, but you know, pretty good. 
+
+0:27:28
+then you go to the next day again. Okay, what's performance like? 3 .92, still very solid. So overall, since the first three days I launched this ad, what's my average? We look at it from average perspective. Okay, it didn't get a lot of spend, but returns are already good, you know? 
+
+0:27:48
+So this ad does have traction. We judge traction based on the spend. And you can look at it average as well. If you wanna look at it three -day average, how to determine spend, you can go breakdown, breakdown by day as well, so you can see. Is it getting more spend each day? In this case, let's see. 
+
+0:28:06
+It's actually getting less spend, but overall, relative to my campaign spend, it actually is getting pretty good spend. And the returns are good. Not bad. So we test it for longer, we test it for one week. We only test creators for one week if we see traction within the first three days. If first three days, I'll give you guys a separate scenario, first three days like it's not doing shit, we won't test for seven days. 
+
+0:28:33
+Let's see, it averages out now. Seven days, I think this is seven days. Oh, no, it's not seven days. This is Wednesday. Uh -huh, okay. Now we give it more time already. 
+
+0:28:47
+It's getting even more spend and returns even more. Great. This ad is doing well, but it's not a champion. Why? Because it didn't get majority of spend. A super winner is one that gets majority of spend at KPI. 
+
+0:29:03
+Let me guys just show you what a super winner looks like again. All right. So in this scenario, okay, champion's getting 14K in spend. So next day I launched a new creative. It's called the CT56. Oh, where is it? 
+
+0:29:18
+It's not even here yet. So it's the next day that I launched the CT56. Here we go, the CT56. First day it launched, didn't get much spend. That's fine, we test for three days minimum, remember? 12, 13, 14. 
+
+0:29:32
+Okay, 12, 13, 14. Let me go break down by day. Is it getting more spend day by day? You can look at individual dates as well, or you can look at average and then do that. Okay, day by day, $67, 940, 2 .5K. Okay, it's getting more traction. 
+
+0:29:51
+Let me leave it for one week. Let's see how it does over one week. Okay, it's still getting good spend and returns are good. Not a super winner yet, that's fine. It's still doing well, I'm just gonna leave it running, no need to turn it off. So let's say next week, what does happen? 
+
+0:30:14
+And the next week, oh wow, it took the majority of spend now. perfect this is now your new super winner you take the best post ID from inside and drop it within the champions that's it and how this whole campaign works right let's say this this week we're spending how much like 20k at forex return on ad spend and all we focus on is just testing new creatives we test and scale within the same campaign why so i test new creatives The next week, I got this new creative in. 56k perfect. And then this ad got majority of spend. Remember, we were spending 20k at 4x the week before. 
+
+0:31:01
+And fast forward 2 weeks. Because this new winning ad took majority of spend, it outspent the champions. It means that it allowed us to scale further at the KPI we desire. From 20k, We now spend 60k at similar return on ad spend. Just because we hit this one winning creative, everything is still within the same campaign. The champions only serve as benchmark, which is a good thing. 
+
+0:31:31
+It means that creatives that aren't good won't get much spend. It won't affect your returns. Creatives that are good will take majority of your spend and increase your returns. Let's say in this case, the week before. Okay. This one was 30k at forex return and at spend, it increased my returns. 
+
+0:31:49
+Okay, I'm gonna go and increase the budget because my returns are good now. Increase it and then that's really it. You scale to a point where your returns are where you desire, that's fine. Chill there. Test new creatives. New creatives get majority of spend. 
+
+0:32:06
+Great, returns increase. Increase budget. That's how this whole cycle works. It makes everything much, much more simple. The only thing you'll be focusing on is just getting more creatives inside that take majority of spend. That's how this whole model works. 
+
+0:32:19
+So hopefully this video covers end -to -end how to set up the campaign from A to Z, ad set, campaign, ad level, troubleshooting, and scenarios as well.
+
+
+Transcribed with Cockatoo

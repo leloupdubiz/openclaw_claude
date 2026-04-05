@@ -1,0 +1,71 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+We've made millions with this one sale campaign structure alone, that's so easy, I can close my eyes and still chat scale. So, with all the upcoming sales you have, whether it's Mother's Day sale, Memorial Day sale is upcoming, BFC and whatnot, we've used this campaign structure for a few years now and it's never let us down. Even here this one campaign alone has made us 700k in about one month and I'm gonna teach you how we do it for all the sales we have whether it's Valentine's Day or whatever it is and it's super easy to set up. First of all you only have one campaign running for your sale campaign and in this one campaign you will have three ad sets. It will be a broad campaign ad set a warm 60 ad set and a hot 90 ad set. So what this is, it's basically broad, refers to just age and gender targeting. 
+
+0:00:48
+No good looks, no interest, just age and gender and country of course. Middle of funnel, bottom of funnel. These are your retargeting ad sets. Regularly, I will not do retargeting. Has not really worked that well for us. But for sale periods, we found that it actually is very helpful to have it. 
+
+0:01:05
+We don't really care about returning customers for sale periods, we want them to purchase. So this is the time to run your retargeting campaigns. Okay, so warm 60 refers to just people middle of funnel. Facebook Instagram page engages video viewers. Bottom of funnel hot 90 refers to just people who are already on your site, they're more interested. So let me teach you how to set it up. 
+
+0:01:30
+Okay, so for the broad ad set, pretty straightforward. You set it up as you would a regular ad set. All you do, as I mentioned, age, gender, country. That's all. Very straightforward. Middle of final as well. 
+
+0:01:45
+Instagram, Facebook and video viewers. War means 60 just means 60 as in last 60 days. War means middle of final. These are the 3 audiences I would target as well as exclusions for bundle of final. I don't want to mix my middle of funnel and bottom of funnel. 
+
+0:02:01
+I want to keep that separate. And for bottom of funnel, it's whatever we excluded previously. Add the cards, initial checkouts, view content and website visitors. This is the setup. It's all in one CBO campaign. Set it as high as you want. 
+
+0:02:14
+So this way it's very simple to run because Facebook will allocate budget to wherever it thinks it's going to do the best. Broad, retargeting, wherever. I don't really care where it allocates to. You allocate to wherever it's doing the best. All I gotta do, put the credits inside once, chat scale, close my eyes, make money. Super simple. 
+
+0:02:35
+Let me go teach you how to actually create those retargeting audiences if you don't know how to. So let's say the Facebook page engages and whatnot. So if you go to the audiences tab, which is on the hamburger icon on the left, all tools, you can look at audiences. click create audience custom audience so you can create your warm 60 first facebook page go in here click and then you can go instagram account okay do the same thing instagram accounts do last 60 days audience retention set it as default no worries you can name it whatever you want instagram pages last 60 days facebook page Instagram account, same thing. Video viewers as well. Same thing, choose engagement type. 
+
+0:03:22
+I like to do video viewers 95%. Select the videos. Content retention, that's 60 days. As for the selecting videos part, I won't do it here. I don't want to dox. But what you can do is just select all the videos that you have ran as ads or just organic content, the ones that have views already. 
+
+0:03:42
+Typically, I like to run any video that has over a thousand views. I just select it all. You will have a bunch of different videos at the end. Let's name it Video Viewers, 95%, 60 days. That's it. And how would you plug it into your campaign? 
+
+0:04:00
+Under here, scroll down. Custom audiences include Instagram, Facebook, Video Viewers. You can just search for it. And then you can set up your bottom or final ones. Bottom or final ones, click Create Audience, Custom Audience, Website. You'll be able to find all of your events here. 
+
+0:04:18
+Website Visitors, Video View Content, Energy Checkout. All of them all here. This is HOT90, let's say it's website visitors. Website visitors, 90 days. Click create audience and you can plug it in the same way as exclusions as well. You can just exclude it. 
+
+0:04:33
+This is pretty much the setup for the campaign. Super simple. It helped us go from 10k to 70k per day in 24 hours for all of our clients. As for the creatives, what creatives should you actually create? Great question. Sale creatives are very, very simple since they are most aware. 
+
+0:04:52
+All you need to do is create a graphic with an offer. Just put your product image, offer. That's pretty much it. We found what works well also. Just take your best existing videos, best existing images. Just put a banner on it. 
+
+0:05:05
+Let's say this one is our best performing video. Put a sale there. Black Friday sale, whatever sale it is. Very, very simple. Just put banners on your best performing ads. Of course, you can create extra stakes just for the sale. 
+
+0:05:18
+or extra videos just for it, just an extra add -on, but very, very simple. All you need to do is just announce the sale, show your product, and it's not too complicated. The last step, now that you know how to set up your sale campaign, you know how to set up your sale creatives, how do you actually scale it up? a good question. Regularly we will scale only 20 % or double the budget if performance is very good. But let's say if you're a brand that's spending a lot of money, spending maybe $3 ,000 a day or more, you can then 
+
+0:05:50
+scale more aggressively. You can start self -scaling. By the way, I have this in a text form as well if you want to see the text version. All you do is self -scaling. Self -scaling, I would only recommend you to do if you have a third -party attribution software. WeTrack, Hyros, we like to use TripleBell. 
+
+0:06:07
+NordVim is good as well. because you need to see up -to -date data. Facebook doesn't update their data that fast. What self -scaling is, is instead of scaling daily, maybe you will scale every two hours, every four hours, depending on your current budget. For us, if you're spending like 20k per day, you can definitely scale up every hour, for example. So here's what we do. 
+
+0:06:28
+We check, depending on the time range, it depends on how much you're spending. If you're doing less than 50k per day, you can check every 4 hours, scale up every 4 hours, that's cool. 6 -8 hours is fine as well, it's not an issue. So let's say if the past 4 hours results were 50 -100 % above KPI, let's say you aim for 2x but you got 3 -4, you can double the budget. If it's only 20 -50 % above KPI, increase the budget 20%. If it results KPI, we let it sit. 
+
+0:06:58
+If it's below KPI, we reduce the budget 20%. At midnight, we will then reset the budgets. So for this method, you'll be checking, let's say, every four hours, depending on your scale. Two hours, four hours, six hours, eight hours, and scaling every time period that you check. So at midnight, you will then reset the budgets. So let's say you spent started the day at 1K per day, you scale up to 15K per day in AdSend in the end, depending on how well the performance was, you could reset the budget back to 5K per day. 
+
+0:07:29
+It's important that you reset the budget because when you scale like this, let's say you start at 1K per day, total budget set was 15K per day, it's not going to spend that full 15K. Maybe it only spends 8 to 10K, so you don't want to set it to so it spends the full 15k. Start off at let's say lower budget, 5k per day. Scale if it performs, it's good. If not, then pull it down. 
+
+0:07:54
+I don't have a super set rule for this, as I said. I cannot chat scale this, but yeah, this is the idea. Announce the sale, set up the sale campaign structure, add banners to the best ads, product image ads, surf scale, chat scale, Lambo. Very simple formula. If you got any value out of this, let me know. Hopefully this helps you with your next sale.
+
+
+Transcribed with Cockatoo

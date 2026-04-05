@@ -1,0 +1,355 @@
+If you're a cafe owner, wannabe entrepreneur, or getting into e-commerce, you need to understand
+email marketing. Today, we're going to go through and learn absolutely everything we need to know
+to get started. If you're new to my channel, I'm Davey. My Shopify stores have done over $270
+million through digital marketing. Today is email marketing 101. We're going to go through and show
+you every step of the process, how to set up emails for our brand, The Lemon Scrub. If you're
+not doing e-commerce, follow along. There's going to be a ton of tips. I'll also be looking at some
+stats that we measure at The OODI to determine success. Before we get started, make sure you
+like and subscribe. Leave a comment with any questions as we go. Let's get into it. If you're
+starting a business, it's really tempting to just go and launch some Facebook or TikTok ads. This is
+true for all businesses. It's really exciting seeing a lot of traffic come to your store and possibly
+make a sale. The truth is, without retention-based marketing, which is like email and SMS, these
+efforts will be short-lived because you will not be able to make it profitable. Even for the cafe
+around the corner, by building an email list, we can keep our users engaged, send them promotional
+offers, and build a bit of a community. Believe it or not, people actually love being emailed,
+especially by brands that they trust and care about. A recent survey that I just read showed that 77%
+of consumers in the United States prefer email marketing over any other form of promotional
+marketing. This includes direct mail, SMS, and TV ads. So when should you use email marketing?
+In e-commerce, I like to set up email marketing before I start driving ads. This is because it
+will lower the customer acquisition cost by converting more customers that are visited to
+your website. A lot of people won't be ready to purchase then and there. They'll actually need
+to sign up and get more information about your brand. Other businesses, like information-based
+businesses, such as webinars and courses, I strongly recommend something similar. For the local cafe,
+you might not need to invest lots of money and time. You might just need to set up a basic pop-up
+on your website. Then when you have something new to say, let's say a new menu item, or you're
+having an event at your store, at least then you have an audience that you can communicate to
+very cheaply. All of the business types that I've just mentioned use email marketing to both
+lower acquisition costs, but also to increase retention. What this means is that people will
+keep coming back and buying more. This increases the lifetime value of the customer. This is one of the
+most important metrics in all businesses, because otherwise you need to keep acquiring new customers.
+The quickest way to compound your business is to make sure everyone's happy and just keeps coming
+back. Email marketing is the primary tool to make this happen along with just an amazing product or
+service. Alrighty, so how do we get started? The first step is to really understand your business
+objectives, which I think we've touched on already. What I recommend is you go to someone else in your
+industry that is doing amazing email marketing. Sign up to their flows and understand what they're trying
+to achieve. They might try to be educating customers around the product and service, or they might be
+trying to make the customer complete a transaction as quickly as possible. Study the competitors' design
+and copy. Look at their email frequency and look at where they're sending their traffic using the
+buttons within the email. The next step is to find an email provider. There are lots of email
+providers out there, and they're commonly referred to as CRMs. My recommendations of email marketing
+software really depends on the industry that you're in. One of the biggest providers is MailChimp. I often see a
+mistake that entrepreneurs make by defaulting to MailChimp because it is the biggest. Personally, I only believe
+that MailChimp should be used for a really basic newsletter. It does have simple elements like drag and drop and is
+really easy to set up campaigns. That being said, there is a lot of limitations that could really stop you getting results with your email
+marketing. If you're going to do e-commerce, you need to use a good segmentation app like Klaviyo. If you're a local business and you have maybe like a bit of retail and an e-commerce element,
+ActiveCampaign is a fantastic tool. It is really, really easy to use and does have those segmentation options. If you're watching this and freaking out because you're using a software that you don't think is right for your business, you may have to do a list migration. You need to be incredibly careful when doing this. I've heard a lot of horror stories about people migrating email software and suddenly open rates dropping heavily and also spam rates increasing. When you migrate email software, make sure that you warm up your list appropriately.
+You may want to use a professional or a consultant to do this. Before doing this, I also recommend that you clean your list and keep really good list hygiene, which we'll get into in a second.
+Once you've picked your email marketing provider, the next step is to create a list. Because I've got an e-commerce example today, I'm going to jump into Klaviyo and show you exactly how to do it. All email marketing providers have generally a very similar layout and system, so try to follow along.
+I'm just going to start in Shopify because then I can go into my apps where I can see my email provider. If you're using something like Webflow or Squarespace or something like that, if you're a local business, they should have a very similar setup.
+If not, you can just actually go straight to the email provider's website and you should be able to do everything you need and then integrate it from there.
+So coming into Klaviyo, I've got my account set up. If you don't know how to set up an account, you can just follow my previous video where I did that.
+Once you've signed up to your email marketing software, the next step is to create a pop-up. This pop-up is where your emails are going to be gathered.
+So your customer is going to go onto your website. They're going to fill out their email by this, and then they'll go into the list that you've set up.
+So in Klaviyo, we can just click create signup form, and there's a range of templates that we can use. We're just going to use something nice and simple.
+One thing that you do really need to make sure that you do is have an offer on your pop-up and explain exactly what you're going to do with their email address.
+This makes sure that the list is engaged and understands the value that you're going to provide.
+It'll also increase the conversion rate of the pop-up.
+For the UDI, across our pop-ups, across all regions, our conversion rate is over 10%, which is pretty good.
+Our open rate of our first emails as well, which we are about to set up, is around 70%, meaning the majority of the people that sign up are actually reading that first email.
+I'm just going to name this welcome pop-up, and you can see that I can select a list here that Klaviyo has already set up for me.
+They've created this basic newsletter list here.
+If we wanted to create a new list, such as a welcome series or something like that, we could go into the list segments over here.
+But for this example, I'm just going to use the newsletter.
+And as you can see, they've now created the pop-up that's going to be on our website.
+There's a preview of our website behind it as well, which is really good.
+So typically in e-commerce, the main way that people incentivize to leave an email is just a discount.
+If you don't want to offer a discount, another great thing is giving away something for free, so something valuable.
+It could be like a free e-book or something like that.
+Without an offer, the actual conversion rate of the pop-up and the list submission is going to be very, very low.
+One thing that you also really want to do if you are giving a discount is make sure on the confirmation page you're inserting your discount code.
+This ensures that if the email does go to their spam or something, they still get their discount code right away.
+Klaviyo here is also pushing people to sign up for text message marketing, which is great if you want to do that.
+We're actually using an external software called Postscript for that.
+So I'm not going to do that today.
+As I mentioned before, it's really good to take some inspiration from your competitors or existing brands that are really good in the industry.
+Have a look at the language that they're using and have a look at the offers that they're offering their customers.
+So to create this discount code, we need to go into our email marketing provider and come into discounts and create a discount.
+So for this example video, I'm just going to offer 10% off for the lemon scrub.
+So I'm just going to create a random discount code.
+Let's say hello, 10 X, make the customer feel welcome.
+Then we go to 10% and to make it so it's just the first purchase only.
+What we can do is we can do limit to one use per customer.
+Then I can just click save discount code and copy and paste that into this confirmation page here.
+So I just need to tweak the offer page now.
+So people know exactly what they're getting and change the default template.
+So the next thing that we need to do is decide when this pop up will show up.
+So there's a lot of ways that you can do this.
+Typically, we don't want the pop up to come up straight away because that's intrusive and people don't really trust you at that point.
+One good way to determine a good pop up speed would be to actually go into Google Analytics and have a look at the time on site.
+So the average time that people exit the website, then you can actually target the pop up to show just before that happens.
+So people have time to browse around and actually have a look.
+They trust you.
+And then they're more likely to put their email address in alternatively.
+A good number is around six to eight seconds.
+So I'm just going to do that here in Klaviyo.
+You have the option to show mobile only, which is really great, but we're just going to show desktop and mobile.
+There is show immediately automatically ticked, which we really do want to change as I just mentioned.
+And we're going to do show eight seconds after page load.
+There's a lot of differing opinions on this.
+Have a play around with it and test it.
+Now I've clicked publish them.
+I can actually come in through an incognito window and make sure everything's working.
+This is why I really like the combination of Klaviyo and Shopify.
+It's just really easy to use.
+Everything's integrated.
+And there's the pop-up.
+Look, I think the pop-up probably needs to be in the center, a more traditional pop-up.
+So I'm going to fix that before I launch ads.
+To fix where that pop-up is doing, that slide in, we can actually come into styles.
+Rather than fly out, we can actually click pop-up.
+This will be the more traditional format of pop-up.
+I haven't actually technically split tested these two examples.
+So if anyone has, please let me know in the comments section how it went.
+The other thing we might want to change is change it to a large.
+Change it to a large or a medium size.
+And we can also add a little bit of color and images if we would like.
+I probably will look at an image, which is nice and easy.
+We did that with the UDI and that was a huge boost for us.
+You can see in the Klaviyo editor that they have defaulted to previewing on mobile.
+I wish more software did this because most people are going to be on mobile when they're in your store.
+So you need to make sure that it looks good on mobile.
+That's the same with everything.
+Product pages, pop-ups.
+So I do highly recommend that you just keep previewing this stuff to make sure that nothing's broken.
+Come in here, get the pop-up, enter your email address and make sure that it goes to the list.
+So you can see the email has now fed through.
+So generally with your newsletter or your welcome series list, you're going to want to set up flows.
+Flows are a form of automation.
+I'm pretty sure they're called automation in MailChimp.
+All you need to do is come to this tab on the left here and click flows.
+Today, we're going to set up three basic flows.
+First, the welcome series.
+And then we're going to set up the abandoned cart series.
+And then we're going to set up the post-purchase series as well.
+These are the three core flows that we need.
+The other series that you might want to consider is a browse abandonment series.
+However, you need to actually have the customer's email address to make that worth it.
+This flow gets a lot less traffic than the other flows.
+This is why I just recommend focusing on your three main series to begin with.
+Now, Klaviyo has a lot of templates already built for us.
+You can see here, we want the welcome series.
+We're going to click get started.
+You can see that you can link this flow to a certain list, which again, we're going to do the newsletter list.
+When creating the welcome series, I really like to just really educate people on the product.
+It's important to come from different angles, talking about different value propositions of the product and how your business actually operates, such as shipping times, refunds, guarantees, those kind of things.
+It's also really important to add a lot of social proof.
+Talk about stories of your customers that have really loved your product.
+Grab things like review badges from like Trustpilot or even photos from your website, your photo reviews that we've talked about.
+In all email marketing software, when you're creating some form of automation, there's going to be a few elements.
+There's going to be the trigger, which is basically the event that happens to make sure that the email gets sent.
+When someone subscribes to our pop up, they go to the list newsletter.
+So therefore, this email is going to be sent.
+You can also see that you can change the time periods about how long people can wait for an email as well.
+This is what I referred to in the beginning of the video.
+If you use the technical elements of email marketing, you can really control your messaging and build a community, not to annoy your customers.
+Klaviyo's default settings is someone's going to sign up, get the first email, then wait three days, get the second email, then wait four days and get the third email.
+I'd say that this is a non intrusive welcome series.
+A lot of brands will actually send more frequent emails only waiting, you know, one day until the second email because customers have you fresh in mind and they're still in that buying period.
+If you're doing a less aggressive direct sales approach, then probably this cadence would be okay.
+So I'm actually going to set up a welcome series email today for our lemon scrub.
+So you understand how the drag and drop editor works.
+So the first thing you can do if you would like is change a lot of these details.
+So the sender name is the name that's going to pop up as the sender in the email recipients email software.
+So if they're using Apple mail, it'll be coming from lemon scrub.
+You can actually change this sender name to something like Davey from lemon scrub to make it more personalized or the CEO from lemon scrub.
+So people think that it's an important message.
+Then you've got your sender email address.
+This should be linked to your Shopify domain.
+As I touched on before, domains are really important in the deliverability of these email campaigns.
+Something like Microsoft starts flagging that domain that it possibly spam your open rates and your deliverability is going to decrease dramatically.
+You can actually contact these email providers, get support and learn how you can increase your deliverability to them.
+Klaviyo is really good in that you can actually see the deliverability for certain email providers.
+If you can see that your deliverability is really low to something like Microsoft.
+You can actually contact them and their support channels and see why and get some support.
+So my sender email address in this case would actually be my support email at try lemon scrub.
+This email is obviously our customer service email.
+And it's really important to do this because when people actually reply to this email, it's going to go into our email customer service software,
+which we're going to explain in a future episode.
+Next step is a subject line.
+There is a lot of blog posts and articles and tweets out there.
+What is the best subject line?
+The beauty is that you can always split test them.
+The first objective of a subject line is to increase open rate.
+It needs to captivate attention, but then you also need to consider how relevant that is to the email messaging within the email.
+If you're just using some really click-baity subject line, it could actually just make your customers annoyed and they're not going to purchase.
+The third thing to consider is our email marketing providers going to think that this is a spammy subject line.
+This will again, decrease deliverability.
+Considering this is the first email that our customers are going to receive from our brand.
+I'm going to use something really generic gentle tone of voice.
+We're just going to do something like, thank you for joining.
+And we're just going to add a nice little emoji like a heart.
+And we're also going to add some preview text as well.
+Now this is all safe.
+We can actually edit the content.
+Now this is looking pretty terrible.
+So we're going to actually have to design this email, which is not that hard.
+We're going to need a few elements to actually design an email.
+You're going to first need the copy.
+We've already got our offer, which is the discount code.
+And then we need our graphic design.
+We've already done our photo shoot in previous episodes.
+Hopefully your brand has a lot of photos that you can use for this kind of marketing.
+If not, get some content.
+A very common email format that everyone is using nowadays.
+Is it really, really simple where they have one basic hero image at the top with some copy on it.
+That highlight the product and then the rest of the copy just as text underneath.
+You don't want to go too heavy on graphics.
+It is great to have some HTML text code rather than just putting it all on graphics and dumping it in as images.
+For new entrepreneurs, I always recommend just going to Canva to create graphics.
+Once we're in Canva, we can create a new post, a custom size.
+Now we want to make sure that it's suitable for our email.
+So we want to make sure it's this wide.
+When we come into here, we can see that the email width is currently 600 pixels, which is fine.
+We don't want it to be way, way bigger than that because therefore it's going to slow the email down and it's not going to load quick enough.
+We're going to want it around 700 pixels high as well.
+So if you use Canva, now all I need to do is go in and find an image.
+One thing to consider is when you are trying to find the photo to use on your hero image is you do want to make sure that you understand where the text can go in it.
+If there's lots of different light and dark colors above the kind of main feature image, it couldn't be really hard to see the actual text that you put on there.
+So really consider that you can use certain drop shadows in your text to make sure that it is consumable.
+So now I can actually just drag that image in, expand it like so, and then we can start adding our text element.
+So we can use something like this and we can say, welcome to the club.
+Here's code.
+And we're just going to then reiterate the code that we've already given them so that they always have it on hand.
+This is where if you are trying to develop a really nice brand, you would have your brand book ready with all your fonts and font colors to make sure that the consistency between your emails and your website is there.
+I'm just going to center all this text and I'm just going to make it readable.
+I'm going to try white shadow.
+And the final thing we might want to do is just add a bit of a gradient just to make sure that we can read that.
+And we can just download that image and we can come back to Klaviyo, replace this one.
+Now we can easily within Klaviyo actually edit the image.
+If we're not happy with the dimensions, I personally think that there's too much white space down here.
+So we can come into the editor and drag this up.
+Now there is this section up here, which does have a URL that's pushing to our website with shop now.
+The place that I would use this is if I had a large collection of things like the UDI.
+Like we would have, we might have a navigation bar there where it can push to sleep where it can push to UDIs or our FAQs.
+However, one thing that does look really, really good is actually just putting your logo there.
+So we can add an image and upload our logo, making sure the image isn't too big.
+So, and we can just center it like so.
+Now we've got the basic layout.
+All we need to do is add our copy underneath here.
+So we have all of our copy prepared here in this massive brand doc that we've been developing.
+Going to our welcome email series.
+So what you can see here is this section here is a dynamic field.
+So that's going to update based on your organizational settings.
+You can also add personalization through the person's name or what they're going to order.
+Because this is all integrated with Shopify.
+By adding personalization, you're really going to increase the conversion rate of the email because customers are going to trust you.
+For now, I'm just going to paste all of this copy in and format it.
+The next thing we need to do is we just need to highlight certain parts of the email.
+So now I've just formatted the copy so it's easy to understand.
+I've got a basic information hierarchy with the discount code reinforced multiple times.
+There's a little bit of urgency as well around the validity of the code and how long that's going to last, as well as some value propositions around the product.
+Obviously I could make this design a lot better, but for the sake of the video, I'm just going to continue on.
+We might tweak it later when we launch our ads.
+So I'm just going to click save content here and come back here.
+You can see the preview.
+You can see all the information that we've added before.
+Click done.
+And now this would be ready to change from draft to live.
+So this means that this is now sending and also click manual.
+In which case that, you know, it would keep gathering the emails ready to be sent.
+But you'd actually need to click send to make sure that that email goes out to all of those visitors.
+The rest of the emails in this welcome series won't be sending until you turn the rest of them online.
+Off this video, I'm going to go ahead and enter in all of these emails.
+Redesign this one.
+Go, go to our website, sign up so you can get all of the emails over the welcome series.
+When you're previewing your email content, make sure that you check it on mobile as well.
+To do that in Klaviyo, it's as simple as clicking there.
+The way that we've structured our email is going to be really, really simple.
+One thing that we do definitely want to do is add a button here so that we can increase click-through rate.
+The button can also go on this image.
+You could build it in Canva and you could just build a little button here that says click to shop now.
+Alternatively, you could build one within Klaviyo, which isn't too difficult.
+You just come here, you drag it and you insert a button like so.
+We can just write shop now and add our link URL like so.
+Change the color, which is in block styles.
+Come here to one of our brand colors if we wanted to.
+Something easy to read.
+One thing to consider when you're doing your emails as well, when you're writing a copy or even formatting them,
+is certain triggers can reduce deliverability.
+Things like using deer or lots of exclamation marks, lots of emojis.
+These things are all rumored to decrease deliverability.
+Make sure that you're including an unsubscribe button in your emails.
+Don't format your text in weird fonts or use all capital letters within the email.
+So the next flows that we need to set up is we need to set up the abandoned cart and the post-purchase review.
+I'm not going to show these in great detail.
+It's very similar.
+It's the same editor, but to set it up, all we need to do is get started.
+Everything should be integrated with Shopify and we can see it's the exact same editor.
+Go through and fix that.
+You can see the trigger here is when the checkout is started.
+Four hours after they're going to get that email.
+I actually don't mind reducing that four hours just a little bit.
+So the email is with them really, really quickly.
+For this second email, you could even get a little bit more creative with your offer.
+You could say buy one and get two free or something like that because they haven't purchased in the first email.
+Maybe you need to incentivize them in a different way.
+The beauty about Klaviyo is everything can be split tested and it integrates really well with the analytics of Shopify.
+If I wanted to split test the offer in this abandoned cart, all I would need to do is come up here and click add variation.
+And now I suddenly have two emails that I can send.
+A split test is where you're changing a variable and measuring the results.
+In email, this could be anything from the offer or the design of the email, the copy, or even the conditional segmentation that you're setting up.
+To edit your variations, you just use this button here, come in and change the variable that you would like.
+So once we've got our abandoned cart email set up, we can come in and we can set up our post purchase acquisition flow.
+Now, these post purchase acquisition flows really depend on what industry you're in.
+For e-commerce, typically what we like to do is cross sell different products.
+So they bought product X, they might want to buy another one of those products or they might want to buy something completely different, such as your OODI sleepwear.
+The other thing that you also want to use this flow for is to ask for reviews and feedback.
+We survey our customers to get great qualitative and quantitative information that helps us improve our product and service.
+To do this, we simply click get started here and we can review the trigger that once this order is fulfilled, it's going to send this email.
+Now, depending on your shipping times, let's say you're drop shipping or you're delivering within 48 hours.
+The trigger, the wait time here needs to be changed.
+If you have two to eight day delivery time and your fulfillment center takes a day to ship it,
+then you might want to make this 10 to 14 days so that it's quite fresh in the customer's mind when they receive this email.
+However, make sure that your customer has their product if you're asking for a review.
+If they don't have the product and you ask for a review, chances are you're going to get a negative one.
+This is why a healthy buffer on this trigger time is really important.
+The final thing I do want to cover today is segmentation and campaigns.
+It's really important that you understand your customer.
+There's no point sending an email that just does not relate to the customer.
+What will happen is conversion rate will decrease.
+There's certain elements of a customer that you need to understand.
+What is their buying intent?
+What is their demographic?
+Geographically, where are they?
+What are some behavioral things that they've done on your website?
+All of these things will give clues about your messaging and your offer that you're going to send them.
+Typically, when we send campaigns about new products, we like to use engaged audience.
+So people that have engaged with our emails in the past 90 days.
+This is a highly engaged list and we get a great response from that.
+A recent case study that I just read from Lenovo talked about how they would get highly technical people, different amounts of information.
+So if someone wasn't as tech savvy, they'd keep the emails really simple.
+And for more advanced people, more tech information.
+This ended up increasing conversion rate by 40% of those emails, increasing the revenue per visitor by 25%.
+This kind of segmentation would reduce unsubscribes, allowing you to communicate to your customers for a much longer time.
+After you send your campaign, make sure you set a time to reflect on the results of it.
+Look at the split test results that you get.
+Look at the conversion rate of the email and look at the spam rate.
+If your spam rate is over 0.05%, chances are you've got an issue.
+If your open rate's low, work on your subject lines and your segmentation.
+If your click through rate is low, look at the offer that you're presenting to people.
+Look at the email design and your call to action.
+If all of these things feel really overwhelming and you are doing decent amount of traffic to your store, it might be time to get an email agency.
+If you're in e-commerce, you want your email marketing to equate to about 10 to 30% of your revenue.
+If you want to get some email design inspiration, head to reallygoodemails.com.
+There's some really good inspiration there.
+Alternatively, as I said before, go to your competitors and sign up.
+I hope you enjoyed today's basics of email marketing episode.
+Make sure you tune in next week because we're going to actually finally be launching ads for Lemon Scrub.
+I'm going to do a bit of a summary on the website.
+We're going to redesign some of these emails and everything is going to be ready to go.
+If you're still a little bit confused around Klaviyo, I do have another video here, which goes through in a lot more detail around the software.
+Thanks for watching today's video.
+Make sure you like and subscribe.
+Leave any feedback that you have.
+Peace.
+God, that was long.

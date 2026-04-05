@@ -1,0 +1,484 @@
+[
+  {
+    "ts": "2026-03-01T11:29:47.573Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-01T11:56:18.206Z",
+    "level": "error",
+    "message": "Vidéo échouée: 0741e0db4cb540609a8a3082349cb6ce",
+    "data": {
+      "error": {
+        "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
+        "detail": "Insufficient credit",
+        "exception_class": "MovioException",
+        "message": "Insufficient credit"
+      }
+    }
+  },
+  {
+    "ts": "2026-03-01T12:10:38.290Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-03T21:52:09.062Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-04T12:43:14.625Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-05T13:14:25.308Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-05T17:18:40.012Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-05T17:22:10.071Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-05T17:24:56.271Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-05T19:17:24.951Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-05T19:21:17.094Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-06T22:11:25.044Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-06T22:44:45.366Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-06T22:46:49.265Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-06T23:03:27.305Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-06T23:03:38.774Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-06T23:17:35.419Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-06T23:48:52.531Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T00:15:28.985Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T18:17:38.691Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T19:19:14.215Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T19:34:27.064Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T19:37:12.510Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T19:48:34.851Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T20:54:36.037Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T21:04:47.766Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T21:07:48.182Z",
+    "level": "error",
+    "message": "Vidéo échouée: afa7890199ca4457946b465e50fef516",
+    "data": {
+      "error": {
+        "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
+        "detail": "Insufficient credit",
+        "exception_class": "MovioException",
+        "message": "Insufficient credit"
+      }
+    }
+  },
+  {
+    "ts": "2026-03-07T21:07:48.355Z",
+    "level": "error",
+    "message": "Vidéo échouée: bbae1a7791a944ca89195b24ef091027",
+    "data": {
+      "error": {
+        "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
+        "detail": "Insufficient credit",
+        "exception_class": "MovioException",
+        "message": "Insufficient credit"
+      }
+    }
+  },
+  {
+    "ts": "2026-03-07T21:07:48.533Z",
+    "level": "error",
+    "message": "Vidéo échouée: c50c2dab02c54618abf1c2934d8404f6",
+    "data": {
+      "error": {
+        "code": "MOVIO_PAYMENT_INSUFFICIENT_CREDIT",
+        "detail": "Insufficient credit",
+        "exception_class": "MovioException",
+        "message": "Insufficient credit"
+      }
+    }
+  },
+  {
+    "ts": "2026-03-07T21:21:50.265Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T21:23:56.115Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T21:26:21.122Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T21:44:34.061Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-07T21:57:53.355Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T11:43:30.771Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T11:57:31.196Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:06:03.150Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:11:23.962Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:16:44.754Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:20:02.201Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:21:54.539Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:22:06.205Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:22:28.328Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:22:55.218Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:23:34.209Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:26:42.908Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:31:15.168Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:39:18.330Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:42:23.510Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:42:50.510Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:45:32.922Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:46:36.188Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:47:31.160Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:49:52.547Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:52:22.969Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:53:11.161Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:54:03.991Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T12:54:27.133Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T13:16:30.324Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T13:20:24.541Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T13:21:21.393Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:10:44.662Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:11:19.898Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:12:25.242Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:13:08.401Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:13:52.296Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:14:30.727Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:18:24.384Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:19:16.635Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:22:36.529Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:53:40.730Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:55:04.196Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:56:07.178Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:58:08.854Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T14:59:35.572Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T15:01:10.521Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T15:02:16.001Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T15:02:43.818Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-08T15:25:49.741Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-10T16:58:11.970Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T01:25:07.838Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:01:30.146Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:02:03.998Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:05:16.885Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:13:56.564Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:17:40.701Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:22:00.045Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:23:59.007Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-03-17T02:47:03.204Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  },
+  {
+    "ts": "2026-04-05T08:06:27.590Z",
+    "level": "info",
+    "message": "⚡ Automation Engine démarré"
+  }
+]

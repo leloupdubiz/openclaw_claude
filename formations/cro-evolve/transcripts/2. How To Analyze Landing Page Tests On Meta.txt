@@ -1,0 +1,393 @@
+All right, so as you can see here in this video,
+what we're gonna be talking about
+is how to analyze the data from your test
+and when to know when it's the right time to turn off
+versus when's the right time to obviously continue to scale it.
+Now, if we go to the start of the month,
+let's actually go from the first to the sixth,
+you can see we were crushing with this ad.
+I believe we got up to spending, yeah, about $500 a day
+on this ad in particular
+and the reason why we decided to do a page tech
+or page, page deck, a page deck test on this ad
+is because it was doing really, really well, okay?
+And so if you fast forward to the 7th of August,
+you can see we had initially launched this campaign
+at a $50 a day budget or campaign.
+I always say campaign and ad set, okay?
+We launched this ad set inside of our testing ABO here
+in this campaign.
+So we launched our ad set in the testing campaign.
+Now, inside of here,
+the thing that I mentioned in the previous video
+about click-through attribution,
+as you can see, we're optimizing for 7-day click
+or 1-day view.
+This is something that's super important to look at
+because again, if we actually go to compare attribution settings
+and go to 7-day click and click apply,
+you can see that this ad here, quote-unquote, got a purchase,
+but it actually wasn't a click purchase.
+So that is no bueno.
+And why is that no bueno?
+Because this is going to tell us
+that the conversion rate here is good when it was not, okay?
+This ad was not purchased from somebody who clicked the ad.
+And what's kind of annoying about some metrics
+is it will actually still show here
+for these custom metrics
+that there was a 7-day click AOV involved,
+but it's false data, okay?
+And Facebook, again, it's just glitchy.
+What you're looking at here is,
+was there conversions on a 7-day click business?
+No, there was not.
+So in my mind, this is still spent one day worth of budget
+and didn't get a purchase.
+Now, let's go to August 8th.
+You can see we were scaling this pretty hard.
+So we were getting, look at this, 12 purchases,
+12 through click data,
+the overall return on this 3.87 doing really well.
+Day two, $50, still no purchase, right?
+So now we've spent $100
+and we have nothing to show for, okay?
+Now, this is where I need you to trust the process
+and not get too scared and turn it off, okay?
+You ideally wanna give this three to five days, okay?
+And so now if we go to day number three,
+you can see that it spent another $50
+and unfortunately still did not have a purchase, right?
+You can see this ad was still just continuing to crush.
+And now a lot of people after $150 spent
+might be like, well, I spent 150 bucks,
+I didn't get a purchase, okay?
+Now, for us, okay, our CPA in this instance
+was around $38, okay?
+What we will typically do is try to spend
+two to three X of our CPA.
+So if our CPA is $38, we would bare minimum spend 76
+and maybe on the high end spend 114.
+So we're actually over that target,
+which is actually telling us
+that we might need to readjust it a little bit.
+But what we decided to do was we just decided,
+okay, let's give it five days, okay?
+Because for this client, we were scaling really hard.
+We kind of had an excess budget to test things
+and like we did really believe in this landing page.
+And so now if we go to Saturday,
+you can see, voila, we had three purchases.
+And I was like, okay, and they're from click-through data.
+And so this, what I would say is like,
+as we extended this test,
+we knew we needed to have a big day
+for this to kind of stay on.
+And so obviously this thing had a really big day.
+On day four of testing,
+it got $381 in conversion value.
+And now if we go from the seventh to the 10th,
+you could see our overall return on ad spend here
+was about a 1.9, which I can,
+I'm not losing money, okay?
+So we had a big enough day for me to be like,
+okay, let's keep the test running, right?
+Now if we go to Sunday,
+you can see we were back to zero purchases, right?
+And you can see the main camp here was at a,
+or main ad set here was at a 2.3.
+And I was like, man,
+like I thought we were onto something here.
+I thought we were going to actually start seeing results.
+And now as you can see,
+we've spent about $250 at a 1.5 extra return on ad spend
+on a click basis.
+And so again, in this instance,
+our team was like, can we turn this off?
+Can we turn this off?
+I was like, let's just give it one more day, right?
+And now on the 12th,
+we just saw that this day we got two more conversions, right?
+And these two conversions actually ended up being
+pretty high average order value.
+So we were at like a 4.8 extra return on ad spend.
+And now as you can see,
+we're about one day, two, three, four, five,
+about six days in.
+And you can see we're at about a 2X return on ad spend.
+Now keep in mind, we were spending $50 a day here,
+where on this ad set, we were spending 500.
+So as we were kind of going through and looking at this,
+we're like, this is not really too promising,
+but because this is the first time
+that we've ever tested landing pages like this,
+we're like, let's just maybe give it some time.
+Maybe there's going to be a buyer's journey, right?
+Like a lot of people are probably just seeing this page
+for the first time,
+and maybe they need to get accustomed to it.
+And Facebook just kind of needs to figure out
+who to serve these ads to.
+Because obviously there's a new landing page.
+And for those of you that don't know,
+Facebook crawls the website to kind of see
+where you're sending traffic to, yada, yada.
+Now, as we can see on Tuesday,
+so we're coming up on around seven days of this running.
+This was where I started to feel like
+potentially we had something.
+Because now we had basically a few days in a row.
+So it wasn't Saturday,
+because Sunday we had a goose egg.
+So Monday, we got two purchases.
+And then on Tuesday, Facebook, please leave me alone.
+On Tuesday, we ended up getting three purchases.
+And what was interesting to me is we spent $70 here.
+We spent $700 here.
+And as you can see, we had basically a far higher
+or way more significant conversion rate.
+If we go to the actual conversion rate down here,
+you can see our conversion rate was, if it loads,
+here we are, was 9.68% versus 3.44%.
+Okay, and it's with the same average order value.
+And so I was like, well, I know we're at far less scale.
+Okay, we're at 10 times or 10 times less the scale, right?
+Like we're spending 10 times more on this than we are here.
+So it would make sense that the conversion rate
+on this one is lower.
+But let's just go ahead.
+And I'm gonna open up my compare attribution settings again.
+It just for some reason wasn't loading.
+Sometimes it causes issues.
+As you can see, now it's doing a forever load.
+I was like, let's give it another day.
+And sure enough, on the next day,
+we got another two purchases.
+And so this is where, when I was scrolling through,
+I saw we got a pretty big purchase come through from this.
+So clearly this landing page was having an effect on people
+where it really bumped the average order value.
+I think if we look at the average order value for this,
+and by the way, all of the purchases moving forward
+have been seven day clicks.
+So I'm just going to remove this now.
+You can see our average order value for this day was $300.
+And that was because we got like a $500 order from this page.
+And I was like, okay.
+And now we've had three consistent days of purchases.
+So these last three days, we were at a 4.74x return on ad spend.
+And so this was obviously over the week,
+we started to see that our purchase return ad spend
+started getting like pretty solid.
+And so this kind of shifted our perspective that, okay,
+we can probably test landing pages for five to seven days.
+And we can kind of just let it have some time
+rather than having to be like, oh, we can only spend $100
+or, you know, we can only spend two to three X our target CPA.
+We're just deciding to let these kind of run.
+And so as of right now, that is what we're doing.
+And that's why I wanted to film this video to show this to you.
+But obviously there's a point where it's like,
+you don't want to spend like $300 or $400
+on a landing page and have it completely flop, right?
+Like that's no fun.
+But with that said, you should be doing enough research
+that you're very confident in the page.
+But at the end of the day, as you can see, right?
+Like these first three days, we had nothing.
+And then this is a view through purchase, of course.
+And then this day we had a bigger day, right?
+And it was all click through data.
+So that gave us kind of a sign that, okay,
+maybe we have something here.
+Now, as you can see, because the last three days
+were far above our target KPI,
+our target KPI is like a 2.2 for this client.
+We're double that.
+And so what did we do?
+Well, the next day on the 15th, we,
+I think we doubled budget.
+We might've tripled budget
+because I think on the 14th, yeah.
+So on the 14th, we had doubled our budget.
+So what our media buyer did
+was he looked at the previous three days here
+and he could see we were at a 4X return on ad spend.
+So he increased the budget on the 12th
+from $50 to 100.
+So on the 13th, we increased it to 100.
+It didn't spend the full $100 amount.
+So, but the thing is, is we were at a 5X.
+So because we're in what we call scaling protocol,
+he doubled it again.
+So that's why, or sorry, he increased it by another $50.
+So in this instance, now we went from spending $50 a day
+here, right?
+We were spending $50 a day the entire time,
+but the last three days performance was far above KPI.
+So he scaled from 50 to 100.
+So as you can see here, we were then at 72.
+It didn't spend the full amount, but we went to 100.
+And then he scaled to 150.
+And as you can see, performance was still really good.
+And then at this point, he scaled another $50.
+And now we were at $200 per day.
+And this is where it started getting exciting for us
+because we saw that with this $200 in spend,
+we got six purchases, right?
+And this was all click through data.
+And we could see that our conversion rate
+was really, really strong.
+ALV was a little bit lower this day,
+but our conversion rate was really strong.
+And so now if we go to the 16th,
+we're still scaling, which is amazing.
+So we were spending $200 a day.
+And then on the 16th, which was yesterday,
+we scaled up to about 240.
+It didn't spend the full amount,
+but it was about $222 here.
+And as you can see, this only got one purchase.
+And now I was like, oh shoot,
+maybe we hit a bit of a plateau.
+But what I noticed is that this ad set here
+also had a terrible day.
+And so now if we fast forward to today,
+as I'm filming this video,
+this thing is crushing and now this is actually
+still having a bad day.
+And so what this kind of was interesting to me
+is it seemed like this ad was starting
+to go a little bit downhill,
+but now this landing page was really taking over.
+And now I know there might be some people
+wondering if like this, like cannibalize this.
+And again, we have this ad running
+in like two other campaigns as well.
+For this client, we have a bit of a different structure
+as we test a lot of raw content.
+And this same ad is like running in a few other campaigns.
+So it's not like technically this was already
+being cannibalized by the other campaigns
+if that were true.
+But if you ask me, it's not.
+I don't really think it matters at all, right?
+It's you're running ads on meta.
+Like it doesn't really matter.
+But with that said, as you see here,
+it's absolutely crushing today.
+And so in this instance, what do we do?
+Well, as you see, now the budget is at $300 a day.
+And we're just gonna continue to scale as this does well.
+And so the main thing here,
+you can actually see this has generated more purchases,
+almost five times as much purchase conversion value
+compared to this one.
+And this one's spending more.
+And so obviously we're scaling this one down.
+We just recently scaled it down
+and this one is starting to scale up.
+And so what's really exciting about this
+and the reason why I wanna film this video
+is that you honestly will need
+to give your landing page some time
+because the first seven days, it was doing okay,
+but the original was doing better
+and it was generating 14 times
+as much conversion value, okay?
+But as we continue to let this test,
+as you can see, kind of like the last five days here,
+this thing is doing pretty well.
+We're almost generating the same amount
+of purchase conversion value over the last four days.
+And obviously today we're absolutely crushing it.
+And so now what we're doing
+is we're just continuing to scale this up.
+And if you have not seen
+our video on scaling protocol,
+it is very simple
+and you should already be following that.
+With that said, I will link it below this video
+so you can see scaling protocol.
+Obviously, if you have media buyers,
+they should be scaling this as it's doing well
+and scaling up and down
+based on, again, our scaling protocol process.
+But this is why we're testing landing pages, okay?
+These are literally the exact same ads.
+The only difference is this has a new landing page.
+And if you check or take a look basically at overall
+from when we launched this to today,
+what's interesting is the page deck conversion rate
+is almost 2% higher.
+And that's including when this ad on its own
+was just absolutely ripping, right?
+So we have a lot of catch up to do,
+but as you can see,
+we're starting to catch up pretty well.
+As of today, we are 10 times convert,
+pretty 10 times higher.
+And according to this have added,
+almost $30 in average value,
+which is pretty incredible.
+So this is why we do what we do.
+And this is why we build the pages
+is to get the results like this.
+But with that said,
+this is just a video to help you guys understand
+how to interpret the data.
+If you don't know how to set up these columns,
+you're just going to go to the edit columns tab here.
+Make sure you just set up all of these.
+Again, if you want to pause the video
+and see the columns that I have set up.
+Again, there's a video around this as well.
+But these are the columns that I use, okay?
+I don't really care about add to carts
+or checkouts initiated,
+but you can throw them in there if you want.
+And then average order value and conversion rate
+are custom metrics, which are very simple.
+If I hover on this, you can see
+it's purchase conversion value divided by purchases,
+pretty straightforward.
+Conversion rate is purchases divided by landing page views,
+pretty straightforward, okay?
+And so those are the custom metrics
+that we use for this.
+Now, if you have any other questions
+around how to analyze this data,
+obviously make sure you just send us a ping in the chat.
+But this is how you can start to scale
+the landing page, right?
+And so now what's great about this
+is even if we take a look at this,
+we in a sense have horizontally scaled
+and generated 3.6K in extra sales on the store
+just by launching this test, which is so awesome, right?
+And then we've done so profitably.
+So now you're actually seeing this money
+in your bank account rather than this split test
+that is apparently making you money, okay?
+And when I say apparently, I'm talking about,
+you know, the A-B testing tool
+that I will show you guys how to use.
+But this is what really excites me
+because this is what the ad focus CRO is all about.
+So if you have, again, any question around this,
+make sure you ask the chat,
+but hopefully this makes sense
+in regards to how to analyze the testing data
+and making sure that you give your pages enough time
+and the algorithm enough time to figure it out.
+Again, this is not going to happen
+on every single page that you launch,
+but this is the goal.
+And this is when great research combined
+with building a page can lead to great results.
+And now obviously I'm gonna film some more videos
+around how the page that I built
+for the Chestnuts brand is doing,
+but I wanted to show you guys an example
+of what this looks like and how to analyze test data
+and how to scale to make more money with your pages.

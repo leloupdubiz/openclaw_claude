@@ -1,0 +1,119 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+All right, guys, so super quick, this has been a question that's been coming up a lot, and we've actually started to better understand this, and I wanna just give you guys a decision -making framework when it comes to actually turning off DCTs that get a lot of spend. So there's two scenarios where this happens, okay? So scenario number one, when you launch a new DCT, sometimes it will suck up a lot of spend and it will not actually get you guys the KPI that you wanna see. So for example, if I show you guys this new creative that we recently launched. This was March 19th that we launched it. You could see on the 20th that this DCT number two up here sucked up all of the spend. 
+
+0:00:42
+Look at this, we got wrecked, 0 .97 extra turn on ad spend, okay? So it spent 1 .6 of the 2 .4K budget, okay? Now what you're gonna notice here is that one of two things is gonna happen. Let's actually just check the 19th just to make sure we can see how this did. Okay, so it actually got around, we should be clicking on the new one, so this one here. So it got around $280 in spend and it was at a 2 .11. 
+
+0:01:06
+The next day it sucked up all of the spend. And what happened was 0 .97 overall account kind of got wrecked. Okay, well, let's leave it for one more day. Well, we left it for one more day. And we noticed that the overall account was actually still at KPI. Now we did scale down. 
+
+0:01:20
+So that's something that we have to take into consideration. But what you're going to notice here is that Facebook actually stopped spending money on it. Right now, why would Facebook do that? Well, Facebook saw this as an opportunity to drive down our cost for purchase and get us more purchases. But what ended up happening is it just didn't have the conversion rate to hold up. This conversion rate is terrible. 
+
+0:01:38
+AOV was also terrible as well. Cost per click was sensational. And that's why Facebook really, really pushed it. Cause like, Holy shit, we've got opportunity to scale here, but it didn't scale. And so again, the next day we on the 21st, it went from that 1900 to $800. 
+
+0:01:51
+Right. 
+
+0:01:51
+And now look at this number one 52 started to pick up spend and this thing started to absolutely smash. And now we go to the 22nd and now we've got DC. number two, actually still getting a decent amount of spend, but not all of it. But look, it actually had good performance this day. And so this is why we just left it on. Now, if performance had stayed like this, where it was sucking up all the spend and still eating shit, after two days, we'd probably turn that off. 
+
+0:02:15
+And if your budget is 20k per day, or 25k per day, so you have a zero on this, you might not be able to afford that. So you should probably message us about custom rules and stuff like that, because if somebody sucks up spend and is really, really fucking the entire account, excuse my Canadian, then you're probably going to want to have something that cuts that. Um now if we go to the 23rd, let's take a look at sunday. Well sunday Let's see looks like we actually launched a new batch of ads that actually picked up majority of spend again I'm telling you guys like the creative team is fucking cooking Um, so at the end of the day, you can see down here So batch number two just started getting less and less spent like like it just started getting nothing and if you look now March 24th It's still barely getting a span and this is probably an ad that we're going to kill Um, but now you can see dct number 152 started pulling all the spend So what ended up happening here because so far we had batch number that was ripping, we had batch number two that was ripping, and now batch number 152 is ripping. Just pulling everything 2 .23 overall account was a 1 .9. Not great now yesterday. 
+
+0:03:13
+How do we do? Well 152 started ripping again again 2 .58. How are we doing today? And you'll notice we actually scaled budgets almost 3k and spent 2 .8, right? 152 is still doing it But again now we've left batch number two on and it's at a 5x today this batch number for 8x today The point is here that I'm trying to get at is if we take a look at this or the last seven days There's a lot of shit that happened over those last seven days, right? what we can see here is that this 152 is getting the So let's 
+
+0:03:50
+go to a different account over here that is going to be a little bit easier for you guys to see this situation. We have this ad set over here, batch number one. It spent 12K in total and it's at a 2 .49X return on ad spend. And now let's take a look at the frequency. It's a 1 .54. 
+
+0:04:07
+Okay, cool. 
+
+0:04:08
+Let's just say we're not happy with that 2 .49X return on ad spend because we've got batch number six down here where we're like, what the hell? This thing's at a 3 .62. you know, return on ad spend, why aren't we spending more on this? Well, the first thing that you always want to check is whether or not it's view -through data or click -through data. We run seven -day click mainly for most of our brands now. It doesn't mean you have to as well, but we know all of this is click -based data. 
+
+0:04:32
+So we're clear on that. And if you guys were on call today, you probably heard Nahal talk about all he cares about is click -based data. That's all we care about. 
+
+0:04:38
+Okay. 
+
+0:04:39
+So this has a $26 CPA, 2 .5 X. And now what I want you guys to understand when it comes to potentially killing an ad like this is okay. Well, let's say this ad right here, it's got a 2 .67, right? Even though the CPAs higher. It doesn't matter. Right. Let's say, and we were talking about bachelor six, I'll bring it back. 
+
+0:04:57
+If we were to, this is the decision -making framework you guys need to make. If we were to three X this budget, this is spending four K per day. This is spending 12. 
+
+0:05:06
+If we were to three X this budget, do you think this would get better than a 2 .49? Probably not. 
+
+0:05:15
+Right. I mean, if we were to three X the budget on this entire campaign, we probably would not hold a 2 .38. We spent 30 K last seven days. 
+
+0:05:22
+I don't know if that's going to hold. 
+
+0:05:24
+Okay. And same thing with down here. 
+
+0:05:26
+We have batch number six, $743 in spend, 3 .6. 
+
+0:05:30
+But Spencer, my best ads aren't getting spent. Okay, well, let's think about it this way. What if we were to literally 10, maybe, I think this is like a 20X. What if we were to 20X the budget on this? Do you think this would go from a 3 .6 and still hold a 3 .6 if we were to 20X the budget? budget on this. 
+
+0:05:52
+Probably not. Now, the thing is, this is actually probably a new ad, batch number six, I don't know where it went. We might have just launched it. Yeah, it looks like down here, this one here specifically, we just launched, when is the date created? I don't have date created, let me pull it up. All right, so batch number six was literally launched like two days ago, right? 
+
+0:06:11
+And so now that we can see you're got a hundred dollars of spend and this might still get more spend You can also see batch number five was a new one that we just launched this launched on the 24th So let's take a look at this one just for fun as well. Let's see. So batch number. I've just got to pull this out carefully Batch number we're on six. We're on number five. This one looks like it started ripping. 
+
+0:06:29
+So this had a $100 in spend on the 24th, and then it looks like it ripped up on the 25th. So 25th, boom, look at that, 1X, eight complete shit, had 2K in total spend, did not convert. The next day, look at that, down to 600. Now it's doing better. Let's see how it does day three, okay? And so the thing is, is Meta is gonna push your spend around based on what you give it, but what I want you guys to understand here is that if the overall account performance is good, then we're good. 
+
+0:06:55
+It really does not matter. And you're gonna have slower days, you're gonna have better days, but what I'm trying to get you guys to understand is even here in this instance, say your top performing ad is getting a 1X, and let me actually just pull up one more ad account to pull this point home. All right, so let's take a look at this one, right? So batch number five up here, last seven days spent 9K at a 1 .23X. You might be like, ah, bro, this is so hurt. Like, bro, I've got, you know, actually it doesn't look like we have any other ads that are doing math. 
+
+0:07:23
+Look at this one down here, edit number 12, bro, 2 .7X. It's like, man, it's got $81 in spend. All right, let's 100X this and see what happens, okay? But the point is, is even here, you might want this 1 .76, right? 1 .23 might really piss you off, but think about it this way again. If we were to double this ad set, do we think this 1 .76 is gonna work? 
+
+0:07:45
+would be better than 1 .23? Probably not. And then on top of that, if you go to frequency, you can also see very clearly, this is retargeting. This is very, very obvious. It's not always obvious. This is a 1 .13 frequency. 
+
+0:07:56
+This thing's prospecting. This thing is just doing straight retargeting, right? What about this one down here? This one's a low frequency. This one could probably do some prospecting. This one's spending 5K. 
+
+0:08:04
+Oh shit, it's getting 1 .24. If we were to double the spend on this, or even for example, if we were to turn this ad off and you keep budgets the same, we have to find $10 ,000 for this to go in here. 
+
+0:08:16
+And now on top of that, this ad that is retargeting for you also has a lot less retargeting because you just lost an ad that was doing $10 ,000 over the last seven days in prospecting. 
+
+0:08:25
+Okay. And so I want you guys to think through this stuff and really make sure when it comes to turning off top spending ads, if it's a new ad, then great. But for example, look at this today. Again, I'm telling you guys like the, the creative team is cracked right now. What did we do? We weren't complaining in chat about, Oh, stupid freaking meta. 
+
+0:08:43
+Like, Oh, it doesn't, uh, it doesn't freaking work. Like, you know, the top spending ad is dumb. We need to redo our, our whole media buying strategy. And you know, I need to go cope on Twitter or, you know, DCT bro. Literally, look at this. We just launched a new ad today. 
+
+0:08:58
+Literally, or it was last night, it was yesterday. When did we launch this fucking ad? 25th, it was literally yesterday. Sucked up 3 .8k and spend ripping at a 1 .7 for this brand their subscription brand just so you guys understand and then we want this to be a lot better, but this is why we focus on creatives guys Like this is why we do that and this is an ad that is probably gonna get better This is day one, right? And so what I want you guys to understand here is that we need you to really consider and make decisions properly on top spending ads. 
+
+0:09:39
+I'm This was our top spender. 
+
+0:10:06
+Look at this. It's just, it's not getting anything now because what did we do? We found a better ad. We just made a better ad. That's all we did guys. Okay. 
+
+0:10:13
+And the team is doing everything that you guys have involved is exactly what our team is doing. We're going through there and updating more as you guys understand, but I wanted to film a loom to help you guys understand how hopefully you guys can see some winning ads. I just showed you like, like three different ads. This is all the last seven days. Like when I say that the creative team is cracked, like team is cracked right now. We've got to get these, these accounts scaling. 
+
+0:10:32
+So we locked in a little bit, but the point is here, is like, this is why you shouldn't turn off ads that are top spending. And that's the framework that we use in a long run put short. So hopefully that makes sense. And hopefully this helps you guys better have some live examples in the account, better understand how to turn ads off and on and also see some winners. So you know, it's real and things can actually pull spend.
+
+
+Transcribed with Cockatoo

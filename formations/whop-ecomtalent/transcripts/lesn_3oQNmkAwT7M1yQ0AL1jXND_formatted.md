@@ -1,0 +1,68 @@
+# lesn 3oQNmkAwT7M1yQ0AL1jXND
+> Transcript complet — 100% du contenu original
+
+---
+
+Okay, let's talk about ad bounties. What are ad bounties? How you can use ad bounties to learn how to make ads, to sharpen your skills, to get better at making ads, to get better at pretty strategy, to just develop as a better marketer, while having the opportunity to make insane passive income from doing so. So similar to Jobboard inside Discord, there is this ad bounties channel that you have you have inside of here. And first you have this message explaining what ad bounties are, which I'll talk about in this video.
+
+And then here you actually have ad bounties that I'll post regularly. So right now we currently have two active ad bounties. One is for Flow Pouches, which is this brand right here, FlowPouches.com. And then the second one is for HoneyPacks. And we also have for every active ad bounty you will see these channels.
+
+So like FlowPouches, Ad Bounty channel and HoneyPacks, Ad Bounty channel. So we can communicate and as you can see, I will be trying to drop some ideas you can make for ad bounties, but essentially I will now explain how all of that works. So what are ad bounties? As this here, it is truly the fastest way possible to practice your marketing skills and earn money by doing so. And I really mean that.
+
+So how does it work? You will create ads for real e-commerce brands. These won't be dropshippers who are just starting out or beginners in e- commerce space. I will post bounties only for established brands we work with at the agency. So brands I work with personally or brands that are already spending a good amount of money on ads every month.
+
+So there will be no beginners here because I actually want you guys to have the opportunity to earn money by doing this. So this is how it works. So essentially you need to choose your bounty. So you go here in this channel and you will see these bounties. And for every bounty you have a brief.
+
+And when you open this brief, you will see information about the brand. You will see basically like a breakdown. I have a video inside there recorded. I can show you guys. So password.
+
+You also have a password in this court. But yeah, it's going to look something like this. And here you will see like start here. You have a loom. You have a video here of me kind of explaining what you need to do here, how it works.
+
+And I talk about the brand. I talk about what the product is, what they're selling, how we're trying to sell it because we are making ads for this brand. You have all the assets. You have the market research document here. You have content you can use to make ads.
+
+So you have videos. You have images. You have all kinds of stuff. You have video here, which tells you how to submit your ads. And that is essentially it.
+
+Once you choose the bounty that you want to do, and I would highly suggest you to try as many bounties as possible, then you create your ad. So you basically try to come up with an ad idea. Maybe it's a static ad. Maybe it's a video ad, whatever. On the brief that I just showed you, you also have a list of all the successful ads that have been running in the ad account for the past 90 days.
+
+So you get like I think around 50 plus ad examples that we have been running for this brand. So what you can do is just simply take an ad that is doing well and try to make your own variations of it or just try to do something with it. So that's just one super simple thing you can do. Then from there, once you create your ad, you just submit it as you saw on the brief. We launch your ad.
+
+So we actually test your ad with, we spend real money on it. And we track performance in real time. And after that, at the end of every month, I kind of share report. So in these full vouchers and hand-backs channel, I will send a report with kind of all the performance of how every single ad bounty did that everyone from the community posted. And so you can actually see how your ads are doing.
+
+And you get the ability to earn passive income while doing so, which I'll explain and break explain and break down how much you can actually earn from this kind of in the next slides. So how much can you actually make? So this is the complete breakdown of the compensation and basically earning potential you have by making bounties. So if your ad generates $10,000 within one month, you get 5% of that. So you get 5% of revenue.
+
+Like no one offers this anywhere. This type of opportunity doesn't exist in any other community out there. It doesn't exist anywhere on the internet. No one is offering you percentage of revenue right now on the ads you make. Like this is an insane opportunity.
+
+So you can earn 5% of that. So if your ad generates 10K, you get 500 bucks.
+
+Next $20,000, your ad generates. So from 10K to 30K, you get 2.5%. So that's 500 more.
+
+Next 40K, 1.25%, 500 more. And then anything beyond $70,000, you get 1%. If this seems too complicated now, I have some breakdowns so you can see some real actual examples of how that will look like.
+
+So let's say your ad generates $200,000 in revenue in the first month. So your total earnings would be 2.8K. And what the crazy thing is, this resets every single month. So you can make one ad, it generates $200 in month one. You get paid 2.8K out of that.
+
+And then second month, it resets. It starts from zero again. So if the ad is still running and it's still doing well, and let's say second month generates 150K, you get 2.1K again. So you get a monthly salary paid all just by one winning ad you made being active and running for the rent. Month three, let's say the ad is still running, but now it's maybe starting to kind of taper off, maybe starting to perform a bit slower, but it still generates 8K in revenue.
+
+You still get 1.6K. And then month four, it's still running and it generates 100K, you get paid 1.7 50 basically. This is just like true passive income for you, because you did the work once. And if you were actually able to make a winning ad for a rent, you will get paid every month for as long as the ad is running. This is just insane opportunity.
+
+I wish I had this opportunity when I was just starting out. And these are some kind of real examples of what you could earn. So if you have a question, does my ad actually need to hit 10K for me to get paid? The answer is no.
+
+So let's say your ad generates 3K. So like you make an ad and within one month the ad generates $3,000. So you would get paid $3,000 times 5%, that's $150, okay? Still decent, okay? You're still getting paid something.
+
+Then like let's say your ad generates 15K in one month, you would get paid a bit more, bit more, which is $7, $725. Now that is pretty good, I would say. And then big success is if your ad generates $100,000 in revenue in one month, you would get paid 1,800 a month. And insane thing is, there is nothing stopping you making multiple winning ads for every single ad bounty that you have and kind of cultivating and like collecting multiple winning multiple winning ads and then every single ad gets you paid out and you basically earn passive income for as long as they're running.
+
+So let's say you create 10 ads, let's say you, I don't know, you take like honey packs for example, you start doing ad bounties for honey packs, you start doing ads, let 's say you create 10 ads for honey packs, okay? And three of them become winners. Let's say ad one creates 50K in revenue, that's like $1,550 for you. Ad two generates 25K in revenue, that's 875. And ad three is the weakest but it generates 8K revenue, that is $400 a month for you.
+
+And that is total of 2.5K per month, every single month for as long as they are running, okay? And it's not unusual for winning ads to be running for long periods of time. And for example, if these three ads were running for a year, you would get paid 30K by just making these three ads. Like I don't know what else do I need to do and like how else can I communicate this to you but this is just insane opportunity for you to earn a lot of money, okay ? And why this is a life changing opportunity?
+
+Because you're not just making ads, you're becoming a better marketer while making money. Because like one of the most important things, if one of the all up as a good marketer, as a good creative strategist, is by just simply making a lot of ads for a lot of different brands, a lot of different niches and just testing your skills, okay? And sharpening your skills, just making a lot of ads, seeing how they perform and then like trying to analyze, okay, why did these ads not perform? Or why did this ad that I make do well? And you just kind of develop and you train yourself to become better and better over time.
+
+And this like ad bounties is just like an insane opportunity for you to develop as an insane marketer because you can actually test all of your work. You can complete the feedback loop and you get to see how your ads are doing while again having insane opportunity to earn passive income while doing that. The one kind of one big opportunity with ad bounties as well is I know a lot of you guys you guys are sending me ads to review, which unfortunately I don't have that much time to review every single ad that everyone in the community makes. But with ad bounties, I actually have to review every single ad bounty that you guys send because I need to review them before we actually launch them in the ad account. I need to kind of review and make sure they're good.
+
+So if they're not good and if I see you know you could be doing something better, I will just give you feedback and you will again get better and you will get better at what you do and you'll get better at making ads and you will just like progress a lot faster. This is like if I can promise you one thing, I can't promise you, you'll make like a life changing amount of money. But what I can promise you is while doing ad bounties, you will most certainly learn how to make ads and you will most certainly develop into a better credit strategist and into a better video editor or graphic designer or whatever you're doing and you will learn how to make winning ads. This is what I can 100% guarantee you. And obviously while you're doing that, you have the ability to build a killer portfolio with legitimate brands and results.
+
+This is the most important thing. If you actually make an ad that performs decent, you can add it to your portfolio and I can share data with you where there will clearly say this ad was made by Carlo for example and he generated this amount of money and you can add that to your portfolio. So then you're not just adding ads in your portfolio like examples of random ads that you edited but you're actually adding ads that made money. There's a huge, huge difference and that's going to give you an edge when I'm trying to close clients and when trying to work with bigger brands essentially. So again, I don't know how else to communicate this but please go and do bount ies.
+
+Not because I want you to do that to them but because I know it's something that's going to help you just progress a lot faster in this space and it's going to help you develop as a good career strategist faster. And then to kind of incentivize and to reward everyone doing bounties, I have monthly prizes. So first place and this is kind of resetting every month. So first position and basically how we determine who is first to second who is third. First position is like the top person who made the most money by doing bounties basically.
+
+So that's like place number one. You get a free one-on-one call with me where all personally dive into your situation and help you 10 extra income and help you make a game plan and what are the next steps you need to take in your kind of career. Then the second place is e-contound is free next month and then third place is 50% off e-contound for the next month. So again, you can also earn these prizes by doing advantage and if you actually make some money with advantage, you have a good chance to be one of these three. So that has been at bounties.
+
+Hopefully now it's a bit more clear on what kind of insane opportunity this is. If you still have any questions, you can obviously ask in the community, in the channel chat. And I will be happy to respond. But yeah, once again, one last time, do advantage. That's it.

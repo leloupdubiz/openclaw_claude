@@ -1,0 +1,60 @@
+All right. So in this video, I'm going to show you how to create your own custom GPT to summarize
+all of the feedback survey data. So pretty cool. If you go in and just make sure you actually pay
+for the real version of ChatGPT, it's like 20 bucks a month. It's super cheap. And obviously
+it's a no brainer. So once you have that, you're then going to click your profile and you're going
+to click my GPTs. Once you're in my GPTs, then what you're going to do is you're going to create
+a custom GPT and you're going to click the configure button here. Now, obviously we're
+summary and feedback survey data here. So you just want to copy whatever the client is. So for
+example, this is for, uh, just realize that this is spelt wrong. That's, that's nice. Uh, pardon my
+fro. Uh, you're going to copy that in and obviously just add a name there. The description doesn't
+matter, but you can just say this GPT knows everything about PMF customers. Okay. And then
+the instructions, we just have a very simple prompt. So there's going to be a link to this sheet
+underneath. Whoopsie. And you're just going to copy this instructions here. And you're just going to
+paste that in again, if you want to optimize this, feel free, but for the most part, it's pretty
+simple. It's pretty straightforward. And then from there, what you need to do is you need to upload
+files. So chat GPT knows what to actually summarize. So that's when we go into the sheet,
+you're going to copy basically each written answer. So wherever you see four, two bonus entries
+typically means it's a written answer. So there's a written answer, written answer, written answer.
+These are all written answers, right? So this is all the data that we need to summarize. We don't really
+care about the multiple choice questions. We just want the questions that have the written data.
+So from there, you're going to copy this. You're just going to create a new sheet and you're going
+to paste this in. You can rename this to export if you want. And then you're just going to delete
+the top question here, go into file, click download, and then you're just going to download this as a
+PDF. And then what I typically like to do is I just like to rename this as well. So I'll go try to
+find the file. Let me go ahead and not do that. Give me two seconds. All right. So once you find the
+file here, just make sure you go ahead and rename it. So for example, I would just rename this,
+whatever the question is. So I think the question for this one was like, what do you want to see
+improved on our store? Yeah. What can be improved on the store? So you could just rename this,
+you know, improved store or whatever you want to name it. And then you could also add just the
+client's name at the end. So, you know, what is what, so, you know, there it is. And then what I
+would do is I would go into chat GBT and I would click upload files, and then I would find the improved
+store. I would paste it in. And then what you can do right now is you can actually go ahead and get
+the first summary for your actual sheet. Now, this sheet in particular is already done. But just
+to give you an example, what you're going to do is to delete that out of there, because obviously
+this would be blank. You're going to go into GPT and you're going to, or actually going to go into
+the sheet and you're going to copy this prompt. So you're just going to copy this here. You're going
+to go to GPT and you're going to paste it. And you're just going to tell GPT to obviously answer the
+question. So go ahead, click. Oh, we don't want to do create just yet. We want to send this in.
+And then it's actually going to go ahead and start typing out the data. Now, if you also want to add
+the client's logo, it's obviously a little bit of a nice touch as well, because we're actually going
+to share this, but we'll talk about that later. And now you can see GPT is just spitting out all
+the things that customers want to see. So based on the feedback, yada, yada, yada. And I'm going to let
+this finish. And then we'll show you what we do with this after call it as well as this prompt is
+obviously, you know, it's pretty dialed in, but you can obviously customize it as well. Like you can see,
+we have this by order of frequency, right? So like we're seeing whatever ones people want more or
+like based on the answers, what was mentioned the most. So then from there, what we're going to do
+is we're just going to copy this beautiful answer that chat CPT gave, and we're just going to pop
+that right into the sheet by double clicking and then pasting. From there, typically just to clean
+up the sheet, I'll come in and obviously just like bold the title. So it's a little bit easier on the
+eyes for the client to kind of see all of this. But what's really cool is we're actually going to
+be able to provide a client, the ability to come in and just ask it whatever questions that we want,
+which is really cool. And then over here, we have the overall summary like that. Okay. Boom. And just
+like that, now we have a great little summary here of has quotes. It has what the customers want to see
+and all that good stuff. Now from here, what you're going to do is I typically will come in and just add
+the next one, where if you really want to, if you want to be super clean with it, you can delete this
+and then add the next one. But I'm going to go ahead and show you what that looks like in the next
+video. But this is how you can go now and start just adding the files. So obviously the next step
+here would be going back into the clean sheet. We would then copy the next question here. Obviously
+we'd go back into export, delete all this, we'd paste this and just follow the exact same process
+for the next step. But I'm going to go ahead and film the next part of the video, which is going to be
+getting all of this in there and then summarizing the rest.

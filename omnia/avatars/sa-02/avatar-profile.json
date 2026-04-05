@@ -1,0 +1,15 @@
+{
+  "avatarId": "sa-02",
+  "avatarName": "SA-02 — Femme 38-44 ans (Professionnelle)",
+  "basePrompt": "Cinematic vertical UGC video, iPhone 15 Pro selfie style, natural morning light, German woman 38-44 years old, brown hair, tired but relatable face, wearing casual grey t-shirt, sitting on bed in bedroom, authentic handheld camera movement, realistic skin texture, no makeup, slightly messy background",
+  "visualParams": {
+    "seed": null,
+    "referenceFrameUrl": "/avatars/sa-02/reference_frame.jpg",
+    "consistencyPrompt": "same German woman 38-44, brown hair, natural skin, casual home setting"
+  },
+  "voiceId": "de_female_warm",
+  "taskId": "71dd66baaac4a2e4a8cdfcba154f22cf",
+  "thumbnailUrl": "/downloads/1771954179160_batch1_1A_SA-02_thumb.jpg",
+  "createdAt": "2026-02-24T20:56:48.531Z",
+  "updatedAt": "2026-02-24T20:57:01.893Z"
+}

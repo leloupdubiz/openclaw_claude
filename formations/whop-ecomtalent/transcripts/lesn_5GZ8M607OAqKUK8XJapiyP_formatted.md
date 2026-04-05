@@ -1,0 +1,38 @@
+# lesn 5GZ8M607OAqKUK8XJapiyP
+> Transcript complet — 100% du contenu original
+
+---
+
+All right, before we start talking about anything, I want to first explain how ads actually work. And I'm going to explain this in the simplest way possible, like I'm explaining to a five-year-old, because if you don't understand how ads work, you won't understand anything else I'll be talking about in this course. If you already know this stuff, great, you can probably skip this. But if you don't know what ads are, how running ads online even works, pay attention. So at its core, an ad is just a piece of content, could be a video or an image that we show to people to get them to take action.
+
+Usually that action is buying a product, but it could also be signing up for something or downloading an app or similar. Now let me walk you through exactly what happens when someone sees your ad. Say you're scrolling through Instagram and you see an ad for a new pair of shoes. If the ad does its job, you click on it. That click usually takes you to a website.
+
+This could be a product page, a landing page. Sometimes it can be a longer article about the product. And this is where people actually buy what you're advertising. Now, where can you run these ads? You've got a few platforms, Facebook and Instagram, which are both meta.
+
+You have TikTok, YouTube, Google, and each platform has its own control center called an ad manager. And this is where you control everything, who sees your ad, how much you spend, when it runs. This is where you set up the technicalities. Throughout this course, we'll mainly be focusing on meta and TikTok ads because that's where the most money is being made right now. But the principles you will learn work everywhere.
+
+Now let's talk about the money side. How do you actually spend money on an ad and how do you get money back? And I'll do this by breaking down a very simple example.
+
+So let's say you spend a hundred dollars on an ad. With that hundred dollars, your ad gets shown to 10,000 people. And then out of those 10,200, click on your ad to learn more. Out of those 200, 10 people end up buying your product for 50 bucks. That means you just spent a hundred dollars to make $500 in sales.
+
+And now I'll break down each of those numbers we just covered and explain what every one of them means. There are a several key metrics we track and I'll again explain them on our example. First is CPM. This is how much we paid to show our ad to 1,000 people. In our example, reaching 10,000 people for $100 means our CPM was $10.
+
+And this tells us how expensive it is to get our ad in front of the people. There are two main things that affect CPM. First is competition. The more advertisers are trying to reach the same audience, the more expensive it gets. During Black Friday, for example, everyone's trying to advertise and run ads.
+
+So CPMs usually go up. Second is your ad quality. If Facebook, for example, sees the people engage with your ads, they're watching it, they're clicking it, they're sharing it, Facebook will actually lower your CPM. And that's because they just want to have engaging content on their platform that keeps people longer on their platform. So if your ad has a bad engagement, no one's liking it, no one's commenting on it, no one's sharing it, they will charge you more to show that ad to people on their platform.
+
+Next is click-through rate or CTR. So in our example, 10,000 people saw our ad and 200 click on it. So that's a 2% click-through rate. CTR usually tells you how good your ad is at grabbing attention and making people want to learn more. Then there's conversion rate.
+
+So if out of 200 clicks, we only got 10 people to actually buy, that's a 5% conversion rate. Conversion rate mainly tells you how good the website is at converting visitors into customers.
+
+Next is return on ad spend or ROAS. And you'll be hearing a lot about this one when you start making ads, when you start working on ads. So in our example, if we spent $100 to make $500 in sales, that's a 5x ROAS, 5x return on ad spend. For every dollar we spent on ads, we made 5 back, which is very good. Finally, there's CPA, cost per acquisition.
+
+So if we spent $100 to get 10 customers, our CPA is $10. That's how much it costs to get each customer. Now, you won't have to worry about the technical side of running ads at first. That's handled by who we call a media buyer. They're the ones who set everything up in the ad accounts, analyze how ads are performing, make adjustments and handle all the numbers.
+
+And your job from the start will be to produce ads they can then run to make money. But it's still beneficial for you to understand how we measure success in advertising. Because even though you won't be the one running the ads, knowing this metrics helps you understand what makes an ad actually work. Now, all these numbers are tracked in real time, like I said, through ad manager, the media buyer can watch and analyze as people see our ad, click on it and buy the product, they can see all the metrics. But one thing that's very important to understand is you can't judge an ad's performance in just day or two.
+
+That's why we do something that's called testing, we have to test all of our ads. And typically, you need to let ads run for at least three to seven days before you can tell if they're working or not, because you need enough data to make decisions. Day one might be great, and day two might suck. I've seen ads that looked terrible on day one, but ended up crushing it by day five. And I've also seen ads that start strong, but die off completely.
+
+And that's why media buyers usually let ads run for about a week before deciding if they're winners or losers, unless they're obviously burning money from the start.
+
+So now we understand the very basics of how running ads on social media actually works, and you're ready to move on to other stuff.

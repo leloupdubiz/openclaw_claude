@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>ADSPY PRO — Setup</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: system-ui; background: #0d0d0d; color: #fff; padding: 40px; max-width: 700px; margin: 0 auto; }
+  h1 { font-size: 24px; margin-bottom: 4px; }
+  .sub { color: #6b7280; margin-bottom: 32px; }
+  .card { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .card h2 { font-size: 16px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .status { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .ok { background: #10b981; }
+  .pending { background: #f59e0b; }
+  pre { background: #111; padding: 12px; border-radius: 8px; font-size: 12px; overflow-x: auto; color: #a3e635; white-space: pre-wrap; }
+  .btn { background: #fff; color: #111; border: none; padding: 10px 20px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; display: inline-block; text-decoration: none; }
+  .btn:hover { background: #e5e7eb; }
+  input { width: 100%; padding: 10px 14px; background: #111; border: 1px solid #333; border-radius: 8px; color: #fff; font-size: 13px; margin-bottom: 8px; outline: none; font-family: monospace; }
+  input:focus { border-color: #6b7280; }
+  .step-num { width: 24px; height: 24px; background: #333; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; }
+  .path { background: #111; padding: 8px 12px; border-radius: 6px; font-family: monospace; font-size: 12px; color: #a3e635; }
+</style>
+</head>
+<body>
+<h1>🔭 ADSPY PRO — Setup</h1>
+<div class="sub">Configuration Meta API + Extension Chrome</div>
+
+<!-- STATUS -->
+<div class="card">
+  <h2>📊 Status</h2>
+  <div id="status-content" style="font-size:13px;color:#6b7280">Chargement...</div>
+</div>
+
+<!-- META TOKEN -->
+<div class="card">
+  <h2><span class="step-num">1</span> Meta Ad Library API Token</h2>
+  <p style="font-size:13px;color:#9ca3af;margin-bottom:12px">
+    Dans Arc, ouvre <strong>developers.facebook.com/tools/explorer</strong> → 
+    Sélectionne ton App → Génère un token avec permission <code style="background:#333;padding:2px 6px;border-radius:4px">ads_read</code> → 
+    Colle-le ci-dessous
+  </p>
+  <input type="password" id="token-input" placeholder="EAABsbCS4Fuc..." autocomplete="off">
+  <button class="btn" onclick="saveToken()">✅ Sauvegarder</button>
+  <div id="token-status" style="font-size:12px;margin-top:8px;color:#6b7280"></div>
+</div>
+
+<!-- EXTENSION -->
+<div class="card">
+  <h2><span class="step-num">2</span> Extension Arc/Chrome</h2>
+  <p style="font-size:13px;color:#9ca3af;margin-bottom:12px">
+    Dans Arc → <strong>arc://extensions</strong> → Mode dev ON → "Charger extension non empaquetée"
+  </p>
+  <div class="path">/Users/pc2/.openclaw/workspace/adspy/extension</div>
+  <button class="btn" style="margin-top:10px" onclick="navigator.clipboard.writeText('/Users/pc2/.openclaw/workspace/adspy/extension').then(()=>this.textContent='✅ Copié!')">📋 Copier le chemin</button>
+</div>
+
+<!-- BOOKMARKLET -->
+<div class="card">
+  <h2><span class="step-num">3</span> Bookmarklet (optionnel — auto-save token)</h2>
+  <p style="font-size:13px;color:#9ca3af;margin-bottom:10px">Glisse ce bouton dans ta barre de favoris Arc. Clique dessus sur la page Graph API Explorer pour sauvegarder le token en 1 clic.</p>
+  <a class="btn" href="javascript:(function(){var t=document.querySelector('#accessToken,input[placeholder*=&quot;token&quot;],input[placeholder*=&quot;Token&quot;]');if(t&&t.value){fetch('http://localhost:3004/api/meta/token',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({token:t.value})}).then(()=>alert('✅ Token ADSPY PRO sauvegardé!')).catch(e=>alert('❌ '+e))}else{alert('Token non trouvé. Va sur developers.facebook.com/tools/explorer/')}})();">🔭 Save to ADSPY</a>
+  <p style="font-size:11px;color:#4b5563;margin-top:8px">← Glisser ce bouton dans les favoris Arc</p>
+</div>
+
+<script>
+const API = 'http://localhost:3004/api';
+
+async function loadStatus() {
+  try {
+    const [boards, meta] = await Promise.all([
+      fetch(API+'/boards').then(r=>r.json()),
+      fetch(API+'/meta/token-status').then(r=>r.json())
+    ]);
+    document.getElementById('status-content').innerHTML = `
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <span><span class="status ok"></span> ADSPY PRO API ✅</span>
+        <span><span class="status ${meta.valid?'ok':'pending'}"></span> Meta API: ${meta.valid ? '✅ Connecté ('+meta.user?.name+')' : '⚠️ Token requis'}</span>
+        <span><span class="status ok"></span> ${boards.length} boards créés</span>
+      </div>
+    `;
+  } catch(e) {
+    document.getElementById('status-content').innerHTML = '<span style="color:#ef4444">❌ ADSPY PRO non disponible (localhost:3004)</span>';
+  }
+}
+
+async function saveToken() {
+  const val = document.getElementById('token-input').value.trim();
+  if (!val) return;
+  const el = document.getElementById('token-status');
+  el.textContent = '⏳ Sauvegarde...';
+  try {
+    const r = await fetch(API+'/meta/token', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({token:val}) });
+    const d = await r.json();
+    if (d.ok) {
+      el.textContent = '✅ Sauvegardé! Vérification...';
+      el.style.color = '#10b981';
+      const status = await fetch(API+'/meta/token-status').then(r=>r.json());
+      if (status.valid) {
+        el.textContent = '🎉 Connecté: '+status.user?.name+' — Meta Ad Library opérationnel!';
+        loadStatus();
+      } else {
+        el.textContent = '⚠️ Token invalide: '+(status.message||'Vérifier les permissions ads_read');
+        el.style.color = '#f59e0b';
+      }
+    }
+  } catch(e) { el.textContent = '❌ '+e.message; el.style.color = '#ef4444'; }
+}
+
+loadStatus();
+</script>
+</body>
+</html>

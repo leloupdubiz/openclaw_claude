@@ -1,0 +1,62 @@
+HOW TO GENERATE CONSISTENT SORA 2 CHARACTERS
+Step-by-step guide
+
+Generating The Character
+
+The way we will generate the consistent character in sora 2 is really simple.
+
+First, pick one of the prompts you created earlier in the course. Any of the example prompts will work perfectly.
+
+Here's the step-by-step workflow:
+
+	•	1. Open the official Sora 2 app
+	•	2. Create a video using your chosen prompt
+	•	3. Once the video is ready, click the three dots menu
+	•	4. Select "Generate Character"
+	•	5. Publish the character and make it public
+	•	6. Now you can reuse this character by tagging it in future prompts
+
+In the sections below, I'll walk you through the complete workflow for using this character across multiple videos, plus how to keep your product placements consistent.
+
+Consistent Character Across Multiple Videos
+
+VERY IMPORTANT - PRODUCT PLACEMENT
+To generate consistent product placements in your videos, you need to create the character holding the product directly in the Sora app. This approach guarantees the character will hold the product in every scene.
+
+Why this matters: Sora 2's character generation doesn't follow uploaded images when it comes to product placement.
+
+How to do it:
+	•	Use the prepared prompt below to generate detailed product information
+	•	Add this product description to your existing prompt
+
+Here is the product prompt (this isn’t too important): PRODUCT PROMPT
+
+Here is the prompt that we will use for generating the character with product (you can do without product btw): CHARACTER PROMPT
+
+This ensures the product is integrated into the character generation from the start, rather than trying to add it later through image uploads.
+
+Now use the step-by-step workflow to create the character as stated in the beginning, and if you are using a product, make sure you upload your product image into sora app.
+
+If you want to generate a scene without the character holding the product, just write on the prompt “she holds nothing on her hand”, or say to gemini/claude to remove the product.
+
+Using The Character Across Multiple Videos
+Once you've created your character (with the product), you'll reuse the same base prompt for all subsequent scenes. 
+
+The only thing you'll change is the character reference
+
+Simply tag the previously created character instead of describing them again.
+
+I am using kie.ai after generating the character on sora 2 app
+
+Here’s how it looks like:
+BEFORE & AFTER
+
+Here's the process for generating multiple 15-25 second clips with the same character:
+
+	•	Keep your base prompt identical to the original
+	•	Only modify two elements:
+	•	The character's actions
+	•	The script/dialogue
+That’s it basically.
+
+

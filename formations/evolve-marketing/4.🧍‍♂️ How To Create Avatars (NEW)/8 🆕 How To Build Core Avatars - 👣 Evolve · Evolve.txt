@@ -1,0 +1,860 @@
+All right. So in this video, we are going to be diving in to building a core avatar.
+And it's something that I'm very excited to do because I know a lot of you guys want, you know, step by step.
+Hey, guys, how do I do this? What does this look like? You know, how can we, you know,
+pickle this training and put into action? Well, let's let's go ahead and do it together, at least
+for one of these brands. So I'm going to jump in here. And again, just for the sake of this,
+I'm going to be going through and just kind of using what I've already done here,
+which is in the product overview document specifically. And then we can also go through.
+And if you guys don't remember this, there's also a desire prompt that you can use to go out
+and find some desires and get some potential angles essentially around the product. But the
+product I'm going to be using here is going to be these blackout blinds. Okay. And so the first
+question is, is, you know, how does your product work? What are the features? What are some of
+the assumed benefits? What are some of the assumed desires? Right. And so now right here,
+because the result of doing this prompt, I already have a rough idea of some desires that we can go
+after. And so what I'm going to do is I'm just going to paste this in here. And remember, what,
+what is the core avatar? Well, the core avatar, if we scroll down just a little bit here, is
+essentially just building and starting with just one. And so if we get down all the way to the bottom
+here, you can see that I have recommendations on how to actually build your core avatar. So again,
+how many avatars should you make? Well, you should likely only have one core avatar that
+you focus on, preferably a desire experience or a behavior. And so that's what we're going to do.
+We're basically going to go through and look at this. And you know, we can use cloud as well. I'm
+going to go kind of live and direct with you guys. And I'm going to probably go do some deeper
+research as well, because I love just doing deeper research on Reddit. I would ideally watch some
+YouTube videos and stuff like that as well. But you guys kind of already saw me do that. But the
+first one that we have here is, you know, desire, the person wants and needs a complete environment
+control for restorative sleep. Okay, and so the core desire that we could have here is, you know,
+wants for restorative sleep really so wants restorative sleep. So that's a core avatar that
+we could potentially have. And again, we're going to get into sub avatars after we start narrowing
+this down. But this is pretty specific already. And obviously, a lot of people are going to go
+after this with more specific than just like wants better sleep, we're kind of saying restorative,
+which I like a little bit better. But another desire that we have over here, again, this is just
+from like the AI prompt that we ran, you guys have this AI prompt as well. In this actual product
+here, you have this, and then you have the template here that you can essentially fill out. I believe
+I showed you guys how to do that. But if we go back here to our core desires, essentially,
+we have person wants and needs solutions that actually work versus failed attempts. Now, this
+is like super broad. I'm probably just going to delete that one. Not really too excited about
+that desire. So the person wants to avoid the hassle complexity and potential. And just before
+you guys get confused, I'm actually going to go back here as well and show you this, like how
+this actually worked. Essentially, we had these features here. And then we had these assumed
+benefits or these benefits that we're assuming these features lead to. And then we have the
+desires that are behind them. So again, if you guys need a better way of understanding desires,
+go back and watch the desire video. But the end of the day, we've got desire that the person wants
+needs or wants to avoid hassle complex and potential mistakes. And not really caring about that. That's
+super broad person wants to make smart investments to enhance their home could be a potential avatar
+as well. I would say this is like more to enhance their health. So I'm going to probably use this
+as a desire. So again, I'm going to say desire based core avatar number one, just to make sure
+that we are talking about specifically the core avatar we're basing this on. So this is obviously
+desire first, which I recommend a lot of you guys do. And then this one here is the person wants to
+enhance their health. So I'm going to do this one as well. So just this is a little bit more
+broader, right? And so just kind of like use your user, use your head a little bit, right? So
+person wants, I don't really know about making smart investments. That's kind of a behavior,
+right? So what is a behavior someone that does a certain type of thing? So this would be like
+person wants to enhance their health. So if you see this while you're doing avatar hunting as well,
+you can also create a sub avatar. So sub avatar number one is obviously this. So a person wants
+to enhance their health.
+And if it helps you guys, again, what I would recommend is just add the little brackets.
+At least that helps me.
+So I'm like, this is the desire.
+Okay, we're clear on that.
+Okay.
+And then so what we can do here is their behavior so we can pace this.
+Uh, so a person wants to make a person wants to enhance their health.
+Uh, and they make smart investments.
+That is their behavior or at least that is kind of like what they tell themselves.
+Right.
+So again, why are we doing this?
+Right?
+Well, for this sub avatar specifically, and we're going to get into like full sub avatar breakdown.
+Now we can make an ad that targets this person.
+That's like, you know, you're the type of person that makes smart investments.
+You could literally say that specifically.
+Like if you're the type of person that believes in investing into your health, right?
+Well, there we go.
+Right.
+This is someone who wants to enhance their health and kind of believes into investing into it.
+Right.
+So it's good for marketing.
+Right.
+We talked about beliefs at the end of the training, but this is why, you know, kind of thinking through this can really help you come up with good headlines, which is again, the whole goal of this and writing good ads in general and giving you a direction for which you write your ads.
+Okay.
+So the person wants and needs a sort of sleep.
+We already got that person wants to make smart enhancements to or smart investments to enhance her health.
+We then have the person wants to achieve optimal sleep conditions for health and productivity.
+This could be a good one.
+So maybe just like once an optimal sleeping environment.
+So this could be a potential desire based avatar as well.
+So desire based or avatar.
+And just so you guys know, like I might have some slip ups while I'm doing this because I want you guys to understand that a lot of the times.
+It can be, you know, when you're just saying words, you're just like saying words, but then it just like it just comes out.
+But what we're trying to do is again, break it down for the point of being able to like truly understand it.
+So again, let's just say this person here wants to achieve optimal sleep.
+Okay.
+And so this is kind of the same as a sort of sleep.
+I might be like testing this out.
+And again, this is also where it comes down to marketing.
+And I know with the whole, uh, Andromeda or whatever that I get.
+I say it wrong every single time.
+Uh, Andromeda.
+I don't know what the hell it is.
+Uh, a lot of you guys are freaking out about like these small little changes.
+And so, you know, wants to achieve optimal sleep and wants to, and wants restorative sleep, um, are, are kind of the same.
+Uh, and so more or less when I'm doing this, like, again, like I said, I might be going back on stuff that I say.
+So that's what's important to watch the whole video.
+Um, but here I might be like, you know, these are relatively similar.
+Although like when I read it, it, it seemed different, but I just think this is overall potentially going after more of like a.
+You know, someone who's maybe like a high performer, right?
+Um, but that could also be, you know, again, optimal and restorative are, are kind of the same.
+And so in this instance, I'm, I'm likely just going to remove this one because there, it's just very similar, right?
+And again, we're just trying to find one core based avatar and again, the language that we use.
+If we want to say like, are you trying to get, you know, a more restorative sleep?
+That could be language that we use or we could say, are you wanting to, uh, get, are you wanting to, uh, optimize your sleep routine?
+Right? That language that we use, like you're about, you're going to see when we start getting into the execution side.
+It's just also going to target a different avatar, right?
+Because if we're thinking about someone who's like a biohacker, right?
+So that could be a behavior, right?
+So someone who believes in biohacking or someone who is, uh, as a biohacker is like, or they, they do biohacking, which basically means they try to optimize their body as much as they can.
+Uh, that is likely.
+So when we use their kind of language, which is why doing research is important.
+We're going to do that in a second.
+Uh, you're going to be able to kind of see how you can take this desire of someone who wants restorative sleep and apply that to a mom who's just completely exhausted and like hasn't slept for so long and also apply it to a biohacking bro.
+Okay.
+Uh, but the thing is, is we're starting at the core, uh, base desire of just wanting restorative sleep.
+The other one here is we have, you know, they want confidence in their purchase.
+Don't really care about that.
+That's super broad.
+And this is why again, it's important to understand like just using this is, is not very smart because this is just AI AI is just like spitting out bleh at you.
+You know what I'm saying?
+Like it's not really like thinking deep about what's going on here.
+Um, so again, the reason why I'm deleting that is because it's just like I think about it.
+It's like it's so broad.
+Retiring this back guys to a product that is total black outlines and what does it do?
+Okay.
+Well, what it does is sixth grade reading level, uh, they're cut to fit your exact window size.
+They have a special seal that goes around the edges.
+You stick them on your window with strong tape, no tools needed.
+They seal a light from coming or blocks light from coming in.
+Your room becomes completely dark, which helps you sleep better.
+And they also keep, uh, heat out and reduce noise.
+So we're kind of getting ideas of like what this product does.
+Right.
+So when I see like person wants and needs flexibility and freedom in their living situation, that's, that's very broad.
+Right.
+Remember, if we go back to our avatar scale, which is way up here.
+Right. And you're thinking about some of these desires that maybe, you know, the AI is recommending
+you. It's like, well, that's like very, very broad, right? Like people who want freedom in
+their living situation. Now we're talking about all different kinds of stuff. You know what I'm
+saying? Like we're talking about maybe they want freedom with, you know, they want to couch that's
+comfy or something like that. Or maybe they want a bigger patio or maybe they want a cold, like,
+it's so it's like living situation is very, very broad. So again, I'm not trying to go after these
+massive mega broad desires quite yet, especially if your brand is sub a month because at the end
+of the day, like wanting restorative sleep in itself is also very broad. This is just even broader.
+Okay. And again, we're trying to tie this back to, you know, a specific product. And so what I
+would recommend that you do is like, you don't have to delete these, right? Like keep these
+in your sheet. But like for the sake of what we're trying to do here, just like getting the
+foundation started, it's like, well, let's just, all right, clearly we help people with sleep. So
+let's just start with that first and see how that goes, right? Rather than talking about your
+entire living situation. Okay. Next one we have here is like, the person wants to achieve or
+wants to save money while improving comfort. Sure. Person wants a needs piece of quiet in their
+sanctuary space. That could be good for like a, you know, a specific sound angle, which we're
+going to get into. I maybe won't recommend that. But again, based on the research that you're doing,
+if you see, you know, and we're going to actually jump into atria as well, and I've got to make
+sure I collapse some columns here so I don't show absolutely everything that's going on here. But
+basically, if we come back here, right, and even let's just go back to those you guys that don't
+have atria. So now we're getting a little bit deeper. And I want to talk about so the person
+wants a piece in quiet. So I'm just going to say like a person wants to sleep in a quiet environment.
+And so looking at this, it's like, okay, well, these, these, this is like the most broad. So,
+let's kind of categorize these down. Right. So we just have three basic ones. And that's just
+based off of that. We're going to go and look for some more, by the way, these are going to be
+desire based. Okay. And we're also going to take a look at some experience based ones. I probably
+wouldn't recommend emotions or behaviors quite yet. Again, when you guys start with desire based
+desires, it just like, it just sets the tone of like, okay, like, what, what do we, what do we
+want here? Right. It's like, so you guys watching this program, like the desire that you have is,
+is to scale your brand, right? Like you want to make more money. And so like, I'm going to start
+most of my avatars when, you know, and just so you guys understand, like, we're probably going
+to be start scaling up ads. We're spending about, I get close to like $1,000 a day right now on our
+own ads for, for evolve and origins for those of you guys that are watching this because we kind
+of practice what we preach. But we're like, we don't spend as much time marketing ourselves as we
+should. But this is a worksheet that I'm going to be going through to try to get more of you guys
+into the program. Right. And so like the first thing I'm probably going to start with is like,
+you know, I want to grow my Shopify brand. Right. That's probably a really good place for me to
+start to try to start maxing out that market, right? And then from there, if I, if I feel like I've
+tapped out that market or that market is massive, I'll probably climb up to the desire of like,
+wants to make money, right? You guys see the difference between that. And like, it's just again,
+like, use common sense here, right? Because person wants to enhance their health is obviously way
+broader than once restorative sleep, right? So if we want to plot these just for fun,
+you know, maybe what I'll do here is I'll, I'll take a screenshot of our chart here. So the
+pepase. So let's go ahead and screenshot this. And I think I can bring this in. I can't. Okay,
+give me two seconds here. Right over back. So like, like, let's take a look at this, you know what
+I mean? So we're, we're looking at these three desire based avatars. And again, I promised guys,
+I mentioned this was going to be a quicker one, but it looks like it might be a bit longer. But
+so these are our desire based core avatars. Okay, we already have a sub avatar, we snuck one in here
+in typical Spencer fashion, but I have a whole new section coming on sub avatars to help you guys
+layer it down. So desire based core avatars here, we have person wants to enhance their health. So
+how many people do you think want to enhance their health? And if you guys want to ask, like,
+you guys could just Google this stuff, take it with a grain of salt. But like, I'm just using
+common sense guys, like a lot of you guys know this stuff. You know what I'm saying? Like, so we
+don't need to like over complicate our waste a bunch of time. Okay, I'm a big fan of going down
+rabbit holes, but sometimes it's an opportunity cost. And so the first one that we have is like,
+let's just say over here is the, you know, wants to enhance their health, right? That's our first one.
+Now our second one that we might have here of once restorative sleep. Well, let's just think
+about it. Let's just maybe like drop this down a little bit more. And now again, this is not
+at scale at perfect scale. But at the end of the day, you know, when I look at this, I'm like,
+okay, well, this avatar here is like someone who wants to enhance your health. So that could mean
+eating better, that can mean getting better sleep, that could mean going to the gym, that could be,
+you know, mental health, it could, like, it could be so many things. It's very, very, very, very, very,
+very broad, right? And then a layer down from that is like someone who wants restorative sleep.
+Okay, well, now we're, we're obviously getting more broad, right? And I mean, I changed the color
+browner, I think it's needed because we've got numbers on there. But the point is it's like,
+now we're getting more broad. Okay. And then we get to some person wants to sleep in a quiet
+environment. Well, I think more people probably, I mean, and these kind of go together, you know,
+what I mean? Like, you know, someone who wants restorative sleep might essentially be the same as
+someone who wants to sleep in a quiet environment, but this, this specific reason. So like, someone
+who wants restorative sleep might not have the problem of sleeping in a loud environment, right?
+They might just like, that's just what they want in general. It's a little bit more broader.
+But person who wants to sleep in a quiet environment, so someone who's just like, hey,
+I'm constantly getting woken up, right? Like this could include all sleepers. This is a very simple
+example. This could keep or this could include light sleepers and like super heavy sleepers.
+And if you don't know what the difference is, that it's like people wake up when they hear it,
+when they hear just like a pin drop versus people who like a car could run into the bedroom and
+like they're still sleeping. So it's like that probably like both of those types of sleepers will
+probably want, you know, restorative sleep. But someone who wants to sleep in a quiet environment,
+they probably want that for a specific reason. But again, that's going to be even more specific,
+right? And so now for a lot of you guys, when we're considering this, okay, if we go back to our
+zero to a hundred K per month or zero to 10 millimeter month model down here, right? If I'm a
+If I'm zero to 100k per month, I'm probably looking more at this avatar, right?
+This is like someone who wants to sleep in a quiet environment is kind of the smallest
+of these desires, right?
+Now is it the most powerful?
+Is it the most largest?
+Does it have the most urgency?
+Potentially, this actually has a lot of urgency, right?
+Because if you remember in the desire training, we talk about scope and we talk about urgency
+and all those things, right?
+And so here, like this might have urgency because like this is really personal right
+now, because I'm actually going through this and there's so much noise where we're sleeping.
+It's horrible and I should not have as much noise for when I'm paying for rent.
+But anyways, the point is is like, I just really want to sleep in a quiet environment
+right now and I'm looking for those solutions, okay?
+But when we compare that to someone who wants restorative sleep, it might not be like super
+urgent, right?
+Like so keep this in mind guys, like the scope, if we go back, so if you guys like know what
+I'm talking about here, if we go back to our desires document here and to where Spencer
+explained desires and if we scroll down to where I explained it, I'm going through all
+of this stuff, let me go ahead and take you guys there.
+So I'll just pause it.
+All right, I scrolled right by it, but we have scope urgency and staying power, right?
+So how many people share the desire?
+Well, when we're looking at just this, right, obviously we've organized it from scope of
+like more people want to be healthy than ever and then less people obviously want restorative
+sleep and then even less people want a quiet environment, right?
+And then if we look at the urgency, right, so like how desperately do they want and need
+it?
+Well, in this instance, depending on the health situation, again, because it's very broad,
+it could be very urgent.
+And then looking at this one here, like this maybe is not as urgent again, it all depends
+on again, the experiences the person's going through, the emotions that they have, the behaviors
+that they have in their demographics, right?
+But when I think about someone who wants to sleep in a quiet environment and like that's
+their desire, which overall scope wise is slightly smaller, it actually might be more urgent
+because the fact that they want this probably means they don't sleep in a quiet environment
+is probably annoying them, right?
+And we're going to get into breaking down some avatars, like I said.
+But now if we go back to, as you guys can see how I'm tying this whole training together
+and hopefully it makes sense why I explain this stuff to you guys.
+If we look at staying powers like does this renew, well, when we look at this, usually
+once you get a fix for your, like once you make your environment quiet, you kind of don't
+really need to do it again.
+It's like you did it, right?
+So the staying power there is not very strong, meaning like once you fix it, it's good, right?
+And then here it's like once restorative sleep, well, this kind of exists on a continuum of
+like, could you restore it?
+Could you get even more restorative sleep?
+So like what we sell could help them maybe get some more restorative sleep.
+But this desire in general might like, for example, eight sleep, right?
+And so for those of you that don't know the company, eight sleep, really great company,
+but they have their eight sleep, right?
+And they also have, I don't think it's on the website, I think it's actually through
+email only.
+Oh no, here it is.
+They actually now have supplements, right?
+Because it's like, hey, this is helping you with your sleep, right?
+It's helping you get a more restorative sleep.
+But these, well, it's a daily supplement to help you even more.
+And then look at this, they've also got jet lag, which is more specific, a more experienced
+based thing, right?
+And so when we're taking a look at this and we're looking at the staying power, this probably
+has the lowest staying power and the lowest scope, and it does have good urgency, which
+is great.
+That's why it's likely the smallest desire.
+And so what I'm doing here is helping you guys understand how I've ordered these, because
+some people might not have common sense, I've been surprised.
+But the point is, is like, you could see here, again, staying power here is obviously a little
+bit stronger.
+Like people constantly want to restore their sleep.
+And then people always want to get healthier and healthier and healthier.
+You know what I mean?
+Like we've got guys that are like, you know, 5% or got guys, there's there's people out
+there that have four or five percent body fat and they want to be even healthier.
+They want to go even harder.
+You know what I mean?
+The point where it's not really that healthy, but you can see like this is the most amount
+of people.
+It's also can be extremely urgent depending on the experiences and everything else.
+And on top of that, it has really strong staying power.
+People want to just keep being healthy.
+And so how I've organized these is based off of those three things, okay?
+Scope, urgency and staying power, okay?
+And so when I say choose the strongest, choosing the strongest doesn't like you don't
+always have to, but it's just good to be aware of what the strongest ones are, okay?
+To understand the strongest ones are going to be the most competitive and a lot of the
+times the most broad.
+But what I'm going to recommend a lot of you guys is again, zero to 100k per month.
+This should likely be, if we go down to our avatar, this should likely be for you, right?
+If you're zero to 100k per month, I'm probably going after smaller desires like this.
+Now if I'm in the situation where I'm like 100k to a million a month, I'm probably going
+after more of these like middle like this, like I want to go after someone who wants
+for short of sleep.
+And then if I'm like a million to 10 million a month, I'm probably going after more of like
+this health desire, or at least starting there, okay?
+So hopefully you guys can see at each and every single level how that works out.
+Now what we can also do is again, is let's just go and see what is going on in the market.
+And so the reason why I actually mentioned this one, like the person wants to be some
+quiet and why I like it is because I know from just seeing a lot of these ads, this
+is not really an angle that a lot of people are pushing.
+So we can take a look out here at blackout lines as much as I want to go into atria.
+I know a lot of you guys can't afford that.
+And the point is is I want to show you that you can do this anywhere.
+And so what we can do is we can also just take a look at like, what are the specific
+ads that people are running to sell this specific product, right?
+And so we can see a few different brands here and we can see like, okay, this person just
+said, I'm a light sleeper to any recommendations for blackout Brian.
+So, so there we go.
+So we've got something here that I'm going to call out as a label.
+Now we haven't gotten the labels yet, but I'm going to just kind of comment and kind
+of add this stuff, right, in your research doc, I'm going to add it here for the sake
+of it, but a specific label that I just saw as a light sleeper.
+Okay.
+Now, what is a label now labels something that is used to describe this avatar, right?
+So for example, someone who wants to sleep in a quiet environment might also be a light
+sleeper and now light is kind of like, it's a little bit of a pun intended here where
+it's like light wakes you up, you know, I sleep through the day, maybe something like
+that, right?
+At the end of the day, I'm going to add that in as a specific label.
+There's more ads here as well.
+And again, if you click these ads, I'm going to go ahead and play it where it's like the
+Nordic sleep secret.
+Okay.
+They're kind of getting into some stuff here.
+Maybe I'll take a look at, you know, this is more of like a VSL style video, someone like
+setting up curtains, all that kind of stuff.
+Okay.
+So that's a bit more of an advanced ad just looking for something that's like a little bit
+more simplified.
+Here's another one over here as well, eight hours of solid sleep during the day.
+So sleep during the day.
+Okay.
+So that's interesting, right?
+This is not really a label, but this is just information that we found.
+So sleep during the day, okay?
+Now this could be a new decision.
+as well for someone who just wants better sleep, right?
+So wants a restorative sleep and the experience
+or the behavior could be like someone who sleeps
+during the day.
+And obviously that makes a lot more sense
+of why you would need, for example, black out blinds.
+And again, all you guys are just gonna do
+is kind of search up your product
+or search up a term specifically in the ad library.
+Just kind of get an idea of like,
+what are people marketing and what are people saying, right?
+And you're gonna see how different,
+you might see some crazy stuff,
+but it's like proper black out blinds, right?
+Experience the ultimate black out with block out, interesting, okay?
+At the end of the day, what you guys are looking for here
+is just other desires, right?
+So look at these people, support a fox, right?
+These are blackout blinds that don't ruin your nursery vibe, right?
+So this is very interesting
+because they're kind of more going on
+like this design aesthetic, right?
+So our designs are made to complement your space
+and not clash it while still blocking 100% of the light.
+So they're kind of going after a very specific avatar here, right?
+So they're someone who just even has this desire.
+So this is even smaller, right?
+So desire based, so someone who wants, you know, blackout blinds,
+like literally just wants the product
+or wants to remove light from their nursery.
+So like so, so specific, right?
+Like think about how specific that is.
+And the sub, the sub kind of,
+or like the angle that they're running on this
+is like the design factor,
+how like a lot of blackout blinds just like don't look good.
+So that's another like concern that people have
+where it's like, this is a design, no blackout blind
+that is like cute and looks good, right?
+Now I love that for an avatar for someone that's a little bit smaller
+because it's like, is that USP big enough to kind of go after everyone
+that's like a health, not like probably not?
+But it is good to kind of target, again, more parents
+and more moms who like don't want to ruin the vibe
+or like make their, you know, their nursery look like a jail, right?
+So I'm starting to see the levels of sophistication in this market
+just by kind of taking a look at what competitors are advertising, right?
+And this is super, super helpful just to better understand like what is going on?
+This isn't a lot of times going to give you like a lot of like ad inspo,
+but or, you know, it might give you some ad inspo.
+But what I like about this is just seeing like the avatars that are,
+you know, being out there, right?
+These look like 100% blackout with just one click.
+So this is something and more around like the speed side of things, right?
+Everybody's talking about 100% blackout.
+These are like some Spanish ads.
+I'm like, oh, worldwide here.
+Again, more blackout, blinds, free in-home consultation.
+So again, like you guys have to keep in mind as well.
+You're not just competing against people who sell it online.
+It's people who are literally, you know, selling this in their local market as well.
+So this is why it's so good just to see because again,
+if you're running this product, this is a lot of what your customers are seeing, right?
+So here's another one.
+Your alarm shouldn't be the sun.
+When I need total darkness, this is what I use, okay?
+So this is someone who wants potentially total darkness.
+So that could be another, you know, potential desire.
+So I'm just going to add a new category up here.
+So like potential desires, basically, because again,
+this is more the research side, right?
+So again, we had this.
+I'm not going to use that as a core avatar, by the way.
+But once they remove light from their nursery without ruining the aesthetic.
+Now again, let's try to break this down.
+So wants to remove light from the nursery.
+Okay. Well, that is still a desire, right?
+Without ruining the aesthetic.
+Now this might get into like this person's kind of an aesthetic focused person.
+But to me, this still is all one core desire, right?
+So wants to remove light from their nursery without ruining the aesthetic, right?
+So we could change this to like once blackout blinds without ruining the aesthetic.
+That could be again a desire.
+But think about back on our scale, how small is that?
+Right? That's, that's pretty small, right?
+We've isolated because there's obviously demographics there.
+We're like, people have to have a kid.
+Not only they have to have a kid, they also have to have a nursery, right?
+So again, more demographic.
+They live in a house that has a nursery.
+And then on top of that, you know, a nursery that's like well designed.
+And they have the ability to like, so it's like, we're getting more specific here.
+But for a lot of you guys, like that is a great little market that you could sell
+to get to like your first hundred K plus a month.
+Start building some sales on the scale from there, right?
+The other desire that we had just found is total darkness, right?
+So wants total darkness.
+Now, again, you're always going to try to go back to the core of this.
+Like, why do they want to, you know, remove life from the nursery without ruining the aesthetic?
+Well, this is obviously like, they like the functionality of the blackout blind.
+So they've likely had a product experience with, because again, experiences, emotions,
+behaviors, they all, they all create desires.
+But they have likely had a product experience with blackout blinds that didn't look good.
+Or they just haven't got them because they don't look good.
+Again, an indirect experience of someone who, you know,
+they know it's just like, yeah, that's not going to look cute.
+And so they're able to tap into some more of this status kind of core desire
+around the aesthetic piece, right?
+And then someone who wants total darkness.
+It's like, well, why do they want total darkness?
+Well, that's probably going to lead to like more restorative sleep.
+A person who wants a quiet sleeping environment, all that kind of stuff.
+And so there you can see just by like taking a look at the market.
+And this is just guys, I'm doing like high level for you guys.
+You guys should spend a lot more time than I'm spending on this, right?
+I try to make these videos shorter.
+So you guys can go and spend more time taking action than watching me take action.
+Because watching me take action doesn't make you money.
+You taking action makes you money.
+Okay.
+And so at the end of the day, hopefully that gives you an idea of just going through the
+ad library.
+But again, let's take a look at, you know, want to, or want to get more restorative sleep.
+Read it.
+Let's just take a look, right?
+Like what helps you increase your Ramadeep sleep?
+Oh, this is, I love this, right?
+I love, love, love, love this.
+So this is another like even more specific core desire that we could start with.
+Or again, we can narrow this down based off of behaviors and experiences.
+Okay.
+And so let's take a look at how we can do both of that.
+I'm going to show you kind of how to do this in the next module with sub avatars,
+which I'm going to jump straight into.
+But you could also use this as a core desire again, if you want to go more specific.
+And so here, this person wants to, they're saying what has helped you increase your
+Ramadeep sleep?
+Well, we can assume that if they're asking this question and sometimes they provide
+more context, right, they actually want to increase their Ram in deep sleep, right?
+So this could also be another core avatar that we could test.
+So we could just call this like 2.5 if we want.
+But again, this is just a core avatar.
+So wants to improve their Ram in deep sleep.
+Okay.
+Now you might be wondering, what the fuck is Ram?
+Maybe you know what deep sleep is, but now guess what?
+So here's what you guys need to do.
+Okay.
+You need to go and search.
+Okay.
+Like what is Ram sleep?
+If you don't know what it is and you're doing this research, like what is Ram sleep?
+There we go.
+Rapid eye movement.
+Sleep is a distinct stage of sleep characterized
+by all these different features, okay?
+So what is why, or is REM considered a good sleep?
+Yes, REM, rapid eye movement.
+Sleep is essential for good sleep and overall health.
+Serving crucial functions, like memory consolidation,
+emotional regulation, mental alertness,
+well deep sleep, N-R-E-M.
+Focused on physical restoration, REM sleep is vital
+for cognitive function, mood, even creativity, okay.
+So great, right?
+And again, this is Google search from a,
+actually that looks like a balance source from a clinic.
+But, so take this in guys.
+Guess what?
+We just got new information, right?
+For those of you, I know what REM is,
+'cause I've had a whoop and an aura ring.
+I know what this stuff is,
+but I'm trying to like put on the hat of like,
+you're someone that's like, holy shit.
+Like maybe you don't know what this is
+and now you're all excited, but you should be.
+Well, guess what?
+Now, you can go back into this, right?
+Guess what?
+Guess what?
+Like potentially, we just found new information.
+Now, most of your market might know what this is.
+And so you could also go into cloud
+and like, let's just screw around and let's just see, all right?
+Hey, Claude, or again, you guys can use chat GBT
+and again, take AI with a grain of salt.
+Based off of research that you can find in the market,
+what percentage of people potentially know
+what REM sleep is, right?
+And let's just say, is it a,
+and I'm voice texting with that, by the way,
+which shadow to aqua?
+Is it commonly known?
+What percentage of people would know about this, right?
+And then I would say, more importantly,
+based off of people that can afford
+to likely enhance their sleep or worry about sleep.
+So people that potentially have some income
+to spend on investing into their health,
+what percentage of those people
+do you think actually know about it?
+And now again, that last part is very, very important as well
+because at the end of the day, you need to consider that,
+okay, yeah, people out in, you know,
+I don't even know where, somewhere like,
+somewhere completely remote, like Kazakhstan or something,
+like they're probably not worried about getting REM sleep,
+like they're probably just worried about like, you know,
+milking their goats and not getting, you know,
+eating by a tiger or something like, I'm joking.
+Like for anybody's in Kazakhstan,
+I actually think we have someone on our team
+from Kazakhstan, but anyways, just, just to,
+I think that's actually from where Borat's from.
+We're getting way off topic here, but here we go.
+So like, now Claude's actually doing some research
+and like, I just get to show back, right?
+So here's the deal, I couldn't find specific survey data
+that says X% of people, but what the data suggests
+is that sleep tracker usage tells something
+about half the people who use sleep tracker
+as consistently review their REM sleep.
+So this means that among health conscious crowd
+who already bought a device,
+roughly 50% care enough to check the REM specifically,
+sleep literacy is generally low.
+So multiple studies on sleep health literacy
+show that even among people who should know better,
+basic sleep knowledge is lacking.
+One Head Start study found that most parents
+thought their kids had healthy sleep habits
+when the data showed otherwise.
+My educated guess on your actual general population
+is about 30 to 40%, and I have something about 15 to 25%
+could actually explain what it means, okay?
+And so this is what I love about this is people,
+now as you can see, 67% are familiar with REM
+and 45, 45% actually understand it.
+So here's where I love about this.
+So now, when you go to like introduce new information
+to people, you're not gonna come in
+and treat people like them like they're dumb
+where it's like brand new discovery REM sleep.
+It's like, bro, I've already heard of it, right?
+Like majority of people have heard of REM sleep.
+Again, especially higher income health conscious segment.
+Again, and these are like rough numbers.
+Claude is actually getting better at saying like,
+I don't have a specific, but here's what I'm gonna guess.
+And take Claude's guess because we're never gonna know
+unless you wanna take the next eight months
+to go and survey America on how much they know
+about REM sleep for one specific at angle,
+which makes no sense.
+So anyway, 67% are probably familiar with it, right?
+And so again, this can be a part of your avatar building
+for sub avatars, right?
+So again, wants to improve their REM and deep sleep.
+A sub avatar, and again, I know we're supposed
+to be getting into this in the next module would be like,
+so, you know, experience or basically,
+I would just say experience in general,
+is aware of REM sleep, but doesn't know.
+what it really means, okay?
+And so this is more or less, I guess I would just say,
+information, it's kind of like a,
+it's more or less just information, okay?
+And don't worry about in the instance
+where it's like if this is helping you build out an avatar
+that you feel is effective for an angle,
+don't like freak out if you don't know how to categorize this
+because essentially this is a statement right here, okay?
+And so if we're actually to put this into, for example,
+a behavior or into an experience, we could say,
+has heard about REM sleep, but doesn't know what it means.
+Right. And so that's just that that is the experience. Right. So they they had an experience
+where like they heard about REM sleep, but they don't know what it means. A behavior as well.
+And we can get into a different sub avatar with this as well is, you know, someone who maybe uses
+a whoop or uses an or a ring. Right. That could also mean and probably signify that they want to
+improve their REM or deep sleep. Right. And so at the end of the day, this kind of like sub avatar
+of like wants to improve their REM and deep sleep usually means they probably know what it is.
+Right. Because that's the desire. So going all the way back to good job at confusing people's
+Spencer. The point of this is, is like, if someone wants to improve their REM or deep sleep,
+they probably know what it is. But here's, here's what I'm saying. That if someone doesn't truly
+understand it, you could use new information to help them actually understand what it really means,
+where it's like most people think REM sleep means this. And you're doing this to improve it. Right.
+And so here's what we can do. Right. So now we can better understand. Well, this person said
+he takes magnesium. He doesn't eat closely or too closely to bedtime. I love going to sleep with
+a foolish belly, but whoop has really shown me how shit it is for my recovery and sleep.
+I'm also more careful with my caffeine timing. Now I try to use pre workout only and not within
+eight hours of bed. This got a lot of upvotes. Okay. And so a lot of people are saying magnesium.
+And so, you know, if you think we could, we could position this two ways and I'm trying to have
+you guys think about ads and I never getting off topic from core avatars. But I think when I'm
+in flow, it's good to just do it because I want you guys to be in flow as well, thinking about the
+end goal, which is ad ideas. Okay. And so the desire here is they want to improve their REM
+and deep sleep, just based off of this, we could just say, okay, this is someone who wants to
+improve their REM or deep sleep. And the experience here that we could pull from this research is
+they take magnesium. Right. And so we could say product experience, right, has tried magnesium.
+And it worked, right? Or maybe they don't know if it's worked or at the end of the day, like,
+they've just tried magnesium, right? So that was like a product experience that they had. And so,
+now what we can do is we can leverage this because again, this makes a sub avatar, right? Just to
+be clear, this is a sub avatar, right? We're talking about a product experience. We want to
+improve the REM and deep sleep has tried magnesium. Now we can understand where it's like, if you
+want to improve your deep sleep and you've only tried taking magnesium, right? We're talking
+through it, waiting to use, waiting till you try this, right? Now guess what? If someone just
+take a magnesium and they know what REM is and they know what deep sleep is and they want to improve
+it, don't you think that ad is going to grab their attention? Probably. Okay. And so again,
+you won't know until you test, but I'm trying to help you like get you guys thinking about ad
+concepts specifically, okay? And so core avatar wise, again, we're not getting into sub avatars
+quite yet. We are going to get into sub avatar. I'm just going to leave this here because it's
+just good to sub avatar. We're not, we're not getting in, we're not getting down to sub avatars quite
+yet. We're going to do that fully in the next video. But I want you guys going and looking for
+specific desires, right? Look at this guy. I love going to sleep with a foolish belly.
+That is super interesting, right? So go and do research on it. And just because somebody says
+something doesn't mean like you run with it. But like, this is interesting to me as well. So it's
+like, you know, maybe people are going to sleep hungry, right? So they don't want to go to sleep,
+you know, starving, basically, or if they're like, they're starving every time they get into bed,
+like that could be a real thing, right? Where we could potentially, if we do enough research,
+we don't just ask Claude, we actually do some research and say like, okay, like, how much does
+actually eating before bed impact your sleep? And the more research that you do on that specifically,
+and as you guys can see, like, we've gotten lost in the sauce here, and like, that is the point
+of what we're doing, like, get so deep into what you're doing. And like, at the end of the day,
+if you feel tired, you're like, gosh, like, that was like two hours of deep dive. I've got all the
+stuff I've got. I got I research people who like to go to bed on foolish buddies. I just I just
+learned about ram. We've got nurseries with aesthetics and total darkness. Like, what the what is
+happening here, right? You're your subconscious is working. Okay, I had somebody comment in
+origins the other day that was like, I was doing the dishes. And my brain came up with an idea that
+it was awesome. Okay, so like, you're you're you're working on yourself, your work works
+more on you than you work on it. Just remember that. But we are also making progress here,
+because again, the end goal is we're trying to make winning ads. Okay, you always have to remember
+that the this everything that we're doing is about making better ads. And so when we're thinking
+about this, always have that mindset of creating ads. And if you're wondering how I'm like making
+those connections of like, how can I make that out of like, trying to improve your deep sleep,
+or it's like, you think magnesium improves your RAM? Wait, do you see this? It's like,
+I'm just using basic marketing knowledge, right? But at the end of the day, guess what,
+you guys also have a tool called Claude. Hey, Claude, how would I turn this information into
+a potential headline? Give me three examples. This is a horrible prompt, terrible, like,
+awful, and it's probably going to give you at least a bit of direction
+to kind of go a little bit deeper. So let's just see what Claude cooks up with if it cooks up
+anything good. Look at this, option one, why magnesium only fixed half of your sleep problem
+and what actually controls around sleep? That was better than what I just thought of, okay?
+What's missing? Taking magnesium before bed, here's why you're still waking up tired.
+That's obviously going to work more for people where magnesium had, they had a product experience
+with magnesium where maybe they didn't feel anything, right? Taking magnesium before bed
+and still not really feeling anything, here's a REM sleep fix nobody's talking about, right?
+Magnesium got you sleeping longer, this gets you sleeping deeper, banger, banger, like I didn't
+even prompt this, I did like, I'm acting like a complete moron right now, and this is actually
+giving good headlines, okay? And this is just with a terrible prompt of like, here's a core avatar
+of someone who wants to improve their deep sleep, and someone had a product experience of like
+just trying magnesium, I didn't even give Claude more specific than that, like, and I just got three
+like good headlines around a magnesium angle. Now we could broaden this out and maybe we
+broaden out the actual concept to supplements in general, like rather than just magnesium,
+we try different supplements, but take a look at this guys, like, you can see how we're starting
+to think. AI is your friend, we live in an AI world, I was always hesitant to like make modules,
+like, where I use AI, because I got to be Mr. Smart Guy, it's like, guys, I use AI every day,
+like, if you're not using AI, like, I don't know what you're doing, so it's like, you have to use
+Claude, and you have to use GPT, use it as your friend, don't take it as, you know, the, I don't
+want to get religious, but like, don't take this as like the end all be all like this, whatever Claude
+says is what you use, but it's like, it just gets you, it gets you thinking and it helps straighten
+your thoughts out, okay? And so that is core desires, I got way too carried away, but now as you can
+see, we have desire-based core avatars, and again, if you guys want to see, because I didn't even
+talk about it, but if we get to like, experience-based, and I still think desire-based are the best,
+experience-based, experience-based core avatars, again, we could just kind of take a look at like,
+okay, maybe we go through, let's take a look at this, so experience-based,
+not eating closely to bedtime, okay? So this is actually a behavior, so we can, we can go even
+and crazier when going to a behavior-based.
+Okay?
+So the behavior, so core avatar,
+is people who don't eat before bedtime.
+There we go.
+That is the behavior, okay?
+Now, again, we break this down
+in the sub avatar section down below,
+but I love this even as a core avatar as well,
+of like, you know, are you not eating before bedtime?
+Yeah, I'm not, it's not me.
+I was always told not to eat before bedtime.
+But again, so what do you do
+when you see this information?
+You go and do more research, right?
+You need to go and do research.
+So again, what does research look like?
+Well, how much does eating
+before bedtime actually affect your sleep?
+So I'm gonna do a Google, I'm gonna do a cloud.
+Let's see.
+Well, AI overview.
+Eating too close to bedtime
+can make a little effect your sleep
+by disrupting your body's internal clock,
+causing indigestion and heartburn
+and potentially contributing to sleep disturbances
+and a higher BMI.
+However, a small, easily digestible snack
+can be beneficial for some,
+especially if it helps regulate blood sugar
+or provides nutrients like whatever, whatever,
+which are linked to better sleep.
+The key is to avoid larger, heavy, sugary, fatty
+or spicy meals and instead offer
+light nutrient options instead.
+So again, now we can just go into this.
+Like actually read some articles guys.
+Again, your work works more on you
+than you work on it.
+Eating before bed may stabilize your blood sugar levels
+and satisfy cravings, how can you fall asleep faster?
+Look at that, right?
+Like, this could be such a great hook
+and I love this guys, 'cause it's like,
+I get so excited for you because it's like,
+I'm excited for just like this in general,
+but you know, people who don't eat before bedtime, right?
+So it's like, are you not eating before bed?
+That actually might be making your sleep worse, right?
+And then we, that's, again, the whole goal is like,
+get them in, hook them in, get their attention.
+Yeah, I don't eat, wait, wait, are you saying I can eat?
+And then so now they're like, okay, right?
+And it's like, most people think,
+and now I'm writing a script guys, so it's like,
+so you hook them in, and then you're like,
+most people think that eating before bed,
+or like you can't eat before bed whatsoever,
+but research shows that it's only when you eat
+the wrong things that it can affect your actual sleep, right?
+And so we're not lying by saying,
+obviously you shouldn't have a big Mac before bed,
+which I'm pretty sure everybody would agree with,
+but the point is, is like, we could say like,
+hey, it's not that you have to cut out eating completely,
+you just have to cut out eating the wrong things, right?
+And so again, if you actually, let's just say,
+sell a supplement that helps with sleep, right?
+You can hook someone in with that, right?
+That is, what is that guys, right?
+That is new information.
+We're using the mechanism to go after the avatar, okay?
+Or so we're using the information,
+new information mechanism, basically not new mechanism,
+but new information as a mechanism,
+to hook someone in and help them understand where it's like,
+and by the way, if you can still have a snack before bed,
+but if you have that snack with my product,
+which is a supplement, it's not a blackout blind,
+but it's like, if you have that, right, with my supplement,
+it will also keep you full throughout the night,
+so it feels like you had a full meal, right?
+And if your product actually does that,
+well, there you go.
+You've now just solved someone who has a behavior
+of like people who don't eat before bedtime,
+and maybe they have the desire,
+the sub-avitar is like, well, why don't they do that?
+Well, because they want to get more restorative sleep.
+Okay, well, that could be the desire, right?
+We could get into different experiences.
+Like they had someone tell them it was bad, right?
+But the point is, is this, guys,
+and so we've just done a little bit of research
+and always double confirm this stuff,
+just because somebody says it, go and research more.
+Like, is this actually true?
+I'd be like, is this actually true?
+right? And I want to find more sources of this, right? Yes, eating a like, there we go. All right,
+well, AI, we live in it, right? Is go and read another one from Healthline. At the end of the day,
+you're getting this information, right, guys? And now as a result, even if I sell blackout plants,
+this is the funnest part about marketing. If you're someone who starves yourself before bed,
+there's actually a better way, right? And obviously, the more emotions, the more,
+the more experiences and more desires that we understand, the better we're going to be able
+to create those opening headlines to get people in. But we could tie that back to saying like,
+you know, you can actually eat one of the things that actually might be affecting your sleep more
+than the food itself that you're eating before bed is the fact that you sleep through the light.
+And like, now we start educating them on like, not only can they go back to just like having
+some light snacks and some light, light food before they go to bed, which is what they want. That's
+their desire. We then also, by building the trust with them, notify them like the reason why they're
+thinking that they're getting about sleep is actually not because of the food, it's because of the
+fact that they have way too much light in their room, right? And so now we can take that, we got
+their attention, we help give them what they want, but then we make them aware of something new that
+can actually help them, which is by them getting blackout blinds and making them room more dark,
+okay? And so at the end of the day, there's an example of like a behavior-based core avatar,
+right? And again, this is one line on a Reddit thread here, right? So what are some other,
+like maybe we can look at some other experiences, wishing or winding down before I go to sleep,
+my bedroom is super dark with great blinds, so 9pm looks like it's middle of the night.
+It's necessary for now when it stays till 10pm, right? So I love this, 9pm looks like it's in the
+middle of the night. That's an amazing hook just in itself. So although we're looking to build avatars
+here, right? I love this. I always, whenever I do research guys, always, always, always love this.
+So potential headlines, what I would do here, italicize this, and I like to turn this into a
+headline where it's like turn 9pm into 2am, something like that, boom, static at, right? And now it's
+like, it gives a visualization. Now what avatar does this go after? This likely goes after someone
+who wants darkness in their bedroom, right? Or like wants total darkness or like wants
+kind of this blackout effect, right? And we can assume that desire, I can't guarantee it,
+but it's like, if this resonates with someone, right, we can assume that they want their
+bedroom to be dark, right? Turns 9pm to 2am and we show a photo of the product, right? So there's
+an example of like how we can use research, also come up with headlines, right? While we are also
+just doing research and trying to look for avatars. So again, I got way too carried away. We turn
+into another hour video here, but this is core avatars, okay? For the sake of this training,
+you can see how we can do behavior base, but just focus on desire base from 99% of you, because
+that is going to give you the best avatars. And then in the next module, you're going to see how
+we break it down into more sub avatars and how we can start to have a lot more fun.

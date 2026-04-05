@@ -1,0 +1,114 @@
+All right, now the final thing I want to mention before you actually launch your test is to please make sure that you QA your pages extremely well.
+You'll notice that before I press start, IntelliGems is actually going to tell you to make sure that you have QA'd the test, okay?
+And the reason why that is so important to do is because you wouldn't believe how many times things do not work simply because you have messed something up.
+So I'm going to give you some examples of where we forgot to QA or we thought we QA'd well and it actually led to a bunch of issues.
+So the first one here that I can think of is actually going back to this one over here.
+And so if we actually take a look at these generic reviews here, so you can see this says V2 and then this is V1, you can see we had a split test idea to basically have generic reviews on products, okay?
+And so this client or sorry, products that didn't have any reviews, okay?
+And so this didn't really hit stat sig data, but as you can see, it was on track to lose this client a lot of money.
+And so what ended up happening and what the idea of this test was, and I'll just show this case study as an example so you understand the importance of QA.
+And it was kind of flawed thinking by our team, if you ask me.
+But basically, as you can see here, there are products that have reviews for this client in particular.
+And then, of course, there are products that do not have reviews, okay?
+And if you don't have a multi-sq store, I don't care.
+Don't skip this video.
+Keep watching.
+And as you can see, there are reviews of this product in particular and of people talking about this product, whereas this one here has zero reviews.
+It's a brand new product.
+It doesn't have anything, right?
+And so what we ended up doing and what our CR team thought would be a good idea is to add this section to all of the products, right?
+We'll be like, hey, let's just add this entire section.
+And then let's just add all of the site-wide reviews because if we actually go and take a look at this website or the full stack of reviews like this here, this was actually the review card that we were using.
+And in practice, it sounded like a great idea.
+And so what ended up happening is when we reviewed this test, we were like, I can't believe this didn't convert.
+And now we might be thinking like, oh, you know what?
+It probably didn't convert because maybe people don't care about these reviews or whatever it is, but I knew something was wrong.
+And so what happened?
+Well, I went deeper.
+I QA'd it.
+And I realized that what our developers did was that they actually overrode it for anything.
+So even if the product had reviews, we were replacing the product-specific reviews with just general reviews.
+And that is obviously going to hurt conversions because people don't want to just see general reviews.
+They want to see reviews for their product specifically.
+And so what ended up happening, as you can see, it's not showing on this page yet.
+If we go back to that previous page I was on, let's see if I can get back there.
+This one here, you can see it's actually showing this, right?
+And it has this empowered woman thing, which looks great, right?
+But the issue was, is that this was replacing the reviews that we had for products specifically.
+And so when we actually realized that, we're like, oh, that's probably why the profit and revenue was going down by $60,000 a month, okay?
+And so what did we do?
+Well, we launched Generic Imagery Reviews V2, but this time we actually did it right.
+We took the time to QA.
+We went through.
+We double-checked.
+We made sure that there were reviews for their products specifically.
+And on the brands that did not have or the products that did not have reviews yet, again, we had some custom development help with this.
+We then would show this section, and long behold, we then added $30,000 a month in profit, pretty statistically significant.
+We had over 800 orders with 15,000 people, and now we have a winning split test, okay?
+And we could have just as easily not had a winning split test because we were lazy on QA, and we didn't think through that we needed to add a condition that said don't overwrite the reviews that are already on the page if it has reviews.
+And so we made that one small change.
+It was one little piece of code, and that's the difference between making $30,000 per month or losing $60,000 per month, okay?
+So it is so important to make sure that you QA your work because if you do not QA and you do not do what I talked about in the program around going through, checking your page for bugs, checking on different browsers, checking on your phone, checking here, checking there, loading it up in an incognito browser.
+So, for example, one of my favorite things to do here, let me just delete this out of here, is actually go and double check the parameters.
+So, for example, this split test here, I think it's running in multiple countries.
+Let me just go to targeting.
+It's United States only, so I can't do that.
+Let me go to a different brand here.
+So I just turned on my VPN so I could do this.
+But what I like to do is obviously go through and preview.
+So make sure you always go through and you QA following the IntelliGems QA checklist and then make sure you click the preview here as well and go and check this on your phone, go and check this on your website, make sure shit is not broken, go through, try to break everything, check the different sizes, proofread the copy, everything that I talked about in the page deck process.
+And then make sure once it goes live, you actually then go and test it.
+And this is like a spammy thing that I do, but it actually saves me a lot of money by doing this, is I'll open an incognito browser and I will turn on the split test.
+How do I even delete this?
+Kyle, fix this, man.
+Kyle, we love Kyle.
+He's the email guy at war.
+But anyway, so as you can see, I got the control group here.
+Okay, so what I'm going to do is I'm going to remove that and typically I would QA that, but we know the control group's fine because it's live.
+But now as you saw, it just added that little snippet at the end so you can see how fast IntelliGems is when it does it.
+And now what I can do is I can see I'm now on the variance of the split test.
+I'm like, all right, now I'm in.
+So now I'm in here and now this is live, right?
+Because I want the live thing.
+I don't want the preview.
+I want the live thing as well.
+And so you can spam this in your phone, same kind of thing, whatever the URL is that you're split testing on.
+And again, if it's a template test, even this one's a template test.
+But I know that this template, if I go into details here, you can see that it is a template test here that we're running.
+But I know this template URL is this URL here.
+So I'm running through it and I managed to get on it.
+You can do this on your phone and now go through and QA the living you know what out of this.
+And by the way, before you're like, oh, I need to copy this right away because this is adding 44%.
+This is not statistically significant yet.
+So don't copy this, even though I'm really confident this is going to work because this looks badass and our team killed it.
+But this is something that I need to go through in QA.
+And again, I need to break everything.
+Does this work?
+Does this happen?
+Does it change images?
+How does this look?
+What is the section down here?
+Is there anything broken?
+What happens if I click this or click that or whatever it is, right?
+Go through and do the QA process that I've taught you through the page deck process.
+Now, if you have not seen those videos, go through and go back to the page deck section and watch the QA, QA and more QA and make sure you apply that here as well.
+Because I'm telling you, I do not want to see bad.
+I don't want to see broken websites and split tests.
+It's the number one reason why most split tests don't work.
+It's not because the idea was bad.
+It was because something was broken, especially when you're dealing with technical things or you miss some little thing or, you know, this add to cart button for some reason doesn't work now.
+So it's like you really need to make sure you have good attention to detail, always test the functionality, test everything that I talk about in the QA section, and make sure everything's working before you publish this live.
+And then even after you publish it live, go through, enter the split test, and make sure everything is working, okay?
+Because we do not want to be making learnings off of data that is not because of our idea, because of execution.
+That's dumb, right?
+We want, again, it's not saying that your split tests won't fail.
+You probably will launch some split tests that do fail.
+With that said, we need to focus on the functionality and make sure everything is working, okay?
+So I beat this down enough.
+You get the idea.
+Make sure you QA your split tests and IntelliGems before they go live, because I don't want you interpreting crappy data, okay?
+That is it.
+QA, QA, and QA some more.
+Make sure you do it.
+Don't skip out on it.
+Thank you.

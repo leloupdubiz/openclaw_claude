@@ -1,0 +1,174 @@
+# lesn 1dSTdXVrCqQT9f6wlgNIuz
+> Transcript complet — 100% du contenu original
+
+---
+
+Welcome to Creative Strategy. So if you're watching this video, that means you 've been through a big portion of the course already. You stayed consistent. You've been through all the videos. You basically have the foundations set up because you've been through fundamentals.
+
+You learned the basics about advertising. You learned about how ads work. You've been through video ads. You've done some ads. You've edited some ads, hopefully.
+
+You've been through static ads. You know how that works as well. You've played with AI with AI probably. And you've basically set up foundation for you to get into creative strategy. And to reward you for being consistent and for going through basically the entire course, this is where all the sauce is.
+
+You have just unlocked the most valuable part of this course. And this is what's going to take you to a completely another level when it comes to advertising, when it comes to making ads. Of course, you can make money with the skills you 've learned so far. But creative strategy is what's going to make you better than 90% of editors and 90% of creative strategies out there. Because there's a lot of resources and a lot of videos and a lot of PDFs on creative strategy out there.
+
+But I can tell you 90% of them are just fluff and just like theory and just like yapping, just different stuff you don't really need. So I will do my absolute best to make this as actionable, to make this as value packed and to make this as simple to understand as possible. So you can basically take everything you learn here tomorrow and start doing creative strategy and become a killer creative strategist. So I will share everything from what we learned in the past few years in the e con space. I'll con space.
+
+I'll share all the learnings that we had. I'll share all the best principles that we know of like how to come up with ad ideas, how to do market research, how winning ads are made. You will learn all of that in the next few videos. So before I dive in, I would just like to say take your time to go to this because this will be a lot of information and it's going to take some time until you digest all of this and until you fully understand all understand all of this, but that's all part of the game. So just take your time, watch through videos a few times if you have to until you fully understand all of this.
+
+And yeah, let's just dive in. So before I explain my keyboard is not. Okay. So before I start explaining what is creative strategy, how creative strategy works. I do actually want to mention this.
+
+So everything taught in this module and modules moving forward can easily be used to manipulate people. As an advertiser, you may you must take an oath to only use everything taught in here purely for good. And this is actually real because the stuff that you'll learn now is you can basically use it to manipulate people to do whatever you want because you'll learn how to how to talk to their deepest desires, how to talk their deepest fears, you'll learn how to how to communicate to people in a way that makes them take action basically. So you really must use this only only as it says here for purely for good and purely for advertising purposes. So I do want to mention that before we dive in.
+
+So I have three explanations of what creative strategy is. And to be honest, I could have I could have turned this into like 10 different videos. Like I said, I could have yapped about this for five hours and like hours and like make it unnecessarily long. Because like I know a lot of a lot of people out there do this and like they make creative strategies so complicated and they talk about so many different like unnecessary things. But like I said, I'll try to explain it in the simplest terms possible and I'll try to make this as action packed action item packed as possible.
+
+So you will you will get clear action items from from this video and from all the videos moving forward on like what you can do today to start doing creative strategy and to become elite creative strategist. So I'll just walk to this one first and then we'll down it down. So it's it's super easy to understand. So create strategy definition. Creative strategy is the systematic process of translating market insights, customer desires and competitive analysis into compelling advertising concepts that create breakthrough connections between products and their dog audiences.
+
+And if this is like if this if none of this makes any sense to you, it will in a bit. But let's let's walk to these as well. So like foundation work, like the you know, the key, the key things that that you will be doing as a creative strategy create strategist is analyzing customer data to identify key desires, fears and pain points, understanding the current state of the market awareness and sophistication, mapping the customer psychological psychological journey regarding the product category, identifying the most powerful mass desires that can be harnessed for a product. So those are kind of the key responsibilities that they'll have as a career strategist. Then you'll have strategic development in determining the optimal positioning within the market.
+
+So how do you sell your product? Identifying where the product fits in the state of awareness spectrum for different customer segments. This will be a completely different video talking about market awareness stages, which is essential for you to understand before you start doing create strategy . Selecting the most effective entry point for marketing messages. This touches on market sophistication, which will cover as well, developing a unique mechanism or angle that different iates the product from competitors.
+
+Then we have execution planning, so crafting headlines and hooks that capture attention and trigger emotional responses. So you'll be responsible for running some copy as well. developing a consistent message architecture across channels, all that stuff. And then the important thing is feedback loop closing the feedback loop. I believe I've talked about this already. If I didn't, basically from any ad that you run, you must learn something.
+
+Even if the ad doesn't perform well, or even if the ad isn't a winning ad, you know, and it didn't get many purchases and it isn't profitable, you must close the feedback loop on that ad. So you have to look at that ad and you have to try and figure out why does the ad suck? Why do you suck? Why did you make such a bad ad? Because if you're not doing that, you're just wasting money.
+
+And it's super important to basically process every ad that you did. So make an ad, run it, you know, see how it does. And then after it's, you know, after it's running for seven, 10 days, whatever, you look at it, okay, this is the performance, it's fucking shit. Why did it turn off shit? What could have, what could have I done better in this ad?
+
+It's super important for you to do that, because then with every ad that you make, with every concept that you make, you become better. So that's closing the feedback loop. We'll talk about that as well. And then it says here, the essence of create strategy is fighting the intersection between what customers deeply want and what a product uniquely delivers, then communicating that intersection in the most compelling possible way. It blends analytical thinking with creative execution to develop marketing that resonates on both rational and emotional levels.
+
+So this is generated with AI, as you could probably tell. So this So this is what AI would tell you if you ask it what career strategy is. Now, here is a simple definition. So creative strategy is figuring out how to make people interested into buying your product by understanding what they really want. So that is the simplest creative strategy term or definition that I could come up with.
+
+And then some core things that you'll be doing is getting to know your customers, as you already know, from some of the modules from the fundamental spiller, like understanding your customers is super important. And here we just double down on that. So find out what makes people happy, worried or frustrated, see how much they already know about the products like yours, so how much they already know about it, you know. Understand their journey from never heard of it to go to have it, so like understand how can you make someone go from not knowing anything about their product to making them, oh, I need this, you know, like you'll understand how to make how to make that happen with your ads. You'll discover the big desires that many people share.
+
+And then you obviously plan your plan your approach, sorry. So you decide how to position your product compared to competitors. So you'll be doing some competitor research as well. You will figure out if people know about your product already, or they need education, because like, I don't know if someone, if someone doesn't know that like, you know, blue light is bad for them, the ad that you make for them is completely different than someone who is just, you know, who already knows about the problem. So they like, for example, I already know like that, you know, like, blue light is bad for my eyes.
+
+And I'm just looking to, you know, a solution for that. So the ad that you would make, that you would make for someone that's completely unaware about that problem is completely different than the ad you would make for someone who's looking for solution to that problem, you know. So you got to figure out how aware they are about the problem that you're trying to solve. So again, we'll talk about this in market awareness stages. You know, choose the best way to start a conversation with customers, find something special about your product that makes it stand out.
+
+So like, how to get better, how to basically stand out and be better than your competitors essentially. Then you'll craft your message. So a bit of copywriting that'll be AI powered, obviously. So like, you know, you'll learn how to write attention grabbing headlines that make people curious about your stuff. Make sure all your ads tell the same core story.
+
+Build trust by showing proof in the right order. Make people really want your product by painting a vivid picture in their head. And then at the end, you obviously have, you know, learning and improving. So check if your ads are working and why they're working. Change course when something isn't connecting, you know, so when you have an idea and you want to, you want to do this idea for a brand, you test it and it sucks.
+
+Then obviously you need to, you know, get another idea and figure something out. My light died. Okay. Doesn't matter. Then obviously keep testing and improving quickly.
+
+And then at the end, career strategy is matching what your product does best with what people want most, then telling that story in a way that gets attention and builds belief.
+
+All right. And to make this, to hammer this down and to make this even simpler, even have a, have a little visual here. So here we have our guy. Let's, I don't know, let's, his name can be Bob. Let's say this is Bob.
+
+Bob is standing on a cliff, as you can see. So he is on a cliff. And he wants to get on this cliff right here. Cliff one represents his current state. So maybe he's in pain.
+
+Maybe he has a desire. He wants something and that something his desire is on the other cliff and he doesn't know how to get there . He, he could obviously do this, but he doesn't know how to swim. So he will drown and he can get up here, you know. And on this side is everything he ever wanted in life.
+
+Like on this side is, you know, every solution to his problems. And what you need to do for him for our Bob right here is you need to build a bridge for him. Okay. So you need to do this for him. And then he can, he can happily cross over and get everything he wanted.
+
+You can, you can solve his problem. And this bridge right here represents your product. I can't spell. So this is your product. Okay.
+
+This bridge right here. And this entire process right here that I just showed you. So first you need to understand who Bob is. Okay, you need to figure out who is Bob. Then you need to figure out what are Bob's current problems?
+
+What's he dealing with? What are his desires? What does he want in life? Okay, that's, that's this basically, sorry, the problems and his desires are here. And then, sorry, his, his problems, you know, and his fears are here.
+
+And then his desires and like his ideal outcomes are here. And then you need to like just place your product in between as a bridge and help Bob get here basically. And this is a super, super visual way of explaining create strategy. So create strategy is the entire process that's happening here . And like you're kind of overlooking everything and you're, you're, you're the guy basically doing everything here.
+
+So you're, you're, you're placing the clips for him. You know, you're placing this, this here, you're presenting, you know, some, some problems. You're, you're problems. You're, you're basically, you know, taking Bob from one place to another place with your ads, essentially, you're, you're communicating to him in a way that's going to make him take action. So that's what create strategy is.
+
+And like this is, you know, a visual representation of create strategy. And we'll be using this visual and a few videos down below so I can explain some stuff, some, some other stuff as well. But yeah, that is the dish, the definition definition of creative strategy. I hope you have a better picture of what craft strategy, what craft strategy now is what craft strategies does. And now I'm going to show you how we do it and how the best craft strategies out there do craft strategy at the moment.
+
+So what I have here is basically a roadmap.
+
+So let's say you, you start working with a brand. So we close a brand and you become their creative strategist. So here I, I kind of have a roadmap of every single thing that you need to do, you know, to start making ads, essentially. So you close a brand. Obviously you start here.
+
+This is the kickoff phase. You close a brand. The first thing you need to do is onboarding. And if you're a, maybe you're a solo brand owner watching this, you 100% should do this as well. You should self onboard yourself. yourself.
+
+You should answer, sorry, you should answer these questions yourself. So you can understand your brand more basically. But let's, let's get back to what I was talking about. So if you start working as a brand, if you start working as a creative strategist for a brand, you know, you close a brand for creative strategy, this is what you do first. So we send them an onboarding form.
+
+And I basically made a template for you. As you can see, so you collect some data from a brand owner or from their brand, whatever, that's going to be useful for you when you're making ads. So I'll just quickly walk you through this. So your collector obviously their brand name, website URL, all their social media URLs. These are the questions that brand owners will be answering basically.
+
+So do they have any influencers or famous people that they work with? Upload links to any drives they have with content, any brand decks, brand guidelines, font files, color palette, logo files, so they can upload everything here or just send you the links basically. If you don't, if they didn't submit the brand guidelines, you know, at least you need some basic information about their brand's values, mission, tone of voice, how they want their ads to look like, you know, some basic information. Then they will give you some like top five of their best selling products or if this only is one product, I'll just list it here. Then they will answer some questions about what is your business differentiator, so how do you stand out from the rest?
+
+You know, the products you have, the mission of the business. So basically they'll give you some information of how they're better than the competitors. They'll give you some URLs to like, you know, brands who are competition, some information about their competitors. And basically I will go through all this, but basically you will get information about the brand and this information will help you to kickstart your journey with them and will help you to basically start making ads for them. So once you have this, you know, onboarding form filled out and once they fill this out, and this is super important because who else knows more about the brand than a brand owner.
+
+So definitely like whenever you close a brand, whenever you start working with a brand, push them to fill this out because this is super valuable for you to get. And this is super valuable information to basically start working with. So that's the first thing you do, you send them an onboarding form and they fill it out. So you get some data. Second step is doing the initial research.
+
+And this is basically where you do research with an AI agent. And I will do a separate video on this. But let me show you how this looks like. So basically, this is a prompt that I engineered. I basically worked an entire day on building and refining this prompt into a into a fucking cheat code when it comes to market research.
+
+You will basically just give this to AI and AI will do the entire work for you. And you will get something like this. So this is as you can see a 34 page, as you can see here, a 34 page market research document containing just just a shitload of valuable information for you. And to not make this video too long, I will obviously walk you through this in another video down below. But this is what you'll do.
+
+You will basically conduct market research for that brand to get familiar with, you know, with the product, with the market, with the audience, with the competitors, you know, basically everything you need to know about the market, about the product, before you start planning on them, before you start making ads. And you will do all of this with AI. So this is the initial research. Then we get to data collection. And this is basically where you do an ad account audit.
+
+So obviously, if you're doing ads, you should have access to the ad account. So just ask brand owner or ask whoever to give you access to the ad account, like it can be just view access so we don't fuck anything up. Or they can just share this information with you, whatever. But you need to like dive deep into the ad account and basically kind of look at what's working in the ad account, like what ads they have tested already. Do they have any winners and stuff like that?
+
+And basically just collect all of the all of the winning ads. So maybe it's a video ad. So you collect all of their previous winning ads in a single document, you transcribe them. And you basically store that in one document and you call it like winning ads, transcriptions or whatever. And you analyze those ads, you know, you maybe do some learnings on them.
+
+You try to figure out why those ads are working. So you can, you know, kind of get familiar with what they have been doing so far, what kind of ads has this brand been running, you know? So you get, you know, a bit familiar with that as well. And obviously, if you don't have the access to ad account, just, you know, ask the random to share to share some ads that have been working well for them so far. And then, you know, you kind of process them basically.
+
+Then you do a content audit. So it's essential for you to get to get familiar with clients existing content. So if they didn't, for whatever reason, send you links to all of their content, they have asked them to give you all the content. Because it's super important for you to be familiar with what you're working with, basically, because a lot of good ad ideas can come by just looking at the content you have and look at what you're working with basically. And you, that way you understand your, you understand your possibilities and you understand what you can do, you know?
+
+So it's super important to be familiar with content at all times. And obviously, if they get something new, make sure you get familiar with it. Make sure you always stay on top of your client's content. If they're working with UGC creators, if they, you know, have some kind of content engine that's, you know, generating content for their brand, you need to stay on top of that. And it's super important for you to, you know, be familiar with all the new content that you're getting, because that is that that is super helpful for you as a creative strategist, you know, to basically have and to see what what you're working with, basically.
+
+Then you have the data collection, data consolidation, sorry, phase. This is where you, you can make a Google drive folder or you can make a folder on your, on your Mac, whatever, doesn't really matter. But this is where you collect all the data. So this is where you will collect your market research document. This is where you'll store reviews, exports.
+
+I didn't touch on this, but here I also, in the onboarding form. So I ask, have you done any surveys on your target audience or purchasers? Like this is the best data that you can get. Because obviously, you know, they, they like send forms to their customers and customers answer it like, like questions like, why did you buy, why did you buy this product? What was the most helpful feature of this product?
+
+And like information like that is like just precious for you to have as a creative strategist. So you can, you know, make data driven decisions. And also, what I asked the last thing here is, export a sheet of your customer reviews from your website. So like, you know, every, every brand, every, every, every commerce brand has review section, you know, on their website, where people can leave reviews. And you can export that into a sheet from Shopify, whatever app they're using.
+
+You can get this file and you will also feed this into AI. And this as well as super, super valuable information for you to have. So you can understand what, what are cost, what do customers like about this product? What do they complain about? You know, and stuff like that.
+
+So that is again, super valuable for you to have. So again, in this part, you will just like collect all the data, all the documents, everything you have, everything you will ever have every, every fucking document on this brand in a single folder. And that way you have everything in one place and it's not scattered around. And it's not lost. And it's super important for you to make this basically.
+
+Next, we have the setup. So I will now show you how we plan ads at the agency for our clients. I'll show you the system. You will get this, this document right here. It's called the growth guide.
+
+And this is what we use to plan ads. And I will now show you how it works. So basically, you, you will get access to this. And you can just like go here, file, and then make a copy. And then I think you, you shouldn't have like edit access to this.
+
+But basically, just when you open this, just make a copy in your own Google Drive. So you can, you know, edit it. But this is basically where you will live. And this is basically where you'll spend a lot of your time for your clients. And I will now show you how it works.
+
+So basically, we have batch number, we have the ad concept name, we have the avatar section, mass desire awareness level, explanation of the concept, as type ad format, test result and learnings. I will now go to each of these. I won't go super deep into it because you will see this and in the next videos moving forward, because I'll be using it and I'll be showing you how I feel it all. But just super quick. So obviously batch number.
+
+So you can track like, you know, batch number one, add concept is so let's say I don't know, we're making an ad for like, blue blocking glasses, whatever. I don't know, add concept is called like, screen time. I don't know, I'm just like putting random stuff. Okay, then here, like this fill out from from a previous brand, because I just copied this. But here you will have avatars, like, you know, different avatars for this brand that you can target with your ads.
+
+I will show you how to build avatars as well in a different video. So basically, you'll just choose an avatar. You'll you will choose a desire that you generated with AI based on all the all the information. And again, I will cover this as well and maybe it is moving forward. So you'll just choose a desire.
+
+You'll choose the awareness level that you want to target for this ad.
+
+So let's say solution aware, here is a space where you kind of break down and explain for you, for your team or for the brand owners so they understand what you're testing. So basically, as it says here, what are you creating slash testing and what gives you confidence that this test will improve overall performance. So I'll show you how we fill this out. This is not that important. But I'll show you how we fill this out.
+
+So here, here you will basically type in the idea you have for this ad, right? So you just like type something in doesn't matter. Then you then you choose the ad type. So is it iteration? Is it imitation?
+
+Is it ide ation? I will talk about this as well. But these are your, you know, three main ads types that that you can make.
+
+So let's say this ideation ad format. So it can either be static video or a promo. You will mostly be like doing these. Promo is for when brands are running, you know, a sale, like I don't know, Black Friday sale, Christmas sale, New Year sale, whatever. So you basically don't track these ads as your, you know, other usual ads.
+
+So you'll be mainly using these.
+
+So let's say we're working on a static ad and that is basically it. Here you have a test result. So for every ad, so basically once, you know, you fill this out and you start working on this ad, you just hit this into working. That's cool. When the brand owner or someone actually runs the ad, you hit a learning.
+
+So that means this ad is in a learning phase. And that means it's currently testing, you know. And then once it's, once it's, you know, like five to seven days, five, seven, seven, ten days, whatever, once it 's been running for a while, you basically market done and you market. Is it the winning ad or is it a losing ad? And obviously you will know how you'll know how to determine a winning ad or a losing ad or you'll, you'll just ask a client, you know, how this ad is performing or you'll have the access to ad account yourself.
+
+So you'll be able to see, you know, how the ads are doing. But basically you'll mark the ad, losing ad or winning ad. And here you have a place for learnings. So as I said, on every ad that you do, it is super important to process learnings on. So if the ad is a winning ad, why do you think this ad did well?
+
+Well, like, why do you think this ad works? You know, if the ad is losing ad, why do you think this ad sucks? Like what could, what could have you done better, you know? And this is how you close the feedback loop. And this here is this, this basically tracks your winning ad, hit rate percentage.
+
+So as you can see, we have three ads tested. So we have two losing ad. So if I add another losing ad, it's going to be 25%. If I add a winning ad and another winning ad, it should be 50%. Okay.
+
+So this is going to track your winning ad hit rate. So you can see in real time, for every client that you're working on, for every brand that you're working on, you're going to see how you are doing. Okay. So this is a super quick explanation of the growth guide. Again, I'll be walking you through this, you know, a bit more in detail.
+
+But yeah, this is everything you need to know for now.
+
+So let's get back in here. I'll show you how to set this up. I'll show you again, how to how to generate avatars that you saw in the growth guide, I'll show you how to generate mass desires that you saw in the growth guide, you know, so you kind of know how to how to make as in who to make as for essentially, I'll show you all of that. Then we get to create strategy part. So all of this before was just setting things up.
+
+And then we get to doing actual creative strategy. And this is where you do research on your own. This is where you look at everything you have. This is where you look at all the data, all the information that you have. And you come up with ad ideas.
+
+And again, I will show you exactly how we do this. I'll show you exactly how you can do this. I'll show you ways how you can come up with imitation ads, how you can come up with ideation ads, how you can do iterations. I will document all of this. You have some notes here.
+
+So you'll basically learn how to use atria to come up with imitation ad ideas, how to use atspy, all the different ways to basically do research to come up with ad ideas on your own. And then how to do iterations. So this is the, as it says here, brainstorming and ideating part of a creative strategy workflow basically. Then once you, you know, once you have the idea, once you have a concept, once you do everything, then you get to production, you know, once you actually make a brief, once you have a copy for your ad, then you get to production, you know, you're doing , you're doing editing, you're actually putting the ad together, you're, you know, bringing it to life. So that's post production.
+
+And then you have AI ad review. So you will get access get access to some prompts. And I'll show you how to implement this system of basically reviewing your ads with AI. And I built this prompt basically by combining all of the winning aspects, like all the aspects of our winning ads. So I basically took like, I don't know, 10, 15 winning ads that we made.
+
+And I looked at what do all of them have in common. And I made this huge checklist. And basically you will get a, I'll show you how you can use this checklist to basically run your ad through that checklist and see if your ad is basically compliant with this. And if your ad is fully optimized, you know, to be a winning ad essentially. So it's a bit different process for video ads and for image ads.
+
+But again, I will talk about this in more detail in the videos moving forward. But yeah, before you, before you send any ads to clients, before you, you know, like do any ads, like before, you know, you launch any ads. And before they go into testing, you will be able to run them to these, to this checklist that's like, you know, proven. And that's built by, you know, collecting data from winning ads. So you can see if your ad is, is at least similar and like follows all the patterns that were that are identified and, you know, winning ads that we made.
+
+So that's the final part of production. Once you, once you made an ad, then it's obviously a testing phase. Once the ad is tested, you get the learnings. And then you, again, you go back here, you close the feedback loop, you process the learnings, you put them in the growth guide, and you get smarter, and you get better. And you have more data to work with when you're making a next ad for this brand.
+
+And this is very simply put the creative strategy system and the creative strategy process that we use at the agency. Obviously ours is a bit more complicated, as you imagine. And there's, there's, there's a lot more steps that go, that go like in between every, every, every, every basically step here. But I kind of made it, made it simplified. And I made a simplified version for you basically.
+
+So you can, you know, take this and, and start doing this process by yourself so you can do everything by yourself, basically. So yeah, this is the creative strategy overview. I really hope you now have a bit better understanding of what creative strategy is, how it works. And yeah, I'm super, super excited to dive into, into next videos and to start giving you the sauce. But yeah, that's it.
+
+Appreciate you for, for watching. And I'll see you in the next one.

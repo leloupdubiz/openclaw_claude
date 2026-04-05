@@ -1,0 +1,119 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+All right. 
+
+0:00:01
+In this video, we are going to be covering our strategy from a high level so you can actually better understand the philosophy behind this before you think, what is this? 
+
+0:00:12
+Okay. 
+
+0:00:13
+I have tried every single lie. 
+
+0:00:15
+That's a lie. 
+
+0:00:16
+I have tried almost every single ad structure and a media buying strategy that's out there. 
+
+0:00:21
+Okay. 
+
+0:00:22
+And I can confidently say that this is probably the best and it is the easiest structure to run. 
+
+0:00:31
+Okay. 
+
+0:00:31
+So the campaign level, we will talk more about this as we get deeper into it, but I just want to give you a high level overview here. We run one campaign. It is called the acquisition campaign and it is fully broad. Okay. It does retargeting for you. It does prospecting for you. 
+
+0:00:47
+It does middle of funnel for you. It does everything for you. 
+
+0:00:51
+Okay. 
+
+0:00:51
+You do not have to have separate campaigns and you do not have to have a testing campaign or, you know, a scaling campaign or a audience, this or audience that audiences don't matter. 
+
+0:01:01
+Okay. 
+
+0:01:01
+This is broad. We're going broad. And again, I'll explain this further as we get deeper into it. And all you're doing at the campaign level is your control. You're controlling the budget. 
+
+0:01:10
+Okay. 
+
+0:01:11
+You are going to say, this is my budget. Facebook here it is. And I want you to spend it because you're my friend and I trust you. 
+
+0:01:18
+Okay. 
+
+0:01:19
+very rich friend, but you trust him. The next thing is that by having it in one campaign, we have a scalable environment and a scalable environment means that when we test ads, we are testing ads in the arena. Okay, we are not, you know, starting it. We're not starting these ads on the playground. Okay, we're throwing them right in the Coliseum. They are getting after it. 
+
+0:01:40
+Okay, they're going to face the best of the best. There is no warm up. There's no. Oh, let me just test a little bit of spend here no we put them in the one scalable environment that we have to see if they are worthy of getting spent okay so the reason this this was the big breakthrough for me and this is what makes the strategy so powerful is we do not have to waste spent. 
+
+0:02:04
+Okay. 
+
+0:02:05
+If an ad gets spent in this campaign, in this structure, that means that you nine times out of a 10 have found a new winning ad. And that also means that it is a good ad. It is going to perform better than all of the other ads that you have inside of here. 
+
+0:02:22
+Okay. 
+
+0:02:22
+If a spend, If an ad does not get spend, it is a bad ad. And this is probably the hardest thing for people to understand. And I'm telling you, we hire new media buyers probably every couple of months. And when they see the strategy, it kills them. And I'm not going to lie, it killed me too, for the longest time. And I seriously, for six months, would take any ads that didn't get spend, and I would take them out of there, and I would put them in an ABO campaign. 
+
+0:02:53
+If you don't know an ABO campaign, basically it's where you can force spend on ads rather than letting Facebook choose where to spend. But I would take any of these ads in this campaign that didn't get spent, and I'd say, you know what, Facebook, I'm smarter than you, and I would put it in ABO campaign, and I would force $25, $50, $100 a day on it, and I would let it spend, and what would you know? It would not work. it would get a 0 .5X return on ad spend. Meanwhile, this campaign was absolutely ripping and getting a 3, 4X. And then I do it again. 
+
+0:03:25
+I do it again the next week. I'm like, OK, well, no, this ad, this ad, obviously, Facebook didn't read it properly. I know this ad's got the same thing. I would spend on it, spend $300, $400. It would not convert. Turn it off. 
+
+0:03:36
+Same thing again a month later. 
+
+0:03:38
+I was like god. 
+
+0:03:38
+Okay. No what no I know Facebook is not smarter than me I'm gonna take this this ad this these new images that we did there's no way that these are not good enough to scale so I'm gonna take them out and I'm gonna force spend on them and Would you guess that same thing happened the performance was terrible. I have not seen an ad in one of these DCT campaigns that didn't get spend. I have not seen us take it out, spend on it, which we've probably tested about 60, 70 ads at this point. I have not seen a single one of these ads that did not get spend in this campaign outperform in a separate campaign. 
+
+0:04:16
+It has not happened. And if it does, if it does perform, it performs for maybe three or four days and then it falls off the face of the earth and it absolutely crumbles. Okay. 
+
+0:04:25
+So this campaign is saving you money and actually optimizing your performance. 
+
+0:04:32
+As you could tell, I'm very passionate about this because I've been slapped in the face by Facebook so many times. Okay. So I understand you're probably going to have your, your perceptions on this of like, This doesn't seem right. This doesn't, you know, I, I just want to retarget. I want to do this. 
+
+0:04:48
+Okay. 
+
+0:04:48
+Listen, if you want to go ahead, but I'm telling you, this is the best strategy that you can use. And I'm saying that confidently because I have seen us spend $40 ,000 on a single campaign and I've seen it absolutely crush. Okay. $40 ,000 a day. This is showing $50 ,000 in a month. We were spending $40 ,000 a day. 
+
+0:05:05
+Okay. In a single campaign, this strategy works. The other thing that you need to know is our 3 -2 -2 testing method. And the reason why we do this is because rather than us actually putting, you know, three different ads in there, what we actually do is we give Facebook the ability again to choose them for us. All right, Facebook, here's three images around this one concept, which is kids' images. Okay, that was our idea. 
+
+0:05:31
+And we got three different images of kids, and we tested them with two pieces of copy, and two pieces of headlines, so headline copy, and we let Facebook choose. And Facebook took our spend and navigated around and was able to essentially tell us which ads were going to be the best. And again, what I want you to learn here is that you are giving the machine the tools to actually succeed. All right. And a lot of times what you won't realize is that even in this instance, for example, where image number two here got $206 compared to image in the first image that got 313. Facebook at this point was obviously still trying to figure it out. 
+
+0:06:11
+But at the end of the day, if you actually dig deeper into the analytics, which I will show you how to do later, a lot of the times these ads that are getting lower spends are just hogging view through attribution or are just getting like the last click compared to the ads that are really driving the performance, which is what Facebook is trying to do. for you facebook is trying to make you money okay because if facebook makes you money then They will make more money. So why would Facebook spend your budget on ads that aren't going to work? That is my rant about this campaign structure. I'm very, very, very excited for you to go through and learn a little bit more about it. But I just want you to know that this structure is amazing because you don't have to have massive budgets to test a lot of creatives. 
+
+0:06:49
+It allows you to test and do the things that matter without massive budgets. So I'm very excited for you to learn more about this. And I can't wait for you to go through these upcoming modules.
+
+
+Transcribed with Cockatoo

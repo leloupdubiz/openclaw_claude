@@ -1,0 +1,161 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+All right, so now once you've basically set up your DCT campaign, if you were previously running ads, you're going to want to go through and find out what your best performing ads are. So that's what I'm going to show you how to do in this video. Now, if you were not running ads before or you don't have any previous best performing ads, then what you're going to do is you're still going to watch this video because I'm going to show you how to set up these columns and then basically be able to tell what is actually performed. What we, the way that we like to basically go through and do things is we only care about ads that are getting spend and ads that are getting results. Okay. So if we have an ad that say, for example, over the last seven days, we spent 2 ,600 in this account. 
+
+0:00:48
+And you can see, for example, this ad right here has gotten like $250. It's doing okay. It's at like a 3 .9. 
+
+0:00:55
+Um. 
+
+0:00:56
+In this instance, this is not really an ad that excites me compared to an ad that is getting, you know, the bulk of the spend like these three ads here and getting great performance. Okay. So what we're looking at here, I know everybody wants to look at cost per click and add to cards and all this other stuff. It doesn't matter. Okay. What do you pay bills with? 
+
+0:01:17
+You pay bills with money. 
+
+0:01:19
+So we need to focus on where the money is. Okay. So. First thing that you're going to need to do is you need to make sure that you actually have columns in place to see the performance. So what you're going to do is you're going to click columns here and you go down and you're going to click customize columns. Okay. 
+
+0:01:35
+And now this is just the stack of columns that we use. So we have campaign, we have date created, we have delivery, we have bid strategy. Don't actually really don't really care about bid strategy. You can actually delete that. Um, we have attribution setting, we have budget amount spent. Results, cost per results, purchases with all these boxes unticked, cost per purchase, purchase conversion value, purchase conversion value. 
+
+0:02:01
+impressions, reach, frequency, and I'll explain all these in a second. Unique outbound click, or sorry, CPMs, unique outbound clicks, cost per unique outbound click, unique outbound CTR, add to cart, cost per add to cart, checkouts initiated, cost per checkout initiated, engagement rate, quality ranking, URL parameters, and then we'd like to add conversion rate, and we'd like to add AOV, and we'd like to add video hold and video hook. Now, what you're gonna wanna do is, first off, understand what all these are, which I'm gonna explain very shortly, but you're gonna wanna add every single one of these that I just told you to your columns, okay? So how do you find, for example, purchases? Well, you're gonna go into the search bar here and type in purchases. And as you can see, you're just going to select purchases. 
+
+0:02:51
+Now what will happen, just so I can show you, is if I select purchases, it's going to add them with all these different basically viewpoints. So mobile and website and offline and meta, just untick all of these. And then if you want to actually move them around, I just click the little a hamburger menu here. And I just drag this around like this. Okay. And I like to have, again, my, my column set this way. 
+
+0:03:17
+So I, it's like, I could see purchase. What was my cost to get it? What was the total value? What was the return on ad spend? And that's how I kind of have these setups. 
+
+0:03:24
+You can see this here. 
+
+0:03:25
+I'm not going to beat that down, but all of these metrics you can actually look at another thing as well. And if you just type in link clicks, you can also just do unique link clicks or link clicks and CTR. That is fine. Okay. You don't have to use outbound for the most part. They're all kind of the same. 
+
+0:03:40
+So you don't need to be confused about that. 
+
+0:03:42
+And to be honest, I don't even look at cost per click. I look at it at a smaller level to just kind of get a better understanding of how the ads are doing. But for the most part, again, all that matters is how much are we spending and how much are we making? Okay. So from there now, what you're going to do is you're also going to probably want to create these custom metrics here. 
+
+0:03:59
+So how do you create a custom metric? Well, you click this lovely blue button up here, and you're going to create specific metrics, um, called video hook. video hold, conversion rate, and average order value. So if you saw AOV is purchase conversion value divided by purchases. So you're going to create a custom metric and you're going to click inside of here and you're going to type purchase and you should see purchase conversion value and you're going to click the division sign and then you're going to do purchases. and we're going to name this average order value. 
+
+0:04:31
+We're going to make sure that this is a currency, so obviously a dollar amount, and you can just make this everyone with access in the business or only you. Go ahead and click create metric. And just like that, I have now created the AOB metric. Okay. And you're going to do the same thing for conversion rate, which is purchases divided by landing page views. Also, you can do purchases divided by link clicks, but we typically do landing page views for this. 
+
+0:04:54
+Um, video hook is going to be three second video plays divided by impressions. And then video hold is going to be through plays divided by impressions. And if you're like Spencer, what the heck is all this? I'm gonna explain this all very shortly, but these are also going to be very helpful metrics for you to better understand what is going on. Then once you have all of these selected, you're gonna wanna make sure, so for example, let me go ahead, you saw Facebook just removed all of that. I'm gonna add my video hold, my video hook, my AOV and my conversion rate, I'm gonna add those there. 
+
+0:05:25
+And again, you can move these around however you'd like. So for example, if I wanna move my AOV up, I can move it up here, conversion rate, move it up. And then I actually typically like to move my video hold uh up here with uh with the link clicks and my my video hook up here with the uh with the link clicks as well it's it's kind of annoying when you have to go through like this so sometimes you got to drop it i haven't found a better way to do this i'm sure there's a better way but uh can be kind of annoying to organize it. But once you organize it, you click save as a column preset. And then obviously just make sure you name it, whatever it is that you would like to name it. 
+
+0:05:59
+So I typically name it dollar sign. 
+
+0:06:01
+Then you click apply and boom, just like that. It will now be applied. Sometimes it actually won't. So if you still see here, it says like custom, then just make sure you click this and actually select the one that you want to select. Okay. So now what we need to do is we need to figure out how to look at performance, right? 
+
+0:06:18
+Well, let's take a look here, um, over the last 30 days, and this will give me a pretty good understanding of what's actually performing. So for this client in particular, uh, we can see our champions ad set also knows known as the winner's ad set is, is doing pretty well. We've launched one DCT and this DCT is doing okay. Um, and I'm going to show you how to actually find DCTs in a second. But inside of here, if we actually go to champions inside of our ad set, I'll be able to find some of our top performing ads. And even though you probably won't have a DCT campaign as nice as we do, you're going to be able to just go through any of your other campaigns. 
+
+0:07:00
+So for example, if I set this to max You'll be able to see some of our old campaigns in here when we used to do, you know, top of funnel, middle of funnel, all this kind of stuff. And so, for example, in here, if this is what your ads look like, that's fine. So here we go. Here's an ad that obviously has done pretty well. But just make sure that you take into consideration any ads that are older than three months or I would say six months at most. Just be careful of them. 
+
+0:07:27
+Um, I would always try to look within like the last, the last 90 to 30 days of what your best performing ads are, um, in regards to figuring out which ones you should use. Um, but with that said, now that we actually have our column set up, we can now look at the performance. So again, we have date created, we have delivery, we have bid strategy. budget, attribution settings, amount spent. And so what I'm going to always filter by is amount spent. I want to see the ads that are getting all the spend. 
+
+0:07:53
+And then from there, you're going to take a look at basically how the campaigns are performing. So we have results, cost per result, purchase and cost per purchase. These are the same thing. And the reason why that we actually look at these is, for example, sometimes we will get shop orders. So this is just a website purchase. So if this is not like website and shop, again, not trying to confuse you there, but we just have these double up columns here just to make sure we can keep track of total purchases if there are others and then the website purchases. 
+
+0:08:25
+Okay. And then from here, I'm looking at CPA. So CPA is going to be one of the main ones that you want to look at. So whatever your average order value is, obviously you're going to have a target CPA around that. 
+
+0:08:36
+And then for example, over here, we're going to have our purchase return on ad spend. 
+
+0:08:41
+So this is the big one that a lot of people look at. So if you're scaling off of return on ad spend, which majority of you probably should be because you need profitable growth in your business, obviously the return on ad spend is going to play a big factor for you. And then as we scroll down, we can see impressions, impressions, is basically the total number of people that saw your ad and reach is the individual people that saw your ad. So you can see, for example, over the last 30 days that we had a 5 .95 frequency in the ad account, which means that on average people saw our ad over five times, which is pretty intense for a 30 day period. And we definitely need to improve our, our prospecting ads here, but that is, those are the numbers. Okay. 
+
+0:09:22
+So 185 ,000 people were reached individually, and out of those people, they on average saw it about 5 .6 times. That's what frequency means. If you hover on this, you can see again the average number of times each account center saw your ad. CPM tells you what your advertising cost is. This is definitely an important metric to look at because if your CPMs are crazy high, it's going to be really hard for you to be profitable. Right now, we're paying about $10 to get in front of a thousand people, and we've earned that right. 
+
+0:09:50
+This is definitely very, very good. Depending on the account, sometimes you might have to pay $30, $40, $50. We've seen it get as high as $60, $70, and that is going to be really hard to manage. So your goal is to create ads that make Facebook happy so they give you good revenue. CPMs. We have our link clicks here, which again, it's pretty obvious how many clicks, how many people clicked our ads, what the cost of that was. 
+
+0:10:13
+So for example, you can see our blended cost per click is $2 and 35 cents. 
+
+0:10:17
+Now, if you're wondering what's a good cost per click or what's a good click through rate, well, In this instance, you can see our click -through rate is 2 .6 % on our champions, 1 .19 % on this DCT, and 0 .61 % on this DCT. 
+
+0:10:33
+We always try to aim for above a 1 % CTR. Anything above a 1 .5 % is good, but at the end of the day, if the ad is profitable, it doesn't matter what the cost per click is. Again, cost per click is just a soft metric that gives you a decent idea of what's going on. So for example, this ad had almost double the cost per click and it still had a similar return on ad spend. Okay. That is not always the case, but again, that's why we care about return on ad spend and purchases rather than just cost per click and CTR. 
+
+0:11:08
+Okay. So definitely make sure that you pay attention to these, but that's what cost per click is. And that's what CTR means. We have video hold here. So video hold is obviously only for videos. So if you take a look, you can see, for example, the video hold, and I actually put these backwards. 
+
+0:11:22
+You should definitely have a video hook first. So let me just switch this around and I'll explain again what this means. So video hook means the percentage of people that are stopping to watch the footage. three seconds. The reason why we call it a hook is because this will let us know that when people are scrolling through the feed, if they're actually stopping to watch it. 
+
+0:11:45
+21 % is okay. 
+
+0:11:47
+Um, 30 % is good. 40 % is really good. And anything above 50 % is, I don't know what you're putting on your ad, but people, everybody's stopping to look at it. So that just kind of gives you a bit of a benchmark there. And so if you want to, again, think about percentages there. Um, if you have a 50 % hook rate, that means every other person that sees your ad is stopping to watch at least three seconds, which is pretty good. 
+
+0:12:09
+pretty cool. Um, video hold is then through plays divided by impressions. So three plays are either 15 seconds of your ad. So if you have an ad that's 30 seconds, somebody watches at least 15 seconds. Or if you have an ad that's less than 15 seconds, it just means they watch the whole app. Okay. 
+
+0:12:27
+So if you have an ad that's like six seconds, then obviously if someone watches the whole ad, then that's going to be a throughput. So in this instance, this is definitely a shorter ad. So it has about a 13 % video hold rate, which is pretty good. And then here you can see this video ad has a 9 .8 % video hold rate, which is okay, but definitely needs to, you know, be caught up here. Because as you can see, this ad has a great hook rate and, or sorry, this ad has an okay hook rate, but a really good hold rate. And then this ad has a better hook rate, but a really good a worse hold rate. 
+
+0:12:59
+So that just means that this ad is probably not doing a good enough job of holding people. But with that said, this ad is, is, you know, seven seconds. 
+
+0:13:07
+And this ad is, uh, I think like a minute long. 
+
+0:13:09
+So just keep that in mind as well. Uh, so in regards to video hold, we always try to get, you know, above 5%. Uh, anything above 10 % is definitely good. Anything about 15 % is a sensational. 
+
+0:13:20
+But again, at the end of the day, we've, these are soft metrics. 
+
+0:13:22
+So don't be like, oh my gosh, my hook rate is amazing. If you're not getting purchases, it doesn't matter. Okay. So we've seen ads with insane. hook and hold rates, just not perform at all. Okay. 
+
+0:13:32
+So definitely keep that in mind. And then obviously no, if you have images, images don't have hooks or holds. Okay. So don't worry about the images there at the cart and checkouts. These honestly, you probably don't even need these. Uh, we just look at this just in the beginning, especially to see if we're getting like people to to actually buy. 
+
+0:13:49
+So for example, if you're a brand new account and you run and you run ads and you've gotten, you know, like 1500 link clicks or 200 link clicks and like, you know, one add to cart, like that's going to be kind of concerning. But again, We'll talk about this more on calls when we're reviewing ads together. Average order value is definitely good to look at. So this will tell you what your average order value is from the actual ad itself. So what's interesting is, for example, in this ad, we're showing a version of the hockey bag that is customized. So we've noticed a lot more people are customizing their bag when they're clicking this, which is why the average order value is a little bit higher compared to some of these ones that don't have that. 
+
+0:14:29
+But for example, here's another winning ad down here that actually even has a higher average order value because people are probably buying a different variant. So looking at the different average order value is also something that's very helpful to better understand. And then you can also look at your conversion rate here, which again is just how well the ad is converting. So again, we have some ads that have lower conversion rates and, and really low cost per click. And we have some ads that have really high cost per click, but also have really high conversion rates. So again, not all ads are built the same. 
+
+0:14:59
+So for example, this ad has a 2 .68 % conversion rate and a $284 average order value. And this ad has a 2 .1 and a two $263 average order value. So you can see the difference between average order value and conversion rate there. Again, customer initiated checkout, that should be over there. But again, it doesn't matter. You don't really need to look at this stuff. 
+
+0:15:18
+And then engagement rate and quality ranking. It's just helpful to better understand how Facebook looks at your ads. But again, this is another example. metric. It doesn't really matter. And then URL parameters are just, we have those there just to double check and make sure that we actually have URL parameters on all of our apps. 
+
+0:15:33
+Okay. So that is how you can view or see all the columns and see the ads that are performing the best. In my next video, I'm going to show you how to grab the post I'd use from here. It's actually a YouTube video, so it can be pretty, pretty straightforward. But one other thing that I do want to mention is how to view some performance. And I'll have another video that talks about that. 
+
+0:15:54
+view the performance based on attribution settings, which, again, I have another video on that. But for the most part, that's how you set up your columns. That's how you can see which ads, again, are getting the most amount of spend and are actually getting the best ROI or the best cost per acquisition. So that is how you set up columns. That's how you view performance. And now your goal is to watch the next post ID video, take all of the post IDs that you have, and watch the post ID video, find all of your winning ads, put them in your winner's ad set, and then you are ready to start launching your DCTs. 
+
+0:16:27
+If you don't have any winning ads, you don't have to worry about the post ID video yet. You're just going to move on to basically launching your DCTs, okay? So if you don't have any winning ads, you're still going to create this ad set, but obviously you would just keep it empty. So you would just like turn, you wouldn't have any ads in the winner's ad set. But inside of here, you would obviously get ready to now launch your first DCT because you've set it up to launch. get ready to launch. 
+
+0:16:50
+So once you have your DCT ready, you can actually go ahead and launch it and your account will be off and running. And then obviously for everybody else that has winning ads, you will then put your winners in here after you watch the next video and then launch your DCTs alongside that. Okay. That is how to view performance, how to set up your columns and essentially know what is happening in the account.
+
+
+Transcribed with Cockatoo

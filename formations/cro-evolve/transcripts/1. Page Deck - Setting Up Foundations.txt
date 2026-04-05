@@ -1,0 +1,250 @@
+All right, so as you can see, we are now inside of Pagedeck.
+And again, if you have not bought a license, it's very simple.
+Just go to Pagedeck.com.
+You can go ahead and just start on the monthly plan.
+Really, like there is no kickback for me on this right now.
+So just go ahead and use code EZA15 and you will be able to get 15% off for when you sign up.
+So that helps a little bit.
+From there, again, you get unlimited pages, no traffic limits, none of that kind of stuff.
+You don't have to worry about it.
+But I'm chatting with the founder still to get the A-B testing tool active for all of you guys here on this basic plan.
+With that said, if we go inside of here, you'll notice that there's a quick little video here that will tell you to basically show you how Pagedeck works.
+It's super, super simple.
+The other thing that I really want to call out here is that they will actually build your first page for free.
+So if you click this link, it will take you to a Google form and thankfully now you have done all of the actual, you know, research.
+And again, make sure you're not on the free trial.
+You have to be, you know, actually on a paid account.
+So make sure you put your paid information in before you request this, which again, you can just go into your account or go into team and billing settings and set off that up.
+It's pretty straightforward.
+And then you can actually fill this out for a page to be built by their team, which is pretty incredible.
+I'm not sure how much longer this offer will last, but if it's available, like take it 100%.
+What I'm going to show you how to do today is just go ahead and set up a new site.
+So I'm going to be actually setting this up for the agency just so you guys can see what it looks like.
+So you're going to go ahead and click create a site.
+And once you create the site, don't get too excited.
+Don't create a page yet.
+We're actually going to go in and start editing the theme and the site settings to get everything set up properly.
+All right.
+So now, as you can see, I'm back on the main theme here.
+I just wanted to show you I need to go into a separate one to create that first to get a brand new account.
+But now inside of here, we're going to jump into site settings.
+And this is where you're going to go and you're going to actually set up a custom domain.
+Okay.
+And so what's great about PageDeck is there's actually an entire docu section up here.
+So there's docs.pagedeck.com.
+And there's just like they're working on this still.
+So, again, there's that overview video.
+There's Teams.
+There's site overview.
+There's site settings, themes, creating a page, adding tracking analytics, connecting subdomains, using the editor.
+There's all, you know, there's some pretty decent documentation in here just to kind of get started.
+But, again, they are working on this.
+With that said, if we jump into the main thing that we're going to be focused on here, which is connecting to subdomain,
+this is what I'm actually going to show you to do.
+But, again, there's always a reference here as well.
+So what you want to do is you're going to want to set up a subdomain.
+So you can do go.ezymedia.com, try.ezymedia.com, whatever it is that you want to do.
+You can just go ahead and set up a subdomain.
+So you're going to go ahead and click add into that.
+And then what you're going to do is you're going to go into your actual DNS settings.
+So wherever your domain is hosted, you're going to put this information in there.
+So I'm going to go ahead and show you what this looks like.
+All right, because I'm not really sure what's sensitive and what's not, I'm not actually going to record myself doing this too much.
+But I'm going to make sure I get 2FA set up right after this.
+But either way, what I'm going to do is go into easymedia.com.
+So you will also go in.
+And, again, if you are on GoDaddy or you're on Namecheap or wherever the heck you are, you're going to go into your domain section here.
+You're then simply just going to go into your actual DNS settings.
+I know I'm super zoomed in here.
+But, again, if you take a look at this here, it's pretty simple to do.
+You're just going to go into this.
+So here's GoDaddy, Shopify domains.
+There's all the links here.
+If you click this, it'll actually show you how to do it, right?
+So you're going to click into domain.
+You're going to go to DNS.
+You're going to go into records.
+And then, basically, you're going to add this information that is inside PageDeck.
+So what we're going to do here is we're going to add type is CNAME.
+So we are going to do – I don't think we need to do anything.
+I think it's just CNAME is what I need to put.
+And then I think this is where I am going to put the try is the name.
+Okay.
+And then let me move over.
+The actual data here is going to be CNAME.PageDeck.com.
+And then you're going to go ahead and click Save.
+And now if we go back into PageDeck, you'll see that that has been updated.
+So it already did it.
+Very, very simple to do.
+Really didn't take that much time.
+As long as you know how to go through and update your DNS, you're good.
+So you actually can delete this out of here because now you have the right subdomain.
+Then you're going to go ahead and just upload your logo, which there's our logo.
+Go ahead and click Skip.
+And now that's updated.
+Super easy.
+And then from there, once it's done, what I would recommend doing as well is just make
+sure you just click Save Changes after you do that because the amount of times that I
+forgot to click Save Changes is insane.
+Now inside of here, you're going to click Use an Available Google Font.
+And so you should probably know what the fonts are on your website.
+Most of them should be Google.
+For example, if you don't, though, you can download another Chrome extension called What Font,
+and you can actually figure out what this is.
+So this is Lulazian or whatever the heck this is.
+It's a sans serif.
+Again, I am not a font guy at all.
+But if this is in here, maybe we're lucky.
+If not, it isn't.
+So then you need to upload a custom font.
+And this is where you can just Google and find those files.
+Or if you're in Shopify, what's actually pretty interesting is you can actually find those
+files as well.
+So if you just go into your Shopify and go to Content and Files, you can actually search,
+I believe, by file type.
+And I think you can do Other, and then you should be able to find it.
+I know, like, depending on the fonts that you have uploaded to your store, they might just
+be Google fonts.
+But this is something as well that we have done before by looking at specific files inside
+of here.
+So this client doesn't have them in here.
+But that is something that you can do.
+Or the other option is you kind of have to go on a Google, you know, binge here to try
+to find the .waf files, which, again, no idea what that is.
+But I'm going to go ahead and give this a Google search.
+So here we are just doing some Google search on fonts.
+I get a little sketched out when I'm doing this.
+I really don't know what is free or what's illegal or what's not.
+So if this is not legal, I am not doing this.
+This is just, you know, something that I'm recording as a joke.
+This is no serious matter.
+I'm definitely not downloading any of these.
+This is just something that I'm showing for the purpose of, you know, this video to show
+how you can upload fonts.
+I definitely pay for all of my fonts here.
+And now if you get lucky and you actually just use actual Google fonts, well, there you
+go.
+They're actually going to be right here as well, which makes your life real easy.
+I'm going to continue to find these fonts here.
+All right.
+And if finding fonts drives you absolutely crazy, which it does for me,
+you managed to find it in an OTF or a TTF version, or if you just have them somewhere,
+your designer has them.
+You can convert it to a WAF just by using a cloud convert.
+And now we are here and we should have our fonts updated.
+Now, the next task is a lot easier.
+Connect Google Analytics.
+And I'm going to go ahead and do this.
+It's very, very simple as well.
+Once you actually connect your account, the Google Analytics will get pulled up here.
+And I just need to confirm that I'm actually on the right canal.
+So for whatever reason, I actually just connected it to the wrong account.
+If you sign into the wrong Gmail or company account, it will actually not show it.
+So make sure you select the right one.
+And then from there, once you have that selected, you should be able to find your EZA
+media.
+So there we are.
+Google Analytics property now.
+Same kind of thing.
+Easy ABDA GA4.
+And then we're going to go ahead and select automatic analytics tracking.
+And then if we just type something random there, it should pull up.
+Perfect.
+So now we're good.
+Changes were already saved.
+Now, the next thing that we need to do is we need to add specific head scripts.
+So if you are using TripleWhale, Heatmap.com, or you are using something like Facebook, for
+one, I was going to say OpenSend is another tool that I use.
+That is where all of the head scripts will go.
+So when it comes to doing this for TripleWhale and Facebook and Heatmap, I'm going to show
+you guys how to do that now.
+It's pretty simple and pretty straightforward.
+I just want to make sure I show you how to do it.
+So let me go ahead and do that.
+All right.
+So the first one here is going to be TripleWhale.
+Very, very simple.
+If you use TripleWhale, then you're just going to go into settings, pixel settings, and simply
+just copy this manual installation code down here.
+So you're just going to copy this install the main snippet.
+And you're going to paste that inside of the head script section.
+Make sure it's on the custom CSS section.
+Make sure it's in the head script section.
+And when you do that, you can go ahead and click check now, or you could put the URL and
+put the URL in, which for me would be try.uzamedia.com.
+Test, and it would come back showing that it's active.
+Now for meta, very, very simple as well.
+You're going to go into your events manager.
+And this is also pretty straightforward.
+It's been a long time.
+It took me a long time to figure this out.
+So hopefully you guys appreciate it because I cannot remember the last time I manually
+set up a pixel.
+What you're going to do is you're going to go into add events.
+You're going to do a website, or I think it's add a new integration.
+And you're going to do a meta pixel.
+You're going to set it up.
+And you're going to do manually add code to your website.
+You're going to go ahead and click get started.
+And then this will pull you to the area where you can set up your new pixel.
+If it loads, there we go.
+We're going to copy this code and we're going to simply pop that in here.
+Now I need this for my page because obviously I'm building this actually for our agency.
+So I can put that meta pixel code inside of there.
+It's been a long day of talking.
+And then for heatmap.com, it's very, very simple as well.
+You're going to load up heatmap.com.
+And again, I'm going to have more training around this as well.
+And you're just going to go into view snippet, which should be somewhere.
+Let me just confirm I actually get this right.
+Yeah.
+So you're going to make sure you go into all websites here.
+You're going to click view snippet.
+And then you're just going to copy this snippet here as well.
+And same kind of thing.
+You're going to paste this underneath, create a little space and boom.
+There it is.
+Now, as for other training that will come on heatmap.com, don't worry about that.
+It's going to be coming up soon.
+If you don't have triple well, don't worry about it.
+If you don't have heatmap.com, don't worry about it.
+With that said, if you also want to put any kind of email capture on here, as the documentation
+shows, let me go ahead and pull up doc page docs again.
+You'll see that inside of here, there is the adding, tracking, and analytics.
+Basically, any of your pixel or any of this kind of stuff is going to go into the head
+script.
+And any of the end of the body scripts here will be for, you know, any kind of email,
+SMS, and pop-up.
+So if you want to put Klaviyo or Intentive or Sandlane or PostScript or any of that kind of
+stuff, you can put that inside of there.
+I'm actually going to go ahead and do that for myself as well.
+Same kind of thing here.
+I have this specific tracking code here from, you know, our active campaign.
+And then I'm going to go ahead and pop this in here as well, which again, I believe is
+right before the body, end of body scripts, I believe is this where this needs to go.
+Yeah, exactly.
+So cool.
+Head scripts, end of body scripts.
+Go ahead, make sure you click save changes.
+And boom, just like that.
+Now, if I go back, there's still a few things that we need to do.
+But if I load this up, the metal meta pixel should show.
+I think I just actually need a page first.
+So let me go ahead and do that.
+And again, I'm going to show you guys how to build all the pages and all that kind of
+stuff.
+Don't worry.
+I'm going to go ahead and publish this.
+My DNS might not be fully active.
+Sometimes it takes a second just to do it.
+And I'll explain a little bit more about the double and triple publish as well.
+But hopefully that is good now.
+And then if we go and view this, it should work.
+There we go.
+Go try.easymedia.com and you can see the meta pixel is firing.
+Look at that.
+So there we go.
+That is how you set up the foundations here inside of the settings.
+And now we're going to get into the theme and all that kind of stuff in the next video.
+But if you have any questions around this, again, make sure you ask.
+But hopefully that all makes sense.

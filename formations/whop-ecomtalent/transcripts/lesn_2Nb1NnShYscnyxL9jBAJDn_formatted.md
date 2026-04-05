@@ -1,0 +1,86 @@
+# lesn 2Nb1NnShYscnyxL9jBAJDn
+> Transcript complet — 100% du contenu original
+
+---
+
+Welcome to the free marketing course. My name is Carlo and without wasting too much of your time, I'll just jump straight into the course and explain what this is, why I made it and what are you actually getting here. So again, welcome to the free marketing course. Probably one of the main questions you will have is why is this free? And to give you an answer to that, I think I first need to introduce myself and talk a bit about my journey, who I am, what am I currently doing to give you full context and then you'll probably have a better understanding of why I made this thing free.
+
+Because this still is a course. This is not like one free video or something like that. This is a complete blueprint that's going to help you make money online by doing marketing. Okay. But again, let me first introduce myself.
+
+So who is Carlo? This is kind of my story from being a brokie to running a million dollar ad campaigns online. And I'll just kind of very quickly talk a bit about my journey, how I started doing all of this and show you how each phase looked like. So 2021, I was just like a broke student. I was just getting into uni.
+
+I was, you know, running Minecraft every night until like, you know, two to three a.m. with my friends, you know, just like as one does, you know, like in high school, those type of days. And then like right around, like, I think it was in 2021, the COVID hit. And, you know, it was the Minecraft phase, it was grind phase, because we couldn't leave our house. But then I also started thinking about like, okay, if I can't leave my house, how am I going to, how am I going to make money? Okay.
+
+How am I going to provide, you know, for my family, like one day? That's when I, you know, started thinking about this, this thing, like online money, like Wi-Fi money, making money online. I started like researching on YouTube, how to make money online. And I'm sure if you're here, you probably did the same thing. And you can probably relate with me.
+
+So I started doing that, I found like a bunch of like, honestly, a bunch of bullshit, like, you know, crypto, dropshipping, trading, like all sorts of stuff. And like, I didn't find like, you know, specific way to make money online. But I realized that it's actually possible, like it is 100% possible to make a living online. Okay, that's when I had that realization. So that was like in 2021.
+
+So I was usually always kind of creative. I was always creative oriented person. I liked design. I liked video editing. I liked just doing creative stuff.
+
+Okay. And I realized that I could monetize those skills by freelancing online. So I started kind of looking into freelancing. I started kind of researching how can I start freelancing and stuff like that. And I started getting clients.
+
+And I was so I started doing like Instagram theme pages, I was doing Instagram posts for like businesses and stuff like that. Like I was grinding for, you know, 10 bucks an hour, like nothing crazy. And then like a week, sorry, not a week, like a few weeks or like a month into into that. I met a guy who was doing dropshipping. And he explained to me how dropshipping works, how how you how you like you find a product, then you run some ads through through Facebook.
+
+And then you're hoping to make some sales. And that was very interesting to me, because I realized, like to to make dropshipping work, it's like 90% of advertising 90% of marketing, okay, like, you just need to make good ads in order to sell your product. And that's when I had this, you know, like realization, huh, I could make I could still like do, you know, design skills, I could still do video editing, but I could make ads, and I could directly impact how much money someone makes. And that was very interesting. And then I, I started doing like kind of video ads for for dropshipping stores.
+
+I also learned like copywriting. I mean, like I was doing some landing pages for for dropshipping stores and stuff like that. So I was kind of in the in a dropshipping niche, but I was I was focusing on doing ads. And this was right around 2022. So I kind of realized, okay, this is possible, I can I can definitely make this happen.
+
+And I started, you know, researching into marketing into advertising into into, you know, buyer psychology, how to make people buy stuff, how to write copy, so that it actually, you know, sells products, which was very interesting, because at this time, like this was, this was almost like, you know, pre AI era, like, you couldn't get chat GPT to write stuff for you. So I was, I had to do it manually. So I learned like a lot, a lot about, you know, copywriting and a lot about just running copy that sell stuff, you know. And like, in this period, I started, I started kind of learning everything about online world, like I started, you know, figuring out how things work, how to get clients, you know, how to make money, how to get paid, like the basic stuff. And then, you know, around like 2023, I got like, you know, I thought I was pretty good at it.
+
+But I was like, barely starting. So I was kind of using freelancing platforms to find clients, you know, to like, to start working with them. And I started kind of having too many people who want to work with me, okay. And I had like, you know, too much demand, and I couldn't, I couldn't do work for everyone. So that was kind of my next issue.
+
+And then I started, you know, texting my friends on WhatsApp, hey, you know, you want to do video editing, you want to do this, you know, I have too many clients, I could give you some work. Um, and that's how I first started kind of scaling. Um, I started kind of outsourcing, um, video editing, I like, you know, actual part of doing ads to my friends. So I was focusing more on clients and getting more clients and like, you know, strategy for clients and doing that type of stuff. Um, and I basically started my own kind of small creative agency, like small agency.
+
+It was just me and like four editors under me. And that was, you know, that was pretty much it. Um, so this was right around 2023. And this was when actually I rented an office with two of my friends. Like that was a, that was a very sick, um, sick period.
+
+We're actually in the office right now, but it's, it's, it's, it's a, it's a different office than, than what you have here. And this is when I actually started, you know, uh, really diving, diving deep into like agency and into scaling and into, you know, um, um, just like more kind of, um, advanced stuff I would say. Um, and I, I really learned a lot about, you know, running a business and a lot about, you know, marketing even more, um, even more about ads, how to, how to work with e-commerce brands, how to grow e-commerce brands, which I'll tell you all about, um, on the next slides. But this is how, how this period looks like. As you can see, this was, um, August, 2023.
+
+Um, this was standard day at the office, protein pushups, you know, like just a messy office, a whiteboard, which we still have here in the office. Actually, you know, it was just like, um, it was just a grind phase, to be honest. And I learned a lot and I would a hundred percent recommend you, you know, if you have, uh, if you have, you know, a few bros and you're thinking of pulling the trigger and, you know, like getting a place for you, for, for like all of you or getting an office or renting a space where all of you can work together, I would a hundred percent recommend it because that's what skyrocketed all of us. Um, and like my friend, uh, Lavro was actually here with me in the office. He was, he was able to quit his 95 as well.
+
+And then like, we started doing this together. Um, it was just like very, very insane times. And then right around, like at the end of 2023, that's what, that's when I actually met my current partners. So I was still doing outreach. I was still, you know, finding clients.
+
+I was still trying to, you know, scale the agency. And that's when I met, um, my current partners, um, Spencer and Sean, and they were basically running a much, um, I would say much more serious and much bigger marketing agency. Okay. Um, they were, they were at a much higher level than me. And that's when I actually had realization that I still don't know shit.
+
+Like I realized that I was still, you know, just like, um, at a very, very low level and a very low scale. And I actually decided to like drop everything. I decided to like drop all of my clients. I decided to kind of shut down my small agency. Um, and like for context, like here, right around here, I was, I was making like more than 10 K a month.
+
+Okay. Like I was making more than 10 K a month here already, but I realized like I always had, you know, this feeling of, you know, I could be better. I could be, I could be better at, you know, this thing that I'm doing. Um, and that's when I decided to drop everything and join, uh, Sean and Spencer, uh, to go full time with their agency and to help them build a creative system, which, um, I'll kind of talk about, um, in the course, but I decided to drop everything and to join their agency because I realized, you know, this is an environment where I can grow. This is an environment where I can learn, where I can improve my skills, where I can basically learn from, you know, people who are much better, much smarter than me.
+
+Um, and I could just, you know, become a savage, um, marketer, which is what I always wanted to do. Um, so this was at the start of 2024, like from going from 2023 to 2024 is when I kind of, um, you know, went full time with them and in 2024 was like my, my like biggest year of growth. And like, in terms of, in terms of like knowledge, experience, um, even money, uh, because money just comes with, with time. Uh, like it's, it's just going to follow always, but it was just like the biggest year in terms of, in terms of growth for me personally. Um, and I developed a lot, uh, I would say, and it was just like, it was a, it was a very good move to, to shut down my agency.
+
+Um, because like only here, you know, at the start of 2024, I actually started learning like real shit, like real, you know, stuff, how to, you know, how to actually, um, grow e-commerce brands, how to actually do proper marketing, how to actually do proper ads, proper advertising. Um, and this was actually one of our biggest achievements last year. So we scaled an e-commerce brand to doing 700 K in one day. Okay. This was a black Friday, 2024, November 29th.
+
+Um, which like just saying that, like, you know, making 700 K in one day is, is incredible. And obviously like not all of that is profit. And, you know, this is not the money I made, but like something, but the revenue that we generated for an e-commerce brand. Uh, so it's not like, you know, I made 700 K. Um, but it's still like just incredible and amazing, you know, to, um, to realize what you can actually do, uh, with marketing and, you know, with advertising.
+
+So this is why I made this course. Okay. So to give you context, this is what I'm doing now. I'm running a marketing agency by the name of easy a media.com. You can, you can go check it out.
+
+You can, you can check out more about, uh, what we do. Um, and to go back to why this is free, um, in the last four years of doing online marketing and in the last, yeah, like just four years of doing online marketing and working with a lot of brand owners, working with a lot of agencies and talking to, you know, a lot of people in this space, I noticed there's a huge, huge demand for marketing talent. Okay. And in simpler words, marketing talent means there's a huge demand for people who make ads. Okay.
+
+Um, every single brand owner I speak to is desperate to have a good marketer on their team. Like, like this is a huge pain point that a lot of e-commerce brand owners have. And we as well, like we also for our agency last year, we hired a lot of people. Okay. Like we, we hired a lot of video editors.
+
+We hired a lot of copywriters. We just hired like a lot of graphic designers as well. We just hired a shit ton of talent and it was incredibly hard to find someone good. Okay. It was incredibly hard to find people who know how to, how to do good ads and how to sell products online.
+
+It was just very bad experience. Okay. Um, and this is why I made this free. Okay. Because I want to help as many people as possible get into this field because there's just so much demand right now for, for this type of talent that it's, it's insane.
+
+Okay. Uh, we also run a, like a biggest, um, e-commerce community, uh, yeah, like e-commerce community on school. You can check it out. It's called evolve. You can check it out on, on, uh, easy media.com and then you click on evolve.
+
+Uh, we actually run a, like the biggest, um, e-commerce community. Okay. Like we have like almost 300 e-commerce brand owners in that community. Um, and like the, they, they all struggle with hiring good talent. Okay.
+
+Um, and I think this is because people think they need, I think like the reason why this is happening is because people think they need to have some kind of college degree or they need to be some kind of expert to do marketing. Okay. Like, I think this is a common belief out, out there that, you know, you just need to like, you know, graduate or something to like, you know, do marketing, which is wrong. Okay. You simply need to provide value, right?
+
+No one online is going to ask you, Oh, where did, where did you graduate? Like which high school did you go to? Like, like, you know, what kind of certifications do you have? Like no one is going to ask you that. Okay.
+
+You simply need to provide value to them. They're going to ask you, what can you do for my business? Can you help me make more money? And if you, if you have the skill of making ads, you can. Okay.
+
+And that's why you just need the right guidance, which is this course, you just need the right guidance to, you know, um, like go into, into this field and to start, you know, kind of researching around this. And so, so we actually understand the opportunity that actually exists right now. Um, and so that you can get into marketing. Okay. And this is why I made this because, uh, our, like our agency, um, brand owners from our network, like we're all struggling to find good talent and to find good editors, to find good designers, to find good creative strategist, um, to find good marketers, you know, who just can, you know, help us sell more products.
+
+Okay. So that's why I made this free. Hopefully now it makes sense. And I, I appreciate, uh, you watching this for 15 minutes, um, to get the context on, you know, what this says and why I made it. Um, my promise for this course is this will be the most tactical, no bullshit guide to becoming a marketing specialist.
+
+I will give you the exact blueprint that took me from a brokie playing Minecraft in, in his bedroom to running a seven figure marketing agency. Okay. So I went from a brokie playing Minecraft to doing video editing. So I was a video editor. Um, then I kind of ran my own small creative agency and now I'm running a seven figure marketing agency.
+
+Okay. I will give you you like the exact blueprint blueprint, how I started every step I took, um, all the knowledge that I collected. Like, I wish I had this knowledge when I was starting out. Okay. You will get like four years of my experience compressed into this free course.
+
+All right. And to be honest, I gave myself a challenge to make this course better than all, than like all paid courses out there. Okay. This is what I told myself. Okay.
+
+If I'm going to do this, I'm going to do this right. And I seriously want to make this course better than 90% of paid courses out there. This is also one reason why I made this free.
+
+All right. So that is pretty much it. Thank you for staying until the end of this video. Um, hopefully now you understand a bit better what this is and what you're actually getting here. I'll see you in the next video.

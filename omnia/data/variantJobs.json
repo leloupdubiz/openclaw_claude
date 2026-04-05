@@ -1,0 +1,459 @@
+{
+  "vj_1772912283118_xi4lp": {
+    "status": "generating",
+    "provider": "kie",
+    "model": "sora-2-pro-text-to-video",
+    "duration": 15,
+    "taskIds": [
+      "02c32d4f44761a6aed4735b2a4206083",
+      "1e644748ec8c9e59c0e62a3be9955f66",
+      "f3848b1f182f471ef3dfa592d84fc972"
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      },
+      {
+        "index": 1,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      },
+      {
+        "index": 2,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 3,
+    "avatarId": "A3-e",
+    "sceneType": "Testimonial",
+    "scriptDE": "Todmüde — aber der Schlaf kommt trotzdem nicht. Selbst nach acht Stunden wache ich auf und fühle mich wie gerädert. Dann hab ich Nellio UltraCalm entdeckt. Jetzt schlafe ich durch, wache erholt auf. Meine Morgende sind wieder lebenswert. Schau selbst.",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-07T19:38:03.410Z"
+  },
+  "vj_1772912664233_n5fmz": {
+    "status": "done",
+    "provider": "kie",
+    "model": "sora-2-image-to-video",
+    "duration": 15,
+    "taskIds": [
+      "3bb279c483146ad570a075fbe407199d"
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "failed",
+        "webmUrl": null,
+        "mp4Url": null,
+        "error": "Timeout 15 min"
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "A3",
+    "sceneType": "Problem",
+    "scriptDE": "Ich schlafe genug — und bin trotzdem immer müde. Morgens bin ich gerädert, mittags kann ich mich nicht konzentrieren, abends bin ich völlig leer. Meine Freunde sagen, ich soll mich entspannen. Aber das ist nicht normal. Das sind die frühen Zeichen — und die meisten ignorieren sie. Nellio UltraCalm hilft mir, wieder klar zu denken.",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-07T19:44:24.485Z"
+  },
+  "vj_1772970253065_8sv2u": {
+    "status": "done",
+    "provider": "kie",
+    "model": "sora-2-image-to-video",
+    "duration": 15,
+    "taskIds": [
+      "938faf0e9d03eeea963beb894441e863"
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "failed",
+        "webmUrl": null,
+        "mp4Url": null,
+        "error": "Timeout 15 min"
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "A3-a",
+    "sceneType": "Solution",
+    "scriptDE": "Todmüde — aber der Schlaf kommt trotzdem nicht. Drei Kaffee, immer noch erschöpft. Das ist kein Schlafproblem — das ist Cortisol. Mit Nellio UltraCalm merke ich sofort: meine Gedanken werden klar, die Anspannung fällt ab. Endlich wieder ich selbst. Das brauchte ich.",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T11:44:13.320Z"
+  },
+  "vj_1772971247608_p9rjw": {
+    "status": "generating",
+    "provider": "kie",
+    "model": "sora-2-text-to-video",
+    "duration": 10,
+    "format": "9:16",
+    "taskIds": [
+      "a6d919eb1be9b50b3508922116bb5b32"
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:00:47.878Z"
+  },
+  "vj_1772971366732_4icoa": {
+    "status": "done",
+    "provider": "higgsfield",
+    "model": "higgsfield-ai/soul/standard",
+    "duration": 10,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "failed",
+        "webmUrl": null,
+        "mp4Url": null,
+        "error": "Task creation failed (no taskId)"
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:02:47.520Z"
+  },
+  "vj_1772971517879_cddby": {
+    "status": "done",
+    "provider": "kie",
+    "model": "kling-video/v2.1/pro/text-to-video",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "failed",
+        "webmUrl": null,
+        "mp4Url": null,
+        "error": "Task creation failed (no taskId)"
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:05:18.112Z"
+  },
+  "vj_1772973615903_87vfd": {
+    "status": "generating",
+    "provider": "kie",
+    "model": "kling-video/v2.1/standard/text-to-video",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:40:16.145Z"
+  },
+  "vj_1772973641094_2iqie": {
+    "status": "generating",
+    "provider": "kie",
+    "model": "kling-3.0",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:40:41.326Z"
+  },
+  "vj_1772973748347_z5oxd": {
+    "status": "generating",
+    "provider": "kie",
+    "model": "kling-3.0",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:42:28.591Z"
+  },
+  "vj_1772973775445_fju7c": {
+    "status": "generating",
+    "provider": "kie",
+    "model": "kling-3.0",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:42:55.729Z"
+  },
+  "vj_1772973833914_gzphm": {
+    "status": "generating",
+    "provider": "kie",
+    "model": "kling-video/v3.0/standard/text-to-video",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:43:54.145Z"
+  },
+  "vj_1772974421939_y3u4t": {
+    "status": "generating",
+    "provider": "higgsfield",
+    "model": "higgsfield-ai/soul/standard",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:53:42.117Z"
+  },
+  "vj_1772974448966_txn0p": {
+    "status": "generating",
+    "provider": "higgsfield",
+    "model": "higgsfield-ai/soul/standard",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:54:09.192Z"
+  },
+  "vj_1772974472119_fo4cc": {
+    "status": "generating",
+    "provider": "higgsfield",
+    "model": "higgsfield-ai/soul/standard",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T12:54:32.333Z"
+  },
+  "vj_1772976055439_lxcwh": {
+    "status": "generating",
+    "provider": "higgsfield",
+    "model": "higgsfield-ai/soul/standard",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T13:20:56.096Z"
+  },
+  "vj_1772976086257_t8583": {
+    "status": "generating",
+    "provider": "higgsfield",
+    "model": "higgsfield-ai/soul/standard",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T13:21:28.098Z"
+  },
+  "vj_1772982168797_2t38h": {
+    "status": "generating",
+    "provider": "higgsfield",
+    "model": "higgsfield-ai/soul/standard",
+    "duration": 5,
+    "format": "9:16",
+    "taskIds": [
+      null
+    ],
+    "results": [
+      {
+        "index": 0,
+        "status": "pending",
+        "webmUrl": null,
+        "mp4Url": null
+      }
+    ],
+    "numVariants": 1,
+    "avatarId": "",
+    "sceneType": "",
+    "scriptDE": "",
+    "projectId": "",
+    "character_id": null,
+    "heygen_avatar_id": null,
+    "createdAt": "2026-03-08T15:02:49.800Z"
+  }
+}

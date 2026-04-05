@@ -1,0 +1,31 @@
+{
+  "name": "nellio-studio",
+  "version": "1.0.0",
+  "description": "Creative Generator SaaS für Drinknellio.com",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "dev": "nodemon src/api/server.js",
+    "build": "echo 'Static files in public/'",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "ugc",
+    "creative",
+    "generator",
+    "ecommerce",
+    "wellness"
+  ],
+  "author": "Clawdbot Prime",
+  "license": "PRIVATE"
+}

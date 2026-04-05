@@ -1,0 +1,231 @@
+All right, welcome to the long-awaited
+Conversion Rate Optimization Program course.
+First off, I wanna start this by saying
+I am very aware that I look homeless right now.
+I haven't had a haircut in over a month.
+I was supposed to have a haircut last week
+and I completely missed it
+because I have been living in a blur.
+But starting things off the right way here
+in typical Spencer fashion, not even on point.
+What I'm gonna be going through today
+is conversion rate optimization and what it actually is.
+So that way, if you don't know anything about it
+or maybe you've actually heard about it
+or you're coming in as a CRO expert,
+I'm gonna be walking you through from my perspective
+and from my point of view, what CRO actually is.
+I'm not an absolute guru on this, okay?
+I have not been doing CRO for the last 10, 15, 20 years, okay?
+I understand that there's people in this industry
+that have been doing it for a very long time.
+What I can tell you is that I've tried a lot of things
+in the last three years
+and I've had some things work,
+I've had some things not work
+and I've had a lot of really smart people
+tell me what they do
+and help me better understand what CRO is in general.
+So what I wanna do before we get into all the good stuff
+because at the end of the day,
+we're gonna get into a lot of the good stuff.
+We're gonna get into all the tactical things
+and the tools and all of that amazing stuff.
+But what I actually want to just focus on here today
+is more around what CRO is, okay?
+And before I actually explain
+what conversion rate optimization
+or if you hear me say CRO,
+that's what CRO stands for,
+conversion rate optimization,
+I want you to first understand what CRO is not, okay?
+For me, sometimes the best way to understand something
+is just to know what it is, okay?
+There's a lot of, again, specific views on CRO.
+This is just my view.
+It's not the right way.
+It's not the wrong way.
+But for me, it's just how I view it, okay?
+And so the first thing that CRO is not, if you ask me,
+is about increasing your Shopify store conversion rate, okay?
+And now I'm more talking about e-commerce here.
+Obviously, general CRO applies everything, right?
+Like if for us at the agency,
+there's CRO that we apply to our landing page
+just to get people to opt in
+and become a lead in whatever it is, right?
+But if you're watching this,
+you're probably a Shopify store
+or you're an agency owner wanting to do CRO.
+And so what I want to set clear right away,
+and this is something that took me a long time to figure out,
+is that CRO is not about increasing
+your Shopify store conversion rate, okay?
+It's not about that.
+It really isn't, okay?
+I'll explain that a little bit further.
+The second thing that CRO is not
+is optimizing around your Shopify store conversion rate, okay?
+When you're launching tests on your website
+and you're using that conversion rate metric
+on your website to figure out whether or not
+it was actually a successful test or not,
+is that is not what CRO is, okay?
+At all, right?
+And we're going to get into that as well.
+And the final thing that CRO is not,
+which again, if you ask me, it's not,
+but things like testing button colors
+and doing these fancy little designs
+and like thinking that you're like biohacking
+or not even biohacking,
+you're like hacking someone's like,
+you know, the little triggers in their brain
+that like make decisions
+and you can just, you know,
+like magically convince them
+because you showed a green button
+rather than a blue button
+that that's going to make them buy.
+Now, is there maybe some scientific studies behind that?
+I'm sure there is.
+And you know what?
+If you're Nike
+and you have a million orders a day
+on your online store
+and you have the data that shows that,
+you know, green performs better than black,
+then great, you know?
+But for a lot of you,
+you're probably not Nike
+and you probably aren't getting a million orders a day.
+And so these little tiny things
+that people obsess over around like,
+is it this or is it that?
+And it's all these little tactical like hacks, right?
+That's not what CRO is about, okay?
+I'm going to get to like more around
+what it actually is in this video
+rather than just telling you what it's not.
+But the main thing is that
+if you're spending your time focusing on this
+and you think this is what CRO is,
+I want to break those beliefs right away.
+I know I'm coming in hot,
+but it is super important
+that you understand this, okay?
+So then the question is,
+is what is CRO, right?
+What is conversion rate optimization?
+If it's not about improving
+your Shopify conversion rate,
+then what the heck is it?
+Well, CRO, if you ask me,
+is improving the customer journey
+to increase the scalability
+of your online business, okay?
+That's what it is.
+And in the context of what CRO is referred to as,
+and I got to give a shout out to Dylan Ander
+because I think he said he wants to punch
+whoever called conversion rate optimization CRO
+because it's so much more
+than just your conversion rate.
+Really the goal of CRO
+and kind of what we're going to get into
+is exactly this.
+It's improving the customer journey
+to increase the scalability of your business
+and the overall success of your business, okay?
+And on top of that,
+CRO is about understanding your customer
+and their specific needs, okay?
+If you can really take the time
+to go deep and understand your customer,
+it becomes a lot easier
+to improve that customer journey, right?
+And then on top of that,
+CRO is so much more than button colors
+and tactical hacks.
+It's about optimizing your product,
+optimizing your offer,
+your messaging, your content.
+These are the big areas
+that you need to be focusing on
+when it comes to conversion rate optimization, okay?
+Now, I'm going to get into some things
+in the upcoming slides here.
+I don't want to spoil it.
+I want to keep this video short.
+But the most important thing here is this, okay?
+I want you to understand
+that CRO is about improving
+your customer journey
+to increase the overall scale, okay?
+That is what we're trying to do
+with conversion rate optimization.
+If you've bought into this program,
+you're watching this video,
+that is what CRO is about, okay?
+That is for me,
+I want my CRO to help me scale.
+And if it's not doing that,
+then I don't really care to do it, okay?
+Because my goal,
+when I'm doing anything,
+any kind of tactic
+or any kind of strategy,
+it needs to help me
+towards my common goal,
+which for a lot of people watching this,
+is to scale and grow my business.
+So if it doesn't scale and grow my business,
+then I don't care, right?
+And so for us,
+CRO is how we can contribute
+to increasing the overall scale
+of our business
+by improving the customer journey.
+So that is all for this video.
+It's very short.
+It's very to the point.
+It's very, you know,
+coming out bold here,
+but I want this
+to be very clear up front
+that everything
+that I'm about to talk about
+moving forward
+is going to contribute to this, okay?
+And then you might see this
+and be like,
+well, you know,
+if I can increase
+my Shopify store conversion rate,
+then I can improve the scalability.
+Yeah, you're right.
+But you know what happens
+when you actually improve
+the scalability of your business?
+A lot of times
+your conversion rate
+is going to go down, right?
+We have clients
+where their conversion rate
+was down 40%,
+but they still did
+over $2 million in sales
+because we did CRO
+to improve the scalability
+of their business.
+We don't care about conversion rate.
+We care about sales, okay?
+So setting the tone here,
+I'm really, really excited
+to dive into these next few modules.
+But for right now,
+this is just a general overview
+of what CRO is about
+and I'm excited for you
+to continue moving down
+through the rest of the program.

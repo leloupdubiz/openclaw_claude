@@ -1,0 +1,599 @@
+Whether you're an established business
+or just getting started,
+Google Ads is so important to understand.
+Today, we're gonna give you a complete tutorial
+and show you everything that you need to do to get set up.
+For those that are new here, I'm Davey Fogarty.
+I spent over $23 million on Google Ads.
+I've done over $270 million on Shopify.
+Let's jump straight in.
+So in today's walkthrough,
+I'm gonna be using an e-commerce product as an example.
+However, if you're looking to set up an agency
+or you're a local business,
+you can use the strategies that I discussed today
+and the basic account structure
+that I'm about to show you.
+At the end, we're also gonna show you
+how to set up Google Shopping.
+Google Shopping is those little images
+that you see of products when you search a query in.
+Google Shopping is far more effective
+for product-based businesses,
+which is apparent by where they actually show up
+in the mobile search.
+Two thirds of the clicks are actually going
+to Google Shopping at the moment.
+So it's really important that you follow through
+through this whole video,
+no matter what kind of business you're in.
+The first step is we're going to write in Google Ads
+and we're gonna start setting up our account.
+We're just gonna click get started
+and you should have a Gmail by now.
+If not, create one.
+And you're gonna be prompted
+to go through these advertising goals here.
+I highly recommend not doing that
+and switching to expert mode straight away.
+Now you've got a lot of options here.
+You can use the sales objective,
+but what we're gonna do today is create a campaign
+without a goals guidance.
+Then we're gonna go to these search campaigns.
+Search examples are where you come into here
+and they actually come up just under the shopping ads.
+So these are the shopping ads,
+and then these are the search campaigns.
+You can see some of our competitors here
+for our cleaning product today.
+I'll just briefly touch on these campaign types here.
+So we've got display ads,
+which are those image ads
+that seem to follow you around all over the web.
+They are either Google display ads
+or their native advertisement through Taboola and Outbrain.
+You don't need to understand them just yet.
+There's also video through YouTube,
+which I'm sure you already know what that is.
+We've also got App, Smart, Discovery, Performance Max.
+The other one that we can see down here
+that is grayed out currently and shopping.
+That's what we're gonna get into by the end of the video.
+For now, we're just gonna stick with search
+because that's the simplest,
+and we're just gonna go website visits.
+If you don't have a website currently
+and you're watching this video,
+just write in anything.
+It's not gonna hold you to it and follow along.
+I do have a URL at the moment.
+It's try at lemonscrub.com.au.
+For those that don't know,
+we're selling a lemon scrub cleaning paste at the moment.
+Now what we're gonna do is name the campaign.
+Campaign names really don't affect your results,
+but it's a really good organizational tool
+and a good habit to get into.
+The campaign name should describe
+what you're actually putting in the campaign
+in both ads and keywords,
+which we'll get into in a second.
+So this is going to be a branded search campaign.
+You've got the search network here and the display network.
+I mentioned display network is images previously,
+but Google is also willing to put the text-based ads
+that we're about to import as the display
+and follow people around the web.
+This is a little bit of advance
+for what we're gonna do today.
+So I'm just gonna unclick that,
+and we're just gonna specialize in search network
+and make sure we get the good results there.
+Next steps is we've got a really nice, easy location selector.
+I suggest setting just one Google ad account
+for each region that you're marketing your product.
+You don't wanna go worldwide.
+For our website, we're targeting Australia.
+So I'm just gonna leave that there.
+It's picked that up nicely.
+And English is fine.
+We've got audience segments here,
+which is again, a little bit more advanced.
+This is where we can upload things and target people
+that we already know is interested.
+We don't need to do that just yet.
+And then we come down to budgeting.
+We will need to put a budget in for today
+and we're just gonna do $10 to get started.
+Ignore this message.
+We're just trying to learn at the moment.
+We're gonna come here and click on bidding.
+Now you can see multiple options here.
+These conversions and conversion value
+is something that you're definitely going to wanna use
+if you're selling a product directly through Google ads.
+You will have to set up conversion tracking through that,
+which you can do through tags, Google tag manager
+and merchant center through shopping ads.
+But now we're just gonna do clicks
+because that applies to every single person
+that's watching this video.
+We definitely can set a maximum cost per bid limit
+to really avoid those clicks skyrocketing.
+However, chances are, if you're just starting your brand,
+you really don't know what you're willing to pay
+for your clicks.
+Let's just put in a placeholder at the moment for $4.
+I doubt we're gonna spend that much
+because those clicks are quite expensive.
+The thing that's really worth noting down here
+is ad extension.
+These ad extensions, when you fill them out,
+can really increase click-through rate.
+They can also increase conversions.
+I'm a big believer in providing Google with as much
+to work with as possible.
+It's the same as Facebook ads.
+I'll just touch on these ad extensions quickly
+and when you would use them.
+A site link extension is where there's another webpage
+within your website that is of interest to people,
+and you really wanna push them there.
+So for example, one of our businesses, outdoor play,
+it's selling outdoor equipment.
+We might wanna push people to the about us page,
+or we might wanna push people to camping gear specifically,
+rather than just the homepage.
+So we could enter in the text, the description,
+and the different URL for that part of the website.
+The call out extension is basically
+your unique selling proposition for your website.
+It might be free shipping.
+It might be free returns.
+Try to be really unique here
+and give really short snippets that are easy to digest
+to make your ad stand out versus your competitor.
+The call extensions is where you can add a phone number
+to your website.
+Phone number's a great way to build trust.
+Existing customers can then easily find your phone number,
+and they can call you, and you can either upsell them
+or solve their problem.
+I'm just gonna add a couple of call out extensions
+for today, such as free shipping,
+above $50, based in Australia,
+as seen on YouTube, premium cleaner.
+I'm gonna save that.
+All of those call out extensions
+need to be incredibly family friendly,
+otherwise they won't get approved.
+We're gonna click save and continue
+and go to our ad groups now.
+So that is basically our campaign structure,
+who we're targeting and whatnot.
+It's a little bit different to Facebook,
+where their ad groups are actually
+where all that targeting happens.
+If you're really new to Google
+and you're not really sure what your product is,
+you can probably just set up one ad group at the moment
+and get some results with it.
+If you kind of know what product you're marketing,
+you might wanna set up multiple ad groups.
+So you can see here that now I've gone to my ad group,
+all of this stuff has populated.
+That is actually populated from our website,
+because we gave it the URL at the beginning.
+It's grabbed all of the example keywords.
+Keyword research used to be a really,
+really important part of Google ads.
+Like all marketing, it is adapting over time.
+There are hundreds of keyword tools out there.
+If you're a beginner, the main requirement
+is that it's free.
+We're gonna come up here
+and we're gonna use Keyword Sheeter.
+We're gonna click here,
+and it's a free tool with absolutely no sign up.
+So now we're on Keyword Sheeter,
+I'm just going to filter by Australia.
+I wanna go a little bit more narrow
+around why someone would be using my product.
+Why do they want the cleaning place?
+Do they wanna clean a barbecue?
+Do they wanna clean their kitchen?
+Do they wanna clean their oven?
+It's really important to understand this
+because we wanna make our ads as specific as possible
+to the buyer's intent when they're searching this keyword.
+If they're searching for a great bathroom cleaner,
+and they see something about a barbecue cleaner,
+and our ad talks about how it's great at cleaning barbecues,
+there's less likely that they're gonna click on that,
+rather than if we say,
+we're the best bathroom cleaner of all time.
+So I'm actually gonna use the barbecue cleaner
+as an example here, and I'm gonna start keywords.
+This is now gonna give me a bunch of keywords
+that I can now target in Google.
+Now you can see that there's barbecue cleaner wipes,
+barbecue cleaner set.
+We've also got barbecue cleaner as seen on TV.
+These are all great things to start thinking about.
+We can handpick a couple of these
+and paste them in here to target.
+Now it's worth talking about this section down here,
+where we can actually narrow down our keyword search.
+We've got what's called a broad match,
+which is what I've put in here.
+Basically what that means,
+it allows Google to really associate synonyms
+with those kind of keywords.
+So if it thinks that its user is Googling something similar
+to barbecue cleaner spray,
+chances are your ad could show up.
+Now this could be detrimental.
+For example, if someone was writing in,
+worst barbecue cleaner of all time,
+or even something as broad as buy barbecue,
+your product could show up.
+This is why they allow you to do a phrase match,
+which narrows it down a little bit.
+So if the keywords are jumbled around a little bit,
+it'll still show up.
+This would most likely stop people searching
+to buy a barbecue, getting our ad.
+Exact match is also really useful
+if you've got a very narrow search intent.
+So to do that, we just click the open brackets like this.
+And to do a phrase match, all we do is this.
+There are also other types of match types that you can use,
+such as using a plus sign,
+which basically means that this keyword needs to appear
+in the search query.
+You can research these in your own time.
+I'm not gonna do anything for this today's example,
+but really think critically
+about what the customer could be searching for
+so that you can make sure
+that you've got that keyword selected.
+The next thing that we can also do
+is create a new ad group down here.
+Now this is again,
+trying to really narrow down that intent.
+This ad group can be barbecue cleaner
+and this ad group can be oven cleaner.
+Again, we want to keep the same URL.
+One option there is we could actually push them
+to the product page or a specific landing page
+designed around the oven cleaning capabilities of the brand.
+We can then go down here
+and we can just write in oven cleaner.
+We can do best oven cleaning.
+We could also do something like this,
+like best oven cleaner as an exact match.
+Make sure that you get a fair few keywords in here
+so that you can learn from the optimization.
+Next step is we're just gonna click save and continue.
+And we're gonna go into the create ad section.
+Now this is where you can make a lot of money.
+A bad ad agency will really skip over this
+and not do enough variations
+as well as not understand your product and able to sell it.
+This is why your competitors will beat you.
+Sit at the top of the page more
+and get more click through rate.
+For this URL, I'm just gonna fix that up.
+Now we've got the display path here.
+If you have a great URL structure,
+you could put the product here
+so that people feel more confident
+that they're clicking on the right URL.
+Headlines will obviously be the first thing people read.
+There are also only 30 characters.
+So you need to make it short and snippy.
+Snippy.
+Punchy.
+Punchy.
+You snippy.
+One thing to note is that this ad group here
+is for the barbecue cleaner.
+See up here, it says the barbecue cleaner.
+So it's those keywords that we talked about before.
+Down here, we've got the oven cleaner.
+This is not where I would put in ads
+about cleaning a barbecue.
+In this section, we need to be talking
+to barbecue enthusiasts.
+But in this section, we might wanna talk to a cleaner
+or someone that just really loves cleaning.
+So the language we're gonna use in our ads
+are very, very different.
+For the headline here, I'm just gonna say,
+tough barbecue cleaner, best barbecue cleaner.
+And you can see that these are going to populate here.
+It also gives you some options here.
+If you're getting really stuck,
+what you can do is you can head over to Google
+and we can actually get some inspiration
+from our competitors.
+So we can do cleaning product.
+And we can look at some of the headlines
+that they're running.
+Obviously, don't copy them directly.
+We need to actually beat them.
+So we can see sustainable cleaning products,
+chemical-free cleaning, natural cleaning products.
+We've got quantity discounts.
+That's an interesting one.
+So we can come in here.
+Natural cleaning paste.
+We don't need to always make it about barbecues.
+We can make it a broader marketing approach.
+So we can even head to our website to grab some examples
+from our copy that we've done.
+So wipe away years of dirt.
+That's a great one.
+Next step is descriptions.
+This is gonna be far less important.
+However, do make sure that you write enough copy.
+I'm just going to grab some stuff from our website.
+You can obviously put a lot more information in here.
+Not 218 characters, but you get the idea.
+And that's looking pretty good.
+You can see the preview ad, an example here.
+Best barbecue cleaner, wipe away years of dirt,
+natural cleaning paste.
+I'd click on that.
+Now what I'm gonna do is change it up a little bit
+for the oven cleaner.
+And now what we can do is we can click save and continue.
+Now I'm done there.
+Now I can set up my billing.
+Sometimes you can get promotional codes floating around.
+Make sure you Google that first.
+And we're just gonna enter our card details.
+And those ads should start running.
+Congrats.
+You've done it.
+Now what we can do is we can click explore your campaign.
+I'll give you a quick overview of how you can see your results
+and what you're looking for.
+It's really important once you've set up these campaigns
+to just constantly iterate.
+Digital marketing is always about just trial and error.
+You wanna spend small budgets
+when you don't know what you're doing,
+reading the results and optimizing it.
+You'll obviously get better at this
+with pattern recognition over time.
+You'll also become a better marketer,
+understanding your product and your consumer needs.
+I feel like my voice has changed
+to like a soothing spa person.
+Yeah.
+That's where we started.
+I don't know if it's like bad or like good.
+Like I feel pretty zened out,
+but I'm sure my viewers are also like.
+What I do recommend is clicking switch view here.
+And it's gonna take you to this table.
+What we've got over here
+is the campaigns that we're running.
+We can get in more details from them going into ad groups.
+We can see both of our ad groups there,
+our barbecue cleaner versus our oven cleaner.
+You've got this graph here.
+This will populate over time.
+We can strive for the lowest possible cost per click
+by optimizing our keywords, ad groups,
+all of those kinds of things over time.
+You can also click into here to understand more
+about the keywords that are actually working.
+And then you can also go into the ads here
+and see what's working here.
+All of this will start populating with the results.
+Now you might be thinking,
+what's a click worth?
+And that's a really, really good question.
+Even if you're lowering clicks,
+perhaps you're not getting better customers.
+This is why it's really important to really optimize for sales.
+You can easily set this up with Shopify
+if you're selling or other conversion based objectives.
+Today, I'm gonna show you how to set up Google Shopping.
+So to get shopping,
+we actually need to go to another Google service,
+which is Google Merchant Center.
+We can click sign in here, sign into Merchant Center.
+So now we need to follow the prompts
+and get our products set up on Google.
+This can be a little bit complicated.
+Just as a first step,
+make sure that you have your terms and conditions
+on your website and all your contact details.
+Otherwise your products actually might not get approved
+in the Merchant Center.
+We're gonna click continue here
+and you can see this is showing our products free on Google.
+This will also support us
+when we wanna actually pay for ads in Google Shopping.
+So we're gonna click continue.
+We're gonna go through all these details.
+So they might make you verify your phone number as well,
+which is fine.
+They're not gonna show you that to customers.
+We're gonna click continue.
+Now we need to verify it and claim our website.
+So we should be able to write in our website domain here.
+Now, depending on when you're watching this video,
+this process could look a little bit different.
+Most of the steps are exactly the same,
+just the design has changed.
+This step, they might actually ask you
+to add a small bit of code to your website as well,
+which is nice and simple.
+Now what we need to do here
+is enter all of our shipping information.
+So I'm just gonna put in free shipping.
+We've got Australia and AUD, which is correct.
+Now it's really important you try to get this information
+as close as possible
+because Google Merchant Center can actually just ban you
+and deny your products.
+Enter in your approximate delivery time.
+I'm just gonna say around 2 p.m.
+We're self-fulfilling this out of my house.
+So handling time can be one to two days
+and transit time's gonna be two to eight days.
+Click next.
+And now we've got shipping costs,
+free shipping over a certain amount.
+So for order price under $50, we charge $9 shipping,
+free shipping over that.
+This all looks like a pretty good summary.
+We can click continue.
+Now this is an interesting part.
+You can add one product at a time,
+but if you're a clothing store,
+you might have hundreds of products.
+So you might wanna click add multiple products at once.
+You're gonna select your language and click continue.
+Now you have multiple options here
+and you can upload a feed.
+So you've got Google Sheets,
+which you can learn more there to find the format
+about how you can use Google Sheets
+to update this feed.
+You've also got scheduled fetch.
+You've got upload and content API.
+Now at this stage,
+we're gonna actually wanna come back to our Shopify
+and we're gonna download an app
+that most people use for this process.
+So we're gonna come into the Shopify app store
+and we're gonna write Google Shopping.
+There's plenty of apps out there,
+but we use this one.
+Feel free to look through and see
+if there's any free trials or cheaper options.
+The pricing will change depending on how many products
+you actually have to upload,
+but it's very negligible costs.
+We're gonna add this app to our Shopify store
+to get our shopping feed.
+Now, cause we only have one product for this store,
+you're probably wondering,
+why can't I just use that?
+It's really important to create a feed link
+because if you ever update pricing
+or add multiple products,
+you want this all to be on autopilot
+in the backend changing.
+So we're gonna install the app here.
+And what we're gonna do is click login with Google.
+We should log in with that same Gmail
+that we've been logging in with.
+We're gonna click allow,
+and we should be able to click here
+and select the merchant center we want.
+We're gonna click confirm account.
+Now, the only thing that we actually need to select here
+is the product format.
+We can use the SKUs or the global format,
+either or is fine.
+I'm just gonna use global format.
+Now it's gonna sync the products
+from Shopify into this app.
+As you can see,
+it's now trying to push the products
+to our Google merchant center.
+Now what we can do is we can come into here
+and click set up Google shopping ads.
+Now you've got to enter all of this information here
+with all of your shipping services,
+your website and also your product data.
+So let's just do that.
+We're gonna have to set up our tax,
+which can be complicated depending on where you are.
+If you're in the United States,
+they'll probably have more comprehensive information here.
+There's a complicated tax structure between states.
+Because I'm not,
+it's just suggesting this structure.
+So I'm just gonna click save
+and that should all be okay.
+Now we've added that product feed.
+We should be able to come back here and refresh
+and our products will show up here.
+You can see them here
+and they may still be updating,
+but we can click continue and finish this step off.
+I highly do recommend going through the policies
+and making sure you tick all their boxes.
+And now the final step is just,
+we're just waiting on those products
+to actually be approved.
+So I can come back anyway,
+come back to Google merchant center
+and I can finish setting up my Google shopping ads.
+Coming in here,
+all of these options should now be populated
+because I filled them up in the previous section.
+Obviously I can't add my products just yet
+because they're waiting approval,
+but I can link my ad account.
+And this Google ad ID should pop up
+because I'm using the same email address.
+There are other ways that you can link
+your Google merchant center to your Google ads account,
+such as through Google ads,
+but now I can actually just click link.
+They made it nice and easy for me.
+Once I've clicked the link,
+it should send a request to my Google ad account.
+So now I can head back to my Google ad account
+and I can click tools and settings
+and I click setup.
+And then I come down here to linked accounts.
+Now you can see this has received a request now,
+the Google merchant center
+and click manage and link and complete the connection.
+I'm gonna approve that.
+And now my Google merchant center
+is now speaking to my Google ads,
+which is going to allow me to run a Google shopping ad.
+Once the products have been approved,
+what we should be able to do is come up here
+and we can create a new campaign.
+We should be able to click sales.
+Come down here and click shopping
+and the linked account will be down here.
+We can go through all of the same steps
+that I showed initially
+to show those amazing Google shopping ads
+that convert really, really well.
+Now make sure that you are setting up reviews
+on your website
+and making sure that that review feed
+is also linked to your listing.
+This is gonna give you those amazing stars
+and increase your click through rate.
+Just like Facebook,
+Google shopping is getting very, very smart.
+Soon keywords are probably gonna be completely irrelevant.
+We don't even use them for shopping ads.
+Soon they're going to just use those feed
+that we just set up
+and reading the website
+to optimize accordingly for your brand.
+It's still a great thing to jump in
+and learn how to set up the account
+so you can be literate when you hire an agency
+and start checking out their results.
+I hope today's episode allowed you
+to find some success with your brand
+and set up your first ad.
+Don't forget to like and subscribe.
+Thanks for watching.

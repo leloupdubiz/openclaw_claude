@@ -1,0 +1,42 @@
+# lesn 1b1vQbBN6UkYnXy3kRob8C
+> Transcript complet — 100% du contenu original
+
+---
+
+Okay, let me now walk you through the riffs for UGC ads and before you start editing these, I want to say, so it might be beneficiary for you to first go through all the different modules in video editing pillar or video ads pillar because there are stuff about video hooks, about retention and I even have a live breakdown example of how I edit a UGC ad. So that might be beneficial for you to watch first before you edit these ads. But if you want, you can edit it now with the knowledge you have so far. And I didn't include any examples here on purpose because I want to see what you come up with and how you think these ads should look like. So that might be even a good exercise for you now.
+
+Like to edit these first, then watch to the rest of the modules in video ads pillar and then you come back to this again and you'll kind of look at your edits and you see, you know, maybe you kind of see areas you could improve on and stuff you could do better. But if you want to go to the rest of the video ads pillar, you can and then get back to edit these. Whatever works for you. But basically what this is. So you have, again, we have the same structure.
+
+So we have two different hooks and then we have the hold. And for this, obviously we got the credit to shoot some content for a specific angle that we wanted to work on. So this is specifically for for a head dryer product, obviously. And it talks about, you know, salon quality at home, you know, how other hair dryers burn your hair and this one doesn't stuff like that. And basically you have two different hooks.
+
+So for each variation, you know, use a different hook, obviously. And then for the hold, you have the you have the story laid out. So this is the first line. This is the second line, third, fourth, and then fifth, you know, and so on. So basically that's how the script should go.
+
+We just need to, you know, kind of polish it and edit it and like edit the bad things out and stuff like that. So basically that's how the how the script should go. So you can see how like these arrows in our point to the next clip. So that's basically it. And then obviously since this is you see you have this creator talking about something.
+
+And then obviously you have the same creator who shot, you know, B-roll that you can use when editing this ad basically. So you know, this this is basically a proper UGC concept because you have, you know, you have created a living the script and you have that same creator talking about the product basically and not talking about the product, but recording stuff with the product. So we have the same creator talking about it and then the same creator, you know, shooting the content for it. So pretty self explanatory. So pretty self explanatory.
+
+You can look at some UGC examples like maybe go on a three hour try to find some, you know, UGC ads or try to do research how UGC ads look like. But I didn't add any examples here on purpose because I want to see what you come up with so I can give you no more actionable feedback. So you again, learn from your mistakes or learn from your, you know, accomplishments. If you did something amazing, well, that's that's obviously a good job. So yeah, again, pretty self explanatory.
+
+Again, the only difference in variations is the is the hook and then the rest of the video, the rest of the hold is all the same. That's how you should do this one. And then this one, you see at number two. Okay, this is UGC ad number two. Again, the same thing is just for different product and a different creator.
+
+And in this case, we don't have three different hooks. We only have one line that she obviously delivers. And what we want to do for variations here is basically use different visuals. So hook one can be maybe created, I don't know, just show creator talking. Hook two can be you show creator, I don't know, picking up the package or un boxing and then hook three can be you show maybe the product missing or you show something else .
+
+But basically here, we instead of having three different hook texts and three different hook, you know, copy here, we want here, we want to have three different hook visuals, essentially. And then the concept is, I mean, the principle is the same as previous one. So you have hold and then you have, you know, laid out how the hold should flow and you have the script laid out here basically. And again, you have a bunch of custom footage that you can use as a B-roll. So pretty self explanatory.
+
+And then the third one. So this one is not a classic UGC ad because obviously user generated content kind of indicates that there's a user that generated some content. But in this case, it isn't. But this is like very popular, very popular format of ads that's kind of that kind of falls into UGC, but isn't really UGC, if that makes sense. And what this is, is basically you have a voiceover.
+
+So as I said, instead of, you know, having create a talk about it, you just have their voiceover and in this case, it's AI voiceover. It was intended to be a voiceover because this voice was, was pretty popular. So that's why we decided to use that. And here you have some examples how these ads should look like basically. And this is a sick brand, Dr.
+
+Squatch. I believe I already talked about them once, maybe not sure. But they have just insane video ads. And I really like their editing. I really like how they, how they edit their ads, how they add a bunch of B-roll , like something changes on the screen every two seconds.
+
+It's very engaging. It's very eye-catching. There's a bunch of stuff going on. They're very, they're very tactical with what they show and like how they visualize some stuff from the script. So definitely study these ads or even if you want, like if you, if you want to do more research, you go on atria and look, look at Dr.
+
+Squatch and look, they look how they edit ads. Because I know if you can edit like these type of ads, that's very interesting to clients. And usually clients in a love when you can, when you can do stuff like Dr. Squ atch because they're very popular in e-comm space. They're ads at least.
+
+And basically like I said, you have, you have the script, again, two different hooks. You have a hold and then you have a voiceover here attached that you can use as a base. And then you just, you just need to add a bunch of B-roll on top of it or animate stuff animate stuff or like visualize the script basically. Sorry. So here you have a bunch of gold drive holders that contain a lot of content.
+
+You don't have to use all of it, obviously because it's because there's a lot. But basically you have a bunch of content and just kind of get familiar with it , go through it and just pick the best footage. You have a great variety. So definitely make the ad engaging. You know, use as much content as you can.
+
+Try to be as creative as you can. Try to come up with, you know, creative hooks from this content. There's a bunch of stuff you can do. And yeah, again, I didn't include any examples because I want you to be creative. I want you to come up with your own idea how you want to edit this and how you want to basically execute this ad so I can give you feedback.
+
+But yeah, that's pretty much it. These are all three UGC briefs that you have to do. And yeah, again, once you do them, send them over to me and I am happy to give you feedback. Thank you.

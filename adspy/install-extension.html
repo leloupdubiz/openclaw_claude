@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><title>ADSPY PRO — Install Extension</title>
+<style>
+  body { font-family: system-ui; max-width: 600px; margin: 60px auto; padding: 20px; }
+  h1 { color: #111827; }
+  .step { background: #f9fafb; border-radius: 10px; padding: 16px; margin: 12px 0; border-left: 4px solid #3b82f6; }
+  .step strong { display: block; margin-bottom: 6px; font-size: 15px; }
+  code { background: #111827; color: #fff; padding: 4px 10px; border-radius: 6px; font-size: 13px; }
+  .path { background: #fef3c7; padding: 8px 12px; border-radius: 6px; font-family: monospace; font-size: 13px; word-break: break-all; }
+  .btn { display: inline-block; background: #111827; color: #fff; padding: 10px 20px; border-radius: 8px; text-decoration: none; cursor: pointer; border: none; font-size: 14px; margin-top: 8px; }
+</style>
+</head>
+<body>
+<h1>🔭 ADSPY PRO — Installer l'extension Arc</h1>
+<div class="step">
+  <strong>1. Ouvrir la page Extensions Arc</strong>
+  <a class="btn" onclick="window.location='arc://extensions'">Ouvrir arc://extensions</a>
+</div>
+<div class="step">
+  <strong>2. Activer le Mode Développeur</strong>
+  Toggle "Mode développeur" en haut à droite (si pas déjà fait)
+</div>
+<div class="step">
+  <strong>3. Cliquer "Charger l'extension non empaquetée"</strong>
+  Puis naviguer vers ce dossier :
+  <div class="path">/Users/pc2/.openclaw/workspace/adspy/extension</div>
+  <button class="btn" onclick="navigator.clipboard.writeText('/Users/pc2/.openclaw/workspace/adspy/extension')">📋 Copier le chemin</button>
+</div>
+<div class="step" style="border-color:#10b981">
+  <strong>✅ Une fois installée</strong>
+  Va sur <a href="https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=DE">Facebook Ad Library</a> — les boutons "🔭 Save" apparaîtront sur chaque ad.
+</div>
+</body>
+</html>

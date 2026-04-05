@@ -1,0 +1,64 @@
+# lesn 5BXQf2CF3FOs12oxrbgC2g
+> Transcript complet — 100% du contenu original
+
+---
+
+Alright, in the last video we covered organic ads and now we're diving into UGC , user-generated content. And if you learn how to make good UGC ads, you will pretty much know how to make every other type of ad out there. Plus, UGC is the most common ad type and the most in-demand ad type and there's a reason for that because it just works.
+
+So let's go back to before UGC was everywhere. Most brands were just running what we call branded ads, just some product shots with basic music in the background, maybe some text showing some product benefits or features, you know, boring as fuck. No personality, just some cookie cutter ads everyone else was making. But then brands started noticing something interesting. Their best marketing wasn't coming from their polished ads, it was coming from their customers.
+
+Think about it, when was the last time you bought something online without checking the reviews first? Exactly, I bet you always go down to reviews and see what others have to say about the product, see what kind of experiences others have. We trust other people way more than we trust brands. That's when brands had this holy shit moment and the UGC exploded. But it evolved from just random customer reviews into something much more strategic.
+
+Instead of brands just hoping customers would make good content, they started getting intentional about it. They realized they can reach out to content creators, send them some products and pay them to record a video talking about their product. That's UGC and that's exactly what we're gonna break down. Now you might be thinking, isn 't this just like those organic ads we just covered? Well, not exactly.
+
+And let me actually try to explain a difference in a way that will make perfect sense. So, for example, you know when you're chatting with your friend and you happen just to mention something cool that you bought. Like, oh, I got these new headphones, they're very cool. Like the sound quality is very nice, there's no delay. Like in my old Bluetooth headphones, that's organic.
+
+You're just casually sharing something because you genuinely like it. No agenda, no trying to convince anyone, just, you know, a natural mention in a conversation. UGC, that's more like when you discover this, I don't know, absolutely insane game online. You get hooked playing it and now you're in a fucking mission to get your friends to buy it so you can all play together. And you're hitting them with everything.
+
+Bro, the graphics are incredible, the storyline is mind-blowing and there's this sick multiplayer mode where we can build our own world and play co-op or whatever and you're strategically laying out like every single reason why they needed this game in their life so they buy it. And you see the difference, both are authentic because you genuinely love what you're talking about. But UGC has that extra layer of strategy. You're intentionally trying to convince someone to take action. You're thinking about what would make them want to buy, what objections they might have, what features of the product would get them excited.
+
+That's UGC, that's how UGC creators talk about the products to basically manipulate other people into buying them. And like I said, UGC is more structured. So let me try to break down one most common and simple UGC structure. So it consists of hook, problem, twist the knife, product intro, feature/benefit, bad alternative, results and CTA. If none of this makes sense to you, it will in about 2 minutes.
+
+Let me break it down for you. So we have our hook and this is your scroll stopper. With hook you need to grab attention and qualify your viewer. So you have to either call out your target audience or hit them with something that makes them think, "Huh, this video is made for me." Problem? Here you're establishing the main issue your product solves.
+
+But the key is you need to describe it exactly how your customer would use their language, their frustrations and make it seem real and authentic. Twist the knife, this is where you dig deeper into the emotional impact of the problem. You're showing them that you truly understand not just what they're dealing with but how it affects their life. You have to make them feel understood. And since it's called since it's called twist the knife, you literally have to make them realize how big their problem is and kind of make them fearful a bit.
+
+Product intro? So after we, you know, stated the problem, we twist it a knife, then we bring in the solution in the form of our product. But it needs to feel natural, like it's the obvious next step in our story, you know, not it can't seem forced. Think of it as the aha moment when someone's telling you a story. It needs to feel like that.
+
+Feature/benefit? Here you're highlighting what makes your product special and better than anything else. But don't just list features of your product because every feature should be tied to a specific benefit that matters to your customer. Think of it as why should they care about this feature and how does this feature make their life better. Bad alternative?
+
+This is where you address what they've probably already tried, some failed past solutions and you're not just bashing competitors directly, sometimes you can't do that. But you're showing why other solutions to the same problem fall short. This builds credibility because you're acknowledging their experience. You know how they feel like, so they trust you more. Results?
+
+This is where you show some proof. This could be your personal results, maybe some before and afters. This could be customer results, whatever, but it needs to be specific and believable. And CTA, this is where you tell them exactly what to do next. It should be simple, clear, and usually it includes some kind of urgency or incentive.
+
+Posture check. If your back is killing you right now from sitting in that cheap auto-tier, give me 60 seconds. I was spending 12 hours a day at my desk working and my back was absolutely destroyed. I couldn't focus on work because I was constantly shifting positions trying to get comfortable. But the worst part wasn't even the pain.
+
+It was realizing I was 22 and already walking around like an old man. Every time I stood up I could feel my back crackling like a bowl of rice crispies. And that's when I discovered this ergonomic chair. And before you scroll past thinking, "Oh, great, another overpriced office chair." This is different. Unlike those basic office chairs that just have a flat back support, this uses dynamic lumber technology that actually moves with you.
+
+Plus, everything is adjustable. Their arm sets, their seat depth, even the tension in the back support. I went through three different ergonomic chairs from Amazon. They felt good for maybe a week than the support gave out. This, I've had it for six months and my back has never felt better.
+
+Look at this. This isn't me forcing good posture. This is how I naturally sit now. No more back pain, no constant fidgeting, and I can actually focus on work instead of my discomfort. So, what are you waiting for?
+
+Click the link below to get limited time 20% off. Your back and your productivity will thank you. So, now you know how UGC looks like. And what makes this structure makes this structure so powerful is it follows the exact thought process your customer goes through. From realizing they have a problem, to understanding why other solutions haven't worked, to seek proof that your product is actually different.
+
+And the best part is this same structure can work for any product. Skincare, fitness equipment, tech gadgets, doesn't matter. Just adjust the details while keeping the core structure and you've got a winning UGC script. And what I just showed you is just one proven structure. But there are hundreds of different ways to structure UGC.
+
+For example, sometimes you might start with results right away if your product is super results oriented and problem-solving. And that may even work for an ergonomical shared example, which is dead. You can simply show a split screen of how your posture was bad before you use your product and how it's good now after using it. Then maybe you don't even need a bad alternative section because your product is completely unique is completely unique and there's no competitors. Or hell, maybe your best angle is just showing your product in action for 30 seconds with minimal talking.
+
+Example for this would be a non-stick pan. You don't have to talk about how non-stick pan works. Just show how you can use it to cook a bunch of different stuff and nothing sticks. The point is there's no one size fits all template for successful UGC. What matters is understanding your product, knowing your audience, and then structuring your content in a way that feels authentic while still hitting the key points that make people want to buy.
+
+Now let's break down exactly how UGC content gets made because there's a clear process here. So first it all starts with research, understanding the product, audience, and what's working in the market. Second is ideation, choosing our angle and structure for the script. Third is script and show list. This is where we actually write some copy for the script and build a shot list for creator.
+
+Fourth is production and that's where creator records a script and shoots b-roll footage. And fifth is editing when we piece it all together. So from my example of an ad for an ergonomic chair I just shot in my office. You can see how every part of the structure has dedicated shots and dedicated b-roll that supports the script . That's how most of the UGC briefs you'll be working on will look like.
+
+And then your job as an editor is to piece this together in a way that feels natural and keeps people watching. And now I know we haven't covered the detailed editing process yet. That's coming later in the course. But honestly the best way to learn this shit is to just start doing it. So I've put together a package for you.
+
+You'll get a real UGC brief script from a creator and some b-roll footage from the same creator. And your mission is to edit this into a UGC ad. And yes I know you might make mistakes. That's the whole point. Don't worry about making it perfect.
+
+Send me what you create and I'll give you personal feedback on how to improve. Because the only way to get better is by actually doing the work. And because I want to set you up for success I'm also dropping a board of some of the best UGC ads I found online. Real examples that show you exactly how it's done. Take some time to study these before you start editing.
+
+Look at how they paste the footage, how they match, b -roll to the script, how they transition between shots. These aren't random ads. I mean they are random. But these are random. But these are some examples that I chose of UGC editing done right.
+
+So take inspiration from them and I'll be on the lookout for your UGC edit.
+
+Next up we're diving into VSLs. And if you thought UGC was structured, to wait until you see these bad boys. See you there.

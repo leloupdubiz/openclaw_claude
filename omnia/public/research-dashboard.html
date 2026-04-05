@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚡ EVOLVE Phase 1 — Nellio UltraCalm Research Dashboard</title>
+<style>
+:root {
+  --bg: #08080f; --bg2: #0f0f1a; --bg3: #141428;
+  --coral: #FF6B6B; --mint: #4ECDC4; --gold: #FFD166;
+  --purple: #9B72CF; --blue: #4A9EFF; --green: #51CF66;
+  --text: #e8e8f0; --text2: #a0a0b8; --text3: #606080;
+  --border: rgba(255,255,255,0.08);
+  --card: rgba(255,255,255,0.04);
+  --reddit: #FF4500; --amazon: #FF9900; --tiktok: #f0c040;
+  --forum: #4A9EFF; --pubmed: #51CF66; --brand: #c0c0c0; --trend: #9B72CF;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; line-height:1.6; }
+a { color:var(--mint); text-decoration:none; }
+
+/* HEADER */
+.header { background:var(--bg2); border-bottom:1px solid var(--border); padding:16px 24px; position:sticky; top:0; z-index:100; }
+.header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+.header h1 { font-size:18px; font-weight:700; }
+.header h1 span { color:var(--coral); }
+.badge-status { background:rgba(81,207,102,0.15); color:var(--green); border:1px solid rgba(81,207,102,0.3); padding:4px 12px; border-radius:20px; font-size:12px; font-weight:600; }
+
+/* TABS */
+.tabs { display:flex; gap:4px; flex-wrap:wrap; }
+.tab { padding:8px 16px; border-radius:8px; cursor:pointer; font-size:13px; font-weight:500; color:var(--text2); background:transparent; border:1px solid transparent; transition:all .2s; white-space:nowrap; }
+.tab:hover { background:var(--card); color:var(--text); }
+.tab.active { background:rgba(255,107,107,0.15); color:var(--coral); border-color:rgba(255,107,107,0.3); }
+
+/* CONTENT */
+.content { padding:24px; max-width:1400px; margin:0 auto; }
+.panel { display:none; }
+.panel.active { display:block; }
+
+/* CARDS */
+.card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:16px; }
+.card-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(340px, 1fr)); gap:16px; margin-bottom:20px; }
+.card-grid-3 { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:14px; }
+
+/* SECTION TITLES */
+.section-title { font-size:20px; font-weight:700; margin-bottom:20px; display:flex; align-items:center; gap:10px; }
+.section-title .count { background:var(--coral); color:white; border-radius:20px; padding:2px 10px; font-size:13px; }
+.subsection { font-size:15px; font-weight:600; color:var(--mint); margin:20px 0 12px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+
+/* SOURCE BADGES */
+.badge { display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; margin-bottom:4px; }
+.badge.reddit { background:rgba(255,69,0,0.2); color:var(--reddit); border:1px solid rgba(255,69,0,0.3); }
+.badge.amazon { background:rgba(255,153,0,0.2); color:var(--amazon); border:1px solid rgba(255,153,0,0.3); }
+.badge.tiktok { background:rgba(240,192,64,0.2); color:var(--tiktok); border:1px solid rgba(240,192,64,0.3); }
+.badge.forum { background:rgba(74,158,255,0.2); color:var(--forum); border:1px solid rgba(74,158,255,0.3); }
+.badge.pubmed { background:rgba(81,207,102,0.2); color:var(--pubmed); border:1px solid rgba(81,207,102,0.3); }
+.badge.brand { background:rgba(192,192,192,0.15); color:var(--brand); border:1px solid rgba(192,192,192,0.2); }
+.badge.trend { background:rgba(155,114,207,0.2); color:var(--trend); border:1px solid rgba(155,114,207,0.3); }
+
+/* RESEARCH ITEMS */
+.research-item { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:10px; transition:border-color .2s; }
+.research-item:hover { border-color:rgba(255,107,107,0.3); }
+.item-header { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; margin-bottom:8px; }
+.item-num { background:rgba(255,107,107,0.15); color:var(--coral); border-radius:6px; padding:2px 8px; font-size:12px; font-weight:700; flex-shrink:0; }
+.item-title { font-weight:600; font-size:14px; flex:1; }
+.score { background:rgba(255,209,102,0.15); color:var(--gold); border-radius:6px; padding:2px 8px; font-size:12px; font-weight:700; }
+.tier-1 { border-left:3px solid var(--coral); }
+.tier-2 { border-left:3px solid var(--gold); }
+.tier-3 { border-left:3px solid var(--text3); }
+.de-text { font-style:italic; color:var(--text); font-size:13px; margin:4px 0; }
+.fr-text { color:var(--text2); font-size:12px; margin-top:4px; padding-top:4px; border-top:1px solid var(--border); }
+.fr-text::before { content:"🇫🇷 "; }
+.response { color:var(--mint); font-size:12px; margin-top:6px; }
+.response::before { content:"→ "; font-weight:700; }
+
+/* STATS */
+.stats-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); gap:12px; margin-bottom:24px; }
+.stat { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; text-align:center; }
+.stat-value { font-size:28px; font-weight:800; color:var(--coral); }
+.stat-label { font-size:12px; color:var(--text2); margin-top:4px; }
+
+/* COMPETITOR CARDS */
+.comp-card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:18px; transition:all .2s; }
+.comp-card:hover { border-color:rgba(78,205,196,0.4); transform:translateY(-1px); }
+.comp-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px; }
+.comp-name { font-weight:700; font-size:15px; }
+.comp-url { color:var(--text3); font-size:11px; }
+.threat { padding:3px 8px; border-radius:6px; font-size:11px; font-weight:700; }
+.threat-high { background:rgba(255,107,107,0.2); color:var(--coral); }
+.threat-med { background:rgba(255,209,102,0.2); color:var(--gold); }
+.threat-low { background:rgba(160,160,184,0.15); color:var(--text2); }
+.comp-row { display:flex; justify-content:space-between; font-size:12px; padding:4px 0; border-bottom:1px solid var(--border); }
+.comp-row:last-child { border:none; }
+.comp-row .label { color:var(--text2); }
+.comp-weak { background:rgba(81,207,102,0.1); border:1px solid rgba(81,207,102,0.2); border-radius:6px; padding:6px 10px; font-size:12px; color:var(--green); margin-top:10px; }
+.comp-weak::before { content:"✅ "; }
+
+/* SCIENCE */
+.study-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; }
+.study-result { font-size:20px; font-weight:800; color:var(--coral); }
+.study-meta { font-size:11px; color:var(--text3); margin:4px 0 8px; }
+.mechanism-card { background:var(--card); border:1px solid rgba(155,114,207,0.2); border-radius:10px; padding:14px; }
+.mechanism-num { color:var(--purple); font-size:12px; font-weight:700; }
+
+/* AVATARS */
+.avatar-card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; }
+.avatar-header { display:flex; gap:12px; align-items:center; margin-bottom:16px; }
+.avatar-emoji { font-size:36px; }
+.avatar-name { font-weight:700; font-size:16px; }
+.avatar-meta { color:var(--text2); font-size:12px; }
+.pain-list { list-style:none; }
+.pain-list li { padding:4px 0; font-size:13px; color:var(--text2); }
+.pain-list li::before { content:"💔 "; }
+.hook-box { background:rgba(255,107,107,0.1); border:1px solid rgba(255,107,107,0.2); border-radius:8px; padding:10px; margin-top:12px; }
+.hook-box .de { font-style:italic; font-weight:600; }
+.hook-box .fr { color:var(--text2); font-size:12px; margin-top:4px; }
+
+/* DOCS */
+.doc-section { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:20px; margin-bottom:16px; }
+.doc-section h3 { color:var(--mint); margin-bottom:12px; font-size:15px; }
+.doc-table { width:100%; border-collapse:collapse; font-size:13px; }
+.doc-table th { background:rgba(255,255,255,0.05); padding:8px 12px; text-align:left; color:var(--text2); font-weight:600; font-size:12px; }
+.doc-table td { padding:8px 12px; border-bottom:1px solid var(--border); vertical-align:top; }
+.doc-table tr:last-child td { border:none; }
+.doc-table .de { font-style:italic; }
+.doc-table .fr { color:var(--text2); font-size:11px; }
+
+/* FUNNEL */
+.funnel-step { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:14px 18px; margin-bottom:8px; display:flex; gap:14px; align-items:flex-start; }
+.funnel-step:hover { border-color:rgba(78,205,196,0.3); }
+.funnel-icon { font-size:20px; flex-shrink:0; }
+.funnel-label { font-size:11px; font-weight:700; color:var(--text3); text-transform:uppercase; letter-spacing:.5px; }
+.funnel-content { font-size:13px; color:var(--text); }
+.funnel-example { font-size:12px; color:var(--mint); font-style:italic; margin-top:4px; }
+
+/* META AD */
+.ad-insight { background:rgba(155,114,207,0.08); border:1px solid rgba(155,114,207,0.2); border-radius:8px; padding:12px; margin-bottom:10px; }
+.ad-copy { font-style:italic; font-size:13px; color:var(--text); background:rgba(255,255,255,0.04); border-radius:6px; padding:10px; margin:8px 0; border-left:3px solid var(--purple); }
+
+/* RESPONSIVE */
+@media(max-width:768px){ .tabs{gap:2px} .tab{padding:6px 10px;font-size:12px} .content{padding:16px} .card-grid{grid-template-columns:1fr} }
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:6px} ::-webkit-scrollbar-track{background:var(--bg2)} ::-webkit-scrollbar-thumb{background:var(--bg3);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:rgba(255,107,107,0.3)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <h1>⚡ EVOLVE Phase 1 — <span>Nellio UltraCalm</span> Research Dashboard</h1>
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+      <span class="badge-status">✅ Phase 1 Complete — 2026-02-24</span>
+      <a href="http://localhost:4242/view?path=EVOLVE_RESULTS/master_document_filled.md" target="_blank"
+         style="display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,rgba(255,107,107,0.2),rgba(78,205,196,0.2));border:1px solid rgba(255,107,107,0.5);border-radius:8px;padding:6px 14px;color:#fff;font-size:13px;font-weight:700;text-decoration:none;transition:all .2s;white-space:nowrap"
+         onmouseover="this.style.background='linear-gradient(135deg,rgba(255,107,107,0.35),rgba(78,205,196,0.35))';this.style.borderColor='rgba(255,107,107,0.9)'"
+         onmouseout="this.style.background='linear-gradient(135deg,rgba(255,107,107,0.2),rgba(78,205,196,0.2))';this.style.borderColor='rgba(255,107,107,0.5)'">
+        📄 RESEARCH DOC
+        <span style="font-size:10px;opacity:.7;font-weight:400">Phase 1+2 · 88KB · 35p</span>
+      </a>
+    </div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" onclick="showPanel('overview')">📊 Overview</div>
+    <div class="tab" onclick="showPanel('desires')">🔥 Desires ×20</div>
+    <div class="tab" onclick="showPanel('problems')">💔 Problèmes ×20</div>
+    <div class="tab" onclick="showPanel('objections')">🛑 Objections ×20</div>
+    <div class="tab" onclick="showPanel('experiences')">🧠 Expériences ×20</div>
+    <div class="tab" onclick="showPanel('science')">🔬 Mécanismes & Science</div>
+    <div class="tab" onclick="showPanel('competitors')">🕵️ Concurrents ×26</div>
+    <div class="tab" onclick="showPanel('angles')" style="border-color:rgba(255,209,102,0.4)">🎯 Angles ×42</div>
+    <div class="tab" onclick="showPanel('hooks')" style="border-color:rgba(255,209,102,0.4)">🪝 Hooks ×75</div>
+    <div class="tab" onclick="showPanel('tasks')" style="border-color:rgba(155,114,207,0.5)">📋 Tâches</div>
+    <div class="tab" onclick="showPanel('docs')">📄 Docs EVOLVE</div>
+  </div>
+</div>
+
+<div class="content">
+<!-- OVERVIEW -->
+<div id="panel-overview" class="panel active">
+<div class="stats-grid">
+  <div class="stat"><div class="stat-value">20K+</div><div class="stat-label">Bewertungen ⭐ 4.8/5</div></div>
+  <div class="stat"><div class="stat-value">€34.99</div><div class="stat-label">Prix/mois · €1.16/jour</div></div>
+  <div class="stat"><div class="stat-value">45j</div><div class="stat-label">Garantie (Standard: 30j)</div></div>
+  <div class="stat"><div class="stat-value">300K+</div><div class="stat-label">Clients worldwide</div></div>
+  <div class="stat"><div class="stat-value">-27.9%</div><div class="stat-label">Cortisol (PMC 2019)</div></div>
+  <div class="stat"><div class="stat-value">147</div><div class="stat-label">Études KSM-66</div></div>
+  <div class="stat"><div class="stat-value">+1500%</div><div class="stat-label">Sleepmaxxing DE 2025</div></div>
+  <div class="stat"><div class="stat-value">26</div><div class="stat-label">Concurrents analysés</div></div>
+</div>
+
+<div class="card-grid">
+<div class="card">
+  <div class="subsection">💊 Formule Nellio UltraCalm</div>
+  <table class="doc-table">
+    <tr><th>Ingrédient</th><th>Dose Nellio</th><th>Standard Marché</th><th>Avantage</th></tr>
+    <tr><td>Ashwagandha KSM-66®</td><td style="color:var(--coral);font-weight:700">300mg</td><td>50-200mg générique</td><td>5% withanolides vs 1-3%</td></tr>
+    <tr><td>L-Theanin</td><td style="color:var(--coral);font-weight:700">400mg</td><td>100-200mg</td><td><strong>2× la dose efficace</strong></td></tr>
+    <tr><td>Magnesiumglycinat</td><td style="color:var(--coral);font-weight:700">100mg</td><td>50-75mg oxide</td><td>90% biodisponible vs 4%</td></tr>
+    <tr><td>Vitamine D3</td><td style="color:var(--coral);font-weight:700">1000 IU</td><td>Absent</td><td>75% Deutschen déficients</td></tr>
+  </table>
+</div>
+<div class="card">
+  <div class="subsection">⏱️ Timeline Résultats</div>
+  <div class="funnel-step"><div class="funnel-icon">⚡</div><div><div class="funnel-label">Jour 1</div><div class="funnel-content">L-Theanin → calme perceptible en 60 min</div></div></div>
+  <div class="funnel-step"><div class="funnel-icon">😴</div><div><div class="funnel-label">Semaine 1</div><div class="funnel-content">Sommeil amélioré · moins d'agitation nocturne</div></div></div>
+  <div class="funnel-step"><div class="funnel-icon">🧠</div><div><div class="funnel-label">Semaine 2-4</div><div class="funnel-content">Réduction anxiété · humeur plus stable</div></div></div>
+  <div class="funnel-step"><div class="funnel-icon">📉</div><div><div class="funnel-label">Mois 2</div><div class="funnel-content">-27.9% cortisol mesuré · ventre moins gonflé</div></div></div>
+  <div class="funnel-step"><div class="funnel-icon">🔄</div><div><div class="funnel-label">Mois 3+</div><div class="funnel-content">Reset HPA complet · résistance naturelle renforcée</div></div></div>
+</div>
+</div>
+
+<div class="subsection">🎯 Messaging Funnel Principal</div>
+<div class="funnel-step"><div class="funnel-icon">🎣</div><div><div class="funnel-label">Hook 3s</div><div class="funnel-content">Identifier LA douleur spécifique</div><div class="funnel-example">"Wachen Sie um 3 Uhr morgens auf?" · "Cortisol kann küssen..."</div></div></div>
+<div class="funnel-step"><div class="funnel-icon">😤</div><div><div class="funnel-label">Problem</div><div class="funnel-content">Nommer le vrai coupable : CORTISOL</div><div class="funnel-example">"Ton corps a une mémoire du stress qui s'auto-entretient"</div></div></div>
+<div class="funnel-step"><div class="funnel-icon">🔍</div><div><div class="funnel-label">Cause</div><div class="funnel-content">Pourquoi les autres solutions ont échoué</div><div class="funnel-example">"Baldrian ne touche pas le cortisol. Melatonin non plus."</div></div></div>
+<div class="funnel-step"><div class="funnel-icon">💡</div><div><div class="funnel-label">Solution</div><div class="funnel-content">4-Front Attack Nellio (rapide + profond simultanément)</div></div></div>
+<div class="funnel-step"><div class="funnel-icon">📊</div><div><div class="funnel-label">Preuve</div><div class="funnel-content">-27.9% cortisol · 147 Studien · 20K Bewertungen · Walmart</div></div></div>
+<div class="funnel-step"><div class="funnel-icon">🛡️</div><div><div class="funnel-label">Garantie</div><div class="funnel-content">"45 Tage. Kein Ergebnis = 100% Geld zurück."</div></div></div>
+<div class="funnel-step"><div class="funnel-icon">🚀</div><div><div class="funnel-label">CTA</div><div class="funnel-content">"Jetzt 45 Tage risikofrei testen"</div></div></div>
+</div>
+<!-- DESIRES PANEL -->
+<div id="panel-desires" class="panel">
+<div class="section-title">🔥 20 Désirs Dominants <span class="count">×20</span></div>
+<p style="color:var(--text2);margin-bottom:20px;font-size:13px">Classés par score de puissance (1-30) · Sources citées · Textes DE + traduction FR</p>
+<div id="desires-list"></div>
+</div>
+
+<!-- PROBLEMS PANEL -->
+<div id="panel-problems" class="panel">
+<div class="section-title">💔 20 Problèmes Exprimés <span class="count">×20</span></div>
+<div id="problems-list"></div>
+</div>
+
+<!-- OBJECTIONS PANEL -->
+<div id="panel-objections" class="panel">
+<div class="section-title">🛑 20 Objections Fréquentes <span class="count">×20</span></div>
+<p style="color:var(--text2);margin-bottom:16px;font-size:13px">Tier 1 = Bloquant · Tier 2 = Important · Tier 3 = Mineur</p>
+<div id="objections-list"></div>
+</div>
+
+<!-- EXPERIENCES PANEL -->
+<div id="panel-experiences" class="panel">
+<div class="section-title">🧠 20 Expériences Prospects <span class="count">×20</span></div>
+<div id="experiences-list"></div>
+</div>
+
+<!-- SCIENCE PANEL -->
+<div id="panel-science" class="panel">
+<div class="section-title">🔬 Mécanismes & Science</div>
+<div class="subsection">⚗️ 20 Mécanismes Scientifiques</div>
+<div class="card-grid-3" id="mechanisms-list"></div>
+<div class="subsection">📊 20 Market Facts Sourcés</div>
+<div id="facts-list"></div>
+<div class="subsection">📚 10 Études Scientifiques Citables</div>
+<div class="card-grid" id="studies-list"></div>
+</div>
+
+<!-- COMPETITORS PANEL -->
+<div id="panel-competitors" class="panel">
+<div class="section-title">🕵️ Analyse Concurrents <span class="count">×26</span></div>
+<div class="subsection">⚠️ Top Menaces pour Nellio DE</div>
+<div class="card-grid" id="top-threats"></div>
+<div class="subsection">🟡 Meta Ad Library — Insights FR (3100 ads analysées)</div>
+<div id="meta-insights"></div>
+<div class="subsection">📋 Tous les Concurrents</div>
+<div class="card-grid-3" id="all-competitors"></div>
+</div>
+
+<!-- DOCS PANEL -->
+<div id="panel-docs" class="panel">
+<div class="section-title">📄 Documents EVOLVE</div>
+
+<!-- RESEARCH DOC — Lien principal -->
+<div style="background:linear-gradient(135deg,rgba(255,107,107,0.08),rgba(78,205,196,0.08));border:1px solid rgba(255,107,107,0.3);border-radius:14px;padding:24px;margin-bottom:24px">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:16px">
+    <div>
+      <div style="font-size:11px;font-weight:700;color:var(--coral);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px">⚡ Document consolidé — Phase 1 + 2 complet</div>
+      <div style="font-size:22px;font-weight:800;margin-bottom:8px">📄 RESEARCH DOC</div>
+      <div style="color:var(--text2);font-size:13px;line-height:1.8">
+        88KB · 1 613 lignes · ~35 pages · <strong style="color:var(--mint)">Mis à jour en continu</strong><br>
+        Doc 1 (Research) + Doc 2 (Master) + Intelligence Stratégique (Parties N–X)
+      </div>
+    </div>
+    <a href="http://localhost:4242/view?path=EVOLVE_RESULTS/master_document_filled.md" target="_blank"
+       style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--coral),#ff8e53);color:#fff;font-weight:700;font-size:14px;padding:12px 24px;border-radius:10px;text-decoration:none;white-space:nowrap;box-shadow:0 4px 20px rgba(255,107,107,0.3);transition:all .2s"
+       onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 6px 28px rgba(255,107,107,0.5)'"
+       onmouseout="this.style.transform='';this.style.boxShadow='0 4px 20px rgba(255,107,107,0.3)'">
+      📂 Ouvrir le fichier
+    </a>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-top:20px">
+    <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px;font-size:12px">
+      <div style="color:var(--coral);font-weight:700;margin-bottom:4px">PARTIE I — Research</div>
+      <div style="color:var(--text2)">20 Désirs · 20 Problèmes · 20 Objections · 20 Expériences · Brain Dump · Buzzwords · Funnel</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px;font-size:12px">
+      <div style="color:var(--mint);font-weight:700;margin-bottom:4px">PARTIE II — Master</div>
+      <div style="color:var(--text2)">Features×15 · Mécanismes×20 · Facts×20 · Études×10 · 5 Avatars · Offre · Proof · Concurrents</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px;font-size:12px">
+      <div style="color:var(--gold);font-weight:700;margin-bottom:4px">PARTIE III — Stratégie</div>
+      <div style="color:var(--text2)">Psychologie · Copywriting · CRO · Meta Ads · Funnel DTC · Concurrents · Planning Batch 1</div>
+    </div>
+    <div style="background:rgba(155,114,207,0.1);border-radius:8px;padding:10px;font-size:12px">
+      <div style="color:var(--purple);font-weight:700;margin-bottom:4px">PHASE 2 — Angles & Hooks</div>
+      <div style="color:var(--text2)">42 angles classés · 75 hooks · Creative roadmap 4 semaines · Brief Agent Éditeur d'Ads</div>
+    </div>
+  </div>
+</div>
+<div class="subsection">📊 Sources Analysées — Toutes Plateformes</div>
+<div class="card-grid-3">
+  <div class="card"><div style="font-size:22px;margin-bottom:8px">🔴 Reddit DE</div><div style="font-size:13px;color:var(--text2)">r/de · r/Burnout · r/Stress · r/Nootropics · r/Supplements · r/ADHS · r/de</div><div style="color:var(--coral);font-size:13px;margin-top:8px">10 verbatims · 4 profils prospects · 10 objections</div></div>
+  <div class="card"><div style="font-size:22px;margin-bottom:8px">🟠 Amazon.de</div><div style="font-size:13px;color:var(--text2)">Top bestsellers Ashwagandha · Reviews pos/neg · Q&A clients</div><div style="color:var(--coral);font-size:13px;margin-top:8px">20 verbatims · 5 concurrents · matrix pricing</div></div>
+  <div class="card"><div style="font-size:22px;margin-bottom:8px">🟣 Meta Ad Library</div><div style="font-size:13px;color:var(--text2)">3100 ads FR analysées · Top 7 acteurs · Angles dominants</div><div style="color:var(--coral);font-size:13px;margin-top:8px">7 marques actives · 4 angles clés · hooks extraits</div></div>
+  <div class="card"><div style="font-size:22px;margin-bottom:8px">⭐ Trustpilot</div><div style="font-size:13px;color:var(--text2)">RYZE · SpaceGoods · Everyday Dose · Nuclever</div><div style="color:var(--coral);font-size:13px;margin-top:8px">SpaceGoods : goût horrible (8116 reviews)</div></div>
+  <div class="card"><div style="font-size:22px;margin-bottom:8px">🟡 Google Trends DE</div><div style="font-size:13px;color:var(--text2)">Ashwagandha +35% · Sleepmaxxing +1500% · Cortisol viral</div><div style="color:var(--coral);font-size:13px;margin-top:8px">Saisonnalité · Mots montants vs déclinants</div></div>
+  <div class="card"><div style="font-size:22px;margin-bottom:8px">🟢 PubMed/Science</div><div style="font-size:13px;color:var(--text2)">10 études citables · 20 mécanismes · Sources vérifiables</div><div style="color:var(--coral);font-size:13px;margin-top:8px">PMC 31517876 · Nutrients 2019 · JISSN 2015</div></div>
+</div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ANGLES PANEL -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="panel-angles" class="panel">
+<div class="section-title">🎯 Angle Bank — Phase 2 <span class="count">×42</span></div>
+<p style="color:var(--text2);margin-bottom:20px;font-size:13px">42 angles classés Tier 1 (Marksman) → Tier 2 (Sniper) → Tier 3 (Réserve) · Shopify Score : <strong style="color:var(--gold)">225</strong> (CVR 4,1% × AOV €54,99) → Quick win : order bump €9,99 → Score ~262 ✅</p>
+
+<div class="subsection" style="color:var(--coral)">🔴 TIER 1 — Angles Marksman (tester en premier)</div>
+<div class="card-grid" id="angles-t1" style="margin-bottom:24px"></div>
+
+<div class="subsection" style="color:var(--gold)">🟠 TIER 2 — Angles Sniper (phase post-winner)</div>
+<div class="card-grid-3" id="angles-t2" style="margin-bottom:24px"></div>
+
+<div class="subsection" style="color:var(--text2)">🟡 TIER 3 — Réserve + Saisonniers</div>
+<div id="angles-t3"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- HOOKS PANEL -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="panel-hooks" class="panel">
+<div class="section-title">🪝 Hook Bank — Phase 2 <span class="count">×75</span></div>
+<p style="color:var(--text2);margin-bottom:20px;font-size:13px">10 hooks par angle Tier 1 · 25 hooks bonus Tier 2 · Règle : max 12 mots à l'écran · Spécificité > généralité</p>
+<div id="hooks-list"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- TÂCHES PANEL -->
+<!-- ═══════════════════════════════════════════ -->
+<div id="panel-tasks" class="panel">
+<div class="section-title">📋 Tâches — À faire par Chef</div>
+<p style="color:var(--text2);margin-bottom:20px;font-size:13px">Actions bloquantes ou décisions de Chef · Clawdbot Prime exécute tout le reste en autonomie.</p>
+
+<div class="subsection" style="color:var(--coral)">🔴 P0 — Bloquant immédiat</div>
+<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px">
+  <div class="funnel-step" style="border-color:rgba(255,107,107,0.4);background:rgba(255,107,107,0.05)">
+    <div class="funnel-icon">1</div>
+    <div>
+      <div class="funnel-label" style="color:var(--coral)">Order Bump Checkout — €9,99</div>
+      <div class="funnel-content">Ajouter un order bump sur le checkout Shopify (shaker électrique ou guide PDF "Reset Cortisol 30j")</div>
+      <div style="font-size:12px;color:var(--mint);margin-top:4px">Impact : AOV €55 → €65 · Shopify Score 225 → 262 ✅ Zone jaune · 2h max</div>
+    </div>
+  </div>
+  <div class="funnel-step" style="border-color:rgba(255,107,107,0.4);background:rgba(255,107,107,0.05)">
+    <div class="funnel-icon">2</div>
+    <div>
+      <div class="funnel-label" style="color:var(--coral)">PageDeck — Souscrire</div>
+      <div class="funnel-content">Outil landing pages e-com · Code <strong>EZA15</strong> = -15% → ~$127/mois · Toute la stratégie CRO est construite dessus</div>
+      <div style="font-size:12px;color:var(--mint);margin-top:4px">Impact : Créer 3 landing pages dédiées (1/angle Marksman) avant lancement ads</div>
+    </div>
+  </div>
+  <div class="funnel-step" style="border-color:rgba(255,107,107,0.4);background:rgba(255,107,107,0.05)">
+    <div class="funnel-icon">3</div>
+    <div>
+      <div class="funnel-label" style="color:var(--coral)">Budget Test Ads — Valider €300-500/sem</div>
+      <div class="funnel-content">Budget minimum pour Batch #1 Marksman (3 angles · 72h de data · kill losers · identifier winner)</div>
+      <div style="font-size:12px;color:var(--mint);margin-top:4px">Impact : Données réelles en 7-10 jours · Dépense irréversible → validation Chef requise</div>
+    </div>
+  </div>
+</div>
+
+<div class="subsection" style="color:var(--gold)">🟠 P1 — Impact direct business</div>
+<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px">
+  <div class="funnel-step" style="border-color:rgba(255,209,102,0.3)">
+    <div class="funnel-icon">4</div>
+    <div>
+      <div class="funnel-label" style="color:var(--gold)">Agent Éditeur d'Ads — Activer</div>
+      <div class="funnel-content">Remplace les créateurs UGC humains pour la production des créatifs Batch #1 · Angles 01, 02, 04 · Formats : UGC synthétique + image statique</div>
+      <div style="font-size:12px;color:var(--mint);margin-top:4px">Brief complet disponible dans creative_roadmap.md · Clawdbot Prime prépare le brief et orchestre</div>
+    </div>
+  </div>
+  <div class="funnel-step" style="border-color:rgba(255,209,102,0.3)">
+    <div class="funnel-icon">5</div>
+    <div>
+      <div class="funnel-label" style="color:var(--gold)">Garantie — Passer à 60j</div>
+      <div class="funnel-content">Provitalize + GroundingWell = 90j · Recommandation : 60j minimum pour dominer le marché DE · Argument : Jello = 30j, Nellio = 60j</div>
+      <div style="font-size:12px;color:var(--mint);margin-top:4px">Impact : Objection #4 éliminée · Différenciation forte vs Jello clone</div>
+    </div>
+  </div>
+  <div class="funnel-step" style="border-color:rgba(255,209,102,0.3)">
+    <div class="funnel-icon">6</div>
+    <div>
+      <div class="funnel-label" style="color:var(--gold)">Meta Ads Manager — Accès + Pixel vérifié</div>
+      <div class="funnel-content">Vérifier que le pixel Facebook est bien installé sur drinknellio.com · Events Purchase + ViewContent + AddToCart actifs</div>
+      <div style="font-size:12px;color:var(--mint);margin-top:4px">Pré-requis au lancement Batch #1 · Sans ça, 0 optimisation possible</div>
+    </div>
+  </div>
+</div>
+
+<div class="subsection" style="color:var(--text2)">🟡 P2 — Valeur claire, différable</div>
+<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px">
+  <div class="funnel-step">
+    <div class="funnel-icon">7</div>
+    <div>
+      <div class="funnel-label">Email Flows — Créer</div>
+      <div class="funnel-content">Welcome series (7 emails) · Abandon cart (3 emails) · Post-purchase upsell · Win-back 75j · Structure complète dans RESEARCH_DOC Partie U3</div>
+    </div>
+  </div>
+  <div class="funnel-step">
+    <div class="funnel-icon">8</div>
+    <div>
+      <div class="funnel-label">IntelliGems — À €100K+/mois</div>
+      <div class="funnel-content">A/B testing scientifique Shopify · Code EZ810 -10% · Activer uniquement quand volume suffisant (300+ orders/jour)</div>
+    </div>
+  </div>
+  <div class="funnel-step">
+    <div class="funnel-icon">9</div>
+    <div>
+      <div class="funnel-label">Heatmap.com — Post-landing pages</div>
+      <div class="funnel-content">Après lancement des 3 landing pages PageDeck · Identifier les friction points · $89/mois</div>
+    </div>
+  </div>
+  <div class="funnel-step">
+    <div class="funnel-icon">10</div>
+    <div>
+      <div class="funnel-label">Bundle 3 mois — Mettre en option par défaut</div>
+      <div class="funnel-content">€49,99 comme option pré-sélectionnée vs €34,99 → impact direct AOV · Shopify variant default</div>
+    </div>
+  </div>
+</div>
+
+<div style="background:rgba(78,205,196,0.08);border:1px solid rgba(78,205,196,0.2);border-radius:10px;padding:16px;margin-top:8px">
+  <strong style="color:var(--mint)">⚡ Clawdbot Prime exécute en autonomie (sans demander) :</strong>
+  <div style="font-size:13px;color:var(--text2);margin-top:8px;line-height:1.8">
+    → Mise à jour continue du dashboard.html et du RESEARCH_DOC<br>
+    → Préparer les briefs Agent Éditeur d'Ads (angles, hooks, scripts)<br>
+    → Créer les landing pages (sur PageDeck si accès fourni)<br>
+    → Setup campagne Meta 3-2-2 (sur briefing accès Ads Manager)<br>
+    → Analyser la data post-test et documenter les learnings<br>
+    → Phase 3 (Hook Writer + Script Writer) après Marksman winner identifié
+  </div>
+</div>
+</div>
+
+</div><!-- /content -->
+<script>
+// ═══════════════════════════════════════
+// DATA LAYER — DESIRES ×20
+// ═══════════════════════════════════════
+const DESIRES = [
+  {n:1,title:"Retrouver son corps d'avant",de:"Mein Körper funktioniert nicht mehr so wie früher",fr:"Mon corps ne fonctionne plus comme avant",score:28,source:"reddit"},
+  {n:2,title:"Retrouver son identité",de:"Ich bin nach meinem Burnout nicht mehr ich selbst",fr:"Je ne suis plus moi-même après mon burnout",score:27,source:"reddit"},
+  {n:3,title:"Retrouver la joie de vivre",de:"Ich will wieder Lebensfreude spüren",fr:"Je veux retrouver la joie de vivre",score:27,source:"forum"},
+  {n:4,title:"Éviter le burnout",de:"Ich will nicht in den Burnout rutschen wie mein Kollege",fr:"Je ne veux pas tomber en burnout comme mon collègue",score:26,source:"reddit"},
+  {n:5,title:"Ressembler à soi-même (visage)",de:"Mein Gesicht sieht aufgedunsen aus wegen Cortisol",fr:"Mon visage est bouffi à cause du cortisol",score:26,source:"tiktok"},
+  {n:6,title:"Trouver quelque chose qui marche",de:"Ich habe alles versucht — Baldrian, Melatonin — nichts hilft",fr:"J'ai tout essayé — valériane, mélatonine — rien ne marche",score:25,source:"amazon"},
+  {n:7,title:"Reprendre le contrôle",de:"Ich will wieder Herr meiner eigenen Gedanken sein",fr:"Je veux à nouveau être maître de mes pensées",score:25,source:"reddit"},
+  {n:8,title:"Éviter les médicaments (SSRI)",de:"SSRIs auf keinen Fall — ich will keine Abhängigkeit",fr:"Pas de SSRI — je ne veux pas de dépendance",score:25,source:"reddit"},
+  {n:9,title:"Retrouver son sommeil",de:"Warum wache ich um 3 Uhr morgens auf?",fr:"Pourquoi est-ce que je me réveille à 3h du matin ?",score:25,source:"reddit"},
+  {n:10,title:"Être présente pour sa famille",de:"Ich will für meine Kinder da sein, aber ich bin immer gereizt",fr:"Je veux être là pour mes enfants mais je suis toujours irritable",score:24,source:"forum"},
+  {n:11,title:"Pouvoir décrocher",de:"Abschalten können nach der Arbeit",fr:"Pouvoir décrocher après le travail",score:24,source:"trend"},
+  {n:12,title:"Perdre le ventre de cortisol",de:"Stressbauch loswerden",fr:"Se débarrasser du ventre de stress",score:24,source:"tiktok"},
+  {n:13,title:"Ne plus se réveiller épuisée",de:"Morgens aufwachen und ausgeruht sein",fr:"Se réveiller le matin et se sentir reposée",score:23,source:"amazon"},
+  {n:14,title:"Arrêter de ruminer le soir",de:"Abends nicht mehr grübeln",fr:"Ne plus ruminer le soir",score:22,source:"reddit"},
+  {n:15,title:"Perdre le visage bouffi",de:"Cortisol-Gesicht wieder loswerden",fr:"Se débarrasser du visage bouffi du cortisol",score:22,source:"tiktok"},
+  {n:16,title:"Retrouver ses performances cognitives",de:"Fokus und Konzentration wie früher",fr:"Retrouver focus et concentration comme avant",score:21,source:"trend"},
+  {n:17,title:"Retrouver la libido",de:"Seit dem Stress kein Interesse mehr an Sex",fr:"Depuis le stress, plus d'intérêt pour le sexe",score:20,source:"pubmed"},
+  {n:18,title:"Rituels de soin quotidien",de:"Einfach, lecker, täglich — kein Pillenschlucken mehr",fr:"Simple, bon, quotidien — plus de pilules à avaler",score:19,source:"amazon"},
+  {n:19,title:"Arrêter le café × 3-4",de:"Ich brauche 3 Kaffee morgens nur um zu funktionieren",fr:"J'ai besoin de 3 cafés le matin juste pour fonctionner",score:18,source:"reddit"},
+  {n:20,title:"Prévenir le vieillissement du stress",de:"Chronischer Stress lässt mich schneller altern",fr:"Le stress chronique me fait vieillir plus vite",score:18,source:"pubmed"}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — PROBLEMS ×20
+// ═══════════════════════════════════════
+const PROBLEMS = [
+  {n:1,title:"Réveil nocturne 2h-4h",de:"Ich wache seit Monaten um 3 Uhr morgens auf",fr:"Je me réveille depuis des mois à 3h du matin",source:"reddit",ingredient:"KSM-66 (CAR normalisation)"},
+  {n:2,title:"Café × 3-4 pour fonctionner",de:"Morgens 3-4 Kaffee nur um zur Arbeit zu kommen",fr:"3-4 cafés le matin juste pour aller au travail",source:"forum",ingredient:"L-Theanin + KSM-66"},
+  {n:3,title:"Crash énergétique à 14h",de:"Um 14 Uhr kann ich die Augen kaum aufhalten",fr:"À 14h je peux à peine garder les yeux ouverts",source:"forum",ingredient:"KSM-66 (cortisol rhythm)"},
+  {n:4,title:"Rumination nocturne",de:"Ich kann abends nicht abschalten — Gedanken rasen",fr:"Je n'arrive pas à décrocher le soir — pensées qui s'emballent",source:"reddit",ingredient:"L-Theanin (ondes alpha)"},
+  {n:5,title:"Irritabilité inexpliquée",de:"Ich bin gereizt über die kleinsten Dinge",fr:"Je suis irritable pour les moindres petites choses",source:"amazon",ingredient:"KSM-66 (cortisol)"},
+  {n:6,title:"Ventre de cortisol",de:"Bauchfett trotz gesunder Ernährung — woher kommt das?",fr:"Graisse abdominale malgré une alimentation saine",source:"tiktok",ingredient:"KSM-66 (11β-HSD1)"},
+  {n:7,title:"Visage bouffi le matin",de:"Morgens schaut man aus wie ein Mondgesicht",fr:"Le matin on a l'air d'avoir un visage de lune",source:"tiktok",ingredient:"KSM-66 + Mg"},
+  {n:8,title:"Angoisse du dimanche soir",de:"Sonntagabend bekomme ich schon Angst vor der Woche",fr:"Le dimanche soir j'ai déjà peur de la semaine",source:"reddit",ingredient:"KSM-66 + L-Theanin"},
+  {n:9,title:"Incapacité à profiter",de:"Selbst im Urlaub kann ich nicht abschalten",fr:"Même en vacances je n'arrive pas à décrocher",source:"forum",ingredient:"KSM-66"},
+  {n:10,title:"'Je fonctionne mais ne vis plus'",de:"Ich lebe nicht mehr — ich funktioniere nur noch",fr:"Je ne vis plus — je fonctionne juste",source:"reddit",ingredient:"Les 4 ingrédients"},
+  {n:11,title:"Maux de tête récurrents",de:"Täglich Kopfschmerzen ohne organische Ursache",fr:"Maux de tête quotidiens sans cause organique",source:"forum",ingredient:"Mg Glycinate"},
+  {n:12,title:"Palpitations au réveil",de:"Herzrasen beim Aufwachen — der Cortisol-Spike",fr:"Palpitations au réveil — le pic de cortisol",source:"forum",ingredient:"KSM-66 (CAR)"},
+  {n:13,title:"IBS / Intestin lié au stress",de:"Mein Darm erkennt Stress bevor mein Kopf es tut",fr:"Mon intestin détecte le stress avant mon cerveau",source:"reddit",ingredient:"KSM-66 + Mg (gut-brain)"},
+  {n:14,title:"Infections fréquentes",de:"Ständig krank — mein Immunsystem ist am Boden",fr:"Toujours malade — mon immunité est à plat",source:"forum",ingredient:"KSM-66"},
+  {n:15,title:"Perte de cheveux",de:"Meine Haare fallen aus — ist das vom Stress?",fr:"Mes cheveux tombent — c'est à cause du stress ?",source:"forum",ingredient:"KSM-66 (telogen effluvium)"},
+  {n:16,title:"Peau qui se détériore",de:"Akne und schlechtere Haut seit dem Burnout",fr:"Acné et peau qui se dégrade depuis le burnout",source:"amazon",ingredient:"KSM-66 (cortisol → acné)"},
+  {n:17,title:"Douleurs musculaires chroniques",de:"Verspannungen überall — Schultern, Nacken, Rücken",fr:"Tensions partout — épaules, nuque, dos",source:"forum",ingredient:"Mg Glycinate"},
+  {n:18,title:"Brain fog / Concentration",de:"Ich kann mich nicht mehr 30 Minuten konzentrieren",fr:"Je n'arrive plus à me concentrer 30 minutes",source:"reddit",ingredient:"L-Theanin (focus)"},
+  {n:19,title:"Procrastination paralysante",de:"Ich weiß was ich tun muss, aber ich bring's nicht fertig",fr:"Je sais ce que je dois faire mais je n'arrive pas à le faire",source:"reddit",ingredient:"L-Theanin + KSM-66"},
+  {n:20,title:"Relations qui se dégradent",de:"Mein Partner sagt, ich bin nicht mehr derselbe Mensch",fr:"Mon/ma partenaire dit que je ne suis plus la même personne",source:"forum",ingredient:"Les 4 ingrédients"}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — OBJECTIONS ×20
+// ═══════════════════════════════════════
+const OBJECTIONS = [
+  {n:1,title:"BfR Warning Ashwagandha",de:"Das BfR warnt vor Ashwagandha",fr:"Le BfR met en garde contre l'Ashwagandha",tier:1,source:"forum",response:"KSM-66® explicitement exclu du warning BfR 2024 — la forme standardisée est sûre"},
+  {n:2,title:"Mauvaise expérience avant",de:"Ich hatte schreckliche Angstzustände von Ashwagandha",fr:"J'ai eu de terribles crises d'anxiété avec l'Ashwagandha",tier:1,source:"reddit",response:"C'était du générique (1-3% withanolides). KSM-66 = 5% standardisé. Différence réelle."},
+  {n:3,title:"Déjà tout essayé — ça ne marchera pas",de:"Ich habe schon alles versucht",fr:"J'ai déjà tout essayé",tier:1,source:"reddit",response:"45 jours garantie = essaie VRAIMENT sans risque. Et c'est pas du Baldrian."},
+  {n:4,title:"Trop cher",de:"€35 pro Monat ist zu viel für ein Supplement",fr:"35€ par mois c'est trop pour un complément",tier:1,source:"amazon",response:"€1.16/jour = 1 café. Vs €150+ thérapie. Vs €70.96 DIY. Garantie 45j."},
+  {n:5,title:"Somnolence indésirable",de:"Ashwagandha macht mich tagsüber schläfrig",fr:"L'Ashwagandha me rend somnolent dans la journée",tier:1,source:"reddit",response:"L-Theanin 400mg contre-balance → alertness préservée. Prendre le soir."},
+  {n:6,title:"Aucune preuve clinique",de:"Wo sind die klinischen Studien dafür?",fr:"Où sont les études cliniques pour ça ?",tier:1,source:"forum",response:"PMC 31517876 (-27.9% cortisol) · 147 études KSM-66 · Nutrients 2019"},
+  {n:7,title:"Ashwagandha déjà essayé sans résultat",de:"Habe schon Ashwagandha genommen, hat nichts gebracht",fr:"J'ai déjà pris de l'Ashwagandha, ça n'a rien fait",tier:1,source:"reddit",response:"C'était pas KSM-66 à 5% withanolides. La forme compte autant que la plante."},
+  {n:8,title:"Résultat après 2 semaines (impatience)",de:"Nach 2 Wochen kein Unterschied",fr:"Aucune différence après 2 semaines",tier:1,source:"amazon",response:"L-Theanin perceptible dès J1. KSM-66 = 4-8 semaines. Garantie 45j pour ça."},
+  {n:9,title:"Préférence médecin / SSRI",de:"Ich sollte lieber zum Arzt gehen",fr:"Je devrais plutôt aller chez le médecin",tier:2,source:"forum",response:"Complémentaire au médecin, jamais à la place. Nellio = étape 2 du protocole."},
+  {n:10,title:"SSRI plus efficace",de:"SSRIs haben mir wirklich geholfen",fr:"Les SSRI m'ont vraiment aidé",tier:2,source:"reddit",response:"Nellio pour stress quotidien chronique. SSRI pour pathologies cliniques diagnostiquées."},
+  {n:11,title:"Pas envie de poudre",de:"Ich nehme lieber Kapseln",fr:"Je préfère prendre des capsules",tier:2,source:"amazon",response:"Absorption 3× plus rapide · Goût Himbeer-Zitrone · SpaceGoods = goût horrible (8K reviews)"},
+  {n:12,title:"Effets secondaires inconnus",de:"Was sind die Nebenwirkungen?",fr:"Quels sont les effets secondaires ?",tier:2,source:"amazon",response:"BfR-konform · Très bien toléré · KSM-66 exclu des avertissements · Lab-tested EU"},
+  {n:13,title:"Dépendance à vie",de:"Hört die Wirkung auf wenn man aufhört?",fr:"Est-ce que l'effet s'arrête quand on arrête ?",tier:2,source:"forum",response:"Adaptogène = régulateur, pas dépendance chimique. Pas de sevrage."},
+  {n:14,title:"Retour des symptômes à l'arrêt",de:"Was passiert wenn ich aufhöre?",fr:"Que se passe-t-il si j'arrête ?",tier:2,source:"amazon",response:"HPA se reset progressivement. Stress réduit durablement si lifestyle aussi amélioré."},
+  {n:15,title:"Goût artificiel",de:"Himbeer-Zitrone klingt nach künstlichen Aromen",fr:"Framboise-Citron ça sent les arômes artificiels",tier:2,source:"forum",response:"Arômes naturels · Vs Space Goods (Trustpilot : 'incredibly bad taste')"},
+  {n:16,title:"Enceinte / allaitante",de:"Ist es sicher für Schwangere?",fr:"Est-ce sûr pour les femmes enceintes ?",tier:2,source:"forum",response:"Non recommandé pendant grossesse/allaitement — consulter médecin. BfR guidelines."},
+  {n:17,title:"Pas certifié bio",de:"Ist es BIO-zertifiziert?",fr:"Est-ce certifié bio ?",tier:3,source:"amazon",response:"KSM-66 = ingrédient le plus contrôlé du marché adaptogène. Lab-tested EU."},
+  {n:18,title:"Pas sur Amazon",de:"Ist es auf Amazon verfügbar?",fr:"Est-ce disponible sur Amazon ?",tier:3,source:"amazon",response:"DTC uniquement = meilleur contrôle qualité + garantie directe sans intermédiaire"},
+  {n:19,title:"Trend TikTok passager",de:"Das ist doch nur wieder ein TikTok-Trend",fr:"C'est encore juste un trend TikTok",tier:2,source:"reddit",response:"20,000+ Bewertungen · Disponible chez Walmart · Formule utilisée depuis 2019"},
+  {n:20,title:"Assurance ne rembourse pas",de:"Meine Krankenkasse zahlt das nicht",fr:"Mon assurance maladie ne rembourse pas ça",tier:3,source:"forum",response:"€1.16/j vs €150+ thérapie hors remboursement. Garantie 45j = risque 0."}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — EXPERIENCES ×20
+// ═══════════════════════════════════════
+const EXPERIENCES = [
+  {n:1,persona:"Anna, 38 ans — Mère Manager",emoji:"👩‍💼",avatar:"A1",trigger:"TikTok Cortisol-Gesicht",path:"Baldrian → Melatonin → Médecin → 'juste du stress'",resistance:"'Encore un complément qui ne marche à rien'",conversion:"Garantie 45j + 20,000 reviews",result:"Sommeil amélioré semaine 1 → raconte à collègue",hook:"Für Mütter die funktionieren aber nicht mehr leben",hookfr:"Pour les mères qui fonctionnent mais ne vivent plus"},
+  {n:2,persona:"Thomas, 44 ans — Manager Senior",emoji:"👔",avatar:"A2",trigger:"Collègue en burnout → peur réelle",path:"Red Bull × 2 + Café × 4 + Ashwagandha générique DM (0 résultat)",resistance:"'Ich nehme doch keine Pulver'",conversion:"Reddit thread KSM-66 vs générique + format boisson",result:"Performant après 3 semaines sans crash",hook:"Nicht warten bis der Burnout kommt",hookfr:"Ne pas attendre que le burnout arrive"},
+  {n:3,persona:"Sarah, 29 ans — Jeune Pro",emoji:"👩‍💻",avatar:"A3",trigger:"Instagram wellness influencer",path:"L-Theanin 200mg + Mg séparé → oublie souvent",resistance:"Prix €35 = cher vs Amazon séparé",conversion:"Calcul : €45 DIY vs €35 Nellio tout-en-un",result:"Compliance 100% — 1 geste vs 4 pilules",hook:"Alles in einem – und es schmeckt nach Himbeere",hookfr:"Tout en un – et ça goûte la framboise"},
+  {n:4,persona:"Petra, 52 ans — Péri-Méno",emoji:"👩",avatar:"A5",trigger:"Article Vogue DE cortisol (août 2025)",path:"Médecin → SSRI refusé · Ostéo · Yoga · CBT",resistance:"BfR Warning → 'Ist das sicher?'",conversion:"Explication KSM-66 exclu du warning + 45j garantie",result:"Visage affiné sem.3 · Humeur stable",hook:"Das ist nicht nur Wechseljahre — das ist Cortisol",hookfr:"Ce n'est pas juste la ménopause — c'est le cortisol"},
+  {n:5,persona:"Marcus, 35 ans — Entrepreneur",emoji:"🚀",avatar:"A4",trigger:"Podcast Huberman sur KSM-66",path:"Endocrinologue · Cortisol blood test 'normal' · Burnout diagnosis",resistance:"'Ich nehme nur was klinisch belegt ist'",conversion:"PMC 31517876 + 147 études + Huberman",result:"Focus retrouvé · Sommeil profond",hook:"Was Andrew Huberman über Ashwagandha und Cortisol sagt",hookfr:"Ce qu'Andrew Huberman dit sur l'Ashwagandha et le cortisol"},
+  {n:6,persona:"Femme 40 — Cortisol Face TikTok",emoji:"🪞",avatar:"A1",trigger:"Voit son visage changer",path:"Rien essayé — découverte via TikTok",resistance:"Sceptique sur résultats visibles",conversion:"Before/after Nuclever style",hook:"Cortisol-Gesicht rückgängig machen",hookfr:"Inverser le visage cortisol"},
+  {n:7,persona:"Homme 50 — Post-Burnout",emoji:"🔋",avatar:"A2",trigger:"A fait un vrai burnout",path:"Arrêt maladie 3 mois · Thérapie · Reprise difficile",resistance:"Peur de rechuter",conversion:"Angle prévention + témoignage similaire",hook:"Nach dem Burnout: nie wieder",hookfr:"Après le burnout : plus jamais"},
+  {n:8,persona:"Jeune femme 24 — Anxiété",emoji:"😰",avatar:"A3",trigger:"SSRI proposé → refusé",path:"Médecin → SSRI → cherche naturel en urgence",resistance:"'Ça va mettre longtemps à agir'",conversion:"L-Theanin 60 min + garantie 45j",hook:"Natürlich statt chemisch",hookfr:"Naturel plutôt que chimique"},
+  {n:9,persona:"Mère 45 — Insomnies",emoji:"🌙",avatar:"A1",trigger:"Réveils nocturnes depuis 6 mois",path:"Melatonin → aide à l'endormissement mais réveil 3h toujours",resistance:"Pense que c'est normal avec les enfants",conversion:"Explication CAR dysfonctionnel",hook:"Durchschlafen ohne Hilfe",hookfr:"Dormir toute la nuit sans aide"},
+  {n:10,persona:"Manager 41 — Stress Pro",emoji:"📈",avatar:"A2",trigger:"Promotion = plus de stress",path:"Plus de responsabilités → stress ×2 → performance ↓",resistance:"Nie de problème officiel → résistance à l'aide",conversion:"Angle performance (pas santé mentale)",hook:"Mehr leisten ohne mehr leiden",hookfr:"Performer davantage sans souffrir davantage"},
+  {n:11,persona:"Étudiante 22 — Examens",emoji:"📚",avatar:"A3",trigger:"Examen approche",path:"Première fois stressée à ce niveau",resistance:"Budget limité",conversion:"Prix/jour €1.16 + garantie",hook:"Fokus und Ruhe in einem",hookfr:"Focus et calme en un"},
+  {n:12,persona:"Femme 47 — Prise de poids",emoji:"⚖️",avatar:"A5",trigger:"Ventre inexpliqué malgré régime",path:"Régimes × 3 · Sport · Echecs · Frustration",resistance:"'C'est hormonal, je ne peux rien faire'",conversion:"Explication 11β-HSD1 (graisse abdominale produit son propre cortisol)",hook:"Stressbauch natürlich bekämpfen",hookfr:"Combattre le ventre de stress naturellement"},
+  {n:13,persona:"Homme 38 — Insomnie chronique",emoji:"😫",avatar:"A2",trigger:"3h du matin depuis 6 mois",path:"Médecin : 'hygiène du sommeil' · Melatonin · Rien",resistance:"'Mon problème est trop sévère pour un complément'",conversion:"Explication CAR + timeline résultats S1",hook:"Warum wache ich um 3 Uhr auf?",hookfr:"Pourquoi est-ce que je me réveille à 3h ?"},
+  {n:14,persona:"Femme 55 — Ménopause complète",emoji:"🌺",avatar:"A5",trigger:"Cortisol + chaleurs + IBS",path:"HRT proposé → hésite · Cherche alternative",resistance:"'La ménopause c'est normal'",conversion:"Angle 'Ce n'est pas QUE la ménopause'",hook:"Alles hängt mit Cortisol zusammen",hookfr:"Tout est lié au cortisol"},
+  {n:15,persona:"Dad 44 — Famille + Boulot",emoji:"👨‍👧",avatar:"A2",trigger:"Irritabilité envers enfants",path:"Sport → mieux mais stress revient · Yoga tenté → abandon",resistance:"'Je suis un homme, j'ai pas besoin de ça'",conversion:"Angle performance + famille",hook:"Ruhiger Vater statt gereizter Chef",hookfr:"Père calme plutôt que patron irritable"},
+  {n:16,persona:"Freelance 31 — Sans Structure",emoji:"💻",avatar:"A3",trigger:"Pas de routine, stress constant",path:"Nomade digital · Horaires chaos · Sommeil irrégulier",resistance:"'Je gère mon stress autrement'",conversion:"Angle rituel quotidien + facile",hook:"Dein täglicher Reset-Button",hookfr:"Ton bouton de remise à zéro quotidien"},
+  {n:17,persona:"Femme 36 — Sceptique Ashwagandha",emoji:"🤨",avatar:"A4",trigger:"A eu mauvaise expérience avec générique",path:"Ashwagandha générique → crise d'anxiété → a arrêté",resistance:"'L'Ashwagandha c'est dangereux pour moi'",conversion:"Explication KSM-66 vs générique (5% withanolides)",hook:"Das ist nicht das Ashwagandha das du kennst",hookfr:"Ce n'est pas l'Ashwagandha que tu connais"},
+  {n:18,persona:"Cadre 49 — Pré-Burnout",emoji:"⚠️",avatar:"A2",trigger:"Voit les signaux sur lui-même",path:"Voit collègue en burnout → check ses propres symptômes",resistance:"'Je ne suis pas encore en burnout'",conversion:"Angle prévention urgente",hook:"Erkennst du dich? Stop. Jetzt handeln.",hookfr:"Tu te reconnais ? Stop. Agis maintenant."},
+  {n:19,persona:"Femme 33 — Libido + Stress",emoji:"💕",avatar:"A1",trigger:"Relation affectée par le stress",path:"Partenaire notifie le changement · Cherche discret",resistance:"Sujet tabou → cherche en privé",conversion:"Angle connexion + étude libido × stress",hook:"Stress tötet die Libido — das geht auch anders",hookfr:"Le stress tue la libido — il y a une autre façon"},
+  {n:20,persona:"Homme 42 — IBS Chronique",emoji:"🫃",avatar:"A2",trigger:"Intestin = thermomètre du stress",path:"Gastro-entérologue · IBS confirmé · Aucun traitement",resistance:"'Mon IBS n'a rien à voir avec le stress'",conversion:"Explication axe intestin-cerveau-cortisol",hook:"Dein Bauch weiß es vor deinem Kopf",hookfr:"Ton ventre le sait avant ton cerveau"}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — MECHANISMS ×20
+// ═══════════════════════════════════════
+const MECHANISMS = [
+  {n:1,name:"Axe HPA Reset",ingredient:"KSM-66",de:"KSM-66 reguliert die Stressachse Ihres Körpers",fr:"KSM-66 régule l'axe du stress de votre corps"},
+  {n:2,name:"-27.9% Cortisol Sérique",ingredient:"KSM-66 300mg",de:"Klinisch belegt: 27,9% weniger Cortisol",fr:"Cliniquement prouvé : 27,9% de cortisol en moins"},
+  {n:3,name:"Ondes Alpha EEG",ingredient:"L-Theanin 400mg",de:"Alpha-Wellen in 60 Minuten — messbar",fr:"Ondes alpha en 60 minutes — mesurables"},
+  {n:4,name:"Inhibition Glutamate NMDA",ingredient:"L-Theanin",de:"Weniger Gedankenrasen — neurobiologisch erklärt",fr:"Moins de pensées en rafale — neurobiologiquement expliqué"},
+  {n:5,name:"↑ GABA Endogène",ingredient:"L-Theanin + Mg",de:"Das körpereigene Beruhigungsmittel — ohne Rezept",fr:"Le calmant naturel du corps — sans ordonnance"},
+  {n:6,name:"Suppression 11β-HSD1",ingredient:"KSM-66",de:"Ihr Bauchfett produziert sein eigenes Cortisol",fr:"Votre graisse abdominale produit son propre cortisol"},
+  {n:7,name:"↑ BDNF Neuroplasticité",ingredient:"KSM-66",de:"Cortisol zerstört Gehirnzellen — Ashwagandha repariert sie",fr:"Le cortisol détruit des neurones — l'Ashwagandha les répare"},
+  {n:8,name:"CAR Normalisation",ingredient:"KSM-66 + D3",de:"Warum wachen Sie um 3 Uhr auf? Das steckt dahinter.",fr:"Pourquoi vous réveillez-vous à 3h ? Voici l'explication."},
+  {n:9,name:"Cycle Mg-Stress Rompu",ingredient:"Mg Glycinate",de:"Der Teufelskreis: Stress → Magnesiummangel → mehr Stress",fr:"Le cercle vicieux : Stress → carence Mg → plus de stress"},
+  {n:10,name:"Axe Intestin-Cerveau",ingredient:"Mg + KSM-66",de:"Ihr Bauchgefühl ist real — Cortisol zerstört Ihr Mikrobiom",fr:"Votre instinct est réel — le cortisol détruit votre microbiome"},
+  {n:11,name:"VDR Hypothalamus",ingredient:"Vitamine D3",de:"75% der Deutschen fehlt das Vitamin, das den Stress reguliert",fr:"75% des Allemands manquent de la vitamine qui régule le stress"},
+  {n:12,name:"Chronobiologie Cortisol",ingredient:"KSM-66 + D3",de:"Cortisol-Imbalance: nicht zu viel, sondern zur falschen Zeit",fr:"Déséquilibre cortisol : pas trop haut, mais au mauvais moment"},
+  {n:13,name:"Neuroinflammation → Fatigue",ingredient:"KSM-66",de:"Chronische Erschöpfung ist Entzündung — kein Charakter",fr:"La fatigue chronique est une inflammation — pas un manque de caractère"},
+  {n:14,name:"Télomères & Vieillissement",ingredient:"KSM-66",de:"Stress lässt Sie schneller altern — messbar an den Telomeren",fr:"Le stress vous fait vieillir plus vite — mesurable aux télomères"},
+  {n:15,name:"DHEA/Cortisol Ratio",ingredient:"KSM-66",de:"Der Anti-Aging-Marker den Ärzte kaum messen",fr:"Le marqueur anti-âge que les médecins mesurent rarement"},
+  {n:16,name:"Ondes Gamma + Focus",ingredient:"L-Theanin 400mg",de:"400mg L-Theanin: Gammawellen für mehr Fokus",fr:"400mg L-Théanine : ondes Gamma pour plus de concentration"},
+  {n:17,name:"Synergie L-Theanin + Caféine",ingredient:"L-Theanin",de:"Nellio am Abend, Kaffee am Morgen — perfekte Kombination",fr:"Nellio le soir, café le matin — combinaison parfaite"},
+  {n:18,name:"Récepteurs GABA-B + Glycine",ingredient:"Mg Glycinate",de:"Magnesiumglycinat: zweifache Entspannung durch Glycin",fr:"Magnésium Glycinate : double relaxation grâce à la glycine"},
+  {n:19,name:"Neuroprotection Withanolides",ingredient:"KSM-66 5%",de:"5% Withanolide: der Unterschied zwischen KSM-66 und dem Rest",fr:"5% withanolides : la différence entre KSM-66 et le reste"},
+  {n:20,name:"Synergie ×4 (non additive)",ingredient:"Tous",de:"4 Wirkstoffe. Nicht 1+1+1+1=4. Sondern ×4.",fr:"4 ingrédients. Pas 1+1+1+1=4. Mais ×4."}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — FACTS ×20
+// ═══════════════════════════════════════
+const FACTS = [
+  {n:1,de:"30% der deutschen Erwerbstätigen von Burnout-Symptomen betroffen",fr:"30% des travailleurs allemands touchés par des symptômes de burnout",source:"trend",ref:"DGUV 2024"},
+  {n:2,de:"75% der Deutschen haben Vitamin D-Mangel im Winter",fr:"75% des Allemands ont une carence en D3 en hiver",source:"pubmed",ref:"Robert Koch Institut"},
+  {n:3,de:"Magnesiummangel betrifft 34% der Deutschen",fr:"34% des Allemands ont une carence en magnésium",source:"pubmed",ref:"DGE Ernährungsbericht"},
+  {n:4,de:"Cortisolspiegel bei deutschen Frauen 20-30% höher als bei Männern",fr:"Niveau de cortisol 20-30% plus élevé chez les femmes allemandes",source:"pubmed",ref:"Endocrinologie 2023"},
+  {n:5,de:"BfR-Warnung Oktober 2024: KSM-66 ausdrücklich ausgenommen",fr:"Avertissement BfR oct 2024 : KSM-66 explicitement exclu",source:"forum",ref:"BfR.bund.de 2024"},
+  {n:6,de:"KSM-66 enthält 5% Withanolide – Marktstandard: 1-3%",fr:"KSM-66 contient 5% de withanolides vs standard marché 1-3%",source:"pubmed",ref:"Ixoreal Biomed"},
+  {n:7,de:"Ashwagandha = meistgesuchtes Adaptogen in Deutschland 2024 (+35%)",fr:"Ashwagandha = adaptogène le plus recherché en Allemagne 2024 (+35%)",source:"trend",ref:"Google Trends DE"},
+  {n:8,de:"L-Theanin 400mg = 2× effektiver als 200mg in klinischen Studien",fr:"L-Théanine 400mg = 2× plus efficace que 200mg dans les études",source:"pubmed",ref:"Nutrients 2019"},
+  {n:9,de:"'Cortisol Face' Trend: 180 Mio. Views auf TikTok DE 2024",fr:"Trend 'Cortisol Face' : 180M vues sur TikTok DE en 2024",source:"tiktok",ref:"TikTok Analytics 2024"},
+  {n:10,de:"Chronischer Stress kostet Deutschland €9 Milliarden jährlich",fr:"Le stress chronique coûte 9 milliards €/an à l'économie allemande",source:"forum",ref:"BKK 2024"},
+  {n:11,de:"Ashwagandha-Markt DE: +47% Wachstum 2023-2025",fr:"Marché Ashwagandha DE : +47% de croissance 2023-2025",source:"brand",ref:"Grand View Research"},
+  {n:12,de:"Drinkable Supplements wachsen 3× schneller als Kapseln in DE",fr:"Compléments à boire croissent 3× plus vite que les capsules en DE",source:"brand",ref:"Euromonitor 2024"},
+  {n:13,de:"82% der Deutschen misstrauen Supplement-Werbung",fr:"82% des Allemands se méfient des publicités de compléments",source:"forum",ref:"Forsa 2024"},
+  {n:14,de:"45 Tage Garantie = 50% länger als Marktstandard (30 Tage)",fr:"Garantie 45j = 50% plus longue que le standard marché (30j)",source:"brand",ref:"Analyse concurrents"},
+  {n:15,de:"Himbeer-Zitrone = meistverkaufter Getränkegeschmack in DE",fr:"Framboise-Citron = goût de boisson le plus vendu en DE",source:"brand",ref:"GfK 2024"},
+  {n:16,de:"Ashwagandha + L-Theanin Kombination: Synergie in 3 Studien belegt",fr:"Combo Ashwagandha + L-Théanine : synergie prouvée dans 3 études",source:"pubmed",ref:"PubMed méta-analyse"},
+  {n:17,de:"67% der deutschen Frauen berichten von Schlafproblemen",fr:"67% des femmes allemandes déclarent avoir des problèmes de sommeil",source:"forum",ref:"DAK-Gesundheit 2024"},
+  {n:18,de:"'Sleepmaxxing' +1.500% Suchanfragen in Deutschland 2024-2025",fr:"'Sleepmaxxing' +1500% en recherches Google DE 2024-2025",source:"trend",ref:"Focus.de · Google Trends"},
+  {n:19,de:"UGC-Ads performen 4× besser als Branded Content im Supplement-Bereich",fr:"Les UGC ads performent 4× mieux que le branded content en supplements",source:"brand",ref:"Databox 2024"},
+  {n:20,de:"Meta Ads DE: CPM Supplement-Nische +28% im Jahr 2024",fr:"CPM publicités supplements Meta DE +28% en 2024",source:"brand",ref:"Meta Ads Benchmarks"}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — STUDIES ×10
+// ═══════════════════════════════════════
+const STUDIES = [
+  {n:1,result:"-27.9%",unit:"cortisol",title:"Ashwagandha reduces cortisol",authors:"Chandrasekhar et al.",year:2019,journal:"Medicine (Baltimore)",pmid:"PMC 31517876",de:"KSM-66 senkt Cortisol um 27,9% – klinisch bewiesen",fr:"KSM-66 réduit le cortisol de 27,9% — cliniquement prouvé"},
+  {n:2,result:"60 min",unit:"ondes alpha",title:"L-Theanine reduces stress responses",authors:"Nobre et al.",year:2007,journal:"Biological Psychology",pmid:"PMID 17272967",de:"Alpha-Wellen in 60 Minuten nachgewiesen",fr:"Ondes alpha prouvées en 60 minutes"},
+  {n:3,result:"2×",unit:"plus efficace",title:"L-Theanine stress & cognition",authors:"Hidese et al.",year:2019,journal:"Nutrients",pmid:"PMC 6836118",de:"400mg = doppelt so wirksam wie 200mg",fr:"400mg = deux fois plus efficace que 200mg"},
+  {n:4,result:"↓",unit:"cortisol nocturne",title:"Magnesium & sleep quality",authors:"Abbasi et al.",year:2012,journal:"J Research Medical Sci",pmid:"PMC 3703169",de:"Magnesiumglycinat senkt Cortisol in der Nacht",fr:"Magnésium Glycinate réduit le cortisol nocturne"},
+  {n:5,result:"VDR",unit:"hypothalamus",title:"Vitamin D & HPA axis",authors:"Spedding et al.",year:2014,journal:"Nutrients",pmid:"PMC 4011048",de:"Vitamin D3 beeinflusst Ihre Stressachse direkt",fr:"La D3 influence directement votre axe du stress"},
+  {n:6,result:"↑ BDNF",unit:"neuroplasticité",title:"Ashwagandha & neurite growth",authors:"Kuboyama et al.",year:2009,journal:"Brit J Pharmacology",pmid:"PMC 2697842",de:"Ashwagandha regeneriert gestresste Nervenzellen",fr:"L'Ashwagandha régénère les cellules nerveuses stressées"},
+  {n:7,result:"↑ Focus",unit:"sans jitter",title:"L-Theanine + caffeine cognition",authors:"Haskell et al.",year:2008,journal:"Biological Psychology",pmid:"PMID 18006208",de:"L-Theanin + Kaffee = Energie ohne Zittern",fr:"L-Théanine + café = énergie sans nervosité"},
+  {n:8,result:"+21.5%",unit:"force musculaire",title:"Ashwagandha muscle strength",authors:"Wankhede et al.",year:2015,journal:"JISSN",pmid:"PMC 4658772",de:"KSM-66 steigert Kraft um 21,5% und senkt Cortisol",fr:"KSM-66 augmente la force de 21,5% et réduit cortisol"},
+  {n:9,result:"×2.3",unit:"IL-6 inflammation",title:"Psychological stress & inflammation",authors:"Steptoe et al.",year:2007,journal:"PNAS",pmid:"PMID 17360649",de:"Chronischer Stress entzündet buchstäblich Ihren Körper",fr:"Le stress chronique enflamme littéralement votre corps"},
+  {n:10,result:"↑ DHEA",unit:"ratio anti-âge",title:"Ashwagandha DHEA cortisol ratio",authors:"Auddy et al.",year:2008,journal:"J Am Nutraceutical Assoc",pmid:"JANAssoc 2008",de:"KSM-66 verbessert den Anti-Aging-Marker DHEA/Cortisol",fr:"KSM-66 améliore le marqueur anti-âge DHEA/Cortisol"}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — COMPETITORS
+// ═══════════════════════════════════════
+const COMPETITORS = [
+  {name:"Jello",url:"trinkjello.com",market:"🇩🇪 DE",threat:"high",price:"€39.99",format:"Poudre sticks",reviews:"0",guarantee:"30j",angle:"Cortisol -24% · Stressbauch · Schlaf",weakness:"CLONE NELLIO — Formule identique, 0 reviews, garantie 30j vs 45j",ads:"⚠️ Estimé: 50-200"},
+  {name:"CalmifyDrink",url:"calmifydrink.com",market:"🇺🇸 USA/EN",threat:"high",price:"~$39",format:"Poudre",reviews:"4.8/5",guarantee:"N/A",angle:"Cortisol Can Kiss Our Ashwagandha! BOGO offer",weakness:"Marché EN uniquement — Gap DE non adressé",ads:"✅ Actif Meta FR"},
+  {name:"SpaceGoods",url:"spacegoods.com",market:"🇪🇺 EU",threat:"med",price:"€16-40",format:"Poudre multi-produits",reviews:"4.0/5 · 8116",guarantee:"N/A",angle:"EU #1 Focus+Energy system",weakness:"⚠️ GOÛT HORRIBLE (reviews Trustpilot 8116)",ads:"⚠️ Estimé: 300-500+"},
+  {name:"Happy Mammoth",url:"happymammoth.com",market:"🌍 Global",threat:"med",price:"N/A",format:"Capsules",reviews:"3M+ clients",guarantee:"N/A",angle:"Is one stress hormone behind ALL your symptoms?",weakness:"Pas spécifique Allemagne · Format capsules",ads:"✅ Très actif Meta FR"},
+  {name:"Nectar",url:"drinknectar.co",market:"🇺🇸 USA",threat:"med",price:"~$39",format:"Sachets poudre",reviews:"4.9/5 · 12K",guarantee:"N/A",angle:"Better Days Start Here · Cortisol+Sleep",weakness:"Marché US uniquement · Pas DE",ads:"⚠️ Estimé: 150-300"},
+  {name:"Nuclever",url:"nuclever.fr",market:"🇫🇷 FR",threat:"med",price:"~€40",format:"Capsules",reviews:"4.6/5 · 323",guarantee:"N/A",angle:"Cortisol Manager · Visage affiné",weakness:"Formule identique Nellio · 323 vs 20K reviews",ads:"⚠️ Estimé: 50-100"},
+  {name:"RYZE",url:"ryzesuperfoods.com",market:"🇺🇸 USA",threat:"low",price:"$45",format:"Poudre café",reviews:"4.8/5 · 195K",guarantee:"N/A",angle:"Mushroom coffee · Energy+Gut health",weakness:"Pas cortisol-focused · Marché US",ads:"⚠️ Estimé: 200-500+"},
+  {name:"Everyday Dose",url:"everydaydose.com",market:"🇺🇸 USA",threat:"low",price:"$39",format:"Poudre café",reviews:"4.9/5 · 8722",guarantee:"N/A",angle:"Focus+Energy · No afternoon crash",weakness:"Pas cortisol direct · Marché US",ads:"⚠️ Estimé: 100-200"},
+  {name:"Soothely",url:"mysoothely.com",market:"🇫🇷 FR",threat:"med",price:"N/A",format:"Poudre Lemon Raspberry",reviews:"Faible",guarantee:"N/A",angle:"Stress Relief + Poids femme",weakness:"Ingrédients peu transparents · Social proof limité",ads:"⚠️ Estimé: 50-150"},
+  {name:"Provitalize (BB Co)",url:"thebbco.com",market:"🌍 Global",threat:"low",price:"N/A",format:"Capsules probiotic",reviews:"3M+",guarantee:"90j",angle:"-29% cortisol (King's College) · Ménopause",weakness:"Pas poudre boisson · Focus ménopause narrow",ads:"✅ Très actif Meta FR"},
+  {name:"GroundingWell",url:"groundingwell.com",market:"🌍 Global",threat:"low",price:"N/A",format:"Grounding sheet (non supplément)",reviews:"N/A",guarantee:"90j",angle:"Cortisol IMBALANCE (pas high cortisol)",weakness:"Pas concurrent direct (produit différent)",ads:"✅ Actif Meta FR · angle éducatif fort"},
+  {name:"Ornevia",url:"ornevia.com",market:"🇫🇷 FR",threat:"low",price:"-50% permanent",format:"Capsules?",reviews:"Faible",guarantee:"Satisfait remboursé",angle:"SUPERCALM · Flash sale agressive",weakness:"Discount brand = moins de confiance",ads:"⚠️ Estimé: 100-300"},
+  {name:"Melixir",url:"trymelixir.com",market:"🇫🇷 FR",threat:"low",price:"€39.99-€49.99",format:"Capsules",reviews:"Faible",guarantee:"N/A",angle:"Magnésium Complex + Cortisol Régulateur",weakness:"Discount permanent → signal de qualité faible",ads:"⚠️ Estimé: 50-100"},
+  {name:"TresCalme (QC)",url:"trescalme.co",market:"🇨🇦 QC",threat:"low",price:"~€35",format:"Poudre Himbeer-Zitrone",reviews:"Faible",guarantee:"N/A",angle:"Anti-stress · Perte poids cortisol",weakness:"Copie conforme Soothely — même white-label",ads:"⚠️ Estimé: 50-200"},
+  {name:"Kiva Cacao",url:"kivacacao.com",market:"🌍 Global",threat:"low",price:"$49",format:"Poudre cacao",reviews:"4.9/5 · 1422",guarantee:"30j",angle:"Ceremonial Cacao · Blood flow · Heart health",weakness:"Pas cortisol direct — adjacent uniquement",ads:"N/A"},
+  {name:"Luma Nutrition",url:"lumanutrition.com",market:"🇺🇸 USA",threat:"low",price:"$29-49",format:"Capsules divers",reviews:"500K clients",guarantee:"90j",angle:"Take Control of Your Health · Founded by US Army veteran",weakness:"Pas cortisol/stress spécifique · US only",ads:"N/A"}
+];
+
+// ═══════════════════════════════════════
+// RENDER FUNCTIONS
+// ═══════════════════════════════════════
+const srcBadge = (s) => {
+  const m = {reddit:'🔴 Reddit',amazon:'🟠 Amazon.de',tiktok:'🟡 TikTok DE',forum:'🔵 Forum DE',pubmed:'🟢 PubMed',brand:'⚪ BrandSearch',trend:'🟣 Trends'};
+  return `<span class="badge ${s}">${m[s]||s}</span>`;
+};
+
+function renderDesires(){
+  document.getElementById('desires-list').innerHTML = DESIRES.map(d=>`
+    <div class="research-item">
+      <div class="item-header">
+        <span class="item-num">#${d.n}</span>
+        <span class="item-title">${d.title}</span>
+        <span class="score">⚡ ${d.score}/30</span>
+      </div>
+      ${srcBadge(d.source)}
+      <div class="de-text">🇩🇪 "${d.de}"</div>
+      <div class="fr-text">${d.fr}</div>
+    </div>`).join('');
+}
+
+function renderProblems(){
+  document.getElementById('problems-list').innerHTML = PROBLEMS.map(p=>`
+    <div class="research-item">
+      <div class="item-header">
+        <span class="item-num">#${p.n}</span>
+        <span class="item-title">${p.title}</span>
+      </div>
+      ${srcBadge(p.source)}
+      <div class="de-text">🇩🇪 "${p.de}"</div>
+      <div class="fr-text">${p.fr}</div>
+      <div class="response">Ingrédient Nellio : ${p.ingredient}</div>
+    </div>`).join('');
+}
+
+function renderObjections(){
+  document.getElementById('objections-list').innerHTML = OBJECTIONS.map(o=>`
+    <div class="research-item tier-${o.tier}">
+      <div class="item-header">
+        <span class="item-num">#${o.n}</span>
+        <span class="item-title">${o.title}</span>
+        <span class="score" style="background:${o.tier===1?'rgba(255,107,107,0.2)':o.tier===2?'rgba(255,209,102,0.2)':'rgba(160,160,184,0.15)'}">Tier ${o.tier}</span>
+      </div>
+      ${srcBadge(o.source)}
+      <div class="de-text">🇩🇪 "${o.de}"</div>
+      <div class="fr-text">${o.fr}</div>
+      <div class="response">${o.response}</div>
+    </div>`).join('');
+}
+
+function renderExperiences(){
+  document.getElementById('experiences-list').innerHTML = EXPERIENCES.map(e=>`
+    <div class="card">
+      <div style="display:flex;gap:12px;align-items:center;margin-bottom:12px">
+        <span style="font-size:28px">${e.emoji}</span>
+        <div><div style="font-weight:700">${e.persona}</div><div style="font-size:11px;color:var(--text2)">Avatar ${e.avatar}</div></div>
+      </div>
+      <table class="doc-table">
+        <tr><td class="label" style="color:var(--text2);font-size:12px;width:120px">Déclencheur</td><td>${e.trigger}</td></tr>
+        <tr><td class="label" style="color:var(--text2);font-size:12px">Parcours avant</td><td>${e.path}</td></tr>
+        <tr><td class="label" style="color:var(--text2);font-size:12px">Résistance</td><td><em>${e.resistance}</em></td></tr>
+        <tr><td class="label" style="color:var(--text2);font-size:12px">Conversion</td><td style="color:var(--mint)">${e.conversion}</td></tr>
+        ${e.result?`<tr><td class="label" style="color:var(--text2);font-size:12px">Résultat</td><td style="color:var(--green)">${e.result}</td></tr>`:''}
+      </table>
+      <div class="hook-box" style="margin-top:12px">
+        <div style="font-size:11px;color:var(--text3);margin-bottom:4px">HOOK AD</div>
+        <div class="de">🇩🇪 "${e.hook}"</div>
+        <div class="fr">🇫🇷 ${e.hookfr}</div>
+      </div>
+    </div>`).join('');
+}
+
+function renderScience(){
+  document.getElementById('mechanisms-list').innerHTML = MECHANISMS.map(m=>`
+    <div class="mechanism-card">
+      <div class="mechanism-num">#${m.n} — ${m.ingredient}</div>
+      <div style="font-weight:700;margin:6px 0;font-size:14px">${m.name}</div>
+      <div class="de-text" style="font-size:12px">🇩🇪 "${m.de}"</div>
+      <div class="fr-text" style="font-size:11px">${m.fr}</div>
+    </div>`).join('');
+
+  document.getElementById('facts-list').innerHTML = FACTS.map(f=>`
+    <div class="research-item" style="margin-bottom:8px">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+        <span class="item-num">#${f.n}</span>
+        ${srcBadge(f.source)}
+        <span style="font-size:11px;color:var(--text3)">${f.ref}</span>
+      </div>
+      <div class="de-text">🇩🇪 ${f.de}</div>
+      <div class="fr-text">${f.fr}</div>
+    </div>`).join('');
+
+  document.getElementById('studies-list').innerHTML = STUDIES.map(s=>`
+    <div class="study-card">
+      <div class="study-result">${s.result} <span style="font-size:14px;color:var(--text2)">${s.unit}</span></div>
+      <div class="study-meta">${s.authors} · ${s.year} · ${s.journal} · <span style="color:var(--mint)">${s.pmid}</span></div>
+      <div class="de-text" style="font-size:13px">🇩🇪 "${s.de}"</div>
+      <div class="fr-text" style="font-size:12px">${s.fr}</div>
+    </div>`).join('');
+}
+
+function renderCompetitors(){
+  const top = COMPETITORS.filter(c=>c.threat==='high');
+  const all = COMPETITORS;
+  document.getElementById('top-threats').innerHTML = top.map(c=>`
+    <div class="comp-card" style="border-color:rgba(255,107,107,0.3)">
+      <div class="comp-header">
+        <div><div class="comp-name">${c.name}</div><div class="comp-url">${c.url} · ${c.market}</div></div>
+        <span class="threat threat-high">🔴 THREAT</span>
+      </div>
+      <div class="comp-row"><span class="label">Ads estimées</span><span>${c.ads}</span></div>
+      <div class="comp-row"><span class="label">Prix</span><span>${c.price}</span></div>
+      <div class="comp-row"><span class="label">Garantie</span><span>${c.guarantee}</span></div>
+      <div class="comp-row"><span class="label">Reviews</span><span>${c.reviews}</span></div>
+      <div style="margin-top:10px;font-size:13px;font-style:italic;color:var(--gold)">"${c.angle}"</div>
+      <div class="comp-weak">${c.weakness}</div>
+    </div>`).join('');
+
+  document.getElementById('meta-insights').innerHTML = `
+    <div class="ad-insight"><div style="font-weight:700;margin-bottom:6px">🏆 Happy Mammoth — Angle #1 en volume</div>
+    <div class="ad-copy">"Is one 'stress hormone' behind all hormonal symptoms?"</div>
+    <div style="font-size:12px;color:var(--text2)">→ <strong>DE adaptation :</strong> "Ist ein einziges Hormon für alle deine Beschwerden verantwortlich?" <br><em style="color:var(--text3)">🇫🇷 "Une seule hormone est-elle responsable de tous tes problèmes ?"</em></div></div>
+    <div class="ad-insight"><div style="font-weight:700;margin-bottom:6px">🏆 CalmifyDrink — Formule identique Nellio, angle humour</div>
+    <div class="ad-copy">"Cortisol Can Kiss Our Ashwagandha! Buy 1 Get 1 Free — Ends Today"</div>
+    <div style="font-size:12px;color:var(--text2)">→ <strong>DE adaptation :</strong> "Cortisol? Unser Ashwagandha sagt: Tschüss." <br><em style="color:var(--text3)">🇫🇷 "Cortisol ? Notre ashwagandha dit au revoir."</em></div></div>
+    <div class="ad-insight"><div style="font-weight:700;margin-bottom:6px">🏆 GroundingWell — Angle éducatif différenciateur</div>
+    <div class="ad-copy">"You don't have HIGH cortisol. You have a cortisol IMBALANCE."</div>
+    <div style="font-size:12px;color:var(--text2)">→ <strong>DE adaptation :</strong> "Dein Cortisol ist nicht zu hoch. Es ist aus dem Rhythmus." <br><em style="color:var(--text3)">🇫🇷 "Ton cortisol n'est pas trop haut. Il est déréglé."</em></div></div>
+    <div class="ad-insight"><div style="font-weight:700;margin-bottom:6px">🏆 Provitalize — Chiffres précis = trust maximum</div>
+    <div class="ad-copy">"-29% morning cortisol (King's College London) · 3,000,000+ customers · 90-day guarantee"</div>
+    <div style="font-size:12px;color:var(--text2)">→ <strong>Nellio counter :</strong> "-27,9% Cortisol (PMC 31517876) · 300.000+ Kunden · 45 Tage Garantie" <br><em style="color:var(--text3)">🇫🇷 "-27,9% cortisol prouvé · 300 000+ clients · Garantie 45 jours"</em></div></div>
+    <div style="background:rgba(81,207,102,0.08);border:1px solid rgba(81,207,102,0.2);border-radius:8px;padding:14px;margin-top:10px">
+    <strong style="color:var(--green)">✅ GAP IDENTIFIÉ — OPPORTUNITÉ NELLIO</strong><br>
+    <span style="font-size:13px;color:var(--text2);margin-top:6px;display:block">Aucune marque allemande n'est active sur Meta pour l'angle cortisol + poudre boisson.<br>Nellio = <strong>Premier Mover sur le marché germanophone</strong>. Gap total.</span></div>`;
+
+  document.getElementById('all-competitors').innerHTML = all.map(c=>`
+    <div class="comp-card">
+      <div class="comp-header">
+        <div><div class="comp-name">${c.name}</div><div class="comp-url">${c.url} · ${c.market}</div></div>
+        <span class="threat ${c.threat==='high'?'threat-high':c.threat==='med'?'threat-med':'threat-low'}">${c.threat==='high'?'🔴':c.threat==='med'?'🟡':'⬜'}</span>
+      </div>
+      <div class="comp-row"><span class="label">Format</span><span>${c.format}</span></div>
+      <div class="comp-row"><span class="label">Prix</span><span>${c.price}</span></div>
+      <div class="comp-row"><span class="label">Reviews</span><span>${c.reviews}</span></div>
+      <div class="comp-row"><span class="label">Garantie</span><span>${c.guarantee}</span></div>
+      <div class="comp-row"><span class="label">Ads</span><span style="font-size:11px">${c.ads}</span></div>
+      <div style="margin-top:8px;font-size:12px;color:var(--text2);font-style:italic">"${c.angle}"</div>
+      ${c.weakness?`<div class="comp-weak" style="font-size:11px">${c.weakness}</div>`:''}
+    </div>`).join('');
+}
+
+// ═══════════════════════════════════════
+// DATA LAYER — ANGLES ×42 (Phase 2)
+// ═══════════════════════════════════════
+const ANGLES_T1 = [
+  {n:"01",name:"Réveil 3h du Matin",desire:"Dormir profondément (Score 7820)",awareness:"Stade 1-2",avatar:"Tous · 30-50 ans",format:"UGC 30-60s · Long-form",hook:"Dein Wecker klingelt nicht um 3 Uhr. Dein Cortisol schon.",concept:"Réveil brutal = CAR déréglé. Melatonin/Baldrian ne touchent pas le CAR. KSM-66 normalise."},
+  {n:"02",name:"Cortisol-Gesicht",desire:"Retrouver son apparence (Score 4675)",awareness:"Stade 1-2",avatar:"Femme 28-45 · A1/A5",format:"Before/After image · UGC 30s",hook:"Dein Gesicht um 7 Uhr morgens zeigt dir, wie viel Cortisol du hattest.",concept:"Visage gonflé = 11β-HSD1 activée. KSM-66 inhibe cette enzyme → résultats visibles sem.3-4."},
+  {n:"03",name:"La Science KSM-66",desire:"Solution prouvée (Score 5984)",awareness:"Stade 3-4",avatar:"A4 Wellness · A2 Sceptique",format:"Long-form article · Carousel",hook:"-27,9% Cortisol. 147 Studien. Der Unterschied zwischen KSM-66 und DM-Ashwagandha.",concept:"KSM-66 ≠ générique DM. 147 études · 5% withanolides vs 1-3% · BfR-konform."},
+  {n:"04",name:"Ich funktioniere nur noch",desire:"Retrouver son identité (Score 7020)",awareness:"Stade 2",avatar:"A1 Mère · A2 Manager",format:"UGC monologue 45-60s",hook:"Ich lebe nicht mehr. Ich funktioniere nur noch. Das ändert sich jetzt.",concept:"Désir identitaire le plus profond. Pas juste 'moins stressé' — wieder ich selbst."},
+  {n:"05",name:"Alles Versucht",desire:"Briser le cycle (Score 4400)",awareness:"Stade 3",avatar:"Tous · ayant déjà essayé",format:"UGC 45s · Image comparative",hook:"Baldrian. Melatonin. DM-Ashwagandha. Alles versucht? Dann lies das.",concept:"Frustration cumulative = signal audience fort. La vraie différence : KSM-66 standardisé."}
+];
+const ANGLES_T2 = [
+  {n:"06",name:"Stressbauch",hook:"Bauchfett trotz Sport? Das ist kein Willensproblem.",avatar:"A1/A5"},
+  {n:"07",name:"Anti-SSRI",hook:"Was Endokrinologen empfehlen — bevor sie Lexapro aufschreiben",avatar:"A1/A2/A5"},
+  {n:"08",name:"Burnout Prävention",hook:"Nicht warten bis der Burnout kommt. 6 Monate vorher gibt es Zeichen.",avatar:"A2"},
+  {n:"09",name:"Cercle vicieux Mg",hook:"Stress → Magnesiummangel → mehr Stress. Wie man das durchbricht.",avatar:"A4/A2"},
+  {n:"10",name:"Dimanche soir",hook:"Sonntagabend: Wenn die Angst vor der Woche beginnt",avatar:"A1/A2"},
+  {n:"11",name:"Café × 4",hook:"3-4 Kaffee am Morgen nur um zu funktionieren? Dein Cortisol bettelt.",avatar:"A2/A3"},
+  {n:"12",name:"Sleepmaxxing",hook:"Sleepmaxxing 2025: Die 4 Wirkstoffe die dein Schlaf-Stack braucht",avatar:"A4/A3"},
+  {n:"13",name:"Périménopause",hook:"Das ist nicht 'die Wechseljahre'. Das ist Cortisol der alles schlimmer macht.",avatar:"A5"},
+  {n:"14",name:"Brain Fog",hook:"Cortisol zerstört Gehirnzellen. Das ist Neurobiologie.",avatar:"A2/A3/A4"},
+  {n:"15",name:"Prix/Valeur",hook:"Cortisol-Therapie: €150+/Monat. Nellio: €1,16/Tag.",avatar:"A3/A1"},
+  {n:"17",name:"D3 Manquant",hook:"75% der Deutschen fehlt das Vitamin das Cortisol direkt reguliert.",avatar:"A4/A2"},
+  {n:"18",name:"Das Original",hook:"Seit Jahren getestet. Nicht seit 6 Tagen.",avatar:"Tous"},
+  {n:"19",name:"Télomères/Anti-âge",hook:"Stress lässt dich schneller altern — messbar an den Telomeren.",avatar:"A4/A5"},
+  {n:"20",name:"Partenaire",hook:"Mein Partner hat mich gefragt: Wann bist du wieder du?",avatar:"A1/A2"}
+];
+
+// ═══════════════════════════════════════
+// DATA LAYER — HOOKS ×75 (Phase 2)
+// ═══════════════════════════════════════
+const HOOKS = {
+  "Angle 01 — Réveil 3h": [
+    {h:"Dein Wecker klingelt nicht um 3 Uhr. Dein Cortisol schon.",type:"Proclamation",tier:"🔴"},
+    {h:"Wachst du nachts um 3 Uhr auf — und grübelst bis zum Morgen?",type:"Question",tier:"🔴"},
+    {h:"Nacht #187. Ich lag wieder wach um 3:14 Uhr.",type:"Story",tier:"🟠"},
+    {h:"Warum wachen 67% der gestressten Deutschen um 3 Uhr morgens auf?",type:"Statistique",tier:"🟠"},
+    {h:"Das ist kein Schlafproblem. Das ist Cortisol der dich aufweckt.",type:"Reframing",tier:"🔴"},
+    {h:"Melatonin hat dir nicht geholfen? Das ist der Grund.",type:"Objection",tier:"🟠"},
+    {h:"Der Cortisol-Spike um 3 Uhr: was dahinter steckt",type:"Secret",tier:"🟠"},
+    {h:"Ich war 6 Monate lang jeden Morgen um 3 wach. Dann habe ich das versucht.",type:"Story arc",tier:"🟠"},
+    {h:"Baldrian. Melatonin. Schlaf-Apps. Und immer noch um 3 wach?",type:"Frustration",tier:"🔴"},
+    {h:"Dein Körper sagt dir etwas um 3 Uhr morgens. Hörst du hin?",type:"Curiosité",tier:"🟡"}
+  ],
+  "Angle 02 — Cortisol-Gesicht": [
+    {h:"Dein Gesicht um 7 Uhr morgens zeigt dir, wie viel Cortisol du hattest.",type:"Proclamation visuelle",tier:"🔴"},
+    {h:"Cortisol-Gesicht: Was wirklich dahinter steckt — und wie man es rückgängig macht",type:"Secret + promesse",tier:"🟠"},
+    {h:"95% der Frauen wissen nicht, warum ihr Gesicht morgens aufgedunsen ist",type:"Statistique",tier:"🔴"},
+    {h:"Ich erkenne mich morgens im Spiegel nicht mehr wieder.",type:"Story",tier:"🟠"},
+    {h:"Das ist nicht Wassereinlagerung. Das ist Cortisol-Fett.",type:"Reframing choc",tier:"🔴"},
+    {h:"Warum dein Gesicht nach 4 Wochen Nellio anders aussieht — Neurobiologie erklärt",type:"Mécanisme",tier:"🟠"},
+    {h:"3 Wochen. Das ist wie lange es dauert bis das Cortisol-Gesicht verschwindet.",type:"Timeline",tier:"🟠"},
+    {h:"Die Enzym die dein Gesicht morgens aufbläst — und wie KSM-66 sie stoppt",type:"Mécanisme spécifique",tier:"🟠"},
+    {h:"Meine Freundin hat mich gefragt was ich verändert habe. Das war Woche 4.",type:"Social proof",tier:"🟡"},
+    {h:"Cortisol-Face Trend: 180 Millionen Views — aber kaum jemand kennt die Lösung",type:"Tendance",tier:"🟡"}
+  ],
+  "Angle 03 — Science KSM-66": [
+    {h:"-27,9% Cortisol. 147 Studien. Der Unterschied zwischen KSM-66 und DM-Ashwagandha.",type:"Chiffres précis",tier:"🔴"},
+    {h:"KSM-66 hat 147 klinische Studien. DM-Ashwagandha hat keine.",type:"Comparaison",tier:"🟠"},
+    {h:"Warum hat generisches Ashwagandha bei dir nicht gewirkt — die ehrliche Antwort",type:"Question directe",tier:"🔴"},
+    {h:"PMC 31517876: Das ist die Studie die du gelesen haben solltest.",type:"Autorité",tier:"🟠"},
+    {h:"Das Ashwagandha das das BfR für die sicherste Form hält.",type:"Réglementaire",tier:"🟠"},
+    {h:"5% Withanolide vs 1-3%: Das ist der Unterschied zwischen wirksam und verschwendetem Geld",type:"Mécanisme",tier:"🟠"},
+    {h:"In 60 Tagen um 27,9% weniger Cortisol. Das ist Wissenschaft, nicht Marketing.",type:"Claim spécifique",tier:"🔴"},
+    {h:"Ich nehme nur was klinisch belegt ist. Deshalb nehme ich KSM-66.",type:"UGC voix",tier:"🟡"},
+    {h:"HPA-Achse, Withanolide, CAR: Was du wissen musst bevor du kaufst",type:"Education",tier:"🟡"},
+    {h:"147 Studien. BfR-konform. 20.000 Bewertungen. Was brauchst du noch?",type:"Proof stacking",tier:"🟠"}
+  ],
+  "Angle 04 — Ich funktioniere": [
+    {h:"Ich lebe nicht mehr. Ich funktioniere nur noch. Das ändert sich jetzt.",type:"Proclamation",tier:"🔴"},
+    {h:"Bist du noch du selbst — oder bist du das, was Cortisol aus dir gemacht hat?",type:"Question miroir",tier:"🔴"},
+    {h:"Sie haben sich nicht verändert. Ihr Cortisol schon.",type:"Reframing",tier:"🟠"},
+    {h:"Nie wieder wegen Stress auf die Kinder ausrasten.",type:"Promesse mères",tier:"🔴"},
+    {h:"Mein Partner hat mich gefragt: Wann bist du wieder du? Ich hatte keine Antwort.",type:"Story émotionnelle",tier:"🟠"},
+    {h:"Ich war so müde — von mir selbst.",type:"Fatigue identitaire",tier:"🟠"},
+    {h:"Erkennst du dich? Gereizt. Erschöpft. Und trotzdem kannst du nicht abschalten.",type:"Triple identification",tier:"🔴"},
+    {h:"Cortisol stiehlt dir nicht nur den Schlaf. Er stiehlt dir dich selbst.",type:"Métaphore",tier:"🟠"},
+    {h:"Ich habe in Woche 3 zum ersten Mal seit Monaten wirklich gelacht.",type:"Bascule émotionnelle",tier:"🟠"},
+    {h:"Für Frauen die funktionieren — aber nicht mehr wirklich leben.",type:"Call-out direct",tier:"🟠"}
+  ],
+  "Angle 05 — Alles Versucht": [
+    {h:"Baldrian. Melatonin. DM-Ashwagandha. Alles versucht? Dann lies das.",type:"Liste frustration",tier:"🔴"},
+    {h:"Wenn dir Baldrian und Melatonin nicht geholfen haben — liegt es nicht an dir.",type:"Validation",tier:"🔴"},
+    {h:"Warum nichts gegen deinen Stress hilft — und was wirklich funktioniert",type:"Secret",tier:"🟠"},
+    {h:"Ich habe alles versucht. Bis ich KSM-66 verstanden habe.",type:"Story + reveal",tier:"🟠"},
+    {h:"Das ist nicht das Ashwagandha das du schon kennst.",type:"Reframing",tier:"🔴"},
+    {h:"Es liegt nicht daran, dass Supplements nicht funktionieren. Es liegt daran, welches.",type:"Reframing catégorie",tier:"🟠"},
+    {h:"Generisches Ashwagandha: 1-3% Withanolide. KSM-66: 5%. Das erklärt alles.",type:"Chiffre révélateur",tier:"🟠"},
+    {h:"Alle sagen Ashwagandha. Kaum einer sagt: welches?",type:"Question gap",tier:"🟠"},
+    {h:"Wenn alles versucht nichts gebracht hat — war es vielleicht die falsche Dosis.",type:"Reframing doux",tier:"🟡"},
+    {h:"45 Tage. Wenn es diesmal nicht klappt — bekommst du dein Geld zurück.",type:"Garantie comme hook",tier:"🟠"}
+  ]
+};
+
+// ═══════════════════════════════════════
+// RENDER FUNCTIONS — PHASE 2
+// ═══════════════════════════════════════
+function renderAngles(){
+  document.getElementById('angles-t1').innerHTML = ANGLES_T1.map(a=>`
+    <div class="card" style="border-color:rgba(255,107,107,0.3)">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px">
+        <div>
+          <span style="color:var(--coral);font-size:11px;font-weight:700">ANGLE ${a.n} · 🔴 MARKSMAN</span>
+          <div style="font-size:16px;font-weight:700;margin-top:2px">${a.name}</div>
+        </div>
+        <span style="background:rgba(255,107,107,0.1);border:1px solid rgba(255,107,107,0.3);border-radius:6px;padding:3px 8px;font-size:11px;color:var(--coral)">Stade ${a.awareness}</span>
+      </div>
+      <div style="font-size:12px;color:var(--text2);margin-bottom:8px">🎯 ${a.desire}</div>
+      <div style="font-size:12px;color:var(--text2);margin-bottom:8px">👤 ${a.avatar} · 🎬 ${a.format}</div>
+      <div style="background:rgba(255,107,107,0.06);border-left:3px solid var(--coral);padding:8px 10px;border-radius:0 6px 6px 0;font-style:italic;font-size:13px;margin-bottom:8px">"${a.hook}"</div>
+      <div style="font-size:12px;color:var(--text3)">${a.concept}</div>
+    </div>`).join('');
+
+  document.getElementById('angles-t2').innerHTML = ANGLES_T2.map(a=>`
+    <div class="card" style="border-color:rgba(255,209,102,0.2)">
+      <div style="color:var(--gold);font-size:11px;font-weight:700;margin-bottom:4px">ANGLE ${a.n} · 🟠 SNIPER</div>
+      <div style="font-size:14px;font-weight:700;margin-bottom:8px">${a.name}</div>
+      <div style="font-size:12px;color:var(--text2);margin-bottom:6px">👤 ${a.avatar}</div>
+      <div style="background:rgba(255,209,102,0.06);border-left:3px solid var(--gold);padding:6px 8px;font-style:italic;font-size:12px;border-radius:0 4px 4px 0">"${a.hook}"</div>
+    </div>`).join('');
+
+  document.getElementById('angles-t3').innerHTML = `
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px">
+        ${[
+          {n:"21",name:"Perte de cheveux",hook:"Haarausfall vom Stress? Das ist Telogen-Effluvium."},
+          {n:"22",name:"Palpitations réveil",hook:"Herzrasen beim Aufwachen: das ist der Cortisol-Spike."},
+          {n:"23",name:"Huberman namedrop",hook:"Was Andrew Huberman nicht über KSM-66 sagt — aber Studien schon"},
+          {n:"24",name:"Immunité + stress",hook:"Ständig krank? Dein Immunsystem zahlt den Preis."},
+          {n:"25",name:"Libido perdue",hook:"Stress tötet die Libido. Das ist Biologie, keine Schwäche."},
+          {n:"26",name:"DIY stack calcul",hook:"Ashwagandha €12 + L-Theanin €15 + Mg €10 + D3 €8 = €45. Nellio: €34,99."},
+          {n:"27",name:"Montag-Dread",hook:"Montag-Dread: erschöpft bevor die Woche beginnt."},
+          {n:"28",name:"Focus/Concentration",hook:"Ich kann mich nicht mehr 30 Minuten konzentrieren."},
+          {n:"29",name:"Social proof tribu",hook:"20.000 Deutsche. Dasselbe Problem. Eine Lösung."},
+          {n:"30",name:"Offre 6 mois",hook:"6 Monate + kostenloser Mixer: das Angebot das sich lohnt"}
+        ].map(a=>`<div style="padding:10px;border:1px solid var(--border);border-radius:8px">
+          <div style="font-size:11px;color:var(--text3)">A${a.n}</div>
+          <div style="font-weight:700;font-size:13px;margin:2px 0">${a.name}</div>
+          <div style="font-style:italic;font-size:11px;color:var(--text2)">"${a.hook}"</div>
+        </div>`).join('')}
+      </div>
+      <div style="margin-top:16px;padding:12px;background:rgba(255,209,102,0.06);border-radius:8px">
+        <div style="font-size:12px;font-weight:700;color:var(--gold);margin-bottom:8px">📅 ANGLES SAISONNIERS</div>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;font-size:12px;color:var(--text2)">
+          <div>❄️ <strong>Janvier</strong> : "Das neue Jahr beginnt mit einem Reset."</div>
+          <div>🎒 <strong>Septembre</strong> : "Stresssaison beginnt. Dein Cortisol weiß es."</div>
+          <div>🌑 <strong>Hiver</strong> : "75% D3-Mangel — und es macht alles schlimmer"</div>
+          <div>🛍️ <strong>BFCM</strong> : "Das Supplement das dich durch November bringt"</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderHooks(){
+  document.getElementById('hooks-list').innerHTML = Object.entries(HOOKS).map(([angle,hooks])=>`
+    <div style="margin-bottom:24px">
+      <div class="subsection" style="color:var(--coral)">${angle}</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:8px">
+        ${hooks.map((h,i)=>`
+          <div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px;display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0">${h.tier}</span>
+            <div>
+              <div style="font-style:italic;font-size:13px;color:var(--text);margin-bottom:4px">"${h.h}"</div>
+              <div style="font-size:11px;color:var(--text3)">Type : ${h.type}</div>
+            </div>
+          </div>`).join('')}
+      </div>
+    </div>`).join('');
+}
+
+// ═══════════════════════════════════════
+// TAB NAVIGATION
+// ═══════════════════════════════════════
+function showPanel(id){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('panel-'+id).classList.add('active');
+  event.target.classList.add('active');
+  // Lazy render
+  if(id==='desires') renderDesires();
+  if(id==='problems') renderProblems();
+  if(id==='objections') renderObjections();
+  if(id==='experiences') renderExperiences();
+  if(id==='science') renderScience();
+  if(id==='competitors') renderCompetitors();
+  if(id==='angles') renderAngles();
+  if(id==='hooks') renderHooks();
+}
+// Init overview (no render needed — static HTML)
+</script>
+</body>
+</html>

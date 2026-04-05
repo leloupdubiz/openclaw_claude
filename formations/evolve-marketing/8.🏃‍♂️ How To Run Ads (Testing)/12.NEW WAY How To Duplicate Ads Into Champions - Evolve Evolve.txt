@@ -1,0 +1,35 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+All right, guys, so just filming a very much so updated piece here in regards to post IDs and duplicating ads over into your champions ad set. So one of the biggest problems with using post IDs, and you guys most likely know how to do this already, or you probably just watched the video, it only actually copies over the Facebook engagement. And so obviously, if you go down into breakdown here, and you take a look at platform, which tells you whether or not it's Facebook or Instagram, you can see that if we go just today, um, that majority of our, um, spend is going on Facebook and let's just go like the last seven days for this brand. Uh, it's $1 ,000 here and then $500 here. But with that said, there's still likely Instagram engagement. And so if we go to Instagram posts with comments, uh, you can see there's 844 likes on this and a decent amount of engagement, right? 
+
+0:00:50
+And so what ends up happening is if you actually turn this into a post ID, uh, it will not actually show that engagement for Instagram. which really sucks, okay? And so what ends up happening a lot of the times is the reason why your champions ads will sometimes not get any spend is because of that. And so what you can do is you can basically just take this ad and you just simply duplicate it the old school way. Okay. Now you have to make sure that you don't change anything. 
+
+0:01:17
+Um, so we're going to go to existing ad site here. We're going to click champions. We're going to remove the original ad set and then very simply make sure this is ticked. Just don't really touch anything. You're just going to go ahead and click duplicate. And then when you duplicate it, um, make sure again, you don't change anything. 
+
+0:01:31
+You can remove the copy here. Um, but you don't really want to touch anything. You just want to do that. Make sure everything looks good and then just go ahead and publish. Now I might need to get access. I'm not sure why. 
+
+0:01:41
+Let me double, let me double check this. All right, you guys can tell I don't actually do all of the media buying at the agency. But if we go ahead and publish this, this should go through. It might give me an issue with Instagram, but it should go through. And so boom, that's now been published. And so now we just refresh the account, or let me just actually move the break down here. 
+
+0:01:59
+I should be able to refresh. 
+
+0:02:00
+no problem. 
+
+0:02:01
+So reload. 
+
+0:02:04
+And now if we actually go into the Champions ad set, we should be able to see there is an ad here, and you'll know it's worked if you preview it and you see the engagement. So boom, there is the engagement on Facebook. And you can see here, if you go to Instagram posts with comments, you can now see it inside of here as well. Okay, and so just like that you can actually keep the engagement on Facebook and Instagram if you guys are previously using post IDs This is actually the method that our media buyer has been using now I need you guys to give us feedback and let us know if it doesn't work for right now It's working like 90 % of the time But if this is not working for you guys, then obviously you can just use post IDs But right now this is actually how we've been duplicating ads into the champions ad set to keep engagement Just know that if you change anything in here, it will obviously remove the engagement. So it's kind of a sneaky way to go through here. I'm just gonna go ahead and click close, but it's a sneaky way to keep Instagram engagement because if you guys are only using post IDs right now, that is a problem because Instagram is not copied over. 
+
+0:03:07
+So hopefully that makes sense. Go ahead and try this out. Let us know if this is working for you guys, because it is working for most of our accounts and just wanted to share it with you.
+
+
+Transcribed with Cockatoo

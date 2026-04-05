@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test Video WebM</title></head>
+<body style="background:#111;color:#fff;font-family:sans-serif;padding:20px">
+  <h2>Test A — Rouge synthétique (WebM/VP9)</h2>
+  <video id="vA" controls muted playsinline style="width:200px;height:355px;background:#333;display:block;margin-bottom:8px"
+    src="/downloads/test_red.webm"></video>
+  <p id="stA">—</p>
+
+  <h2>Test B — Vidéo kie.ai batch1_1A (WebM/VP9)</h2>
+  <video id="vB" controls muted playsinline style="width:200px;height:355px;background:#333;display:block;margin-bottom:8px"
+    src="/downloads/1771954179160_batch1_1A_SA-02.webm"></video>
+  <p id="stB">—</p>
+
+  <script>
+    ['A','B'].forEach(id => {
+      const v = document.getElementById('v'+id);
+      const s = document.getElementById('st'+id);
+      v.addEventListener('canplay', () => s.textContent = '✅ canplay OK — ' + v.videoWidth + 'x' + v.videoHeight);
+      v.addEventListener('error', () => s.textContent = '❌ ' + (v.error?.message || 'code '+v.error?.code));
+      v.addEventListener('loadedmetadata', () => s.textContent = '⏳ metadata OK: ' + v.duration.toFixed(1) + 's');
+    });
+  </script>
+</body>
+</html>

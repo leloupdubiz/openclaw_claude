@@ -1,0 +1,1640 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nellio Studio — Générateur Créatif IA</title>
+  <!-- Fonts : system stack (offline-first) -->
+  <style>
+    :root {
+      --primary: #6366f1;
+      --primary-light: #818cf8;
+      --primary-dark: #4f46e5;
+      --secondary: #ec4899;
+      --accent: #06b6d4;
+      --bg-dark: #0a0a0f;
+      --bg-card: #13131f;
+      --bg-hover: #1a1a2e;
+      --text-primary: #ffffff;
+      --text-secondary: #a1a1aa;
+      --text-muted: #71717a;
+      --border: #27273a;
+      --success: #22c55e;
+      --gradient-1: linear-gradient(135deg, #6366f1 0%, #ec4899 50%, #06b6d4 100%);
+      --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.3);
+      --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .bg-gradient {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: 
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.15), transparent),
+        radial-gradient(ellipse 60% 40% at 80% 80%, rgba(236, 72, 153, 0.1), transparent);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 10;
+      padding: 2rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+      background: rgba(10, 10, 15, 0.8);
+      backdrop-filter: blur(20px);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--gradient-1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      box-shadow: var(--shadow-glow);
+    }
+
+    .logo-text {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: var(--gradient-1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .logo-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .container {
+      position: relative;
+      z-index: 10;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 3rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 4rem;
+      padding: 3rem 0;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: 100px;
+      font-size: 0.875rem;
+      color: var(--primary-light);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #fff 0%, #a1a1aa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero h1 span {
+      background: var(--gradient-1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .generators {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-card);
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      background: var(--bg-hover);
+      border: 1px solid var(--border);
+    }
+
+    .card-icon.purple {
+      background: rgba(99, 102, 241, 0.1);
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+
+    .card-icon.pink {
+      background: rgba(236, 72, 153, 0.1);
+      border-color: rgba(236, 72, 153, 0.3);
+    }
+
+    .card-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .card-subtitle {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .api-status {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 0.875rem;
+    }
+
+    .api-status.connected {
+      border-color: var(--success);
+      background: rgba(34, 197, 94, 0.1);
+    }
+
+    .api-status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--text-muted);
+    }
+
+    .api-status.connected .api-status-dot {
+      background: var(--success);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .api-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      display: none;
+    }
+
+    .api-section.show {
+      display: block;
+      animation: slideDown 0.3s ease;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .api-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .api-title {
+      font-weight: 600;
+    }
+
+    .api-input-group {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .api-input {
+      flex: 1;
+      font-family: monospace;
+      font-size: 0.875rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    select, input, textarea {
+      width: 100%;
+      padding: 1rem 1.25rem;
+      background: var(--bg-dark);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text-primary);
+      font-size: 0.9375rem;
+      font-family: inherit;
+      transition: all 0.3s ease;
+    }
+
+    select:focus, input:focus, textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem 2rem;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: inherit;
+      width: 100%;
+    }
+
+    .btn-primary {
+      background: var(--gradient-1);
+      color: white;
+      box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(99, 102, 241, 0.5);
+    }
+
+    .output-container {
+      margin-top: 1.5rem;
+      padding: 1.5rem;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      display: none;
+    }
+
+    .output-container.active {
+      display: block;
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .output-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .output-content {
+      font-family: monospace;
+      font-size: 0.875rem;
+      line-height: 1.8;
+      white-space: pre-wrap;
+      color: var(--text-secondary);
+    }
+
+    .btn-small {
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
+      width: auto;
+      background: var(--bg-hover);
+      border: 1px solid var(--border);
+      color: var(--text-primary);
+    }
+
+    .btn-small:hover {
+      background: var(--border);
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      padding: 1rem 1.5rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      box-shadow: var(--shadow-card);
+      transform: translateX(150%);
+      transition: transform 0.3s ease;
+      z-index: 1000;
+    }
+
+    .toast.show {
+      transform: translateX(0);
+    }
+
+    .toast-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(34, 197, 94, 0.1);
+      color: var(--success);
+    }
+
+    .toast.error .toast-icon {
+      background: rgba(239, 68, 68, 0.1);
+      color: #ef4444;
+    }
+
+    /* Loading */
+    .loading {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      padding: 2rem;
+      color: var(--text-secondary);
+    }
+
+    .loading.active {
+      display: flex;
+    }
+
+    .spinner {
+      width: 24px;
+      height: 24px;
+      border: 2px solid var(--border);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ===== TABS ===== */
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0;
+    }
+    .tab-btn {
+      padding: 0.75rem 1.5rem;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s ease;
+      margin-bottom: -1px;
+    }
+    .tab-btn:hover { color: var(--text-primary); }
+    .tab-btn.active {
+      color: var(--primary-light);
+      border-bottom-color: var(--primary-light);
+    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* ===== BATCH GENERATOR ===== */
+    .batch-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .batch-config {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .batch-results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+    .batch-item {
+      background: var(--bg-dark);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      position: relative;
+    }
+    .batch-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .variant-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.75rem;
+      background: rgba(99,102,241,0.15);
+      border: 1px solid rgba(99,102,241,0.3);
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--primary-light);
+    }
+    .hook-type-badge {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      padding: 0.25rem 0.6rem;
+      background: var(--bg-hover);
+      border-radius: 6px;
+    }
+    .batch-script-preview {
+      font-size: 0.8125rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      white-space: pre-wrap;
+      max-height: 200px;
+      overflow-y: auto;
+      margin-bottom: 1rem;
+      padding-right: 0.25rem;
+    }
+    .batch-body {
+      background: rgba(99,102,241,0.05);
+      border: 1px solid rgba(99,102,241,0.15);
+      border-radius: 8px;
+      padding: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.75rem;
+    }
+    .batch-cta {
+      background: rgba(236,72,153,0.05);
+      border: 1px solid rgba(236,72,153,0.15);
+      border-radius: 8px;
+      padding: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+    .batch-actions {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .batch-stats {
+      display: flex;
+      gap: 2rem;
+      padding: 1.25rem 1.5rem;
+      background: rgba(34,197,94,0.05);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+    .batch-stat {
+      text-align: center;
+    }
+    .batch-stat-value {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--success);
+    }
+    .batch-stat-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .export-bar {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .btn-export {
+      background: rgba(34,197,94,0.1);
+      border: 1px solid rgba(34,197,94,0.3);
+      color: var(--success);
+      padding: 0.65rem 1.25rem;
+      border-radius: 10px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+    .btn-export:hover {
+      background: rgba(34,197,94,0.2);
+    }
+    .btn-export-meta {
+      background: rgba(99,102,241,0.1);
+      border: 1px solid rgba(99,102,241,0.3);
+      color: var(--primary-light);
+      padding: 0.65rem 1.25rem;
+      border-radius: 10px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+    .btn-export-meta:hover {
+      background: rgba(99,102,241,0.2);
+    }
+    .loading-batch {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 3rem;
+    }
+    .loading-batch.active { display: flex; }
+    .loading-steps {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+    .progress-bar {
+      width: 300px;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--gradient-1);
+      border-radius: 2px;
+      transition: width 0.5s ease;
+    }
+
+    /* ===== HISTORY ===== */
+    .history-filters {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      padding: 0.5rem 1rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: rgba(99,102,241,0.1);
+      border-color: rgba(99,102,241,0.3);
+      color: var(--primary-light);
+    }
+    .history-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .history-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .history-item:hover {
+      border-color: rgba(99,102,241,0.3);
+      background: var(--bg-hover);
+    }
+    .history-meta {
+      flex: 1;
+    }
+    .history-type {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .history-type.script { background: rgba(99,102,241,0.15); color: var(--primary-light); }
+    .history-type.image { background: rgba(236,72,153,0.15); color: #f472b6; }
+    .history-type.batch { background: rgba(34,197,94,0.15); color: var(--success); }
+    .history-preview {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    .history-date {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .history-actions {
+      display: flex;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+    .history-empty {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-muted);
+    }
+    .history-empty-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .history-count-badge {
+      background: var(--primary);
+      color: white;
+      font-size: 0.7rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 100px;
+      margin-left: 0.4rem;
+      font-weight: 700;
+    }
+
+    @media (max-width: 768px) {
+      .container { padding: 1.5rem; }
+      .hero h1 { font-size: 2.5rem; }
+      .generators { grid-template-columns: 1fr; }
+      header { padding: 1rem 1.5rem; }
+      .api-input-group { flex-direction: column; }
+      .batch-config { grid-template-columns: 1fr; }
+      .batch-results-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-gradient"></div>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">✦</div>
+      <div>
+        <div class="logo-text">Nellio Studio</div>
+        <div class="logo-subtitle">Créatif IA pour Drinknellio</div>
+      </div>
+    </div>
+    <div class="api-status" id="apiStatus">
+      <div class="api-status-dot"></div>
+      <span id="apiStatusText">API non connectée</span>
+      <button class="btn btn-secondary btn-small" onclick="toggleApiSection()">Configurer</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- API Key Section -->
+    <div class="api-section" id="apiSection">
+      <div class="api-header">
+        <span class="api-title">🔑 Configuration API Anthropic</span>
+        <button class="btn btn-secondary btn-small" onclick="toggleApiSection()">✕</button>
+      </div>
+      <div class="api-input-group">
+        <input type="password" id="apiKeyInput" class="api-input" placeholder="sk-ant-... (votre clé API Anthropic)">
+        <button class="btn btn-primary btn-small" onclick="saveApiKey()" style="width: auto;">💾 Sauvegarder</button>
+      </div>
+      <p style="margin-top: 0.75rem; font-size: 0.75rem; color: var(--text-muted);">
+        💡 Votre clé est stockée localement (localStorage) et jamais partagée. 
+        Obtenez une clé sur <a href="https://console.anthropic.com/settings/keys" target="_blank" style="color: var(--primary-light);">console.anthropic.com</a>
+      </p>
+    </div>
+
+    <section class="hero">
+      <div class="hero-badge">✨ Propulsé par Claude</div>
+      <h1>Générez des créatifs <span>ultra-performants</span></h1>
+      <p>Scripts UGC, prompts Midjourney et Batch 3-2-2 générés par IA pour scaler Drinknellio.</p>
+    </section>
+
+    <!-- TABS NAVIGATION -->
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('generators')">🎬 Générateurs</button>
+      <button class="tab-btn" onclick="switchTab('batch')" id="batchTabBtn">⚡ Batch 3-2-2</button>
+      <button class="tab-btn" onclick="switchTab('history')" id="historyTabBtn">📋 Historique <span class="history-count-badge" id="historyBadge">0</span></button>
+    </div>
+
+    <!-- TAB: GENERATORS -->
+    <div class="tab-content active" id="tab-generators">
+    <section class="generators">
+      <!-- VIDEO SCRIPT -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon purple">🎬</div>
+          <div>
+            <div class="card-title">Générateur de Scripts UGC</div>
+            <div class="card-subtitle">Scripts vidéo prêts à filmer</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Type de Hook</label>
+          <select id="hookType">
+            <option value="problem_agitation">😰 Problem Agitation</option>
+            <option value="curiosity">🤔 Curiosité</option>
+            <option value="transformation">✨ Transformation</option>
+            <option value="social_proof">👥 Preuve sociale</option>
+            <option value="contrarian">⚡ Controversé</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Audience cible</label>
+          <select id="audience">
+            <option value="stressed_professionals">💼 Professionnels stressés</option>
+            <option value="busy_moms">👩 Mères débordées</option>
+            <option value="students">📚 Étudiants stressés</option>
+            <option value="wellness_enthusiasts">🧘 Amateurs bien-être</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Tonalité</label>
+          <select id="tone">
+            <option value="authentic">Authentique & Personnel</option>
+            <option value="energetic">Énergique & Motivant</option>
+            <option value="calm">Calme & Zen</option>
+            <option value="scientific">Scientifique</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Durée</label>
+          <select id="duration">
+            <option value="15">15 secondes — Short</option>
+            <option value="30" selected>30 secondes — Standard</option>
+            <option value="60">60 secondes — Long</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary" onclick="generateScript()" id="scriptBtn">✨ Générer avec Claude</button>
+
+        <div class="loading" id="scriptLoading">
+          <div class="spinner"></div>
+          <span>Claude génère votre script...</span>
+        </div>
+
+        <div class="output-container" id="scriptOutput">
+          <div class="output-header">
+            <span>📝 Script généré</span>
+            <button class="btn btn-small" onclick="copyScript()">📋 Copier</button>
+          </div>
+          <div class="output-content" id="scriptContent"></div>
+        </div>
+      </div>
+
+      <!-- IMAGE PROMPT -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon pink">🎨</div>
+          <div>
+            <div class="card-title">Générateur d'Images</div>
+            <div class="card-subtitle">Prompts Midjourney optimisés</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Type d'image</label>
+          <select id="imageType">
+            <option value="product_hero">📦 Produit Hero Shot</option>
+            <option value="lifestyle_flatlay">🌅 Flatlay Lifestyle</option>
+            <option value="ugc_unboxing">📱 UGC Unboxing</option>
+            <option value="testimonial">💁 Témoignage</option>
+            <option value="transformation">⚡ Transformation</option>
+            <option value="morning_routine">☕ Routine matinale</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Plateforme</label>
+          <select id="platform">
+            <option value="instagram">📷 Instagram Feed (4:5)</option>
+            <option value="stories">📱 Stories/Reels (9:16)</option>
+            <option value="facebook">👥 Facebook (1:1)</option>
+            <option value="tiktok">🎵 TikTok (9:16)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Style visuel</label>
+          <select id="style">
+            <option value="minimalist">⚪ Minimaliste & Moderne</option>
+            <option value="cozy">🏠 Cozy & Chaleureux</option>
+            <option value="premium">✨ Premium & Luxueux</option>
+            <option value="authentic">🌿 Authentique & Naturel</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary" onclick="generateImagePrompt()">🎨 Générer le prompt</button>
+
+        <div class="output-container" id="imageOutput">
+          <div class="output-header">
+            <span>🎨 Prompt Midjourney</span>
+            <button class="btn btn-small" onclick="copyImagePrompt()">📋 Copier</button>
+          </div>
+          <div class="output-content" id="imageContent"></div>
+        </div>
+      </div>
+    </section>
+    </div><!-- end tab-generators -->
+
+    <!-- TAB: BATCH 3-2-2 -->
+    <div class="tab-content" id="tab-batch">
+      <div class="batch-card">
+        <div class="card-header">
+          <div class="card-icon purple">⚡</div>
+          <div>
+            <div class="card-title">Batch Generator 3-2-2</div>
+            <div class="card-subtitle">3 créatifs × 2 body copies × 2 CTAs = 12 variantes Meta Ads</div>
+          </div>
+        </div>
+
+        <div class="batch-config">
+          <div class="form-group" style="margin-bottom:0">
+            <label class="form-label">Audience cible</label>
+            <select id="batchAudience">
+              <option value="stressed_professionals">💼 Professionnels stressés</option>
+              <option value="busy_moms">👩 Mères débordées</option>
+              <option value="students">📚 Étudiants stressés</option>
+              <option value="wellness_enthusiasts">🧘 Amateurs bien-être</option>
+            </select>
+          </div>
+          <div class="form-group" style="margin-bottom:0">
+            <label class="form-label">Objectif campagne</label>
+            <select id="batchGoal">
+              <option value="conversion">🎯 Conversion</option>
+              <option value="awareness">📢 Awareness</option>
+              <option value="traffic">🔗 Traffic</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" onclick="generateBatch()" id="batchBtn">⚡ Générer les 12 variantes avec Claude</button>
+
+        <div class="loading-batch" id="batchLoading">
+          <div class="spinner" style="width:32px;height:32px;border-width:3px"></div>
+          <div class="loading-steps" id="batchStep">Génération en cours...</div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="batchProgress" style="width:0%"></div>
+          </div>
+        </div>
+
+        <div id="batchResults" style="display:none">
+          <div class="batch-stats" id="batchStats">
+            <div class="batch-stat">
+              <div class="batch-stat-value">12</div>
+              <div class="batch-stat-label">Variantes</div>
+            </div>
+            <div class="batch-stat">
+              <div class="batch-stat-value">3</div>
+              <div class="batch-stat-label">Scripts</div>
+            </div>
+            <div class="batch-stat">
+              <div class="batch-stat-value">2</div>
+              <div class="batch-stat-label">Body Copies</div>
+            </div>
+            <div class="batch-stat">
+              <div class="batch-stat-value">2</div>
+              <div class="batch-stat-label">CTAs</div>
+            </div>
+          </div>
+
+          <div class="export-bar" id="exportBar">
+            <strong style="font-size:0.875rem">Exporter :</strong>
+            <button class="btn-export" onclick="exportJSON()">📥 JSON</button>
+            <button class="btn-export-meta" onclick="exportCSV()">📊 CSV Meta Ads</button>
+            <button class="btn-export" onclick="exportMarkdown()">📝 Markdown</button>
+            <span style="font-size:0.75rem;color:var(--text-muted);margin-left:auto" id="batchTimestamp"></span>
+          </div>
+
+          <div class="batch-results-grid" id="batchGrid"></div>
+        </div>
+      </div>
+    </div><!-- end tab-batch -->
+
+    <!-- TAB: HISTORIQUE -->
+    <div class="tab-content" id="tab-history">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem">
+        <div>
+          <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:0.25rem">Historique des générations</h2>
+          <p style="color:var(--text-muted);font-size:0.875rem">Toutes vos générations sauvegardées localement</p>
+        </div>
+        <button class="btn btn-small" onclick="clearHistory()" style="color:#ef4444;border-color:rgba(239,68,68,0.3)">🗑️ Tout effacer</button>
+      </div>
+
+      <div class="history-filters">
+        <button class="filter-btn active" onclick="filterHistory('all', this)">Tout</button>
+        <button class="filter-btn" onclick="filterHistory('script', this)">🎬 Scripts</button>
+        <button class="filter-btn" onclick="filterHistory('image', this)">🎨 Images</button>
+        <button class="filter-btn" onclick="filterHistory('batch', this)">⚡ Batchs</button>
+      </div>
+
+      <div class="history-list" id="historyList"></div>
+    </div><!-- end tab-history -->
+
+  </div><!-- end container -->
+
+  <script>
+    // DATA EN ALLEMAND POUR DRINKNELLIO
+    const hooks = {
+      problem_agitation: [
+        "Dieser Trick gegen Stress hat mein Leben verändert...",
+        "Wenn du dich ständig erschöpft fühlst, musst du das sehen...",
+        "Endlich Schluss mit dem täglichen Burnout...",
+        "Ich war skeptisch, bis ich das probiert habe..."
+      ],
+      curiosity: [
+        "Was passiert, wenn man Ashwagandha 30 Tage nimmt?",
+        "Dieses Getränk macht Berühmtheiten süchtig...",
+        "Warum trinken alle plötzlich UltraCalm?"
+      ],
+      transformation: [
+        "Von gestresst zu entspannt in 21 Tagen...",
+        "Meine Transformation mit einem einfachen Drink...",
+        "So habe ich meinen Stress besiegt..."
+      ],
+      social_proof: [
+        "20.000 Menschen können nicht irren...",
+        "Warum UltraCalm 4.8 Sterne hat...",
+        "Das schwören alle meine Freunde..."
+      ],
+      contrarian: [
+        "Hör auf, Kaffee zu trinken...",
+        "Meditation ist überbewertet...",
+        "Vergiss alle anderen Wellness-Tricks..."
+      ]
+    };
+
+    const problems = {
+      stressed_professionals: [
+        "Meetings den ganzen Tag, keine Energie mehr nach der Arbeit",
+        "Schlaflose Nächte wegen Deadline-Druck",
+        "Kaffee funktioniert nicht mehr, nur noch Nervosität"
+      ],
+      busy_moms: [
+        "Zwischen Job, Kindern und Haushalt keine Zeit für mich",
+        "Abends komplett am Ende, aber kann nicht abschalten",
+        "Keine Energie mehr für Qualitätszeit mit den Kindern"
+      ],
+      students: [
+        "Prüfungsstress macht mich wahnsinnig",
+        "Kann mich nicht konzentrieren beim Lernen",
+        "Schlafstörungen vor wichtigen Terminen"
+      ],
+      wellness_enthusiasts: [
+        "Sucht nach natürlichen Lösungen",
+        "Enttäuschung von anderen Produkten",
+        "Wunsch nach ganzheitlicher Gesundheit"
+      ]
+    };
+
+    const solutions = [
+      "UltraCalm mit Ashwagandha, L-Theanin und Magnesium. Natürlich, ohne Zucker.",
+      "Ein Glas jeden Morgen. Schmeckt fruchtig nach Himbeere-Zitrone.",
+      "300mg Ashwagandha für innere Ruhe, 400mg L-Theanin für Fokus.",
+      "Einfaches Ritual: Aufwachen, UltraCalm trinken, Tag meistern."
+    ];
+
+    const proofs = [
+      "Nach 21 Tagen: Mein Stress-Level um 60% gesunken. Endlich wieder ich selbst.",
+      "Meine Schlafqualität hat sich dramatisch verbessert. Wache ausgeruht auf.",
+      "Meine Produktivität ist durch die Decke gegangen. Kein Brain Fog mehr.",
+      "Meine Familie merkt den Unterschied. Endlich wieder entspannte Momente."
+    ];
+
+    const ctas = [
+      "Link in Bio. 45 Tage Geld-zurück-Garantie.",
+      "Code NELLIO20 für 20% Rabatt. Nur diese Woche.",
+      "Swipe up für mehr Infos. Schnell zugreifen!",
+      "Kommentar 'CALM' für den Link."
+    ];
+
+    const imagePrompts = {
+      product_hero: {
+        minimalist: 'Product photography of "UltraCalm" wellness drink powder sachet, clean white background, soft shadows, coral and mint color accents, professional studio lighting, 85mm lens, shallow depth of field, high-end cosmetic aesthetic, 8k resolution',
+        cozy: 'Product photography of wellness drink sachet on warm wooden surface, morning light, cozy lifestyle aesthetic, soft shadows, coral and mint tones, authentic home setting',
+        premium: 'Luxury product photography of UltraCalm sachet on marble surface, golden hour lighting, premium cosmetic aesthetic, high-end brand feel, sophisticated styling',
+        authentic: 'Natural product photography of wellness drink, real home environment, soft natural light, authentic lifestyle aesthetic, unpolished genuine feel'
+      },
+      lifestyle_flatlay: {
+        minimalist: 'Aesthetic morning routine flatlay top-down view, UltraCalm sachet beside ceramic mug with pink drink, fresh berries, open journal, eucalyptus branch, white marble surface, natural window light, clean minimalist aesthetic',
+        cozy: 'Cozy morning routine flatlay, wellness drink, knitted blanket corner, warm coffee cup, soft morning light, warm beige tones, cozy hygge aesthetic',
+        premium: 'Luxury wellness flatlay, UltraCalm on marble tray with gold accents, fresh flowers, designer accessories, high-end lifestyle aesthetic',
+        authentic: 'Real morning routine flatlay, slightly messy but authentic, natural lighting, everyday objects, genuine lifestyle moment'
+      },
+      ugc_unboxing: {
+        minimalist: 'POV shot hands opening UltraCalm package, clean background, minimal aesthetic, focused on product, professional iPhone photography',
+        cozy: 'Cozy unboxing moment, hands opening wellness package on bed with soft blanket, warm morning light, authentic cozy vibe',
+        premium: 'Premium unboxing experience, elegant packaging reveal, luxury brand aesthetic, sophisticated styling',
+        authentic: 'Real unboxing POV, genuine excited reaction, natural home setting, authentic iPhone video quality'
+      },
+      testimonial: {
+        minimalist: 'Clean portrait holding UltraCalm drink, minimal background, natural light, simple authentic moment',
+        cozy: 'Cozy selfie with wellness drink, warm home background, soft natural light, comfortable authentic vibe',
+        premium: 'Polished testimonial portrait, professional lighting, confident expression, premium brand aesthetic',
+        authentic: 'Natural selfie testimonial, no filter look, real skin texture, genuine smile, authentic moment'
+      },
+      transformation: {
+        minimalist: 'Split concept visual, left grey blue tired silhouette, right warm coral energized figure, UltraCalm in center, modern minimalist design',
+        cozy: 'Transformation story visual, cozy before/after scene, warm lighting, emotional journey aesthetic',
+        premium: 'Premium transformation graphic, sleek design, professional execution, high-end wellness brand feel',
+        authentic: 'Real transformation documentation, authentic before/after, genuine progress visualization'
+      },
+      morning_routine: {
+        minimalist: 'Clean morning routine scene, hand holding pink wellness drink by window, minimalist aesthetic, soft light, simple composition',
+        cozy: 'Cozy morning moment, UltraCalm by window with sunrise, warm blanket, peaceful atmosphere, slow living vibes',
+        premium: 'Luxury morning ritual, elegant glassware, sophisticated styling, premium wellness lifestyle',
+        authentic: 'Real morning routine, natural light, everyday setting, authentic moment of calm'
+      }
+    };
+
+    // API KEY MANAGEMENT
+    const API_BASE = 'http://localhost:3001';
+    let API_KEY = localStorage.getItem('anthropic_api_key') || '';
+    
+    function toggleApiSection() {
+      const section = document.getElementById('apiSection');
+      section.classList.toggle('show');
+    }
+    
+    function saveApiKey() {
+      const key = document.getElementById('apiKeyInput').value.trim();
+      if (!key || !key.startsWith('sk-ant-')) {
+        showToast('Clé API invalide. Doit commencer par "sk-ant-"');
+        return;
+      }
+      API_KEY = key;
+      localStorage.setItem('anthropic_api_key', API_KEY);
+      updateApiStatus();
+      toggleApiSection();
+      showToast('Clé API sauvegardée !');
+    }
+    
+    function updateApiStatus() {
+      const statusEl = document.getElementById('apiStatus');
+      const statusText = document.getElementById('apiStatusText');
+      if (API_KEY) {
+        statusEl.classList.add('connected');
+        statusText.textContent = 'Claude Connecté';
+      } else {
+        statusEl.classList.remove('connected');
+        statusText.textContent = 'API non connectée';
+      }
+    }
+
+    async function generateScript() {
+      if (!API_KEY) {
+        showToast('Veuillez configurer votre clé API Anthropic', 'error');
+        toggleApiSection();
+        return;
+      }
+
+      const hookType = document.getElementById('hookType').value;
+      const audience = document.getElementById('audience').value;
+      const tone = document.getElementById('tone').value;
+      const duration = document.getElementById('duration').value;
+
+      document.getElementById('scriptBtn').disabled = true;
+      document.getElementById('scriptLoading').classList.add('active');
+      document.getElementById('scriptOutput').classList.remove('active');
+
+      try {
+        const response = await fetch(`${API_BASE}/api/generate/script`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': API_KEY
+          },
+          body: JSON.stringify({ hookType, audience, tone, duration, language: 'de' })
+        });
+
+        const data = await response.json();
+
+        if (!data.success) throw new Error(data.error || 'Erreur serveur');
+
+        document.getElementById('scriptContent').textContent = data.script;
+        document.getElementById('scriptOutput').classList.add('active');
+        addToHistory('script', { ...data, hookType, audience, tone, duration });
+        showToast('Script généré avec Claude ✨');
+
+      } catch (error) {
+        const msg = error.message.includes('Failed to fetch')
+          ? 'Serveur Nellio Studio non démarré (port 3001). Lancez-le avec : npm start'
+          : 'Erreur : ' + error.message;
+        showToast(msg, 'error');
+      } finally {
+        document.getElementById('scriptBtn').disabled = false;
+        document.getElementById('scriptLoading').classList.remove('active');
+      }
+    }
+
+    async function generateImagePrompt() {
+      if (!API_KEY) {
+        showToast('Veuillez configurer votre clé API Anthropic', 'error');
+        toggleApiSection();
+        return;
+      }
+
+      const imageType = document.getElementById('imageType').value;
+      const platform = document.getElementById('platform').value;
+      const style = document.getElementById('style').value;
+
+      const imgBtn = document.querySelector('[onclick="generateImagePrompt()"]');
+      imgBtn.disabled = true;
+      imgBtn.textContent = '⏳ Génération...';
+
+      try {
+        const response = await fetch(`${API_BASE}/api/generate/image-prompt`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': API_KEY
+          },
+          body: JSON.stringify({ imageType, platform, style })
+        });
+
+        const data = await response.json();
+
+        if (!data.success) throw new Error(data.error || 'Erreur serveur');
+
+        const output = document.getElementById('imageOutput');
+        const content = document.getElementById('imageContent');
+        content.textContent = `🎨 MIDJOURNEY PROMPT (${data.aspectRatio}) :
+
+${data.prompt}
+
+📋 UTILISATION :
+1. Copie ce prompt
+2. Va sur Discord → Midjourney Bot
+3. Tape /imagine
+4. Colle le prompt
+5. Attends la génération
+6. V1–V4 pour variations · U1–U4 pour upscale
+
+💡 TIP : ${data.tips || ''}`;
+        output.classList.add('active');
+        addToHistory('image', { prompt: data.prompt, imageType, platform, style });
+        showToast('Prompt généré avec Claude ✨');
+
+      } catch (error) {
+        const msg = error.message.includes('Failed to fetch')
+          ? 'Serveur Nellio Studio non démarré (port 3001)'
+          : 'Erreur : ' + error.message;
+        showToast(msg, 'error');
+      } finally {
+        imgBtn.disabled = false;
+        imgBtn.textContent = '🎨 Générer le prompt';
+      }
+    }
+
+    function copyScript() {
+      const text = document.getElementById('scriptContent').textContent;
+      navigator.clipboard.writeText(text);
+      showToast('Script copié !');
+    }
+
+    function copyImagePrompt() {
+      const text = document.getElementById('imageContent').textContent;
+      navigator.clipboard.writeText(text);
+      showToast('Prompt copié !');
+    }
+
+    // ==========================================
+    // TABS
+    // ==========================================
+    function switchTab(name) {
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('tab-' + name).classList.add('active');
+      event.target.classList.add('active');
+      if (name === 'history') renderHistory();
+    }
+
+    // ==========================================
+    // HISTORY — localStorage
+    // ==========================================
+    const HISTORY_KEY = 'nellio_studio_history';
+    let currentFilter = 'all';
+
+    function getHistory() {
+      try { return JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); } catch { return []; }
+    }
+
+    function saveHistory(history) {
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+      updateHistoryBadge();
+    }
+
+    function addToHistory(type, data) {
+      const history = getHistory();
+      const item = {
+        id: Date.now(),
+        type,
+        timestamp: new Date().toISOString(),
+        data
+      };
+      history.unshift(item); // plus récent en premier
+      if (history.length > 100) history.splice(100); // cap à 100
+      saveHistory(history);
+    }
+
+    function updateHistoryBadge() {
+      const count = getHistory().length;
+      document.getElementById('historyBadge').textContent = count;
+    }
+
+    function renderHistory() {
+      const history = getHistory().filter(item => currentFilter === 'all' || item.type === currentFilter);
+      const list = document.getElementById('historyList');
+
+      if (history.length === 0) {
+        list.innerHTML = `<div class="history-empty">
+          <div class="history-empty-icon">📭</div>
+          <div style="font-size:1rem;color:var(--text-secondary);margin-bottom:0.5rem">Aucune génération ${currentFilter !== 'all' ? 'de ce type ' : ''}trouvée</div>
+          <div style="font-size:0.875rem">Générez des scripts, images ou batchs — ils apparaîtront ici.</div>
+        </div>`;
+        return;
+      }
+
+      list.innerHTML = history.map(item => {
+        const icons = { script: '🎬', image: '🎨', batch: '⚡' };
+        const labels = { script: 'Script UGC', image: 'Image Prompt', batch: 'Batch 3-2-2' };
+        const preview = item.type === 'batch'
+          ? `12 variantes — ${item.data.audience || ''} — ${item.data.campaignGoal || ''}`
+          : item.type === 'script'
+          ? (item.data.script || '').substring(0, 120) + '...'
+          : (item.data.prompt || '').substring(0, 120) + '...';
+
+        const date = new Date(item.timestamp).toLocaleString('fr-FR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+
+        return `<div class="history-item" onclick="loadFromHistory(${item.id})">
+          <div class="history-meta">
+            <div class="history-type ${item.type}">${icons[item.type]} ${labels[item.type]}</div>
+            <div class="history-preview">${preview}</div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.5rem;flex-shrink:0">
+            <div class="history-date">${date}</div>
+            <div class="history-actions">
+              <button class="btn btn-small" onclick="event.stopPropagation();copyFromHistory(${item.id})" style="padding:0.3rem 0.65rem;font-size:0.75rem">📋</button>
+              <button class="btn btn-small" onclick="event.stopPropagation();deleteFromHistory(${item.id})" style="padding:0.3rem 0.65rem;font-size:0.75rem;color:#ef4444">✕</button>
+            </div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    function filterHistory(type, btn) {
+      currentFilter = type;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderHistory();
+    }
+
+    function loadFromHistory(id) {
+      const item = getHistory().find(h => h.id === id);
+      if (!item) return;
+      if (item.type === 'script') {
+        document.getElementById('scriptContent').textContent = item.data.script || '';
+        document.getElementById('scriptOutput').classList.add('active');
+        switchTabByName('generators');
+        showToast('Script chargé depuis l\'historique');
+      } else if (item.type === 'image') {
+        document.getElementById('imageContent').textContent = item.data.prompt || '';
+        document.getElementById('imageOutput').classList.add('active');
+        switchTabByName('generators');
+        showToast('Prompt chargé depuis l\'historique');
+      } else if (item.type === 'batch') {
+        if (item.data.batch) {
+          renderBatchResults(item.data.batch, item.data.audience, item.data.campaignGoal, item.timestamp);
+          switchTabByName('batch');
+        }
+      }
+    }
+
+    function switchTabByName(name) {
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('tab-' + name).classList.add('active');
+      const idx = { generators: 0, batch: 1, history: 2 };
+      document.querySelectorAll('.tab-btn')[idx[name]].classList.add('active');
+    }
+
+    function copyFromHistory(id) {
+      const item = getHistory().find(h => h.id === id);
+      if (!item) return;
+      const text = item.type === 'batch'
+        ? JSON.stringify(item.data.batch, null, 2)
+        : item.data.script || item.data.prompt || '';
+      navigator.clipboard.writeText(text);
+      showToast('Copié !');
+    }
+
+    function deleteFromHistory(id) {
+      const history = getHistory().filter(h => h.id !== id);
+      saveHistory(history);
+      renderHistory();
+    }
+
+    function clearHistory() {
+      if (!confirm('Effacer tout l\'historique ?')) return;
+      saveHistory([]);
+      renderHistory();
+      showToast('Historique effacé');
+    }
+
+    // ==========================================
+    // BATCH GENERATOR 3-2-2
+    // ==========================================
+    let currentBatchData = null;
+
+    async function generateBatch() {
+      if (!API_KEY) {
+        showToast('Veuillez configurer votre clé API Anthropic', 'error');
+        toggleApiSection();
+        return;
+      }
+
+      const audience = document.getElementById('batchAudience').value;
+      const campaignGoal = document.getElementById('batchGoal').value;
+
+      const btn = document.getElementById('batchBtn');
+      const loading = document.getElementById('batchLoading');
+      const results = document.getElementById('batchResults');
+
+      btn.disabled = true;
+      loading.classList.add('active');
+      results.style.display = 'none';
+
+      // Progress animation
+      let progress = 0;
+      const steps = [
+        'Génération du script Problem Agitation...',
+        'Génération du script Curiosité...',
+        'Génération du script Transformation...',
+        'Assemblage des 12 variantes...'
+      ];
+      let stepIdx = 0;
+      const progressInterval = setInterval(() => {
+        progress = Math.min(progress + 8, 90);
+        document.getElementById('batchProgress').style.width = progress + '%';
+        if (progress % 25 === 0 && stepIdx < steps.length) {
+          document.getElementById('batchStep').textContent = steps[stepIdx++];
+        }
+      }, 600);
+
+      try {
+        const response = await fetch(`${API_BASE}/api/generate/batch`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'x-api-key': API_KEY },
+          body: JSON.stringify({ audience, campaignGoal })
+        });
+
+        const data = await response.json();
+        if (!data.success) throw new Error(data.error || 'Erreur serveur');
+
+        clearInterval(progressInterval);
+        document.getElementById('batchProgress').style.width = '100%';
+
+        currentBatchData = { batch: data.batch, audience, campaignGoal, timestamp: new Date().toISOString() };
+
+        // Save to history
+        addToHistory('batch', currentBatchData);
+
+        renderBatchResults(data.batch, audience, campaignGoal, currentBatchData.timestamp);
+        showToast(`✅ ${data.total} variantes générées !`);
+
+      } catch (error) {
+        clearInterval(progressInterval);
+        showToast(error.message.includes('fetch') ? 'Backend non démarré (port 3001)' : error.message, 'error');
+      } finally {
+        btn.disabled = false;
+        loading.classList.remove('active');
+        document.getElementById('batchProgress').style.width = '0%';
+        document.getElementById('batchStep').textContent = 'Génération en cours...';
+      }
+    }
+
+    function renderBatchResults(batch, audience, campaignGoal, timestamp) {
+      const hookLabels = {
+        problem_agitation: '😰 Problem Agitation',
+        curiosity: '🤔 Curiosité',
+        transformation: '✨ Transformation'
+      };
+
+      const grid = document.getElementById('batchGrid');
+      grid.innerHTML = batch.map(item => `
+        <div class="batch-item">
+          <div class="batch-item-header">
+            <span class="variant-badge">Variante ${item.variant}</span>
+            <span class="hook-type-badge">${hookLabels[item.hookType] || item.hookType}</span>
+          </div>
+          <div class="batch-script-preview">${item.script}</div>
+          <div class="batch-body"><strong style="font-size:0.7rem;color:var(--primary-light);display:block;margin-bottom:0.25rem">BODY COPY</strong>${item.bodyCopy}</div>
+          <div class="batch-cta"><strong style="font-size:0.7rem;color:#f472b6;display:block;margin-bottom:0.25rem">CTA</strong>${item.cta}</div>
+          <div class="batch-actions">
+            <button class="btn btn-small" onclick="copyVariant(${item.id - 1})" style="flex:1;font-size:0.8rem;padding:0.5rem">📋 Copier</button>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('batchTimestamp').textContent = new Date(timestamp).toLocaleString('fr-FR');
+      document.getElementById('batchResults').style.display = 'block';
+    }
+
+    function copyVariant(idx) {
+      if (!currentBatchData) return;
+      const item = currentBatchData.batch[idx];
+      const text = `=== VARIANTE ${item.variant} — ${item.hookType} ===\n\nSCRIPT:\n${item.script}\n\nBODY COPY:\n${item.bodyCopy}\n\nCTA:\n${item.cta}`;
+      navigator.clipboard.writeText(text);
+      showToast('Variante copiée !');
+    }
+
+    // ==========================================
+    // EXPORT (CSV Meta Ads + JSON + Markdown)
+    // ==========================================
+    function exportCSV() {
+      if (!currentBatchData) return;
+      const { batch, audience, campaignGoal, timestamp } = currentBatchData;
+
+      const headers = ['Variante', 'Hook Type', 'Script (Primary Text)', 'Body Copy', 'CTA', 'Audience', 'Objectif', 'Date'];
+      const rows = batch.map(item => [
+        item.variant,
+        item.hookType,
+        `"${item.script.replace(/"/g, '""').replace(/\n/g, ' ')}"`,
+        `"${item.bodyCopy.replace(/"/g, '""')}"`,
+        `"${item.cta.replace(/"/g, '""')}"`,
+        audience,
+        campaignGoal,
+        new Date(timestamp).toLocaleDateString('fr-FR')
+      ]);
+
+      const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+      downloadFile(csv, `nellio_batch_meta_${Date.now()}.csv`, 'text/csv');
+      showToast('Export CSV téléchargé ✅');
+    }
+
+    function exportJSON() {
+      if (!currentBatchData) return;
+      downloadFile(JSON.stringify(currentBatchData, null, 2), `nellio_batch_${Date.now()}.json`, 'application/json');
+      showToast('Export JSON téléchargé ✅');
+    }
+
+    function exportMarkdown() {
+      if (!currentBatchData) return;
+      const { batch, audience, campaignGoal, timestamp } = currentBatchData;
+      let md = `# Batch 3-2-2 — Nellio UltraCalm\n`;
+      md += `**Date :** ${new Date(timestamp).toLocaleString('fr-FR')}\n`;
+      md += `**Audience :** ${audience} | **Objectif :** ${campaignGoal}\n\n---\n\n`;
+      batch.forEach(item => {
+        md += `## Variante ${item.variant} — ${item.hookType}\n\n`;
+        md += `### Script\n\`\`\`\n${item.script}\n\`\`\`\n\n`;
+        md += `### Body Copy\n> ${item.bodyCopy}\n\n`;
+        md += `### CTA\n> ${item.cta}\n\n---\n\n`;
+      });
+      downloadFile(md, `nellio_batch_${Date.now()}.md`, 'text/markdown');
+      showToast('Export Markdown téléchargé ✅');
+    }
+
+    function downloadFile(content, filename, mimeType) {
+      const blob = new Blob([content], { type: mimeType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function showToast(message, type = 'success') {
+      const toast = document.getElementById('toast');
+      const toastMessage = document.getElementById('toastMessage');
+      const toastIcon = toast.querySelector('.toast-icon');
+      
+      toastMessage.textContent = message;
+      
+      if (type === 'error') {
+        toast.classList.add('error');
+        toastIcon.textContent = '✕';
+      } else {
+        toast.classList.remove('error');
+        toastIcon.textContent = '✓';
+      }
+      
+      toast.classList.add('show');
+      
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      updateApiStatus();
+      updateHistoryBadge();
+      if (API_KEY) {
+        document.getElementById('apiKeyInput').value = API_KEY;
+      }
+      // Vérifier que le serveur backend est up
+      fetch(`${API_BASE}/api/health`)
+        .then(r => r.json())
+        .then(d => console.log('✅ Nellio Studio backend:', d.model))
+        .catch(() => console.warn('⚠️ Backend non démarré — lancez : npm start dans nellio-studio/'));
+    });
+  </script>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <div class="toast-icon">✓</div>
+    <span id="toastMessage">Opération réussie</span>
+  </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+All right, now for the next type of test that we're going to be covering in here, we're going to be talking about on-site edits.
+And on-site edits is awesome, if you ask me, because it allows me to basically make changes on the website without having to do anything too technical.
+This is really great for messaging.
+IntelliGems actually makes it pretty easy as well for optimizing imagery and stuff like that as well.
+And so if you go through, and again, you've already kind of seen this setup, so I'm just going to split past this.
+Once you go through and do this section, though, when you get to the targeting, you're going to need to make sure that you set a specific page.
+And so, for example, inside of here, what you want to do is make sure that you either do URL contains, and then what you're going to do if, say, you wanted to do a product page, and I'm just going to use this product as an example,
+you would want to make sure, and I delete all of this stuff here as well, you would want to make sure that you change this to contains.
+And the reason why is because what can happen is some people might go directly to your product page,
+but people also might go, if we scroll down here, I got the new page, which is nice, and I go to the bags and accessory collection, and I'm in collection slash bags.
+I don't know why it's showing that.
+That's kind of weird.
+And then I go to the game day tech stock here.
+That seems like it actually linked and worked properly, which was kind of nice.
+But at the end of the day, there's sometimes a URL where people will actually go from the collection URL.
+So here, just to give you an idea, collections, or let me just go to CarePod as an example, because I know this website does it for sure.
+If I land on this page, and I go into the CarePod collection, it's going to add this little snippet.
+And then if I click on the CarePod one, it's going to keep that there as well.
+As you can see, it's not just products CarePod one.
+And so the reason why you would want to make sure you set this up as contains is so then that way, anyone who lands directly on the product page or anyone who goes through the collection will still be involved in this split test.
+Because if we change this to equals, then that means that IntelliGems is not going to redirect someone, even though it's the same page.
+Again, if we just remove this little snippet here, you'll notice that it is the exact same page.
+Nothing changes.
+IntelliGems will not redirect the person who comes from the collection page.
+And we kind of want all the traffic that we can.
+And so in this instance, we want to make sure it says contains if we are to focus on the product page.
+That said, another thing that we can do as well, if we wanted to do a test on the homepage, we would need to make sure that this says equals.
+Because if we just wrote contains on this side of things, then that would be like anywhere on the website.
+Someone would enter into this split test, which we don't want, right?
+And so if we did contains warroad.com, well, every single URL contains warroad.com.
+And so what IntelliGems would do is they would enter them into the split test.
+But the issue is, is they wouldn't be able to see any of the changes, right?
+And the reason why I'm saying this is, for example, if I was to go and say, I wanted to do a split test on the homepage, and I had a split test that was active here.
+But for whatever reason, I landed or I went straight to this page where there was no split test happening.
+IntelliGems would still count that as a visitor because it contains warroad.
+And so there's two ways to use them.
+Again, if we're trying to send traffic directly to the homepage, we just want it to equal this URL and nothing else.
+Whereas if we're sending to a product page or something like that, then typically we want to use contains, okay?
+And so all these other ones down here, like starts with, ends with, does not end with, all this kind of stuff, I don't really use that.
+Typically, the only ones that we'll use are equals and contains.
+And so in this instance, let's just do a homepage URL.
+So as you can see, if the URL equals the homepage, then we're good to go, okay?
+And now from there, we're going to go ahead and click continue.
+And what's cool about this is if you are a developer or someone on your team is a developer, you can actually custom code in this visual builder.
+With that said, I don't know how to do that.
+So I'm just going to go into content edits.
+And so what's cool about this is, as you can see, follow the steps to edit on your site, go through, do this, yada, yada, are you ready?
+Save changes and go to the editor.
+And now what's cool is once this loads, it's going to take you to this mode here where you can continue to the selected theme.
+And now it's going to bring me to a theme here where I have the ability to go through and edit.
+And so the main thing here is, as you can see, there's control group and then there's new group.
+Obviously, I want to optimize the edit group, right?
+And so inside of here, I can now click the edit button.
+And what's great is apparently I need to log in.
+So let me log in.
+All right, now that we're logged in, I can actually go through and I can select specific elements to go and change.
+So if I wanted to go in here and edit the text, I could change this, not on the control group, but on the new group.
+Let's just say the best, you know, neck and wrist protection.
+Okay, and there we go.
+And now I can have that headline there instead.
+I can click done and you'll notice that it's going to keep track of the changes, which is really great.
+On top of that, if I wanted to change the images, I could also do that.
+So I simply select this button and let's say I wanted to change this image.
+Instead, what I could do is I would go into Warroad's files.
+So as you can see, I'm now here in the content.
+And let's just say I wanted to use this double neck guard image for whatever reason.
+I would then go back into my tester here.
+This is, again, the new group one.
+And I would simply paste this in.
+And there we go.
+Now I have that image there.
+Instead, I can go ahead.
+I can click done and now I have those two replacements.
+Now, something that is super important to make sure that you do is depending on how your site's
+coded, there might be a mobile and a desktop difference, right?
+So for example, as you can see, the headline did carry over, which is great, but this image
+down here did not.
+And so that's one thing with Intellgems where you need to make sure that you're also updating
+mobile as well.
+And this is where sometimes it can actually become a little bit glitchy when doing this stuff.
+Because of the fact that, as you can see, this is now a little bit more glitchy inside
+of here, okay?
+And it's not really ideal.
+As you can see, I'm like having to drag this around and like exit this editor and do this
+and do that.
+And so inside of here, as you can see, it did pull up the new group.
+So if I wanted to come in here, update this URL, there we go.
+I managed to do that.
+And if you're wondering how I did it, I just pressed command A and then it copied everything
+for me.
+But I can go ahead and click done on that.
+And now, as you can see, it's showing that.
+But again, in this instance, you might need to go and change the graphic.
+Maybe you need to get a different size for this.
+And so what you would need to do then is obviously re-upload the double net guard or the dual net
+guard image to a size that is actually optimal for this, right?
+And so again, depending on how your code or how your theme is coded, it might show and
+go automatically down to mobile, but a lot of times it won't.
+And so in this instance, it becomes a little bit glitchy.
+IntelliGems is working from my understanding on making this a little bit easier.
+I'm going to go ahead and refresh because I might, may or may not be correct here in
+that it might reset the preview tab here.
+No, it's still the same.
+And so yeah, they still are working on a better mobile builder.
+With that said, as you can see, it's a little bit glitchy.
+And so now if we wanted to click save, at least we know that on mobile and on desktop
+that we're going to have the same image there.
+I'm also going to just exit out of this and pull this back over.
+It's really, really great for desktop, but it's not so great for mobile, especially if
+you don't know how to code.
+Obviously, if you know how to code, you can go through and do that kind of stuff.
+But if we now exit this editor, we're going to go back into the preview.
+I'm going to update these changes.
+And as you can see, now we have those changes and then we're going to go back to the control
+group.
+And as you can see, now the images are back.
+Okay.
+And now in this instance, we can go ahead, we can exit the preview.
+We're fully done.
+And now once we go back into Italian gems, we will see that this visual test that we have
+done is now here.
+And we have the ability to, again, once to go through, get a QR code, make sure everything's
+working and you can do all of that as well.
+You can also copy the URL, which is kind of nice for your mobile phone.
+But with that said, that is visual A-B testing.
+We typically don't use this one as much unless we're doing like a headline test.
+But again, because of the mobile issues, we typically don't use this as much.
+And I'm sure with the new template test I'm about to show you, that is probably what you'll
+prefer to use instead because it's what we prefer to use.
+And so with that said, just need to show it to you for if you have developers.
+If you guys want to know a use case for when we use this, we use this to inject code into
+the actual menu section up here.
+So we're actually testing a new mobile menu on this.
+And so what we have done is our developers have gone in and injected some code into this
+menu.
+That's way, way past my pay grade.
+I do not know how to do that.
+And so if you need help with that, that's something that you're going to have to contact
+IntelliGems around.
+With that said, that is the one instance where we do use the visual testing tool, but that's
+with the help of a developer.
+So hopefully that makes sense.
+Again, it is helpful for, you know, if you want to do a simple headline test without doing
+a lot, but to be honest, the best tests or the best way to do it is going to be in the
+next module, which is where I show you how to optimize with a theme template test.

@@ -1,0 +1,12 @@
+I used chatgpt 5.1 instant - it gives me pretty good results
+
+Prompt:
+
+
+Use the image i uploaded and generate a detailed product description by following the EXACT template below.
+Do not change any colors, text, proportions, or design elements.
+Describe everything exactly as it appears in the image. Make sure the description is 500 characters long and no more 
+
+TEMPLATE TO FOLLOW:
+
+She holds the real very small 30ml "PROTEIN BOTTLE" bottle, a 30ml very small dark amber glass dropper bottle with a black dropper cap. The label wraps around the bottle, featuring a gradient from dark purple to a lighter purple at the bottom. Centered on the label is the white text "protein bottle" with a small, stylized pink graphic above it. Below, in white text, it reads "ENERGY MASSAGE DROPS SPECIAL OIL FOR YOUR MANLY PARTS Extra Strength for MEN". At the bottom, a purple stripe with white text indicates "ENLARGEMENT | STAMINA | ENHANCEMENT Natural Plant Based JOYSTICK". All typography, proportions, and artwork must remain pixel-perfect to img1 with no redesign, recolor, or artistic reinterpretation. Lighting should reproduce soft daylight reflections across the bottle's curved surface, revealing its glossy realism. The bottle is clear enough to show the dark liquid inside.

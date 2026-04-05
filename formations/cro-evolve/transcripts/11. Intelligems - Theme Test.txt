@@ -1,0 +1,128 @@
+All righty, last and not least, or last but not least,
+we have theme tests, okay?
+And so if you go into the content testing,
+and I'm not gonna talk about advanced,
+advanced is basically just a conglomerate of all these.
+We've never used advanced before.
+So if you wanna go and take a look at advanced, you can.
+But theme test is the final one, okay?
+And theme tests, again, are very straightforward.
+They're set up like everything else.
+But now what you're actually doing
+is you're actually going to go through
+and you're going to basically test an entire theme.
+Okay, as it says here,
+when ending or pausing a theme test,
+IntelliGems recommends you do not delete any theme present
+in the test for at least a month, okay?
+And so this is something where, as you know,
+or most of you probably know, in your store,
+you have, let me discard these changes here,
+you have different themes.
+And so say, for example,
+you were in the process of updating to a brand new theme.
+Let's say we added refresh to here,
+we went through, we did a whole thing,
+we tested it all out.
+Or for example, maybe you went
+and got a completely custom site done
+or custom site built.
+Or maybe you went to audit
+and you got a whole audit thing
+and you had someone code that for you.
+What we would recommend in that instance,
+if you don't have the time
+to like split test every single section,
+is you can come in and as it shows here,
+I'll send this document,
+our documentation will be included below.
+You can actually just choose a theme test.
+And so you would choose your live theme
+and you'll know it's live
+because it has the green little dot.
+And then for example,
+let's just say we had a theme down here
+that was like muni,
+but I don't even know what this means.
+But like this is the theme that we wanted to test.
+And so you need to make sure
+that you have the intelligent script in there.
+It's not in there
+because this is just like a super random old theme.
+But that is what you would do.
+And then from there,
+obviously you would just leave all of the stuff open.
+And inside of there,
+as you can see,
+yeah, this is a really old theme.
+But you would just run the split test,
+you would run a split test like that, okay?
+To be honest,
+theme tests are very heavy.
+And what I would also recommend as well
+is like if you are doing a theme test,
+you should not have any other test live, okay?
+There's no reason to have any other test live
+when you're doing a big theme test like this.
+And again,
+this might seem like a fun and easy way to do it.
+I'm just like,
+oh, I just wanna test a new product page.
+Let me, it's on this theme.
+Let me just theme test it.
+I would not recommend you do that.
+The only time I would ever recommend
+that you do a theme test
+is if you are literally getting a brand new website
+and you just wanna make sure
+it's not gonna tank everything.
+Because these theme tests are pretty heavy.
+They can sometimes cause issues and cause glitches.
+And at the end of the day,
+I just wanna make sure that you're not doing that
+and you're not breaking your site
+or having a poor site experience, okay?
+We have ran theme tests before
+and you'll notice that somewhere inside of here,
+we used to do this for mobile menus.
+And to be honest,
+they typically never worked, okay?
+We basically took this mobile navigation menu,
+we tested it.
+I don't really think it got too much data.
+I don't know why it's not gonna load,
+but we have done these before,
+but we honestly just stay away from these now.
+We are not in the position
+where we like rebuild clients' websites,
+so we don't really have to worry about this.
+But if you do, for whatever reason,
+have very low traffic and you want,
+and say you just wanna test a brand new theme,
+I would highly recommend
+that you use this theme testing tool
+to at least get some kind of data,
+but do not use this.
+If you're doing template tests
+and you're doing all this other kind of stuff as well,
+there's no need for you to use the template
+or the theme testing, rather,
+because it's just too heavy if you ask me
+and there's too much complexity.
+And it's very simple to set up,
+but there's a lot that is being loaded on the back end.
+So I would just recommend only doing it
+if you have a brand new theme
+that you're wanting to push live
+or you have a brand new site overall,
+then you can test it.
+We actually might be testing it for this client
+because we're gonna be going through
+and kind of rehauling the entire site.
+But if you ask me, theme tests,
+we barely use them.
+I just wanted to film a super quick video.
+You can learn more about them here,
+but yeah, only ever use it
+if you're doing like an entire brand new website refresh
+and you just wanna split test to see how it goes.

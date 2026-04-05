@@ -1,0 +1,583 @@
+Today, we're gonna cover everything TikTok ads.
+We're gonna go into Shopify, we're gonna link our store,
+we're gonna make sure the pixel's set up properly.
+We're gonna make sure that you can get
+amazing TikTok results.
+For those that are new to the channel, I'm Davey Fogarty.
+My Shopify stores have done over $400 million in sales
+in just four years.
+TikTok ads is the new kid on the block.
+Usually we're heavily reliant on Facebook
+because it's such an incredible marketing tool.
+But lots of people are getting heaps of success
+with the new entertaining nature of TikTok ads.
+So it might be perfect for your brand.
+This video is perfect for beginners.
+We're not gonna skip any steps
+but I also gonna go into some advanced things around content
+because that is so important
+to make sure that you make TikTok ads work.
+So the first step you're gonna wanna do
+is set up your Shopify store.
+If you haven't set up your Shopify store,
+just pause the video, click the link in my bio
+and set it up now.
+We've got one set up through our Lemon Scrub series
+so it's got most of the things ready.
+We're just gonna make sure that we set up TikTok properly
+so the pixel is firing.
+Once you're in Shopify, the best way to go
+is going to apps and just write in TikTok.
+Simply download the official TikTok app
+and click add sales channel.
+This is the exact same as Facebook nowadays.
+This will bring up this little TikTok section
+down in the left hand store of your Shopify store.
+If you don't have Shopify, still carry on watching.
+We're gonna get into the nitty gritty in a second.
+Once this is set up, we can click this section here,
+setting up the pixel.
+The next step, you can see that it's saying,
+connect TikTok for business.
+This is where you need a new TikTok account.
+Already have a TikTok business account,
+you can just click connect,
+but today we're gonna have to create a brand new one.
+So I'm just gonna click create new at the top,
+enter my email address,
+get the verification code sent,
+enter the verification code here,
+agree to terms and conditions and just click sign up.
+You can click connect down the bottom right
+and that's now created an ads manager,
+a business manager under that email.
+We can click create new ad account
+and we can select the country
+and the currency that we wanna be built in.
+This is generally the region
+that you wanna be targeting.
+Change the business name to something
+a little bit simpler, click sign up and connect.
+You'll come to this data sharing section,
+which we've touched on a few times
+in my previous episodes.
+Just click enhanced or maximum,
+providing you've got the terms and conditions set up
+for something and then click confirm.
+Maximum is obviously preferred.
+This is how Shopify shares data with TikTok.
+This is referred to as Cappy,
+which is a partnership between Shopify
+and the advertising platform.
+Click set up, enter your final details.
+Make sure you connect automatic payment.
+Click confirm and you should be ready to go.
+Now to create TikTok ads,
+we're actually gonna have to go back
+to the TikTok ads manager.
+So we can go ads.tiktok.com.
+You can see that our ad account has already been created.
+To make sure that we do have the pixel set up properly,
+what I do recommend is going to your website
+and just like Facebook,
+there's something called TikTok Pixel Helper
+and it's a Chrome extension that you can download
+and check if your pixel is firing on your website.
+If it's not, you may need to go and fix that initially.
+Just download the Chrome extension
+and you can see that our TikTok pixel is set up here.
+Shopify set it up for us and it should be firing.
+This is a page view because we're on a page.
+When you add a product to cart,
+it should fire the add to cart pixel
+or if someone purchases, you can test a purchase
+and it will also fire that pixel in the exact right way.
+So now we're in the TikTok ads account,
+we can go ahead and create our first campaign.
+Campaign structures are really important to talk about.
+It's what separates good advertisers from bad advertisers.
+That alongside really effective marketing content.
+The basic structure is you have a campaign,
+which is what objective you are striving for.
+If you've got something like a real estate business,
+it might be leads, you're trying to collect leads,
+but we've got a e-commerce business,
+so we wanna get purchases.
+Then you've got the ad set level,
+which is basically the targeting that you're setting up
+to complete that campaign objective.
+Then finally, you've got your ads
+that live within each of those ad sets.
+These ads are different creative types
+that you think are going to convert your customer.
+So head to campaign.
+When you're in campaign,
+all you need to do is click create here
+and you'll set up your first campaign.
+You'll get prompted with two options.
+You've got simplified mode and custom mode.
+We're gonna want custom mode.
+We want the full ability to customize thing.
+You're gonna be an advanced advertiser
+by the end of this video.
+Now you've got all of those objectives
+that I mentioned before.
+You've got website traffic,
+which is basically clicking to your website.
+Now this metric may feel good,
+but it's a vanity metric.
+We need people to take action
+so we can get a return on investment
+on the clicks that we're getting.
+You've also got video views
+and you can also get followers and things like that.
+What we want is conversions.
+So we're gonna click conversions
+and now we're gonna name this.
+This naming will not affect your ads,
+but it will however affect how you read your ad account
+and the organization behind it.
+So it's important to get a good system.
+The system I use is one being cold traffic,
+which is, we can explain that a bit later on,
+but all it is saying is that these people
+are quite new to your business.
+It's not someone that's purchased before,
+which we can do within the ad set level.
+Then I'm just going to say conversions
+and leave it at that.
+The other prompts that you've got down here,
+create a split test and campaign budget optimization,
+which is CBO.
+This is something that you're probably not gonna need
+in the beginner stage,
+but I'm gonna explain it anyway
+so you can become an expert.
+Creating a split test is a great way of finding,
+if something works better than the other.
+It's going to allocate accordingly based on their models
+to give you a high degree of confidence,
+whether say a different objective works well
+or a different creative works well
+or a different audience that you're targeting
+works better than the other.
+These split tests can actually be achieved in different ways.
+You don't actually need to use
+the inbuilt split test function,
+which creates a little bit more of rigidity.
+It's not as flexible where you can allocate different budgets
+and take control of the ads.
+They're kind of got to split it how they see fit.
+Then you've got campaign budget optimization.
+Now this is a feature that Facebook added a while ago
+and it is really, really effective
+at spending lots and lots of money
+because technically Facebook or TikTok should know better
+where to apply that money within the ad set layer.
+Remember the ad set layer is where the audiences sit.
+So it's basically saying,
+oh, I would rather put more audience in, you know,
+18 year olds that live in this region
+versus say, you know, fashion lovers in this region.
+Again, by selecting that,
+you're going to remove control
+from where you want to put money.
+When we're first starting out,
+we just want to learn as much as possible
+and tinker ourselves with such small budgets.
+Once we've set that up, we can just click continue.
+And now we get to name our ad group,
+which again is an organizational thing.
+Initially, we're just going to say broad,
+which is generally a statement that advertisers use
+for a large audience.
+And we're also going to say lowest cost,
+which I'm going to explain what that means in a second.
+We can click the website button here
+and providing this has been set up correctly,
+you'll see that TikTok pixel that Shopify is set up for you
+that's firing on your website.
+Then we click down here
+and we can see these optimization events.
+Now, lots of people when first starting out
+may use add to cart as an optimization method.
+The difference between using a metric,
+because remember our customers go to our website,
+then they add it to cart, then they purchase.
+This is referred to as earlier in the funnel
+for the add to cart versus the purchase,
+which is later in the funnel.
+We want people to purchase obviously,
+but by creating an add to cart campaign,
+sometimes we can get more data
+and insights for the ad set or even the ads.
+Now, typically I don't recommend this for Facebook
+because Facebook is just so good.
+Well, it definitely used to be.
+I think TikTok is kind of on the fence at the moment.
+I have seen people using add to cart methods
+to really prove out their creatives
+before introducing it to a purchase campaign
+at higher budgets.
+What we're going to do today
+and what I recommend if you're just getting started
+is just use a complete payment optimization event,
+which is just here, which is basically purchase.
+Then we can scroll down.
+Don't worry about TikTok instant page at the moment.
+And then we've also got placements.
+Now this is important.
+Unlike Facebook where you can click automatic placements
+because it really does have things figured out,
+you're going to click select placement
+because we don't really want our ads running on Buzzfeed
+or Pangl at this stage.
+When those automatic placements become more efficient,
+generally the marketing community figures it out
+and we'll let you know.
+The next step is creative type,
+which we can ignore at the moment.
+We're really going to take control of that creative.
+And now we've got the exciting part, the targeting part.
+Now, because we've got a broad audience,
+we're going to want to keep the audience size
+very, very large, which you can see up here.
+It literally says fairly broad at this top right.
+There's 8 million people.
+As more people go into TikTok,
+it's the fastest growing social media app.
+It's going to get larger, which is great.
+This is a fine audience size.
+One thing I will recommend that everyone is doing at the moment
+is unselecting the 13 to 17 year olds
+because that is quite young
+and they might not have the pocket allowance
+to actually purchase your product.
+Now, this is something that when everyone's doing it,
+sometimes there is opportunities to select that targeting
+because nobody else is actually targeting that age group,
+but we've had better results from unselecting that at this stage.
+Gender, it really depends if you're trying to sell something
+that's extremely gender specific, you can select that.
+But the truth is males buy female products for their girlfriends.
+So you might just want to leave that broad at this stage.
+Then you've got these interests and behaviours.
+Now, you can still have a very broad audience
+by using interests and behaviours,
+especially in the United States, where there's like a lot of people.
+You can stack a few large interests like fashion and stuff like that.
+TikTok will give you these recommended interests.
+They don't have as many as Facebook at the moment,
+but you can select these and still create a big $8 million audience
+if you want to fine tune that ad set a little bit more.
+I recommend this if you are marketing to the United States,
+just to really narrow that audience down.
+Because I'm marketing to Australia and there's only 8 million people here,
+I'm quite comfortable at that audience size
+and I'm just going to leave no interest targeting for this ad set.
+If you wanted to test if broad works better than say a broad interest audience,
+which is different, one's got no targeting, one's got interest targeting.
+You can create a second ad group within this initial campaign
+to split test those audiences as we were talking about before.
+The next step is the daily budget.
+Now, because TikTok is relatively new,
+you may have to spend a little bit more to figure out if the platform's working.
+One thing I've noticed is the attribution of TikTok,
+unlike Snapchat or Pinterest that overcompensates and says,
+we're getting you so many purchases.
+TikTok seems to be underreporting for us in a lot of regards.
+If you are getting a little bit more advanced,
+you can use some attribution tools out there like Triplewell or Northbeam.
+They're really expensive for beginners.
+You really want to be making a profit and spending on multiple platforms
+before considering using one of those attribution channels
+to really understand what the CPAs you're getting.
+CPAs, cost per acquisition.
+If you're not wanting to invest in an attribution tool,
+what you'd want to set up is post-purchase surveys.
+There's plenty of tools out there.
+There's some great Shopify apps.
+What you're going to set up, you're going to set up options.
+So did you see us on Facebook?
+Did you see us on Instagram?
+Did you see us on TikTok or something like Google?
+This is going to allow you with a high degree of confidence
+to know that your ads are working because customers are literally buying the product
+and then saying, I remember seeing you on TikTok.
+So how do you know what your budget should be for this product?
+It really depends on your price.
+If I'm selling a product that's $500, it's going to take me a lot to acquire that customer
+because $500, you have to sell less, less people are going to buy the product
+because not everyone has $500 lying around.
+As just a general rule, it's going to cost more.
+So therefore you may need to spend about a hundred bucks a day
+to tell you that you're getting enough data through
+and seeing those cost per ad cards or cost per acquisitions.
+For us, we're selling a product that, you know, probably going to be about $70.
+And we kind of are quite confident in knowing what we're doing.
+So we can probably set this quite confidently at $50 a day.
+Ignore the TikTok recommendation for budget.
+They're obviously going to want you to spend as much as possible.
+The next section is bidding and optimization.
+Now this is where you can have a play around if you are a more advanced marketer.
+There's value, conversion, and click.
+The two that you're going to use is conversion and value.
+Value is basically optimizing what TikTok thinks for the highest converting customers.
+So if you had like 10 different products on your website and, you know,
+one's going to produce more of a return on that ad spend because they're going to spend more
+and it's easier to acquire the customer, they're going to target that person more
+than someone that's going to spend five bucks and it's really expensive to acquire.
+So it's great to use value.
+For this tutorial, we're just going to use conversion
+and we're going to pair it with a bid strategy of lowest cost.
+Cost cap is also very interesting.
+And a lot of advanced marketers are also using cost cap to try to really limit how much it costs
+to acquire a customer.
+To put that simply, if you've got a product that's $100
+and you can spend $50 to acquire that customer, because let's say it costs you $40 to deliver
+the product all up, you might want to make your cost cap around $45 or $50 because that's not going
+to allow it to spend more than that.
+So you're never going to have unprofitable customers.
+Now, this can sometimes lead to ad sets not spending and it not optimizing properly.
+So you really want to make sure that you know what you're doing and do a lot of testing around
+those cost caps, but it is a great way to force TikTok to convert and make more money
+when you have a lot of data and a lot of knowledge about your product.
+To ensure it's going to spend and because you're just getting started,
+we're going to do lowest cost.
+That's all set up now.
+We can click next.
+Now for those Facebook advertisers that have watched my Facebook tutorials,
+you're probably thinking this is very, very similar.
+And it is.
+It's great to have standardization across all of these platforms.
+So the advertisers know how to use the platform.
+It's the same as websites.
+They're becoming more standardized.
+Now we're in the fun part.
+Now, this is the most important part of TikTok ads.
+Unlike Facebook, the glory day is when you can kind of just whip anything together,
+whip up a Canva ad and chuck it on Facebook and it could convert.
+TikTok, it's not going to work.
+You can't just go get your Facebook ads either and just plonk them into TikTok.
+The formatting is different.
+The customer's intent is different on the platform.
+TikTok users need to be engaged heavily because you're competing against
+all of these really engaging content.
+With TikTok ads, you've got two options.
+You can either educate the customer or emotionally engage the customer.
+And that needs to be done in the first three seconds in the right way
+that is native to the platform.
+So if you're a TikTok advertiser and you're not on TikTok and you're not studying how
+people are absorbing the content, you need to start.
+This will allow you to manage your content creators better or even create content yourself
+for the ads platform.
+So again, we're going to name our ad set.
+Now we've got three creators for our lemon scrub.
+One of them went viral.
+So we're going to do oven clean.
+So when you're spending millions, what you're going to want to do is make sure that all of
+your ads that are exactly the same, have the exact same name.
+Now, this is going to help with organization and exporting the data in a future day.
+You don't want small spelling errors.
+Obviously, if you've got one piece of creative and it's got a different hook at the start,
+you do want to create a new name for that, but you want that name consistent throughout
+the ad account for that piece of creative.
+So I'm just going to say oven clean one.
+And now we can set our custom identity.
+Now, TikTok is great because you can quite easily create a really convincing profile
+just with this little section here, which I don't think Facebook has, or I've never seen it.
+But I do recommend actually creating a TikTok account that you can post ads on later
+to upload that creative to it.
+However, I do recommend actually setting up a new TikTok account with all of your profile details
+and then actually linking it to the ads manager at a later date.
+This will allow you to build a profile and a bit more brand awareness,
+post some of this creative actually on the profile to get organic likes as well.
+You can also then use what's called a spark ad.
+Now, spark ads is very similar to Facebook, where you're boosting a post on the actual profile.
+Unlike regular ads on TikTok that you're uploading the creative
+and people will struggle to find it anywhere when the ad goes away,
+spark ads, they'll click onto the profile image here and rather than get directed to your objective,
+which is generally going to your website, they'll get directed to your profile and they'll see
+all of the social proof and be able to do a bit more brand search.
+I'm going to do lemon scrub Australia here with no spaces.
+And I'm now going to upload a piece of creative.
+I'm going to upload this ad and click upload.
+Now, this text section is pretty simple.
+The main thing that you want to do is keep it under 10 words or less,
+because if you're doing more than 10 words, it's going to create a dot, dot, dot.
+I'll show you what I mean by this.
+Here's lemon scrub cleaner is awesome and fun and fresh.
+See how down this bottom right, it's just gone to dot, dot, dot.
+You just want to avoid that.
+So a simple one is on sale now.
+And that's looking pretty fresh.
+You can see the preview on the right.
+You can ignore this interactive add-ons and you can come down to the website
+and enter your website URL, which we've got here.
+Copy this over.
+The call to action you can leave as dynamic and you can click this checkbox or post.
+Now we've got this third party tracking down here,
+which is basically where you can add UTMs and stuff like that.
+That's a little bit more advanced, but if you know what you're doing, you can set that up.
+Now I can just click submit.
+And now that's going to go through a verification process.
+So one thing that is different compared to like Pinterest and Snapchat,
+that TikTok's done quite well is they actually are very hard to get pieces of content verified.
+If you're selling health products or you're doing something dodgy,
+they will flag it and they won't approve the ad.
+So make sure your ads are applying to their terms and service.
+TikTok is also great with reps.
+Unlike Facebook, they really wanting to talk to you and understand how their ad platform is serving you.
+Now we've actually got our first ad running, but don't stop watching here.
+A lot of people think that they can just launch their ads on TikTok and it's going to work.
+It is still a challenging platform to work.
+Once you've got that structure, the main thing that's going to hold you back is getting your creative perfect.
+Getting TikTok creative, you've got a couple of options.
+First of all, you can actually approach a UGC creator on the platform.
+Find someone that is managing to go viral.
+They obviously watch TikTok a lot, send them the product,
+and then see if they will create a piece of content just for the product.
+Alternatively, you might need to pay them a bit of money.
+What goes viral doesn't necessarily mean it's going to be a perfect ad.
+However, it is a good indication that you're capturing their attention and engaging them emotionally.
+Then there's other marketing best practices that you need.
+You need to really highlight your product.
+Make sure it's front and center.
+Talk about the value propositions of the product.
+When you're creating TikTok content, make sure there's amazing lighting.
+You don't want to go into a dove video and you'll just scroll straight past it.
+Make sure there's low distractions in the actual room and you can use a tripod to get really steady shots.
+Some of our top TikTok creatives are actually very on trend with the platform at the moment.
+TikTok has heaps of trends.
+They pop up every day, which is why you should be really on top of the platform.
+However, if you can hit a TikTok trend like three things of in my kitchen that just makes sense
+and one of your products is one of those or an unboxing that really shows and highlights the product
+like it's on your doorstep and you're like,
+this just got delivered from Amazon and you unbox it.
+They work really well.
+Another one that's working really well for us at the moment is the credit card thing
+where you're scanning the credit card and putting your credit card on the lens.
+Make sure you've got really quick transitions as well.
+Never have a shot that's just hanging on too long and not engaging people.
+Editing these creators in the TikTok platform is a really good way
+to make sure it's authentic to the platform.
+You can also use something like CapCut that's owned by ByteDance,
+the parent company of TikTok.
+There are a couple of other tools out there that you can test out that are free on the App Store.
+Let's have a look at some of the top Udi performing creatives now
+so you can get some ideas and copy them.
+So let's watch this creative and talk about why it's great.
+Things about my Udi that just makes sense.
+There are so many-
+So immediately showing the product in the first three seconds and saying things that just make
+sense so you're making them watch the video to the end.
+This is an actual TikTok trend that exists but it's also serving two purposes.
+It's also showing where they can utilize the product.
+Hey babe, you keen for movie night?
+Yeah.
+Are you?
+Yeah.
+You sure?
+Uh huh.
+You know what would make movie night better?
+What?
+So this creative is a little bit different.
+It's not showing the product in the first three seconds which can also work
+because people think it's an actual video on the platform but it's building suspense.
+It feels very authentic.
+She's actually reacting to the product because she was gifted it.
+They also talked about movie night.
+That's another place that the product can be utilized.
+So this is an actual trend.
+We know who this is targeting.
+This is targeting boyfriends that want to give an amazing gift to their partner.
+This video works really well because of the transition.
+It's very TikTok.
+However, it's also highlighting lots of different products that are available.
+Hopefully one of those patterns will reconcile with the customer and create a purchase for us.
+All right.
+So now you've uploaded your three top creatives within that broad ad set.
+Now, how do we know what is working and what's not?
+Let's analyze some existing campaigns and explore what I would do next analyzing the data.
+Alrighty.
+So here we have one of our brands ad accounts.
+We're getting results on three brands on TikTok at the moment.
+The fourth one we can't make work.
+And I think it's either because it doesn't have product channel fit or we just haven't nailed that
+creative yet.
+Here we can see my setup which is called Davey.
+This is the setup that you'll want to set up.
+Which basically shows our CPC, which is our cost per click.
+Our CPM, which is our cost per a thousand impressions.
+Then we've got the amount of impressions, clicks.
+We've also got our click through rate, which is an indication of the creative's ability to get
+people to click through to our website.
+Then we've got our conversions, our CPA, our conversion rate, and also our return on ad spend.
+Which is basically if I spend $1, I get $3.99 for this campaign here.
+So we've also got our filters up here.
+Time period, which we can see is the last seven days.
+So when you're optimizing a campaign, you need to consider what window you're looking at.
+Typically, if you're not spending lots, you might want to set up a 14 day window.
+This will allow you enough time to spend over a period of time and make optimization decisions.
+If you're starting to spend a lot, you might want to react quicker.
+Because if you have something set up wrong, it's just going to spend money in the wrong places.
+So we've got it as last seven days here.
+And we can look at our campaigns and go, okay, how is this performing as an overall objective?
+The things that we could change here is, you know, the types of ad sets that we have in there.
+We might be able to change our products for that.
+So for example, Woody, we've got Woody's here that we'll set up one campaign for,
+but we might set up a brand new campaign just for sleep teas.
+Then the real magic happens in the ad group, which we can click through on this tab.
+This is where the optimization can happen.
+So these ad groups remember are targeting different amount of budgets that we can then manipulate
+to spend more on the good stuff, less on the bad stuff or cancel the bad stuff.
+So these will be different audiences and different ads within the ad group.
+We can look at something like this and we've got a large budget to this ad group.
+So we expect that our results will diminish over time.
+This is something that is very prevalent in TikTok is that it creators fatigue really quickly,
+as well as ad groups.
+So you need to be scaling and monitoring their platform a lot.
+So we can scroll over here and we can see that the ROAS is 3.99 for this ad group,
+which is above the kind of average.
+We can see some of these other ad groups are performing at about two.
+So we might want to say, okay, this is performing really well.
+We're still spending $300. Let's bump that up a little bit more.
+Whereas something, you know, like this is getting a two ROAS in the last seven days,
+you would monitor that, but you might not increase the budget at all.
+You might want to decrease the budget to make sure that you're getting customers
+at a great, great level.
+You can also look at the cost per result as well.
+So again, the example that I gave before, if I had $50 to spend on this customer,
+you want to make sure that that's under that threshold.
+Keeping in mind that if it is getting $50 and that is your target CPA,
+there's probably a lot more awareness going on and that's probably a profitable level for you.
+The final thing that we might want to do is come into our ads for one of these ad groups.
+So let's go to this main creative.
+So we can then come into the ads and we can compare our two ads within that ad group.
+This is where you really want to be looking at things like click-through rate,
+as well as your CPMs.
+If your CPMs are really low, you can see this is $5.
+That's way better than Facebook.
+That creative probably on Facebook would get impressions at probably double the price,
+which is one of the TikTok's strengths.
+So we can see that this creative here is getting a really high return on ad spend of 6.06
+versus 1.93 of this top creative.
+We can then look across to the left and we can see that the budget is only $43
+spent in the last seven days for the lower converting creative versus $100.
+So what TikTok is doing there correctly is allocating the budget to the better ad.
+You could probably assume that this second creative is better performing than the first creative,
+which means that you might want to use that creative in other ad groups,
+or you might want to create new variations of that ad.
+Remember, TikTok creatives fatigue really quickly.
+You might want to film an alternative first three seconds and upload that in another ad group.
+The one thing I will also say, which is a bit of a nuance at the moment,
+is that TikTok really loves shifting budget around ads in the ad group.
+Sometimes they put a lot behind one creative,
+and then the next day they want to boost the other one even though the ROAS is different.
+We're just very cognizant of that and we kind of let it run.
+We just make sure that we've got enough spend,
+but sometimes we do stop TikTok from doing that and we can turn off one of those creatives.
+If you liked today's episode, share it with your friends.
+If you're still struggling and you need a one-on-one with me, join our membership.
+I'm happy to work through any problems that you have.
+Don't forget to like and subscribe. Thanks.

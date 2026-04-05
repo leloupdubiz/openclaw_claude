@@ -1,0 +1,82 @@
+# lesn 4CdX4ape6YbqdF04qmT9bp
+> Transcript complet — 100% du contenu original
+
+---
+
+Welcome to Econtalent AI. This is a new program inside Econtalent. It has been way overdue. This is something I've been working on for quite a long time. It took me a while simply because like every single week, every single month, like new stuff is coming up when it comes to AI, especially when it comes to generative AI.
+
+And this program will basically be focused on helping you create content with AI. So in like regular program, in regular Econtalent, you learn about marketing fundamentals, marketing psychology, you learn about how to approach ads, how do ads look like, how to make ads. And this Econtalent AI is basically will give you a skill set and a tool set that's going to supercharge your ad creation process. So it's going to be much easier for you to generate content and to do some stuff. You're going to save time and you're going to save money.
+
+And you know, you will like with time, I'm like sure you will you won't be reliant on like content creators and stuff like that to get content for brands. You will be able to generate it on your own. So honestly, this could be like a standalone program. This could be like I could definitely sell this as a as a separate program. But I just decided to like include it inside Econtalent, make it a part of Econtalent.
+
+Because again, like my only my only goal is to help as many people as possible to make more winning ads. It'll help you guys make more money by doing that. And so this information and everything that I'm going to share and talk about inside Econtalent AI is going to help you do that. So this will be like I said, focus specifically on content creation. So this won't be like AI around script writing, around copywriting, systems, stuff like that.
+
+This will be specifically focused on generating content for e-commerce brands with AI. So like honestly, this could be like a like a standalone offer that you that you do for e-commerce brands and like you could you could make money by just doing this, right? So it's it's that powerful and it's that is that good. So that's just like short intro about Econtalent AI. Like I said, focus is focused mainly on generative AI.
+
+And what generative AI is, maybe for those of you who don't know, it's basically, as it says here, a type of artificial intelligence that creates new content like text, images, music and code by learning patterns from vast data sets. And this program Econtalent AI will be divided in three different sections, three main sections. I decided to keep it simple and concise. And these three are obviously first AI images. Second will be AI videos and then third one will be AI workflows.
+
+And then by the end of the program, you will be able to one generate high quality product images and videos. Here, I have some examples throughout the program. We'll be doing everything on an example of like this old spice with a twist. You'll see what that means in some of the in some of the future videos. But basically, we will be focused on basically doing content around this product, right?
+
+So everything will start from this image, right? So like, we only have this product image on like on a white background. And we're going to create an entire marketing campaign. And we're going to create like a bunch of content using this product just from this and obviously some prompting. So as you can see here, for example, we started with this and then we generated this image completely with AI.
+
+And you can see like you can see the like the details and like the like the amount of like, just like like details and like how how like high quality this actually is like, I'm I'm zooming in on this like on my 4k monitor. And you can see like how how crisp and how nice the details are. And obviously, that's something that we'll be focusing on throughout the program and throughout the course. Because a lot of the content right now, when it comes to AI is very sloppy, it looks bad. And people are trying to cut corners.
+
+They're they're not paying that much attention. And with AI, attention to detail is literally the most important thing. And you need to develop that scale of just like having attention to detail. Super, super important. I will obviously try to, you know, share share some like things that I look at and how I do stuff and how I approach things when I'm generating content with AI.
+
+But like I truly believe like having attention to detail and having that I like having that developed is crucial if you want to make AI content that actually looks good, right? Because obviously, you know, like some some like AI programs and some AI workflows or what AI tools, whatever you want to call it, they can still, you know, generate images and they can still generate videos, but it looks super sloppy. It looks messy and looks bad, right? So for example, like text is not is not correct, maybe, you know, something something just like looks slightly off. And that gives it off that it's obviously AI generated.
+
+They're like throughout this program, I will obviously try to share you some learnings that I had while I was, you know, doing this. And I will try to share you, I'll try to share with you just like the best the best practices and like the best approach to avoid this and to obviously generate like highest quality content as possible, right? So like that that'll be our focus throughout this program. So like first thing that you learn, like I said, is generate high quality product images and videos.
+
+Next thing you will learn is how to generate ultra realistic AI humans. So for example, this person right here did not exist like she doesn't exist anywhere. And she is completely made up. As you can see this portrait and this image came to life just with prompting and using an AI model, which obviously I'll show you which in some of the next videos. But as you can see, like you can see how how like detailed this is and you can see how crisp the entire image is and you can see how good that is.
+
+Again, I'm zooming in on this like with my 4k monitor and you can see like how the skin looks realistic and how it looks how it looks really nice. So like that is the second thing that you'll learn and this will basically be our kind of base and foundation for everything else that we're trying to do, which I'll show you. I 'll show you what I mean by that right now. So once you learn how to generate ultra realistic AI humans and you know this could be anyone. So like this can be like I don't know this can be like a male who is you know like Jack like a Jim bro or it could be like an old grandma, right?
+
+Like you know like the only limit is your imagination, right? So like you can you can you can truly create and you can truly generate anything you want, right? So once you generate ultra realistic human, this is what you will be able to do. So like you'll be able to take that human and make him or her do like anything you want. You can make them all products, you can make them talk, you can make them be whatever you want, you can make them do whatever you want.
+
+Again, like the only limitation is your imagination, which is honestly insane to me. But yeah, again, as you can see now we're using this image as a baseline and we're generating images of that same person who did not exist. We're generating images of her doing just like a bunch of random things. So like if you look at this one, for example, she's like eating pasta somewhere, I don't know, probably in Italy or somewhere and she's eating pasta, right? And the beauty of this is obviously something called character consistency.
+
+So we can we can generate avatars, we can generate AI humans, we can make them do whatever they whatever we want and they stay consistent throughout throughout this entire process.
+
+All right, and so how you can use this when making ads, you can generate an avatar for a specific brand, and then you can do whatever you want with them, right? So like maybe if you're selling a skincare product, for example, you can generate an avatar, then you can generate like a bunch of before images of like maybe how she had how she had pimples or how she had like, I don't know, bad hair or how she had whatever, right? You can generate like a bunch of before images and then you can generate a bunch of after images, removing those imperfections. And you can use that as a way to sell your product, obviously through through an AI human. Now, I am not saying this is 100% compliant, and I'm like this is very very gray zone, and you know, like no one is really sure right now what's going to happen with AI and with compliance, but I'm just showing you what is possible, obviously.
+
+Or you know, like one thing you can do as well is you can make her fat, right? You can make her fat and then you can make her lose weight. So like again, imagination is your only limitation here. And this end, you know, like it's just like it blows my mind as possible. And you know, hopefully like this entire program will blow your mind to once you once you figure out what's truly possible and what you can do with this.
+
+But like I said, you know, you can do whatever you want with her, and then the next thing you can do is make her hold product. So like, for example, this is the product that we saw obviously in previous images. And you know, like, this is still not 100% perfect. As you can see, there are some like, for example, absorb sweat is a bit messy. This like small text here is a bit messy.
+
+This is a bit messy. But again, this right now is zoomed in like maximum zoom in on my 4K monitor. If you look at it like this, it looks pretty good, right? And like on the phone, even if you take a look at it on the phone, no one is going to notice. And like, these are just such such such such small details.
+
+And such small new one says that it almost doesn't even matter, right? So like, let's take a look at this one. But you can see how, you know, like our AI human here, like how she is consistent and like how these images look, look real and look good, right? So like, this one here is obviously already a bit better, right? So like, the only thing that it struggles with, honestly, just like a small text.
+
+So as time passes and as time goes, you know, like, this is going to get better and better . And like, possibilities are going to be, you know, just like better. And you know, as technology advances, these, like imperfections and these small things will just like disappear, which, you know, we'll talk about in the next video, where I'll kind of talk about the history of how like generative AI progressed, because it's going to be very, very interesting to see, you know, like how fast things are developing. So that's the next thing that you can do. So like once you have your AI human, you can make your AI human do whatever you want.
+
+Then the next thing is generating unlimited B roll for video ads. So like, let's say you're editing a video ad, you're maybe editing a VSL, and you need to find footage online, or you need to use stock footage, or you need to, I don't know, do whatever you're doing. You won't have to do that anymore because you will, you can just like literally type whatever you need, whatever you want. I mean, you can generate that footage, right? So that is another use case.
+
+I don't have examples here, but I will show you some examples throughout the program. And then once you have like all of these scales, once you have all of these like mini workflows, and you figure out how to do all of this, you can combine all of those aspects. So you can combine product images and videos, you can combine AI human, and then you do that AI, you can make that AI human do whatever you want. You can generate the B roll of that human doing whatever you want. And then at the end, you produce obviously AI ads for e-commerce brands that are made from scratch.
+
+And now I'm going to show you obviously like one ad that I made, that you know, is just like a perfect example of everything that you're going to learn throughout this program.
+
+All right, cool. So like this is an AI you just see ad that I made completely from scratch. So like as you can see, this is the same the same human that you saw it like in the images above. And I'm just gonna I'm just gonna play it. But like before I play it, I'm gonna mention every single thing within this ad, every single video, every single aspect of it is AI generated.
+
+Right. So let me just play it for you. I was at a pool party and three people throughout the entire day asked me what perfume I'm wearing. But the funniest thing is that it is not a perfume. It is my deodorant .
+
+This is black cherry bourbon from Old Spice. And I know Old Spice for women sounds weird, but hear me out. This legitimately smells like a $200 perfume. Like dark cherries mixed with vanilla and something warm. It is so good.
+
+And somehow after eight hours in the heat, I still smelled exactly the same. I mean , I don't know about you, but I get sweaty all the freaking time. So if you're like me, you have to try this.
+
+All right. So as you can see, that is pretty much it. This is what will be possible. And this is what you'll learn to do when you go through the entire program. So that is that is pretty much it.
+
+That is what I have prepared for this first video. It was just like a short introduction. In the next video, we'll talk more about kind of the history of AI, how AI developed. So we have like a better and like broader understanding of like all the tools and all the workflows that are available right now out there. And obviously, it's going to be easier for you to you know, just like understand what you're getting into once you watch that video.
+
+So this was introduction. I'm super excited to roll this out. And one thing before I before I do end this video, I will I'll probably mention this throughout the program, but there is like literally new tools, new programs, new AI workflows coming out every single day. And I'm not even joking when it's every single day, like that is like 100% true. So just keep in mind that this may get this might get outdated, like, you know, like within like one, two, three, four, five, six months.
+
+And like, maybe something new will come out tomorrow. And you know, like a lot of the stuff in this program will get outdated and you know, replaced by something new. But you know, there are some workarounds around that. And then I'll show you, you know, how I'm preventing this program to, you know, be evergreen potentially, if that makes sense. And so it's relevant all the time.
+
+You'll understand what I'm talking about when you when you all kind of get to some of the next videos. But I do want to mention there are new tools coming out every day. And there are multiple ways to do the same things, right? So like, like the method I'll show you to generate, for example, ultra realistic human is not the only method to do it, right? There are multiple tools out there.
+
+There are multiple ways to make that happen. And it's the same with every single thing here. Like the things in this course and in this program, the stuff that I'll show you is basically the stuff that I kind of found out is the best and the easiest way to do those things. And obviously the most cost effective, right? Because one thing and like one kind of reason why I didn 't make this another paid thing.
+
+But I just kind of included inside econ talent is because you obviously have to pay to, you know, like to do all of this stuff. So I don't I didn't want to, you know, make this another expense for you guys. So just like the stuff in the program is basically ways of doing things. The way how I kind of found out is like the best way. And what I found out to be, you know, like the most efficient way to do it.
+
+But that is not the only way to do those things. Right. So they just like be aware of that there that there are multiple ways to do the same thing. That's kind of the last thing I wanted to mention before I get into some other videos. But I'll just kind of I'll probably keep keep mentioning this throughout like all the other videos in the program because it is like it is important for you guys to you know to know that and to understand that.
+
+So that was introduction. And yeah, that's it. Thank you. And I'll see you in the next one.

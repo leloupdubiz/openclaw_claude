@@ -1,0 +1,32 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+Alright, so in the previous video, you learned how to create a 3 -2 -2 campaign. So for the next campaign type we'll be going through, it's going to be the raw content campaign. The raw content campaign is very very similar to the previous campaign I showed you. It's pretty much identical as well, just with a few slight differences. So in which cases will we launch a raw content campaign and what is it actually used for? So if you've watched through the module on how we get UDC doing product seeding through incense, You should know that the whole goal of it is to get a bunch of raw content. 
+
+0:00:30
+We test that raw content as is, no edits, no captions, and the goal is to find a winning creator to hire as a brand ambassador. So in this raw content campaign, you can see most of it is just for us launched through incense ads. We want to force more spend towards them since we want to see if the creators will do well or not. And in this campaign, like last 14 days, The spend is quite similar and returns are both very well. So having this extra campaign helped me push additional budget over there. And of course, any content creators that do well here, I will hire them as a brand ambassador to create even more winning ads. 
+
+0:01:05
+So one is to push more volume, two is to really just force spend towards creator ads, and third one as well, I don't want my raw ads really to be competing against my high -strategised ads. So the main campaign, the 3 -2 -2 -1, is for high -intent ads. Raw content is ads that you don't really give much thought towards. When you do learnings for it, it's much easier when you keep your high -intent ads together, instead of keeping it all together. If not, it might be a bit harder to do learnings on them. Some raw content, like it can be You're not the one who really made it yourself, right? 
+
+0:01:42
+It's the creators you give guidelines to, they just did their own thing. In a lot of cases, they create ads that you think might not work. It might be some wacky social media stuff, but suddenly it works. It's hard for you to do learnings on those. And when you get more spend than your main ones, it's a bit confusing as well. That's one of the reasons 
+
+0:02:00
+but the main one is just to give it more additional spend so you can get additional scale with it. Some people who rip ads as well, if you do so, I recommend just launching it inside the raw content campaign. So besides that, how do you actually set it up? So just like the 3 .2 .2 campaign is exactly the same. It's one CBO, multiple different creative test ad sets. Of course, we have a lot of assets inside, but that's also because we're spending a good amount. 
+
+0:02:27
+We're spending not a few hundred a day, but we're spending over a thousand. Besides that, Same exact way, we determine winning ads by spend, doing well, great, this is your winning asset. We don't really create champions ad sets for our content campaign. If you remember, in the champions, we create these in the champions In the main campaign, we create a champion, sorry. In the raw content one, we don't, but you definitely can if you want. It doesn't really matter too much to have champions or not really, but you can create one here as well if you want. 
+
+0:02:59
+The difference is just sometimes instead of, you know, in the main campaign, we have one concept, it's one ad set and three variations. If you have a lot of content for the raw content campaign, instead of creating one video and three different hooks, sometimes it is just one headset and then three different videos. Sometimes we do that if we have too much content. If we have not enough content, we will usually just run it the same way. We will just have the raw content, and then we cut it three ways. Cut it three ways meaning just three different start points. 
+
+0:03:35
+We don't add text to it, we don't add new music to it. We will just really take the creative and then start at three different points, so there's three different hooks this way. Besides that, it's pretty much exactly the same. One campaign, three different ads inside there, but that's really it. Budget setup, UTM, set up, ADD set, targeting, exactly the same. 
+
+0:03:58
+So not much difference there.
+
+
+Transcribed with Cockatoo

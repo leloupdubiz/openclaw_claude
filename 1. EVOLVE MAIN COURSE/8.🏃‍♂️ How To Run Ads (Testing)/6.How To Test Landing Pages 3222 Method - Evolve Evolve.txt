@@ -1,0 +1,86 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+All right guys, so in this video, we're gonna be talking about the new way that we are testing landing pages right now and why it is better and why we prefer to do it this way, leveraging Meta's algorithm and the one campaign setup. So previously, for those of you that know, we would historically test our campaign. we would test our pages story inside of an actual campaign like this. So we would have an ABO campaign and what we would do is we'd go in and we'd set a minimum budget, yada, yada, yada. You can see the old method is up here and I'm still going to leave that because actually I meant to. edit this one, but you'll see it there. 
+
+0:00:37
+And what we're actually doing now is we're testing this all inside of our main campaign. So if we go into our campaign that is actually spending all the money, what you're going to notice here is we actually have a couple of things happening. So number one, we have page. And so anywhere here that you see page is actually just our top ads inside of here going to a new LP. Now I'm trying to keep this brand a little bit more, you know, not shown, but basically the way that it works is very simple. We are testing new pages. 
+
+0:01:08
+So whenever we have a new page, you can see there's page number nine down here. That's absolutely ripping right now, or it seems like it's going to start ripping because we just launched it. And page 15 over here, and let's just see if we go to today for fun. You can see, okay, we have batch number 12 up here doing its thing, page 2A up here doing its thing, page number 12, not really getting that much spend. But anyway, Point is, is we are testing pages in here and inside of these page testing ad sets, it's very simple, okay? And so if we actually click in here, you could see that we actually have our ads inside of here going to different types of LPs. 
+
+0:01:43
+And in this case, these are all different ads. So this is five of our top performing ads or ads that we thought would work well with this page. And we're now sending it to a new version of the page. And what we're doing is we're simply leveraging Meta's AI and Meta's platform. CBO structure. to push spend based on specific pages inside of the main campaign. 
+
+0:02:04
+Now, something that we have started doing that I need to make you aware of on top of how we're testing LPs is actually something that we've kind of coined or called the three, stay with me here, two, two, two method. Okay. 
+
+0:02:17
+So there's another two on the end and what we're doing in this instance is very simple. 
+
+0:02:22
+Okay. So whenever we have a new batch of ads to launch, let's go ahead and look up at date created here. And let's take a look at a new batch that we just recently launched. Let's see if these edits or batch 13 here looks like it's kicking off. Let me just confirm this is good. 
+
+0:02:38
+Cool. 
+
+0:02:38
+So as you can see in here, we launched batch number 13. team. And now inside of batch number 13 here, it looks like this was actual actually an error. And I think the reason why is because the team decided not to duplicate one of the ads that was getting absolutely zero span. But what the 3, 2, 2, 2 method is, is where when you launch your three ad variations. So for example, in this instance, this is big industry iteration, and I believe this is V1, this is V2, and this is V3. 
+
+0:03:08
+And I want you to see LP here stands for landing page. And so what you're looking at here is we have an LP buck is what you can see. And then we have an LP five dash R. And so one stands for five reasons. The other stands for a specific name. And now the point is, is what we actually did is we took three of these creatives, right? 
+
+0:03:26
+And let me see if I can find one that was done properly. 
+
+0:03:28
+So it's not awkward because there should be six creatives in here. Total. I just realized the reason why it wasn't showing is because it didn't get any data. It didn't get any impressions, but anyway, here you go. You can see it's out of here. We have some Minecraft statics, right? 
+
+0:03:40
+Yes, this is real. 
+
+0:03:41
+They didn't flop. 
+
+0:03:41
+or they flopped, unfortunately. But here we go. So we have our three ads, correct? Or just so you can see, and just so I can clarify here, edit is the label that our editors use. So whenever our editors make their own ads, we call it edit. 
+
+0:03:55
+So this is edit number 22. So the 22nd batch that our editors had made just on their own without our creative strategy team. And you can see that we have LP brain, LP gaming, LP gaming, LP brain, LP gaming, LP brain. Now, what is happening here? Well, we have three individual ads. So you can see we have recipe, we have focus, and then we have this not harder. 
+
+0:04:14
+And so those are the three ads. which makes the three in the front make sense. And then we have two body copies and two headlines as per usual. Now the final two stands for two landing pages. And what you'll notice is that we duplicated those three ads, the recipe focus, and this one here, we duplicated these three ads right here, and we added a new LP. So you can see these are all going to the gaming LP. 
+
+0:04:38
+And then we have another batch of ads, or sorry, the same batch of ads duplicated now going to the brain LP. And now why are we doing that, well, we want to see what page is going to perform with the ad. And so for every single new ad that we're launching, as long as we have the landing pages with it, we're actually launching two pages. So if you have a collection page or a homepage and a product page, you can also test this as well. 
+
+0:05:02
+So if you want to test product page versus homepage, do it. 
+
+0:05:05
+If you want to test your listicle versus your current control page, do it. do it. The point is, is for every single batch of creatives. Now we're testing two pages with it, which gives us six ads per ad set total. And we're letting meta read and analyze the page, which it can do to decide what gets banned and what does. Sorry, if this is awkward, I had to cut it. 
+
+0:05:24
+Uh, but the point is, is inside of here. 
+
+0:05:27
+Now, if we go into, uh, uh, an ad example over here where we had batch number, I believe it was, uh, 13 that we had tested. 
+
+0:05:36
+You can see that we had had this for this video. Queen. the best out of the ones that we thought was going to actually do well. And so if we didn't test this 5R page, the five reasons page, and we only tested this buckle page, well, we wouldn't have found the top spending ad that is showing right here. And so that is the reason why we're doing it. We want to make sure that when we're testing LPs, we're getting data right away. 
+
+0:06:05
+And for me, I was getting even impatient, just waiting in ABO. And so what we're doing is we're just putting it inside of here. If you still want to test your pages in ABO, you're more than welcome to. But when And something works after seven days. Now this is super important if you tuned me out, if you want to test an ABO, if something works after seven days, just drip it into your champions ad set or drip it into your main campaign. Now keep an eye on it because it might suck up spending completely suck. 
+
+0:06:33
+But the point is, is right now what we're doing is we're testing a three, two, two, two method, which again is the three ads that we made with two body copies and two heads. We duplicate those and then our two headlines. We duplicate those and then we apply a new LP to it as well. Sorry for punching the mic. Now that is the process that we're doing. And then if we have existing ads that we want to test new pages to, we launch those as a page test, right? 
+
+0:06:58
+So inside of here, we have page number 12 that is testing or page two way here that is testing. And that's where we take our best ads or the top ads that we want to test this page on. And we put them in there going to the new page that we want to test. So hopefully that makes sense of that. And that is clear. If you have questions around this, please let me know. 
+
+0:07:15
+know, but this is the new strategy that we've been rolling out and it has been extremely effective for scaling. And I just want to share this with you guys as it should help you scale a lot further as well.
+
+
+Transcribed with Cockatoo

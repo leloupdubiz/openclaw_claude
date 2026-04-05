@@ -1,0 +1,61 @@
+Module 4: Prompt Refinement with Claude
+The Refinement Layer
+
+
+The Refinement Layer - Why We Stack RESPONSES
+
+Alright, you used the Gemini Gem to deconstruct a winner. You have a solid prompt. It's 95% of the way there.
+
+Most people stop here. We don't. We're adding a refinement layer.
+
+Why? Because different AIs are good at different things.
+
+Gemini: It's your creative strategist. It sees the big picture, rips apart a video, and pulls out the core elements of why it works. But sometimes, it gets sloppy on the details.
+
+Claude: It's a f*cking soldier. It follows rules with precision. It doesn't get creative. It executes commands.
+
+We use Gemini for the analysis, then hand its work to Claude for the final polish. 
+This is how you go from "great" to "pixel-perfect." 
+This is stacking responses using the best tool for each specific job to eliminate every single point of failure.
+ChatGPT is the worst, because most of the times it becomes lazy…
+
+
+Why Build a Custom Gem?
+
+Generic chatbots give generic results. Gemini is one of the best AI tools that can analyze videos and extract the scripts!
+
+This is your unfair advantage.
+
+
+Building the Claude 'Optimizer' Project
+
+We're not using a generic Claude chat. We're building a specialist.
+
+The Creation Process
+Step 1: Create a new Project in Claude
+
+Step 2: In the "Instructions" field, paste this master prompt. This is its one and only job
+
+CLAUDE UGC PROJECT
+
+Step 3: Upload Knowledge Base
+
+Under "Knowledge," upload these two files:
+KNOWLEDGE
+
+Step 4: Name and Save
+Call it "Sora Prompt Optimizer."
+Your second weapon is now locked and loaded.
+
+The Refinement Workflow
+
+This is the friction-free path from a good prompt to a masterpiece.
+	•	Take the "High-Fidelity Sora Prompt" your Gemini Gem spit out on Module 3.
+	•	Open Your Claude 'Sora Prompt Optimizer' Project.
+	•	Paste the entire Gemini prompt into Claude and drop this command on top:
+"Refine this Sora prompt. Follow your instructions perfectly. Adhere to the uploaded knowledge base. Make it flawless."
+Claude will now take Gemini's 95% work and, with its rule-based precision, push it to 99.9%.
+
+What to Expect: The Optimized Prompt
+Claude's output will look like Gemini's, but it'll be tighter, more technically accurate, and ruthlessly efficient.
+This is the level of detail that separates winning AI UGC from the slop your competitors are pushing.

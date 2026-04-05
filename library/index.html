@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>⚡ Bibliothèque — Clawdbot Prime</title>
+  <script src="/marked.min.js"></script>
+  <style>
+    :root {
+      --bg:       #09090f;
+      --bg-2:     #0f0f1a;
+      --bg-3:     #13131f;
+      --bg-card:  #161622;
+      --border:   rgba(255,255,255,0.07);
+      --border-h: rgba(255,255,255,0.13);
+      --text:     #e8e8f0;
+      --text-dim: #8888aa;
+      --text-muted:#55556a;
+      --accent:   #6366f1;
+      --accent-g: rgba(99,102,241,0.18);
+      --gold:     #f59e0b;
+      --radius:   12px;
+      --f: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      --f-mono: 'SF Mono','Fira Code','Consolas',monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; background: var(--bg); color: var(--text); font-family: var(--f); font-size: 15px; }
+
+    /* ── HEADER ─────────────────────────────────────────────────────────── */
+    .header {
+      display: flex; align-items: center; gap: 14px;
+      padding: 0 24px; height: 56px;
+      background: var(--bg-2); border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+    }
+    .logo { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 14px; white-space: nowrap; flex-shrink: 0; cursor: pointer; }
+    .logo-icon { width: 28px; height: 28px; background: linear-gradient(135deg,#6366f1,#8b5cf6); border-radius: 7px; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+    .header-breadcrumb { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; }
+    .breadcrumb-sep { color: var(--text-muted); opacity: 0.5; }
+    .breadcrumb-link { color: var(--text-dim); cursor: pointer; transition: color .15s; }
+    .breadcrumb-link:hover { color: var(--text); }
+    .breadcrumb-current { color: var(--text); font-weight: 500; }
+    .header-stats { margin-left: auto; display: flex; gap: 16px; flex-shrink: 0; }
+    .stat { font-size: 11px; color: var(--text-dim); }
+    .stat strong { color: var(--text); }
+
+    /* ── VIEW HOME ──────────────────────────────────────────────────────── */
+    .view { display: none; }
+    .view.active { display: block; }
+
+    .home-hero { padding: 48px 24px 32px; max-width: 900px; margin: 0 auto; text-align: center; }
+    .home-title { font-size: 28px; font-weight: 700; background: linear-gradient(135deg,#e8e8f0,#6366f1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 8px; }
+    .home-sub { color: var(--text-dim); font-size: 13px; line-height: 1.6; }
+
+    .home-search-wrap { max-width: 560px; margin: 28px auto 0; position: relative; }
+    .home-search-wrap svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; }
+    #home-search {
+      width: 100%; background: var(--bg-2); border: 1.5px solid var(--border);
+      border-radius: 10px; padding: 11px 14px 11px 42px;
+      color: var(--text); font-family: var(--f); font-size: 14px; outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    #home-search::placeholder { color: var(--text-muted); }
+    #home-search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(99,102,241,.12); }
+
+    /* Group cards */
+    .group-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 32px 24px 60px; max-width: 1100px; margin: 0 auto; }
+
+    .group-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px 24px;
+      cursor: pointer; transition: all .22s; position: relative; overflow: hidden;
+    }
+    .group-card::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(135deg, var(--gc, #6366f1) 0%, transparent 70%);
+      opacity: 0.06; transition: opacity .22s;
+    }
+    .group-card:hover { border-color: var(--gc, #6366f1); transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,.4); }
+    .group-card:hover::before { opacity: 0.12; }
+    .group-card-emoji { font-size: 40px; margin-bottom: 14px; display: block; }
+    .group-card-label { font-size: 20px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+    .group-card-desc { font-size: 12px; color: var(--text-dim); line-height: 1.6; margin-bottom: 16px; min-height: 36px; }
+    .group-card-count { font-size: 28px; font-weight: 700; color: var(--gc, #6366f1); }
+    .group-card-count-label { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+    .group-card-bar { margin-top: 16px; height: 3px; border-radius: 3px; background: rgba(255,255,255,0.06); overflow: hidden; }
+    .group-card-bar-fill { height: 100%; border-radius: 3px; background: var(--gc, #6366f1); }
+
+    /* Search results */
+    .search-results-home { max-width: 900px; margin: 0 auto; padding: 0 24px 40px; }
+    .search-results-header { font-size: 12px; color: var(--text-muted); padding: 16px 0 12px; text-transform: uppercase; letter-spacing: .07em; }
+    .result-card {
+      display: flex; align-items: center; gap: 14px;
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px 16px; margin-bottom: 8px;
+      cursor: pointer; transition: all .2s;
+    }
+    .result-card:hover { border-color: var(--border-h); transform: translateX(3px); }
+    .result-icon { font-size: 20px; flex-shrink: 0; }
+    .result-info { flex: 1; min-width: 0; }
+    .result-title { font-weight: 600; font-size: 13px; }
+    .result-sub { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+    .result-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 5px; }
+    .result-cat { font-size: 10px; color: var(--text-muted); flex-shrink: 0; text-align: right; max-width: 120px; line-height: 1.4; }
+
+    /* ── VIEW GROUP ─────────────────────────────────────────────────────── */
+    .section-header {
+      display: flex; align-items: center; gap: 14px;
+      padding: 20px 24px; border-bottom: 1px solid var(--border);
+      background: var(--bg-2); position: sticky; top: 56px; z-index: 50;
+    }
+    .btn-back { display: flex; align-items: center; gap: 6px; background: var(--bg-3); border: 1px solid var(--border); border-radius: 7px; padding: 6px 12px; color: var(--text-dim); font-size: 12px; cursor: pointer; transition: all .15s; flex-shrink: 0; font-family: var(--f); }
+    .btn-back:hover { color: var(--text); border-color: var(--border-h); }
+    .section-title { font-weight: 700; font-size: 16px; }
+    .section-count { margin-left: auto; font-size: 12px; color: var(--text-dim); flex-shrink: 0; }
+
+    /* Tag filter bar */
+    .tag-filter-bar { padding: 14px 24px; border-bottom: 1px solid var(--border); background: var(--bg-2); display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .tag-filter-label { font-size: 11px; color: var(--text-muted); margin-right: 4px; flex-shrink: 0; }
+    .tag-filter-btn {
+      padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border);
+      background: var(--bg-3); color: var(--text-dim); font-size: 11px;
+      font-family: var(--f); cursor: pointer; transition: all .15s; white-space: nowrap;
+    }
+    .tag-filter-btn:hover { border-color: var(--border-h); color: var(--text); }
+    .tag-filter-btn.active { border-color: currentColor; background: rgba(99,102,241,.15); color: var(--tag-color, var(--accent)); }
+    .tag-clear-btn { padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--text-muted); font-size: 10px; font-family: var(--f); cursor: pointer; margin-left: auto; flex-shrink: 0; }
+    .tag-clear-btn:hover { color: var(--text); border-color: var(--border-h); }
+
+    /* Category cards */
+    .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; padding: 24px; max-width: 1100px; margin: 0 auto; }
+
+    .cat-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px 20px;
+      cursor: pointer; transition: all .2s; position: relative; overflow: hidden;
+    }
+    .cat-card:hover { border-color: var(--border-h); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,.3); }
+    .cat-card-top { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+    .cat-card-icon { font-size: 24px; line-height: 1; flex-shrink: 0; }
+    .cat-card-name { font-weight: 600; font-size: 13px; line-height: 1.4; }
+    .cat-card-bottom { display: flex; align-items: center; gap: 8px; }
+    .cat-card-count { font-size: 22px; font-weight: 700; line-height: 1; }
+    .cat-card-label { font-size: 11px; color: var(--text-dim); }
+    .cat-card-bar { margin-top: 12px; height: 2px; border-radius: 2px; background: rgba(255,255,255,0.06); overflow: hidden; }
+    .cat-card-bar-fill { height: 100%; border-radius: 2px; transition: width .4s ease; }
+    .cat-card.hidden-by-tag { display: none; }
+
+    /* ── VIEW CATEGORY ──────────────────────────────────────────────────── */
+    .cat-search-wrap { padding: 16px 24px 8px; max-width: 900px; margin: 0 auto; }
+    .cat-search-wrap input {
+      width: 100%; background: var(--bg-2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 12px; color: var(--text); font-family: var(--f); font-size: 13px; outline: none;
+    }
+    .cat-search-wrap input:focus { border-color: var(--accent); }
+
+    .doc-cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; padding: 12px 24px 40px; max-width: 1100px; margin: 0 auto; }
+    .doc-card {
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 16px; cursor: pointer; transition: all .2s;
+    }
+    .doc-card:hover { border-color: var(--border-h); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.25); }
+    .doc-card-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
+    .doc-card-icon { font-size: 22px; flex-shrink: 0; }
+    .doc-card-title { font-weight: 600; font-size: 13px; line-height: 1.4; }
+    .doc-card-sub { font-size: 11px; color: var(--text-dim); margin-top: 3px; }
+    .doc-card-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+    .tag { font-size: 9px; padding: 2px 7px; border-radius: 20px; background: rgba(99,102,241,.1); color: #a78bfa; font-weight: 500; white-space: nowrap; }
+
+    /* ── DOC READER ─────────────────────────────────────────────────────── */
+    #view-doc.active { display: flex; flex-direction: column; min-height: calc(100vh - 56px); }
+
+    .read-progress { height: 2px; background: var(--border); flex-shrink: 0; position: sticky; top: 56px; z-index: 50; }
+    .read-progress-bar { height: 100%; background: linear-gradient(90deg,var(--accent),#8b5cf6); width: 0%; transition: width .1s; }
+
+    .doc-topbar {
+      display: flex; align-items: center; gap: 10px; padding: 12px 24px;
+      border-bottom: 1px solid var(--border); background: var(--bg-2);
+      position: sticky; top: 58px; z-index: 50;
+    }
+    .doc-topbar-info { flex: 1; min-width: 0; }
+    .doc-topbar-title { font-weight: 600; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .doc-topbar-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+    .doc-tags-wrap { display: flex; gap: 5px; flex-wrap: wrap; max-width: 280px; }
+    .toolbar-btn { background: var(--bg-3); border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px; color: var(--text-muted); font-size: 11px; cursor: pointer; font-family: var(--f); transition: all .15s; text-decoration: none; display: inline-block; }
+    .toolbar-btn:hover { color: var(--text); border-color: var(--border-h); }
+
+    .doc-body { max-width: 820px; margin: 0 auto; padding: 40px 24px 80px; width: 100%; }
+
+    /* Markdown */
+    .md h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+    .md h2 { font-size: 18px; font-weight: 600; margin: 32px 0 12px; padding-left: 12px; border-left: 3px solid var(--accent); }
+    .md h3 { font-size: 15px; font-weight: 600; margin: 22px 0 9px; }
+    .md p { color: var(--text-dim); margin-bottom: 13px; line-height: 1.75; }
+    .md strong { color: var(--text); font-weight: 600; }
+    .md em { color: #a78bfa; font-style: italic; }
+    .md blockquote { border-left: 3px solid var(--accent); background: linear-gradient(90deg,rgba(99,102,241,.06),transparent); margin: 16px 0; padding: 12px 18px; border-radius: 0 8px 8px 0; }
+    .md blockquote p { margin: 0; color: #c4c4e0; font-style: italic; }
+    .md code { background: rgba(255,255,255,.07); color: #a78bfa; font-family: var(--f-mono); font-size: 12px; padding: 1px 5px; border-radius: 3px; }
+    .md pre { background: var(--bg-3); border: 1px solid var(--border); border-radius: 8px; padding: 18px; overflow-x: auto; margin: 16px 0; }
+    .md pre code { background: none; color: #a5f3d0; font-size: 12px; padding: 0; }
+    .md ul, .md ol { color: var(--text-dim); margin: 8px 0 13px 18px; line-height: 1.85; }
+    .md li { margin-bottom: 2px; }
+    .md li strong { color: var(--text); }
+    .md table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 12px; }
+    .md th { background: var(--bg-3); color: var(--text); font-weight: 600; padding: 8px 12px; text-align: left; border: 1px solid var(--border); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+    .md td { padding: 8px 12px; border: 1px solid var(--border); color: var(--text-dim); line-height: 1.5; }
+    .md tr:hover td { background: rgba(255,255,255,.02); }
+    .md hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+    .md a { color: var(--accent); text-decoration: none; }
+    .md a:hover { text-decoration: underline; }
+
+    /* Misc */
+    .spinner { width: 18px; height: 18px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; display: inline-block; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading { display: flex; align-items: center; gap: 10px; color: var(--text-muted); font-size: 13px; padding: 60px; justify-content: center; }
+    mark { background: rgba(99,102,241,.28); color: var(--text); border-radius: 2px; padding: 0 2px; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+    .fade-in { animation: fadeIn .22s ease forwards; }
+
+    .scroll-top { position: fixed; bottom: 24px; right: 24px; width: 36px; height: 36px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; opacity: 0; pointer-events: none; transition: all .2s; color: var(--text-dim); font-size: 14px; z-index: 200; }
+    .scroll-top.visible { opacity: 1; pointer-events: all; }
+    .scroll-top:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── VIEW FORMATION (niveau intermédiaire) ─────────────────────────── */
+    .formation-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; padding: 32px 24px 60px; max-width: 1100px; margin: 0 auto; }
+    .formation-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 18px; padding: 28px 24px;
+      cursor: pointer; transition: all .22s; position: relative; overflow: hidden;
+    }
+    .formation-card::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(135deg, var(--fc, #6366f1) 0%, transparent 65%);
+      opacity: 0.08; transition: opacity .22s;
+    }
+    .formation-card:hover { border-color: var(--fc, #6366f1); transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,.45); }
+    .formation-card:hover::before { opacity: 0.16; }
+    .formation-card-emoji { font-size: 44px; margin-bottom: 14px; display: block; }
+    .formation-card-label { font-size: 20px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+    .formation-card-subtitle { font-size: 12px; color: var(--text-dim); line-height: 1.6; margin-bottom: 18px; min-height: 36px; }
+    .formation-card-stats { display: flex; gap: 24px; }
+    .formation-stat-block { }
+    .formation-stat-num { font-size: 26px; font-weight: 700; color: var(--fc, #6366f1); line-height: 1; }
+    .formation-stat-lbl { font-size: 10px; color: var(--text-muted); margin-top: 3px; }
+    .formation-card-bar { margin-top: 18px; height: 3px; border-radius: 3px; background: rgba(255,255,255,0.06); overflow: hidden; }
+    .formation-card-bar-fill { height: 100%; border-radius: 3px; background: var(--fc, #6366f1); }
+
+    /* ── VIEW ARTICLES THÈMES ──────────────────────────────────────────── */
+    .article-theme-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 32px 24px 60px; max-width: 1100px; margin: 0 auto; }
+    .article-theme-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 18px; padding: 28px 24px;
+      cursor: pointer; transition: all .22s; position: relative; overflow: hidden;
+    }
+    .article-theme-card::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(135deg, var(--atc, #1d9bf0) 0%, transparent 65%);
+      opacity: 0.08; transition: opacity .22s;
+    }
+    .article-theme-card:hover { border-color: var(--atc, #1d9bf0); transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,.45); }
+    .article-theme-card:hover::before { opacity: 0.16; }
+    .article-theme-emoji { font-size: 40px; margin-bottom: 12px; display: block; }
+    .article-theme-label { font-size: 18px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+    .article-theme-count { font-size: 28px; font-weight: 700; color: var(--atc, #1d9bf0); line-height: 1; margin-bottom: 2px; }
+    .article-theme-count-lbl { font-size: 10px; color: var(--text-muted); margin-bottom: 12px; }
+    .article-theme-examples { font-size: 11px; color: var(--text-muted); line-height: 1.6; }
+    .article-theme-bar { margin-top: 16px; height: 3px; border-radius: 3px; background: rgba(255,255,255,0.06); overflow: hidden; }
+    .article-theme-bar-fill { height: 100%; border-radius: 3px; background: var(--atc, #1d9bf0); }
+
+    /* Article theme doc cards */
+    .article-theme-doc-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px 18px;
+      cursor: pointer; transition: all .18s; display: flex; align-items: flex-start; gap: 14px;
+    }
+    .article-theme-doc-card:hover { border-color: var(--atc, #1d9bf0); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+    .article-theme-doc-icon { font-size: 28px; flex-shrink: 0; }
+    .article-theme-doc-info { flex: 1; min-width: 0; }
+    .article-theme-doc-title { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 3px; }
+    .article-theme-doc-sub { font-size: 11px; color: var(--text-dim); margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .article-theme-doc-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+    .article-theme-doc-source { margin-left: auto; flex-shrink: 0; font-size: 11px; color: var(--atc, #1d9bf0); text-decoration: none; padding: 4px 8px; border: 1px solid var(--atc, #1d9bf0)30; border-radius: 6px; }
+    .article-theme-doc-source:hover { background: var(--atc, #1d9bf0)20; }
+    .article-theme-sort-bar { display: flex; align-items: center; gap: 8px; padding: 0 24px 16px; max-width: 1100px; margin: 0 auto; font-size: 12px; color: var(--text-dim); }
+    .article-theme-sort-btn { background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px; font-size: 11px; color: var(--text-dim); cursor: pointer; transition: all .15s; }
+    .article-theme-sort-btn.active, .article-theme-sort-btn:hover { border-color: var(--atc, #1d9bf0); color: var(--atc, #1d9bf0); }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo" onclick="goHome()">
+    <div class="logo-icon">⚡</div>
+    Bibliothèque
+  </div>
+  <div class="header-breadcrumb" id="breadcrumb-bar">
+    <span class="breadcrumb-current">Accueil</span>
+  </div>
+  <div class="header-stats">
+    <div class="stat"><strong id="s-docs">—</strong> docs</div>
+    <div class="stat"><strong id="s-lines">—</strong> lignes</div>
+    <div class="stat"><strong id="s-size">—</strong> MB</div>
+  </div>
+</header>
+
+<!-- ══ VIEW HOME ══════════════════════════════════════════════════════════════ -->
+<div id="view-home" class="view active">
+  <div class="home-hero">
+    <div class="home-title">📚 Bibliothèque Clawdbot Prime</div>
+    <div class="home-sub">Résumés · Formations · Knowledge bases · Stratégie</div>
+    <div class="home-search-wrap">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="home-search" placeholder="Rechercher dans toute la bibliothèque…" autocomplete="off"/>
+    </div>
+  </div>
+
+  <!-- Group cards -->
+  <div class="group-grid" id="group-grid"></div>
+
+  <!-- Search results -->
+  <div class="search-results-home" id="search-results-home" style="display:none">
+    <div class="search-results-header" id="search-results-count"></div>
+    <div id="search-results-list"></div>
+  </div>
+</div>
+
+<!-- ══ VIEW GROUP ════════════════════════════════════════════════════════════ -->
+<div id="view-group" class="view">
+  <div class="section-header">
+    <button class="btn-back" id="btn-back-home">
+      <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+      Accueil
+    </button>
+    <div class="section-title" id="group-page-title">—</div>
+    <div class="section-count" id="group-page-count"></div>
+  </div>
+  <!-- Formations group: show formation cards (intermediate level) -->
+  <div id="formations-overview" style="display:none">
+    <div class="formation-grid" id="formations-grid"></div>
+  </div>
+  <!-- Articles group: show article theme cards (intermediate level) -->
+  <div id="articles-overview" style="display:none">
+    <div class="article-theme-grid" id="articles-theme-grid"></div>
+  </div>
+  <!-- Other groups: tag filter + category cards -->
+  <div id="group-cats-section">
+    <div class="tag-filter-bar" id="tag-filter-bar">
+      <span class="tag-filter-label">Filtres :</span>
+    </div>
+    <div class="cat-grid" id="group-cat-grid"></div>
+  </div>
+</div>
+
+<!-- ══ VIEW ARTICLE THEME ════════════════════════════════════════════════════ -->
+<div id="view-article-theme" class="view">
+  <div class="section-header">
+    <button class="btn-back" id="btn-back-articles">
+      <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+      Articles & Ressources
+    </button>
+    <div class="section-title" id="article-theme-page-title">—</div>
+    <div class="section-count" id="article-theme-page-count"></div>
+  </div>
+  <div class="article-theme-sort-bar">
+    <span>Tri :</span>
+    <button class="article-theme-sort-btn active" id="sort-btn-default" onclick="setArticleSort('default')">Par défaut</button>
+    <button class="article-theme-sort-btn" id="sort-btn-alpha" onclick="setArticleSort('alpha')">Alphabétique</button>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr;gap:10px;padding:0 24px 60px;max-width:1100px;margin:0 auto" id="article-theme-doc-grid"></div>
+</div>
+
+<!-- ══ VIEW FORMATION ════════════════════════════════════════════════════════ -->
+<div id="view-formation" class="view">
+  <div class="section-header">
+    <button class="btn-back" id="btn-back-formations">
+      <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+      Formations
+    </button>
+    <div class="section-title" id="formation-page-title">—</div>
+    <div class="section-count" id="formation-page-count"></div>
+  </div>
+  <div class="tag-filter-bar" id="formation-tag-filter-bar">
+    <span class="tag-filter-label">Filtres :</span>
+  </div>
+  <div class="cat-grid" id="formation-cat-grid"></div>
+</div>
+
+<!-- ══ VIEW CATEGORY ════════════════════════════════════════════════════════ -->
+<div id="view-category" class="view">
+  <div class="section-header">
+    <button class="btn-back" id="btn-back-group">
+      <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+      <span id="back-group-label">Retour</span>
+    </button>
+    <div class="section-title" id="cat-page-title">—</div>
+    <div class="section-count" id="cat-page-count"></div>
+  </div>
+  <div class="cat-search-wrap">
+    <input type="text" id="cat-search" placeholder="Filtrer dans cette catégorie…"/>
+  </div>
+  <div class="doc-cards-grid" id="doc-cards"></div>
+</div>
+
+<!-- ══ VIEW DOC ══════════════════════════════════════════════════════════════ -->
+<div id="view-doc" class="view">
+  <div class="read-progress"><div class="read-progress-bar" id="progress-bar"></div></div>
+  <div class="doc-topbar">
+    <button class="btn-back" id="btn-back-cat">
+      <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+      <span id="back-cat-label">Retour</span>
+    </button>
+    <div class="doc-topbar-info">
+      <div class="doc-topbar-title" id="doc-title">—</div>
+      <div class="doc-topbar-meta" id="doc-meta">—</div>
+    </div>
+    <div class="doc-tags-wrap" id="doc-tags"></div>
+    <button class="toolbar-btn" id="btn-copy">📋 Copier chemin</button>
+    <a class="toolbar-btn" id="btn-source" href="#" target="_blank" rel="noopener" style="display:none">🔗 Source</a>
+    <button class="toolbar-btn" id="btn-transcript" style="display:none">📄 Transcript</button>
+  </div>
+  <div class="doc-body">
+    <div class="md" id="md-content"></div>
+  </div>
+</div>
+
+<div class="scroll-top" id="scroll-top">↑</div>
+
+<script>
+const API = '';
+
+// ── Config groupes ────────────────────────────────────────────────────────────
+const GROUP_CONFIG = {
+  formations: { emoji: '📚', label: 'Formations',              color: '#6366f1', desc: 'EVOLVE Marketing · EVOLVE CRO · EcomTalent · Davie Fogarty · AI UGC Mania · Pellegrini' },
+  videos:     { emoji: '📺', label: 'Vidéos & Playlists',      color: '#ef4444', desc: 'Playlist MASTER Pellegrini (44 vidéos) · YouTube Playlist OpenClaw (28 vidéos)' },
+  articles:   { emoji: '🐦', label: 'Articles & Ressources Web',color: '#1d9bf0', desc: 'Tweets X · Liens Discord · Ressources Chef curatées' },
+  livres:     { emoji: '📖', label: 'Livres',                  color: '#f59e0b', desc: 'Classiques Copywriting · Hormozi · Book Launch · Scaling · Templates' },
+  strategie:  { emoji: '🏗️', label: 'Stratégie & Outils',      color: '#10b981', desc: 'Knowledge Base · OMNIA · Architecture · Advertising · E-Commerce' },
+};
+const GROUP_ORDER = ['formations','videos','articles','livres','strategie'];
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let catalog = [];
+let groups  = [];
+let formations = [];
+let articleThemes = [];
+let currentView        = 'home';
+let currentGroupId     = null;
+let currentFormation   = null; // { id, label, emoji, color, subtitle, catCount, docCount }
+let currentArticleTheme = null; // { id, label, emoji, color, docCount, docs }
+let currentArticleSort = 'default';
+let currentCatIndex    = null;
+let currentDocId       = null;
+let currentFile        = '';
+let activeTags         = new Set();
+let formationActiveTags = new Set();
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const [statsRes, catRes, grpRes, frmRes, artRes] = await Promise.all([
+      fetch(`${API}/api/stats`),
+      fetch(`${API}/api/catalog`),
+      fetch(`${API}/api/groups`),
+      fetch(`${API}/api/formations`),
+      fetch(`${API}/api/article-themes`)
+    ]);
+    const stats = await statsRes.json();
+    catalog       = await catRes.json();
+    groups        = await grpRes.json();
+    formations    = await frmRes.json();
+    articleThemes = await artRes.json();
+
+    document.getElementById('s-docs').textContent = stats.totalDocs;
+    document.getElementById('s-lines').textContent = stats.totalLines.toLocaleString('fr-FR');
+    document.getElementById('s-size').textContent = (stats.totalSize/1024/1024).toFixed(1);
+
+    renderGroupGrid();
+    setupHomeSearch();
+    setupScrollTop();
+  } catch(e) { console.error(e); }
+}
+
+// ── Render home group cards ───────────────────────────────────────────────────
+function renderGroupGrid() {
+  const grid = document.getElementById('group-grid');
+  const maxCount = Math.max(...groups.map(g => g.count), 1);
+
+  grid.innerHTML = GROUP_ORDER.map((gid, i) => {
+    const grp = groups.find(g => g.id === gid) || { id: gid, count: 0 };
+    const cfg = GROUP_CONFIG[gid] || {};
+    const pct = Math.round((grp.count / maxCount) * 100);
+    return `<div class="group-card fade-in" style="--gc:${cfg.color};animation-delay:${i*0.06}s" onclick="openGroup('${gid}')">
+      <span class="group-card-emoji">${cfg.emoji||grp.emoji||'📁'}</span>
+      <div class="group-card-label">${cfg.label||grp.label}</div>
+      <div class="group-card-desc">${cfg.desc||''}</div>
+      <div class="group-card-count" style="color:${cfg.color}">${grp.count}</div>
+      <div class="group-card-count-label">document${grp.count!==1?'s':''}</div>
+      <div class="group-card-bar"><div class="group-card-bar-fill" style="width:${pct}%;background:${cfg.color}"></div></div>
+    </div>`;
+  }).join('');
+}
+
+// ── Open group ────────────────────────────────────────────────────────────────
+function openGroup(gid) {
+  currentGroupId = gid;
+  currentFormation = null;
+  activeTags.clear();
+  const cfg = GROUP_CONFIG[gid] || {};
+  const grp = groups.find(g => g.id === gid) || {};
+
+  document.getElementById('group-page-title').textContent = `${cfg.emoji||''} ${cfg.label||gid}`;
+  document.getElementById('group-page-count').textContent = `${grp.count||0} documents`;
+
+  if (gid === 'formations') {
+    // Formations group: show formation cards (intermediate level)
+    document.getElementById('formations-overview').style.display = 'block';
+    document.getElementById('articles-overview').style.display = 'none';
+    document.getElementById('group-cats-section').style.display = 'none';
+    renderFormationsOverview();
+  } else if (gid === 'articles') {
+    // Articles group: show article theme cards directly
+    document.getElementById('formations-overview').style.display = 'none';
+    document.getElementById('articles-overview').style.display = 'block';
+    document.getElementById('group-cats-section').style.display = 'none';
+    renderArticlesOverview();
+  } else {
+    document.getElementById('formations-overview').style.display = 'none';
+    document.getElementById('articles-overview').style.display = 'none';
+    document.getElementById('group-cats-section').style.display = 'block';
+
+    // Build tag filter bar
+    const cats = catalog.filter(c => c.group === gid && (c.docs||[]).length);
+    const allTags = [...new Set(cats.flatMap(c => (c.docs||[]).flatMap(d => d.tags||[])))].sort();
+
+    const bar = document.getElementById('tag-filter-bar');
+    bar.innerHTML = `<span class="tag-filter-label">Tags :</span>` +
+      allTags.map(t => `<button class="tag-filter-btn" onclick="toggleTag('${esc(t)}')">${esc(t)}</button>`).join('') +
+      (allTags.length > 0 ? `<button class="tag-clear-btn" onclick="clearTags()">✕ Tout effacer</button>` : '');
+
+    renderGroupCats();
+  }
+
+  showView('group');
+  setBreadcrumb([{ label: 'Accueil', fn: 'goHome()' }, { label: `${cfg.emoji||''} ${cfg.label||gid}` }]);
+}
+
+// ── Render articles overview (6 theme cards) ─────────────────────────────────
+function renderArticlesOverview() {
+  const grid = document.getElementById('articles-theme-grid');
+  const maxDocs = Math.max(...articleThemes.map(t => t.docCount), 1);
+  grid.innerHTML = articleThemes.map((t, i) => {
+    const pct = Math.round((t.docCount / maxDocs) * 100);
+    const examples = t.docs.slice(0, 3).map(d => `<div>· ${esc(d.title.length > 42 ? d.title.slice(0,42)+'…' : d.title)}</div>`).join('');
+    return `<div class="article-theme-card fade-in" style="--atc:${t.color};animation-delay:${i*0.07}s" onclick="openArticleTheme('${t.id}')">
+      <span class="article-theme-emoji">${t.emoji}</span>
+      <div class="article-theme-label">${esc(t.label)}</div>
+      <div class="article-theme-count" style="color:${t.color}">${t.docCount}</div>
+      <div class="article-theme-count-lbl">ressource${t.docCount!==1?'s':''}</div>
+      <div class="article-theme-examples">${examples}</div>
+      <div class="article-theme-bar"><div class="article-theme-bar-fill" style="width:${pct}%;background:${t.color}"></div></div>
+    </div>`;
+  }).join('');
+}
+
+// ── Open article theme ────────────────────────────────────────────────────────
+function openArticleTheme(tid) {
+  const t = articleThemes.find(x => x.id === tid);
+  if (!t) return;
+  currentArticleTheme = t;
+  currentArticleSort = 'default';
+
+  document.getElementById('article-theme-page-title').textContent = `${t.emoji} ${t.label}`;
+  document.getElementById('article-theme-page-count').textContent = `${t.docCount} ressource${t.docCount!==1?'s':''}`;
+  document.getElementById('sort-btn-default').classList.add('active');
+  document.getElementById('sort-btn-alpha').classList.remove('active');
+
+  renderArticleThemeDocs();
+  showView('article-theme');
+  setBreadcrumb([
+    { label: 'Accueil', fn: 'goHome()' },
+    { label: '🐦 Articles & Ressources', fn: "openGroup('articles')" },
+    { label: `${t.emoji} ${t.label}` }
+  ]);
+}
+
+function setArticleSort(mode) {
+  currentArticleSort = mode;
+  document.getElementById('sort-btn-default').classList.toggle('active', mode === 'default');
+  document.getElementById('sort-btn-alpha').classList.toggle('active', mode === 'alpha');
+  renderArticleThemeDocs();
+}
+
+function renderArticleThemeDocs() {
+  const t = currentArticleTheme;
+  if (!t) return;
+  const grid = document.getElementById('article-theme-doc-grid');
+  let docs = [...t.docs];
+  if (currentArticleSort === 'alpha') docs.sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+
+  const color = t.color || '#1d9bf0';
+  grid.style.setProperty('--atc', color);
+
+  grid.innerHTML = docs.map(doc => {
+    const srcHtml = doc.source_url
+      ? `<a class="article-theme-doc-source" href="${esc(doc.source_url)}" target="_blank" onclick="event.stopPropagation()">🔗 Source</a>`
+      : '';
+    return `<div class="article-theme-doc-card fade-in" style="--atc:${color}" onclick="openDocFromArticleTheme('${doc.id}')">
+      <div class="article-theme-doc-icon">${doc.icon||'📄'}</div>
+      <div class="article-theme-doc-info">
+        <div class="article-theme-doc-title">${esc(doc.title)}</div>
+        <div class="article-theme-doc-sub">${esc(doc.subtitle||'')}</div>
+        <div class="article-theme-doc-tags">${(doc.tags||[]).slice(0,3).map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</div>
+      </div>
+      ${srcHtml}
+    </div>`;
+  }).join('');
+}
+
+async function openDocFromArticleTheme(id) {
+  const t = currentArticleTheme;
+  currentCatIndex = null;
+  currentDocId = id;
+
+  showView('doc');
+  document.getElementById('md-content').innerHTML = '<div class="loading"><div class="spinner"></div> Chargement…</div>';
+  document.getElementById('progress-bar').style.width = '0%';
+  document.getElementById('back-cat-label').textContent = t ? `${t.emoji} ${t.label}` : 'Articles';
+
+  const bc = [
+    { label: 'Accueil', fn: 'goHome()' },
+    { label: '🐦 Articles & Ressources', fn: "openGroup('articles')" },
+  ];
+  if (t) bc.push({ label: `${t.emoji} ${t.label}`, fn: `openArticleTheme('${t.id}')` });
+  bc.push({ label: '…' });
+  setBreadcrumb(bc);
+
+  try {
+    const r = await fetch(`${API}/api/doc/${id}`);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const doc = await r.json();
+    currentFile = doc.file;
+
+    document.getElementById('doc-title').textContent = `${doc.icon||''} ${doc.title}`;
+    const bclast = bc.slice(0,-1).concat([{ label: doc.title }]);
+    setBreadcrumb(bclast);
+
+    const lines = doc.content.split('\n').length;
+    const kb = (new TextEncoder().encode(doc.content).length/1024).toFixed(1);
+    document.getElementById('doc-meta').textContent = `${doc.subtitle||''} — ${lines.toLocaleString('fr-FR')} lignes · ${kb} KB`;
+    document.getElementById('doc-tags').innerHTML = (doc.tags||[]).slice(0,5).map(tag=>`<span class="tag">${esc(tag)}</span>`).join('');
+
+    const srcBtn = document.getElementById('btn-source');
+    if (doc.source_url) { srcBtn.href = doc.source_url; srcBtn.style.display = ''; }
+    else { srcBtn.style.display = 'none'; }
+    const trBtn = document.getElementById('btn-transcript');
+    if (doc.transcript_id) { trBtn.style.display = ''; trBtn.onclick = () => openDoc(doc.transcript_id); }
+    else { trBtn.style.display = 'none'; }
+
+    document.getElementById('md-content').innerHTML = `<div class="fade-in">${marked.parse(doc.content)}</div>`;
+    window.scrollTo(0, 0);
+  } catch(e) {
+    document.getElementById('md-content').innerHTML = `<div style="padding:40px;color:#ef4444">⚠️ Impossible de charger ce document.<br><small>${e.message}</small></div>`;
+  }
+}
+
+// ── Render formations overview (6 formation cards) ────────────────────────────
+function renderFormationsOverview() {
+  const grid = document.getElementById('formations-grid');
+  const maxDocs = Math.max(...formations.map(f => f.docCount), 1);
+
+  grid.innerHTML = formations.map((f, i) => {
+    const pct = Math.round((f.docCount / maxDocs) * 100);
+    return `<div class="formation-card fade-in" style="--fc:${f.color};animation-delay:${i*0.07}s" onclick="openFormation('${f.id}')">
+      <span class="formation-card-emoji">${f.emoji}</span>
+      <div class="formation-card-label">${esc(f.label)}</div>
+      <div class="formation-card-subtitle">${esc(f.subtitle)}</div>
+      <div class="formation-card-stats">
+        <div class="formation-stat-block">
+          <div class="formation-stat-num" style="color:${f.color}">${f.docCount}</div>
+          <div class="formation-stat-lbl">document${f.docCount!==1?'s':''}</div>
+        </div>
+        <div class="formation-stat-block">
+          <div class="formation-stat-num" style="color:${f.color}">${f.catCount}</div>
+          <div class="formation-stat-lbl">module${f.catCount!==1?'s':''}</div>
+        </div>
+      </div>
+      <div class="formation-card-bar"><div class="formation-card-bar-fill" style="width:${pct}%;background:${f.color}"></div></div>
+    </div>`;
+  }).join('');
+}
+
+// ── Open formation (intermediate level) ───────────────────────────────────────
+function openFormation(fid) {
+  const f = formations.find(x => x.id === fid);
+  if (!f) return;
+  currentFormation = f;
+  formationActiveTags.clear();
+
+  document.getElementById('formation-page-title').textContent = `${f.emoji} ${f.label}`;
+  document.getElementById('formation-page-count').textContent = `${f.docCount} documents · ${f.catCount} modules`;
+
+  // Build tag filter bar for this formation
+  const cats = catalog.filter(c => c.formation === fid && (c.docs||[]).length);
+  const allTags = [...new Set(cats.flatMap(c => (c.docs||[]).flatMap(d => d.tags||[])))].sort();
+
+  const bar = document.getElementById('formation-tag-filter-bar');
+  bar.innerHTML = `<span class="tag-filter-label">Tags :</span>` +
+    allTags.map(t => `<button class="tag-filter-btn" onclick="toggleFormationTag('${esc(t)}')">${esc(t)}</button>`).join('') +
+    (allTags.length > 0 ? `<button class="tag-clear-btn" onclick="clearFormationTags()">✕ Tout effacer</button>` : '');
+
+  renderFormationCats();
+  showView('formation');
+  setBreadcrumb([
+    { label: 'Accueil', fn: 'goHome()' },
+    { label: '📚 Formations', fn: "openGroup('formations')" },
+    { label: `${f.emoji} ${f.label}` }
+  ]);
+}
+
+function toggleFormationTag(tag) {
+  if (formationActiveTags.has(tag)) formationActiveTags.delete(tag);
+  else formationActiveTags.add(tag);
+  document.querySelectorAll('#formation-tag-filter-bar .tag-filter-btn').forEach(btn => {
+    btn.classList.toggle('active', formationActiveTags.has(btn.textContent));
+  });
+  renderFormationCats();
+}
+
+function clearFormationTags() {
+  formationActiveTags.clear();
+  document.querySelectorAll('#formation-tag-filter-bar .tag-filter-btn').forEach(btn => btn.classList.remove('active'));
+  renderFormationCats();
+}
+
+function renderFormationCats() {
+  const fid = currentFormation?.id;
+  const grid = document.getElementById('formation-cat-grid');
+
+  let cats = catalog.filter(c => c.formation === fid && (c.docs||[]).length);
+
+  if (formationActiveTags.size > 0) {
+    cats = cats.filter(c => (c.docs||[]).some(d => {
+      const dt = d.tags || [];
+      return [...formationActiveTags].every(t => dt.includes(t));
+    }));
+  }
+
+  if (!cats.length) {
+    grid.innerHTML = `<div style="grid-column:1/-1;padding:40px;text-align:center;color:var(--text-muted);font-size:13px">Aucune catégorie pour ces filtres.</div>`;
+    return;
+  }
+
+  const maxDocs = Math.max(...cats.map(c => (c.docs||[]).length), 1);
+  grid.innerHTML = cats.map((cat, i) => {
+    const color = cat.color || currentFormation?.color || '#6366f1';
+    const n = (cat.docs||[]).length;
+    const pct = Math.round((n/maxDocs)*100);
+    const icon = catFirstIcon(cat);
+    const catIdx = catalog.indexOf(cat);
+    return `<div class="cat-card fade-in" style="animation-delay:${i*0.03}s;border-top:2px solid ${color}30" onclick="openCategory(${catIdx})">
+      <div class="cat-card-top">
+        <div class="cat-card-icon">${icon}</div>
+        <div><div class="cat-card-name">${esc(cat.category)}</div></div>
+      </div>
+      <div class="cat-card-bottom">
+        <div class="cat-card-count" style="color:${color}">${n}</div>
+        <div class="cat-card-label">doc${n>1?'s':''}</div>
+      </div>
+      <div class="cat-card-bar"><div class="cat-card-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+    </div>`;
+  }).join('');
+}
+
+function toggleTag(tag) {
+  if (activeTags.has(tag)) activeTags.delete(tag);
+  else activeTags.add(tag);
+  // Update button states
+  document.querySelectorAll('.tag-filter-btn').forEach(btn => {
+    const t = btn.textContent;
+    btn.classList.toggle('active', activeTags.has(t));
+  });
+  renderGroupCats();
+}
+
+function clearTags() {
+  activeTags.clear();
+  document.querySelectorAll('.tag-filter-btn').forEach(btn => btn.classList.remove('active'));
+  renderGroupCats();
+}
+
+function renderGroupCats() {
+  const gid = currentGroupId;
+  const grid = document.getElementById('group-cat-grid');
+  const cfg = GROUP_CONFIG[gid] || {};
+
+  // All cats for this group (skip empty isParent nodes)
+  let cats = catalog.filter(c => c.group === gid && (c.docs||[]).length);
+
+  // If tags active, show only cats with at least 1 doc matching all active tags
+  if (activeTags.size > 0) {
+    cats = cats.filter(c => (c.docs||[]).some(d => {
+      const dt = d.tags || [];
+      return [...activeTags].every(t => dt.includes(t));
+    }));
+  }
+
+  if (!cats.length) {
+    grid.innerHTML = `<div style="grid-column:1/-1;padding:40px;text-align:center;color:var(--text-muted);font-size:13px">Aucune catégorie pour ces filtres.</div>`;
+    return;
+  }
+
+  const maxDocs = Math.max(...cats.map(c => (c.docs||[]).length), 1);
+  grid.innerHTML = cats.map((cat, i) => {
+    const color = cat.color || cfg.color || '#6366f1';
+    const n = (cat.docs||[]).length;
+    const pct = Math.round((n/maxDocs)*100);
+    const icon = catFirstIcon(cat);
+    const catIdx = catalog.indexOf(cat);
+    return `<div class="cat-card fade-in" style="animation-delay:${i*0.03}s;border-top:2px solid ${color}30" onclick="openCategory(${catIdx})">
+      <div class="cat-card-top">
+        <div class="cat-card-icon">${icon}</div>
+        <div><div class="cat-card-name">${esc(cat.category)}</div></div>
+      </div>
+      <div class="cat-card-bottom">
+        <div class="cat-card-count" style="color:${color}">${n}</div>
+        <div class="cat-card-label">doc${n>1?'s':''}</div>
+      </div>
+      <div class="cat-card-bar"><div class="cat-card-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+    </div>`;
+  }).join('');
+}
+
+function catFirstIcon(cat) {
+  const first = (cat.docs||[])[0];
+  if (first?.icon) return first.icon;
+  const n = cat.category;
+  if (n.includes('EVOLVE') || n.includes('🎯')) return '🎯';
+  if (n.includes('CRO')) return '🎓';
+  if (n.includes('UGC') || n.includes('Mania')) return '🎬';
+  if (n.includes('Livre') || n.includes('Book')) return '📚';
+  if (n.includes('YouTube')) return '📺';
+  if (n.includes('Stratégie') || n.includes('Knowledge')) return '🏗️';
+  if (n.includes('Fogarty')) return '🛍️';
+  if (n.includes('Pellegrini')) return '🎬';
+  return '📁';
+}
+
+// ── Open category ─────────────────────────────────────────────────────────────
+function openCategory(catIdx) {
+  currentCatIndex = catIdx;
+  const cat = catalog[catIdx];
+  if (!cat) return;
+
+  const cfg = GROUP_CONFIG[cat.group] || {};
+  document.getElementById('cat-page-title').textContent = cat.category;
+  document.getElementById('cat-page-count').textContent = `${(cat.docs||[]).length} documents`;
+
+  // Back button label
+  if (cat.group === 'formations' && currentFormation) {
+    document.getElementById('back-group-label').textContent = `${currentFormation.emoji} ${currentFormation.label}`;
+  } else {
+    document.getElementById('back-group-label').textContent = cfg.label || 'Retour';
+  }
+
+  renderDocCards(cat.docs || []);
+  showView('category');
+
+  // Breadcrumb
+  if (cat.group === 'formations' && currentFormation) {
+    setBreadcrumb([
+      { label: 'Accueil', fn: 'goHome()' },
+      { label: '📚 Formations', fn: "openGroup('formations')" },
+      { label: `${currentFormation.emoji} ${currentFormation.label}`, fn: `openFormation('${currentFormation.id}')` },
+      { label: cat.category }
+    ]);
+  } else if (cat.group) {
+    setBreadcrumb([
+      { label: 'Accueil', fn: 'goHome()' },
+      { label: `${cfg.emoji||''} ${cfg.label||cat.group}`, fn: `openGroup('${cat.group}')` },
+      { label: cat.category }
+    ]);
+  } else {
+    setBreadcrumb([{ label: 'Accueil', fn: 'goHome()' }, { label: cat.category }]);
+  }
+
+  const catSearch = document.getElementById('cat-search');
+  catSearch.value = '';
+  catSearch.oninput = () => {
+    const q = catSearch.value.trim().toLowerCase();
+    const filtered = q ? (cat.docs||[]).filter(d =>
+      d.title.toLowerCase().includes(q) ||
+      (d.subtitle||'').toLowerCase().includes(q) ||
+      (d.tags||[]).some(t=>t.toLowerCase().includes(q))
+    ) : cat.docs;
+    renderDocCards(filtered);
+  };
+}
+
+function renderDocCards(docs) {
+  const grid = document.getElementById('doc-cards');
+  grid.innerHTML = docs.map(doc => `
+    <div class="doc-card fade-in" onclick="openDoc('${doc.id}')">
+      <div class="doc-card-top">
+        <div class="doc-card-icon">${doc.icon||'📄'}</div>
+        <div>
+          <div class="doc-card-title">${esc(doc.title)}</div>
+          <div class="doc-card-sub">${esc(doc.subtitle||doc.author||'')}</div>
+        </div>
+      </div>
+      <div class="doc-card-tags">${(doc.tags||[]).slice(0,4).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
+    </div>`).join('');
+}
+
+// ── Open doc ──────────────────────────────────────────────────────────────────
+async function openDoc(id) {
+  if (id === currentDocId) return;
+  currentDocId = id;
+
+  const cat = currentCatIndex !== null ? catalog[currentCatIndex] : null;
+  const cfg = cat?.group ? GROUP_CONFIG[cat.group] : null;
+  document.getElementById('back-cat-label').textContent = cat ? cat.category : 'Retour';
+
+  showView('doc');
+  document.getElementById('md-content').innerHTML = '<div class="loading"><div class="spinner"></div> Chargement…</div>';
+  document.getElementById('progress-bar').style.width = '0%';
+
+  // Breadcrumb
+  const bc = [{ label: 'Accueil', fn: 'goHome()' }];
+  if (cfg && cat.group === 'formations' && currentFormation) {
+    bc.push({ label: '📚 Formations', fn: "openGroup('formations')" });
+    bc.push({ label: `${currentFormation.emoji} ${currentFormation.label}`, fn: `openFormation('${currentFormation.id}')` });
+  } else if (cfg) {
+    bc.push({ label: `${cfg.emoji||''} ${cfg.label}`, fn: `openGroup('${cat.group}')` });
+  }
+  if (cat) bc.push({ label: cat.category, fn: `openCategory(${catalog.indexOf(cat)})` });
+  bc.push({ label: '…' });
+  setBreadcrumb(bc);
+
+  try {
+    const r = await fetch(`${API}/api/doc/${id}`);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const doc = await r.json();
+    currentFile = doc.file;
+
+    document.getElementById('doc-title').textContent = `${doc.icon||''} ${doc.title}`;
+    // Update last breadcrumb
+    const bclast = bc.slice(0,-1).concat([{ label: doc.title }]);
+    setBreadcrumb(bclast);
+
+    const lines = doc.content.split('\n').length;
+    const kb = (new TextEncoder().encode(doc.content).length/1024).toFixed(1);
+    const auth = doc.author && doc.author !== '—' ? ` · ${doc.author}` : '';
+    document.getElementById('doc-meta').textContent = `${doc.subtitle||''}${auth} — ${lines.toLocaleString('fr-FR')} lignes · ${kb} KB`;
+    document.getElementById('doc-tags').innerHTML = (doc.tags||[]).slice(0,5).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
+
+    const srcBtn = document.getElementById('btn-source');
+    if (doc.source_url) { srcBtn.href = doc.source_url; srcBtn.style.display = ''; }
+    else { srcBtn.style.display = 'none'; }
+    const trBtn2 = document.getElementById('btn-transcript');
+    if (doc.transcript_id) { trBtn2.style.display = ''; trBtn2.onclick = () => openDoc(doc.transcript_id); }
+    else { trBtn2.style.display = 'none'; }
+
+    document.getElementById('md-content').innerHTML = `<div class="fade-in">${marked.parse(doc.content)}</div>`;
+    window.scrollTo(0, 0);
+  } catch(e) {
+    document.getElementById('md-content').innerHTML = `<div style="padding:40px;color:#ef4444">⚠️ Impossible de charger ce document.<br><small>${e.message}</small></div>`;
+  }
+}
+
+async function openDocDirect(id, catName) {
+  currentCatIndex = null;
+  document.getElementById('back-cat-label').textContent = catName || 'Retour';
+  await openDoc(id);
+}
+
+// ── Navigation ────────────────────────────────────────────────────────────────
+function showView(name) {
+  ['home','group','formation','article-theme','category','doc'].forEach(v => {
+    document.getElementById(`view-${v}`).classList.toggle('active', v === name);
+  });
+  currentView = name;
+  if (name === 'home') {
+    currentDocId = null;
+    currentCatIndex = null;
+    currentGroupId = null;
+    currentFormation = null;
+    currentArticleTheme = null;
+    setBreadcrumb([{ label: 'Accueil' }]);
+  }
+}
+
+function goHome() {
+  showView('home');
+  // Reset search
+  const inp = document.getElementById('home-search');
+  if (inp.value) {
+    inp.value = '';
+    document.getElementById('search-results-home').style.display = 'none';
+    document.getElementById('group-grid').style.display = 'grid';
+  }
+}
+
+document.getElementById('btn-back-home').addEventListener('click', () => goHome());
+document.getElementById('btn-back-formations').addEventListener('click', () => {
+  openGroup('formations');
+  currentFormation = null;
+});
+document.getElementById('btn-back-articles').addEventListener('click', () => {
+  currentArticleTheme = null;
+  openGroup('articles');
+});
+document.getElementById('btn-back-group').addEventListener('click', () => {
+  if (currentFormation) {
+    openFormation(currentFormation.id);
+  } else if (currentGroupId) {
+    openGroup(currentGroupId);
+  } else {
+    goHome();
+  }
+  currentCatIndex = null;
+});
+document.getElementById('btn-back-cat').addEventListener('click', () => {
+  if (currentArticleTheme && currentCatIndex === null) {
+    // Came from article theme view
+    openArticleTheme(currentArticleTheme.id);
+    currentDocId = null;
+    return;
+  }
+  if (currentCatIndex !== null) {
+    showView('category');
+    const cat = catalog[currentCatIndex];
+    if (cat) {
+      if (cat.group === 'formations' && currentFormation) {
+        setBreadcrumb([
+          { label: 'Accueil', fn: 'goHome()' },
+          { label: '📚 Formations', fn: "openGroup('formations')" },
+          { label: `${currentFormation.emoji} ${currentFormation.label}`, fn: `openFormation('${currentFormation.id}')` },
+          { label: cat.category }
+        ]);
+      } else if (cat.group) {
+        const cfg = GROUP_CONFIG[cat.group] || {};
+        setBreadcrumb([
+          { label: 'Accueil', fn: 'goHome()' },
+          { label: `${cfg.emoji||''} ${cfg.label||cat.group}`, fn: `openGroup('${cat.group}')` },
+          { label: cat.category }
+        ]);
+      }
+    }
+  } else {
+    if (currentArticleTheme) openArticleTheme(currentArticleTheme.id);
+    else if (currentFormation) openFormation(currentFormation.id);
+    else if (currentGroupId) openGroup(currentGroupId);
+    else goHome();
+  }
+  currentDocId = null;
+});
+
+// ── Breadcrumb ────────────────────────────────────────────────────────────────
+function setBreadcrumb(items) {
+  const bar = document.getElementById('breadcrumb-bar');
+  bar.innerHTML = items.map((item, i) => {
+    const isLast = i === items.length - 1;
+    const sep = i > 0 ? `<span class="breadcrumb-sep">›</span>` : '';
+    if (isLast || !item.fn) {
+      return `${sep}<span class="breadcrumb-current">${esc(item.label)}</span>`;
+    }
+    return `${sep}<span class="breadcrumb-link" onclick="${item.fn}">${esc(item.label)}</span>`;
+  }).join('');
+}
+
+// ── Home search ───────────────────────────────────────────────────────────────
+function setupHomeSearch() {
+  const input = document.getElementById('home-search');
+  let t;
+  input.addEventListener('input', () => {
+    clearTimeout(t);
+    t = setTimeout(() => {
+      const q = input.value.trim();
+      if (q.length < 2) {
+        document.getElementById('search-results-home').style.display = 'none';
+        document.getElementById('group-grid').style.display = 'grid';
+        return;
+      }
+      doHomeSearch(q);
+    }, 180);
+  });
+}
+
+function doHomeSearch(q) {
+  document.getElementById('group-grid').style.display = 'none';
+  document.getElementById('search-results-home').style.display = 'block';
+
+  const ql = q.toLowerCase();
+  const matches = [];
+  for (const cat of catalog) {
+    for (const doc of (cat.docs||[])) {
+      if (
+        doc.title.toLowerCase().includes(ql) ||
+        (doc.subtitle||'').toLowerCase().includes(ql) ||
+        (doc.author||'').toLowerCase().includes(ql) ||
+        (doc.tags||[]).some(t => t.toLowerCase().includes(ql))
+      ) {
+        matches.push({ doc, catName: cat.category });
+      }
+    }
+  }
+
+  document.getElementById('search-results-count').textContent =
+    `${matches.length} résultat${matches.length!==1?'s':''} pour « ${esc(q)} »`;
+
+  document.getElementById('search-results-list').innerHTML = matches.length
+    ? matches.map(({ doc, catName }) => `
+        <div class="result-card fade-in" onclick="openDocDirect('${doc.id}','${esc(catName)}')">
+          <div class="result-icon">${doc.icon||'📄'}</div>
+          <div class="result-info">
+            <div class="result-title">${hl(doc.title, q)}</div>
+            <div class="result-sub">${hl(doc.subtitle||'', q)}</div>
+            <div class="result-tags">${(doc.tags||[]).slice(0,4).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
+          </div>
+          <div class="result-cat">${esc(catName)}</div>
+        </div>`).join('')
+    : `<div style="padding:40px;text-align:center;color:var(--text-muted);font-size:13px">Aucun résultat pour « ${esc(q)} »</div>`;
+}
+
+// ── Copy path ─────────────────────────────────────────────────────────────────
+document.getElementById('btn-copy').addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(`/Users/pc2/.openclaw/workspace/${currentFile}`);
+    const btn = document.getElementById('btn-copy');
+    btn.textContent = '✅ Copié';
+    setTimeout(() => btn.textContent = '📋 Copier chemin', 1600);
+  } catch(e){}
+});
+
+// ── Scroll / progress ─────────────────────────────────────────────────────────
+function setupScrollTop() {
+  const btn = document.getElementById('scroll-top');
+  const bar = document.getElementById('progress-bar');
+  window.addEventListener('scroll', () => {
+    const docH = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docH > 0 ? (window.scrollY / docH) * 100 : 0;
+    bar.style.width = Math.min(pct, 100) + '%';
+    btn.classList.toggle('visible', window.scrollY > 200);
+  });
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function esc(s) {
+  if (typeof s !== 'string') return '';
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function hl(text, q) {
+  if (!q) return esc(text);
+  const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
+  return esc(text).replace(re, '<mark>$1</mark>');
+}
+
+init();
+</script>
+</body>
+</html>

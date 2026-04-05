@@ -1,0 +1,44 @@
+All right, so in this video, we're going to be talking about how to download the completed VialSweep giveaway and upload it into a Google Sheet.
+So when you log into VialSweep, you will scroll down and you should be able to find the most recent giveaway that has ended.
+And for example, you can see the date that it ended here. So this was for our client Pardon My Fro.
+And what we're going to do here is we're simply just going to click the Entrance tab.
+And by clicking the Entrance tab, it's going to pull up a list of old entrants.
+And we're simply going to export that data.
+Now, if it doesn't download nicely like this for you, it might say that it's going to send you an email.
+So if there is a larger data source, what you'll do is if I scroll down here, I'll show you this one here actually had about 1,300 or 1,400 entrants, which is great.
+We're going to export this data and it says export is processing.
+We will notify you via email once it has finished.
+Now, if you need to know which email it's going to be on, you can simply go to the settings and check that here.
+It's the website, EZA at gmail.com.
+So obviously what you would do is you would go over to that Gmail account.
+The access should be given to you on this SOP sheet as well.
+And whenever that process is finished on VialSweep, it will pop up here.
+I'll just wait a second for it to do so.
+And just like that, you'll see it says VialSweep export.
+And now you can click this link to actually download it.
+And that will give you that for the bigger file.
+So once you have that, what you're going to do is you're going to go into the client asset drive and you're going to find the client that we are doing this for.
+So in this scenario, it is pardon my fro.
+So inside of here, you'll notice that there's going to be a purchaser's giveaway feedback survey.
+And by opening this up, you will then be inside of the template for the purchaser giveaway feedback.
+Now, if for whatever reason, this is not inside of there, then just contact the management system and we will go ahead and duplicate a sheet over and put it into the correct client drive.
+But this should be automated and it should be inside of there.
+And now at this point, what you're simply going to do is you're going to go to file.
+You're going to go to import.
+And we're going to pull those entries that we got from VialSweep that we downloaded and upload them inside of here.
+And all you're going to do is you're going to adjust this to insert new sheet and just click import data.
+And within a couple of seconds, we will have all of the data.
+Now, once all the data is in here, what I like to do is simply duplicate this again.
+And I will just call this the raw file.
+So this is just the raw file that I obviously have for all the entrants in case I need to like go back and change something.
+And then inside of here, I just call this the clean file.
+And so what we're going to do is we're actually going to delete a custom, a few different columns in here and just clean this sheet up before we get ready to implement it.
+So what we can delete here is IP location and all of this stuff all the way up until first name.
+So you can go ahead and just delete all of these columns here.
+And if you scroll to the right, you will also be able to delete anything after the final question.
+So inside of here, just delete all these and go ahead by selecting all these.
+If you're wondering how I'm doing this, I'm selecting the column here.
+I'm holding shift and I'm clicking to the next column.
+And then I'm right clicking on the column up here and simply clicking delete columns.
+And just like that, we now have a clean sheet.
+And in the next step, I'm going to show you how to organize this and put this into the raw feedback data section.

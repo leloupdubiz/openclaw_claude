@@ -1,0 +1,595 @@
+{
+  "dead_links": [
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/01-what-is-cro.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20What%20Is%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20What%20Is%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/01_understanding_your_product.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/02-types-of-cro.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/2.%20Types%20Of%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/2.%20Types%20Of%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/03-key-metrics.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/03_getting_ready_research.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/04-tools-of-the-trade.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/4.%20Tools%20Of%20The%20Trade_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/4.%20Tools%20Of%20The%20Trade_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/09_key_metrics_cro.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/16_cro_research_twitter.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/22_download_entrants_sheet.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/22.%20How%20To%20Download%20Entrants%20%26%20Upload%20To%20Sheet_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/22.%20How%20To%20Download%20Entrants%20%26%20Upload%20To%20Sheet_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/24_organize_sheet_feedback_part1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/24.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%201_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/24.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%201_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/25_cro_hack_qa_pages.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/26_organize_sheet_feedback_part3.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/28_upload_knowledge_chatgpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/30_summarize_create_custom_gpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/conversion-rate-optimization-hack.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/conversion_rate_optimization_hack.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/cro-research-twitter.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/cro_research_twitter.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/download-entrants-upload-sheet.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/22.%20How%20To%20Download%20Entrants%20%26%20Upload%20To%20Sheet_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/22.%20How%20To%20Download%20Entrants%20%26%20Upload%20To%20Sheet_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/download_entrants_upload_sheet.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/22.%20How%20To%20Download%20Entrants%20%26%20Upload%20To%20Sheet_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/22.%20How%20To%20Download%20Entrants%20%26%20Upload%20To%20Sheet_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/getting-ready-research-branding.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/getting_ready_research_branding.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/key-metrics-cro.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/key_metrics_cro.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m01-03-key-metrics-for-cro.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20Key%20Metrics%20For%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m01-05-analyze-your-store.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/5.%20Analyze%20Your%20Store_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/5.%20Analyze%20Your%20Store_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-01-understanding-your-product.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-03-getting-ready-research-branding.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20%28Evolve%29%20Getting%20Ready%20To%20Do%20Research%20%2B%20Branding_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-05-live-website-audit.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/5.%20Live%20Website%20Audit%20Walkthrough_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/5.%20Live%20Website%20Audit%20Walkthrough_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-07-ad-account-research.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/7.%20Ad%20Account%20Research%20For%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/7.%20Ad%20Account%20Research%20For%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-09-direct-competitor-research.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/9.%20Direct%20Competitor%20Research%20For%20CRO_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/9.%20Direct%20Competitor%20Research%20For%20CRO_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-11-angle-research-for-cro-on-google-reddit.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/11.%20Angle%20Research%20For%20CRO%20On%20Google%20%2B%20Reddit_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/11.%20Angle%20Research%20For%20CRO%20On%20Google%20%2B%20Reddit_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-13-landing-page-research-for-cro-atria.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/13.%20Landing%20Page%20Research%20For%20CRO%20-%20Atria_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/13.%20Landing%20Page%20Research%20For%20CRO%20-%20Atria_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-14-landing-page-research-for-cro-pagedeck.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/14.%20Landing%20Page%20Research%20For%20CRO%20-%20PageDeck_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/14.%20Landing%20Page%20Research%20For%20CRO%20-%20PageDeck_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m02-16-cro-twitter.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/16.%20CRO%20Research%20-%20Twitter_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-01-page-deck---setting-up-foundations.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20Page%20Deck%20-%20Setting%20Up%20Foundations_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20Page%20Deck%20-%20Setting%20Up%20Foundations_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-03-page-deck---customizing-themes.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20Page%20Deck%20-%20Customizing%20Themes_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20Page%20Deck%20-%20Customizing%20Themes_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-05-reminder-identify-the-angle-of-your-landing-page.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/5.%20REMINDER%20Identify%20The%20Angle%20Of%20Your%20Landing%20Page_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/5.%20REMINDER%20Identify%20The%20Angle%20Of%20Your%20Landing%20Page_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-07-strategizing-offers-for-your-landing-page.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/7.%20Strategizing%20Offers%20For%20Your%20Landing%20Page_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/7.%20Strategizing%20Offers%20For%20Your%20Landing%20Page_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-08-page-deck---offer-functionality-in-page-deck.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/8.%20Page%20Deck%20-%20Offer%20Functionality%20In%20Page%20Deck%20_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/8.%20Page%20Deck%20-%20Offer%20Functionality%20In%20Page%20Deck%20_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-10-page-deck---choosing-your-template.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/10.%20Page%20Deck%20-%20Choosing%20Your%20Template_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/10.%20Page%20Deck%20-%20Choosing%20Your%20Template_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-12-page-deck---writing-your-messaging.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/12.%20Page%20Deck%20-%20Writing%20Your%20Messaging_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/12.%20Page%20Deck%20-%20Writing%20Your%20Messaging_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-14-page-deck---optimizing-landing-page-content---1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/14.%20Page%20Deck%20-%20Optimizing%20Landing%20Page%20Content%20-%201_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/14.%20Page%20Deck%20-%20Optimizing%20Landing%20Page%20Content%20-%201_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-15-page-deck---optimizing-landing-page-content---2.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/15.%20Page%20Deck%20-%20Optimizing%20Landing%20Page%20Content%20-%202_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/15.%20Page%20Deck%20-%20Optimizing%20Landing%20Page%20Content%20-%202_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-17-the-importance-of-functionality.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/17.%20The%20Importance%20Of%20Functionality_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/17.%20The%20Importance%20Of%20Functionality_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-19-page-deck---optimizing-page-information.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/19.%20Page%20Deck%20-%20Optimizing%20Page%20Information_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/19.%20Page%20Deck%20-%20Optimizing%20Page%20Information_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-21-qa--qa--qa--and-then----more-qa---part-1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/21.%20QA%2C%20QA%2C%20QA%2C%20And%20Then...%20More%20QA%20-%20Part%201_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/21.%20QA%2C%20QA%2C%20QA%2C%20And%20Then...%20More%20QA%20-%20Part%201_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m03-23-qa--qa--qa--and-then----more-qa---part-2.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/23.%20QA%2C%20QA%2C%20QA%2C%20And%20Then...%20More%20QA%20-%20Part%202_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/23.%20QA%2C%20QA%2C%20QA%2C%20And%20Then...%20More%20QA%20-%20Part%202_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-01-how-to-test-landing-pages-on-meta.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20How%20To%20Test%20Landing%20Pages%20On%20Meta_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20How%20To%20Test%20Landing%20Pages%20On%20Meta_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-02-how-to-analyze-landing-page-tests-on-meta.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/2.%20How%20To%20Analyze%20Landing%20Page%20Tests%20On%20Meta_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/2.%20How%20To%20Analyze%20Landing%20Page%20Tests%20On%20Meta_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-04-page-deck---how-to-a-b-test-landing-pages.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/4.%20Page%20Deck%20-%20How%20To%20A-B%20Test%20Landing%20Pages_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/4.%20Page%20Deck%20-%20How%20To%20A-B%20Test%20Landing%20Pages_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-05-page-deck---what-to-a-b-test-on-landing-pages.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/5.%20Page%20Deck%20-%20What%20To%20A-B%20Test%20On%20Landing%20Pages_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/5.%20Page%20Deck%20-%20What%20To%20A-B%20Test%20On%20Landing%20Pages_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-07-intelligems---overview-of-the-software---setup.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/7.%20Intelligems%20-%20Overview%20Of%20The%20Software%20%2B%20Setup_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/7.%20Intelligems%20-%20Overview%20Of%20The%20Software%20%2B%20Setup_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-08-intelligems---url-redirect-test.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/8.%20Intelligems%20-%20URL%20Redirect%20Test_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/8.%20Intelligems%20-%20URL%20Redirect%20Test_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-09-intelligems---visual-a-b-test.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/9.%20Intelligems%20-%20Visual%20A-B%20Test_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/9.%20Intelligems%20-%20Visual%20A-B%20Test_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-10-intelligems---template-test.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/10.%20Intelligems%20-%20Template%20Test_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/10.%20Intelligems%20-%20Template%20Test_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-11-intelligems---theme-test.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/11.%20Intelligems%20-%20Theme%20Test_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/11.%20Intelligems%20-%20Theme%20Test_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-12-intelligems---shipping-tests.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/12.%20Intelligems%20-%20Shipping%20Tests_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/12.%20Intelligems%20-%20Shipping%20Tests_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-13-intelligems---the-importance-of-qa.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/13.%20Intelligems%20-%20The%20Importance%20Of%20QA_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/13.%20Intelligems%20-%20The%20Importance%20Of%20QA_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-14-intelligems---analyzing-split-tests.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/14.%20Intelligems%20-%20Analyzing%20Split%20Tests_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/14.%20Intelligems%20-%20Analyzing%20Split%20Tests_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m04-16-intelligems---how-to-execute-winning-tests.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/16.%20Intelligems%20-%20How%20To%20Execute%20Winning%20Tests_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/16.%20Intelligems%20-%20How%20To%20Execute%20Winning%20Tests_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m05-01-the-importance-of-ongoing-research.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20The%20Importance%20Of%20Ongoing%20Research_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20The%20Importance%20Of%20Ongoing%20Research_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m05-03-cro-easy-wins---test-ideas.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20CRO%20Easy%20Wins%20%2B%20Test%20Ideas_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20CRO%20Easy%20Wins%20%2B%20Test%20Ideas_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m05-04-live-landing-page-progress---part-1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/4.%20Live%20Landing%20Page%20Progress%20-%20Part%201_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/4.%20Live%20Landing%20Page%20Progress%20-%20Part%201_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m05-05-live-landing-page-progress---part-2.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/5.%20Live%20Landing%20Page%20Progress%20-%20Part%202_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/5.%20Live%20Landing%20Page%20Progress%20-%20Part%202_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m05-25-conversion-rate-optimization-hack.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/25.%20Conversion%20Rate%20Optimization%20Hack_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-01-overview---the-importance-of-customer-feedback.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20Overview%20-%20The%20Importance%20Of%20Customer%20Feedback_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20Overview%20-%20The%20Importance%20Of%20Customer%20Feedback_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-02-important---how-to-see-if-you-qualify-for-this.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/2.%20IMPORTANT%20-%20How%20To%20See%20If%20You%20Qualify%20For%20This_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/2.%20IMPORTANT%20-%20How%20To%20See%20If%20You%20Qualify%20For%20This_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-03-how-to-come-up-with-a-giveaway-offer.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/3.%20How%20To%20Come%20Up%20With%20a%20Giveaway%20Offer_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/3.%20How%20To%20Come%20Up%20With%20a%20Giveaway%20Offer_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-05-how-to-setup-a-viral-sweep-giveaway.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/5.%20How%20To%20Setup%20a%20Viral%20Sweep%20Giveaway_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/5.%20How%20To%20Setup%20a%20Viral%20Sweep%20Giveaway_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-07-optimal-sending-schedule-for-viral-sweep-campaign.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/7.%20Optimal%20Sending%20Schedule%20For%20Viral%20Sweep%20Campaign_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/7.%20Optimal%20Sending%20Schedule%20For%20Viral%20Sweep%20Campaign_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-08-how-to-design-email-templates-in-klaviyo.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/8.%20How%20To%20Design%20Email%20Templates%20in%20Klaviyo_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/8.%20How%20To%20Design%20Email%20Templates%20in%20Klaviyo_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-10-how-to-segment-the-giveaway-sending-lis.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/10.%20How%20To%20Segment%20The%20Giveaway%20Sending%20Lis_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/10.%20How%20To%20Segment%20The%20Giveaway%20Sending%20Lis_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-12-how-to-design---launch-a-viral-sweep-giveaway-page.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/12.%20How%20To%20Design%20%26%20Launch%20A%20Viral%20Sweep%20Giveaway%20Page_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/12.%20How%20To%20Design%20%26%20Launch%20A%20Viral%20Sweep%20Giveaway%20Page_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-14-how-to-setup-the-entrants-list-on-klaviyo.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/14.%20How%20To%20Setup%20The%20Entrants%20List%20On%20Klaviyo_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/14.%20How%20To%20Setup%20The%20Entrants%20List%20On%20Klaviyo_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-16-how-to-generate---schedule-winners-email---part-1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/16.%20How%20to%20Generate%20%26%20Schedule%20Winners%20Email%20-%20Part%201_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/16.%20How%20to%20Generate%20%26%20Schedule%20Winners%20Email%20-%20Part%201_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-17-how-to-generate---schedule-winners-email.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/17.%20How%20to%20Generate%20%26%20Schedule%20Winners%20Email_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/17.%20How%20to%20Generate%20%26%20Schedule%20Winners%20Email_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-18-how-to-contact-individual-winners-email.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/18.%20How%20to%20Contact%20Individual%20Winners%20Email_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/18.%20How%20to%20Contact%20Individual%20Winners%20Email_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-20-how-to-schedule-the-founders-discount-email.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/20.%20How%20to%20Schedule%20The%20Founders%20Discount%20Email_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/20.%20How%20to%20Schedule%20The%20Founders%20Discount%20Email_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-25-how-to-organize-sheet-with-feedback-data---part-2.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/25.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%202_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/25.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%202_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-28-how-to-upload-knowledge-basis-to-chatgpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-30-summarize-all-data-create-custom-gpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m06-32-how-to-calculate-roi-from-survey.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/32.%20How%20To%20Calculate%20ROI%20From%20Survey_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/32.%20How%20To%20Calculate%20ROI%20From%20Survey_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m08-01-sales-cro---proof-this-works.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20Sales%20CRO%20-%20Proof%20This%20Works_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20Sales%20CRO%20-%20Proof%20This%20Works_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/m08-02-shopify-discount-codes-explained.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/2.%20Shopify%20Discount%20Codes%20Explained_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/2.%20Shopify%20Discount%20Codes%20Explained_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/organize-feedback-data-part1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/organize-feedback-data-part3.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/organize-sheet-feedback-part1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/organize-sheet-feedback-part3.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/organize_sheet_feedback_data_part1.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/organize_sheet_feedback_data_part3.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/26.%20How%20To%20Organize%20Sheet%20With%20Feedback%20Data%20-%20Part%203_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/summarize-data-custom-gpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/summarize_data_create_custom_gpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/30.%20How%20To%20Summarize%20All%20Data%20%26%20Create%20a%20Custom%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/understanding-your-product.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/understanding_your_product.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/1.%20%28Evolve%29%20Understanding%20Your%20Product_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/upload-knowledge-basis-chatgpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/upload-knowledge-chatgpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    },
+    {
+      "summary": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/summaries/upload_knowledge_basis_chatgpt.md",
+      "link": "http://localhost:4242/view?path=formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "missing_file": "/Users/pc2/.openclaw/workspace/formations/cro-evolve/transcripts/28.%20How%20To%20Upload%20Knowledge%20Basis%20To%20Chat%20GPT_formatted.md",
+      "formation": "cro-evolve"
+    }
+  ],
+  "empty_summaries": [],
+  "malformed_links": [],
+  "ok": 71
+}

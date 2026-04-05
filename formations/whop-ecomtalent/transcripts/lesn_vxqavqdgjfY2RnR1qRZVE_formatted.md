@@ -1,0 +1,56 @@
+# lesn vxqavqdgjfY2RnR1qRZVE
+> Transcript complet — 100% du contenu original
+
+---
+
+Okay, music and sound effects. Now as you can see I have a bunch of videos pulled up here and I'll go to all of them and I'll try to explain how we use sound effects, what type of music we use when we make ads and after you watch this you'll, you should have a better understanding of how to use sound effects, what type of music to use, when to use it, how to use music to you know trigger some like emotional and psychological triggers in people. So I'll kind of play these videos and I'll comment and give you some tips and insights on how to go about music and sound effects in your ads. So first I'll play this ad from Dr. Squatch.
+
+I can't believe they just unlocked this deal. Dr. Squatch is finally unlocking their build your own bundle. You get up to 15% off plus free shipping and free soap and you can literally customize any combination. Soap and deos, soap and cologne, cologne and lotion, soap and lotion, cologne lotion and soap, chicken salad, sandwich, lotion, soap, that, whoa, no, no, no chicken salad sandwich.
+
+You are not invited, maybe later you're delicious, but not in the bundle. Okay, but seriously all the other stuff is fair game and you get up to 15% off with free shipping and free soap. So guys, you gotta jump on it now before they take it away again. Please don't take it away, but you know, but they might. They might do it.
+
+Hurry up. This is actually a very funny ad. So anytime when you don't have inspiration and you don't know what kind of ads they do, just open up Dr. Squatch's ad library and I'm sure you'll get a lot of inspiration. They're just crazy.
+
+Huge props to their marketing team. They're just doing an amazing job. And we actually found the research yesterday while we were doing strategy for one of our clients. And we found out that 90% of people are more likely to remember funny ads than they are to remember like any type of ad. So like definitely try to make more funny ads because they work and people love them.
+
+And like, this is just funny. But yeah, we're trying to focus on sound effects and music. So music wasn't like there's no music on this video. But this is just a very classic example of how to use sound effects when making ads. So you have stuff like this when the key enters the lock it.
+
+Like you have a sound effect right then here. You have cash sound effect here as they're mentioning and as you're talking about different bundles, you can hear like different sound effects like going higher and higher to kind of emphasize that point of oh, you can choose like so many things. And then they emphasize that with sound effects like they just add more and more. You get the point. So like whenever you're kind of you maybe have a list of things, maybe someone's talking about all the benefits that the product has, then you kind of you know, do that sound effect.
+
+Then obviously like whenever something happens, you support that with the whoosh sound effect like swipe sound effect. I think like there's transitions here. But not. Yeah, like when you have some kind of a transition, you support that with a sound effect. So basically just like basic sound effect usage.
+
+So whenever you have some kind of visual on your ad, you kind of support it with a sound effect basically. That's just like common, common usage. And to be honest, we don't do that. We don't do this that much. We don't use like heavy sound effects in our ads.
+
+Maybe we should. We just realized that whenever we try to do like more these these type of edited type of ads, they just don't work for us. But that doesn't mean you shouldn't do it. And that doesn't mean you shouldn't try it. And you shouldn't implement it when editing ads is definitely a good way to you know, increase retention and just like make people pay more attention to your ads and just like support your claims and like support your visuals with sound effects.
+
+It is definitely a good practice. And it is like a good thing to add sound effects when you're making ads. So like I said, like whenever you maybe are listing good things about your product, and then you just had a thick sound effect, you know, or you're listing bad things, you maybe add a buzzer sound effect. When you're doing transitions, like do a swoosh or whoosh, whatever. You know the type of transitions I'm talking about.
+
+And it's just like overall basic stuff. So definitely definitely a good way to use sound effects in your ads. But that 's the most basic thing. Now I would like to actually talk about how to use music and how to use sound to like evoke different emotions when you're making ads. And I'll just play this example first and then you can and I'll comment on it.
+
+This is what happens when you let 50,000 people choose your next flavor. Labor development is a complex process. We thought you better help in that process than our customers. You talk, listen, and then we get into the lab. We have the perfect ratio for rec asting low sugar, high protein breath.
+
+And in the end, always come down to one thing. That 's delicious.
+
+Okay, so if you pay attention, you'll notice how they use different music and they pause music at certain times in the script. And this is all intentional because it just builds tension. So when you're making ads, you want to build tension. So in the first like two to five seconds, this is what happens when you let 50,000 people choose your next flavor. So like at the beginning, it's kind of wholesome, like kind of just chill background music.
+
+And then from here, like you start hearing the, you know, more fast based music and transitions into that like explanation part of the video where like a lot of things is happening. They talk about production and it just makes sense to like have more fast based sounds there. So I'll play it again. This is what happens when you let 50,000 people choose your next flavor development is a complex process. Right.
+
+So like it's a complex process and they like have this upbeat music like a lot of things is happening like they're they 're cooking, they're in the lab, whatever. And then they kind of stop here with the music. So they stop here with the music. And that's because they want to emphasize the next point they're about to say, right, their customers help with that process. And if they want to emphasize that, they just pause the music and like just emphasize everything on that one line of the script are customers and they highlight that.
+
+And that just hits home better than it would if it was just like, you know, if he was just talking and there was no like sound supporting it, if that makes sense. And then they start the music again and like the script goes on. And then again, they're in the lab, they're like, you know, doing all these processes and like this upbeat music is playing. And then again, when they want to emphasize something, they kind of they kind of stop the music. And they just let the customer speak.
+
+It all comes down to one thing. They pause the music and they kind of have a tension. So they built the tension, they stop the music and like you're like, Oh, what's going to happen now? And then that's delicious. And then she says fuck, that's delicious without any music without any, you know, any supporting supporting sounds because that's the point they want you to focus on.
+
+And then they start with music again. And that's the end of the ad. And basically, you can see how they how they build tension and release that throughout the ad. And basically, that's that's a great way to use to use music and to use sound effects to make people feel something when they're watching your ad. And like this could just be a random script.
+
+Like it could just be a voiceover with the same music in the background. And the ad will feel totally different watching it, right? And with having good music and good sound effects support that whole story, it's a completely different video, right? So just just want you to to pay attention to that and to kind of think how you can emphasize every part of the script. And if you have like important parts of the script and important words, how you can use music to emphasize that or how you can build tension in your ad with music.
+
+And when we're talking about building tension, I'll play this next video. It's a bit longer, but I'll just play it from from start to finish. So and then I'll kind of comment. Do you have a humidifier in your bedroom? If yes, stop scrolling.
+
+It could be dangerous. In fact, most humidifiers become breeding grounds for harmful bacteria within just a few weeks of use. Doctors have been warning about this design flaw for years. Cheaply made humidifiers can make allergy, asthma, and other respiratory problems worse. The exact opposite of to do.
+
+You see, the problem is that most humidifiers use filters and plastic You can't clean them properly. Just try cleaning your current humidifier. You 'll find dozens of spots you can't reach. Places where water sits still for days. Pink mold spots in every corner.
+
+And those replacement filters? They're breeding grounds for bacteria despite costing you hundreds every single year. Now imagine breathing in all of that bacteria filled mist while you sleep. Gross, right? That's why CarePod created something different.
+
+Designed by a

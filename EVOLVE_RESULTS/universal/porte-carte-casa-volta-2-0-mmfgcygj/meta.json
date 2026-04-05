@@ -1,0 +1,64 @@
+{
+  "slug": "porte-carte-casa-volta-2-0-mmfgcygj",
+  "product": "Porte-carte Casa Volta 2.0",
+  "url": "casavolta-eu.com",
+  "market": "FR",
+  "markets": [
+    "FR"
+  ],
+  "budget": 100,
+  "createdAt": 1772835292532,
+  "updatedAt": 1774853883371,
+  "phases": {
+    "research": {
+      "done": true,
+      "chars": 23734,
+      "ts": 1772838500000
+    },
+    "strategy": {
+      "done": true,
+      "chars": 15931,
+      "ts": 1772847600000,
+      "note": "competitive-intel-update.md — BrandSearch + TrendTrack + Landing Corval + 4 screenshots marchés"
+    }
+  },
+  "scraped": true,
+  "scrapedChars": 3196,
+  "sources": {
+    "mainSite": {
+      "chars": 3196
+    },
+    "brandSearch": [
+      {
+        "url": "https://app.brandsearch.co/brand/0R4qaT",
+        "chars": 9645
+      }
+    ],
+    "trendTrack": [
+      {
+        "url": "https://app.trendtrack.io/share/shops/7AUyHnc",
+        "chars": 4437
+      }
+    ],
+    "competitorLanding": [
+      {
+        "url": "https://maisoncorval.com/pages/corval-wallet-listicle1",
+        "chars": 4247
+      }
+    ]
+  },
+  "competitors": [
+    "maisoncorval.com"
+  ],
+  "competitorIntelFiles": [
+    "brandsearch-1.md",
+    "trendtrack-1.md",
+    "competitor-corval-landing.md",
+    "competitive-intel-update.md"
+  ],
+  "enrichments": [
+    "2026-03-23",
+    "2026-03-30"
+  ],
+  "lastEnrichedAt": 1774853883371
+}

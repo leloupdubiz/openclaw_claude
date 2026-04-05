@@ -1,0 +1,51 @@
+Hey Jed so yeah just one thing is when you go to get this sheet for Warroad basically all these
+charts and all this kind of stuff we're probably not going to be using this so what I really care
+about is just getting these questions updated and all of the raw data in here and then we don't
+really have to worry too much about the summaries. What I would say is definitely go through and
+upload them to Jasper and get the summaries but what you're probably going to need to do is you're
+going to need to really customize it so as you can see like all these questions are very different
+so like for example how did you first hear about Warroad this is obviously multiple choice which
+category best represents you obviously multiple choice so like you're going to need to go through
+and probably customize this quite a bit and make sure that we get the correct answers in there okay
+because this was a very custom survey what is the age group you're shopping for again multiple choice
+so this might be something where as you can see here if you just duplicate these two columns you
+can essentially copy this paste it in and then you should be able to just like update this as well
+I'm not going to do that just for the sake of breaking the sheet but for example if you have
+multiple choice and then multiple choice you can just copy these two and then obviously paste it over
+and then in that instance again you would you know just copy paste update the question and then update
+the answers and then that way it will actually still all function uh pretty good um for example which
+category of Warroad are you most interested in again you can see that here and if you're wondering
+what the actual answers are um for example when you paste this in here so just to give you an example
+if I was to uh paste this in here which I believe I can yep you can then filter and you'll be able to see
+all of the answers so then that way you know okay well travel bag is obviously an option so if I add
+other is also an option if I add travel bag here then obviously that should pick up count if g16
+through I don't know that's kind of weird unless I unless I spelt it wrong travel bags there you go
+haha now you can see it okay and obviously if you need to customize this you can drop this down too
+just make sure that it obviously starts up at the top so this should actually probably be like g12
+is what this should be because then it'll actually count from the top but then obviously you would
+copy this as an answer and paste that in obviously 952 quite a lot you know teamware and blade tech
+that right so as you can see you can update this stuff uh all just kind of by going through it um I
+don't want to break this sheet because again this is actually my template but I think you get the idea
+um and then for all the other answers again you know of the flying products which one would you be
+most interested in seeing next again multiple choice and then for two bonus entries obviously these ones
+is where you'll have the written information so that's when you'll just say you know for two
+bonus entries explain your answer you would copy the answer and then obviously all the data would
+just go underneath it and these are the questions that need the summaries of course these multiple
+choice don't need the summaries because they're multiple choice uh it's just these that will need
+the summaries from jasper um again this is just which products are you most interested in and then
+which of the following words would you describe the products all multiple choice two bonus entries this
+is a another one where again they would need a written answer so the written answer you use the
+black and then for any multiple choice you use the options in the green here okay so hopefully that
+all makes sense just make sure again this is a this is a pretty custom one so I don't want you to be
+stressing about the charts or anything like that because these charts are all going to be broken
+uh we'll actually be able to get all the the percentages inside of here we'll be able to see the
+percentages of each and every single one so I'm not too too worried about that um all I really care
+about is for all the ones that do have multiple choice uh we can do the summaries and then so once
+you do the summaries you can just go ahead and rename this so for example if the first first summary
+that we do is you know explain your answer which product would you be most interested in seeing war
+road make next you can just update this to you know what what are you looking for you know war road
+to make next right and then you can just provide the summary for that there okay so don't worry about
+following this section to a t because obviously this is a pretty custom survey so I'm just going
+to need you to kind of go through if you get stuck at all just let me know but I know you're pretty
+smart guy so you should be able to figure this out um obviously just keep track of your time for this
+as well okay thank you judge

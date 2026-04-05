@@ -1,0 +1,139 @@
+{
+  "slug": "superliver-mmtylaye",
+  "product": "SuperLiver",
+  "url": "http://mydawtox.com/advertorial-v2",
+  "markets": [
+    "FR",
+    "DE"
+  ],
+  "market": "FR",
+  "budget": 500,
+  "productDesc": "",
+  "competitors": [
+    "superbonsai.com",
+    "dawtox.com"
+  ],
+  "amazonUrls": [
+    "https://www.amazon.com/SuperBonsai-Super-Liver-Support-Thistle/dp/B0CZYM8KCD"
+  ],
+  "subreddits": [
+    "https://www.reddit.com/r/Supplements/",
+    "https://www.reddit.com/r/Biohackers/",
+    "https://www.reddit.com/r/stopdrinking/",
+    "https://www.reddit.com/r/Testosterone/",
+    "https://www.reddit.com/r/holisticlifestyles/",
+    "https://www.reddit.com/r/PlantBasedDiet/"
+  ],
+  "brandSearchUrls": [
+    "https://app.brandsearch.co/brand/21PiFl",
+    "https://app.brandsearch.co/brand/42Pg1W"
+  ],
+  "trendTrackUrls": [],
+  "createdAt": 1773712441528,
+  "updatedAt": 1774853884262,
+  "phases": {
+    "research": {
+      "done": true,
+      "chars": 22852,
+      "ts": 1773716651053
+    },
+    "strategy": {
+      "done": true,
+      "chars": 10469,
+      "ts": 1773715038507
+    },
+    "execution": {
+      "done": true,
+      "chars": 7246,
+      "ts": 1773715068992
+    },
+    "optimization": {
+      "done": true,
+      "chars": 8795,
+      "ts": 1773715107579
+    },
+    "psychology": {
+      "done": true,
+      "chars": 15123,
+      "ts": 1773716703856
+    },
+    "competitors": {
+      "done": true,
+      "chars": 17046,
+      "ts": 1773716728280
+    },
+    "angles": {
+      "done": true,
+      "chars": 16546,
+      "ts": 1773716782659
+    },
+    "avatars": {
+      "done": true,
+      "chars": 16899,
+      "ts": 1773716786905
+    }
+  },
+  "sources": {
+    "mainSite": {
+      "chars": 39065
+    },
+    "competitors": [
+      {
+        "url": "https://superbonsai.com",
+        "chars": 2000
+      },
+      {
+        "url": "https://dawtox.com",
+        "chars": 2000
+      }
+    ],
+    "amazon": [
+      {
+        "url": "https://www.amazon.com/SuperBonsai-Super-Liver-Support-Thistle/dp/B0CZYM8KCD",
+        "chars": 4076
+      }
+    ],
+    "reddit": [
+      {
+        "subreddit": "https://www.reddit.com/r/Supplements/",
+        "posts": 25
+      },
+      {
+        "subreddit": "https://www.reddit.com/r/Biohackers/",
+        "posts": 25
+      },
+      {
+        "subreddit": "https://www.reddit.com/r/stopdrinking/",
+        "posts": 25
+      },
+      {
+        "subreddit": "https://www.reddit.com/r/Testosterone/",
+        "posts": 25
+      },
+      {
+        "subreddit": "https://www.reddit.com/r/holisticlifestyles/",
+        "posts": 25
+      },
+      {
+        "subreddit": "https://www.reddit.com/r/PlantBasedDiet/",
+        "posts": 25
+      }
+    ],
+    "brandSearch": [
+      {
+        "url": "https://app.brandsearch.co/brand/21PiFl",
+        "chars": 10328
+      },
+      {
+        "url": "https://app.brandsearch.co/brand/42Pg1W",
+        "chars": 14692
+      }
+    ]
+  },
+  "enrichments": [
+    "2026-03-17",
+    "2026-03-23",
+    "2026-03-30"
+  ],
+  "lastEnrichedAt": 1774853884262
+}

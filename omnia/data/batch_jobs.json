@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1771954168938",
+    "batch_id": "batch1",
+    "batch_name": "Batch #1 — Der Cortisol-Wecker",
+    "total": 3,
+    "completed": 3,
+    "status": "done",
+    "tasks": [
+      "71dd66baaac4a2e4a8cdfcba154f22cf",
+      "15ae5fa2024ddce331b6a1b58818e004",
+      "ae6c4ea2ad59dbee060b6a4e8c597259"
+    ],
+    "created_at": "2026-02-24T17:29:28.938Z"
+  },
+  {
+    "id": "1771954036790",
+    "batch_id": "batch1",
+    "batch_name": "Batch #1 — Der Cortisol-Wecker",
+    "total": 3,
+    "completed": 3,
+    "status": "done",
+    "tasks": [
+      null,
+      null,
+      null
+    ],
+    "created_at": "2026-02-24T17:27:16.790Z"
+  }
+]

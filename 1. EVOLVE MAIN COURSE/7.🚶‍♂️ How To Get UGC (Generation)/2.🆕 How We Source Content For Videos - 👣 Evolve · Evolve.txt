@@ -1,0 +1,365 @@
+Okay, in this video, I'll talk about the video editing tech stack that we use at the agency to pump out tons of video ads every week, every month for our clients.
+This is what I used. This is what the team at the agency uses every day.
+So as you can see, the list isn't that big.
+And first, I want to debunk a common myth that's out there that you need a lot of tools.
+You need like the best plugins, you need the best secret websites, whatever to make good videos.
+And that just isn't the case.
+You just have to put in the reps.
+You have to do a lot of ads and you'll gradually get better over time.
+You'll have a better feeling of what content to use, where to get that content,
+because you'll start seeing patterns that repeat over and over.
+And you'll just get better at kind of recognizing what to use and where.
+And as you can see, this list, like I said, isn't that big?
+You don't need a lot of tools to make good video ads.
+You just need like these few essentials that I'll cover right now and you're basically good.
+So first thing on the list is the editing software.
+Now, I personally use Final Cut Pro.
+I don't know why I use it. It was the first one I found when I got into video editing,
+because I had a Mac and I was like, what's the best editing software to use on a Mac?
+And like the first one that came was Final Cut Pro.
+It looked simple. It looked like easy to use.
+I'm like, fuck it, I'll just use Final Cut Pro.
+And then I just use that for like until now.
+Basically, I still use Final Cut Pro to this day.
+It has everything you need.
+It doesn't have crazy specifications.
+It doesn't have crazy abilities like After Effects, for example.
+But if I made it with something as simple as Final Cut Pro,
+I'm definitely sure you can do that as well.
+Or like even use CapCut.
+CapCut is like similar to Final Cut Pro.
+But in terms of like flexibility and in terms of abilities of other software,
+I would definitely recommend Premiere Pro or After Effects.
+But yeah, if you're just a beginner, Final Cut Pro or CapCut are perfectly fine.
+But if you plan to do this for a long term and if you want to invest more time upfront
+and learn a bit more complicated, they're not complicated.
+But they have more abilities and more features.
+And therefore they require a bit more time to learn and master them.
+I'm talking specifically about Premiere Pro and After Effects.
+So if you want to do that and learn a bit more technicalities of video editing,
+you definitely can do that.
+And there are certain benefits that you have when you know how to use and master
+these editing softwares that have greater abilities.
+And I know Premiere Pro is like getting updated constantly.
+They add AI features in there, stuff like that.
+So these two Premiere Pro and After Effects are definitely the ones
+I would recommend you to learn if you're just starting out.
+But you can do this stuff in any editing software out there, basically.
+So we have the editing software.
+The next one is plugins.
+And basically what plugins are are just tools made for specific editing softwares.
+So for example, FX transitions, I don't know what else, animations,
+like pre-built plugins.
+For example, zoom in, zoom out so we don't have to do it manually with key frames.
+Stuff like that.
+Basically stuff that makes your life easier when you're editing
+and it makes you faster, essentially.
+There's a lot of ways how to get plugins.
+I won't cover this now, but obviously, inside of the community, we'll definitely have a
+place where we share plugins for all the different softwares that will basically make you faster
+when you're editing video ads.
+I'm not an expert on plugins for Premiere Pro and After Effects, because I've never
+used it, but I do have some pretty good resources for Final Cut Pro that I can share with you
+guys if you decide to use Final Cut Pro to edit your ads basically.
+So, basically plugins, softwares or add-ons for your editing software that make your editing
+easier and faster.
+You can find plugins on the internet, like there's a bunch of free resources out there,
+and I'll show you another way how you can find plugins for any editing software in
+a bit.
+So that's the editing software, just like you need a software and then you need some plugins
+that will make you faster while editing.
+That's kind of the technicalities of video editing tech stack that I use.
+And then you have the footage, and this is where we basically get clips to kind of enhance
+our videos.
+So, obviously, if you're doing an ad, you probably have some footage of the product,
+of the creators to work with, so you have some footage from the brand.
+But then you, like a lot of the times, you still need some footage to basically enhance
+your videos, like to add some b-roll in there, you know, to support some things the script
+is talking about and stuff like that.
+And these are all the websites that we use to get footage for our ads basically.
+So, first one is TikTok, basically, I don't know, let's say you're doing an ad for a
+coffee brand, and you need some coffee b-roll.
+And then what you would do, let me just pause real quick.
+So then what you would do is you go on TikTok, you type in coffee, and you get a lot of videos
+that are viral, so you see this one has 1.8 million views, like stuff like this, right?
+You can basically find b-roll that's authentic, that's made by creators, and that's already
+out there on social media, and we just like to use b-roll from social media in our ads.
+And we didn't get in much trouble ripping content off of social media yet, like just be careful
+when you're grabbing footage from content creators, for example, they can ask or like,
+they can even sue you probably, but in most cases what happens is they just like see the
+ad, they see themselves in an ad, they're like what fuck, I never made anything for this
+brand, and they just ask the brand to take the ad down basically.
+So that's the worst thing that can happen, but stuff like this where it's just like b-roll
+and you don't show creators faces, we definitely do that, and you can definitely do that when
+you're editing ads basically.
+And one way how you can download actually footage from TikTok is using this website.
+So this is the best website I found online, and this downloads videos in the highest quality
+without the watermarks, let's say you want to download this video, I open it, I hit here
+copy link and then I go to this website.
+based download and download without watermark hd and then
+it should start and download um anytime soon yeah as you can see it's downloading
+um and then you have this i only drink coffee on have an audit um the quality is good
+and it's good to go uh but yeah basically that's how we use tiktok to um find footage
+and when you're looking for footage on tiktok we usually look for clips that don't have any
+captions on them um because then you can so stuff like this right you can see there's no
+captions on it there's nothing and you can easily use that as a as b-roll for your ads right um
+so um yeah you can use it a lot in a lot of ways so for example if if you're if you have a script
+and the script is mentioning so for example we're working working with a humidifier band the
+example ad i showed you in um sound effects part and music so like just type in humidifier
+and you'll get a bunch of different clips a bunch of different b-roll from like you know humidifiers
+and then you can use that if you're maybe you know if you're talking about bad humidifiers if
+you're talking about plastic humidifiers you can see like there's a bunch of like plastic humidifiers
+here um that we can you know use so for example i'm pretty i'm pretty sure we use this uh this video
+in our ad right so you can you can do stuff like that and basically whenever you kind of are not
+sure how to you know visually visually show um something in your script just go on tiktok like type
+whatever um the script is talking about and you should be able to get some footage to use um and
+download it with the website that i that i showed you that's um this this website right here um this
+will be in the in the description of the video so you can access these tools yourself next one is
+called um u-r-l-e bird i don't know what that stands for but basically what it is you can search
+tiktok by um by hashtags so we can search coffee for example and as you can see you'll get a bunch of
+uh a bunch of different clips um and it'll show you when they're posted it'll show you how much views
+they have how much um likes they have and how much comments they have and i'm pretty sure you can
+fortunately you can't see the comments yeah so you can't see the comments uh which sucks but
+what you can do is download the video straight from here it's just download
+without order mark cool it's downloaded simple easy fast so this is the video
+so that's how you can use this website to find um videos by hashtags and you then you can also
+search by users so if you know an account that like i don't know has videos that you can use
+you can search by users as well so pretty useful site um we actually found this recently um and
+it's been useful and then i won't explain this all of this again but you can do the exact same thing
+on instagram so you go on instagram and you search for a hashtag you search for a keyword i don't
+know coffee humidifier whatever um and you find clips there and you download them using this website
+called egram.world.
+You can download like videos here. You can download photos here
+You can even download stories here and reels basically, so
+Whatever you find on Instagram just copy the link paste it here and it'll automatically affect if it's a video if it's a photo
+And you'll be able to download it here and this is the the most
+Efficient tool I found for downloading instant stuff
+The same thing with YouTube
+This is the website that we use to download these two videos
+I think you can most of the times you can download them in 1080p
+So pretty useful tool as well. So basically doing the same thing whenever you're working on I
+Don't know we we worked on a on a shill legit brand if you don't know what shill yet as let me type it out because it's
+Shill legit. I know it's a bit weird word. So shill legit. It's a black substance. It basically
+Helps you, I don't know
+You prefer health overall basically and we actually found some like documentaries on YouTube about shill legit and how
+Help people harvest it and stuff like that and we just use that in our ads and we never got into any trouble
+for it basically, so
+you can also
+scrape videos from YouTube for your specific niche whatever you're working on search for footage there and
+Download them using this website and these are basically all the tools that that you can use to scrape the internet
+And I would say whenever you're working on an ad and you're you're kind of stuck. You don't know what to do
+You know, you don't know what clips to use
+Basically you need to kind of this is basically the separate skill like scraping the internet like going on TikTok Instagram YouTube
+Whatever and searching for clips
+So you need to kind of develop a skill of doing that and you do that by basically just editing more videos like you know
+Editing more scripts and then you have this problem and then you try to solve it
+And that's how you gain experience in the next time you're editing. Oh, I found this pretty good footage
+The last time let me let me try to do that again and then basically that's how you get experience
+And that's how you get better at at finding clips on on social media, but
+Yeah, definitely definitely
+This has helped us like these methods TikTok Instagram YouTube has
+Helped us a lot, you know to kind of make our ads better by using footage from from social media
+then the next one is in about two elements and
+What this is is basically a stock footage library a huge stock footage library
+And not just stock footage
+So they also have video templates, which is very interesting. So if you hit on
+And this is paid by the way in battle is paid
+So if you hit on video templates, you can actually sort by applications
+So we see after effects from your pro apple motion final cut pro DaVinci resolve. They don't have cap cut
+and
+Basically, let's say we filter by final cut pro and you can see a lot of a lot of like
+resources here like effects lots
+Animations transitions camera zoom ins
+Like a lot of useful plugins basically that you can use and that that can make your like editing faster and easier and more efficient and
+You just like a lot of cool stuff that has helped me a lot
+in editing so you can also kind of
+Filter by
+You know what it is. So I don't know. Let's say you need titles, right?
+So you need some kind of cool captions animated captions like you don't have to like, you know, if you need stuff like this like
+You just download a plugin drag and drop super easy. You just change the text number or whatever
+and you're good to go
+basically, so a
+lot of useful stuff here for like, you know plugins and installing plugins for
+basically any any editing software that you use and
+I know I have downloaded a bunch of stuff from here
+And it has basically helped me a lot and it made my editing faster
+I also have stuff like this, so you have like logo reveals and then you just change the
+image and it like does the animation for your logo, which is kind of sick, but yeah, a bunch
+of useful video templates for editing software.
+Then you have stock video and stock video, basically it is stock video, stock footage,
+so I don't know, again let's search for some videos of coffee.
+Boom, you know, I get a lot of different b-roll for coffee. You can download it
+Usually they're in very very very high quality
+Like usually 4k, I think they even added the vertical this is they added this recently so you can
+Also filter by horizontal and vertical which is which is quite cool
+So yeah, that's stock footage then you also have music
+Which is quite nice
+You can filter by
+Themes whatever genre you have sound effects you have graphic templates even which is quite cool you have graphics 3d presentations photos fonts
+Add-ons for like Photoshop and stuff
+And then they even have like even more stuff, but yeah, basically in vato
+Just a huge huge huge library of creative tools that
+Enhance your editing process and make your life just a bit easier. So
+Like if I if I had to recommend to like invest in one resource that'll
+Help you, you know, make better ads. I would recommend in vato because it helped me a lot and I
+Basically found a lot of useful stuff
+When I was starting on in the early stages, so
+Invato elements for like finding stock footage, then you have pixels
+Which is basically in vato but free version so for photos and videos so we search for coffee again
+And this is free like this is where you get free stock footage and then I think you can also filter by
+Yeah, you also have vertical
+Right, so this is where you can get
+Stock footage for free
+Basically similar thing as in vato, but they don't have like plugins. They don't have templates
+They don't have anything like that. They just have stock footage and it's free so pretty useful website
+And then we have our list
+And our list is actually
+You can process your last time, you know that that's uh, that's been embarrassing
+So on our list you can actually uh
+so they also added footage recently and
+We've noticed that uh, we found a lot of cool footage on our list actually and our list is
+primarily for music and sound effects, but they also have like pretty good stock footage
+And we just realized this
+Recently and it's been it's been very good. I don't know if they have oh, they have a very cool as well, which is quite cool
+um
+But yeah
+Another another cool cool way to find to find stock footage basically
+Um, and they have they actually have um, pretty pretty high quality videos not gonna lie. They have they have pretty good footage. So
+I would definitely recommend our list for stock footage as well
+Um, so that's it. Those are kind of all the ways how we how we find footage to use in
+In your videos when editing ads. So obviously primarily you should use um as much footage from your brand
+Um, that you're working on then you're making the ad for as possible
+But sometimes when you're you know when you're not talking about your product when you're talking about some other solutions when you're talking about something else
+You kind of need to find creative ways how to show that
+In your ad and this is how we do it. So first scraping social media and then we use these um resources for finding
+stock footage to support, to support our ads basically.
+Then we get to music and sound effects, and for this,
+I kind of covered this in music and sound effects video,
+but we get music and sound effects
+from TikTok, it's from my YouTube.
+So, let me show you an example.
+So, I don't know, let's say you're doing an ad
+for a jewelry brand, right?
+You type in jewelry, you just open videos
+and you kind of listen to what kind of sounds,
+what kind of music is trending in that niche.
+So, here you usually have song,
+and then you can...
+I'm not sure if you can download music directly from TikTok,
+but what I usually do is I just try to find out
+what song this is.
+I don't know why this is.
+So, obviously, this is access by DKJ, Danny Johnson,
+and then I go on YouTube,
+and I search for, I'll just do it right now.
+Cool, so what I do is it's not access,
+I don't know, I think I suppose it access its ACES.
+So, I just search ACES by DKJ TikTok version,
+and just like go here,
+copy the link, go to YouTube Mate,
+the tool I showed you earlier,
+go to audio and download audio, and you're good.
+Basically, that's how I do it.
+That's the most efficient way I found to download music,
+and if you don't know,
+if this is, sometimes it can say like original sound,
+and you don't know what the music is,
+I just use Shazam on my phone.
+So basically, Shazam is an app that you play the sound,
+you hit Shazam, and then the app tells you what song that is,
+and then you basically do the same thing.
+And for example, for using popular music,
+I don't know if you're trying to use something
+that's, you know, from a popular creator,
+like I don't know, the weekend.
+I usually don't like to download.
+I usually don't like to download like original versions of the songs because they can get flagged easier.
+I usually try to look for like, you know, TikTok versions, slowed version, reverb, whatever, a bit edited versions.
+So like they're not as easily flagged by Facebook's algorithm.
+So that's the kind of hack I've been using and it's been working well so far.
+So yeah, that's how you use TikTok, Instagram and YouTube to basically find music and sound effects for your ads, like specifically music.
+And then for stock music and for stock sound effects, we actually use R-list.
+And if you go to music, you'll get like a bunch of different genres, even instruments, mood, video theme.
+And then you just like, you know, creepy the music and you find a song that fits your ad and you just basically download it and use it.
+Very simple.
+I might actually share with you guys below this video a kind of a pack of like top, top music, top like stock music that we use for ads.
+So we have that as well.
+But yeah, that's pretty much it.
+Super simple.
+And then for sound effects, there's also a sound effects section.
+And again, you just need to search what you need.
+Like if you need a whoosh, you search for whoosh, right?
+And like it's super simple, super easy.
+And that's basically where we get all of our music and sound effects.
+And then for inspiration, I talked a bit about inspiration in one of the videos and fundamentals module, I think.
+But to get inspiration for your ads, I use TikTok and Instagram.
+So if you're scrolling social media and I bet you are, I would encourage you to basically whenever you see a good video, whenever you see a good, I don't know, a good hook, a good video ad, just save it.
+Like just copy the link or save it in your Instagram saved folders so you can get back to it later on.
+And I can actually show you what we do as a team.
+So as a team, we actually have ad inspo channel and will definitely have something like this as well in the inside of the community.
+So whenever anyone finds a good ad on Instagram, on atria, wherever you find it, just like send it here and kind of explain what you like about this ad.
+So for example, I found this a good ad. It was pretty interesting. So I just sent it here into inspo channel and we kind of use this daily to just like, you know, bounce around ideas and like send good ads in this channel.
+So, you know, team members can have more inspiration when they're making ads.
+We'll definitely have a channel like that inside of the community. So that's that's
+E.com talent inspo channel
+Should add that in there
+But yeah, just like once growing through TikTok or Instagram, like I said, just save it for yourself
+So you can reference it back when you're you know, maybe you have a creative block
+You don't know what to do then you go back
+In start that folder that you have and you basically have some good ideas that you can use there to
+Reference and to kind of replicate or me or taking spray from basically
+Another platform we use is Atria
+Have to open this here
+I think I already covered Atria, but essentially just scrolling here and looking for inspiration.
+And you also can save ads in your board, so if you like the site, you can save it and
+then just make a board for yourself, I don't know, good hooks or whatever, good edits.
+And like, you know, just reference it back as inspiration when you're when you're editing
+ads.
+But yeah, Atria basically has like a lot of a lot of useful like filters here as well.
+So you can even search by specific niche or industry.
+So if you're working on, I don't know, beauty and personal care product, you filter by
+beauty and personal care.
+And boom, there you have like a lot of ads and beauty niche, right, that you can take
+inspiration from.
+So that's definitely a good resource to find inspiration.
+And then one other way is actually Meta as library.
+And here you can search for any, any brand that you can, that you can think of, for example,
+I don't know, I can think of like any, any popular brand, but for example, a you want,
+I don't know, I can find them, maybe they're called athletic greens.
+Yeah.
+So a you want by athletic greens.
+And so if you find a brand that you really like, here's where you can search for them.
+And you can basically see all of the ads that they run inside of their life, the library
+process.
+And basically this is what Atria does.
+But Atria doesn't have all the ads that they run.
+So if you find a good brand, search for them on Meta Library.
+And you can see like all the, all the ads that they recently ran.
+And then you also have some filters, active types.
+And then you can like choose one where they active and stuff like that.
+You can also filter by images and videos, which is quite cool.
+So yeah, definitely Meta Library is a good resource to also find inspiration for your
+ads.
+And this pretty much covers it.
+I know this video was a bit longer.
+I didn't intend it to be like over 30 minutes.
+So I do apologize for that.
+But yeah, this is pretty much it.
+It's not that complicated.
+Like I said, you just need to start editing ads, start working on ads and you know, just
+start putting in the reps because that's how you get better.
+And there's no secret tool, there's no secret resource that will help you, you know, make
+more winning ads and make more better ads.
+You just need to put in the reps.
+And I do want to mention this list right here is the basics.
+So here you have everything you need to basically start making ads and start making winning
+ads and you probably notice there's no like AI tools here, no complicated, you know,
+AI softwares.
+And that's because I wanted to make this part like focusing only on the basics and only
+on like fundamentals of like tech stack that we use and I'll cover AI tools that we use
+to make ads in a different module.
+So don't worry, I'll spill the sauce for AI in one of the next videos.
+But yeah, these are the fundamentals, these are the basics that we use and this is everything
+you need to start making video ads today.
+So yeah, that's pretty much it.
+Thanks for watching and I'll see you in the next one.

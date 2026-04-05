@@ -1,0 +1,246 @@
+{
+  "brand": {
+    "name": "Nellio",
+    "product": "UltraCalm",
+    "url": "https://drinknellio.com",
+    "language": "de",
+    "market": "germany",
+    "category": "wellness",
+    "subcategory": "anti-stress"
+  },
+  
+  "product_details": {
+    "name": "UltraCalm",
+    "type": "Drink powder sachet",
+    "flavor": "Himbeere-Zitrone (Raspberry-Lemon)",
+    "key_ingredients": [
+      {
+        "name": "Ashwagandha",
+        "amount": "300mg",
+        "benefit": "Innere Ruhe, Stressabbau"
+      },
+      {
+        "name": "L-Theanin",
+        "amount": "400mg",
+        "benefit": "Fokus, Entspannung"
+      },
+      {
+        "name": "Magnesiumglycinat",
+        "amount": "100mg",
+        "benefit": "Muskelentspannung, Schlaf"
+      },
+      {
+        "name": "Vitamin D3",
+        "amount": "1000 I.E.",
+        "benefit": "Immunsystem, Stimmung"
+      }
+    ],
+    "other_ingredients": [
+      "Zitronensäure",
+      "Natürliches Himbeeraroma",
+      "Natürliches Zitronenaroma",
+      "Bio-Rote-Bete-Extrakt",
+      "Stevia-Blattextrakt"
+    ],
+    "features": [
+      "Natürliche Inhaltsstoffe",
+      "Kein Zuckerzusatz",
+      "Vegan",
+      "Nur 15 Kalorien",
+      "Schnell löslich"
+    ],
+    "usage": "Ein Glas jeden Morgen",
+    "duration_recommended": "Mindestens 3 Monate",
+    "guarantee": "45 Tage Zufriedenheit oder Geld zurück"
+  },
+  
+  "social_proof": {
+    "rating": 4.8,
+    "review_count": "20.000+",
+    "testimonials_count": 20000
+  },
+  
+  "pricing": {
+    "single_price": 49.99,
+    "currency": "EUR",
+    "subscription_discount": "20%",
+    "bundle_3month": 129.99,
+    "bundle_6month": 239.99
+  },
+  
+  "target_audiences": [
+    {
+      "id": "stressed_professionals",
+      "name": "Gestresste Berufstätige",
+      "age_range": "25-40",
+      "gender": "all",
+      "pain_points": [
+        "Keine Energie nach der Arbeit",
+        "Schlafstörungen durch Stress",
+        "Kaffeeabhängigkeit",
+        "Burnout-Symptome"
+      ],
+      "desires": [
+        "Mehr Energie",
+        "Besserer Schlaf",
+        "Work-Life-Balance",
+        "Produktivität"
+      ],
+      "channels": ["instagram", "linkedin", "facebook"],
+      "content_style": "professional_but_relatable"
+    },
+    {
+      "id": "busy_moms",
+      "name": "Gestresste Mütter",
+      "age_range": "30-45",
+      "gender": "female",
+      "pain_points": [
+        "Keine Zeit für sich",
+        "Am Ende des Tages erschöpft",
+        "Schlechtes Gewissen",
+        "Keine Energie für Familie"
+      ],
+      "desires": [
+        "Mehr Geduld",
+        "Entspannung",
+        "Energie für Kinder",
+        "Selbstfürsorge"
+      ],
+      "channels": ["instagram", "facebook", "pinterest"],
+      "content_style": "authentic_emotional"
+    },
+    {
+      "id": "students",
+      "name": "Studenten",
+      "age_range": "18-25",
+      "gender": "all",
+      "pain_points": [
+        "Prüfungsstress",
+        "Konzentrationsschwierigkeiten",
+        "Schlafstörungen",
+        "Koffein-Überdosis"
+      ],
+      "desires": [
+        "Bessere Noten",
+        "Fokus beim Lernen",
+        "Natürliche Energie",
+        "Stressfreie Prüfungen"
+      ],
+      "channels": ["tiktok", "instagram"],
+      "content_style": "trendy_fast_paced"
+    },
+    {
+      "id": "wellness_enthusiasts",
+      "name": "Wellness-Enthusiasten",
+      "age_range": "25-45",
+      "gender": "all",
+      "pain_points": [
+        "Sucht nach natürlichen Lösungen",
+        "Enttäuschung von anderen Produkten",
+        "Wunsch nach ganzheitlicher Gesundheit"
+      ],
+      "desires": [
+        "Natürliche Inhaltsstoffe",
+        "Ayurveda/Traditionelle Medizin",
+        "Mindfulness",
+        "Biohacking"
+      ],
+      "channels": ["instagram", "youtube", "pinterest"],
+      "content_style": "educational_aspirational"
+    }
+  ],
+  
+  "marketing_angles": [
+    {
+      "id": "morning_ritual",
+      "name": "Morgenritual",
+      "hook": "Starte deinen Tag mit innerer Ruhe",
+      "benefit": "Ganzen Tag Energie und Fokus"
+    },
+    {
+      "id": "stress_relief",
+      "name": "Stressabbau",
+      "hook": "Endlich Schluss mit chronischem Stress",
+      "benefit": "Natürliche Entspannung ohne Nebenwirkungen"
+    },
+    {
+      "id": "sleep_quality",
+      "name": "Schlafqualität",
+      "hook": "Wache endlich ausgeruht auf",
+      "benefit": "Tiefer, erholsamer Schlaf"
+    },
+    {
+      "id": "focus_productivity",
+      "name": "Fokus & Produktivität",
+      "hook": "Konzentration wie nie zuvor",
+      "benefit": "Mehr erreichen ohne Burnout"
+    },
+    {
+      "id": "natural_solution",
+      "name": "Natürliche Lösung",
+      "hook": "Vergessene Weisheit der Ayurveda",
+      "benefit": "Jahrtausende altes Wissen, modern interpretiert"
+    }
+  ],
+  
+  "brand_voice": {
+    "tone": "warm, authentic, empowering",
+    "style": "conversational_not_medical",
+    "avoid": [
+      "Medizinische Versprechen",
+      "Krankheiten heilen",
+      "Wundermittel-Sprache",
+      "Aggressiver Verkauf"
+    ],
+    "use": [
+      "Persönliche Geschichten",
+      "Wissenschaftliche Unterstützung",
+      "Community-Feeling",
+      "Selbstfürsorge-Botschaft"
+    ]
+  },
+  
+  "visual_identity": {
+    "primary_colors": {
+      "coral": "#FF6B6B",
+      "mint": "#4ECDC4",
+      "cream": "#FFF5F5"
+    },
+    "secondary_colors": {
+      "soft_pink": "#FFB4B4",
+      "light_mint": "#A8E6CF",
+      "warm_beige": "#F5E6D3"
+    },
+    "typography": {
+      "primary": "Poppins or similar modern sans-serif",
+      "secondary": "Playfair Display for elegance"
+    },
+    "photography_style": "natural_light, authentic_moments, warm_tones, minimal_staging",
+    "avoid": "stock_photos, over_editing, cold_lighting, medical_aesthetic"
+  },
+  
+  "competitors": [
+    {
+      "name": "Mud/Wtr",
+      "differentiation": "Wir schmecken besser, sind nicht "
+    },
+    {
+      "name": "Magic Mind",
+      "differentiation": "Wir sind erschwinglicher, europäisch"
+    },
+    {
+      "name": "apotheke-naturheilmittel",
+      "differentiation": "Wir sind modern, trendy, nicht altmodisch"
+    }
+  ],
+  
+  "campaign_settings": {
+    "default_hooks": ["problem_agitation", "transformation", "social_proof"],
+    "best_performing_content_types": ["ugc_testimonial", "morning_routine", "before_after"],
+    "optimal_posting_times": {
+      "instagram": ["08:00", "12:00", "18:00"],
+      "tiktok": ["07:00", "12:00", "19:00", "21:00"],
+      "facebook": ["09:00", "13:00", "15:00"]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+All right, now when it comes to the different types of tests that you can run on IntelliGems,
+it's actually pretty simple and pretty straightforward.
+I'm going to be, again, focused on the content testing side of things.
+So if I just go back to IntelliGems, again, I'm talking about the testing on this plan.
+If you do decide to go to the profit optimization and you want to test shipping and you want to test pricing,
+again, the IntelliGems team will onboard you with this.
+That said, what I'm going to focus on is just the content test here, okay?
+And so if you look, we can do content tests.
+And there are now one, two, three, four, five types of tests that you can run.
+Now, in full transparency, if you do not know how Shopify works, then this video will help you do that.
+I'm going to have basically a few different modules.
+In this one, I'm just going to cover split URL testing and then I'll cover the other ones below.
+With that said, before we kind of get into it, template test is the most common one that we will use, okay?
+When it comes to doing tests on product pages or tests on homepages or tests anywhere,
+the template test is what we do inside of IntelliGems because it is the cleanest and probably the easiest one to do, okay?
+Now, with that said, you might need the help of a developer.
+So if you don't have the help of a developer, then you might want to have one on standby in case you break something.
+The IntelliGems team is also pretty helpful.
+But being a developer also will help you understand things better.
+With that said, for a lot of people, just to do a split URL test is very simple.
+You're going to go ahead.
+You're going to create the test.
+You're going to call this test name.
+And typically what we recommend optimizing for is revenue or profit.
+Just go ahead and select either one of them.
+Make sure you describe the test.
+So let's just say we're going to do a product page test here.
+All right.
+You can go to continue and then make sure you name your group.
+So let's just call this EAM product page, you know, V2.
+Here you can simply decide how much traffic you want to send.
+I believe you can also go in here and change it as well, I believe.
+I think you used to be able to, but there we go.
+Then obviously you're going to go to continue.
+And then here there's two types of redirects, okay?
+So there's simple, which basically just means like, hey, this is whenever it lands on this page, then go to this page.
+And then the advance is basically, I think the only difference, or this is redirect one time down here.
+The only difference between simple and advanced, let me just confirm the documentation because this seems new.
+Yeah.
+So the difference between simple and advanced is simple as if you're just doing like a simple AB.
+And then advanced is if you're doing like something a little bit more complex where it's like it matches this, then you can redirect it to multiple pages, okay?
+So that's all it is.
+All right.
+You can see there's documentation here if you're looking to go a little bit deeper.
+But with that said, we typically will just do simple.
+So for example, if we wanted to do a split test on one of our pages here.
+So let's just say we have the Tilo page.
+And I think we have a Tilo-2.
+I'm not entirely sure.
+Looks like I absolutely broke this URL.
+Tilo-2.
+We might.
+It doesn't look like we do.
+So anyway, what we would do, there's our pages Tilo.
+This is the page that we know exists.
+Okay.
+And say, just for example, we wanted to maybe redirect the other half to this product page for whatever it is.
+You can redirect this in any which way that you want.
+What we would do is we would simply set that up and that's it.
+Okay.
+That's all we would do.
+Okay.
+And now inside of here, you can see I like to choose redirect every time.
+So whenever someone lands on this URL and they are in the test, make sure it redirects them every time to that page.
+Okay.
+And you can see, all right, for anyone that lands on this URL, 50% will get redirected to this URL instead.
+And now obviously that would be terrible because in this instance, I'm saying to split test people who are landing on a landing page to go to a socks product page, which is not good.
+Um, but with that said, you would then click continue and this is where you can then choose the audience.
+So I typically do all devices that said, if you're doing a mobile only split test, so maybe you were just split testing the hero section, um, or whatever it is, you can do mobile or desktop.
+I typically just do all devices.
+The only time we'll ever do mobile desktop only is for example, we have a client that we are doing a hero or like a mega menu page for it.
+Right.
+Um, and so inside of here, if I delete this, you can see there's actually a redirect test happening right now.
+Uh, but if I just remove this, you can see this is like the mega menu that we're testing.
+So obviously in this instance, I wouldn't include mobile cause there's no mega mobile menu.
+Um, so in that instance, obviously I would just select desktop.
+Okay.
+So there's all devices for visitor type.
+If you're just setting up for the first time, everybody's going to be seen as new.
+We always leave it as all visitors as well.
+We can look at this data later.
+Traffic sources.
+I know it might sound exciting to be like, Oh, let's do Facebook only.
+Um, just leave it as all sources, especially for those of you that are watching this, like you don't have enough traffic to start segmenting data.
+So just leave it as all sources.
+Uh, countries is something that you can take a look at depending if you only want people from the U S to go through, or if you just want everyone, you can do that as well.
+Uh, currency is also cool.
+If you want to choose a different type of currency that can also help with filtering.
+But again, we typically just leave that open.
+The only thing that we might adjust is the country.
+And then of course I'm going to go ahead and click save test.
+And now what's really cool about this is once IntelliGems goes through and you can see it actually says optional there.
+You can see, I now have my test name right here.
+And what I can actually do is I can go and preview the experiment.
+And so very simple here.
+IntelliGems is going to pull up a little preview here.
+There we go.
+And so basically, yeah, the whole point of this is like, you can go through and you can preview what it looks like.
+It seems like this is actually not functioning the way that it should be.
+So this should be going to pages Tilo as like the main one.
+And the IntelliGems view is going to come up here.
+If we go to product page V2, there we go.
+Now it's showing this one.
+Essentially for redirect tests, we typically don't use this tool.
+And I'll explain where this tool comes in handy.
+But for the most part, you can also get a QR code for mobile.
+So you can scan this on your phone as well for the control or the EAM product page V2.
+But again, for redirect tests, like it's very hard to mess this stuff up.
+All you're doing is making sure.
+And again, if you need to go in and edit, you can also go in and edit.
+All we're doing here is like, hey, whenever someone lands on this page, send 50% to this page.
+And that's all you're doing.
+Okay, so it doesn't need to be any more complicated than that.
+The preview tool is going to be useful for others or for other tests that we run.
+But inside the simple redirect, that's it.
+It's very simple.
+It's very easy to do.
+And what I would recommend using the redirect test for is, for example, if you are testing, you know, different.
+Like, for example, we have a landing page right now with one of our clients that is linked here, right?
+So we have this pager-tylo.
+And then we also have a new page, which is like try.warroad.com.
+And again, this is important where you would have to make sure you have the intelligence snippet on this page deck page, which I'll get into.
+But the main thing is like if we were sending, you know, from this page to that page, we would do it.
+Or, for example, in the instance of let's just go back to Warroad and let's go to the actual Tilo product.
+So say, for example, if we just wanted to split test 50% of people who land on this landing page, send the other 50% to the collection page instead.
+We would never, ever, ever do that for the other way around.
+So, for example, we would never send 50% of people who land on the collection page to this page because obviously this is like on the main website and for everyone to access.
+Whereas for this page, we use this specifically for ads.
+And so if we wanted to just test like, okay, what happens if, you know, we send 50% of people from here and redirect them to this collection page?
+Like what converts better?
+That's an example of when we would use a redirect test because we're using two different types of templates.
+And so if I've lost you, just hone back in here.
+The only time you really need to do a redirect test is if you're using, see, for example, this is slash pages and this is slash collections.
+Those are two different templates.
+And so we would typically set up a redirect test for that.
+But it's very rare that you'll do this.
+Everything else that we'll typically do is going to be on the template test like we mentioned, which I'm going to get into in the next video.
+But split URL tests, that's how you can set them up.
+They're very simple, very easy to do.
+And that is the first type of test that you can run inside of IntelliGems.

@@ -1,0 +1,681 @@
+Over the past four years, I spent $40 million on Facebook ads.
+Today, I'm going to give you a complete walkthrough on Facebook ads
+and set it up for our new brand, The Lemon Scrub.
+This is going to be everything that you need to know
+to get at the basic structure set up and get your first sale.
+It's been a long journey here.
+We've found the product, we've set up the website,
+we've shot the content.
+Let's jump into the Facebook ads.
+So the first step in setting up Facebook ads
+is we want to go to business.facebook.com.
+We want to create a business manager account.
+There's lots of ways that you can kind of create ad accounts,
+especially in the past,
+but creating something through business manager
+is going to ensure that you can have a successful scaling business in the long term.
+There's lots of different features in here.
+Once you're in business manager, you'll be prompted to set up a new account.
+You can also then come into settings and create a new ad account.
+So we can come down here.
+There's a drop down accounts, ad accounts.
+I have a few already in this business manager,
+but you can click create new ad account here.
+When you're setting up this ad account,
+you just really want to call it your brand's name
+and possibly also the region as well in case you expand globally.
+So I'm going to do lemon scrub AU
+and then we want to set it to the time zone for our city.
+And the reason why this is really important is for your ad set reporting
+and also the budget spend.
+The currency, you want to make sure that it's in the currency
+that you are receiving from your customers.
+You're going to need to spend the money that they are sending you on future ads.
+I'm just going to click next there and set it up.
+We're going to put it within our business manager and click create.
+Now, if you are just getting started,
+there are a few things that I need to flag that probably you need to do
+that I might not need to do.
+Because I have some history on the platform,
+I have already got this set up.
+First step is make sure that you put your ID
+and all your business verifications within the business manager.
+This will help Facebook trust you and trust that you're not a scammer.
+The second thing is you need to start spending really, really slowly.
+You don't want to really ramp up the budget straight away.
+They're just going to think that it's a scam product.
+The next step is adding people.
+You just add yourself and you allow them to manage the ad account.
+And you click assign.
+The next step is adding your payment info.
+If you are an Australian resident,
+make sure that you put your ABN in this section
+because otherwise they're going to charge you an additional 10% or so.
+Now you've set up your ad account.
+The next step is to set up your pixel and start running ads.
+Now this really depends on what platform you're using
+to actually sell the product.
+We're using Shopify, so it's really simple.
+If you're using a different platform, just try to follow along.
+They should have a similar cappy kind of setup.
+I'm going to head over to Shopify here
+and I'm going to go down to preferences.
+Once in preferences, you can see all of these pixels set up.
+So we've got our Google Analytics.
+So we come down here and we can click
+set up Facebook under Facebook pixels.
+Alrighty, now you can see a series of steps
+that you need to walk through.
+We're first going to connect our personal Facebook to it and continue.
+One thing to note here is I'm doing everything
+through my actual Facebook account.
+If you create a brand new Facebook with a fake name or something,
+you're going to get banned straight away.
+They have a lot of bots that are doing this.
+The older your Facebook is, the more legitimate it is.
+The more you've complied with policy is really important.
+Now what you'll be prompted to do is select a business manager,
+which we've already set up within Facebook.
+I think you can set it up within Shopify, but I like to do the really complicated stuff
+through Facebook and then just connect Shopify and Facebook.
+We can click connect here because this is the business manager that I set up previously.
+You should only have one business manager unless you're really experienced.
+Now the next step is to make sure that you select the ad account that you also set up prior.
+View and accept terms and conditions.
+Now we can scroll down and select our Facebook page.
+In this step, because the Facebook page is quite simple to do,
+you can actually go down and click create new in this Shopify settings.
+I'm actually quite happy with that.
+Alternatively, if you do want to create a Facebook page through the business manager,
+you do it very similar to how we set up the ad account.
+You come to pages and you click add and create new page.
+I've already got mine set up, so I'm just going to connect that.
+Now the next step is quite important.
+This is where Shopify really shines.
+So you've got this thing called Cappy setup,
+which is basically Shopify's response to the Apple privacy laws.
+It feeds a lot more data straight through to Shopify from Facebook about the users.
+You really want to set up maximum.
+However, there are a couple of privacy policy things that you need to read and set up prior.
+We're not going to do that today.
+I'm just going to set this up.
+The next step is setting up your pixel.
+Typically what will happen in this step is Shopify will try to select a pixel for you.
+Depending if you do have more ad accounts and pixels,
+this could actually be the wrong pixel.
+So you do need to take care with which one it's selecting.
+You need to make sure this pixel is the one that's linked to the ad account that you've selected.
+So I can actually click disconnect here.
+It'll give you a big scary warning, but it's okay.
+It's still going to show me all the other pixels that are actually available within the ad account.
+So to find out which pixel is linked to the ad account,
+you can come into connected assets and you can see that this ad account is connected to this pixel.
+So this was automatically created when I was going through the setup process.
+Just so I know what it's about.
+I'm just going to open this up.
+I'm going to look at the pixel ID, which ends in 624.
+And I'm just going to rename the 624 pixel up here to lemon scrub official.
+Now what I can do is I can actually see this 624 here,
+and I can connect to that one knowing that it's the right lemon scrub pixel.
+We're almost finished now. I know this stuff is boring.
+We're going to get into the actual Facebook ad account soon,
+but it's really important we get the setup right from the beginning.
+We're going to select the country that we're advertising to,
+which cause we're in a .com.au domain.
+I'm going to do Australia and we're going to finish the setup.
+And that's just how easy setting up.
+Now you really do need to check that this is set up properly.
+To do this, you need a Chrome extension called Pixel Helper.
+Install this in Chrome.
+Now, all you need to do is come into here.
+I'm going to pin this because I use it a lot.
+There's pixel helpers for basically every single advertising platform.
+It's really good to check out, you know, your competitors,
+what advertising they're using.
+I'm going to come to my domain, which is trylemonscrub.com.au.
+And the pixel should show up here.
+Now, what is a pixel?
+A pixel is tracking the user's behavior on the website.
+It's tracking not only if they visit a page, but also if they do a certain action.
+What do I mean by that?
+So if I come into the collection page, watch this pixel tracker change.
+It's gone from page view, which was the initial homepage to a view content.
+Now you can start to see all of this data that's coming through to the pixel.
+So like the product group, the content ID.
+This content ID matches the product in the backend of Facebook.
+So now what we've done is we, this user, which is me,
+this Facebook knows that I have viewed this product,
+which is really important for retargeting later.
+I can show this product to the customer or products really, really similar.
+The other events include add to cart or purchase.
+When the person purchases the product or shows any intent, like add to cart,
+it will then group that customer demographic.
+It'll start to cluster people that are very similar to that
+and start showing the similar ad that got that person to take that action.
+Basically it's feeding a lot of data through, which allows Facebook to understand
+where to better spend your advertising budget to get more conversions.
+The Facebook algorithm is getting so good and the ad account is getting even simpler.
+Just three years ago, Facebook advertising was all hacks and tricks
+to get the absolute most out of it.
+This is why agencies would always sell people on their new tactic of how to do it.
+The beauty of Facebook and their goal is to make it simpler,
+which is great for you as a new beginner.
+I'm going to show you a really simple way to set up Facebook ads to get your first sale
+and also exactly how we set it up at the UDI so that you can copy it.
+My prediction is that it will get even simpler over the next one to two years
+and the basic setup is going to be all you need.
+Alrighty.
+So now we can jump back into Facebook and we can go into the ads manager.
+You'll hear a lot of people talk about the ads manager.
+We're going to go into create and we're going to create our first ever campaign.
+Now, this is probably the first place that everyone goes wrong.
+If you're in e-commerce and you're just beginning,
+the only thing you need to know is conversion campaigns.
+They've just recently changed their setup here to show sales,
+but you can see when you highlight it, it talks about conversions.
+All of these other forms of traffic, such as awareness, traffic and engagement.
+When I first started Facebook ads, that is exactly what I was doing.
+I was basically running those ads, not understanding that Facebook was probably
+feeding me bot traffic or just traffic that had no intent to buy.
+By using conversions, Facebook has a lot of data for people with buying intent for that product.
+I'm going to click on sales.
+The next step is naming your campaign.
+Now, I really do suggest that you get a strict naming convention in this beginning.
+This is because you're going to be successful.
+So let's get it nice and clean in the ad account.
+This naming convention does not affect your ads in any way.
+This is for your internal use.
+I've seen people like say boobies.
+You can see here we've got these three layers.
+We've got the campaign.
+We've got the ad set and we've got the ad.
+You can see here we've got three options with naming.
+We've got our campaign.
+We've got our ad set.
+We've got our ad.
+This is a good time to talk about what we're going to set up in each of those.
+The campaign is a high level objective.
+So for example, conversions, depending on how you want to set up your account,
+there's different ways that you could name this.
+If you have lots of products, some people use their campaign to be that product specific.
+So for example, this would be lemon scrub cleaning, but we've also got the cleaning gloves.
+So we would do another campaign for those gloves.
+Other people structure campaigns.
+So it's either cold audiences or warm audiences or repurchases,
+which is actually how we use it at the UDI.
+This will make a little bit more sense when we start setting it up.
+The ad set is where we do a lot of our targeting.
+So we're deciding what demographic, the geographical location of our customers,
+the interests of our customers.
+And then finally, we've got the ad, which is where we're actually putting the content in.
+This feels really overwhelming when you first get started.
+But trust me, it is an amazing structure to work with.
+Facebook is the most powerful advertising platform,
+and it really is a thermometer for all of our brands.
+We cannot get the same return on investment across all of the other platforms.
+We're hoping that TikTok can get there one day to really support our business and diversify our traffic.
+The other traffic forms that you do have out there without going into too much detail.
+So you've got native, you've got Snapchat, Pinterest and Google.
+So for our naming convention, what we're going to do is we're going to actually
+set up a cold traffic campaign.
+So I'm going to start with the number one, which means level one.
+And I'm going to do conversions, lemon scrub cleaner.
+The next step is we're going to create an ad set.
+And I'm going to do this as broad Australia, which will make sense in a second.
+Finally, I'm going to do ad, which for now I'm just going to do ad one.
+Now, the main thing that you need to know on this campaign level, it is pretty simple.
+Once you've actually set up the initial objective, which we just did prior,
+is we've got this campaign budget optimization, which is referred to as CBO.
+If you're in any advertising forums or anything like that, watching YouTube videos,
+you may hear this terminology.
+The other alternative to this, which isn't talked about as much because it's actually just the default,
+what we're doing right now is ABO ad set budget optimization.
+Basically, the difference is campaign budget optimization is where all of the bidding is done
+on the campaign level.
+So you're going to have, let's say five ad sets, which we're setting up here.
+So we've got one ad set here and it's Facebook is going to allocate budget where it thinks it's best.
+Ad set budget optimization is where we're going to have a little bit more control
+on where the budget is spent to which audiences.
+Again, this is going to get much simpler as we start spending ads.
+What we're going to do today is we're just going to ignore that.
+We're going to go next.
+So now we're into the ad set.
+This is the fun part.
+So we've got some really cool stuff up here, which is like our audience.
+So this defines how many people we're actually marketing to.
+We can narrow this down, which we're about to do in a second.
+The main thing that I really want to stress is coming into here and
+in your conversion event and going to purchase.
+There's a lot of different options that you can see here, such as add to cart.
+A lot of people talk that you need a large amount of data coming through the pixel
+for that conversion event for Facebook to advertise.
+That will actually prompt that to you.
+But I really like even just when I'm starting a new brand,
+if I think the product's a winner, I'm just going to use purchase straight out the gate.
+Now, the next step is we need to determine a budget for this ad set.
+So this is a common question that I get asked on YouTube is what it,
+what should, how much should I spend on Facebook advertising?
+It really depends.
+Initially, if you're just getting started, you don't really know what you're doing.
+I would not be sending this higher than $10 a day.
+This is because chances are you probably made some mistakes with the content.
+You might make some mistakes with the ads.
+You're just learning.
+So really all we want to do when we begin is do like something like 10
+or even $5 for this ad set.
+That at least is going to get some traffic to your site and you can start learning a little bit more.
+That being said, if your customer acquisition cost is going to be like $10, $20,
+you need to spend that much to get customers.
+You know, it does take a little, a long while to actually start getting data through your pixels
+so that you can actually get some positive feedback loops as well.
+So there's kind of this fine line today because I do actually know what I'm doing.
+I'm going to do $20.
+Underneath daily budget, you've got this start date and end date.
+You really just want to use a daily budget because what we're going to be doing is if we see success
+in the ad set, we're going to actually be ramping up that budget and leaving it indefinitely
+until it's stopped getting results.
+It'll make more sense like everything once we actually start running the ads.
+So we're just going to leave that as is.
+Now we can come down to create new audience.
+Now in here is where you would get all your lookalikes and custom audiences,
+which we'll cover in the advanced episode.
+However, you can, you know, select your country at this stage.
+Now this audience section here is the thing that's going to affect this audience definition
+on the right here.
+So if I was to change this to the United States,
+you can see that my audience goes from 18 or so million to 238 million.
+This is a much bigger audience size, much more people to market towards.
+Now the ideal audience has changed since I started advertising three and a half years ago.
+It really does vary 238 million is too many people in my opinion, especially with such a low budget
+and kind of no data through the pixel.
+Once you get, you know, some momentum, the Facebook advertising, you might want to be going that broad.
+Usually we use certain elements such as interest-based targeting to narrow this audience down.
+The good news is because I'm marketing towards Australia today, I'm just going to come back in
+and I'm going to go Australia and I'm going to go people living in this location.
+You can see my audience is about 18 million to 22 million.
+That is absolutely fine.
+Facebook is smart enough to figure that out and get some good results with board.
+This is one of those things that I was talking about before that as we go along,
+I don't think that interest will really be necessary in the future.
+Facebook would know more than you could ever know.
+And then you can just basically target which region that you want and it should convert accordingly.
+The other thing is age and gender.
+You might want to think that you understand, you know,
+the exact age and gender that you've got for this product.
+But, you know, there are massive things that will surprise you in this area
+and Facebook can figure this stuff out pretty quickly.
+So I'm just going to leave this again.
+See how easy this is.
+There's really not much that we actually need to change.
+Again, automatic placements versus manual placements.
+This is something that in the early days,
+you're a hundred percent doing because Facebook will just want to spend everywhere.
+I'm just going to leave it automatic today because we're using a conversion event.
+So if you are really wanting to test a video views or an engagement ad that we talked about initially,
+make sure that you are using manual placements because,
+or at least tracking where Facebook is placing that ad because Facebook's sole purpose.
+Let's say if you used a reach ad is to just get that reach as cheap as possible.
+That can be really low quality audiences and just doesn't really help you.
+Because we're using a conversion ad, Facebook is on our side.
+It wants to get us purchases as cheap as possible.
+So I want to let it place it wherever Facebook thinks that it can actually do that.
+So I'm going to leave automatic placements and we've got this optimization and delivery,
+which I'm really excited to jump into in our advanced episode.
+There's things like bid caps and cost caps, all of those kinds of things that a lot of people are
+using nowadays just to get a little bit more control on their advertising.
+This is going in line with telling Facebook more about your product and more about your margin.
+So it can spend better for you.
+It's trying to work with you by using all of these automatic placements and wide broad targeting.
+You're actually going to make sure that you get a full picture about your product.
+So for example, we might find out that there's a demographic of your 18 year olds that actually
+really love cleaning that are using, I don't know, on something on social media that we can then target.
+If by targeting this and not limiting Facebook, it's going to find those demographics.
+We can then find out who's purchasing and why via post-purchase surveys.
+So now this is all set up.
+We can actually just click next and it's going to take us to our ad.
+So now you can see our lemon scrub ad down here.
+We haven't actually created an Instagram and you can see our Facebook page is looking pretty,
+pretty raw.
+This needs to be updated to our logo with a bit more content on this.
+And I don't think lemon scrub AU is a very good name.
+So to edit that, we can come into here.
+We can come into the page and we can edit all of these details within here.
+We can create a username.
+Sometimes this requires at least 15 likes or so to actually do.
+But I think so if I did lemon scrub official.
+And you can see that it's rejected it.
+We just need to get a few likes of the page.
+Once we start spending, that's going to be absolutely fine.
+We just need to change the profile picture, which you click down here and click edit profile picture.
+Upload photo.
+We're just going to add the logo and crop that in a little bit.
+Make sure it's centered.
+And we also want to add a cover frame.
+So when people actually come to our page, it doesn't look like a scam.
+To do that, we click edit, upload photo.
+And ideally what I would do next is create a few posts.
+So I would kind of educate a little bit more around the product.
+So that when someone falls here, they would know that we're not a scam.
+I'm just going to click save changes.
+I'm going to come back to my ads manager where I was creating the ad.
+I'm just going to click command R, which should refresh the page and make us look like a professional.
+You can see here that now the logo.
+We could maybe do the tub there, but I'm not going to at this stage.
+The other thing I do really want to change is that page.
+To do that, we're going to setting.
+Now we've got our page name set up.
+We need to actually upload our content and launch our ads.
+So you can see here, we've got, they've auto populated a catalog ad.
+We don't want to use that just yet.
+We're going to set that up in another form of advertising.
+What we're going to want to do is we're going to click here.
+I'm going to click video.
+So you can see down here, they've actually set up a catalog ad for us.
+We want to use this ad, but not in this format.
+We're setting up a basic level one kind of conversion ad where we really want to show you our videos.
+So we're going to go into here and we're going to remove dynamic formats and creative.
+And now what this is going to allow us to do is we're just going to click single image or video.
+And you can see it's really pushing our cleaning gloves,
+but we're going to come down here and we're going to change that.
+I'm going to delete this catalog and I'm going to add a video.
+I'm going to upload some of the videos that we shot in our content episode.
+Now you can see that these are all four to five ratio videos,
+which is really important because it takes as much real estate on people's phone as possible.
+This is mainly going to be placed on mobile.
+So make sure it's optimized for mobile.
+I'm just going to use this video, which is the user generated content we filmed.
+So while that's uploading, we need to add the primary text.
+This is, you know, when you're writing copy, make sure you understand the AIDA principle,
+get the hook, get people's interest, and then solve their problem.
+So we've actually already written this in the copywriting episode.
+So I'm just going to pull that file up and copy and paste some of that copy.
+So this is what's called long tail copywriting.
+So it's quite long.
+You can also try really just short brief copy as well.
+That works really well.
+Now, one thing that you need to understand is compliance within the account.
+So we've written this copy and we've mentioned the words freaks.
+And we've also calling out, you know, characteristics of people.
+So the clean freaks are obsessed with this lemon scrub.
+That is genuinely flagged by Facebook a fair bit.
+And this may not run.
+So you can see in this copywriting, we've also got the,
+we're going to put the link there as well.
+So that we're pushing people straight here.
+And I'm going to put that emoji like so.
+Then we need to grab the headline as well.
+And then we've also got a description, which matters less.
+So you can see this is starting to populate through the preview.
+We can go to it like a more, a different preview as well.
+So now we've filled on all the text.
+What we can actually do is just click advanced preview.
+And we can see how it's going to look on something like Facebook, Instagram,
+story and reels.
+So just have a look at that.
+Make sure your copy is right.
+And the creative is right.
+We can change this to something like shop now.
+And we also need to add the URL.
+So just push them straight to the homepage here, copy and paste that.
+So you make sure you get it right.
+Now, the display link is actually this bit here.
+So if it hasn't updated properly, or if you've used a really long URL,
+you might want to just manually input your display URL here.
+But mine is obviously fine.
+It looks perfect.
+Now, the only other thing that I do recommend,
+even when you're a beginner is actually setting up a thumbnail.
+This is something that we weren't doing for a very long time.
+Someone called us out on it.
+And you know, we now we're actually optimizing thumbnails
+and getting some really, really good results.
+So have a look at some competitors in industry,
+set up a thumbnail that's really catchy.
+That's thumb stopping and your performance should increase.
+To do this, all we need to do is come into here and click edit group.
+And we've got this thumbnail section here.
+You can see it's already on automatic.
+This is one thing that we're going to want to take away from Facebook.
+We might just want to use a bit more of a punchy kind of image,
+which I'm going to create now.
+All right, we're back.
+So I'm just going to click edit group.
+And I'm going to click thumbnail.
+Because I've got these dimensions, my thumbnail needs to match that.
+We're going to change it from automatic placement to manual.
+Upload.
+Upload the image.
+You want something that's really just kind of captivating.
+It's going to show the video that's about to play.
+You don't want it to just be completely clickbaity.
+It needs to be somewhat relevant.
+Now we've updated all of our creatives.
+And we've set up the ad set.
+And we've set up the campaign.
+We can actually click publish.
+The only other thing that we could do is set up an Instagram account,
+similar to how we've set up the Facebook page and click connect account here.
+It's pretty simple nowadays with very little risk.
+I'm just going to publish this for now.
+When this shows up on Instagram, it's just going to be my exact page name on Facebook.
+And there you have it.
+Now we've set up our first Facebook campaign.
+If that gets approved through terms and conditions,
+it will start running at the budget that we've set per day.
+Now, there are a few things that we do need to improve on this to get results.
+Firstly, we don't just want one ad in the ad set initially.
+There are two things that we can start testing in the early stage.
+If you want to get more advanced about it, we can test either our audiences.
+So we can duplicate this like so.
+And then we can come into here and we can change this audience.
+Maybe we'll want to do something like cleaning.
+You can see cleanings popped up with quite a large audience section there.
+I can click that and it has narrowed my audience down here.
+What I can now do is I can change because it's not a broad targeting.
+I can do cleaning Australia and then I can click publish.
+Then I can compare the results from the broad audience set versus the cleaning audience set.
+Because I'm using one consistent creative,
+it's going to be a really controlled test around what is going to perform better.
+That kind of rigid testing, although it is really effective at finding what works,
+isn't probably the most efficient thing
+when you're actually trying to launch a business.
+We're just trying to get Facebook to work so that we can actually reinvest the money
+and grow the business.
+We can use this reset ads manager whenever we make a mistake.
+So I'm just going to get reset it.
+And that green ad set is going to be deleted.
+What's probably better use of our time is actually coming into this ad set that we've
+already set up going to a broad audience.
+So everyone we're trusting Facebook's going to find it.
+And we're actually going to add more ads to the ad set.
+So I'm just going to click the duplicate there and I'm going to click here.
+And that's going to duplicate the ad within the ad set.
+So you're probably thinking I've got two ads.
+Does that mean I'm going to spend double?
+No, the budget on the ad set level is still the same.
+So Facebook is going to allocate that budget as best as it can across those two ads.
+So you're going to get a little bit of insight on what Facebook ad Facebook likes better.
+Which one does it want to show to people?
+This isn't a rigid split test, but at least it's giving Facebook as much to work with as
+possible to increase your results.
+To change this ad, what I need to make sure that I do is change to add to.
+When naming the ad name, you really might want to use something really descriptive.
+So, you know, when you're looking at the results, what's, what's working.
+So for example, that initial ad, I might've wanted to do something like, you know,
+that's my mum cleaning.
+So it'll be mum cleaning.
+And then we want to name the ad based on the format of the ad it is, which will help you
+if you ever get to a large amount of reporting.
+So we're going to do UGC video.
+And then I'm also just going to say bathroom as well, because that's where it was.
+So trying to be as descriptive as possible.
+This one, we're going to come down here and we're going to delete this media.
+We're going to add the video exactly the way we did before.
+And we're going to name this Linda, which is the model's name, UGC video.
+And we're going to call it oven.
+That's going to upload.
+I'm going to use all the same copy, the same URL.
+Like, so you can see that has now uploaded.
+It's a new piece of copy.
+I can click publish and that'll go into the approval process as well.
+Using that duplicate feature, we can easily duplicate ad sets, campaigns, or ads
+to really make, make things, everything stay the same and just change kind of one variable.
+So now we've set up a really, really basic structure.
+If you followed along with me, what's going to happen is the ad sets going to start spending budget.
+You're probably wondering, what am I looking for?
+Obviously you're looking for sales in your Shopify account, but I'm just going to quickly show you
+what kind of metrics to look like in a real live ad account so that you understand how to optimize.
+So this is an ad account with some budget being spent.
+We've got the time section up here, which is really important.
+A lot of people say, where is my ad results?
+It's not spending.
+You know, I used to do this all the time when I started.
+You really just need to come up here and change this to a time period.
+The next thing you can probably see is some of these metrics here,
+which is like website purchases, amount spend.
+They are really important metrics, but they're not absolutely everything you need.
+What you're going to want to do is come down here and you're going to click customize columns.
+This is going to give you the full scope of what of data that you need to look at
+in a conversion based e-commerce campaign.
+We're going to delete a couple of these metrics here just to make things a little bit simpler.
+And now we've kind of got delivery, ad set name, bid strategy, budget, results, reach and impressions.
+We're going to add all the metrics from the beginning of the funnel.
+So what does that mean?
+First step, a person sees your ad, then they watch the ad, then they click the ad.
+So we need to actually go clicks and we go cost per outbound click.
+Then the next step is they're actually going to view content on our website,
+which is that product page.
+We showed that on the pixel.
+We're going to go view content.
+And we're also going to look for the cost of the view content.
+The next step of the user journey is they're going to view the page,
+but then they're going to add the product to cart.
+So we're going to go add to cart and we're going to click cost of add to cart.
+Then they're actually going to initiate the checkout.
+The initiate checkout is when they're actually in the Shopify checkout.
+And then what they're going to do is they're going to purchase.
+So we're going to do cost per purchase.
+I'm also going to add value and total here.
+If you're really curious about this, what you can do is go into your own store,
+look at the pixel helper, buy the product, and watch it each step of the funnel.
+Then the final thing that we're going to want to add, which if again, if you're in any forums,
+is ROAS.
+This is what everyone talks about.
+Your target return on ad spend is really important to understand when you first start your marketing.
+We're going to show our margin for this product.
+And we're going to have a break even ROAS.
+What this means is any ROAS underneath that, so return on ad spend,
+is going to be unprofitable for us.
+We want to get our ROAS higher than that thing.
+We want to get our ROAS higher than that metric because we've got all of these other costs.
+We've got the product cost, the freight cost, the courier cost.
+So we need to, that final customer acquisition cost is really variable.
+And this is what we're trying to optimize to make the most amount of profit per unit.
+So we're just going to uncheck a lot of these random things.
+They're really not necessary.
+And then we're going to save this as a preset.
+I'm going to call it convert YouTube.
+There are some more advanced metrics we're going to do like thumb stopper ratio in the next video.
+I'm going to click apply.
+And now we're here.
+So we can go, let's go, let's get a decent amount of data.
+Let's go past 30 days.
+We can see our ad sets on the left here.
+Well, they'll probably be blurred for privacy on the product.
+And then we can see the amount we've spent,
+the amount that it's costing to click, to get a click outbound.
+So any link, any button, the cost per add to cart, the initiate checkout,
+how many purchases you get, and also the ROAS.
+So we're getting about a 7.6 ROAS on this product, which is really, really good.
+And the cost per purchase is only $18.
+It's quite a high value product, which you can see here.
+So this will give you all the metrics and kind of make you understand, you know,
+if you are profitable with running your Facebook ads.
+To recap, this ad set here, because it is broad targeting,
+is actually going to target everyone in Australia.
+We can obviously narrow the targeting down by interest,
+but we can also narrow the targeting down by behavior.
+So our pixel is tracking what people are doing on the website.
+So if someone has landed on our website, add to cart, we can actually target those people.
+This is what's referred to as retargeting.
+While this ad set is going to retarget those visitors,
+a very common thing to do within Facebook marketing is actually to separate the cold and the hot.
+So we're actually going to force the budget to spend more on retargeting than Facebook thinks.
+There are some Facebook people out there that don't recommend any form of retargeting.
+They want Facebook to do absolutely everything.
+We definitely use retargeting within all of our campaigns.
+And to do this, all we do is click duplicate, and then we're just going to duplicate here.
+Now what we need to do is we need to change the naming convention because level one is people
+that have never heard of us.
+Level two are people that have taken action.
+That action could be visiting the Facebook, liking our Facebook, following us on Instagram,
+going to our website, adding to cart, purchasing.
+All of those are great retargeting audiences.
+You can even target people that have watched your video in a certain amount of duration.
+So I'm going to change this to two.
+You can see that's adjusted, which is great.
+I'm going to remove the copy and I'm just going to click publish.
+Now I've clicked publish.
+So that will actually go live.
+It's okay because we're not spending.
+We do need to make some more changes.
+If you're worried about it spending by the time you edit it,
+you probably should turn it off there.
+So I can come in here, come down here, and we're going to change the ad set name
+because we are now targeting a different audience.
+So I can actually change this to website visitors.
+And I can come down here, make sure that there's no interest
+because we just want the website visitors that have visited our pixel.
+And we can click create new audience, custom audience.
+And you can see all of these sources.
+These are all amazing things to target.
+You can go to website and we've got our pixel here,
+which is our source where we're pulling this data from.
+You can change this to 180 and you can name this website traffic 180 days.
+And you can click create audience.
+Now that's automatically going to create that audience
+and it's going to place it in here to be targeted.
+We have just now set up our first retargeting campaign.
+With retargeting, because we've only just set up this store,
+chances are there's no traffic going to the website.
+So it's not going to be able to spend the full budget
+because there's no audience to target.
+This is why you can actually set up retargeting,
+you know, one, two, three weeks into starting your store.
+You don't need to set it up right away,
+especially considering that level one traffic that we've kind of set up is already retargeting.
+As you progress and you really start to clear those segments in the level one traffic,
+you may want to start excluding these audiences.
+So people are in those set buckets and your ad sets aren't actually competing against each other
+and bidding against each other.
+It sounds complicated, but it's actually not too bad once you get used to it.
+I'm a big fan of just keeping things simple initially and doing the initial structure that
+I just showed you before with no targeting until you feel really comfortable within the ad account.
+The other form of retargeting that we can create that is really, really effective,
+even with smaller amounts of products in your store.
+It's really effective when you've got hundreds of SKUs,
+but we can just come in, create under our retargeting,
+and we're just going to call this catalog.
+Now this is like a dynamic feed that really customized based on what the actual person's
+doing.
+We can come into here and you can see that it's automatically selected at this stage
+and you can see catalog here.
+So if we, this is the actual Shopify catalog, you can see the two products.
+So if anyone goes to this store, they're going to get served this ad,
+which I'm sure if you've been on Facebook, you've seen before.
+It generally pops up really quickly after you've viewed the store
+and you can swipe through and see the relevant products.
+Next episode, we'll get into how to optimize your ad sets
+to get the best possible cost per purchase.
+If you're just getting started, one thing I do recommend is go watch my video,
+watch this before starting dropshipping.
+Even if you're not dropshipping, like we're not today,
+it is really important to understand Facebook bans and the limitations of the platform.
+I hope you enjoyed today's episode.
+In a couple of weeks, we'll dive into the data.
+Hopefully we'll have a couple of purchases.
+We can optimize the ad account better.
+We can add some software and some attribution software,
+optimize content and start building a bigger business.
+Don't forget to like and subscribe.
+Thanks for watching.

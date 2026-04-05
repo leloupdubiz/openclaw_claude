@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADSPY PRO — Intelligence Compétitive E-Commerce</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  :root {
+    --sidebar-bg: #0d0d0d;
+    --sidebar-hover: #1a1a1a;
+    --sidebar-active: #1f1f1f;
+    --main-bg: #f9fafb;
+    --card-bg: #ffffff;
+    --accent-red: #ef4444;
+    --accent-blue: #3b82f6;
+    --accent-purple: #8b5cf6;
+    --accent-green: #10b981;
+    --accent-orange: #f59e0b;
+    --accent-cyan: #06b6d4;
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--main-bg); color: var(--text-primary); overflow: hidden; height: 100vh; display: flex; }
+
+  /* SIDEBAR */
+  #sidebar { width: 220px; min-width: 220px; background: var(--sidebar-bg); display: flex; flex-direction: column; height: 100vh; overflow-y: auto; transition: width 0.2s; }
+  #sidebar.collapsed { width: 56px; min-width: 56px; }
+  #sidebar.collapsed .sidebar-label, #sidebar.collapsed .sidebar-section-title, #sidebar.collapsed .sidebar-bottom { display: none; }
+  #sidebar.collapsed .module-icon-row { justify-content: center; padding: 8px; }
+
+  .sidebar-top { padding: 12px; border-bottom: 1px solid #1f1f1f; }
+  .logo { display: flex; align-items: center; gap: 8px; color: #fff; font-weight: 700; font-size: 15px; }
+  .logo-icon { width: 28px; height: 28px; background: linear-gradient(135deg, #ef4444, #8b5cf6); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+
+  .module-icons { display: flex; gap: 4px; padding: 10px 8px; }
+  .module-btn { width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.15s; border: none; background: transparent; color: #9ca3af; font-size: 18px; }
+  .module-btn:hover { background: #1f1f1f; }
+  .module-btn.active { background: #2a2a2a; color: #fff; }
+  .module-label { font-size: 10px; color: #6b7280; padding: 2px 8px 8px; }
+
+  .sidebar-nav { padding: 8px 0; }
+  .nav-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; color: #9ca3af; font-size: 13px; cursor: pointer; transition: all 0.15s; border-radius: 0; }
+  .nav-item:hover { color: #fff; background: var(--sidebar-hover); }
+  .nav-item.active { color: #fff; background: var(--sidebar-active); }
+  .nav-item svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+  .sidebar-section-title { font-size: 10px; color: #4b5563; font-weight: 600; padding: 8px 12px 4px; letter-spacing: 0.05em; text-transform: uppercase; }
+
+  .search-bar-sm { display: flex; align-items: center; gap: 6px; margin: 4px 8px; padding: 6px 10px; background: #1a1a1a; border-radius: 8px; color: #6b7280; font-size: 12px; cursor: pointer; }
+  .search-bar-sm input { background: transparent; border: none; outline: none; color: #9ca3af; font-size: 12px; width: 100%; }
+
+  .board-item { display: flex; align-items: center; gap: 8px; padding: 6px 12px; color: #9ca3af; font-size: 12px; cursor: pointer; }
+  .board-item:hover { color: #fff; }
+  .board-badge { background: #2a2a2a; border-radius: 4px; padding: 1px 5px; font-size: 10px; margin-left: auto; }
+
+  .sidebar-bottom { margin-top: auto; padding: 10px 12px; border-top: 1px solid #1f1f1f; }
+  .user-info { display: flex; align-items: center; gap: 8px; color: #9ca3af; font-size: 12px; cursor: pointer; }
+  .avatar-sm { width: 28px; height: 28px; border-radius: 50%; background: linear-gradient(135deg, #ef4444, #8b5cf6); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 11px; font-weight: 700; }
+
+  /* MAIN */
+  #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+
+  /* TOP BAR */
+  .topbar { background: #fff; border-bottom: 1px solid var(--border); padding: 0 20px; height: 52px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+  .topbar-title { display: flex; align-items: center; gap: 10px; }
+  .topbar-title h1 { font-size: 18px; font-weight: 700; }
+  .count-badge { background: #f3f4f6; border-radius: 6px; padding: 3px 10px; font-size: 12px; color: #6b7280; font-weight: 500; }
+  .topbar-search { flex: 1; max-width: 420px; position: relative; margin-left: 12px; }
+  .topbar-search input { width: 100%; padding: 7px 12px 7px 36px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; background: #f9fafb; outline: none; }
+  .topbar-search input:focus { border-color: #6b7280; background: #fff; }
+  .topbar-search .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #9ca3af; }
+  .topbar-right { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+  .btn-sm { padding: 6px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; transition: all 0.15s; display: flex; align-items: center; gap: 6px; }
+  .btn-primary { background: #111827; color: #fff; }
+  .btn-primary:hover { background: #1f2937; }
+  .btn-outline { background: #fff; color: #374151; border: 1px solid var(--border); }
+  .btn-outline:hover { background: #f9fafb; }
+
+  /* FILTER BAR */
+  .filter-bar { background: #fff; border-bottom: 1px solid var(--border); padding: 8px 20px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; flex-shrink: 0; }
+  .filter-tabs { display: flex; gap: 2px; margin-bottom: 6px; }
+  .filter-tab { padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
+  .filter-tab.active { background: #111827; color: #fff; }
+  .filter-tab:not(.active) { background: #f3f4f6; color: #6b7280; }
+  .filter-tab:not(.active):hover { background: #e5e7eb; }
+  .filter-chip { display: flex; align-items: center; gap: 5px; padding: 5px 12px; border: 1px solid var(--border); border-radius: 20px; font-size: 12px; color: #374151; cursor: pointer; background: #fff; transition: all 0.15s; white-space: nowrap; }
+  .filter-chip:hover { border-color: #9ca3af; background: #f9fafb; }
+  .filter-chip svg { width: 12px; height: 12px; color: #9ca3af; }
+  .filter-chip.active { border-color: #111827; background: #111827; color: #fff; }
+
+  /* CONTENT AREA */
+  #content { flex: 1; overflow-y: auto; padding: 16px 20px; }
+
+  /* STORE CARDS (Brand Library) */
+  .store-card { background: #fff; border: 1px solid var(--border); border-radius: 12px; margin-bottom: 12px; overflow: hidden; transition: box-shadow 0.15s; }
+  .store-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+  .store-card-inner { display: grid; grid-template-columns: 280px 1fr auto; gap: 0; }
+
+  /* Left panel */
+  .store-left { border-right: 1px solid var(--border); padding: 14px; }
+  .store-favicon-row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .store-favicon { width: 28px; height: 28px; border-radius: 6px; background: #f3f4f6; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 14px; overflow: hidden; }
+  .store-favicon img { width: 100%; height: 100%; object-fit: cover; }
+  .ai-badge { font-size: 10px; background: linear-gradient(90deg, #8b5cf6, #3b82f6); color: #fff; padding: 2px 6px; border-radius: 4px; font-weight: 600; cursor: pointer; }
+  .niche-tag { font-size: 10px; background: #f3f4f6; color: #6b7280; padding: 2px 8px; border-radius: 4px; }
+  .product-scroll { display: flex; gap: 4px; overflow-x: auto; padding-bottom: 4px; }
+  .product-scroll::-webkit-scrollbar { height: 3px; }
+  .product-thumb { width: 48px; height: 48px; border-radius: 6px; background: #f3f4f6; border: 1px solid var(--border); flex-shrink: 0; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; overflow: hidden; transition: transform 0.1s; }
+  .product-thumb:hover { transform: scale(1.05); }
+
+  /* Center panel */
+  .store-center { padding: 14px; flex: 1; }
+  .store-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px; }
+  .store-name { font-size: 15px; font-weight: 700; color: #111827; cursor: pointer; }
+  .store-name:hover { color: var(--accent-blue); text-decoration: underline; }
+  .store-meta { font-size: 11px; color: #9ca3af; margin-top: 2px; }
+  .social-icons { display: flex; gap: 4px; margin: 8px 0; }
+  .social-icon { width: 22px; height: 22px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 11px; cursor: pointer; transition: transform 0.1s; }
+  .social-icon:hover { transform: scale(1.1); }
+  .si-fb { background: #1877f2; color: #fff; }
+  .si-ig { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: #fff; }
+  .si-tt { background: #000; color: #fff; }
+  .si-yt { background: #ff0000; color: #fff; }
+  .si-tw { background: #1da1f2; color: #fff; }
+  .si-pi { background: #bd081c; color: #fff; }
+  .si-tp { background: #00b67a; color: #fff; }
+
+  .ads-row { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
+  .ad-count-btn { font-size: 11px; color: #6b7280; background: #f3f4f6; padding: 3px 10px; border-radius: 6px; cursor: pointer; border: none; }
+  .ad-count-btn:hover { background: #e5e7eb; }
+  .ad-thumbs { display: flex; gap: 4px; }
+  .ad-thumb { width: 52px; height: 52px; border-radius: 6px; background: #f3f4f6; border: 1px solid var(--border); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 20px; overflow: hidden; position: relative; }
+  .ad-play { position: absolute; width: 18px; height: 18px; background: rgba(0,0,0,0.6); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+
+  .sparkline-container { margin-top: 6px; }
+  .sparkline-label { font-size: 10px; color: #9ca3af; margin-bottom: 3px; }
+
+  /* Right panel */
+  .store-right { padding: 14px; min-width: 200px; border-left: 1px solid var(--border); display: flex; flex-direction: column; gap: 10px; }
+  .metric-block { background: #f9fafb; border-radius: 8px; padding: 10px; }
+  .metric-label { font-size: 10px; color: #9ca3af; margin-bottom: 4px; display: flex; align-items: center; gap: 4px; }
+  .metric-value { font-size: 14px; font-weight: 700; color: #111827; }
+  .metric-sub { font-size: 11px; color: #6b7280; }
+  .eu-badge { display: inline-flex; align-items: center; gap: 4px; background: #fef3c7; color: #92400e; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+
+  .store-actions { display: flex; gap: 6px; padding: 8px 14px; border-top: 1px solid var(--border); background: #fafafa; }
+  .action-btn { padding: 5px 14px; border-radius: 7px; font-size: 12px; font-weight: 500; cursor: pointer; border: 1px solid var(--border); background: #fff; color: #374151; transition: all 0.15s; display: flex; align-items: center; gap: 5px; }
+  .action-btn:hover { border-color: #111827; color: #111827; }
+  .action-btn.analyze { background: #111827; color: #fff; border-color: #111827; }
+  .action-btn.analyze:hover { background: #374151; }
+
+  /* AD CARDS (Discovery) */
+  .ads-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .ad-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: box-shadow 0.15s; }
+  .ad-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+  .ad-card-header { padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); }
+  .ad-brand { display: flex; align-items: center; gap: 6px; }
+  .ad-brand-logo { width: 22px; height: 22px; border-radius: 4px; background: #f3f4f6; display: flex; align-items: center; justify-content: center; font-size: 11px; }
+  .ad-brand-name { font-size: 12px; font-weight: 600; }
+  .ad-rank { font-size: 10px; color: #9ca3af; }
+  .ad-live { font-size: 10px; color: #6b7280; }
+  .ad-status { display: flex; align-items: center; gap: 4px; }
+  .status-dot { width: 7px; height: 7px; border-radius: 50%; }
+  .status-dot.active { background: #10b981; }
+  .status-dot.inactive { background: #9ca3af; }
+  .ad-duration { font-size: 10px; color: #6b7280; }
+  .ad-dates { font-size: 10px; color: #9ca3af; padding: 6px 12px; }
+  .ad-dup { font-size: 10px; color: #8b5cf6; background: #f5f3ff; padding: 2px 6px; border-radius: 4px; }
+  .ad-text { font-size: 12px; color: #374151; padding: 6px 12px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .ad-creative { width: 100%; aspect-ratio: 4/5; background: #f3f4f6; display: flex; align-items: center; justify-content: center; font-size: 42px; position: relative; cursor: pointer; overflow: hidden; }
+  .ad-creative img { width: 100%; height: 100%; object-fit: cover; }
+  .ad-play-btn { position: absolute; width: 44px; height: 44px; background: rgba(0,0,0,0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 18px; }
+  .ad-footer { padding: 8px 12px; border-top: 1px solid var(--border); }
+  .ad-domain { font-size: 11px; color: #9ca3af; margin-bottom: 4px; }
+  .ad-headline { font-size: 12px; font-weight: 600; color: #111827; margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ad-cta { width: 100%; padding: 5px; background: #1877f2; color: #fff; border: none; border-radius: 6px; font-size: 11px; font-weight: 600; cursor: pointer; }
+  .ad-actions-row { display: flex; gap: 4px; margin-top: 6px; }
+  .icon-btn { padding: 4px 8px; border: 1px solid var(--border); border-radius: 5px; font-size: 11px; cursor: pointer; background: #fff; color: #6b7280; }
+  .icon-btn:hover { border-color: #111827; color: #111827; }
+
+  /* SHOPS TABLE */
+  .shops-table { width: 100%; border-collapse: collapse; }
+  .shops-table th { text-align: left; font-size: 11px; font-weight: 600; color: #6b7280; padding: 8px 12px; border-bottom: 2px solid var(--border); background: #fff; position: sticky; top: 0; }
+  .shops-table td { padding: 10px 12px; border-bottom: 1px solid #f3f4f6; vertical-align: middle; }
+  .shop-row { transition: background 0.1s; }
+  .shop-row:hover { background: #f9fafb; }
+  .shop-screenshot { width: 60px; height: 40px; border-radius: 6px; background: #f3f4f6; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; overflow: hidden; }
+  .shop-info { display: flex; gap: 10px; align-items: center; }
+  .shop-name-col { display: flex; flex-direction: column; gap: 2px; }
+  .shop-name-link { font-size: 13px; font-weight: 600; color: #111827; cursor: pointer; }
+  .shop-name-link:hover { color: var(--accent-blue); }
+  .shop-domain { font-size: 11px; color: #9ca3af; display: flex; align-items: center; gap: 3px; }
+  .shopify-badge { font-size: 9px; background: #96bf48; color: #fff; padding: 1px 5px; border-radius: 3px; font-weight: 700; }
+  .product-mini { display: flex; gap: 3px; }
+  .product-mini-img { width: 36px; height: 36px; border-radius: 4px; background: #f3f4f6; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 16px; }
+  .product-count { font-size: 10px; color: #6b7280; margin-top: 2px; }
+  .traffic-cell { display: flex; flex-direction: column; gap: 2px; }
+  .traffic-num { font-size: 13px; font-weight: 700; }
+  .meta-flags { display: flex; align-items: center; gap: 3px; font-size: 12px; }
+  .flag { font-size: 14px; }
+
+  /* ADVERTISERS */
+  .adv-card { background: #fff; border: 1px solid var(--border); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
+  .adv-card-inner { padding: 16px; }
+  .adv-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+  .adv-logo { width: 48px; height: 48px; border-radius: 10px; background: #f3f4f6; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 22px; }
+  .adv-info { flex: 1; }
+  .adv-name { font-size: 16px; font-weight: 700; }
+  .adv-meta { font-size: 12px; color: #9ca3af; }
+  .adv-active-badge { background: #d1fae5; color: #065f46; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+  .adv-stats { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr auto; gap: 12px; background: #f9fafb; border-radius: 8px; padding: 12px; margin: 10px 0; }
+  .stat-block { display: flex; flex-direction: column; gap: 2px; }
+  .stat-label { font-size: 10px; color: #9ca3af; }
+  .stat-value { font-size: 14px; font-weight: 700; }
+  .adv-bottom { display: flex; gap: 12px; align-items: center; }
+  .adv-thumbs { display: flex; gap: 4px; }
+  .adv-thumb { width: 72px; height: 48px; border-radius: 6px; background: #f3f4f6; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 24px; overflow: hidden; cursor: pointer; }
+  .countries-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .country-badge { display: flex; align-items: center; gap: 3px; font-size: 11px; color: #374151; }
+  .adv-actions { display: flex; gap: 6px; margin-left: auto; }
+
+  /* BRANDTRACKER */
+  .bt-layout { display: grid; grid-template-columns: 260px 1fr; gap: 0; height: 100%; }
+  .bt-sidebar { border-right: 1px solid var(--border); background: #fff; overflow-y: auto; }
+  .bt-sidebar-header { padding: 12px 14px; border-bottom: 1px solid var(--border); font-weight: 600; font-size: 13px; display: flex; align-items: center; justify-content: space-between; }
+  .bt-brand-item { display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer; border-left: 3px solid transparent; transition: all 0.15s; }
+  .bt-brand-item:hover { background: #f9fafb; }
+  .bt-brand-item.active { border-left-color: #111827; background: #f3f4f6; }
+  .bt-brand-logo { width: 32px; height: 32px; border-radius: 7px; background: #f3f4f6; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 16px; }
+  .bt-brand-name { font-size: 13px; font-weight: 600; flex: 1; }
+  .bt-counts { display: flex; gap: 6px; }
+  .bt-count { font-size: 10px; color: #6b7280; background: #f3f4f6; padding: 2px 6px; border-radius: 4px; }
+  .bt-visits { font-size: 10px; color: #9ca3af; }
+  .bt-main { padding: 16px; overflow-y: auto; }
+  .bt-ad-timeline { display: flex; flex-direction: column; gap: 10px; }
+  .bt-ad-item { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 12px; display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; }
+  .bt-ad-thumb { width: 80px; height: 55px; border-radius: 8px; background: #f3f4f6; display: flex; align-items: center; justify-content: center; font-size: 28px; }
+  .bt-ad-info { }
+  .bt-ad-text { font-size: 12px; color: #374151; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .bt-ad-dates { font-size: 11px; color: #9ca3af; margin-top: 4px; }
+  .bt-ad-stats { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; }
+
+  /* SWIPE FILES */
+  .sf-layout { display: grid; grid-template-columns: 220px 1fr; gap: 0; height: 100%; }
+  .sf-sidebar { border-right: 1px solid var(--border); background: #fff; overflow-y: auto; padding: 10px 0; }
+  .sf-sidebar-header { padding: 8px 12px; font-size: 12px; font-weight: 600; color: #374151; display: flex; align-items: center; justify-content: space-between; }
+  .sf-board { display: flex; align-items: center; gap: 8px; padding: 6px 12px; cursor: pointer; border-radius: 6px; margin: 0 4px; font-size: 13px; color: #374151; }
+  .sf-board:hover { background: #f3f4f6; }
+  .sf-board.active { background: #f3f4f6; font-weight: 600; }
+  .sf-board-icon { font-size: 16px; }
+  .sf-count { margin-left: auto; font-size: 11px; color: #9ca3af; }
+  .sf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; padding: 16px; overflow-y: auto; }
+  .sf-item { background: #fff; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; cursor: pointer; transition: box-shadow 0.15s; }
+  .sf-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+  .sf-item-creative { width: 100%; aspect-ratio: 1; background: #f3f4f6; display: flex; align-items: center; justify-content: center; font-size: 40px; }
+  .sf-item-info { padding: 8px; }
+  .sf-item-brand { font-size: 12px; font-weight: 600; }
+  .sf-item-domain { font-size: 10px; color: #9ca3af; }
+
+  /* SVG Sparklines */
+  .sparkline { display: block; }
+
+  /* Tooltips / Dropdowns */
+  .dropdown { position: relative; display: inline-block; }
+  .dropdown-menu { position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 100; min-width: 160px; padding: 4px 0; display: none; }
+  .dropdown:hover .dropdown-menu { display: block; }
+  .dropdown-item { padding: 7px 14px; font-size: 13px; cursor: pointer; color: #374151; }
+  .dropdown-item:hover { background: #f3f4f6; }
+
+  /* Modals */
+  .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 200; display: none; align-items: center; justify-content: center; }
+  .modal-overlay.open { display: flex; }
+  .modal { background: #fff; border-radius: 16px; padding: 24px; max-width: 480px; width: 90%; }
+  .modal h2 { font-size: 18px; font-weight: 700; margin-bottom: 16px; }
+
+  /* Sort bar */
+  .sort-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .sort-select { padding: 5px 10px; border: 1px solid var(--border); border-radius: 7px; font-size: 12px; background: #fff; cursor: pointer; }
+
+  /* Country flags */
+  .country-de::before { content: "🇩🇪"; }
+  .country-us::before { content: "🇺🇸"; }
+  .country-fr::before { content: "🇫🇷"; }
+  .country-au::before { content: "🇦🇺"; }
+  .country-be::before { content: "🇧🇪"; }
+  .country-gb::before { content: "🇬🇧"; }
+
+  /* Tags */
+  .tag { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 500; }
+  .tag-green { background: #d1fae5; color: #065f46; }
+  .tag-blue { background: #dbeafe; color: #1e40af; }
+  .tag-purple { background: #ede9fe; color: #5b21b6; }
+  .tag-orange { background: #fef3c7; color: #92400e; }
+  .tag-red { background: #fee2e2; color: #991b1b; }
+
+  /* Empty state */
+  .empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 60px 20px; color: #9ca3af; }
+  .empty-state svg { width: 48px; height: 48px; opacity: 0.4; }
+  .empty-state p { font-size: 14px; }
+
+  /* Loading */
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+  .loading-pulse { animation: pulse 1.5s ease-in-out infinite; }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div id="sidebar">
+  <div class="sidebar-top">
+    <div class="logo">
+      <div class="logo-icon">🔭</div>
+      <span class="sidebar-label">ADSPY PRO</span>
+    </div>
+  </div>
+
+  <!-- Module Icons -->
+  <div class="module-icons">
+    <button class="module-btn active" onclick="showModule('library')" title="Brand Library">🏪</button>
+    <button class="module-btn" onclick="showModule('discovery')" title="Ad Discovery">🔍</button>
+    <button class="module-btn" onclick="showModule('shops')" title="Shops">🏬</button>
+    <button class="module-btn" onclick="showModule('advertisers')" title="Advertisers">📡</button>
+    <button class="module-btn" onclick="showModule('brandtracker')" title="BrandTracker">🎯</button>
+    <button class="module-btn" onclick="showModule('swipefiles')" title="Swipe Files">📁</button>
+  </div>
+  <div class="module-label sidebar-label" id="module-label">Brand Library</div>
+
+  <!-- Nav -->
+  <div class="sidebar-nav">
+    <div class="nav-item active" onclick="showModule('library')">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"/></svg>
+      <span class="sidebar-label">Dashboard</span>
+    </div>
+    <div class="nav-item" onclick="">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+      <span class="sidebar-label">Saved Items</span>
+    </div>
+  </div>
+
+  <!-- Boards -->
+  <div class="sidebar-section-title">Mes Boards</div>
+  <div class="search-bar-sm">
+    <svg width="12" height="12" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"/></svg>
+    <input type="text" placeholder="Rechercher...">
+  </div>
+  <div id="boards-list">
+    <div class="board-item"><span>⏳</span><span class="sidebar-label" style="color:#4b5563">Chargement...</span></div>
+  </div>
+
+  <div class="sidebar-bottom">
+    <button onclick="openImportModal()" style="width:100%;padding:9px 12px;background:linear-gradient(135deg,#6c63ff,#a855f7);color:#fff;border:none;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;margin-bottom:10px;display:flex;align-items:center;gap:6px;justify-content:center">
+      📥 <span class="sidebar-label">Import Duplicates</span>
+    </button>
+    <div class="user-info">
+      <div class="avatar-sm">A</div>
+      <div class="sidebar-label">
+        <div style="color:#fff;font-size:12px">Akatsuki</div>
+        <div style="font-size:10px">Pro Plan</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN AREA -->
+<div id="main">
+
+  <!-- MODULE: BRAND LIBRARY -->
+  <div id="module-library" class="module-view" style="display:flex;flex-direction:column;height:100%;overflow:hidden;">
+    <div class="topbar">
+      <div class="topbar-title">
+        <span style="font-size:22px">🏪</span>
+        <h1>Brand Library</h1>
+        <span class="count-badge">6.5M+ stores</span>
+      </div>
+      <div class="topbar-search">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="AI search: brands, products, niches..." id="library-search" oninput="filterLibrary(this.value)">
+      </div>
+      <div class="topbar-right">
+        <button class="btn-sm btn-outline">📚 Tutorials</button>
+        <button class="btn-sm btn-primary">+ New</button>
+      </div>
+    </div>
+    <div class="filter-bar">
+      <div style="display:flex;gap:6px;flex-wrap:wrap;width:100%">
+        <span style="font-size:11px;color:#6b7280;padding:5px 0;align-self:center">Filtres :</span>
+        <button class="filter-chip" onclick="toggleFilter(this)">⚙️ Presets ▾</button>
+        <button class="filter-chip" onclick="toggleFilter(this)">📈 Traffic ▾</button>
+        <button class="filter-chip" onclick="toggleFilter(this)">📢 Ad count ▾</button>
+        <button class="filter-chip" onclick="toggleFilter(this)">🇪🇺 Adspend ▾</button>
+        <button class="filter-chip" onclick="toggleFilter(this)">🌍 Markets ▾</button>
+        <button class="filter-chip" onclick="toggleFilter(this)">✨ Niches AI ▾</button>
+        <button class="filter-chip" onclick="toggleFilter(this)">+ Add filters</button>
+        <div style="margin-left:auto;display:flex;gap:6px;">
+          <button class="btn-sm btn-outline" style="font-size:11px">📅 Creation Date ▾</button>
+          <button class="btn-sm btn-outline" style="font-size:11px">↕ Sort: Last Updated ▾</button>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;padding:4px 0 0">
+        <button class="filter-tab active" onclick="setLibraryFilter(this,'all')">🌐 All stores</button>
+        <button class="filter-tab" onclick="setLibraryFilter(this,'better')">⭐ Better stores</button>
+        <button class="filter-tab" onclick="setLibraryFilter(this,'meta')">📘 Meta ads</button>
+        <button class="filter-tab" onclick="setLibraryFilter(this,'google')">🔍 Google ads</button>
+      </div>
+    </div>
+    <div id="library-content" style="flex:1;overflow-y:auto;padding:16px 20px;">
+      <!-- Store cards rendered by JS -->
+    </div>
+  </div>
+
+  <!-- MODULE: AD DISCOVERY -->
+  <div id="module-discovery" class="module-view" style="display:none;flex-direction:column;height:100%;overflow:hidden;">
+    <div class="topbar">
+      <div class="topbar-title">
+        <span style="font-size:22px">🔍</span>
+        <h1>Ad Discovery</h1>
+        <span class="count-badge">+171M ads</span>
+      </div>
+      <div class="topbar-search">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="Search keywords, products, brands..." id="discovery-search" oninput="filterDiscovery(this.value)">
+      </div>
+      <div class="topbar-right">
+        <button class="btn-sm btn-outline">👁 Hidden brands 58 ▾</button>
+        <button class="btn-sm btn-primary" onclick="openImportModal()">📥 Import Duplicates</button>
+        <button class="btn-sm btn-primary">+ New</button>
+      </div>
+    </div>
+    <div class="filter-bar" style="flex-direction:column;align-items:flex-start;gap:8px;">
+      <div style="display:flex;gap:4px;">
+        <button class="filter-tab active">Ads</button>
+        <button class="filter-tab">UE/UK</button>
+        <button class="filter-tab">Page</button>
+        <button class="filter-tab">Shop</button>
+        <button class="filter-tab" style="padding:4px 10px;font-size:11px;">▾ More</button>
+      </div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button class="filter-chip">⚡ Statut ▾</button>
+        <button class="filter-chip">📅 Date création ▾</button>
+        <button class="filter-chip">📡 Dernière diffusion ▾</button>
+        <button class="filter-chip">⏱ Actif depuis ▾</button>
+        <button class="filter-chip">🎬 Format ▾</button>
+        <button class="filter-chip">🌍 Langue ▾</button>
+        <button class="filter-chip">💰 Adspend ▾</button>
+        <button class="filter-chip">🏆 Ranking ▾ <span style="background:#10b981;color:#fff;font-size:9px;padding:1px 4px;border-radius:3px;margin-left:2px">NEW</span></button>
+        <button class="filter-chip">✨ Niche AI ▾</button>
+        <button class="filter-chip">+ Add filters</button>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button class="btn-sm btn-outline" style="font-size:11px">⚙️</button>
+        <button class="btn-sm btn-outline" style="font-size:11px">✨ AI</button>
+        <button class="filter-tab active" style="background:#10b981!important">● Active ads ▾</button>
+        <button class="filter-tab" style="background:#f3f4f6;color:#6b7280">∞/brand ▾</button>
+        <button class="btn-sm btn-outline" style="margin-left:auto;font-size:11px">↕ Pertinence ▾</button>
+      </div>
+    </div>
+    <div id="discovery-content" style="flex:1;overflow-y:auto;padding:16px 20px;">
+      <div class="ads-grid" id="ads-grid"></div>
+    </div>
+  </div>
+
+  <!-- MODULE: SHOPS -->
+  <div id="module-shops" class="module-view" style="display:none;flex-direction:column;height:100%;overflow:hidden;">
+    <div class="topbar">
+      <div class="topbar-title">
+        <span style="font-size:22px">🏬</span>
+        <h1>Shops</h1>
+        <span class="count-badge">1 486 512</span>
+      </div>
+      <div class="topbar-search">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="Rechercher des shops, mots-clés...">
+      </div>
+      <div class="topbar-right">
+        <button class="btn-sm btn-outline">👁</button>
+        <button class="btn-sm btn-primary">+ New</button>
+      </div>
+    </div>
+    <div class="filter-bar" style="flex-direction:column;align-items:flex-start;gap:8px;">
+      <div style="display:flex;gap:4px;flex-wrap:wrap;">
+        <button class="filter-tab active">🌍 Tous les shops</button>
+        <button class="filter-tab">💎 Weekly Gems</button>
+        <button class="filter-tab">🚀 Top Scaling</button>
+        <button class="filter-tab">🏆 Market Leaders</button>
+        <button class="filter-tab">🔥 Record d'ads</button>
+        <button class="filter-tab">📈 Record de trafic</button>
+        <button class="filter-tab" style="padding:4px 10px;font-size:11px;">+</button>
+      </div>
+      <div style="display:flex;gap:4px;flex-wrap:wrap;">
+        <div style="display:flex;gap:3px;font-size:11px;color:#6b7280;align-self:center">Filtrer :</div>
+        <button class="filter-tab" style="background:#f3f4f6;color:#374151;">Shops</button>
+        <button class="filter-tab" style="background:#f3f4f6;color:#374151;">Ads</button>
+      </div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button class="filter-chip">📊 Trafic ▾</button>
+        <button class="filter-chip">📈 Croissance ▾</button>
+        <button class="filter-chip">📦 Produits ▾</button>
+        <button class="filter-chip">🌍 Origine ▾</button>
+        <button class="filter-chip">👥 Pays visiteurs ▾</button>
+        <button class="filter-chip">✨ Niche ▾</button>
+        <button class="filter-chip">📅 Date création ▾</button>
+        <button class="filter-chip">🗣 Langue ▾</button>
+        <button class="filter-chip">💰 Devise ▾</button>
+        <button class="filter-chip">🎨 Thème Shopify ▾</button>
+        <button class="filter-chip">📱 App Shopify ▾</button>
+        <button class="filter-chip">🔌 Pixels ▾</button>
+        <button class="filter-chip">📋 Plan ▾</button>
+        <button class="filter-chip">⭐ Trustpilot ▾</button>
+      </div>
+    </div>
+    <div style="flex:1;overflow-y:auto;padding:0 20px 16px;">
+      <table class="shops-table">
+        <thead>
+          <tr>
+            <th>Infos du shop</th>
+            <th>Meilleurs ventes</th>
+            <th>Catégorie</th>
+            <th>Visites mensuelles</th>
+            <th>Meta Ads</th>
+            <th>Dernière pub</th>
+          </tr>
+        </thead>
+        <tbody id="shops-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- MODULE: ADVERTISERS -->
+  <div id="module-advertisers" class="module-view" style="display:none;flex-direction:column;height:100%;overflow:hidden;">
+    <div class="topbar">
+      <div class="topbar-title">
+        <span style="font-size:22px">📡</span>
+        <h1>Advertisers</h1>
+        <span class="count-badge">1 181 548</span>
+      </div>
+      <div class="topbar-search">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="Rechercher des annonceurs...">
+      </div>
+    </div>
+    <div class="filter-bar" style="flex-direction:column;align-items:flex-start;gap:8px;">
+      <div style="display:flex;gap:4px;">
+        <button class="filter-tab active">All Advertisers</button>
+        <button class="filter-tab">+</button>
+      </div>
+      <div style="display:flex;gap:4px;">
+        <button class="filter-tab" style="background:#f3f4f6;color:#374151;">Page</button>
+        <button class="filter-tab" style="background:#f3f4f6;color:#374151;">UE/UK</button>
+        <button class="filter-tab" style="background:#f3f4f6;color:#374151;">▾ More</button>
+      </div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button class="filter-chip">📅 Date création ▾</button>
+        <button class="filter-chip">🌍 Pays ▾</button>
+        <button class="filter-chip">📢 Pubs Actives ▾</button>
+        <button class="filter-chip">🚀 Pubs Lancées ▾</button>
+        <button class="filter-chip">🗣 Langue ▾</button>
+        <button class="filter-chip">👥 Abonnés ▾</button>
+        <button class="filter-chip">🔌 Technologie ▾</button>
+      </div>
+    </div>
+    <div id="advertisers-content" style="flex:1;overflow-y:auto;padding:16px 20px;"></div>
+  </div>
+
+  <!-- MODULE: BRANDTRACKER -->
+  <div id="module-brandtracker" class="module-view" style="display:none;height:100%;overflow:hidden;">
+    <div class="topbar">
+      <div class="topbar-title">
+        <span style="font-size:22px">🎯</span>
+        <h1>BrandTracker</h1>
+      </div>
+      <div class="topbar-right" style="margin-left:auto;">
+        <button class="btn-sm btn-outline">+ Ajouter une brand</button>
+        <button class="btn-sm btn-primary">⚙ Config</button>
+      </div>
+    </div>
+    <div class="bt-layout" style="height:calc(100% - 52px);">
+      <div class="bt-sidebar">
+        <div class="bt-sidebar-header">
+          <span>Brands trackées</span>
+          <button onclick="" style="border:none;background:none;color:#6b7280;cursor:pointer;font-size:18px">+</button>
+        </div>
+        <div id="bt-brands-list"></div>
+      </div>
+      <div id="bt-main" class="bt-main">
+        <div style="font-size:14px;font-weight:700;margin-bottom:12px;" id="bt-brand-title">Sélectionner une brand</div>
+        <div class="bt-ad-timeline" id="bt-timeline"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODULE: SWIPE FILES -->
+  <div id="module-swipefiles" class="module-view" style="display:none;height:100%;overflow:hidden;">
+    <div class="topbar">
+      <div class="topbar-title">
+        <span style="font-size:22px">📁</span>
+        <h1>Swipe Files</h1>
+      </div>
+      <div class="topbar-right" style="margin-left:auto;">
+        <button class="btn-sm btn-outline">+ New Folder</button>
+        <button class="btn-sm btn-primary">+ New Board</button>
+      </div>
+    </div>
+    <div class="sf-layout" style="height:calc(100% - 52px);">
+      <div class="sf-sidebar">
+        <div class="sf-sidebar-header">
+          <span>My Boards</span>
+          <span style="color:#9ca3af;cursor:pointer">▾</span>
+        </div>
+        <div class="sf-board active" onclick="selectBoard(this,'watchlist')"><span class="sf-board-icon">📋</span> My Watchlist <span class="sf-count">3</span></div>
+        <div class="sf-board" onclick="selectBoard(this,'competitors')"><span class="sf-board-icon">🏆</span> Competitors <span class="sf-count">8</span></div>
+        <div class="sf-board" onclick="selectBoard(this,'winners')"><span class="sf-board-icon">⚡</span> Winners DE <span class="sf-count">12</span></div>
+        <div class="sf-board" onclick="selectBoard(this,'stress')"><span class="sf-board-icon">🧘</span> Stress/Sleep Ads <span class="sf-count">5</span></div>
+        <div style="padding:8px 12px;font-size:11px;color:#4b5563;cursor:pointer">+ New board</div>
+      </div>
+      <div id="sf-content" class="sf-grid"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- META Status bar -->
+<div id="meta-status-bar" style="position:fixed;bottom:0;left:220px;right:0;background:#1f2937;padding:6px 20px;font-size:11px;z-index:50;display:flex;align-items:center;gap:16px;">
+  <span id="meta-status"><span style="color:#f59e0b">⏳ Vérification Meta API...</span></span>
+  <span style="color:#4b5563">·</span>
+  <span style="color:#6b7280">ADSPY PRO v1.0</span>
+  <span style="margin-left:auto;color:#6b7280;cursor:pointer" onclick="showMetaConfig()"><a href="/setup.html" target="_blank" style="color:inherit;text-decoration:none">⚙️ Setup &amp; Meta API</a></span>
+</div>
+
+<!-- Save to Board Modal -->
+<div class="modal-overlay" id="save-modal">
+  <div class="modal">
+    <h2>💾 Sauvegarder dans un board</h2>
+    <div id="save-modal-boards" style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;max-height:300px;overflow-y:auto;"></div>
+    <div style="display:flex;gap:8px;">
+      <input type="text" placeholder="+ Nouveau board..." id="quick-board-name" style="flex:1;padding:8px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;" onkeydown="if(event.key==='Enter'){quickCreateBoard()}">
+      <button onclick="quickCreateBoard()" class="btn-sm btn-primary">+</button>
+      <button onclick="closeSaveModal()" class="btn-sm btn-outline">Annuler</button>
+    </div>
+  </div>
+</div>
+
+<!-- Meta Config Modal -->
+<div class="modal-overlay" id="meta-config-modal">
+  <div class="modal" style="max-width:540px">
+    <h2>🔗 Configurer Meta Ad Library API</h2>
+    <p style="font-size:13px;color:#6b7280;margin-bottom:16px;line-height:1.6">Pour accéder aux vraies données Meta Ad Library, tu as besoin d'un token d'accès Facebook.</p>
+    <div style="background:#fef3c7;border-radius:8px;padding:12px;margin-bottom:16px;font-size:12px;color:#92400e;line-height:1.6">
+      <strong>Comment obtenir un token :</strong><br>
+      1. Va sur <a href="https://developers.facebook.com/tools/explorer/" target="_blank" style="color:#1d4ed8">Meta Graph API Explorer</a><br>
+      2. Sélectionne ton App ou "Meta App"<br>
+      3. Génère un token avec permissions : <code style="background:#fbbf24;padding:1px 4px;border-radius:3px">ads_read</code><br>
+      4. Colle le token ci-dessous
+    </div>
+    <div style="margin-bottom:12px">
+      <label style="font-size:12px;font-weight:600;color:#374151;margin-bottom:4px;display:block">Access Token</label>
+      <input type="password" id="meta-token-input" placeholder="EAABsbCS..." style="width:100%;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;font-family:monospace" autocomplete="off">
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button onclick="closeMetaConfig()" class="btn-sm btn-outline">Annuler</button>
+      <button onclick="saveMetaToken()" class="btn-sm btn-primary">✅ Sauvegarder le token</button>
+    </div>
+  </div>
+</div>
+
+<!-- New Board Modal -->
+<div class="modal-overlay" id="new-board-modal">
+  <div class="modal" style="max-width:360px">
+    <h2>📁 Nouveau Board</h2>
+    <div style="display:flex;gap:8px;margin-bottom:16px">
+      <input type="text" id="new-board-emoji" value="📁" style="width:50px;padding:8px;border:1px solid #e5e7eb;border-radius:8px;font-size:18px;text-align:center;outline:none">
+      <input type="text" id="new-board-name" placeholder="Nom du board..." style="flex:1;padding:8px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none" onkeydown="if(event.key==='Enter')createBoard()">
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button onclick="closeNewBoardModal()" class="btn-sm btn-outline">Annuler</button>
+      <button onclick="createBoard()" class="btn-sm btn-primary">Créer</button>
+    </div>
+  </div>
+</div>
+
+<!-- Add Brand Modal -->
+<div class="modal-overlay" id="add-brand-modal">
+  <div class="modal" style="max-width:420px">
+    <h2>🎯 Tracker une nouvelle brand</h2>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:16px">
+      <div>
+        <label style="font-size:12px;font-weight:600;color:#374151;margin-bottom:4px;display:block">Nom de la brand *</label>
+        <input type="text" id="brand-name-input" placeholder="Ex: Cosphera" style="width:100%;padding:8px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none">
+      </div>
+      <div>
+        <label style="font-size:12px;font-weight:600;color:#374151;margin-bottom:4px;display:block">Domaine</label>
+        <input type="text" id="brand-domain-input" placeholder="Ex: cosphera.de" style="width:100%;padding:8px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none">
+      </div>
+      <div>
+        <label style="font-size:12px;font-weight:600;color:#374151;margin-bottom:4px;display:block">Facebook Page ID <span style="color:#9ca3af;font-weight:400">(optionnel — pour les vraies ads Meta)</span></label>
+        <input type="text" id="brand-pageid-input" placeholder="Ex: 123456789" style="width:100%;padding:8px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:13px;outline:none;font-family:monospace">
+        <p style="font-size:11px;color:#9ca3af;margin-top:4px">Trouver l'ID : facebook.com/[nompage]/about → "Page ID"</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button onclick="closeAddBrandModal()" class="btn-sm btn-outline">Annuler</button>
+      <button onclick="addBrand()" class="btn-sm btn-primary">🎯 Tracker</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// DATA
+// ============================================================
+const STORES = [
+  { id: 1, domain: "drinknellio.com", name: "Nellio UltraCalm", niche: "Health & Wellness", country: "DE", flag: "🇩🇪", created: "Jan 2024", traffic: "45.2K", trafficEst: "$13.5K/day", adCount: 47, activeAds: 12, euAdspend: { impr: "2.1M", total: "18K€", perDay: "600€", pct: 94 }, social: { fb: true, ig: true }, products: ["🍋", "📦", "🎁", "💊"], adEmojis: ["🎬","📸","🎬","📸"], adsTrend: [3,5,8,12,15,18,14,12,10,12], trafficTrend: [30,35,38,42,45,47,44,41,43,45], trafficSplit: "FB 72% · Google 14%", desc: "Guten Morgen ohne Stress – Nellio UltraCalm" },
+  { id: 2, domain: "naturalelements.de", name: "Natural Elements", niche: "Supplements DE", country: "DE", flag: "🇩🇪", created: "Mar 2022", traffic: "120.0K", trafficEst: "$36K/day", adCount: 340, activeAds: 89, euAdspend: { impr: "12.4M", total: "104K€", perDay: "3.4K€", pct: 87 }, social: { fb: true, ig: true, tt: true }, products: ["🌿","💊","🧪","🔬"], adEmojis: ["🎬","🎬","📸","📸"], adsTrend: [80,95,110,120,130,125,115,100,95,89], trafficTrend: [90,100,108,115,120,118,115,112,118,120], trafficSplit: "FB 61% · Google 21%", desc: "Ashwagandha KSM-66 - Das Original aus Deutschland" },
+  { id: 3, domain: "loopEarplugs.com", name: "Loop Earplugs", niche: "Audio / Wellness", country: "BE", flag: "🇧🇪", created: "Nov 2020", traffic: "3.2M", trafficEst: "$960K/day", adCount: 309, activeAds: 45, euAdspend: { impr: "45.2M", total: "380K€", perDay: "12.7K€", pct: 78 }, social: { fb: true, ig: true, tt: true, yt: true }, products: ["🎵","🔇","🎧","✈️"], adEmojis: ["🎬","🎬","📸","🎬"], adsTrend: [30,35,38,40,45,44,43,42,44,45], trafficTrend: [2800,2900,2950,3000,3100,3150,3200,3180,3190,3200].map(v=>v/100), trafficSplit: "FB 45% · Google 32%", desc: "Concert earplugs that let you enjoy music without the damage" },
+  { id: 4, domain: "bouf.com", name: "Bouf Hair Care", niche: "Beauty", country: "AU", flag: "🇦🇺", created: "Dec 2016", traffic: "18.7K", trafficEst: "$6K/day", adCount: 158, activeAds: 33, euAdspend: { impr: "283K", total: "3K€", perDay: "108€", pct: 100 }, social: { fb: true, ig: true, tt: true, yt: true, tp: true }, products: ["💆","🧴","✨","🌊"], adEmojis: ["🎬","📸","🎬","📸"], adsTrend: [20,25,28,30,33,35,33,30,28,33], trafficTrend: [14,15,16,17,18,19,19,18,18,19], trafficSplit: "FB 52% · Google 18%", desc: "Flouf Factor Growth™ Tonic - Hair growth that actually works" },
+  { id: 5, domain: "ridge.com", name: "RIDGE Wallet", niche: "Accessories", country: "US", flag: "🇺🇸", created: "Aug 2014", traffic: "2.1M", trafficEst: "$630K/day", adCount: 1097, activeAds: 127, euAdspend: { impr: "18.9M", total: "158K€", perDay: "5.3K€", pct: 41 }, social: { fb: true, ig: true, tt: true, yt: true }, products: ["👜","🔑","📱","🎁"], adEmojis: ["📸","🎬","📸","🎬"], adsTrend: [110,115,118,120,125,127,125,122,124,127], trafficTrend: [1900,1950,2000,2050,2100,2080,2070,2080,2090,2100].map(v=>v/100), trafficSplit: "FB 38% · Google 44%", desc: "The world's best minimalist wallet. Guaranteed for life." },
+  { id: 6, domain: "sauvai.com", name: "Sauvai Cosmetics", niche: "Hair Care FR", country: "FR", flag: "🇫🇷", created: "Feb 2025", traffic: "897", trafficEst: "$265/day", adCount: 626, activeAds: 16, euAdspend: { impr: "7.4M", total: "60K€", perDay: "2K€", pct: 93 }, social: { ig: true, tt: true }, products: ["💧","🌱","✂️","🪄"], adEmojis: ["🎬","🎬","📸","🎬"], adsTrend: [5,8,10,12,15,16,14,13,15,16], trafficTrend: [1,1,2,5,8,9,10,9,9,10], trafficSplit: "FB 100%", desc: "Sublime - Soin intense cuir chevelu. La solution naturelle" },
+  { id: 7, domain: "theopenup.com", name: "OpenUp Game", niche: "Relationships", country: "US", flag: "🇺🇸", created: "Apr 2021", traffic: "11.8K", trafficEst: "$3K/day", adCount: 858, activeAds: 33, euAdspend: { impr: "6.7M", total: "59K€", perDay: "2K€", pct: 14 }, social: { ig: true, tt: true }, products: ["❤️","🎴","🎁","🌙"], adEmojis: ["🎬","📸","📸","🎬"], adsTrend: [25,28,30,33,35,33,30,28,25,33], trafficTrend: [8,9,10,11,12,12,11,11,11,12], trafficSplit: "FB 100%", desc: "Pillow Talk Deck — The card game that brings couples closer" },
+  { id: 8, domain: "glovbeauty.com", name: "Glov Beauty", niche: "Skincare", country: "US", flag: "🇺🇸", created: "Jul 2023", traffic: "467.0K", trafficEst: "$140K/day", adCount: 602, activeAds: 73, euAdspend: { impr: "8.3M", total: "69K€", perDay: "2.3K€", pct: 67 }, social: { fb: true, ig: true }, products: ["🧴","✨","🌸","💆"], adEmojis: ["📸","🎬","📸","📸"], adsTrend: [55,60,65,68,70,73,71,69,71,73], trafficTrend: [38,40,42,44,45,47,46,45,46,47], trafficSplit: "FB 54% · Google 28%", desc: "Revolutionary makeup remover that replaces 50 cotton pads" },
+  { id: 9, domain: "trinkjello.de", name: "Trinkjello", niche: "Stress / Sleep DE", country: "DE", flag: "🇩🇪", created: "Aug 2024", traffic: "8.4K", trafficEst: "$2.5K/day", adCount: 156, activeAds: 28, euAdspend: { impr: "4.2M", total: "35K€", perDay: "1.2K€", pct: 96 }, social: { ig: true, tt: true }, products: ["🌿","😴","⚗️","📦"], adEmojis: ["🎬","🎬","📸","🎬"], adsTrend: [10,14,18,22,26,28,25,22,25,28], trafficTrend: [3,4,5,6,7,8,8,8,8,8], trafficSplit: "FB 85% · Google 10%", desc: "Stress weg in 30 Minuten - klinisch getestete Formel" },
+  { id: 10, domain: "blissy.com", name: "Blissy", niche: "Sleep / Beauty", country: "US", flag: "🇺🇸", created: "Apr 2019", traffic: "933.0K", trafficEst: "$280K/day", adCount: 832, activeAds: 85, euAdspend: { impr: "14.1M", total: "118K€", perDay: "3.9K€", pct: 29 }, social: { fb: true, ig: true, tt: true }, products: ["😴","🌙","✨","🎁"], adEmojis: ["🎬","📸","🎬","📸"], adsTrend: [75,78,80,82,84,85,83,82,84,85], trafficTrend: [85,87,89,91,92,93,93,92,93,93], trafficSplit: "FB 67% · Google 22%", desc: "The world's finest 100% Mulberry Silk Pillowcase. Sleep better tonight." }
+];
+
+const ADS = [
+  { id: 1, brand: "Nellio UltraCalm", domain: "drinknellio.com", rank: 1, liveAds: 12, days: 48, dates: "Jan 9, 2026 - Today", dup: 0, emoji: "🧘", text: "Endlich wieder schlafen! Kein Stress, kein Cortisol-Peak. Nellio UltraCalm mit KSM-66 Ashwagandha. 45 Tage Geld-zurück-Garantie.", headline: "Stress weg in 30 Min", cta: "Jetzt kaufen", active: true },
+  { id: 2, brand: "Natural Elements", domain: "naturalelements.de", rank: 5, liveAds: 89, days: 120, dates: "Oct 28, 2025 - Today", dup: 14, emoji: "🌿", text: "Der #1 Ashwagandha-Extrakt Deutschlands. KSM-66 zertifiziert. 20 000+ zufriedene Kunden. Jetzt 20% Rabatt!", headline: "Deutschlands #1 Ashwagandha", cta: "Shop now", active: true },
+  { id: 3, brand: "Loop Earplugs", domain: "loopearplugs.com", rank: 12, liveAds: 45, days: 95, dates: "Nov 22, 2025 - Today", dup: 3, emoji: "🎵", text: "Finally earplugs that actually work. Block noise, not life. Perfect for concerts, work, and sleep.", headline: "The earplugs that change everything", cta: "Shop now", active: true },
+  { id: 4, brand: "Blissy", domain: "blissy.com", rank: 8, liveAds: 85, days: 210, dates: "Aug 5, 2025 - Today", dup: 22, emoji: "😴", text: "Wake up with perfect hair. Our 100% Mulberry Silk pillowcase reduces frizz, wrinkles, and sleep creases overnight.", headline: "Sleep Your Way to Perfect Hair", cta: "Shop now", active: true },
+  { id: 5, brand: "OpenUp Game", domain: "theopenup.com", rank: 34, liveAds: 33, days: 97, dates: "Nov 21, 2025 - Today", dup: 0, emoji: "❤️", text: "\"This is THE PERFECT game to bring home to the family.\" 200+ conversation cards to bring couples closer together.", headline: "The relationship card game", cta: "Get yours", active: true },
+  { id: 6, brand: "Trinkjello", domain: "trinkjello.de", rank: 22, liveAds: 28, days: 62, dates: "Dec 26, 2025 - Today", dup: 8, emoji: "⚗️", text: "Klinisch getestet: -24% Cortisol in 4 Wochen. Trinkjello kombiniert Ashwagandha + L-Theanin + Magnesium.", headline: "-24% Cortisol in 4 Wochen", cta: "Jetzt testen", active: true },
+  { id: 7, brand: "RIDGE Wallet", domain: "ridge.com", rank: 3, liveAds: 127, days: 320, dates: "Apr 12, 2025 - Today", dup: 0, emoji: "👜", text: "Stop carrying a brick in your pocket. The Ridge holds 1-12 cards. Built to last a lifetime, guaranteed.", headline: "The Last Wallet You'll Ever Need", cta: "Shop now", active: true },
+  { id: 8, brand: "Glov Beauty", domain: "glovbeauty.com", rank: 19, liveAds: 73, days: 84, dates: "Dec 4, 2025 - Today", dup: 5, emoji: "🌸", text: "Remove your makeup with just water. No more cotton pads, micellar water or face wipes. 1 GLOV = 50 cotton pads.", headline: "Remove makeup with just water", cta: "Try now", active: true },
+  { id: 9, brand: "Sauvai Cosmetics", domain: "sauvai.com", rank: 67, liveAds: 16, days: 28, dates: "Jan 30, 2026 - Today", dup: 2, emoji: "💧", text: "Démangeaisons, pellicules, cuir chevelu irrité ? Notre sérum Sublime répare en 14 jours. Testé dermatologiquement.", headline: "Le secret d'un cuir chevelu sain", cta: "Découvrir", active: true },
+  { id: 10, brand: "Bouf Hair Care", domain: "bouf.com", rank: 45, liveAds: 33, days: 148, dates: "Oct 1, 2025 - Today", dup: 0, emoji: "💆", text: "My hair only grew stronger with Flouf Factor Growth™ Tonic. 90-day money back guarantee.", headline: "Hair growth that actually works", cta: "Shop now", active: true },
+  { id: 11, brand: "Nellio UltraCalm", domain: "drinknellio.com", rank: 1, liveAds: 12, days: 31, dates: "Jan 27, 2026 - Today", dup: 0, emoji: "🌙", text: "Wachst du nachts um 3 auf? Dein Cortisol spricht. Mit Nellio UltraCalm wieder durchschlafen. 4.8⭐ 20.000+ Bewertungen.", headline: "Durchschlafen ab heute Nacht", cta: "Jetzt bestellen", active: true },
+  { id: 12, brand: "Natural Elements", domain: "naturalelements.de", rank: 5, liveAds: 89, days: 55, dates: "Jan 3, 2026 - Today", dup: 3, emoji: "🔬", text: "Wissenschaftlich belegt: KSM-66 Ashwagandha reduziert Stress um bis zu 44%. Produziert in Deutschland.", headline: "44% weniger Stress – bewiesen", cta: "Shop now", active: true }
+];
+
+const ADVERTISER_CARDS = [
+  { name: "Natural Elements GmbH", logo: "🌿", created: "2022", age: "3 Jahre", country: "🇩🇪", active: 89, trend: [70,75,80,85,89], launched14d: 312, impr: "18.2M", spend: "$181.9K", moy_impr: "244.7K/j", moy_spend: "$2.4K/j", eu_pct: "100%", countries: [{f:"🇩🇪",p:81},{f:"🇦🇹",p:19}], emojis: ["🌿","💊"], lps: ["🛒","📄"] },
+  { name: "Nellio GmbH", logo: "🧘", created: "2024", age: "2 ans", country: "🇩🇪", active: 12, trend: [5,7,9,10,12], launched14d: 47, impr: "2.1M", spend: "$18K", moy_impr: "37.5K/j", moy_spend: "$385/j", eu_pct: "94%", countries: [{f:"🇩🇪",p:88},{f:"🇦🇹",p:8},{f:"🇨🇭",p:4}], emojis: ["🧘","🌙"], lps: ["🛒","📸"] },
+  { name: "Blissy Inc.", logo: "😴", created: "2019", age: "7 ans", country: "🇺🇸", active: 85, trend: [75,78,80,83,85], launched14d: 832, impr: "42.1M", spend: "$2.8M", moy_impr: "827.1K/j", moy_spend: "$66.7K/j", eu_pct: "29%", countries: [{f:"🇺🇸",p:58},{f:"🇬🇧",p:18},{f:"🇩🇪",p:12}], emojis: ["😴","✨"], lps: ["🛒","📄"] },
+  { name: "Loop Earplugs", logo: "🎵", created: "2020", age: "5 ans", country: "🇧🇪", active: 45, trend: [35,38,40,43,45], launched14d: 309, impr: "28.5M", spend: "$1.4M", moy_impr: "512K/j", moy_spend: "$33K/j", eu_pct: "78%", countries: [{f:"🇩🇪",p:32},{f:"🇬🇧",p:28},{f:"🇫🇷",p:18}], emojis: ["🎵","🔇"], lps: ["🛒","📸"] },
+  { name: "RIDGE", logo: "👜", created: "2014", age: "11 ans", country: "🇺🇸", active: 127, trend: [110,115,120,124,127], launched14d: 1097, impr: "95.2M", spend: "$7.1M", moy_impr: "1.9M/j", moy_spend: "$142K/j", eu_pct: "41%", countries: [{f:"🇺🇸",p:52},{f:"🇬🇧",p:18},{f:"🇩🇪",p:10}], emojis: ["👜","🔑"], lps: ["🛒","📄"] }
+];
+
+const BT_BRANDS = [
+  { id: 1, name: "Natural Elements", logo: "🌿", active: 89, total: 340, visits: "120K", ads: [
+    { emoji: "🌿", text: "Ashwagandha KSM-66 – Das Original", dates: "Nov 2025 - Today", days: 120, impr: "3.2M", spend: "28K€" },
+    { emoji: "💊", text: "Stress weg in 4 Wochen. Wissenschaftlich belegt.", dates: "Jan 2026 - Today", days: 45, impr: "1.1M", spend: "9.2K€" },
+    { emoji: "🧪", text: "20.000+ Kunden vertrauen Natural Elements", dates: "Dec 2025 - Today", days: 78, impr: "2.4M", spend: "20K€" }
+  ]},
+  { id: 2, name: "Trinkjello", logo: "⚗️", active: 28, total: 156, visits: "8.4K", ads: [
+    { emoji: "⚗️", text: "Klinisch getestet: -24% Cortisol in 4 Wochen", dates: "Dec 2025 - Today", days: 62, impr: "1.8M", spend: "14.5K€" },
+    { emoji: "😴", text: "Endlich wieder durchschlafen dank Jello Sleep", dates: "Jan 2026 - Today", days: 28, impr: "820K", spend: "6.8K€" }
+  ]},
+  { id: 3, name: "Sauvai Cosmetics", logo: "💧", active: 16, total: 626, visits: "897", ads: [
+    { emoji: "💧", text: "Sublime Sérum – Résultats visibles en 14 jours", dates: "Jan 2026 - Today", days: 28, impr: "2.1M", spend: "17.5K€" }
+  ]},
+  { id: 4, name: "Loop Earplugs", logo: "🎵", active: 45, total: 309, visits: "3.2M", ads: [
+    { emoji: "🎵", text: "Block noise, not life. Perfect for concerts.", dates: "Nov 2025 - Today", days: 95, impr: "8.4M", spend: "68K€" },
+    { emoji: "🔇", text: "Finally sleep through anything. Loop Night.", dates: "Dec 2025 - Today", days: 62, impr: "5.1M", spend: "41K€" }
+  ]},
+  { id: 5, name: "Blissy", logo: "😴", active: 85, total: 832, visits: "933K", ads: [
+    { emoji: "😴", text: "Wake up with perfect hair. 100% Mulberry Silk.", dates: "Aug 2025 - Today", days: 210, impr: "14.2M", spend: "115K€" },
+    { emoji: "✨", text: "The last pillowcase you'll ever need. Guaranteed.", dates: "Oct 2025 - Today", days: 140, impr: "9.8M", spend: "79K€" }
+  ]}
+];
+
+const SWIPE_BOARDS = {
+  watchlist: [
+    { brand: "Nellio", domain: "drinknellio.com", emoji: "🧘" },
+    { brand: "Natural Elements", domain: "naturalelements.de", emoji: "🌿" },
+    { brand: "Trinkjello", domain: "trinkjello.de", emoji: "⚗️" }
+  ],
+  competitors: [
+    { brand: "Natural Elements", domain: "naturalelements.de", emoji: "🌿" },
+    { brand: "Trinkjello", domain: "trinkjello.de", emoji: "⚗️" },
+    { brand: "Cosphera", domain: "cosphera.de", emoji: "💊" },
+    { brand: "Sunday Natural", domain: "sunday.de", emoji: "🌿" },
+    { brand: "Naturtreu", domain: "naturtreu.de", emoji: "🌱" },
+    { brand: "Sensilab", domain: "sensilab.de", emoji: "🧬" },
+    { brand: "Pure Encaps", domain: "pure-encaps.de", emoji: "💙" },
+    { brand: "Realmush", domain: "realmush.de", emoji: "🍄" }
+  ],
+  winners: [
+    { brand: "Loop Earplugs", domain: "loopearplugs.com", emoji: "🎵" },
+    { brand: "RIDGE", domain: "ridge.com", emoji: "👜" },
+    { brand: "Blissy", domain: "blissy.com", emoji: "😴" },
+    { brand: "OpenUp", domain: "theopenup.com", emoji: "❤️" },
+    { brand: "Glov Beauty", domain: "glovbeauty.com", emoji: "🌸" },
+    { brand: "Bouf Hair", domain: "bouf.com", emoji: "💆" },
+    { brand: "Natural Elements", domain: "naturalelements.de", emoji: "🌿" },
+    { brand: "Sauvai", domain: "sauvai.com", emoji: "💧" },
+    { brand: "RIDGE Wallet", domain: "ridge.com", emoji: "👜" },
+    { brand: "Blissy Silk", domain: "blissy.com", emoji: "😴" },
+    { brand: "Trinkjello", domain: "trinkjello.de", emoji: "⚗️" },
+    { brand: "Nellio", domain: "drinknellio.com", emoji: "🧘" }
+  ],
+  stress: [
+    { brand: "Nellio UltraCalm", domain: "drinknellio.com", emoji: "🧘" },
+    { brand: "Trinkjello", domain: "trinkjello.de", emoji: "⚗️" },
+    { brand: "Natural Elements", domain: "naturalelements.de", emoji: "🌿" },
+    { brand: "Naturtreu Ashwa", domain: "naturtreu.de", emoji: "🌱" },
+    { brand: "Sunday Ashwagandha", domain: "sunday.de", emoji: "☀️" }
+  ]
+};
+
+// ============================================================
+// SPARKLINE
+// ============================================================
+function makeSVG(data, w, h, color, fill) {
+  const min = Math.min(...data), max = Math.max(...data);
+  const range = max - min || 1;
+  const pts = data.map((v, i) => {
+    const x = (i / (data.length - 1)) * w;
+    const y = h - ((v - min) / range) * (h - 4) - 2;
+    return `${x},${y}`;
+  }).join(' ');
+  let path = `<polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>`;
+  if (fill) {
+    const firstX = 0, lastX = w;
+    const firstY = h - ((data[0] - min) / range) * (h - 4) - 2;
+    const lastY = h - ((data[data.length-1] - min) / range) * (h - 4) - 2;
+    path += `<polygon points="${firstX},${h} ${pts} ${lastX},${h}" fill="${color}" fill-opacity="0.12"/>`;
+  }
+  return `<svg class="sparkline" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${path}</svg>`;
+}
+
+// ============================================================
+// BRAND LIBRARY
+// ============================================================
+function renderStores(list) {
+  const el = document.getElementById('library-content') || document.getElementById('content');
+  if (!el) return;
+  el.innerHTML = list.map(s => `
+    <div class="store-card">
+      <div class="store-card-inner">
+        <!-- LEFT -->
+        <div class="store-left">
+          <div class="store-favicon-row">
+            <div class="store-favicon">${s.products[0]}</div>
+            <button class="ai-badge">AI</button>
+            <span class="niche-tag">${s.niche}</span>
+          </div>
+          <div style="font-size:11px;color:#9ca3af;margin-bottom:8px;">Homepage + ${s.products.length} products</div>
+          <div class="product-scroll">
+            ${['🏠',...s.products].map(p => `<div class="product-thumb">${p}</div>`).join('')}
+          </div>
+        </div>
+        <!-- CENTER -->
+        <div class="store-center">
+          <div class="store-header">
+            <div>
+              <div class="store-name" onclick="window.open('https://'+${JSON.stringify(s.domain)})">${s.name}</div>
+              <div class="store-meta">${s.flag} ${s.domain} · Created ${s.created}</div>
+            </div>
+          </div>
+          <div class="social-icons">
+            ${s.social.fb ? '<div class="social-icon si-fb" title="Facebook">f</div>' : ''}
+            ${s.social.ig ? '<div class="social-icon si-ig" title="Instagram">📸</div>' : ''}
+            ${s.social.tt ? '<div class="social-icon si-tt" title="TikTok">♪</div>' : ''}
+            ${s.social.yt ? '<div class="social-icon si-yt" title="YouTube">▶</div>' : ''}
+            ${s.social.tw ? '<div class="social-icon si-tw" title="Twitter">𝕏</div>' : ''}
+            ${s.social.tp ? '<div class="social-icon si-tp" title="Trustpilot">★</div>' : ''}
+          </div>
+          <div class="ads-row">
+            <button class="ad-count-btn">▶ ${s.activeAds} of ${s.adCount} ads</button>
+            <div class="ad-thumbs">
+              ${s.adEmojis.map(e => `<div class="ad-thumb">${e}<div class="ad-play">▶</div></div>`).join('')}
+            </div>
+          </div>
+          <div class="sparkline-container">
+            <div class="sparkline-label">30D ads</div>
+            ${makeSVG(s.adsTrend, 120, 28, '#3b82f6', true)}
+          </div>
+        </div>
+        <!-- RIGHT -->
+        <div class="store-right">
+          <div class="metric-block">
+            <div class="metric-label">🇪🇺 EU+UK Adspend</div>
+            <div class="metric-value">${s.euAdspend.impr}</div>
+            <div class="metric-sub">${s.euAdspend.total} · ${s.euAdspend.perDay}/d</div>
+            <div style="margin-top:4px"><span class="eu-badge">🇪🇺 ${s.euAdspend.pct}%</span></div>
+          </div>
+          <div class="metric-block">
+            <div class="metric-label">📊 Traffic estimé</div>
+            <div class="metric-value">${s.traffic}</div>
+            <div class="metric-sub">${s.trafficEst}</div>
+            ${makeSVG(s.trafficTrend, 120, 28, '#10b981', true)}
+            <div style="font-size:10px;color:#9ca3af;margin-top:3px">${s.trafficSplit}</div>
+          </div>
+        </div>
+      </div>
+      <div class="store-actions">
+        <button class="action-btn" onclick="openSaveModal('store', {name:${JSON.stringify(s.name)},domain:${JSON.stringify(s.domain)},emoji:${JSON.stringify(s.products[0])},niche:${JSON.stringify(s.niche)}})">💾 Save</button>
+        <button class="action-btn">⋯</button>
+        <button class="action-btn analyze" onclick="">🔍 Analyze</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function filterLibrary(q) {
+  const filtered = q ? STORES.filter(s => s.name.toLowerCase().includes(q.toLowerCase()) || s.domain.toLowerCase().includes(q.toLowerCase()) || s.niche.toLowerCase().includes(q.toLowerCase())) : STORES;
+  renderStores(filtered);
+}
+
+function setLibraryFilter(btn, type) {
+  document.querySelectorAll('#module-library .filter-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderStores(STORES);
+}
+
+function toggleFilter(btn) { btn.classList.toggle('active'); }
+
+// ============================================================
+// AD DISCOVERY
+// ============================================================
+function renderAds(list) {
+  const grid = document.getElementById('ads-grid');
+  if (!grid) return;
+  grid.innerHTML = list.map(a => `
+    <div class="ad-card">
+      <div class="ad-card-header">
+        <div class="ad-brand">
+          <div class="ad-brand-logo">${a.emoji}</div>
+          <div>
+            <div class="ad-brand-name">${a.brand}</div>
+            <div class="ad-rank">#${a.rank} · ${a.liveAds} live ads</div>
+          </div>
+        </div>
+        <div class="ad-status">
+          <div class="status-dot ${a.active ? 'active' : 'inactive'}"></div>
+          <span class="ad-duration">${a.days}j</span>
+        </div>
+      </div>
+      <div class="ad-dates">${a.dates} ${a.dup > 0 ? `<span class="ad-dup">Dupliquée ${a.dup}×</span>` : ''}</div>
+      <div class="ad-text">${a.text}</div>
+      <div class="ad-creative">${a.emoji}</div>
+      <div class="ad-footer">
+        <div class="ad-domain">${a.domain}</div>
+        <div class="ad-headline">${a.headline}</div>
+        <button class="ad-cta">${a.cta}</button>
+        <div class="ad-actions-row">
+          <button class="icon-btn" onclick="openSaveModal('ad', {brand:${JSON.stringify(a.brand)},domain:${JSON.stringify(a.domain)},emoji:${JSON.stringify(a.emoji)},headline:${JSON.stringify(a.headline)}})">💾 Save</button>
+          <button class="icon-btn">🎯 Track</button>
+          <button class="icon-btn">⋯</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function filterDiscovery(q) {
+  const filtered = q ? ADS.filter(a => a.brand.toLowerCase().includes(q.toLowerCase()) || a.text.toLowerCase().includes(q.toLowerCase()) || a.headline.toLowerCase().includes(q.toLowerCase())) : ADS;
+  renderAds(filtered);
+}
+
+// ============================================================
+// SHOPS TABLE
+// ============================================================
+function renderShops() {
+  const tbody = document.getElementById('shops-tbody');
+  if (!tbody) return;
+  tbody.innerHTML = STORES.map(s => `
+    <tr class="shop-row">
+      <td>
+        <div class="shop-info">
+          <div class="shop-screenshot">${s.products[0]}</div>
+          <div class="shop-name-col">
+            <div class="shop-name-link">${s.name}</div>
+            <div class="shop-domain">${s.flag} ${s.domain} <span class="shopify-badge">S</span></div>
+            <div style="font-size:10px;color:#9ca3af">${s.created}</div>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="product-mini">
+          ${s.products.slice(0,3).map(p => `<div class="product-mini-img">${p}</div>`).join('')}
+        </div>
+        <div class="product-count">📦 ${Math.floor(Math.random()*200+20)}</div>
+      </td>
+      <td><span class="tag tag-blue" style="font-size:10px">${s.niche}</span></td>
+      <td>
+        <div class="traffic-cell">
+          <div class="traffic-num">${s.traffic}</div>
+          ${makeSVG(s.trafficTrend, 70, 24, '#10b981', false)}
+        </div>
+      </td>
+      <td>
+        <div class="meta-flags">${s.flag} <span style="font-size:11px;color:#374151">${s.activeAds}</span></div>
+        ${makeSVG(s.adsTrend, 60, 22, '#ef4444', false)}
+      </td>
+      <td>
+        <div style="display:flex;gap:6px;align-items:center">
+          <div style="width:52px;height:38px;background:#f3f4f6;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:20px">${s.adEmojis[0]}</div>
+          <button class="icon-btn" onclick="openSaveModal()">💾</button>
+        </div>
+      </td>
+    </tr>
+  `).join('');
+}
+
+// ============================================================
+// ADVERTISERS
+// ============================================================
+function renderAdvertisers() {
+  const el = document.getElementById('advertisers-content');
+  if (!el) return;
+  el.innerHTML = ADVERTISER_CARDS.map(a => `
+    <div class="adv-card">
+      <div class="adv-card-inner">
+        <div class="adv-header">
+          <div class="adv-logo">${a.logo}</div>
+          <div class="adv-info">
+            <div class="adv-name">${a.name}</div>
+            <div class="adv-meta">${a.country} · Créé en ${a.created} · ${a.age}</div>
+          </div>
+          <div class="adv-active-badge">● ${a.active} pubs actives</div>
+          <div style="margin-left:12px">${makeSVG(a.trend, 80, 36, '#3b82f6', true)}</div>
+          <div style="margin-left:12px;font-size:12px;color:#374151"><strong>${a.launched14d}</strong><br><span style="color:#9ca3af;font-size:10px">14j lancées</span></div>
+        </div>
+        <div class="adv-stats">
+          <div class="stat-block"><div class="stat-label">Pubs UE</div><div class="stat-value">${a.eu_pct}</div></div>
+          <div class="stat-block"><div class="stat-label">Impressions</div><div class="stat-value">${a.impr}</div></div>
+          <div class="stat-block"><div class="stat-label">Dépenses</div><div class="stat-value">${a.spend}</div></div>
+          <div class="stat-block"><div class="stat-label">Moy Impr/j</div><div class="stat-value">${a.moy_impr}</div></div>
+          <div class="stat-block"><div class="stat-label">Moy Spend/j</div><div class="stat-value">${a.moy_spend}</div></div>
+        </div>
+        <div class="adv-bottom">
+          <div>
+            <div style="font-size:10px;color:#9ca3af;margin-bottom:4px">Dernières pubs</div>
+            <div class="adv-thumbs">${a.emojis.map(e => `<div class="adv-thumb">${e}</div>`).join('')}</div>
+          </div>
+          <div style="margin-left:16px">
+            <div style="font-size:10px;color:#9ca3af;margin-bottom:4px">Landing pages</div>
+            <div class="adv-thumbs">${a.lps.map(e => `<div class="adv-thumb">${e}</div>`).join('')}</div>
+          </div>
+          <div style="margin-left:16px">
+            <div style="font-size:10px;color:#9ca3af;margin-bottom:4px">Pays ciblés</div>
+            <div class="countries-row">${a.countries.map(c => `<span class="country-badge">${c.f} ${c.p}%</span>`).join('')}</div>
+          </div>
+          <div class="adv-actions">
+            <button class="btn-sm btn-outline">📊 Analytics</button>
+            <button class="btn-sm btn-primary">+ BrandTracker</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ============================================================
+// BRANDTRACKER
+// ============================================================
+function renderBrandTracker() {
+  const list = document.getElementById('bt-brands-list');
+  if (!list) return;
+  list.innerHTML = BT_BRANDS.map((b, i) => `
+    <div class="bt-brand-item ${i===0?'active':''}" onclick="selectBTBrand(${b.id}, this)">
+      <div class="bt-brand-logo">${b.logo}</div>
+      <div class="bt-brand-name">${b.name}</div>
+      <div>
+        <div class="bt-counts">
+          <span class="bt-count" style="background:#d1fae5;color:#065f46">${b.active}</span>
+          <span class="bt-count">${b.total}</span>
+        </div>
+        <div class="bt-visits">${b.visits}/mo</div>
+      </div>
+    </div>
+  `).join('');
+  selectBTBrand(1, document.querySelector('.bt-brand-item'));
+}
+
+function selectBTBrand(id, el) {
+  document.querySelectorAll('.bt-brand-item').forEach(i => i.classList.remove('active'));
+  if (el) el.classList.add('active');
+  const brand = BT_BRANDS.find(b => b.id === id);
+  if (!brand) return;
+  document.getElementById('bt-brand-title').textContent = `📊 ${brand.name} — Timeline des ads`;
+  document.getElementById('bt-timeline').innerHTML = brand.ads.map(a => `
+    <div class="bt-ad-item">
+      <div class="bt-ad-thumb">${a.emoji}</div>
+      <div class="bt-ad-info">
+        <div class="bt-ad-text">${a.text}</div>
+        <div class="bt-ad-dates">📅 ${a.dates} · ⏱ ${a.days} jours</div>
+      </div>
+      <div class="bt-ad-stats">
+        <div style="font-size:12px;font-weight:700">${a.impr}</div>
+        <div style="font-size:10px;color:#9ca3af">Impressions</div>
+        <div style="font-size:12px;font-weight:700;color:#10b981">${a.spend}</div>
+        <div style="font-size:10px;color:#9ca3af">Adspend</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ============================================================
+// SWIPE FILES
+// ============================================================
+function renderSwipeFiles(boardKey) {
+  const items = SWIPE_BOARDS[boardKey] || [];
+  document.getElementById('sf-content').innerHTML = items.map(item => `
+    <div class="sf-item">
+      <div class="sf-item-creative">${item.emoji}</div>
+      <div class="sf-item-info">
+        <div class="sf-item-brand">${item.brand}</div>
+        <div class="sf-item-domain">${item.domain}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function selectBoard(el, key) {
+  document.querySelectorAll('.sf-board').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  renderSwipeFiles(key);
+}
+
+// ============================================================
+// MODULE SWITCHER
+// ============================================================
+// ============================================================
+// API CLIENT
+// ============================================================
+const API = 'http://localhost:3004/api';
+let _boards = [];
+let _currentSaveItem = null;
+
+async function api(method, path, body) {
+  try {
+    const opts = { method, headers: { 'Content-Type': 'application/json' } };
+    if (body) opts.body = JSON.stringify(body);
+    const r = await fetch(API + path, opts);
+    return await r.json();
+  } catch(e) {
+    console.warn('API error', path, e.message);
+    return null;
+  }
+}
+
+// ============================================================
+// BOARDS (live from backend)
+// ============================================================
+async function loadBoards() {
+  const boards = await api('GET', '/boards');
+  if (!boards) return;
+  _boards = boards;
+  // Update sidebar
+  const sidebar = document.querySelector('.sidebar-nav');
+  const boardsHtml = boards.map(b => `
+    <div class="board-item" onclick="showModule('swipefiles');loadSavedForBoard('${b._id}')">
+      <span>${b.emoji}</span>
+      <span class="sidebar-label">${b.name}</span>
+      <span class="board-badge sidebar-label">${b.count}</span>
+    </div>
+  `).join('');
+  const container = document.getElementById('boards-list');
+  if (container) container.innerHTML = boardsHtml + `<div class="board-item" onclick="showNewBoardModal()"><span style="color:#4b5563">+</span><span class="sidebar-label" style="color:#4b5563">New board</span></div>`;
+  // Update save modal
+  updateSaveModal(boards);
+}
+
+function updateSaveModal(boards) {
+  const list = document.getElementById('save-modal-boards');
+  if (!list) return;
+  list.innerHTML = boards.map(b => `
+    <div onclick="saveToBoard('${b._id}')" style="padding:10px 14px;border:1px solid #e5e7eb;border-radius:8px;cursor:pointer;display:flex;align-items:center;gap:8px;font-size:13px;" onmouseover="this.style.background='#f9fafb'" onmouseout="this.style.background=''">${b.emoji} ${b.name} <span style="margin-left:auto;color:#9ca3af;font-size:11px">${b.count}</span></div>
+  `).join('');
+}
+
+// ============================================================
+// META AD LIBRARY
+// ============================================================
+let _metaAdsLoaded = false;
+let _metaSource = 'mock';
+
+async function checkMetaToken() {
+  const status = await api('GET', '/meta/token-status');
+  const indicator = document.getElementById('meta-status');
+  if (!indicator) return;
+  if (status && status.valid) {
+    indicator.innerHTML = `<span style="color:#10b981">✅ Meta API: ${status.user?.name || 'Connecté'}</span>`;
+    _metaSource = 'meta';
+  } else {
+    indicator.innerHTML = `<span style="color:#f59e0b" onclick="showMetaConfig()" style="cursor:pointer">⚠️ Meta API: Token requis — Cliquer pour configurer</span>`;
+    _metaSource = 'mock';
+  }
+}
+
+async function searchMetaAds(q, country) {
+  if (_metaSource !== 'meta') return null;
+  const result = await api('GET', `/meta/ads?q=${encodeURIComponent(q)}&country=${country || 'DE'}&limit=20`);
+  if (!result || !result.data || result.data.length === 0) return null;
+  // Transform Meta API format → our ad format
+  return result.data.map((a, i) => ({
+    id: a.id,
+    brand: a.page_name || 'Unknown',
+    domain: (a.ad_creative_link_captions || [])[0] || a.page_name,
+    rank: i + 1,
+    liveAds: 1,
+    days: a.ad_delivery_start_time ? Math.floor((Date.now() - new Date(a.ad_delivery_start_time).getTime()) / 86400000) : 0,
+    dates: a.ad_delivery_start_time ? `${a.ad_delivery_start_time.split('T')[0]} - ${a.ad_delivery_stop_time || 'Today'}` : '',
+    dup: 0,
+    emoji: '📢',
+    text: (a.ad_creative_bodies || [])[0] || (a.ad_creative_link_descriptions || [])[0] || '',
+    headline: (a.ad_creative_link_titles || [])[0] || a.page_name,
+    cta: 'Shop now',
+    active: !a.ad_delivery_stop_time,
+    snapshotUrl: a.ad_snapshot_url,
+    spend: a.spend,
+    impressions: a.impressions,
+    _raw: a,
+  }));
+}
+
+// ============================================================
+// META CONFIG MODAL
+// ============================================================
+function showMetaConfig() {
+  const modal = document.getElementById('meta-config-modal');
+  if (modal) modal.classList.add('open');
+}
+function closeMetaConfig() {
+  const modal = document.getElementById('meta-config-modal');
+  if (modal) modal.classList.remove('open');
+}
+async function saveMetaToken() {
+  const input = document.getElementById('meta-token-input');
+  if (!input || !input.value.trim()) return showToast('❌ Entrer un token valide');
+  const result = await api('POST', '/meta/token', { token: input.value.trim() });
+  if (result && result.ok) {
+    showToast('✅ Token sauvegardé! Vérification...');
+    closeMetaConfig();
+    await checkMetaToken();
+    if (_metaSource === 'meta') {
+      showToast('🎉 Meta Ad Library connecté!');
+      renderAds(ADS); // reload with fresh data
+    }
+  } else {
+    showToast('❌ Erreur: ' + (result?.error || 'Inconnu'));
+  }
+}
+
+// ============================================================
+// BRANDTRACKER (live backend)
+// ============================================================
+let _btBrandsLive = [];
+async function loadTrackerBrands() {
+  const brands = await api('GET', '/tracker');
+  if (brands && brands.length > 0) {
+    _btBrandsLive = brands;
+    renderBrandTrackerLive();
+  } else {
+    renderBrandTracker(); // fallback mock
+  }
+}
+
+function renderBrandTrackerLive() {
+  const list = document.getElementById('bt-brands-list');
+  if (!list) return;
+  list.innerHTML = _btBrandsLive.map((b, i) => `
+    <div class="bt-brand-item ${i===0?'active':''}" onclick="selectBTBrandLive('${b._id}', this)">
+      <div class="bt-brand-logo">${b.emoji}</div>
+      <div class="bt-brand-name">${b.name}</div>
+      <div>
+        <div class="bt-counts">
+          <span class="bt-count" style="background:#d1fae5;color:#065f46">${b.active}</span>
+          <span class="bt-count">${b.total}</span>
+        </div>
+        <div class="bt-visits">${b.visits}/mo</div>
+      </div>
+    </div>
+  `).join('') + `
+    <div class="bt-brand-item" onclick="showAddBrandModal()" style="border-top:1px solid #f3f4f6;margin-top:8px;padding-top:12px;">
+      <div class="bt-brand-logo" style="background:#f3f4f6;color:#9ca3af">+</div>
+      <div style="font-size:12px;color:#9ca3af">Ajouter une brand</div>
+    </div>
+  `;
+  if (_btBrandsLive.length > 0) selectBTBrandLive(_btBrandsLive[0]._id, list.children[0]);
+}
+
+async function selectBTBrandLive(id, el) {
+  document.querySelectorAll('.bt-brand-item').forEach(i => i.classList.remove('active'));
+  if (el) el.classList.add('active');
+  const brand = _btBrandsLive.find(b => b._id === id);
+  if (!brand) return;
+  document.getElementById('bt-brand-title').textContent = `📊 ${brand.name} — Timeline des ads`;
+  
+  // Try Meta API if pageId configured and token valid
+  if (brand.pageId && _metaSource === 'meta') {
+    document.getElementById('bt-timeline').innerHTML = '<div style="text-align:center;padding:20px;color:#9ca3af">⏳ Chargement depuis Meta...</div>';
+    const result = await api('GET', `/meta/page/${brand.pageId}`);
+    if (result && result.data && result.data.length > 0) {
+      renderBTTimeline(result.data.map(a => ({
+        emoji: '📢',
+        text: (a.ad_creative_bodies || [])[0] || a.page_name,
+        dates: `${(a.ad_delivery_start_time||'').split('T')[0]} - ${a.ad_delivery_stop_time || 'Today'}`,
+        days: Math.floor((Date.now() - new Date(a.ad_delivery_start_time||Date.now()).getTime()) / 86400000),
+        impr: a.impressions?.lower_bound ? `${(parseInt(a.impressions.lower_bound)/1000).toFixed(0)}K+` : '—',
+        spend: a.spend?.lower_bound ? `${(parseInt(a.spend.lower_bound)/1000).toFixed(1)}K€` : '—',
+      })));
+      return;
+    }
+  }
+  
+  // Fallback mock
+  const mockBrand = BT_BRANDS.find(b => b.name === brand.name);
+  if (mockBrand) renderBTTimeline(mockBrand.ads);
+  else document.getElementById('bt-timeline').innerHTML = '<div style="text-align:center;padding:40px;color:#9ca3af">Aucune donnée. Configurez un FB Page ID pour voir les vraies ads.</div>';
+}
+
+function renderBTTimeline(ads) {
+  document.getElementById('bt-timeline').innerHTML = ads.map(a => `
+    <div class="bt-ad-item">
+      <div class="bt-ad-thumb">${a.emoji}</div>
+      <div class="bt-ad-info">
+        <div class="bt-ad-text">${a.text}</div>
+        <div class="bt-ad-dates">📅 ${a.dates} · ⏱ ${a.days} jours</div>
+      </div>
+      <div class="bt-ad-stats">
+        <div style="font-size:12px;font-weight:700">${a.impr}</div>
+        <div style="font-size:10px;color:#9ca3af">Impressions</div>
+        <div style="font-size:12px;font-weight:700;color:#10b981">${a.spend}</div>
+        <div style="font-size:10px;color:#9ca3af">Adspend</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ADD BRAND MODAL
+function showAddBrandModal() {
+  document.getElementById('add-brand-modal').classList.add('open');
+}
+function closeAddBrandModal() {
+  document.getElementById('add-brand-modal').classList.remove('open');
+}
+async function addBrand() {
+  const name = document.getElementById('brand-name-input')?.value?.trim();
+  const domain = document.getElementById('brand-domain-input')?.value?.trim();
+  const pageId = document.getElementById('brand-pageid-input')?.value?.trim();
+  if (!name) return showToast('❌ Nom requis');
+  const result = await api('POST', '/tracker', { name, domain, pageId: pageId || null, emoji: '🏷️' });
+  if (result && result._id) {
+    closeAddBrandModal();
+    showToast(`✅ ${name} ajouté au BrandTracker`);
+    await loadTrackerBrands();
+  }
+}
+
+// ============================================================
+// SWIPE FILES (live backend)
+// ============================================================
+let _currentBoardId = null;
+async function loadSavedForBoard(boardId) {
+  _currentBoardId = boardId;
+  const items = await api('GET', `/saved?boardId=${boardId}`);
+  if (!items) return;
+  const board = _boards.find(b => b._id === boardId);
+  renderSavedItems(items, board?.name || 'Board');
+}
+
+function renderSavedItems(items, boardName) {
+  const el = document.getElementById('sf-content');
+  if (!el) return;
+  if (items.length === 0) {
+    el.innerHTML = `<div class="empty-state"><div style="font-size:40px">📁</div><p>Aucun élément dans "${boardName}"</p><p style="font-size:12px">Sauvegardez des ads ou stores depuis les autres modules</p></div>`;
+    return;
+  }
+  el.innerHTML = items.map(item => {
+    const d = item.data;
+    return `
+      <div class="sf-item">
+        <div class="sf-item-creative">${d.emoji || '📢'}</div>
+        <div class="sf-item-info">
+          <div class="sf-item-brand">${d.brand || d.name || '—'}</div>
+          <div class="sf-item-domain">${d.domain || ''}</div>
+          <div style="display:flex;justify-content:space-between;margin-top:4px">
+            <span style="font-size:10px;color:#9ca3af">${item.type}</span>
+            <button onclick="deleteSavedItem('${item._id}')" style="border:none;background:none;color:#ef4444;cursor:pointer;font-size:10px">✕</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+async function deleteSavedItem(id) {
+  await api('DELETE', `/saved/${id}`);
+  await loadBoards();
+  if (_currentBoardId) await loadSavedForBoard(_currentBoardId);
+}
+
+// ============================================================
+// MODAL SAVE (api-backed)
+// ============================================================
+function openSaveModal(type, data) {
+  _currentSaveItem = { type: type || 'ad', data: data || {} };
+  loadBoards().then(() => {
+    document.getElementById('save-modal').classList.add('open');
+  });
+}
+function closeSaveModal() {
+  document.getElementById('save-modal').classList.remove('open');
+}
+async function saveToBoard(boardId) {
+  if (!_currentSaveItem) { closeSaveModal(); return; }
+  const result = await api('POST', '/saved', { boardId, ...(_currentSaveItem) });
+  closeSaveModal();
+  if (result && result._id) {
+    showToast(`✅ Sauvegardé!`);
+    loadBoards();
+  } else {
+    showToast('❌ Erreur lors de la sauvegarde');
+  }
+}
+
+// ============================================================
+// QUICK CREATE BOARD FROM SAVE MODAL
+// ============================================================
+async function quickCreateBoard() {
+  const input = document.getElementById('quick-board-name');
+  const name = input?.value?.trim();
+  if (!name) return;
+  const result = await api('POST', '/boards', { name, emoji: '📁' });
+  if (result && result._id) {
+    input.value = '';
+    await loadBoards();
+    // auto-save into new board
+    await saveToBoard(result._id);
+  }
+}
+
+// ============================================================
+// TOAST
+// ============================================================
+function showToast(msg, color = '#111827') {
+  const toast = document.createElement('div');
+  toast.style.cssText = `position:fixed;bottom:24px;right:24px;background:${color};color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;z-index:9999;box-shadow:0 4px 12px rgba(0,0,0,0.2);animation:fadeIn 0.2s ease`;
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 2800);
+}
+
+// ============================================================
+// NEW BOARD MODAL
+// ============================================================
+function showNewBoardModal() {
+  document.getElementById('new-board-modal').classList.add('open');
+}
+function closeNewBoardModal() {
+  document.getElementById('new-board-modal').classList.remove('open');
+}
+async function createBoard() {
+  const name = document.getElementById('new-board-name')?.value?.trim();
+  const emoji = document.getElementById('new-board-emoji')?.value || '📁';
+  if (!name) return showToast('❌ Nom requis');
+  const result = await api('POST', '/boards', { name, emoji });
+  if (result && result._id) {
+    closeNewBoardModal();
+    showToast(`✅ Board "${name}" créé!`);
+    loadBoards();
+  }
+}
+
+// ============================================================
+// MODULE SWITCHER (updated)
+// ============================================================
+const MODULE_LABELS = { library: 'Brand Library', discovery: 'Ad Discovery', shops: 'Shops', advertisers: 'Advertisers', brandtracker: 'BrandTracker', swipefiles: 'Swipe Files' };
+
+function showModule(name) {
+  document.querySelectorAll('.module-view').forEach(v => v.style.display = 'none');
+  document.querySelectorAll('.module-btn').forEach(b => b.classList.remove('active'));
+
+  const el = document.getElementById('module-' + name);
+  if (el) { el.style.display = 'flex'; el.style.flexDirection = 'column'; }
+
+  const btns = document.querySelectorAll('.module-btn');
+  const idx = Object.keys(MODULE_LABELS).indexOf(name);
+  if (btns[idx]) btns[idx].classList.add('active');
+
+  const lbl = document.getElementById('module-label');
+  if (lbl) lbl.textContent = MODULE_LABELS[name] || name;
+
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+
+  if (name === 'library') renderStores(STORES);
+  else if (name === 'discovery') renderAds(ADS);
+  else if (name === 'shops') renderShops();
+  else if (name === 'advertisers') renderAdvertisers();
+  else if (name === 'brandtracker') loadTrackerBrands();
+  else if (name === 'swipefiles') {
+    if (_boards.length > 0) loadSavedForBoard(_boards[0]._id);
+    else loadBoards().then(() => { if (_boards.length > 0) loadSavedForBoard(_boards[0]._id); });
+  }
+}
+
+// ============================================================
+// META SEARCH (live in Discovery)
+// ============================================================
+async function filterDiscovery(q) {
+  if (q && q.length > 2 && _metaSource === 'meta') {
+    const realAds = await searchMetaAds(q, 'DE');
+    if (realAds && realAds.length > 0) {
+      renderAds(realAds);
+      return;
+    }
+  }
+  const filtered = q ? ADS.filter(a => a.brand.toLowerCase().includes(q.toLowerCase()) || a.text.toLowerCase().includes(q.toLowerCase()) || a.headline.toLowerCase().includes(q.toLowerCase())) : ADS;
+  renderAds(filtered);
+}
+
+// ============================================================
+// INIT
+// ============================================================
+window.addEventListener('DOMContentLoaded', async () => {
+  // Render stores immediately (don't wait for async)
+  renderStores(STORES);
+  // Then load backend data async
+  try { await loadBoards(); } catch(e) { console.warn('boards:', e); }
+  try { await checkMetaToken(); } catch(e) { console.warn('meta:', e); }
+  showModule('library');
+});
+</script>
+<!-- ── IMPORT DUPLICATES MODAL ──────────────────────────────── -->
+<div id="import-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#1e1e2e;border:1px solid #3b3b5c;border-radius:14px;padding:28px;width:460px;max-width:95vw;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+      <div style="font-size:17px;font-weight:700;color:#e2e8f0">📥 Import depuis Meta Ad Library</div>
+      <button onclick="closeImportModal()" style="background:none;border:none;color:#94a3b8;font-size:20px;cursor:pointer">✕</button>
+    </div>
+
+    <div style="margin-bottom:16px">
+      <label style="font-size:12px;color:#94a3b8;display:block;margin-bottom:6px">Pays cible</label>
+      <select id="import-country" style="width:100%;padding:9px 12px;background:#2d2d44;border:1px solid #3b3b5c;border-radius:8px;color:#e2e8f0;font-size:13px">
+        <option value="DE">🇩🇪 Allemagne (DE)</option>
+        <option value="AT">🇦🇹 Autriche (AT)</option>
+        <option value="CH">🇨🇭 Suisse (CH)</option>
+        <option value="US">🇺🇸 États-Unis (US)</option>
+        <option value="GB">🇬🇧 Royaume-Uni (GB)</option>
+      </select>
+    </div>
+
+    <div style="margin-bottom:16px">
+      <label style="font-size:12px;color:#94a3b8;display:block;margin-bottom:6px">Duplication minimum</label>
+      <select id="import-mindup" style="width:100%;padding:9px 12px;background:#2d2d44;border:1px solid #3b3b5c;border-radius:8px;color:#e2e8f0;font-size:13px">
+        <option value="2">≥ 2 copies (tous les scalers)</option>
+        <option value="3">≥ 3 copies (scalers confirmés)</option>
+        <option value="5">≥ 5 copies (big winners seulement)</option>
+        <option value="10">≥ 10 copies (top 1% winners)</option>
+      </select>
+    </div>
+
+    <div style="background:#2d2d44;border-radius:8px;padding:12px;margin-bottom:20px;font-size:11px;color:#94a3b8;line-height:1.6">
+      🔍 Scrape <strong style="color:#a5b4fc">10 requêtes</strong> : ashwagandha, stress, schlaf, cortisol, magnesium, l-theanin, burnout, einschlafen, durchschlafen, beruhigung<br>
+      📥 Importe uniquement les ads tournant sur <strong style="color:#a5b4fc">plusieurs copies</strong> simultanées (= winners prouvés en scale)<br>
+      📁 Sauvegarde dans un board <strong style="color:#a5b4fc">"Meta Imports"</strong>
+    </div>
+
+    <div id="import-status" style="display:none;margin-bottom:16px;padding:12px;border-radius:8px;font-size:12px;line-height:1.7"></div>
+
+    <button onclick="runImport()" id="import-btn" style="width:100%;padding:11px;background:linear-gradient(135deg,#6c63ff,#a855f7);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer">
+      🚀 Lancer l'import
+    </button>
+  </div>
+</div>
+
+<script>
+function openImportModal() {
+  const m = document.getElementById('import-modal');
+  m.style.display = 'flex';
+}
+function closeImportModal() {
+  document.getElementById('import-modal').style.display = 'none';
+  document.getElementById('import-status').style.display = 'none';
+}
+async function runImport() {
+  const btn = document.getElementById('import-btn');
+  const status = document.getElementById('import-status');
+  const country = document.getElementById('import-country').value;
+  const min_dup = parseInt(document.getElementById('import-mindup').value);
+
+  btn.disabled = true;
+  btn.textContent = '⏳ Scraping Meta Ad Library...';
+  status.style.display = 'block';
+  status.style.background = '#1e3a5f';
+  status.style.border = '1px solid #3b82f6';
+  status.style.color = '#93c5fd';
+  status.innerHTML = '⏳ Requêtes en cours sur 10 mots-clés...<br>Cela peut prendre 15-30 secondes.';
+
+  try {
+    const r = await fetch('/api/meta/import-duplicates', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ country, min_dup })
+    });
+    const d = await r.json();
+
+    if (d.error) {
+      status.style.background = '#3b1a1a';
+      status.style.border = '1px solid #ef4444';
+      status.style.color = '#fca5a5';
+      status.innerHTML = `❌ Erreur : ${d.error}`;
+    } else {
+      status.style.background = '#1a3b2a';
+      status.style.border = '1px solid #10b981';
+      status.style.color = '#6ee7b7';
+      status.innerHTML = `✅ <strong>${d.imported} ads importées</strong> (${d.skipped} déjà sauvegardées)<br>
+        📊 Scrappées : ${d.total_scraped || 0} | Avec dup ≥${min_dup} : ${d.total_duplicated || 0}<br>
+        📁 Board : Meta Imports<br>
+        ${d.errors ? '<span style="color:#fbbf24">⚠️ ' + d.errors.length + ' requêtes en erreur (normal si token limité)</span>' : ''}`;
+      // Refresh ads grid
+      setTimeout(() => { renderAds(ADS); }, 500);
+    }
+  } catch(e) {
+    status.style.background = '#3b1a1a';
+    status.style.border = '1px solid #ef4444';
+    status.style.color = '#fca5a5';
+    status.innerHTML = `❌ Erreur réseau : ${e.message}`;
+  }
+
+  btn.disabled = false;
+  btn.textContent = '🚀 Lancer l\'import';
+}
+</script>
+</body>
+</html>

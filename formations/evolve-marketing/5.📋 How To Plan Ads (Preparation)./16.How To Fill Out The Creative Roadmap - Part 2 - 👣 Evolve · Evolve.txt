@@ -1,0 +1,116 @@
+Transcribed with Cockatoo
+
+
+0:00:00
+Alright, so in part 2 of the creative roadmap, this is a very important module for you guys to watch because we have done a lot of testing on this and we have realized that this column that used to be inside of the growth guide here, we used to have something called add variable as well, we realized it wasn't the best thing to have. And I'll explain why. And for those of you that don't know what this is, or maybe you didn't understand or you want a refresher, let me explain what this is. And then I'm going to, after that, explain why we're changing it. And so for example, If we were testing a concept that was the best ad ever. So the actual concept is the best ad ever. 
+
+0:00:39
+Ignore the top part here. This is just for the sake of the example. But say for example, we were testing messaging here. What we would do is we would have three different types of messages. So we would say like headline one is this the best ad? This is the best ad. 
+
+0:00:56
+The next headline would be best ad ever. And then the third headline would be the greatest ad. And then what we would do is we would make sure that the visual was the same for every single headline. That is what we used to do. And same thing for hook. So if the hook was what we were testing, which for us is usually the visual, what we would do then is we would actually have the same messaging, because now we're testing the hook variable, we would have the same messaging, but we would test three different visual hooks. 
+
+0:01:30
+Okay. 
+
+0:01:31
+So if the headline was, this is the best ad, we would test visual one. And then again, because we wanted to only test one variable at a time, we would say, this is the best ad. And then we would test visual number two. And again, the thought process behind this was good. And it was the same thing for holds and holds is basically everything past the hook. We never usually tested holds to be honest, holds were only ever done through iterations, which is another thing that I'll talk about. 
+
+0:01:54
+And then it'd be the same thing for images, right? So visual here, if we're going to do the image, the same thing. right? 
+
+0:02:00
+We would never test different images or sorry, if we were testing different images, we would never test different headlines with it, which if you ask us now is kind of dumb. 
+
+0:02:10
+Okay. And I'll explain why it's kind of dumb because When you're coming up with new concepts, it doesn't make sense to test so granular when you don't even, for lack of my Canadian language here, you don't even fucking know if the concept works yet. So why are you hyper -optimizing and being super scientific with it? Now, if your strategy is to be like, okay, well, we saw visual two got the most amount of spend. So now what we're going to do is we're going to do a second round of testing where we only use visual two and now we use three different headlines where I go, you know, greatest ad. And then I say, uh, the best ad in existence. 
+
+0:02:57
+I'm not going to spell that word right. Say, for example, this was in your process and you're like, oh, okay, well now the greatest ad is the best headline. And now test number three is going to be greatest ad. And now we're going to do visual two. And then we're also going to do visual, not three now, but four and five, because now we're going to test more. And so now you're kind of getting very scientific with it. 
+
+0:03:18
+And if you want to do that, that is fine. But if you ask me, you should only do that once you actually have a winner. Otherwise, why are we wasting our time on this? And the reason why I say that is because this is what dragged our, and I know I say that word funny, but this is what brought our hit rate down massively last year because we were spending so much time testing so much micro stuff that just did not matter. And so now, the way that we're actually doing this, to give you guys, again, the written example. So let me go back here is say for example, we are testing three different images. 
+
+0:04:01
+We wouldn't just test three of the same headlines on it, we would look at the visual and we would say, what is this visual showing, right? And then we would actually have a headline that is congruent. And so now when we do our initial test, it will actually look something like this, where we actually have, oh my goodness, three different images and three different headlines, right? But the thing is, is we're not just reading randomly putting together headlines and images. This is what we, this is why we never did this, but what we're doing, and I know I'm talking about how the visuals are influencing the messaging, but 98 % of the time, it's going to be the messaging that influences the visual. So make sure you guys think that through. 
+
+0:04:47
+And I'm going to, again, I'm sure an example of this, but the thing is, is that when you do things this way, you're able to take bigger swings off of the, off a rip. Okay, and so it's so important. to make sure, and this applies to hooks as well. And just so you guys know, the reason why we're also not really tracking whether or not we're testing the variable anymore is because we say what we're gonna test inside of the brief, which we link here, and we're also gonna say, usually, inside of the concept explanation as well, what we wanna test. And so now, because we don't really track the variable, we're just gonna look at our three biggest swings that we can take from whatever our concept is. of this in actual action rather than just me scribbling around on a spreadsheet. This is what it actually looks like. 
+
+0:05:37
+So we had this concept which was superlative statics. And what that means is like the world's first claims or like these big claims that we're going to make. And so rather than just saying the world's first stainless steel humidifier and putting this headline, you know, on two other different images, what we decided to do is we actually decided to do the world's first stainless steel humidifier. 
+
+0:06:03
+We did the world's most hygienic humidifier, and then we did the first doctor designed humidifier. 
+
+0:06:10
+Okay. Those were the three headlines that we tested. And what you'll notice is that all of those images are different, okay? And I know it sounds crazy, but the reason why they're different is because they're actually congruent, right? We just said the first doctor -designed humidifier. What is more believable, this, the care product next to the doctor, or imagine that headline on this? 
+
+0:06:38
+Maybe that headline still works, and don't get me wrong, it potentially could have, right? But would it have been the same? Like, would it have been as congruent? Like, would this have been a complete ad? Not really, right? And it's the same thing with this one here, like, again, and we're still doing this at the agency, but the world's most hygienic humidifier. 
+
+0:06:58
+This photo, to me, doesn't really scream, like, hygienic. like maybe a little bit because it's very clean like if the bed was all messy in the background and it looked really gross like maybe not so this photo is pretty decent but obviously we have limitations just like how you guys have with photos but at the end of the day like the world's most hygienic uniform i don't i'm not the biggest fan of that but like i would have maybe done, like had like Mr. Clean in the background or something like that, right? Like something that just screams good hygiene, right? Like maybe a sparkling bathroom, something like that would have been a better image. We didn't have that, so it's fine. But this one here specifically actually ended up being a new winning ad and was a top spender for us. 
+
+0:07:40
+And as you can see here, we're saying the world's first stainless steel humidifier, and it's very, clear that this is stainless steel. We have it opened, right? So imagine this headline on this image here, it doesn't make that much sense because it's like, where's the stainless steel? Like maybe that's steel, but that looks like plastic, right? But when we open it, now we actually see the stainless steel. 
+
+0:08:03
+It's congruent, okay? And it's the exact same thing with your videos and with your hooks, okay? I don't want you taking one headline, again, the greatest ad ever, and I don't want you to have hook one, hook two, and hook three. with the same headline. This is not, I don't want you to do this because you're going micro before you even know something works, okay? And so what I would like to see you do is if the headline is the greatest ad ever, which is again, it's really tough. 
+
+0:08:32
+Let me actually pull a proper example of how we've actually done this. So here's a video example for you guys as well, right? So hook number one, I'm gonna play it for you guys. It's probably gonna be really loud. Do you have a humidifier in your bedroom, right? That's the hook. 
+
+0:08:49
+What's the clip? So humidifier in a bedroom, right? It's congruent. Now this is the same concept. It's talking about how it's impossible to clean your humidifier. So I'll play the next part of this where there's like this, there's this cat, you know, it could stop scrolling. 
+
+0:09:02
+It could be dangerous, right? So there we go. Now, if we go to the second variation of this, if you own a humidifier, this one says, if you own a humidifier, but you can't clean it properly. And then what do we do? We show this hook, right? And then we say, just try giving it a deep clean. 
+
+0:09:18
+right and now we're going through and again this is the same concept but the hook in the lead up is different and now if we go to this one as well i thought i was cleaning i thought i was cleaning my heater fire correctly even if i correctly i was wrong right so those all those kind of followed the same concept which the concept was like cheap humidifiers. It's PSA cheap humidifiers. The concept was to talk about how cheap humidifiers are, right? And so what we did is we then put three like pretty bigger swing, like bigger swing hooks. We didn't just say like PSA cheap humidifiers, like PSA, do you have a cheap humidifier? 
+
+0:09:57
+Like we didn't make these smaller adjustments. We made bigger swings, okay? 
+
+0:10:02
+Because when you're testing new concepts, you need to do that. 
+
+0:10:06
+Right. And if it's under the same concept, it's fine. Like say, for example, if we had those three things that was kind of like talking about cheap humidifiers and like how they're dangerous and hard to clean. But then we went off on something completely different about how, you know, I don't even know, like how it's good for pets or something. 
+
+0:10:23
+And again, even that might be okay. 
+
+0:10:25
+Okay. But like at the end of the day, what I'm trying to get at here is that you have to take bigger swings in your initial ad concepts, which is why we don't really care about tracking variables right now. Now for iterations specifically, that is something that we are working on building out. And we actually might even have our own iteration roadmap where we actually put iterations inside of this as another specific map. And whenever we hit a winning ad, it goes into that and then we start tracking more granular stuff, like let's test different headlines, let's test different hooks, different holds, et cetera, et cetera. But for right now, when you guys are trying to find winning ads, you need to make bigger swings and you need to stop being so granular because unless you use that data, which I know like 95 % of you guys don't, where you actually have, okay, I'm gonna test this and then this and then that, and then this, it's useless. 
+
+0:11:14
+It's pointless. Because what most people do is they test the concept, it doesn't work, and then they move on to the next one, right? And so at the end of the day, Take bigger swings with your initial concepts. It's an 11 minute video of me just saying that in one short word. And to show you that this actually works as well, where congruence matters, here is one ad right here where it says the perfect copy. for slow sippers. 
+
+0:11:37
+This one here says the perfect gift for slow sippers. Now, this is basically the same thing. So like these ads are the exact same, which is the real comparison here. But we did another one as well for the sake of this. But the perfect gift for slow sippers, and then the perfect gift for slow sippers here, right? You might look and be like, yeah, you know, both of these images could work. 
+
+0:11:55
+But at the end of the day, I asked him, I said, hey, like, I can't really see the product here. I don't, I'm not clarifying what a slow slipper is. And my main call out here, the main benefit is that this keeps your coffee hot for six hours. Nowhere in here do I see coffee being hot. And so I asked our designers to make another variation that said, you know, stoke mugs, keep your coffee hot for up to six hours. So basically the exact same headline, just a little bit more marketing. 
+
+0:12:20
+And I said, I want to see steam coming from the cup. that shows that the coffee is still hot. And the result of it was this ad ended up getting $6 ,500 worth of spend, which ended up being like for this account specifically, like a pretty decent spender. And this ad got $2, okay? And so the point of this is, is that the congruence matters, okay? 
+
+0:12:45
+And you need to make sure you're actually thinking through concepts as an entire thing, rather than just a specific variable. 
+
+0:12:52
+Okay. Now there will be times where like, for example, you can put a different headline on this, but what I would recommend you guys and use the same image, don't get me wrong, or you can use the same hook. But what I would push you guys to do is actually try to take bigger swings that still fall under that concept, right? Like if your concept is about plants and say, for example, we want to go back to like the humidifier example and the concept is about plants. We don't want to go talking about pits, but we could talk about three different things related to plants. Are you killing your plants, right? 
+
+0:13:23
+Use this humidifier, it'll help it. Or another one could be like, you know, stop buying fake plants, right? Like you can actually buy real ones and they won't die. This humidifier will help you, right? And the third variation can be something else. But you can see how those are like different swings and different ideas, but they're under the same umbrella. 
+
+0:13:40
+And that's what I wanna push you guys to do, okay? So hopefully that makes sense. If you guys have more questions around this, please let me know. But it's a very, very, very, very important video for you guys to understand, especially if you're struggling to make winners, you need to take bigger swings and you need to be a little bit less granular, okay? 
+
+0:13:53
+Let's go.
+
+
+Transcribed with Cockatoo

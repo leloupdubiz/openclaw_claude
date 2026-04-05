@@ -1,0 +1,41 @@
+Okay. So this extra little step that I added in here is how we're going to set
+up the EZMedia entrance list using viral sweep and Klaviyo integration.
+So I'm going to copy this because the first step is we want to go back into
+Klaviyo. We want to go into list and segments and we want to create a new list.
+Okay. Create a new list.
+Let's call it EZMedia dash entrance. Tag it with EZMedia.
+Create the list and then always remember any new list you create.
+Let's always go into settings, go into consent, make sure you hit single opt-in
+because what this does is it prevents people from, if we don't do single opt-in
+then anyone who opts into the viral sweep giveaway will then have to, Klaviyo will
+send them another email to confirm with them if they want to be opted into this
+flow. But obviously we don't need to do this because they've already on this
+Omino's mailing list. So do you kind of get what I mean? So we don't need to opt
+them in again or ask for their consent. So always choose single opt-in then let's
+hit save and that should be that. And then the next thing we want to do is we
+want to go into, click on the little profile here, go into settings. We want to
+create a little new API key so that we can set up the integration between Klaviyo and
+viral sweep. Let's create a new private API key. Then we're going to create a custom key.
+We're going to call it viral sweep. Okay. And then we're just going to do a grant applications
+full access to every ice, every API scope. So for viral sweep, we're just giving them
+full access to everything, which is fine. So now this is the key. Let's copy this one
+and it will, you don't need to do this for every new viral sweep because it will
+obviously depend on the, the Klaviyo account. So you need to do this for each
+different Klaviyo account to link them. So let's copy this API key. Let's go back
+into viral sweep. Now this is the, the one that we've set up for Omino. So let's go
+into edit and let's look for integrations over here. Let's go email and SMS and it's
+already connected to, and if you click on this, it's already connected to our test
+list, which is like our original, um, ECA media company Klaviyo account. So we want
+to disconnect that because obviously we're not using that one and then we want to
+connect it to the client's Klaviyo account. And this is how you do it by
+using this API key. So we insert the API key. And then what it's going to do is
+ask us what list we want to send people who have opted in to this giveaway to.
+So anyone who opts into this giveaway, Klaviyo is going to collect their email,
+their name, all of their details, and it's going to send that information back to
+Klaviyo. This is a really, really useful step because this means that now we can
+filter the future emails to the, only the people who have opted into the giveaway.
+So if we look at here, here is the one that we have easy and media entrance, and
+now any, anyone who opts into this list will get put into this list here. So we
+will have a nice filtered list for only the people who have opted into the
+giveaway. If that makes sense, click done. And that is this pretty much all set up.
+So that is it.

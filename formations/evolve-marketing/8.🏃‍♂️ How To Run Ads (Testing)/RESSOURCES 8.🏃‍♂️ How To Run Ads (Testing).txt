@@ -1,0 +1,313 @@
+Full Media Buying Strategy Template
+
+
+Media Buying Document: https://docs.google.com/spreadsheets/d/1s_xddywTTI8Df7CNtw6is9Y7X19qdM7dBIcmYNzB4_Q/edit?usp=sharing
+
+3:2:2 Method = 3 Creatives, 2 Ad Copies, 2 Headlines
+
+How To See Ads Performance + Our Columns
+
+
+Our Columns:
+
+Campaign
+
+Date created
+
+Attribution setting
+
+Delivery
+
+Budget
+
+Amount spent
+
+Results
+
+Cost per result
+
+Purchases
+
+Cost per purchase
+
+Purchases conversion value
+
+Purchase ROAS (return on ad spend)
+
+AOV
+
+CVR
+
+Impressions
+
+Reach
+
+Frequency
+
+CPM (cost per 1,000 impressions)
+
+Link clicks
+
+Cost per link click
+
+Link CTR (click-through rate)
+
+Video Hook
+
+Video Hold
+
+Video average play time
+
+Adds to cart
+
+Cost per add to cart
+
+Checkouts Initiated
+
+Cost per checkout initiated
+
+URL parameters
+
+How To Set Up a 3:2:2 Campaign
+
+
+Easy A UTM code: 
+
+utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_term={{adset.name}}&utm_content={{ad.name}}&fbadid={{ad.id}}&tw_source={{site_source_name}}&tw_adid={{ad.id}}
+
+To Sum Up:
+1 Campaign
+1 Champions Ad set, Multiple Creative Test Ad Sets
+3 creatives in each ad set (same concept), each with 2 headlines and 2 copies
+
+⚠ WARNING DO NOT TURN OFF YOUR EXISTING ADS IF THEY ARE WORKING. THE DUMBEST THING YOU CAN DO IS TURN OFF ADS THAT ARE WORKING. IF YOUR OTHER CAMPAIGNS ARE WORKING - LEAVE THEM ON - IF YOU TURN THEM OFF AND YOU LOSE MONEY... THAT IS ON YOU.
+
+FAQ:
+
+How many creative ad sets can you launch at a time?
+
+If you're only spending few hundred a day, I recommend keeping it to 5 ad sets (including champions ad set, if it has ads inside) at a time so budget can be distributed efficiently. Focus more on intent of the ads instead of throwing things at the wall.
+
+You can launch all 5 ad sets in the same day if you wish
+
+If you want the exact calculation on how to figure out the max number of creatives to test per week:
+
+Example #1 - Budget $100/day 
+
+Total Budget (example $100/day) 
+
+Target CPA (Example $20)
+
+Total Ads = Budget/TCPA 
+
+$100/$20 = 5 
+
+So the maximum amount of concepts is 5, considering 100% of your budget is testing.
+
+If you're spending a few thousand a day you can definitely have more ad sets due to budget and CPA
+
+Do we set min/max spend limits for this campaign method?
+
+No, we tested it and it didn't help.
+
+How long do you test creatives for?
+
+We recommend testing creatives for a minimum of 3 days. However, we now leave them testing 7 days. If they don't do well after 7 days (not much spending or missing KPI), we will then turn them off. If you want to test ads longer, you can. But we usually don't recommend leaving ads on for longer than 14 days.
+
+How do you know if a creative ad set is a winner (Covered in "When To Leave a 3:2:2 Running" video below)?
+
+If it gets majority of spend at KPI like shown in the video. Besides that if you're still not sure, the question you should ask is "Did my overall campaign performance improve?". If your overall campaign ROAS didn't improve, it's not a winner.
+
+When do you turn off creatives/ad sets (Covered in "When To Turn Off A 3:2:2" video below)?
+
+With this method we are only turning off at the ad set level not ad level.
+
+If the ad set is still not getting much spend after 7 days, and ROAS is not good we will turn off. If ROAS is good you may leave it running if you have no other creatives in queue.
+
+If the ad set took majority of spend within the first 3 days, performance is not good and overall campaign performance went down, we will turn off. But we will do learnings on the ad because something about it got a lot of engagement, so make it more conversion driven. Try to give it 2-3 days to test, it may not convert that well 1st day but 2nd or 3rd day pick up.
+
+No we don't turn off ads that were doing well but suddenly tanked, zoom out look at averages instead
+
+What's the minimum budget to launch this?
+
+Minimum I would start this campaign at is $100/day
+
+What if I don't have any past winners to put in the champions ad set or it's a new brand
+
+You can set up the champions ad set still just don't launch any ads inside there until you have a proven winner you can drop inside.
+
+Can you mix images and videos in this same campaign?
+
+Yes, that is fine but keep them separate ad sets. 1 concept should be 1 ad set, so 1 image concept with 3 variations.
+
+🆕 How To Test Landing Pages 3:2:2:2 Method
+
+
+3:2:2:2 Method for testing LPs on NEW ad creatives
+3 - Creatives
+2 - Copies
+2 - Headlines
+2 - Landing Pages
+
+PAGE # with BEST ads for testing NEW LPs on existing ad creatives (Do this for existing winners you want to test LPs with)
+Duplicate top 3-5 ads
+Change URL to new LP
+Launch in main campaign
+
+Set Up Raw Content Campaign
+
+
+This campaign is almost identical to the previous 3:2:2 campaign
+
+*We only use this campaign for raw content ads - Product seeding, Insense, ripped ads. If you don't have any of those you don't need this campagin
+
+We keep our strategised ads within the 3:2:2 main campaign, and we keep our raw unedited ads (for some ripped ads) in this campaign
+
+This allows us to force spend on the product seeding creators ads to see which creator is a winning creator and then we hire them.
+
+It also allows you to push more volume and get additional scale.
+
+Not mixing raw and high intent ads together will also make doing learnings on your ads much easier.
+
+How To Set Targets & KPIs
+
+
+There should only be 3 KPI's that you look at in your ad account. The video above will show you how to calculate based on ROAS:
+
+https://easyamedia.com/profit-calculator/
+
+(Beginner) KPI #1: BROAS = Blended Return On Ad Spend
+
+Breakeven BROAS = The minimum amount in revenue your store needs to make to be profitable.
+
+Scaling BROAS = The BROAS you are comfortable increasing budgets at. 
+
+
+
+(Intermediate) KPI #2: ROAS = Return On Ad Spend
+
+Breakeven ROAS = The Minimum amount you need back to be profitable.
+
+Scaling ROAS = The ROAS you are comfortable increasing budgets at. 
+
+
+
+(Advanced) KPI #3: CPA or NCPA and LTV = Cost Per Acquisition or New Customer Cost Per Acquisition and Life Time Value (TripleWhale needed)
+
+Breakeven CPA = The maximum amount you can spend to acquire a customer
+
+Scaling CPA = The ideal amount you are spending to acquire a customer 
+
+LTV = Life time value of the customer based on specific time periods.
+
+https://shorturl.at/5Qori
+
+How To Find Any Post IDs For Winning Ads
+
+9:46
+
+
+PLEASE NOTE WE ARE NOW DUPLICATING ADS AS SHOWN IN THIS VIDEO HERE:
+https://www.skool.com/evolve-8484/classroom/fc758841?md=fce47cd24658438da90fdfc48d0696aa
+
+So, post IDs are really no longer needed UNLESS the duplication method is NOT working for you. 
+
+
+Find Post IDs In 90 Seconds:
+
+NOTE* - IF USING THE METHOD BELOW, MAKE SURE YOU CONFIRM THIS POST ID HAS ALL OF THE CORRECT HEADLINES + TEXT AS WELL
+https://youtu.be/4emubAmbUo8?si=12mrSFo10ra1VeYM
+
+🆕 (NEW WAY) How To Duplicate Ads Into Champions
+
+
+
+This method unlike Facebook Post ID's allows you to KEEP IG ENGAGEMENT on the ad. 
+
+If this does NOT WORK for you, then you can use Facebook Post IDs (video below)
+
+🆕 How To See If You Should Turn Off Big Spend Ads
+
+
+
+
+Time Stamp: 3:49 - JUST AS A NOTE - WE SHOULD KILL BATCH #2 - the reason we DID NOT KILL THIS is because I am forcing my media buyer to test everything for 7-days (you guys don't need to do this - it's just an experiment). But this would be a great example of: "Champions is getting 4.6x ROAS with $2.5k, Batch #2 is getting 1.74x with 3.9k ... So, we should KILL Batch #2 and let that spend go to the champions + other ads because the champions ad with $1.4k more spend (or a 60% increase) will likely still be better than a 1.74x 
+
+
+
+Decision-Making Framework For Turning Off High Spending Ads:
+
+1. What is the frequency? Low frequency (1.5 or below) = prospecting 
+2. How much is the ad spending & what is the ROAS / CPA? --> From there, if I was to turn off this ad and therefore force that spend to my other top 2-3 ads, would their performance be better than the top spender? 
+
+^ Most of the time the answer to that is NO. If you believe it is a "yes" then turn it off
+
+3. If a NEW ad starts sucking up spend and gets shit KPI, you can turn it off in the first 24-48 hours. If you are spending $20k/day you should have rules in place to avoid getting burned.
+
+Context:
+
+We turn off ads that are not getting spend AND NOT hitting KPI after 7 days+ 
+
+The reason being, we want each ad set ideally to be able to get 3x CPA worth of spend 
+
+For $30 target CPA each ad set should get $90 spend per day 
+
+So if you had $900/d you should have 10 ad sets max running 
+
+But you want to keep testing things 
+
+So the ones that are performing the worst you turn off to make space for new creative tests
+ 
+Which would be first, ads that are not taking spend AND not at KPI. 
+
+🆕 How To Protect Against "Bad Ads" Over Spending
+
+
+
+
+NOTE: This is only for brand owners that are at scale spending 10K+ per day, or have seen a lot of overspenders in their ad account.
+
+
+Process For Protecting Against Overspenders:
+Step 1: Set a maximum daily budget of whatever you are comfortable spending, no matter what. (Time Stamp: 5:10)
+
+Step 2: Remove the maximum daily budget if you see performance is really strong.
+
+That is it.
+
+How To Set Up Naming Templates
+
+
+
+
+2025 Updated Naming Templates:
+https://docs.google.com/document/d/1WFJYZr2h6N_EecMp1mRciCQ-rqFEEV0qgtwXUXlyt50/edit?usp=sharing
+
+How To Set Up A Promo Campaign
+
+
+We only run this type of campaigns during sale periods. Mother's Day, BFCM, etc.
+
+1 CBO campaign 
+
+3 Ad sets total 
+
+
+
+1 Broad ad set 
+
+1 WARM60 ad set - FB Engagers, IG Engagers, 95% Video Viewers over the last 60 days 
+
+1 HOT90 ad set - Website visitors, view content, add to cart, initiate checkout over last 90 days 
+
+
+
+For the ads just put sale banners over existing best ads, and introduce some simple product image ads that mention the sale. 
+
+
+
+Keep it simple. 
+
+
+
+We usually don't do retargeting but the only time we do is during a sale. Having 3 ad sets like this in a CBO means FB will spend on wherever it thinks will do the best.

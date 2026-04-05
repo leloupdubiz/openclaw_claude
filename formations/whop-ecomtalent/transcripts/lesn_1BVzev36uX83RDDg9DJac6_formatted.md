@@ -1,0 +1,54 @@
+# lesn 1BVzev36uX83RDDg9DJac6
+> Transcript complet — 100% du contenu original
+
+---
+
+
+---
+
+Let's talk about one of the most powerful forces in marketing and that's desire . Not features, not benefits, not fancy marketing tactics, just pure human desire . What most people misunderstand about marketing is you're not in the business of selling products, you're in the business of satisfying other people's desires. And when you understand this, everything about how you make ads completely changes. Think about it, the definition of desire is simply a strong feeling of wanting something.
+
+It's what drives every purchase, every action, every decision your customer makes. And one crucial thing about desires you have to understand is you can't create it, you can't make up new desires, you can't invent them. Desires are already flowing to the market like a river and your only job as a marketer is to direct that flow towards your product. And you could have the best product in the world, you could be working with the best brands, but if you're not connecting them, if you're not connecting your product with a strong existing desire, your ads won't be effective. And let me show you what I mean.
+
+So take weight loss products, for example. People that buy some kind of weight loss products, they already had the desire to lose weight, they already want that. And when someone buys a pain relief cream, like they, I don't know, they're their shoulder hurts and they need some kind of cream or some gel that's that kind of alleviates the pain, they already had that desire to be pain free. Your product isn't creating these desires, it's just positioning itself as the bridge to fulfilling them. And this is exactly why you can't really create or invent new desire, you can only channel it towards your product.
+
+And one other important thing to understand is the strength of these desires isn't equal.
+
+So think about it like this, having nice abs, sure, that's a desire, but instead of just having nice abs, getting a complete dream body that turns heads, that's a much stronger desire. Or finding a nice pair of shoes, that's one thing, but having that aesthetic outfit, that aesthetic look, you know, having that charisma to yourself by wearing nice clothes, that's a completely different story and that's a much stronger desire. And your goal with every product you sell is to find the dominant desire. Once you understand the desire behind your product, that's when the real magic happens in your ads, because again, you're not just focusing on selling the product, you're selling the bridge to what people already want. Now that you understand desire and how it works and how you need to channel it towards your product, let's talk about how every product you sell is actually two products.
+
+Product number one, the physical product. This is the actual thing, the tangible stuff people can see, touch, feel or use. Take hair dry for example, it's just like a bunch of wires, plastic and motor inside it and that's it. And then you have product number two, the transformational product. This is what your product does.
+
+This is what it actually means to your customer , the change they want, the desire it fulfills. Hair dry for example, physically, like I said, is just plastic and a motor, but functionally, it's the bridge to having that celebrity style hair your customer have always wanted. That's desire people are actually buying into, they don't care about your fucking hair dryer, your fucking hair dryer, they care what they can get with it. And to show you how deep this rabbit hole actually goes, I'll give you a few more examples. Let's take luxury car, physical product, four wheels and an engine and transformational product, becoming someone who's made it, the desire for status, for respect.
+
+A skincare product, physical, it's just some cream in a fancy bottle, transl ational, it's the confidence to post a selfie without filters, the desire to feel beautiful. Weight loss program, physical, it's just some workout videos and some maybe some meal plans and transformational, it's becoming the person who makes heads turn at the beach. This is why features and benefits alone don't sell. And one quote I would like to end this section on is people don't buy products, they buy better versions of themselves. So how do we do this in our ads?
+
+Simple , we just show the transformation that fulfills their desire and not just the product. And if this doesn't make sense, let me try to give you a few more practical examples. When someone makes claims about the product, for example, they say this phone case is the best ever, it'll protect your phone like unlike any other, your brain automatically goes into skeptic mode. But when someone shows you that desire being fulfilled, for example, I show you, I just like threw my phone behind my back in the wall. And it's it's undamaged.
+
+You see that and that just hits different. And this works for And this works for any product and any desire. Take shapewear for example, instead of just saying this smooths your curves or showing a perfect model who clearly doesn't need any shapewear, you have to show a real woman trying to zip up her favorite jeans, you know, struggling getting frustrated, then she puts on the shapewear and boom, that that same jeans that she was struggling with nowadays they pop effortlessly. And she turns to mirror and you see that genuine, holy shit, like , I can't believe it, this actually fits me now. You see that reaction?
+
+And that way you're not just selling a product, you're selling the fulfillment of that deep desire to feel confident in any outfit. And this is important because your brain processes visual information 60,000 times faster than text. Like I said, if you show someone showing a phone in the wall and you show it's undam aged, that's a much stronger way to do that instead of just saying this is the best phone case ever . So when you're making ads, the key with this is for every desire, your product fulfills, you need to ask yourself, how can I show this desire being fulfilled in my ads instead of just talking about it? And here's one exercise for when you're making ads and write this down.
+
+So when you're planning an ad, you just start working on it, make a list of all your products benefits. So in one role, you have product benefit, then next to each one, you write down what desire does this benefit actually satisfy. And on the third column, you have how can I actually show this desire being fulfilled in my ad. Example for this could be a hairdo product benefit. Let's say fast motor with, I don't know how many RPMs, a lot of RPMs.
+
+No one, no one really cares about, about that. But what women care about is how fast they can drive a hair. So that can be a desire, desire to dry my hair fast. Now you connect to the product benefit of powerful fast, high RPM motor to the desire of drying hair faster. And now at the end, you can show that desire being fulfilled by, I don't know, you have creator talking about it, how their previous hair dryer was shed, because it took them 45 minutes to dry their hair, but they got yours now.
+
+And it takes them 15 minutes, maybe show before and after, like a time lapse or something with the old hair dryer, how long it took them, how messy it was. And then with the new hair dryer, how easy it is and how fast it is. So that's how we take a product benefit, connect it to a desire. And at the end, you think about how you can show that desire being fulfilled in your ad. Let's actually do a quick exercise to make sure you really understand this.
+
+I'm going to give you a product and a product benefit. You'll have 30 seconds to, one, figure out what desire does that benefit actually fulfill. And two, think of how you could show that desire being fulfilled in an ad. Product number one, an ergonomic office chair. Product benefit is advanced lumbar support system.
+
+
+> 🎯 **Exercice**
+
+Take 30 seconds, what's the real desire here and how would you show it? Go.
+
+All right, here's what I came up with. The desire is to work without constantly thinking about back pain, to be fully focused and productive, how to show it. Maybe you first show someone in their old chair constantly shifting their back hurts, they're checking the time, they're frustrated. And then with the new chair, you show them in a complete flow state. Maybe you do like time lapse and they time lapse and they don't move, they just like, they just sit like this up upright and they work for a long period of time and they stand up at the end of their day or their work session and they 're feeling fresh and energized and they're feeling nice.
+
+That's how you show that desire being fulfilled. Okay, product number two, teeth whitening strips. Product benefit, advanced paroxite, four milli. 30 seconds, go. 30 seconds, go. Okay, here's what I got. The desire is confidence to smile without being self- conscious.
+
+The desire conscious. The desire to never have to hide your teeth and photos again, for example. How to show it? So first, maybe you show someone who was not that confident in photos. So when they had a group photo with friends, like maybe they were smiling, you know, like this, they weren't that confident.
+
+And then they use a product, they kind of have a routine with it. And then you show them smiling in group photos like, you know, they're showing their teeth, they're super confident and that's how you show a that desire being fulfilled.
+
+All right, the last one, eight, the other end. Product benefit is 48 hour protection formula. You got 30 seconds, what's the real desire here and how do we show it? body odor again. body odor again. How to show it? So maybe first you show them in their previous state, they were , they took a shower, they went to work and then after 10 minutes, they were, you know, smelling their armpits and they were like smelly.
+
+And then after you show them, they take a shower in the morning, they use morning, they use R deodorant and then they go to work. Maybe they go to lunch after it, they do some other stuff. Maybe they go to the gym real quick and then at the end of the day, they get home and their wife hugs them for example and she says, "Honey, you smell so nice." So we went from, you know, being constantly worried about sweat and being smelly to completely confident in any situation of their day and then even at the end of the day, their wife is still attracted to them because they smell nice. So I hope these exercises gave you a bit more context and insight into what a desire is and how to channel it to your product and next time you're making an ad, don't ask yourself, what does my product do? You should ask yourself, what desire does it fulfill and how can I show that in my ad?

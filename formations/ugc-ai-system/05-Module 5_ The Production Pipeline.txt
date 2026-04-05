@@ -1,0 +1,56 @@
+Module 5: The Production Pipeline
+From Prompt to Video That Prints
+
+
+From Prompt to Video That Prints
+
+We will use two primary AI-powered tools to generate high-quality videos for our products. 
+
+The only current limitation is that we're restricted to a maximum video length of 15 seconds. 
+
+I'm actively researching methods to extend Sora-generated videos beyond this timeframe, but so far I haven't been successful when working with real human faces in the footage…
+
+If I discover a breakthrough or workaround, this guide will be immediately updated with the new methodology.
+
+Our two main video generation tools:
+	•	Higgsfield
+	•	Kie.ai (60% cheaper than openai)
+
+Important Warning: Don't use FREEPIK as your video generation tool because it imposes strict limits on the number of characters you can include in your prompts, which severely restricts the level of detail and specificity we need for professional results.
+
+I believe the process will now become straightforward and easy to follow...
+The Higgsfield WAY
+
+For this demonstration example, I've used the Gruns product along with a reference video that I successfully cloned and adapted.
+
+Here is the workflow i used: 1. Upload video to our custom gemini gem (project)
+2. Tell Gemini to analyze the video and give me every detail etc… like how we did it before
+3. Now we get the gemini prompt and send it to claude for final touch
+4. Upload the product image, and give it the claude prompt
+5. FINAL RESULTS
+
+
+
+Here are all the materials I used throughout this process, including the complete results and the original reference video for your review…
+GRUNS VIDEO + PROMPT + RESULTS
+
+
+The KIE AI WAY (60% CHEAPER)
+
+The Kie AI method follows an almost identical process to Higgsfield, making it incredibly simple to implement.
+
+I have used a goli product for this workflow…
+
+Here is the workflow i used: 1. Upload video to our custom gemini gem (project)
+2. Tell Gemini to analyze the video and give me every detail etc… like how we did it before
+3. Now we get the gemini prompt and send it to claude for final touch
+4. Upload the product image, and give it the claude prompt
+5. FINAL RESULTS
+
+
+
+Here are all the materials I used throughout this process, including the complete results and the original reference video for your review…
+GOLI VIDEO
+
+
+This is the folder with all the videos and prompts: RESULTS WITH PROMPTS

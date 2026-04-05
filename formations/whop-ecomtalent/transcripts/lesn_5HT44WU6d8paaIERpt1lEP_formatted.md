@@ -1,0 +1,66 @@
+# lesn 5HT44WU6d8paaIERpt1lEP
+> Transcript complet — 100% du contenu original
+
+---
+
+So, how do we edit static ads? As you can see, the list on my static ads, tech stack is even smaller than for video ads because static ads are to be fair, very simple to do. Like I talk about in the main video of this module, the art of one frame. Really the main thing about static is just like doing the work and doing more static and doing more edits and just putting in the reps and just by doing that you'll get better and better. You'll have a better eye for a better design, for a cleaner design, for what works, what doesn't work and you'll just have more experience and you'll get better.
+
+Like again, there's no cheat code, there's no secret tool. You just have to do the work. And basically our tech stack for static ads is very simple. And this is all you need, trust me, this is all you need to print money for brands and to make winning static ads. So we edit everything in Figma.
+
+So this is Figma, like this is the interface. You can basically make an account. They have a web app, but I use a desktop app. As you can see, I have Figma. Now audit, so I use a desktop app for this because it's just like smoother, it 's faster and it's, I just like having apps on my Mac locally.
+
+And this is my workflow. This is how I basically organize things. Again, you'll notice that I have everything organized by brands. And basically when you make an account, you make this, I think this is called library, just hit like plus, yeah, you make a new design file essentially on your account and you'll have this. And then I organize everything by brands.
+
+So I'll send you this template. I'll send you a link to this template so you can basically copy things from here. But basically you can have this, this is called frame. So when you have everything inside, you call it a frame, right? Oops, I don't want to delete everything.
+
+Basically I have different frames for different clients. So brand A and then every concept. So for example, as you can see, this is brand A. It's called client A here, but never mind. And then for every kind of batch of ads I do, I name it.
+
+So this is ad concept number one. This is ad concept number two and this is ad concept number three, right? And then for ad concept number one, we usually have like variation one, we have variation two and then we have variation three, right? So this would be named like this. So it would be, sorry, it would be ad concept number one, V one, right?
+
+And then this one would be ad concept number one, variation two, and then ad concept number one, variation three, right? And we have three different variations of this ad concept, cool. And then we move on to this next concept, right? And that's how you organize everything by brand and I highly encourage you to organize everything because it'll make your life so much easier. And the beauty of Figma is you can have everything in just like one library, in just like this one tab right here.
+
+And then it just add different layers. And you can even add pages, which is like, honestly you might not even need to do that, but inside of one library you can have different pages. So if I wanted to, I could have only one brand in page one, and then I have the other brand in in page two, right? And then I make another page, page three, and then I have the third brand here. So I have like a different page for each brand, but honestly you don't need to do that.
+
+Like to give you context, we have all of our designs for all of our clients at the agency on just one, like this same layout basically. And then we just, you know, have pretty big, pretty big frames for each brand that we do ask for because we do a lot of ask for them. But basically this is the same setup that we use at our agency. So just one library and then divide, divide stuff by brands like this. And like I said, I'll send you a template for this.
+
+So you basically have presets already. These are the dimensions that we use. So 1080, 1920, and then if we decide to do static ads, we do static ads. And basically that's pretty much it. And let's get back to the tech stack.
+
+And again, like technicalities of like how to do stuff, how to add text, how to add shapes, how to add images in Figma, like how to, I don't know, like how to use this stuff right here, how to do stuff in Figma creatively, how to edit images. You have a bunch of tutorials out there. I won't go into technicalities of how to use Figma. Obviously, if you have any questions, I'm happy to answer them. But don't like, don't come to me with a question like, how do I write headline Figma?
+
+Right? Like do your own research, like spend an hour or two trying to figure it out, like how to do stuff, like, and then if you have some issues, if you have some technical questions, then come to me and then I'll be happy to help you. But just like do your own research and put in the effort to like, you know, figure out how to actually use Figma, like how to do basic stuff with Figma basically. But it's not that hard, honestly. I use Figma mostly because I like how simple it is.
+
+I like that you can do a lot of stuff in it. And it has very simple interface and it's easy to use basically. So that's Figma. And then we also use Adobe Photoshop. If you don't know what Adobe Photoshop is, basically it's Adobe Creative Suite and you have a bunch of softwares in there.
+
+You have Adobe Photoshop, you have Adobe Illustrator, you have Adobe Lightroom for like color rating and stuff, but on the Adobe Photoshop is probably all that you need. And you might like for 70% of ads, you don't even need Photoshop, but sometimes you need to maybe, you know, retouch images a bit, you need to remove some stuff, you need to maybe polish them a bit, you need to maybe use Photoshop, generate a fill or stuff like that, you know, to kind of touch out the images before you kind of add them here onto your ads. But honestly, most of the times you won't even need Photoshop, but yeah, we definitely use Photoshop quite a bit. So that's for your editing softwares, just Figma and Adobe Photoshop. Figma is free and Adobe Photoshop, if you want to get Pro version, you need to also pay for it.
+
+And then for the footage, so usually, let me try to make this bigger actually, I don't know why I can't. Okay, never mind, looks like I can't, oh I can't hear. As for the footage, so the beauty of static ads is that you can basically make ads out of nothing. They don't depend on content. If you basically are creative enough, if you have good resources, you can make ads out of thin air.
+
+That's the beauty of static ads. You don't need footage, you don't need videos, you don't need, it's not complicated. And that's why I like static ads, honestly, I like static ads crush for clients at the moment. And they're super simple, they're super fast to do. I just love static ads.
+
+But to get back to the content, so sometimes if you are looking for specific image or specific whatever, we find footage on Envato Elements, stock footage. We also find images on Pinterest. So if you're searching for something super specific, you can type that in on Pinterest and you'll usually get some pretty good results. And that's it, but usually footage with image ads isn't that big of a problem because again, you're not that dependent on footage when you're doing static ads basically. Design resources, so again, we use Envato Elements for getting fonts, getting maybe some design templates, design resources and stuff like that.
+
+I already went through Envato Elements and everything that is in there in my previous tech stack video. So I won't go deep into it, Figma community. I don't know why our list is here. But basically, Figma community, I'll show you how Figma community works now. So basically, Figma community is, as it says here, community made libraries, plugins, iconsets and more.
+
+So I don't know, let's say you're editing an ad and you need an icon for, I don 't know, star. You need star icon, for example, star icon. And then you have a bunch of these different libraries that you can basically copy and paste stuff from. So here you have stars and then you hit open in Figma. You choose which one you want to open it.
+
+You'll have only one option for your account. And then you'll get this. And usually you have different pages here, so you hit on resource. And here you can see, for example, some stars. And let's say you really like this one, you just copy it.
+
+So command C or you can copy, just copy. You go back to here and let's say you're working on an ad here, you paste it, you change the color. So you change the color here. Boom, you have a star, right? Perfect.
+
+You just, you didn't have to waste 30 minutes of your time designing a star, you have a star. And like you can, you can search for a bunch of different things here. Like, I don't know, let's say you need some gradient. You need some like cool, cool backgrounds for whatever you may need it. You have stuff, stuff like this, right?
+
+Again, open in Figma. And you can just copy and paste stuff to your designs, which is, to me, super cool. Sometimes, yeah, you even have like steps how to do them yourself. So you even learn, right? And then you can just like copy the whole thing, right?
+
+Or, yeah, so this is pretty cool, actually. But yeah, that's how you can use Figma community to basically, you know, find stuff that you can use in your designs and that you can use while you're designing ads. And that's one big part of why I use Figma as well, because it's so simple and so easy to like add stuff to your designs, you know? So that's Figma community. Then for fonts, we use Elements in Vato.
+
+We use fonts by Adobe. Obviously, we use fonts by Google. Pretty simple stuff. You also have a bunch of fonts here. So if you hit text, you also have a bunch of fonts already in Figma.
+
+So all fonts, and then you'll have a bunch of fonts here pre-installed in Figma that you can use. So that's neat as well. But yeah, these are some resources where we find fonts. And then one other thing that we'll be giving to you by yours truly are static ad templates. And I'll make a separate video on this.
+
+But for those of you who are beginners and who are just getting into editing static ads, this will basically save your life if you want to start doing static ads. These are basically templates for a bunch of different static ads, like just copy and paste it, add in your product, add in your images, boom, static ads ready to go in like 10 seconds, right? But I'll do a separate loop on add templates. And then for inspiration, we do the same thing as for the video ads as well. So Facebook, Instagram, whenever you see a good ad, save it.
+
+Obviously atria, you can filter atria by only image ads and find inspiration like that. And then obviously a meta ad library as well. If you find a specific brand, and then you can filter on meta ad library as well by images and like take a look at what kind of image ads do they do. And that's pretty much it, like super simple. Nothing complicated about it.
+
+Like I said, the only complicated thing will be just putting in the work. Besides that, I don't really have any other resources I can give you. There obviously is AI stuff again, but I didn't include AI stuff here on purpose. We'll cover AI stuff and like AI images and how to do product images and how to use me the journey to generate like AI visuals and stuff like that. We'll cover that inside of the AI module.
+
+I just wanted to focus on basics here. So that's pretty much it.

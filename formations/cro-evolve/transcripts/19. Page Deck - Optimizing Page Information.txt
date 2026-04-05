@@ -1,0 +1,90 @@
+All right, now the final few things just to touch this up
+is going to be around the actual page name
+and everything up here itself, okay?
+And now this is something that is super important
+because I see so many people just neglect this
+and I actually don't really have data that shows,
+but if you ask me, like, you imagine you land on a page
+just a serial founder letter
+and then it's just like this random URL,
+like it's kind of weird, right?
+If we go and actually take a look at Magic Spoon,
+you can see their page is actually called Miss Cereal,
+which is kind of interesting.
+And if you go and look at like Athletic Greens
+or I don't know if we could do another one,
+maybe try.hexclad or I think it's hexclad, get.hexclad.
+Yeah, here it is.
+Hexclad does what your other pants can't,
+hexclad cookware, right?
+They got the everything lined up.
+And so these little details, do consumers notice them?
+I would think so, but, you know,
+for the sake of just being clean and being professional,
+make sure you update this, right?
+And so what I might call this is, you know,
+frustrated with doctors could be a good one.
+Let me just go and think of some ideas.
+Okay, perfect.
+So again, it's not a huge thing,
+but at the end of the day, it's nice to have.
+So what I have here is 18 chestnuts,
+you know, soups made to support your gut.
+I use the slug hashtag or hashtag slash gut dash health.
+The description here, 18 chestnuts brings healing,
+comfort and nourishment to your life one spoonful at a time.
+Just taking some inspo of what we wrote down here.
+Now, obviously for the image, we're going to want to go and update this to our logo.
+And same thing with all of these, you know, little cards here too.
+And after this, I like this photo.
+I think it's, you know, it's clean and it's, you know, just very simple.
+The final thing here that you'll notice as well as once we double publish this
+is that there's this big yellow ugly circle,
+which I love you page deck, but it's very ugly.
+Um, so now what we do is if we go back, we can see here's now our photo, which looks great.
+And what we need to do is we need to edit the theme and we need to get our favicon updated.
+And for some reason, it seems like somebody tried to, but or no, it's just not there at all.
+Okay, great.
+So now what we can do is if we can go to 18 chestnuts.com,
+we can see that there's just like this little red circle.
+Um, so I might just do 18 chestnuts.
+You can try looking up if you have your favicon files.
+Great.
+I don't think this client added.
+There it is.
+Right.
+So there's the favicon.
+Perfect.
+Um, you can just search a favicon or logo, whatever it is,
+and just make sure it looks good when you update it.
+So here we go.
+We're now going to upload this.
+We're going to paste that in there.
+I think it should work if I do have it.
+Yeah.
+Okay.
+Perfect.
+Uh, go ahead and publish the theme.
+And once that's published, it typically happens pretty quick.
+It should automatically updates.
+Hopefully, maybe give it a second.
+Might have to go back and publish this again.
+Let me troubleshoot it.
+And there we go.
+The second publish seemed to do it.
+So now we have the little logo there.
+And now you can't even tell the difference between this and the website, right?
+Unless you're really looking at the URL, but there we go.
+Right now, everything is nice and clean.
+18 chestnuts, soups made to support your gut.
+Um, I think we could even change that to heal again.
+I'm always going back and forth with copy.
+I've never been good with just settling on one thing.
+Uh, so soups made to, to heal, uh, your gut.
+Let's just roll with that.
+Um, I think that's perfect.
+And yeah, outside of that, that's just a small kind of little technical thing to just touch
+up and clean up.
+Um, and once you're there, now we're going to go into the final QA process before we get
+this page live.
+You.

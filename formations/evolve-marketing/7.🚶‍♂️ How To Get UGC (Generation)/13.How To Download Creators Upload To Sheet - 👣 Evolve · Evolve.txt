@@ -1,0 +1,57 @@
+Alright so now that I've processed all of the creators you can see I've already gotten some
+replies which is what we want to see so great awesome this is really really good uh plans and
+plates great join the call amazing okay awesome all these people are interested now what we're
+gonna do is we go back to the campaign level and we're going to see that we have no new applications
+no new messages you know we've gotten over like 40 applications uh for this 40 creators who applied
+and uh we've starred I think 15 of them which is great so what we're going to do is we're going
+to go back to the campaign level and we are going to download this entire creator list just like
+that and we're going to type in xlx to or xls I don't know what it comes in sx there we go uh
+to csv and we're simply going to drag this inside of here now there click convert and what this will
+do is this will then of course give us a csv file so you can just use whatever one you want we're
+using cloud convert because it was the top link um and now if we go into this instant sheet you'll
+be able to see that we can now file imports and select that file that we want to so there is in
+the download section somewhere the csv not the xlsx we want the csv and we're rather than going to
+create a new spreadsheet we're just going to insert a new sheet click import data and just like that
+you'll be able to see that we now have uh the full list so inside of here now there's a few things
+that we're going to do just to clean this up uh number one we're going to add a filter here just
+on this page okay just so we can filter out the status and we're going to clear this and we're
+basically just going to select onboarded okay um and I think that's the only one that we will
+need yeah so that's all the creators who have applied this should be a total of 40 yeah count
+is 40 so there we go and now what we're going to do is we're just going to simply come back here
+and make sure we remove anything that we don't need so platform gender profile URL and creator
+number followers average engagement rate I think these are the two statuses that we delete so we
+can delete both of these here if I could now delete a colon oh my goodness um and then we also need
+data to price shortlisted great so this is all we'll need and now simply what you're going to do is
+you're just going to copy this data right here so this data is now going to go up here okay and
+then as you can see you're just going to copy this over so it says campaign started on campaign
+creator list I sometimes like to update this just to the actual uh date so we can see the day so
+Friday whatever if there we go um and for these two we can just have it you know run through
+actually if it will let us maybe I don't know um anyway oh would be nice I don't know why there's
+stuff blocking it but we get the idea brand and it's a bakery if it can get for all perfect okay uh
+so what we're going to do then is we're simply going to copy this list now what I would what I
+would suggest doing is just deleting that so you can basically just copy all of this and you don't
+have to worry depending on how long the list is it should be that long but you can basically just
+copy all of that go over to the all creators section and paste and that's going to delete everything
+of course it is so you might just have to copy all of this yourself so copy that it should be
+that long uh and then just paste that in there and now everything should be sorted nice and easily
+and then just make sure that you drag this down and drag this down as well and then what I like
+to tell clients in this video we'll explain it is that we have a certain amount of client
+shortlisted but just so you know make sure you delete this as well so delete that out of the
+sheet just keep it clean um and then this is where we're going to go into space too is once when the
+client confirms the creator we'll be able to obviously um see that and we can copy those creators
+whoopsie over into the selected creators channel where we can then obviously get their higher
+information and be good to go um but the only other thing that's uh I like to do is essentially
+just have a little custom filter here so for example if anything here we can add a conditional
+format where if it if the text contains true so we can say text contains true um we can also just
+highlight that as well okay um or you could just do equals because I don't know if we're going to
+get uh anyone that has true as a creator name but uh there you go so I just like to
+essentially call it up like these are the ones that we like and now if a client confirms it obviously
+it will put it to true anyway but what this will do is this will just help the client see for example
+that hey these are the creators that we like so these are the 15 that we shortlisted um but for
+example obviously we're able to uh explain that in this room so I don't need to talk about that
+here the clients will be able to see that um but that is the only other thing that you will do I'm
+not sure if that functionality will already be added because of course we're going to update the
+sheet I'm just filming SOPs as we go um but once the client then confirms everything inside of here
+then obviously we will be able to copy it over into here and we can get to the next step of
+downloading um all of the creator information all that good stuff but that is how you download
+the creators and upload them into the sheet.

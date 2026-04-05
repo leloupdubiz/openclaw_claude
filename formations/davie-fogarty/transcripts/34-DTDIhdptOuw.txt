@@ -1,0 +1,1320 @@
+Hey everyone, today we're gonna set up a Shopify store.
+This tutorial is for beginners.
+I'm gonna show you absolutely everything
+that you need to know to get your e-commerce store
+off the ground.
+Let's get into it.
+So the first thing to get your Shopify store off the ground
+is you do need a product.
+For those who have been following along
+our lemon scrub series, I've already sourced the brand
+and yeah, sourced the supplier and everything.
+If you haven't, that's okay.
+You just need to come to either Alibaba or AliExpress.
+I'll give you a quick overview of why these websites
+are the best to find products.
+So AliExpress in short is mainly a drop shipping store.
+So basically what drop shipping is,
+is where the Chinese manufacturer
+will ship directly from China.
+It's more designed so that you can actually
+create some branding and do relatively larger orders
+than AliExpress.
+So AliExpress, you can get one or two units.
+It's very cheap to start drop shipping.
+Whereas Alibaba, a lot of these suppliers
+are gonna be expecting an MOQ,
+which you can kind of see here, 100 pieces.
+So we can go into this kind of stuff.
+Some of these products on Alibaba will be on AliExpress,
+but the ones that aren't are generally the ones
+that we like to say aren't saturated.
+So there's not a million kids trying to drop ship them.
+They're great opportunities, those products.
+Alternatively, they're not really in demand
+through Facebook ads.
+So if you haven't done that research process, that's okay.
+Today, let's just jump into and learn how to do Shopify.
+We'll set up all the store.
+You can use some stock images as a placeholder.
+You can practice writing some copy.
+We're gonna go through all the settings
+and all the apps that you need
+to actually make a really high converting store.
+If you have launched a Shopify store before,
+this is probably still gonna be pretty useful for you
+because we're gonna go through some of the common mistakes
+that people actually make when setting it up,
+which actually stop those sales coming in.
+So follow along.
+All right, so now is the time that we can come to Shopify.
+So a simple Google will get you to Shopify.
+The awesome part is, yes, they have a free trial
+so we can play around until we are ready
+to launch our store.
+You're just gonna enter your email address here.
+If you don't have a Gmail already,
+you can just set that up and also your password.
+So I'm just gonna do that.
+When you are entering your store name,
+this isn't that important.
+This is actually for kind of like the backend of Shopify.
+You can always change this later with your domain,
+but it is kind of important if you do have a huge success
+and you wanna expand to lots of regions.
+I do suggest doing it probably the region
+that you plan to target the most.
+So I'm gonna do lemonscrub-au
+because I'm gonna be selling this in Australia.
+So lemonscrub is a cleaning product.
+We think it's gonna go really well on organic socials.
+There's a couple of viral products
+going around at the moment.
+We've done our photography,
+we've done our videography for it.
+We've done a bunch of copy as well.
+So it's pretty exciting.
+So you can just go through all these settings
+and set them up.
+It doesn't matter too much.
+They're just trying to get some information.
+This is pretty important.
+Make sure you put your proper address in here
+because they are gonna make you probably verify it later
+with Shopify payments.
+So make sure this is all accurate.
+Don't come visit me at my home address.
+So you've got this checkbox down here.
+This store is registered as a business.
+If you don't have that, it's okay at this stage,
+but you might wanna consider if you are, you know,
+doing a proper business,
+registering it in your local country
+and also ensuring that business.
+All right, we're in the Shopify dashboard right now.
+So you can go down this feed in the front
+to get a lot of information,
+but what we're really looking for is on the left here.
+So the first thing we wanna do today
+is come into the online store and pick our theme.
+So Shopify actually has some really good basic themes.
+There are some themes out there that you can go and buy.
+And those themes have a lot of conversion rate factors
+built in.
+So what does that mean?
+It's like certain urgency responses,
+like timers and things like that,
+that are proven to make your customers purchase more.
+I don't think this is necessary,
+especially if you're just getting started.
+We're just going to use a basic free theme.
+I really like the debut theme.
+The hoodie is built on that.
+Calming blankets is built on that.
+So you can definitely get very, very far using that theme.
+To do this, we're just gonna come down here
+and click explore free themes.
+And you can see the debut is this one on the list here.
+You can click add theme to library.
+Now we're gonna click actions
+and click publish to publish the theme.
+You can also click customize
+if you wanna actually just see
+what the theme looks like with yours.
+If there's already existing stuff on your theme,
+that's probably not a bad idea.
+So we can come in and click customize now,
+it's activated and we've got our new theme.
+So this is basically what we're going to populate today,
+as well as change the settings.
+If it is your first time,
+just jumping into the theme editor
+and writing copy is not a bad idea.
+As you become more experienced,
+you'll probably prepare like a little bit of a document
+that you're going to copy and paste onto the theme
+because you know all of the sections
+that you need to create.
+We've actually done this already today.
+We've got our copy document here.
+It's comparing to our website, Pupnaps.
+We've got our headlines and everything.
+This is what we're gonna copy across.
+If you wanna learn how to use copy after this episode,
+head back to my copywriting episode.
+That's showing you exactly how we wrote that document.
+One of the best tips I could probably give you
+at this point is to actually find a competitor's site
+that you really like.
+Make sure it's really easy to use,
+not just beautifully designed.
+Make sure it's simple as well.
+And then just head to their website
+and kind of just copy the structure
+and also look at the text elements that they've used
+in their website to convey their product.
+It's just gonna speed up the process for you.
+Disclaimer, make sure that you're not copying it directly.
+You're just gonna get the self of our store banned.
+So to use the theme editor that we've got here,
+you've got this left panel.
+You can add sections.
+They have a lot of pre-built section.
+These sections are probably the most important parts
+of your website and they're very, very easy to use.
+With the debut theme, they populate a lot
+of these sections already, as you can see.
+The left section, as you can see,
+is structured based on this page.
+So this header section here is this header.
+And then we've got the image with text overlay.
+This is the image with text overlay.
+So we can change our logo here.
+This is just the basic text.
+We're gonna select image and we're going to upload our logo.
+One thing that you do need to know
+when you are uploading a lot of these files,
+try to not make the images really big
+because all of those large images
+are going to make the site slower.
+Speed is a really important fact
+in conversion rate optimization.
+Again, conversion rate is when a customer
+goes onto your store and makes sure that they purchase.
+So you can see that our logo has come up here.
+We can increase the width to make it a bit bigger
+and that looks pretty good.
+One of the coolest things about Shopify
+and probably one of the most important things
+about the theme builder is coming into up here
+and going clicking mobile.
+So we can check our theme on mobile.
+Most traffic will be mobile onto your store.
+So don't neglect it.
+One tip that I do have is you can actually build
+your whole store in mobile version first
+and then head to the desktop.
+Shopify is very responsive
+so it should look pretty good in both
+but prioritizing mobile is a good idea.
+We've also got this really cool section here
+which is show announcement tab.
+This is very, very common with Shopify stores
+or most e-commerce stores.
+It's where you really put your offer.
+Because it's the highest in the page,
+it's going to be the section
+where you really put your sales messaging.
+Maybe it's free shipping over a certain sales threshold
+or maybe it's like a discount code or something like that.
+I'm just going to leave that there for now.
+You might see this theme settings down here.
+This is where you add all your social media channels
+and then that's automatically going to populate things
+down in your footer.
+So if I just did lemon scrub,
+but I think that's activated yet,
+but it should bring up the Facebook icon down the bottom.
+I can do that for Instagram
+and Instagram will pop up there.
+That's really important
+because this kind of footer structure
+is becoming quite well known.
+If you go to any really big website, big multinational,
+they'll have a really nicely structured footer.
+However, when you go to like a really scammy store
+that you don't trust,
+they might just have a really basic footer
+kind of like this.
+So it's really important that you populate it
+and take the time to set up this footer.
+So I can come to this image with text overlay
+that I was talking about before.
+Because this text section is really important,
+we probably want to avoid using image with text
+in the background
+because that's just going to look terrible.
+We've done a bunch of product imagery for this product.
+If you haven't, go to Google and just Google in,
+either your competitor,
+just as a placeholder at the moment,
+make sure you replace it when you launch the store.
+Or you can go to a website like Unsplash,
+which is free royalty free images
+and start populating a store
+just so you can get a feel for it.
+So we actually have a bunch of lifestyle images here
+because when you come to desktop here,
+it is actually a landscape photo.
+It's really important that you select a landscape photo
+for this top section.
+And then it will reformat for this mobile section.
+So I'm going to come upload
+and we've got a bunch of images here.
+I might just select this one for now,
+just to show you what happens
+when there is a bit of a text underlay over the text.
+See how there's text underneath text?
+That just looks terrible.
+Problem with this image is probably
+that it's not really highlighting the product at all.
+And we really want people to understand exactly
+in the first one second,
+clicking on the store, what we're selling.
+So we found a pretty good image here.
+It's not overpowering.
+It has the product in it.
+The text still works.
+We can have a look at mobile,
+make sure it still looks good.
+And it's not too bad.
+I'm going to keep going for the sake of the tutorial.
+Right here, we've just got our text editors.
+So we can change the text size,
+but we're actually just going to change this heading.
+And then we're also changing the text.
+So we've got our text here and we're going to dump it in.
+We can try out a couple of these headlines.
+The problem with this is probably there's like
+maybe a little bit too much text
+and we can maybe just shorten this a little bit.
+It is also really important that you have a button
+or a call to action in the very top section.
+We call this a top section above the fold.
+So when you, and that's a old expression from newspaper.
+So it's basically when the newspaper is folded,
+you don't have to unfold it to see above the fold.
+So when you go on your mobile and you go onto the website,
+it's, you don't have to scroll to see anything.
+So all you need to do is come here and click products
+and send it to something and it should come up.
+We can say shop now and it's just appeared.
+So to remove a section out of this editor,
+we can just click here and click remove section.
+I didn't need that section
+because I had lots of images on it.
+And we've only got a one product store.
+So you need to understand what you're selling
+to really make sure that your site's designed well.
+This section here with these three product images,
+if we go to the mobile version to look at it,
+it's basically a, it's a good place to highlight
+lots of different functions of your product as a whole.
+So, you know, we've got some copy for that,
+like step one, step two, step three.
+So it's a great place that we can put that.
+So now we've populated a little bit of a how to use,
+which is taking the user on the journey.
+Now we can obviously keep going through
+and populating this homepage,
+but I think that you understand how to use that homepage
+for some design tips.
+Again, just look at your competitor.
+One thing I am gonna do
+is actually remove the testimonial section
+because we're gonna download some apps in a second.
+Those apps, we can download review apps,
+which are probably better to use
+than the standard Shopify section.
+It's gonna, again, increase your conversion rate.
+Before we jump out of the theme editor,
+I'm gonna show you how to change the colors.
+So we can come into theme settings
+and we've got all of these cool options over here.
+The default Shopify colors
+are definitely not on brand for us.
+We're looking to be a little bit more punchy and vibrant.
+So we can come in here and go primary buttons
+and you should have your brand colors.
+And just for the sake of quickness,
+I'm just gonna pick the yellow.
+We want our buttons to stand out and be contrasting
+because then they'll get more clicks.
+You can change all of those colors to match your brand.
+You can also come into typography and change the fonts here.
+If you do want to get a different font
+that is not an option here, such as your brand font
+that a creative director or a designer has given you,
+there are some tutorials online.
+You will have to go into and edit the code.
+Alternatively, you can use a cheap app,
+like I think it's called Fontify,
+where they just charge you $5
+and then you can upload the font that way.
+It's very easy to preview the fonts.
+You can come in and click here
+and this will change the headings.
+The headings are these big bold ones
+and then the body text is this one here.
+Again, we've got our social media settings here,
+which I showed you before.
+This one's really, really important.
+This is called the favicon.
+You'll see the favicons at the top left
+of the in Google Chrome, just here.
+If you don't have this, it's gonna look like a scan.
+So it's really important that you do set up a little favicon,
+which is 32 by 32.
+A little trick is you can basically
+just screenshot your logo.
+Again, it's gonna have to be square and you can use that.
+But alternatively, if you wanna do it properly,
+you can use something like Canva or Photoshop
+to design a proper favicon in those dimensions.
+So we're gonna make sure that we click save up here.
+Now it's time to set up our product.
+This product will be on a separate page to a homepage.
+So that homepage is going to warm up our customers.
+Then they're going to click on the link,
+the shop now link that we set up before
+and we're gonna push them directly to this product.
+So click add products here.
+And there are some tricky things.
+So make sure that you set it up exactly like I have.
+The title is the lemon scrub.
+And we can maybe be specific.
+We can call it a lemon scrub cleaner.
+Now this is where we put all the copy for our product.
+I like to use dot points here to make it really digestible.
+So do a lot of other bigger brands.
+You just want really short snippy descriptive terms
+about your product to educate people.
+If you write big paragraphs of text here,
+it's gonna look unprofessional
+and people aren't even gonna read it.
+We've got a bunch of editing functions here.
+This kind of heading text and paragraph text
+is really important from an SEO perspective.
+We really wanna come into this section
+and use these formatted dot points
+to make it really digestible.
+We can click save.
+And once that happens,
+it's actually gonna publish our first product,
+which is awesome, congratulations.
+So we can click preview and it should be here.
+Now this is looking pretty terrible.
+Nobody's gonna buy this.
+So we need to come in here
+when you need to add product imagery.
+Product imagery is so important to getting the conversion.
+People need to see that product image and say,
+okay, I know exactly what I'm buying, it is clear.
+So we've got some standard
+white background product imagery here,
+which we're going to upload.
+I like to use a square imagery for my product images
+just because it makes it really easy to keep it consistent.
+I know a couple of other brands
+are using more portrait style imagery
+to really capture a lot of that mobile screen,
+but square should be fine for today.
+We probably don't need all of these images.
+So that will automatically publish now.
+Now we've clicked save.
+So we can come in here and we can click refresh
+and it's starting to take shape.
+And we can add some more lifestyle imagery as well
+so that people understand the product.
+One neat function that you do have
+in this Shopify product page
+that you don't actually have in the theme editor
+is this ability to actually crop images when you're in here.
+So rather than using say Canva to crop it,
+you can just click save.
+It is worth noting,
+there'll be a couple of experienced people out there
+that this image is ginormous.
+It's 3000 pixels.
+So that is going to slow our website down.
+This is what you need to look at.
+We need to shrink that down to around 1000 pixels
+on each side to make sure that it doesn't slow it down.
+But for the sake of the video,
+I'm just going to keep powering through.
+So now we've got this product imagery.
+We can again come into our product page and just refresh
+and it's starting to take shape.
+Just looking at this now,
+we usually have an add to cart button here,
+but because they're the theme colors
+that we've chosen before,
+we need to go back and make sure that that's visible.
+So we'll need to come in here and click product status
+and make it active.
+There's no traffic going to the website.
+So there's no real risk in doing that.
+So I just want to add a bit of inventory to the product.
+We can do this down here where there's quantity.
+So obviously if you had 20 units ready to sell,
+you would put 20 here.
+You can also view the inventory history
+and when you start selling, that can be really handy.
+That actually may change our product page
+because it's going to allow the user
+to actually add the product to cart.
+So one thing that's really important to do
+when you're first starting is to kind of just making sure
+that all the settings in the product is right.
+So the first one is we do want to make a tag.
+We can make a couple of tags.
+We can do cleaning paste.
+We can also do things like oven
+or just the type of cleaning paste it is.
+You can add a bunch of tags in here.
+It doesn't really matter for the customer,
+but what it's going to allow you to do
+is when you've got a million dollar store
+and you've got 50 products,
+you can start setting up some filtering later on
+with your reporting, which is really cool.
+We can also come in here and select a collection.
+Basically what a collection is,
+a series of products in a website.
+So rather than pushing people straight to the product page,
+we've got this what's called a catalog
+or a collection up here
+and you can have a series of things.
+So if you're doing a clothing store,
+this could be leggings versus singlets.
+Because we only have a one product store,
+this isn't really needed.
+I will show you just really quickly
+how to set up a collection page
+for those people that are doing a clothing store.
+Come into collections, create collections
+and let's do oven cleaning products.
+We can go, we've got products must match all conditions,
+the product tag, we can change these things here
+to like title, but you know,
+we set up a product tag before.
+This is the power of Shopify,
+we can just click oven here.
+And now when I click save,
+this is gonna create a collection
+and pull all of the products with that tag.
+We can then make sure that this catalog
+is the oven catalog,
+which I'll show you how to do in just a second
+through the navigation settings.
+I'm gonna head back to my product
+and the next step that we need to make sure that we do
+is setting our pricing.
+So if you don't know your pricing already,
+you can just add something here for now.
+You're gonna wanna make sure
+that you've done all of your calculations,
+including your product costs, your courier costs,
+your freight costs to actually get it into the country.
+You need to understand the taxes
+that you're gonna have to pay with a product.
+And finally, how much does it cost to acquire a customer,
+which is your advertising costs.
+Today, I'm gonna show you how to set that up
+within Shopify because it's really important
+that we set it up properly.
+But then I'm gonna show you how to actually acquire customers
+using those platforms in another episode.
+So let's say our cost is $29.
+I actually don't have the price of this product yet.
+And then this compare at price
+is what we call the strike through price.
+So this is the price that it's sale is down from X or Y.
+I'm gonna add this in just for example,
+just so I can come in and show you
+how Shopify will automatically edit that for you.
+So now you can see it's $39 down to 29 with a strike through.
+And Shopify has added a nice little conversion element
+for you by saying it is on sale.
+That will increase people's likeliness to click add to cart.
+You can also add your cost per item.
+Now you're probably wondering what this means.
+Customers won't see it,
+but it will allow you to calculate the margin
+in the Shopify report that they prepare for you.
+So it is really important that you set this up
+to the best of your ability when you know your cogs.
+So let's just say it's $5.
+And it is nice enough for you
+to calculate your margin and your profit.
+I like to make this cost per item
+inclusive of my average courier costs,
+because later on when we set up our reporting,
+we're gonna get a more accurate result of net profit margin.
+If that feels overwhelming, don't stress.
+I'm gonna walk you through it another time.
+Now we've got inventory, the SKU.
+Yes, this is important for you to set up properly,
+especially if you are going to use a 3PL.
+The SKU is also going to be most likely on your barcode.
+An SKU is basically an internal inventory management system.
+If you wanna find more information about SKUs,
+you can just Google SKU generator.
+It's generally based on things like the product title,
+the product type, the product dimensions or size or color.
+So it's kind of like just basically a code
+that you can use internally and with your 3PLs.
+I click save there.
+You can add the barcode section in.
+I don't really need that.
+The barcodes are generally registered
+either at the 3PL level or with your supplier as well.
+So we can come into weight.
+Now weight is really important
+if you are gonna use some of the basic
+internal Shopify courier tools.
+But we're not gonna use that today.
+I like to set it up just in case.
+So it's 0.25 kilograms.
+Now this country slash region of origin is important
+if you are shipping outside of your country,
+you're doing international shipping.
+If you are kind of just setting up
+an Australian e-commerce store,
+you're shipping within Australia.
+This kind of stuff isn't really that important at this stage.
+The option section is something that you'll be using
+if you have multiple skews in one product.
+So my leggings example before,
+you might have small, medium and large.
+You'd be clicking that and then you can add
+different images there and also different skews.
+So it basically is just like multiple products
+in one product.
+That's all good for me at the moment.
+I can click refresh here.
+We now have a product that we can add to cart
+and check out with like so.
+This checkout isn't available at the moment.
+We can get that set up shortly when we set up our domain.
+Another section that you do have down here
+is edit website SEO.
+If you are an expert at SEO or looking to do SEO marketing,
+this is really important for the beginner.
+It's probably not so important.
+So now what we wanna do is we wanna come in
+and change our domain.
+So what is the domain?
+It's up here.
+This is the domain.
+Right now, this is our domain,
+but we want it to just be like lemonscrub.com
+or try lemonscrub.com
+so that customers don't think we're a scam.
+So to do this, come into settings
+and we come down to domains.
+Now you have a few options here.
+If you've just started, you can buy a new domain
+through the Shopify platform,
+which is really, really easy and kind of one click.
+I like to set up my domains all with one provider.
+So you've got either GoDaddy or Namecheap
+are both acceptable
+and you can click connect existing domain.
+I've already bought my domain in GoDaddy before.
+So I can then just go try lemonscrub.com
+and it has already picked up
+that my domain is purchased with GoDaddy.
+So I can just click connect automatically
+and because I'm already logged in with GoDaddy,
+it should be pretty quick like that
+and I can click connect,
+success, that's what we wanna see.
+Come up here and click change primary domain
+providing it is connected.
+We can use one of these and use the www.
+Now, if I go to this,
+sometimes it can take just a few seconds,
+but I should be able to go to my website
+and this is the site.
+To remove this password
+so that we can actually see our website in action.
+We come to the settings.
+We can come to online store, click preferences.
+Down here, we can remove password.
+So to do this, to start driving traffic to the store,
+we do need to pick a plan.
+So this does not mean that your free trial is gonna end.
+They're only gonna start billing you after that free trial.
+If you're wondering what plan is probably right for you,
+it's probably the basic plan.
+If you are going to do a certain amount of sales,
+it's going to become cheaper to do the Shopify plan
+or the advanced Shopify plan
+because the payment rates are cheaper.
+To figure this out is Shopify plan calculator,
+which is really cool.
+So we can come into this Shopify pricing calculator
+and enter how many sales we're actually going to do
+and it'll tell you the ideal plan that you wanna do.
+So even if you're doing 150,000,
+you actually should be on the advanced Shopify plan.
+But obviously when you're first starting out,
+the basic one is fine.
+So to start that plan, click choose plan.
+And you've got all of this.
+Because we don't know it's gonna work,
+we wanna do monthly, okay?
+And we wanna use our credit card, not PayPal.
+Then we're gonna click add credit card
+and we're gonna enter all of our details here.
+Now we can come back to the online store, preferences,
+and this should allow us to remove the password,
+which is awesome.
+Come back up here.
+I'm gonna enter my domain again.
+And we've got our website here.
+This is live on the internet.
+Woo!
+Now while we're in preferences,
+I am gonna show you a few things that you need to set up
+to make sure that your store doesn't look scammy.
+So the homepage title is important
+because it's actually going to be showing here.
+So we wanna set this correctly.
+It's lemon scrub cleaner
+because things can get a little bit weird.
+This is also going to show like,
+when you Google something, let's go Udi.
+You know, this is going to be the text
+that we're looking at now.
+If you are going to do SEO marketing,
+this stuff is really important.
+And we're gonna click save.
+Now there is also two really important sections here,
+which is Google Analytics and the Facebook Pixel.
+We're gonna set that up today
+because it can get really, really tricky.
+And I wanna make sure that you have everything
+that you need to get started.
+So let's start with Google Analytics.
+We're just gonna write in Google Analytics and come here.
+And we're gonna click start measuring
+and set up our lemon scrub website.
+So this is the account.
+So lemon scrub as a general name should be fine.
+Click next.
+Property name is lemon scrub AU.
+This reporting time zone is just for your reference
+later on because you're gonna see real time data,
+which is really important.
+And we're gonna have to accept the terms of service.
+And this is gonna create our Google Analytics account
+and tick and save.
+So we're gonna create a data stream
+and we've got this Google tag here.
+So if we tried to paste this Google tag
+into Shopify at the moment, it would not work.
+Now this is because Shopify hasn't actually updated
+their new Google Analytics section
+to match the way that Google Analytics is now working.
+So to fix this, what we actually need to go
+is into our theme section.
+And we're going to click edit code.
+And we're going to our theme liquid.
+Now, if this looks complicated, don't stress.
+I'm gonna walk you through it.
+Just copy me exactly.
+We're actually going to grab that code
+that we pasted before here and we're gonna click paste.
+Now, this is what we call in between the head.
+A lot of the times when you are copy and pasting code
+into the theme liquid,
+it isn't gonna be under this head code here.
+So we're gonna click save.
+So once we've done that,
+we can actually come into analytics and refresh
+and we can see if our store has worked.
+First of all, let's make sure that we go to the website
+and we can come in here and this should get a user
+because we are on the site
+and we can see that there's one user.
+So that's successfully set up, Hometown Adelaide.
+Pretty simple.
+Honestly, I think it will change really, really soon.
+Shopify will introduce a settings where it's one click
+and it should create your Google Analytics,
+but for the time being,
+just paste that code in your theme liquid.
+So I'm gonna start setting up Facebook.
+So you can click this set up Facebook button.
+You need to make sure that you are logged in.
+You can add it as a sales channel.
+Once you have this as a sales channel,
+one thing that I do actually recommend that you do
+is head to business.facebook
+and make sure that you've set up a business Facebook
+before you kind of link all your Shopify settings.
+So I obviously have one, you can create account.
+You're gonna wanna make sure that you use
+all the same details as your existing Facebook
+because there's a lot of trust behind that.
+Use the same email
+and this is what the business Facebook looks like.
+What this is then gonna allow you to do
+is connect your account
+and your business manager should show here.
+So obviously I've got a lot of business managers.
+So I'm gonna select my business manager that I created.
+Yours will just be here.
+We're gonna select our domain.
+So you won't have all of these ad accounts here.
+What I'm actually gonna do
+is I'm gonna create the ad account first
+and then just link it to it.
+So I'm gonna do this as lemon scrub AU.
+In AUD, click next.
+I'm gonna create it in my business and click create.
+That should create it quite quickly.
+We're gonna assign people.
+So I can add the payment info later
+but now when I come here and I refresh,
+this should be an option for me
+to select the correct ad account.
+So you can see the lemon scrub AU.
+We click connect.
+You need to accept all the terms and conditions
+which is up here.
+Click done.
+We need to update the payment details
+before we run ads, which is fine.
+Now the other thing that we also need to do
+is create a new page.
+Very similar situation as before.
+I don't really wanna trust Shopify's integration
+with Facebook to figure all of that out.
+I just wanna come in here and click pages.
+Create a new page.
+We wanna create a brand or product.
+Lemon scrub AU.
+Household supplies.
+Create page.
+And now I should be able to come back to Shopify,
+refresh the page again.
+And we should have the lemon scrub AU page,
+which is awesome.
+I'll connect to that one.
+Now here's the data sharing bit.
+This is really important.
+So we've got the level of tracking here,
+which is important.
+And we've also got this Shopify pixel.
+We need to make sure that this pixel
+is actually linked to our ad account.
+To make sure that it's connected to the correct ad account,
+you can click connected assets
+and you can see that is my ad account there.
+And now I wanna come into my targeted country,
+click Australia.
+And we are a couple of clicks away
+from being able to run Facebook ads.
+So click accept and we are good to go.
+So that is basically all set up
+besides from the payment method,
+which I can show you in the Facebook ads episode.
+I am just going to, for organization,
+change my pixel name to lemon scrub AU
+so things don't get too messy
+because I have 10 billion pixels.
+That brings us to our app section.
+There's a couple of apps that we need to install
+to not only make the store look more professional,
+but also to provide a better customer experience
+and also to increase conversion rate.
+The most important one that we are gonna set up is Klaviyo.
+So we're going to head into the app store.
+So we're going to write in Klaviyo.
+Now this is email marketing.
+Some other ones as, you know, drip,
+but honestly, most people in e-commerce right now
+are using Klaviyo because it is so powerful
+in its segmentation.
+We're gonna do a whole episode on setting up the emails,
+but for today, I'm just gonna click add app
+and simply installing the app like so.
+It's going to automatically wanna create an account
+with the email that you use to set up
+your Shopify store for ease.
+Sometimes this might not be the email
+that you actually wanna set it up with.
+You might wanna use a branded email,
+but for this video, I'm gonna do it.
+So we're gonna click continue with integration
+and now you've got all your details here,
+which is really important to fill out.
+We're gonna wanna make sure that this is actually
+an email address from the brand email.
+If you've set that up with Shopify,
+it's not too hard to do.
+Alternatively, you can set up G Suite
+using your GoDaddy or Namecheap domain
+like we're talking about, you can integrate that.
+Or alternatively, you can use Microsoft Office
+and actually buy the emails in GoDaddy itself.
+So for now, I don't actually have the email.
+I'm just gonna use my sender email address.
+Obviously, you don't wanna be sending with a Gmail
+when you're actually doing your campaigns.
+You can set up your logo here and all your brand colors.
+Keep clicking continue until you get your verification email.
+Go in, verify that email.
+Then you're gonna be able to start setting up your flows.
+I'm gonna do a whole episode on this
+and show you email best practices, set up our emails,
+and then measure the data and the success of it.
+But for now, if you do wanna jump into it ahead,
+make sure you set up your welcome series
+and also your abandoned cart emails,
+which is pretty easy to do.
+After this episode, jump over to my previous Klaviyo episode
+if you wanna see the exact setup for that.
+So if I come in here and click refresh,
+we've got our two apps.
+We've got Facebook for our Facebook marketing,
+Klaviyo for our email marketing and retention.
+The reason why email marketing is so important
+is because if you're buying traffic
+or doing lots of organic social media,
+trying to send a lot of hype to your website,
+you're gonna wanna make sure
+that people actually sign up to your email list,
+or even if they add to cart and then abandon the cart,
+and you wanna keep in touch with those customers.
+It's gonna drive the cost of your advertising down.
+And yeah, just make sure that you convert more people.
+That email list is a huge asset
+to your company and your brand.
+The next app that we are gonna install
+is very similar concept.
+We're going to download an SMS marketing app.
+So SMS marketing is incredibly powerful.
+You've got two options at the moment.
+You've got SMS bump and also post script.
+We use post script, which is here,
+and we're gonna click add app.
+Now, don't just jump into SMS marketing
+without doing your research
+and making sure that you are compliant.
+You can get huge fines
+and get in a lot of trouble for that.
+Post script will actually work with you.
+Make sure that you're compliant.
+Make sure that you've got all of the permissions
+from the user before you start doing that marketing,
+which is really important.
+Again, we're gonna show you exactly
+how to set up SMS marketing in future episodes
+and go into the depth of the marketing concepts behind it.
+Now, the next app that you wanna do,
+which is actually customer forward facing
+on the Shopify theme is download a review app.
+We use Luke's on many of our websites,
+but another great app is Okendo.
+Okendo is very similar to Luke's
+in the fact that it's got photo reviews.
+It's really important to have photo reviews at the moment.
+People can tell that they're more authentic and real,
+but Okendo has a lot of other options,
+such as like you can talk about,
+is it true to fit for a clothing company?
+Did it work in your, we could say,
+like cleaning effectiveness in certain categories.
+So really, really cool app.
+I'm gonna add it and install.
+And we should be able to click auto install.
+A lot of these apps will,
+because we're using the default Shopify themes,
+they will work with the default Shopify themes
+with the auto installation.
+So alternatively, we can jump in and we can install Luke's.
+We can go into the beginner trial.
+Now, when I just installed that app, had the 9.99 trial,
+you don't need to enter your credit card
+every single time you install an app,
+which is kind of dangerous,
+because you need to make sure
+that you're constantly keeping track
+of your Shopify subscription bill,
+because that's where it's going to come out.
+So we can personalize the widget,
+add all of our brand colors.
+This email we can actually turn off
+if we would like to use Klaviyo to do our email marketing.
+You can set a discount.
+I'm just gonna skip through all of this.
+If you are migrating from another website
+or have lots of other reviews, you can import the reviews.
+So we can change this email timing to never.
+Otherwise, we're going to start spamming customers.
+I wanna do all of my email requests through Klaviyo itself.
+And now we should be able to come into the theme editor.
+Now click customize,
+and they should be adding a section down here.
+See, now we can add the Luke's carousel.
+We can actually come into our product page
+and you can see Luke's is now already there.
+We can start writing a review, which is really cool.
+It's just gonna give us a series of images
+I can show you on the Udi
+from real customers wearing
+and experiencing your product, which is here.
+So this is starting to take shape.
+So before we start driving traffic,
+we do need to set up the shipping side of things.
+So this is customer facing again.
+So customers are gonna be affected by this and see it.
+We're going to wanna click manage rates
+and we've got our product here.
+So this is editing the shipping rates
+for this exact product.
+So we're gonna wanna make sure that here,
+the shipping from section,
+which you'll probably see your own address in
+is going to be where you're shipping the product from.
+That's really important.
+And we've got our shipping zones down here.
+So we're going to, just for example sake,
+I think we might have to do a tiered shipping structure
+for this store.
+So if you buy X, you get free shipping,
+but if you only buy one unit, you don't get free shipping
+to try to incentivize the increase in average order value.
+You need to think about this kind of stuff.
+But for now, what I'm actually going to do
+is I'm actually going to delete rest of world.
+What this rest of world means,
+if a customer comes to you from anywhere in the world
+and goes onto your website,
+they're going to be able to purchase your product.
+Chances are if your product is large enough,
+$20 isn't gonna cover the shipping rates.
+It's really hard to set up shipping labels.
+It's really, really difficult to ship to some countries
+in the world.
+So you really wanna make sure that you've done the math
+on all of the countries that you plan to ship to.
+So I just generally delete that for now.
+Now, if you do wanna add secondary countries,
+asides from your home country,
+you can click edit zone and select the countries in here.
+So let's say for example,
+I also wanted to ship to say New Zealand.
+I can go in here and add this to the zone.
+Perhaps you might wanna start charging a little bit of money
+to New Zealand because it's larger shipping.
+You would have to create a new shipping zone
+and call it international and write in New Zealand
+and add the right.
+So you've got standard international
+and let's say you wanna start charge 20 bucks there.
+For Australia, you've got conditional shipping rates here,
+which is around the cost of the product.
+That's okay.
+You can also edit these to be more around other conditions
+such as item weight,
+which we remember we set that item weight
+in the product settings before.
+You can also remove all conditions
+and basically just make it a standard free shipping.
+You can come in here, add rate, custom flat rate,
+rate name, and we're just gonna say free shipping.
+And I like to write how long it's gonna be.
+So two to eight days is Australia post general shipping rate
+and we can go done.
+And you can see that's an option.
+Now customers providing the conditions are met.
+I'm gonna see all of these options,
+which we don't really want.
+So I'm just gonna delete all of those.
+Now a customer is gonna come in no matter what,
+providing that they're on this product,
+which is important.
+If you can't see their shipping rates that you've set up,
+chances are the product isn't selected correctly.
+And then if they're in Australia,
+they're gonna only see this free shipping option rate
+no matter what condition.
+And then if they are from New Zealand,
+they can select New Zealand,
+but it's gonna say $20 here.
+So that's basically how the shipping sections work.
+Click save.
+Now, if you are getting a lot of traffic to your website,
+you need to check Google Analytics
+or even your Shopify Analytics
+to check that you've got shipping rates
+set up for those regions,
+because chances are people are trying to buy
+from that region
+and you don't have any shipping rates for it.
+If you are Australian,
+it actually was quite tricky when I first started
+to find information around how to set up a career
+for your product.
+Shopify has progressed very well in this area,
+but I will show you in another episode
+exactly how you can print shipping labels from Shopify.
+So now we have our shipping settings done.
+We wanna also come into our payment settings
+and make sure that this is all set up.
+So payment settings,
+you're gonna wanna provide
+as many payment providers as possible.
+In Australia, they've become very accustomed
+to having Shopify payments,
+which is just, or Stripe.
+Then also PayPal is really important.
+And then finally, Afterpay is really important.
+Now, if you don't have all three of these payment providers,
+chances are you're losing a lot of conversions.
+So one thing that Shopify does
+is automatically creates like a PayPal
+linked to the email that you first set up
+with the Shopify.
+So if that's not the PayPal,
+if you already had a business PayPal set up,
+you're going to have to remove,
+deactivate that PayPal Express checkout
+and relink your account.
+So I'm actually going to deactivate that
+because we're gonna set up a PayPal
+and link that later.
+You also wanna complete the account setup
+on the Shopify payments.
+Now it's really important that you do all of this
+by the book because what's gonna happen
+is Shopify is gonna ask you to verify these
+after you get your sales.
+So you need to enter all of your business details
+and your correct bank account,
+make sure you enter your birthday
+because they're gonna ask for your ID
+and make sure you have that correct business address
+that might be your home business address,
+whatever's registered.
+Finally, to add Afterpay,
+you use this choose alternative payment methods
+and Afterpay will be there.
+One section I will quickly show you
+is users and permissions.
+So you can add staff in this section to your store
+so that they can help you with things.
+It might be customer service,
+maybe you wanna give them access to orders,
+or it might be an actual designer or developer
+into your website.
+I'm a huge advocate of hiring a designer and a developer
+so that they can help customize your store
+to be more professional.
+Now, you might be thinking that my Shopify store
+is looking pretty basic at the moment.
+And when you look at our copywriting,
+we have all of these awesome features that we've designed
+that we know is gonna increase conversion rate.
+It is really hard to do these custom elements
+on Shopify at the moment without a developer.
+You're going to need to go to Upwork
+and get either a designer slash developer
+to help you design these things.
+Alternatively, the process is you get a designer
+to design your Shopify store.
+You can write a really simple website brief
+and that website brief generally pulls
+from a lot of other competitor websites
+and shows the clear features that you're looking for.
+They will then deliver that either using something
+like Figma or just like a Photoshop file.
+And then you can then provide that
+to a developer via Upwork.
+The developer then comes onto your Shopify store
+and custom codes that design into your Shopify.
+This large process isn't 100% necessary.
+What I would suggest though is just getting
+certain elements designed for your store.
+So for example, this custom table here,
+I like to look at Cure Skincare,
+they are really, really great.
+You can come in here and you can see
+this custom comparison table on their website.
+You could just get a designer to design that
+with this copy and then ask a developer
+to put it onto your website.
+The other thing that you can do for your product page,
+which is really simple, I'm gonna do it after this video,
+is get an accordion like this website here.
+So this is the FAQ, this is on a product page.
+Honestly, you don't even need a designer for this section.
+You can just get a developer, give them the copy
+and they should be able to develop this
+onto your product page.
+Another great feature to make your website more professional
+is a floating add to cart on mobile.
+So this will follow them as they scroll on mobile
+and it's just about increasing that conversion rate.
+There's a bunch of other really fun
+conversion rate optimization tips.
+Because this is a really beginner's tutorial
+to actually the settings in Shopify
+and it's how to use the theme editor,
+I'm not gonna go into detail right now.
+I'm just gonna do another video for you
+where we really kind of analyze our website.
+I'm gonna get a designer in,
+we're gonna make it look really, really schmick.
+When you are adding users, make sure that you trust the user.
+Upwork is great because you are paying them through Upwork,
+they have a reputation,
+you can give them a negative review.
+It's very unlikely you're gonna get scanned there.
+So, but you can limit their permission
+by not letting them change the settings
+and stuff like that.
+I just want them to change the theme.
+So you can be quite conservative there.
+The only other section that I will show you today
+in the settings is these policies.
+It's really important, you know,
+we're doing a lot of marketing
+to get the proper policies in place.
+Shopify is really great
+because you can create these from templates.
+If you are a proper business,
+you might wanna use a legal service
+to build these policies out
+and make sure that they are accurate
+according to how you use people's data,
+as well as obviously the marketing exercises
+that you're doing.
+So spend some time, read through these policies,
+make sure that they're accurate.
+Oh, actually, the last thing that I will show you
+is this tax region.
+It is important that you set up taxes properly.
+If you don't set up this setting,
+you're still gonna have to pay taxes in that region,
+it's not a loophole.
+But you are, by setting this up,
+what it's going to do is it's actually gonna display
+the proper pricing to customers.
+So if they're, say, buying a business expense,
+they're gonna know that you have charged GST
+on that product so that they can claim it back.
+So you can click Collect GST.
+There is certain thresholds around this.
+I'll let you chat to your accountant
+about the best setup for this setting.
+It can get quite complicated with the international setup,
+so I do recommend spending some time on the internet
+looking up what the ideal settings are for you there.
+So coming back to our store now, checking it out,
+this section here is called the navigation bar.
+We do need to fix that.
+It isn't difficult, same with everything with Shopify.
+We can come in here and we can go online store
+and we've got our pages here,
+but we've also got this section
+that says navigation underneath.
+So we've got both our footer menu,
+which is this navigation,
+and then we've got our main menu,
+which is this navigation up here.
+You can see these sections here.
+They are a series of pages or product pages
+or collection pages, so to create something,
+you can click pages here.
+They've already created a contact us page, which is great.
+We've got our name, email, phone number, message.
+I suggest customizing this
+so that you have your own support email here
+so people can just actually email in properly.
+So if we wanted to create our own contact us page,
+we could do contact us,
+and then we can just add a bunch of copy
+around our policies.
+It might be when we'll respond, what email to send to.
+I'm gonna show you how to set up
+great customer service channels
+and the software that we use in our business
+to support high volume amount of tickets,
+but just for example sake, I'll just put a bit of copy here
+and we've created our first ever page here.
+So the other pages that we also wanna create
+is in about us, about us, where we talk about our brand.
+So with this about us, it's going to be the founder story,
+how we came up with the product and so forth.
+I'm just going to put some placeholder copy there.
+And now to put this in the navigation bar,
+we can click main menu here, click add menu item
+and write about us, pages,
+and it should pop up there, click add.
+Some other page examples that you can have here
+is details around returns, FAQs,
+anything that makes your customer feel very safe
+to be on your website.
+So a great about us, I always love this site is Bashans
+and they have this awesome story here about our story.
+They've got things about their source,
+they've even got a blog and you can go through here
+and read the story.
+This is, you know, as a small business,
+you really need to make sure that you're telling your story.
+They've also got customer reviews up here,
+that's always a great one.
+You can basically put any of your review website as well.
+The other thing that you can do,
+considering we're a one product store,
+we're gonna remove this catalog
+and we're going to make sure
+that we're linking directly to our product.
+So we're going to do the lemon scrub cleaner
+and we're gonna do buy today and click save.
+I'm gonna put that up here just a little bit higher
+because it's prioritization.
+Then we're going to go to the footer menu
+and we're gonna add the same pages
+just to really start beefing out that footer.
+And we can come up here and refresh
+and you can see this has started to fill out.
+So if I can go buy today, it's looking a little bit better.
+Again, have your reviews, FAQ, all of those kind of things.
+You're probably looking at this store and thinking,
+this doesn't look like a lot of other stores on the website.
+It doesn't look professional enough
+and you're comparing it to some really great brands
+with big design teams
+and big e-commerce development teams as well.
+The truth is your website does not need
+to look perfect to convert.
+Often the simplest websites are the highest converting
+and Shopify has really built trust with their basic themes.
+What is really important though
+is that customers have faith in the process.
+So customers have faith in the brand.
+There is a professional logo, clear product imagery,
+clear communication around shipping times.
+But overall, my advice for you would be
+to not get too hung up on the website design as a whole.
+If your product is right and your product timing is right,
+it's going to convert using Facebook ads.
+So I hope today's episode gave you absolutely everything
+that you need to know to get started on Shopify.
+That is all the basic stuff that you need to know.
+I'm going to jump away now.
+I'm going to get a designer and a developer involved
+and we're going to make this look really schmick.
+I'm also actually going to design an advertorial.
+This advertorial is going to be part
+of a more direct response sales page process
+that is going to increase our conversion.
+Often what brands will do is they'll only create
+their basic, you know, nicely branded Shopify store.
+So they're leaving a ton of money on the table.
+I want to show you how to do both
+so you have everything that you need
+to find e-commerce success.
+If you liked today's episode,
+make sure you like and subscribe.
+Head over to our Facebook group as well
+if you have any other questions.
+And yeah, we'll put a link to the website once it's done.
+Let us know what you think.
