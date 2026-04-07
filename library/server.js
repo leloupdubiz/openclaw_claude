@@ -2134,6 +2134,13 @@ function findDoc(id) {
       if (doc.id === id) return doc;
     }
   }
+  // Master Pellegrini
+  const masterPellegriniCatalog = buildMasterPellegriniCatalog();
+  for (const cat of masterPellegriniCatalog) {
+    for (const doc of (cat.docs || [])) {
+      if (doc.id === id) return doc;
+    }
+  }
   // Ressources Chef (section inline de getFullCatalog non couverte par les autres builders)
   const ressourcesChefDocs = getRessourcesChefDocs();
   for (const doc of ressourcesChefDocs) {
