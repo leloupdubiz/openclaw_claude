@@ -1,0 +1,50 @@
+{
+  "slug": "nellio-ultracalm-mogzobh0",
+  "product": "Nellio UltraCalm",
+  "url": "https://drinknellio.com",
+  "markets": [
+    "DE"
+  ],
+  "market": "DE",
+  "budget": 65,
+  "productDesc": "Sachet de boisson en poudre relaxante au magnésium (400 mg) et L-théanine. Calme le mental, réduit le cortisol, aide à s'endormir plus vite sans somnolence le matin.",
+  "competitors": [],
+  "amazonUrls": [],
+  "subreddits": [],
+  "brandSearchUrls": [],
+  "trendTrackUrls": [],
+  "createdAt": 1777281766165,
+  "updatedAt": 1777281985769,
+  "phases": {
+    "research": {
+      "done": true,
+      "chars": 21519,
+      "ts": 1777281865150
+    },
+    "psychology": {
+      "done": true,
+      "chars": 15092,
+      "ts": 1777281919085
+    },
+    "competitors": {
+      "done": true,
+      "chars": 17343,
+      "ts": 1777281928477
+    },
+    "angles": {
+      "done": true,
+      "chars": 16243,
+      "ts": 1777281983632
+    },
+    "avatars": {
+      "done": true,
+      "chars": 15942,
+      "ts": 1777281985769
+    }
+  },
+  "sources": {
+    "mainSite": {
+      "chars": 4384
+    }
+  }
+}

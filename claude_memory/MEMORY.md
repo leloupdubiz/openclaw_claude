@@ -1,0 +1,8 @@
+- [Chef — Profil utilisateur](user_chef.md) — Entrepreneur DTC drinknellio.com, style direct, outputs en DE, autonomie max
+- [Nellio UltraCalm — Produit & chiffres](project_nellio_product.md) — Poudre anti-stress DE, $16K/7d, ROAS 32x, AOV $53, Meta pas lancé
+- [État des projets — avril 2026](project_states.md) — OMNIA = SaaS à reproduire, état marketing live dans l'app
+- [EVOLVE — Frameworks & agents](project_evolve_frameworks.md) — 5 frameworks, 20+ agents, séquence obligatoire, Desire-First
+- [Protocoles de travail](feedback_protocols.md) — Format réponses, P0-P3, autonomie vs validation, anti-freeze, contraintes DE
+- [OMNIA — Architecture SaaS à reproduire](reference_omnia_stack.md) — 7 modules (Command Center, EVOLVE, Studio Clip, AdSpy, Bibliothèque, Compta, Settings), stack Node.js
+- [Idées & Brainstorm](ideas_brainstorm.md) — Projets futurs, idées à explorer (plateforme formation, etc.)
+- [Index condensé bibliothèque](knowledge_index.md) — 743 docs → 1 synthèse (Desire-First, 5 Awareness, 3-2-2, Hormozi, CRO, Scaling, Hooks)
